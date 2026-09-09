@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tomás Riveros: Days on market did not predict the discount</title>
+<meta name="description" content="Two lots closed at full ask this week, one after 2,139 days, one after 1 day. n=8, tracked.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Instrument+Sans:wght@400;600;700&family=Martian+Mono:wght@400;600&display=swap">
+<style>
+  body{margin:0;background:#171310;color:#F2EDE7;font-family:'Instrument Sans',Arial,sans-serif}
+  .top{max-width:760px;margin:0 auto;padding:38px 20px 22px;text-align:center}
+  .brand{font-family:'Martian Mono',monospace;font-size:12px;letter-spacing:4px;color:#A97E2F;text-transform:uppercase}
+  h1.site{font-family:'Bricolage Grotesque',Arial,sans-serif;font-weight:800;font-size:clamp(28px,5.4vw,42px);margin:8px 0 6px;letter-spacing:-.02em}
+  .tag{color:#B7AA96;font-size:16px;margin:0 0 6px;line-height:1.5}
+  .tag.en{color:#6E6252;font-size:14px;margin:0 0 18px}
+  .paper{max-width:720px;margin:0 auto 26px;background:#FFFFFF;border-radius:6px;padding:26px 22px;box-shadow:0 10px 40px rgba(0,0,0,.45)}
+  .sf{display:flex;gap:8px;flex-wrap:wrap;justify-content:center}
+  .se{padding:11px 14px;border:1px solid #4A4034;background:#241E17;color:#F2EDE7;border-radius:3px;font-size:15px;min-width:240px}
+  .sf button{padding:11px 20px;background:#A97E2F;color:#171310;border:0;border-radius:3px;font-weight:700;font-size:15px;cursor:pointer}
+  .sm{font-size:13px;min-height:18px;margin:8px 0 0}
+  .signup{max-width:720px;margin:0 auto 34px;text-align:center;padding:0 20px}
+  .signup h2{font-family:'Bricolage Grotesque',Arial,sans-serif;font-weight:600;font-size:21px;margin:0 0 6px}
+  .signup p.lead{color:#B7AA96;font-size:15px;margin:0 0 14px}
+  .back{max-width:720px;margin:0 auto 30px;padding:0 20px;text-align:center;font-size:16px}
+  .back a{color:#A97E2F;text-decoration:none;font-weight:600}
+  .back a:hover{text-decoration:underline}
+  .nav{max-width:760px;margin:0 auto;padding:0 20px 50px;text-align:center;font-size:14px}
+  .nav a{color:#A97E2F;text-decoration:none;margin:0 10px}
+  footer{text-align:center;color:#6E6252;font-family:'Martian Mono',monospace;font-size:11px;padding:0 20px 40px;line-height:1.7}
+  .cards{max-width:760px;margin:0 auto;padding:6px 20px 8px;display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(320px,1fr))}
+  .card{background:#241E17;border:1px solid #3A3229;border-left:3px solid #A97E2F;border-radius:5px;padding:20px 20px 22px;display:flex;flex-direction:column}
+  .card .who{font-family:'Martian Mono',monospace;font-size:11px;letter-spacing:2px;color:#A97E2F;text-transform:uppercase;margin:0 0 10px}
+  .card h3{font-family:'Bricolage Grotesque',Arial,sans-serif;font-weight:600;font-size:20px;line-height:1.3;margin:0 0 8px;color:#F2EDE7}
+  .card .prev{color:#B7AA96;font-size:15px;line-height:1.55;margin:0 0 18px;flex:1}
+  .card a.btn{display:inline-block;align-self:flex-start;background:#A97E2F;color:#171310;text-decoration:none;font-weight:700;font-size:15px;padding:11px 18px;border-radius:3px}
+  .card a.btn:hover{background:#C29740}
+  .byline{border-bottom:2px solid #A97E2F;padding-bottom:14px;margin:0 0 8px}
+  .byline .who{font-family:'Martian Mono',monospace;font-size:11px;letter-spacing:2px;color:#A97E2F;text-transform:uppercase;margin:0 0 6px}
+  .byline h2{font-family:'Bricolage Grotesque',Arial,sans-serif;font-weight:600;font-size:24px;margin:0 0 8px;color:#1C1611}
+  .byline p{font-family:Georgia,serif;font-size:15px;line-height:1.6;color:#4A4034;margin:0}
+  .letter h2,.letter h3{font-family:'Instrument Sans',Arial,sans-serif;font-size:15px;color:#1C1611;text-transform:uppercase;letter-spacing:.06em;border-bottom:2px solid #A97E2F;padding-bottom:5px;margin:28px 0 12px}
+  .letter h1{font-family:'Instrument Sans',Arial,sans-serif;font-size:22px;color:#1C1611;margin:22px 0 10px}
+  .letter p{font-family:Georgia,serif;font-size:16px;line-height:1.65;color:#1C1611;margin:0 0 14px}
+  .letter ul,.letter ol{font-family:Georgia,serif;font-size:16px;line-height:1.65;color:#1C1611;margin:0 0 14px;padding-left:22px}
+  .letter li{margin:0 0 8px}
+  .letter strong{color:#1C1611}
+  .letter em{color:#6B5F4E}
+  .letter hr{border:0;border-top:1px solid #E4DCCB;margin:22px 0}
+  .letter a{color:#A97E2F}
+  .tw{overflow-x:auto;margin:0 0 16px}
+  .letter table{border-collapse:collapse;width:100%;font-family:'Instrument Sans',Arial,sans-serif;font-size:14px}
+  .letter th{border-bottom:2px solid #A97E2F;text-align:left;padding:6px;font-size:12px;color:#6B5F4E;text-transform:uppercase;letter-spacing:.06em;white-space:nowrap}
+  .letter td{border-bottom:1px solid #E4DCCB;padding:6px;color:#1C1611}
+</style>
+</head>
+<body>
+<div class="top">
+  <div class="brand">Tekoha Daily</div>
+  <h1 class="site">Days on market did not predict the discount</h1>
+  <p class="tag">Edici&oacute;n 10, escrita por Tomás Riveros. Una de cuatro versiones de la misma carta.</p>
+</div>
+<div class="paper">
+  <div class="byline">
+    <p class="who">the anomaly desk</p>
+    <h2>Tomás Riveros</h2>
+    <p>Thirty-four, from Fernando de la Mora, trained in statistics and spent six years on the data desk of a regional newsroom outside Paraguay, where the job was to find the row that did not belong and explain it before a reader did. Came back for family reasons and found a property market with no public sold-price record and a great deal of confident opinion. He writes Tekoha Daily because the pipeline produces one genuine anomaly most days and nobody was leading with it. He leads with it. Bilingual by trade, Paraguayan by voice: his voseo is native and his English is newsroom English. He writes as "we", meaning the desk and the reader checking it.</p>
+  </div>
+  <div class="letter"><h3>TEKOHA DAILY</h3>
+<p><strong>Edición 10</strong> | 2026-09-08 | Hoy: 1,238 palabras, 6 minutos<br>41,138 activos de 52,133 seguidos | Gs 5,992/USD | Pipeline: GREEN | vs 1 año: no disponible, serie desde 2026-08  </p>
+<h3>EL TABLERO</h3>
+<p>The count that needs explaining first: 13 price cuts in 26 hours, of which 5 are rentals, 7 are the
+sale rows on the board, and 1 is a cut the board&#39;s filters excluded, printed rather than hidden.
+Six of the seven sale rows are terreno, the oldest active stock we track: P50 134 days, P75 411,
+n=5,838. Cuts ran 2.6 to 1 against increases.</p>
+<h3>1 BIG THING: deepest cut, oldest quarter of the land stock</h3>
+<p>The deepest repricing in 26 hours is a terreno in Encarnación published 465 days, cut from Gs
+850,000,000 to Gs 650,000,000, 23.5%, per the RE/MAX feed. At 465 days it sits past the terreno P75
+of 411, in the oldest quarter of active land stock.</p>
+<p><strong>Why it matters:</strong> depth and age moved together on today&#39;s board, and that is the pairing this
+week&#39;s closes refused to confirm. Both facts are printed; neither cancels the other.</p>
+<ul>
+<li><strong>The move:</strong> Gs 200,000,000 off, about $141,900 to $108,500 at Gs 5,992, roughly $33,400.
+Asking price.</li>
+<li><strong>The concentration:</strong> six of seven sale rows are terreno; the exception is a 209m2 casa in
+Filadelfia, down 6.4% to about $147,400, roughly $705 per built m2.</li>
+<li><strong>The other side:</strong> 5 increases and 5 rent cuts in the same window.</li>
+<li><strong>The source:</strong> RE/MAX, every row. uProp and InfoCasas recorded no qualifying sale cut. One
+network&#39;s day.</li>
+</ul>
+<p><strong>The intrigue:</strong> a seller who held 2,139 days got full price on Friday, same week, same panel.
+Tracked below.</p>
+<p>Full cut board.</p>
+<h3>PARA VOS</h3>
+<p><strong>La antigüedad del aviso no te dice cuánto vas a bajar. Esta semana ni siquiera te dice si vas a
+bajar.</strong></p>
+<p><strong>El dato raro:</strong> en los ocho cierres más recientes en la misma moneda que publicamos, el descuento
+no siguió a la antigüedad. Un terreno en Cambyretá con 2,139 días cerró al precio pedido, Gs
+260,000,000. Uno en Ciudad del Este con 1 día cerró al pedido, Gs 600,000,000. El descuento mayor,
+6.0%, fue un local en Lambaré con 516 días. n=8: es una pregunta, no un hallazgo.</p>
+<p><strong>Por qué importa:</strong> lo que sí se sostiene es la mediana grande. Sobre 1,061 ventas con cierre
+reportado por la red RE/MAX, la mediana del descuento contra el último precio publicado es 3.0%, y
+un cuarto cerró al precio pedido o por encima.</p>
+<p><strong>En números</strong> (avisos activos de venta, días desde la primera publicación):</p>
+<ul>
+<li>Terreno: mediana 134 días, percentil 75 en 411. n=5,838.</li>
+<li>Dúplex: mediana 215, percentil 75 en 470. n=273.</li>
+<li>Casa: mediana 77, percentil 75 en 214. n=4,479.</li>
+<li>Departamento: mediana 77, percentil 75 en 215. n=2,897.</li>
+</ul>
+<p><strong>Qué sigue:</strong> la pregunta de los ocho cierres se corre de nuevo cada semana. Cuando n alcance para
+percentiles, se publica. Antes, no.</p>
+<p><strong>En resumen:</strong> el número que podés usar hoy es la mediana de tu tipo de inmueble. El que todavía no
+podés usar es la relación entre días y descuento. Fijate en el primero y desconfiá de quien te venda
+el segundo.</p>
+<p>Ver el tablero.</p>
+<h3>THE UNDERWRITE</h3>
+<p>The distribution is the product and the median is the headline: on 1,061 broker-reported sales,
+half close within 3.0% of terminal ask, the quartiles sit at -8.6% and 0.0%, and the 8.6-point
+spread between them is the number to underwrite against.</p>
+<ul>
+<li><strong>Ask-to-close, sales:</strong> P50 -3.0%. n=1,061, broker-reported, RE/MAX panel, terminal ask,
+same-currency only.</li>
+<li><strong>Distribution:</strong> P25 -8.6% / P75 0.0%. Same set.</li>
+<li><strong>Closes, 7 days:</strong> 13 sales, median $84,092. Broker panel.</li>
+<li><strong>Staleness, active sale stock:</strong> terreno P50 134 days / P75 411. n=5,838, full-universe sources.</li>
+<li><strong>vs 1 year ago:</strong> not available. Series begins 2026-08.</li>
+</ul>
+<p><strong>By the numbers:</strong> a quarter of closes at or above ask. A quarter at -8.6% or worse. The weekly
+median of $84,092 rests on 13 sales; the spread rests on 1,061. Weight them accordingly.</p>
+<p><strong>Between the lines:</strong> half of active terreno listings are 134 days old and a quarter are past 411;
+duplex runs 215 and 470. The cost of a position is the carry.</p>
+<p><strong>Reality check:</strong> the data cannot tell you whether days on market predicts discount, and this
+week&#39;s sample points the other way: among the eight most recent same-currency closes, a Cambyretá
+lot at 2,139 days and a Ciudad del Este lot at 1 day both closed at full ask, and the deepest
+discount, 6.0%, went to a Lambaré local at 516 days. n=8. An open question, not a finding.</p>
+<p><strong>What&#39;s next:</strong> barrio-level staleness with geocoding, and a monthly re-cut of the eight-close
+question once n supports quartiles.</p>
+<p>Full method.</p>
+<h3>LIVING HERE</h3>
+<p>Five landlords changed their minds on the same day, and none of them told their tenants.</p>
+<p>That is the count of rent cuts our system caught in 26 hours.</p>
+<p><strong>For context:</strong> we cannot yet tell you what a normal day of rent cuts looks like: the series is
+ten editions old and a baseline needs more than that. Five arrived in one window; we print the
+baseline the day we have one.</p>
+<p>You do not have to be moving for this to reach your rent.</p>
+<ul>
+<li><strong>The closed median is a floor.</strong> 19 rentals closed in the past week at a median of $634 a month,
+per our broker panel, country-wide, every size.</li>
+<li><strong>Old listings answer the phone.</strong> Half of active departamentos (a departamento is a flat in a
+building, with expensas, the monthly building charge, billed on top) have been published 77 days,
+a quarter past 215.</li>
+<li><strong>The sale cuts are land.</strong> Six of seven on today&#39;s board are terrenos (a terreno is a bare plot,
+sold with nothing on it), including one in Areguá from about $17,500 to $15,000, asking.</li>
+</ul>
+<p><strong>What it means for you:</strong> if your renewal is this month, the number to bring is not the $634 but
+the days-published count on the vacant unit nearest yours. Ask for it first.</p>
+<p><strong>Watch for:</strong> tomorrow&#39;s count. Five is a cluster. We will say trend when the series can carry it,
+not before.</p>
+<h3>1 PROPERTY THING</h3>
+<p>Two closes, one panel, one week. A terreno in Cambyretá published 26 October 2020 at Gs 260,000,000
+closed on Friday at Gs 260,000,000, 2,139 days later. A lot in Ciudad del Este published for one day
+closed at its full ask of Gs 600,000,000. If age predicted discount, one of these would be wrong.
+Both are in the data.</p>
+<p><em>Un cierre a 2,139 días y otro a 1 día, los dos al precio pedido. Los dos entran en la muestra, y la
+muestra es la que manda.</em></p>
+<h3>METHOD NOTE</h3>
+<p>Every figure above is a count. This block says what was counted and what was not.</p>
+<p>Asking prices except where marked as closes. Closes are agent-reported from one network, the RE/MAX
+panel, and are not a registry: Paraguay publishes no sold-price record, and the price declared on
+the escritura is not a market price. Ask-to-close is measured against the terminal asking price on
+same-currency listings only. Price-cut percentages exclude data artifacts. No accuracy percentage is
+published; the discount figures above are measured, not modeled.</p>
+<p><em>Tekoha, private brief. 52,133 listings tracked across RE/MAX, uProp and InfoCasas. Pipeline GREEN:
+all three sources pulled 3h ago, FX 0 days old.</em></p>
+<p>Tomás Riveros counts the exceptions. Every n printed, every gap named.</p>
+</div>
+</div>
+<div class="back"><a href="index.html">Volver a las cuatro voces</a></div>
+<div class="signup">
+  <h2>Tekoha Daily, gratis cada ma&ntilde;ana</h2>
+  <p class="lead">Cortes de precio, cierres reales y propiedades nuevas. Medido todos los d&iacute;as.</p>
+  <p style="font-size:15px"><a href="mailto:ddvanlith@gmail.com?subject=Suscribirme%20a%20Tekoha%20Daily" style="color:#A97E2F">Escribinos para suscribirte</a></p>
+</div>
+<div class="nav"><a href="../index.html">Hoy</a><a href="../archive/index.html">Archivo</a><a href="index.html">Las cuatro voces</a></div>
+<footer>TEKOHA DAILY &middot; datos propios sobre 50.000+ avisos &middot; precios de oferta salvo cierres marcados<br>
+Prueba de lectura: la misma Edici&oacute;n 10, cuatro plumas. Los n&uacute;meros no cambian.</footer>
+</body>
+</html>

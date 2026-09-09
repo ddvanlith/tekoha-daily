@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tekoha Daily: cuatro voces, los mismos numeros</title>
+<meta name="description" content="La misma Edicion 10 escrita por cuatro plumas distintas. Elegi la que te gustaria leer todos los dias.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Instrument+Sans:wght@400;600;700&family=Martian+Mono:wght@400;600&display=swap">
+<style>
+  body{margin:0;background:#171310;color:#F2EDE7;font-family:'Instrument Sans',Arial,sans-serif}
+  .top{max-width:760px;margin:0 auto;padding:38px 20px 22px;text-align:center}
+  .brand{font-family:'Martian Mono',monospace;font-size:12px;letter-spacing:4px;color:#A97E2F;text-transform:uppercase}
+  h1.site{font-family:'Bricolage Grotesque',Arial,sans-serif;font-weight:800;font-size:clamp(28px,5.4vw,42px);margin:8px 0 6px;letter-spacing:-.02em}
+  .tag{color:#B7AA96;font-size:16px;margin:0 0 6px;line-height:1.5}
+  .tag.en{color:#6E6252;font-size:14px;margin:0 0 18px}
+  .paper{max-width:720px;margin:0 auto 26px;background:#FFFFFF;border-radius:6px;padding:26px 22px;box-shadow:0 10px 40px rgba(0,0,0,.45)}
+  .sf{display:flex;gap:8px;flex-wrap:wrap;justify-content:center}
+  .se{padding:11px 14px;border:1px solid #4A4034;background:#241E17;color:#F2EDE7;border-radius:3px;font-size:15px;min-width:240px}
+  .sf button{padding:11px 20px;background:#A97E2F;color:#171310;border:0;border-radius:3px;font-weight:700;font-size:15px;cursor:pointer}
+  .sm{font-size:13px;min-height:18px;margin:8px 0 0}
+  .signup{max-width:720px;margin:0 auto 34px;text-align:center;padding:0 20px}
+  .signup h2{font-family:'Bricolage Grotesque',Arial,sans-serif;font-weight:600;font-size:21px;margin:0 0 6px}
+  .signup p.lead{color:#B7AA96;font-size:15px;margin:0 0 14px}
+  .back{max-width:720px;margin:0 auto 30px;padding:0 20px;text-align:center;font-size:16px}
+  .back a{color:#A97E2F;text-decoration:none;font-weight:600}
+  .back a:hover{text-decoration:underline}
+  .nav{max-width:760px;margin:0 auto;padding:0 20px 50px;text-align:center;font-size:14px}
+  .nav a{color:#A97E2F;text-decoration:none;margin:0 10px}
+  footer{text-align:center;color:#6E6252;font-family:'Martian Mono',monospace;font-size:11px;padding:0 20px 40px;line-height:1.7}
+  .cards{max-width:760px;margin:0 auto;padding:6px 20px 8px;display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(320px,1fr))}
+  .card{background:#241E17;border:1px solid #3A3229;border-left:3px solid #A97E2F;border-radius:5px;padding:20px 20px 22px;display:flex;flex-direction:column}
+  .card .who{font-family:'Martian Mono',monospace;font-size:11px;letter-spacing:2px;color:#A97E2F;text-transform:uppercase;margin:0 0 10px}
+  .card h3{font-family:'Bricolage Grotesque',Arial,sans-serif;font-weight:600;font-size:20px;line-height:1.3;margin:0 0 8px;color:#F2EDE7}
+  .card .prev{color:#B7AA96;font-size:15px;line-height:1.55;margin:0 0 18px;flex:1}
+  .card a.btn{display:inline-block;align-self:flex-start;background:#A97E2F;color:#171310;text-decoration:none;font-weight:700;font-size:15px;padding:11px 18px;border-radius:3px}
+  .card a.btn:hover{background:#C29740}
+  .byline{border-bottom:2px solid #A97E2F;padding-bottom:14px;margin:0 0 8px}
+  .byline .who{font-family:'Martian Mono',monospace;font-size:11px;letter-spacing:2px;color:#A97E2F;text-transform:uppercase;margin:0 0 6px}
+  .byline h2{font-family:'Bricolage Grotesque',Arial,sans-serif;font-weight:600;font-size:24px;margin:0 0 8px;color:#1C1611}
+  .byline p{font-family:Georgia,serif;font-size:15px;line-height:1.6;color:#4A4034;margin:0}
+  .letter h2,.letter h3{font-family:'Instrument Sans',Arial,sans-serif;font-size:15px;color:#1C1611;text-transform:uppercase;letter-spacing:.06em;border-bottom:2px solid #A97E2F;padding-bottom:5px;margin:28px 0 12px}
+  .letter h1{font-family:'Instrument Sans',Arial,sans-serif;font-size:22px;color:#1C1611;margin:22px 0 10px}
+  .letter p{font-family:Georgia,serif;font-size:16px;line-height:1.65;color:#1C1611;margin:0 0 14px}
+  .letter ul,.letter ol{font-family:Georgia,serif;font-size:16px;line-height:1.65;color:#1C1611;margin:0 0 14px;padding-left:22px}
+  .letter li{margin:0 0 8px}
+  .letter strong{color:#1C1611}
+  .letter em{color:#6B5F4E}
+  .letter hr{border:0;border-top:1px solid #E4DCCB;margin:22px 0}
+  .letter a{color:#A97E2F}
+  .tw{overflow-x:auto;margin:0 0 16px}
+  .letter table{border-collapse:collapse;width:100%;font-family:'Instrument Sans',Arial,sans-serif;font-size:14px}
+  .letter th{border-bottom:2px solid #A97E2F;text-align:left;padding:6px;font-size:12px;color:#6B5F4E;text-transform:uppercase;letter-spacing:.06em;white-space:nowrap}
+  .letter td{border-bottom:1px solid #E4DCCB;padding:6px;color:#1C1611}
+</style>
+</head>
+<body>
+<div class="top">
+  <div class="brand">Tekoha Daily</div>
+  <h1 class="site">Cuatro voces, los mismos n&uacute;meros</h1>
+  <p class="tag">La misma Edici&oacute;n 10, escrita cuatro veces. Ning&uacute;n dato cambia, solo qui&eacute;n habla. Le&eacute; la que te atrape.</p>
+  <p class="tag en">Same numbers, four writers. Nothing but the voice changes. Read the one that pulls you in.</p>
+</div>
+<div class="cards">
+  <div class="card">
+    <p class="who">Maren Holloway &middot; the tenant who bought</p>
+    <h3>Five landlords blinked yesterday</h3>
+    <p class="prev">5 rent cuts in 26 hours. 19 rentals closed this week at a median $634 a month.</p>
+    <a class="btn" href="holloway.html">Leer la carta completa</a>
+  </div>
+  <div class="card">
+    <p class="who">Tomás Riveros &middot; the anomaly desk</p>
+    <h3>Days on market did not predict the discount</h3>
+    <p class="prev">Two lots closed at full ask this week, one after 2,139 days, one after 1 day. n=8, tracked.</p>
+    <a class="btn" href="riveros.html">Leer la carta completa</a>
+  </div>
+  <div class="card">
+    <p class="who">Teodoro Villamayor &middot; the desk</p>
+    <h3>Ask-to-close holds at -3.0% on 1,061 sales</h3>
+    <p class="prev">Deepest cut in 26 hours: an Encarnación terreno, -23.5% after 465 days. P25 -8.6%, P75 0.0%.</p>
+    <a class="btn" href="villamayor.html">Leer la carta completa</a>
+  </div>
+  <div class="card">
+    <p class="who">Nidia Ocampos &middot; the corredora</p>
+    <h3>Encarnación: Gs 200 millones menos tras 465 días</h3>
+    <p class="prev">El recorte más profundo del tablero. Seis de siete son terrenos. Mediana de descuento: 3.0%, n=1,061.</p>
+    <a class="btn" href="ocampos.html">Leer la carta completa</a>
+  </div>
+</div>
+<div class="signup">
+  <h2>Tekoha Daily, gratis cada ma&ntilde;ana</h2>
+  <p class="lead">Cortes de precio, cierres reales y propiedades nuevas. Medido todos los d&iacute;as.</p>
+  <p style="font-size:15px"><a href="mailto:ddvanlith@gmail.com?subject=Suscribirme%20a%20Tekoha%20Daily" style="color:#A97E2F">Escribinos para suscribirte</a></p>
+</div>
+<div class="nav"><a href="../index.html">Hoy</a><a href="../archive/index.html">Archivo</a><a href="index.html">Las cuatro voces</a></div>
+<footer>TEKOHA DAILY &middot; datos propios sobre 50.000+ avisos &middot; precios de oferta salvo cierres marcados<br>
+Prueba de lectura: la misma Edici&oacute;n 10, cuatro plumas. Los n&uacute;meros no cambian.</footer>
+</body>
+</html>
