@@ -1,0 +1,265 @@
+date,market_id,market,metric,property_kind,value,n
+2026-09-23,py,Paraguay,active_sale,,40075,40075
+2026-09-23,py,Paraguay,active_rent,,13883,13883
+2026-09-23,py,Paraguay,asking_price_usd,casa,143413,7086
+2026-09-23,py,Paraguay,asking_price_usd,departamento,104045,4035
+2026-09-23,py,Paraguay,asking_price_usd,duplex,126541,387
+2026-09-23,py,Paraguay,asking_price_usd,terreno,67488,7710
+2026-09-23,py,Paraguay,asking_usd_per_m2_built,casa,814,5670
+2026-09-23,py,Paraguay,asking_usd_per_m2_built,departamento,1743,1840
+2026-09-23,py,Paraguay,asking_rent_usd_month,departamento,850,1465
+2026-09-23,py,Paraguay,asking_rent_usd_month,casa,1856,1282
+2026-09-23,d:asuncion,Asunción,active_sale,,15969,15969
+2026-09-23,d:asuncion,Asunción,active_rent,,12398,12398
+2026-09-23,d:asuncion,Asunción,asking_price_usd,casa,269953,2247
+2026-09-23,d:asuncion,Asunción,asking_price_usd,departamento,113014,3086
+2026-09-23,d:asuncion,Asunción,asking_price_usd,duplex,185593,55
+2026-09-23,d:asuncion,Asunción,asking_price_usd,terreno,220000,908
+2026-09-23,d:asuncion,Asunción,asking_usd_per_m2_built,casa,993,1779
+2026-09-23,d:asuncion,Asunción,asking_usd_per_m2_built,departamento,1811,1498
+2026-09-23,d:asuncion,Asunción,asking_rent_usd_month,departamento,950,1185
+2026-09-23,d:asuncion,Asunción,asking_rent_usd_month,casa,2278,1018
+2026-09-23,d:central,Central,active_sale,,18746,18746
+2026-09-23,d:central,Central,active_rent,,1078,1078
+2026-09-23,d:central,Central,asking_price_usd,casa,101232,3791
+2026-09-23,d:central,Central,asking_price_usd,departamento,75300,650
+2026-09-23,d:central,Central,asking_price_usd,duplex,122997,281
+2026-09-23,d:central,Central,asking_price_usd,terreno,64114,3708
+2026-09-23,d:central,Central,asking_usd_per_m2_built,casa,744,3010
+2026-09-23,d:central,Central,asking_usd_per_m2_built,departamento,1233,213
+2026-09-23,d:central,Central,asking_rent_usd_month,departamento,591,218
+2026-09-23,d:central,Central,asking_rent_usd_month,casa,759,157
+2026-09-23,c:central:luque,Luque,active_sale,,3912,3912
+2026-09-23,c:central:luque,Luque,active_rent,,213,213
+2026-09-23,c:central:luque,Luque,asking_price_usd,casa,95749,938
+2026-09-23,c:central:luque,Luque,asking_price_usd,departamento,77801,270
+2026-09-23,c:central:luque,Luque,asking_price_usd,duplex,126541,102
+2026-09-23,c:central:luque,Luque,asking_price_usd,terreno,84360,659
+2026-09-23,c:central:luque,Luque,asking_usd_per_m2_built,casa,894,725
+2026-09-23,c:central:luque,Luque,asking_usd_per_m2_built,departamento,1296,77
+2026-09-23,c:central:luque,Luque,asking_rent_usd_month,departamento,641,83
+2026-09-23,c:central:luque,Luque,asking_rent_usd_month,casa,776,43
+2026-09-23,c:central:san-lorenzo,San Lorenzo,active_sale,,1912,1912
+2026-09-23,c:central:san-lorenzo,San Lorenzo,active_rent,,196,196
+2026-09-23,c:central:san-lorenzo,San Lorenzo,asking_price_usd,casa,118104,427
+2026-09-23,c:central:san-lorenzo,San Lorenzo,asking_price_usd,departamento,47250,46
+2026-09-23,c:central:san-lorenzo,San Lorenzo,asking_price_usd,duplex,123166,47
+2026-09-23,c:central:san-lorenzo,San Lorenzo,asking_price_usd,terreno,86469,292
+2026-09-23,c:central:san-lorenzo,San Lorenzo,asking_usd_per_m2_built,casa,725,327
+2026-09-23,c:central:san-lorenzo,San Lorenzo,asking_rent_usd_month,departamento,422,31
+2026-09-23,c:central:lambare,Lambaré,active_sale,,1892,1892
+2026-09-23,c:central:lambare,Lambaré,active_rent,,171,171
+2026-09-23,c:central:lambare,Lambaré,asking_price_usd,casa,160285,387
+2026-09-23,c:central:lambare,Lambaré,asking_price_usd,departamento,84360,73
+2026-09-23,c:central:lambare,Lambaré,asking_price_usd,duplex,119792,37
+2026-09-23,c:central:lambare,Lambaré,asking_price_usd,terreno,92796,221
+2026-09-23,c:central:lambare,Lambaré,asking_usd_per_m2_built,casa,717,301
+2026-09-23,c:central:lambare,Lambaré,asking_usd_per_m2_built,departamento,1139,28
+2026-09-23,c:central:lambare,Lambaré,asking_rent_usd_month,departamento,591,35
+2026-09-23,c:central:lambare,Lambaré,asking_rent_usd_month,casa,1012,25
+2026-09-23,c:central:fernando-de-la-mora,Fernando de la Mora,active_sale,,1599,1599
+2026-09-23,c:central:fernando-de-la-mora,Fernando de la Mora,active_rent,,176,176
+2026-09-23,c:central:fernando-de-la-mora,Fernando de la Mora,asking_price_usd,casa,167202,296
+2026-09-23,c:central:fernando-de-la-mora,Fernando de la Mora,asking_price_usd,departamento,70000,129
+2026-09-23,c:central:fernando-de-la-mora,Fernando de la Mora,asking_price_usd,duplex,162392,32
+2026-09-23,c:central:fernando-de-la-mora,Fernando de la Mora,asking_price_usd,terreno,143413,184
+2026-09-23,c:central:fernando-de-la-mora,Fernando de la Mora,asking_usd_per_m2_built,casa,838,229
+2026-09-23,c:central:fernando-de-la-mora,Fernando de la Mora,asking_usd_per_m2_built,departamento,1173,50
+2026-09-23,c:central:fernando-de-la-mora,Fernando de la Mora,asking_rent_usd_month,departamento,591,45
+2026-09-23,c:central:fernando-de-la-mora,Fernando de la Mora,asking_rent_usd_month,casa,810,26
+2026-09-23,c:central:capiata,Capiatá,active_sale,,1342,1342
+2026-09-23,c:central:capiata,Capiatá,active_rent,,44,44
+2026-09-23,c:central:capiata,Capiatá,asking_price_usd,casa,63213,270
+2026-09-23,c:central:capiata,Capiatá,asking_price_usd,terreno,38806,209
+2026-09-23,c:central:capiata,Capiatá,asking_usd_per_m2_built,casa,624,219
+2026-09-23,c:central:mariano-roque-alonso,Mariano Roque Alonso,active_sale,,1069,1069
+2026-09-23,c:central:mariano-roque-alonso,Mariano Roque Alonso,active_rent,,51,51
+2026-09-23,c:central:mariano-roque-alonso,Mariano Roque Alonso,asking_price_usd,casa,128228,160
+2026-09-23,c:central:mariano-roque-alonso,Mariano Roque Alonso,asking_price_usd,departamento,63000,70
+2026-09-23,c:central:mariano-roque-alonso,Mariano Roque Alonso,asking_price_usd,terreno,97000,223
+2026-09-23,c:central:mariano-roque-alonso,Mariano Roque Alonso,asking_usd_per_m2_built,casa,704,127
+2026-09-23,c:central:mariano-roque-alonso,Mariano Roque Alonso,asking_usd_per_m2_built,departamento,1275,22
+2026-09-23,c:central:nemby,Ñemby,active_sale,,1001,1001
+2026-09-23,c:central:nemby,Ñemby,active_rent,,37,37
+2026-09-23,c:central:nemby,Ñemby,asking_price_usd,casa,70863,215
+2026-09-23,c:central:nemby,Ñemby,asking_price_usd,terreno,50616,203
+2026-09-23,c:central:nemby,Ñemby,asking_usd_per_m2_built,casa,633,191
+2026-09-23,c:central:villa-elisa,Villa Elisa,active_sale,,861,861
+2026-09-23,c:central:villa-elisa,Villa Elisa,active_rent,,26,26
+2026-09-23,c:central:villa-elisa,Villa Elisa,asking_price_usd,casa,97014,174
+2026-09-23,c:central:villa-elisa,Villa Elisa,asking_price_usd,terreno,59052,133
+2026-09-23,c:central:villa-elisa,Villa Elisa,asking_usd_per_m2_built,casa,749,125
+2026-09-23,c:central:limpio,Limpio,active_sale,,824,824
+2026-09-23,c:central:limpio,Limpio,active_rent,,16,16
+2026-09-23,c:central:limpio,Limpio,asking_price_usd,casa,59896,187
+2026-09-23,c:central:limpio,Limpio,asking_price_usd,terreno,42180,246
+2026-09-23,c:central:limpio,Limpio,asking_usd_per_m2_built,casa,722,148
+2026-09-23,c:central:itaugua,Itauguá,active_sale,,777,777
+2026-09-23,c:central:itaugua,Itauguá,active_rent,,63,63
+2026-09-23,c:central:itaugua,Itauguá,asking_price_usd,casa,64114,125
+2026-09-23,c:central:itaugua,Itauguá,asking_price_usd,terreno,23655,206
+2026-09-23,c:central:itaugua,Itauguá,asking_usd_per_m2_built,casa,574,112
+2026-09-23,c:central:aregua,Areguá,active_sale,,669,669
+2026-09-23,c:central:aregua,Areguá,active_rent,,3,3
+2026-09-23,c:central:aregua,Areguá,asking_price_usd,casa,86891,130
+2026-09-23,c:central:aregua,Areguá,asking_price_usd,terreno,29526,201
+2026-09-23,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,633,105
+2026-09-23,c:central:ypane,Ypané,active_sale,,606,606
+2026-09-23,c:central:ypane,Ypané,active_rent,,47,47
+2026-09-23,c:central:ypane,Ypané,asking_price_usd,casa,67320,89
+2026-09-23,c:central:ypane,Ypané,asking_price_usd,terreno,30585,196
+2026-09-23,c:central:ypane,Ypané,asking_usd_per_m2_built,casa,519,78
+2026-09-23,c:central:ypacarai,Ypacaraí,active_sale,,488,488
+2026-09-23,c:central:ypacarai,Ypacaraí,active_rent,,3,3
+2026-09-23,c:central:ypacarai,Ypacaraí,asking_price_usd,casa,93119,68
+2026-09-23,c:central:ypacarai,Ypacaraí,asking_price_usd,terreno,48371,216
+2026-09-23,c:central:ypacarai,Ypacaraí,asking_usd_per_m2_built,casa,577,63
+2026-09-23,c:central:san-antonio,San Antonio,active_sale,,366,366
+2026-09-23,c:central:san-antonio,San Antonio,active_rent,,8,8
+2026-09-23,c:central:san-antonio,San Antonio,asking_price_usd,casa,80986,70
+2026-09-23,c:central:san-antonio,San Antonio,asking_price_usd,terreno,53147,85
+2026-09-23,c:central:san-antonio,San Antonio,asking_usd_per_m2_built,casa,612,64
+2026-09-23,c:central:villeta,Villeta,active_sale,,346,346
+2026-09-23,c:central:villeta,Villeta,active_rent,,5,5
+2026-09-23,c:central:villeta,Villeta,asking_price_usd,casa,70863,69
+2026-09-23,c:central:villeta,Villeta,asking_price_usd,terreno,110512,88
+2026-09-23,c:central:villeta,Villeta,asking_usd_per_m2_built,casa,738,55
+2026-09-23,c:central:ita,Itá,active_sale,,341,341
+2026-09-23,c:central:ita,Itá,active_rent,,4,4
+2026-09-23,c:central:ita,Itá,asking_price_usd,casa,75924,56
+2026-09-23,c:central:ita,Itá,asking_price_usd,terreno,31635,86
+2026-09-23,c:central:ita,Itá,asking_usd_per_m2_built,casa,659,46
+2026-09-23,c:central:julian-augusto-saldivar,Julián Augusto Saldívar,active_sale,,310,310
+2026-09-23,c:central:julian-augusto-saldivar,Julián Augusto Saldívar,active_rent,,2,2
+2026-09-23,c:central:julian-augusto-saldivar,Julián Augusto Saldívar,asking_price_usd,casa,51882,58
+2026-09-23,c:central:julian-augusto-saldivar,Julián Augusto Saldívar,asking_price_usd,terreno,28683,90
+2026-09-23,c:central:julian-augusto-saldivar,Julián Augusto Saldívar,asking_usd_per_m2_built,casa,541,53
+2026-09-23,c:central:nueva-italia,Nueva Italia,active_sale,,151,151
+2026-09-23,c:central:nueva-italia,Nueva Italia,active_rent,,0,0
+2026-09-23,c:central:nueva-italia,Nueva Italia,asking_price_usd,casa,129493,30
+2026-09-23,c:central:nueva-italia,Nueva Italia,asking_price_usd,terreno,92796,58
+2026-09-23,c:central:nueva-asuncion,Nueva Asunción,active_sale,,138,138
+2026-09-23,c:central:nueva-asuncion,Nueva Asunción,active_rent,,0,0
+2026-09-23,c:central:nueva-asuncion,Nueva Asunción,asking_price_usd,terreno,100125,46
+2026-09-23,d:itapua,Itapúa,active_sale,,1806,1806
+2026-09-23,d:itapua,Itapúa,active_rent,,160,160
+2026-09-23,d:itapua,Itapúa,asking_price_usd,casa,125000,375
+2026-09-23,d:itapua,Itapúa,asking_price_usd,departamento,108700,161
+2026-09-23,d:itapua,Itapúa,asking_price_usd,duplex,97273,40
+2026-09-23,d:itapua,Itapúa,asking_price_usd,terreno,38806,999
+2026-09-23,d:itapua,Itapúa,asking_usd_per_m2_built,casa,702,332
+2026-09-23,d:itapua,Itapúa,asking_usd_per_m2_built,departamento,1606,60
+2026-09-23,d:itapua,Itapúa,asking_rent_usd_month,departamento,574,49
+2026-09-23,d:itapua,Itapúa,asking_rent_usd_month,casa,755,24
+2026-09-23,c:itapua:encarnacion,Encarnación,active_sale,,903,903
+2026-09-23,c:itapua:encarnacion,Encarnación,active_rent,,112,112
+2026-09-23,c:itapua:encarnacion,Encarnación,asking_price_usd,casa,140000,205
+2026-09-23,c:itapua:encarnacion,Encarnación,asking_price_usd,departamento,108700,159
+2026-09-23,c:itapua:encarnacion,Encarnación,asking_price_usd,duplex,109668,24
+2026-09-23,c:itapua:encarnacion,Encarnación,asking_price_usd,terreno,50616,412
+2026-09-23,c:itapua:encarnacion,Encarnación,asking_usd_per_m2_built,casa,727,184
+2026-09-23,c:itapua:encarnacion,Encarnación,asking_usd_per_m2_built,departamento,1606,60
+2026-09-23,c:itapua:encarnacion,Encarnación,asking_rent_usd_month,departamento,574,48
+2026-09-23,c:itapua:cambyreta,Cambyretá,active_sale,,294,294
+2026-09-23,c:itapua:cambyreta,Cambyretá,active_rent,,12,12
+2026-09-23,c:itapua:cambyreta,Cambyretá,asking_price_usd,casa,89711,82
+2026-09-23,c:itapua:cambyreta,Cambyretá,asking_price_usd,terreno,37119,171
+2026-09-23,c:itapua:cambyreta,Cambyretá,asking_usd_per_m2_built,casa,777,71
+2026-09-23,c:itapua:san-juan-del-parana,San Juan del Paraná,active_sale,,191,191
+2026-09-23,c:itapua:san-juan-del-parana,San Juan del Paraná,active_rent,,4,4
+2026-09-23,c:itapua:san-juan-del-parana,San Juan del Paraná,asking_price_usd,casa,112129,28
+2026-09-23,c:itapua:san-juan-del-parana,San Juan del Paraná,asking_price_usd,terreno,14341,147
+2026-09-23,c:itapua:san-juan-del-parana,San Juan del Paraná,asking_usd_per_m2_built,casa,1099,25
+2026-09-23,c:itapua:capitan-miranda,Capitán Miranda,active_sale,,119,119
+2026-09-23,c:itapua:capitan-miranda,Capitán Miranda,active_rent,,14,14
+2026-09-23,c:itapua:capitan-miranda,Capitán Miranda,asking_price_usd,terreno,20837,98
+2026-09-23,d:cordillera,Cordillera,active_sale,,1279,1279
+2026-09-23,d:cordillera,Cordillera,active_rent,,77,77
+2026-09-23,d:cordillera,Cordillera,asking_price_usd,casa,183000,263
+2026-09-23,d:cordillera,Cordillera,asking_price_usd,departamento,155404,36
+2026-09-23,d:cordillera,Cordillera,asking_price_usd,terreno,50616,866
+2026-09-23,d:cordillera,Cordillera,asking_usd_per_m2_built,casa,888,204
+2026-09-23,d:cordillera,Cordillera,asking_rent_usd_month,casa,1687,57
+2026-09-23,c:cordillera:san-bernardino,San Bernardino,active_sale,,596,596
+2026-09-23,c:cordillera:san-bernardino,San Bernardino,active_rent,,52,52
+2026-09-23,c:cordillera:san-bernardino,San Bernardino,asking_price_usd,casa,220000,152
+2026-09-23,c:cordillera:san-bernardino,San Bernardino,asking_price_usd,terreno,64114,410
+2026-09-23,c:cordillera:san-bernardino,San Bernardino,asking_usd_per_m2_built,casa,1000,130
+2026-09-23,c:cordillera:san-bernardino,San Bernardino,asking_rent_usd_month,casa,1940,44
+2026-09-23,c:cordillera:altos,Altos,active_sale,,176,176
+2026-09-23,c:cordillera:altos,Altos,active_rent,,9,9
+2026-09-23,c:cordillera:altos,Altos,asking_price_usd,casa,177000,29
+2026-09-23,c:cordillera:altos,Altos,asking_price_usd,terreno,33744,129
+2026-09-23,c:cordillera:altos,Altos,asking_usd_per_m2_built,casa,885,21
+2026-09-23,c:cordillera:caacupe,Caacupé,active_sale,,170,170
+2026-09-23,c:cordillera:caacupe,Caacupé,active_rent,,7,7
+2026-09-23,c:cordillera:caacupe,Caacupé,asking_price_usd,casa,88578,37
+2026-09-23,c:cordillera:caacupe,Caacupé,asking_price_usd,terreno,28683,110
+2026-09-23,c:cordillera:caacupe,Caacupé,asking_usd_per_m2_built,casa,467,26
+2026-09-23,d:alto-parana,Alto Paraná,active_sale,,926,926
+2026-09-23,d:alto-parana,Alto Paraná,active_rent,,81,81
+2026-09-23,d:alto-parana,Alto Paraná,asking_price_usd,casa,118104,226
+2026-09-23,d:alto-parana,Alto Paraná,asking_price_usd,departamento,76312,63
+2026-09-23,d:alto-parana,Alto Paraná,asking_price_usd,terreno,65000,479
+2026-09-23,d:alto-parana,Alto Paraná,asking_usd_per_m2_built,casa,729,203
+2026-09-23,d:alto-parana,Alto Paraná,asking_usd_per_m2_built,departamento,1525,23
+2026-09-23,c:alto-parana:ciudad-del-este,Ciudad del Este,active_sale,,393,393
+2026-09-23,c:alto-parana:ciudad-del-este,Ciudad del Este,active_rent,,32,32
+2026-09-23,c:alto-parana:ciudad-del-este,Ciudad del Este,asking_price_usd,casa,132488,104
+2026-09-23,c:alto-parana:ciudad-del-este,Ciudad del Este,asking_price_usd,departamento,74037,52
+2026-09-23,c:alto-parana:ciudad-del-este,Ciudad del Este,asking_price_usd,terreno,80000,184
+2026-09-23,c:alto-parana:ciudad-del-este,Ciudad del Este,asking_usd_per_m2_built,casa,752,96
+2026-09-23,c:alto-parana:hernandarias,Hernandarias,active_sale,,149,149
+2026-09-23,c:alto-parana:hernandarias,Hernandarias,active_rent,,8,8
+2026-09-23,c:alto-parana:hernandarias,Hernandarias,asking_price_usd,casa,96398,44
+2026-09-23,c:alto-parana:hernandarias,Hernandarias,asking_price_usd,terreno,42180,77
+2026-09-23,c:alto-parana:hernandarias,Hernandarias,asking_usd_per_m2_built,casa,548,40
+2026-09-23,c:alto-parana:minga-guazu,Minga Guazú,active_sale,,112,112
+2026-09-23,c:alto-parana:minga-guazu,Minga Guazú,active_rent,,3,3
+2026-09-23,c:alto-parana:minga-guazu,Minga Guazú,asking_price_usd,terreno,26995,92
+2026-09-23,c:alto-parana:presidente-franco,Presidente Franco,active_sale,,103,103
+2026-09-23,c:alto-parana:presidente-franco,Presidente Franco,active_rent,,5,5
+2026-09-23,c:alto-parana:presidente-franco,Presidente Franco,asking_price_usd,casa,58048,32
+2026-09-23,c:alto-parana:presidente-franco,Presidente Franco,asking_price_usd,terreno,100000,55
+2026-09-23,c:alto-parana:presidente-franco,Presidente Franco,asking_usd_per_m2_built,casa,826,26
+2026-09-23,d:presidente-hayes,Presidente Hayes,active_sale,,287,287
+2026-09-23,d:presidente-hayes,Presidente Hayes,active_rent,,2,2
+2026-09-23,d:presidente-hayes,Presidente Hayes,asking_price_usd,terreno,82673,211
+2026-09-23,c:presidente-hayes:villa-hayes,Villa Hayes,active_sale,,189,189
+2026-09-23,c:presidente-hayes:villa-hayes,Villa Hayes,active_rent,,0,0
+2026-09-23,c:presidente-hayes:villa-hayes,Villa Hayes,asking_price_usd,terreno,87800,137
+2026-09-23,d:boqueron,Boquerón,active_sale,,202,202
+2026-09-23,d:boqueron,Boquerón,active_rent,,38,38
+2026-09-23,d:boqueron,Boquerón,asking_price_usd,casa,90519,38
+2026-09-23,d:boqueron,Boquerón,asking_price_usd,terreno,17716,139
+2026-09-23,d:boqueron,Boquerón,asking_usd_per_m2_built,casa,639,31
+2026-09-23,c:boqueron:loma-plata,Loma Plata,active_sale,,101,101
+2026-09-23,c:boqueron:loma-plata,Loma Plata,active_rent,,18,18
+2026-09-23,c:boqueron:loma-plata,Loma Plata,asking_price_usd,terreno,9027,83
+2026-09-23,d:paraguari,Paraguarí,active_sale,,140,140
+2026-09-23,d:paraguari,Paraguarí,active_rent,,4,4
+2026-09-23,d:paraguari,Paraguarí,asking_price_usd,terreno,49773,77
+2026-09-23,d:caaguazu,Caaguazú,active_sale,,91,91
+2026-09-23,d:caaguazu,Caaguazú,active_rent,,6,6
+2026-09-23,d:caaguazu,Caaguazú,asking_price_usd,terreno,84360,51
+2026-09-23,d:misiones,Misiones,active_sale,,77,77
+2026-09-23,d:misiones,Misiones,active_rent,,4,4
+2026-09-23,d:misiones,Misiones,asking_price_usd,terreno,37119,37
+2026-09-23,d:san-pedro,San Pedro,active_sale,,77,77
+2026-09-23,d:san-pedro,San Pedro,active_rent,,1,1
+2026-09-23,d:san-pedro,San Pedro,asking_price_usd,terreno,120000,47
+2026-09-23,d:guaira,Guairá,active_sale,,56,56
+2026-09-23,d:guaira,Guairá,active_rent,,8,8
+2026-09-23,d:guaira,Guairá,asking_price_usd,terreno,33690,29
+2026-09-23,d:caazapa,Caazapá,active_sale,,40,40
+2026-09-23,d:caazapa,Caazapá,active_rent,,4,4
+2026-09-23,d:neembucu,Ñeembucú,active_sale,,34,34
+2026-09-23,d:neembucu,Ñeembucú,active_rent,,3,3
+2026-09-23,d:canindeyu,Canindeyú,active_sale,,27,27
+2026-09-23,d:canindeyu,Canindeyú,active_rent,,8,8
+2026-09-23,d:concepcion,Concepción,active_sale,,29,29
+2026-09-23,d:concepcion,Concepción,active_rent,,0,0
+2026-09-23,d:amambay,Amambay,active_sale,,18,18
+2026-09-23,d:amambay,Amambay,active_rent,,0,0
+2026-09-23,d:alto-paraguay,Alto Paraguay,active_sale,,14,14
+2026-09-23,d:alto-paraguay,Alto Paraguay,active_rent,,0,0

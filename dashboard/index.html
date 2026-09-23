@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tekoha Market Dashboard</title>
+<meta name="description" content="Paraguay real estate measured every morning: asking prices, price cuts, broker-reported closes and bank-owned parcels, by department and city.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%23171310'/%3E%3Cpath d='M3.5 4h9v2h-3.5v7h-2v-7h-3.5z' fill='%23a97e2f'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Instrument+Sans:wght@400;600;700&family=Martian+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" integrity="sha512-h9FcoyWjHcOcmEVkxOfTLnmZFWIH0iZhZT1H2TbOq55xssQGEJHEaIm+PgoUaZbRvQTNTluNOEfb1ZRy6D3BOw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="bar">
+  <div class="wrap">
+    <a class="mark" href="../index.html">Tekoha<b>Dashboard</b></a>
+    <nav class="nav"><a href="../index.html">Brief</a><a href="../archive/index.html">Archive</a><a href="#method">Method</a><a href="#downloads">Data</a></nav>
+    <div class="asof" id="asof">Loading today's data</div>
+    <div class="picker" id="picker">
+      <button class="pick-btn" id="pick-btn" type="button" aria-haspopup="listbox" aria-expanded="false">Paraguay</button>
+      <div class="pick-pane" id="pick-pane" hidden>
+        <input id="pick-q" type="search" placeholder="Search markets" aria-label="Search markets" autocomplete="off">
+        <ul class="pick-list" id="pick-list" role="listbox" aria-label="Markets"></ul>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap" id="main">
+  <section class="hero">
+    <div class="crumbs" id="crumbs"></div>
+    <h1 id="title">Paraguay</h1>
+    <p id="lede" class="loading">Loading the morning's numbers.</p>
+  </section>
+
+  <section class="kpis" id="kpis" aria-label="Headline figures"></section>
+
+  <section class="panel">
+    <div class="panel-head">
+      <h2>Where the asking stock sits</h2>
+      <div class="tools">
+        <label class="chk"><input type="checkbox" id="lyr-cells" checked> Asking USD per m2</label>
+        <div class="seg" id="cell-kind" role="group" aria-label="Property kind for map cells">
+          <button type="button" data-v="departamento" aria-pressed="true">Departamento</button>
+          <button type="button" data-v="casa" aria-pressed="false">Casa</button>
+        </div>
+        <label class="chk"><input type="checkbox" id="lyr-cuts" checked> <span class="key" style="background:#3987e5"></span> Price cuts, 7 days</label>
+        <label class="chk"><input type="checkbox" id="lyr-reo"> <span class="key" style="background:#d55181"></span> Bank REO</label>
+      </div>
+    </div>
+    <div id="map" role="region" aria-label="Map of asking prices, price cuts and bank-owned parcels"></div>
+    <div class="legend" id="legend"></div>
+    <div class="stamp" id="map-stamp"></div>
+  </section>
+
+  <div class="grid2">
+    <section class="panel">
+      <div class="panel-head">
+        <h2><span class="tag">ASKING</span>Listing flow, daily</h2>
+        <div class="tools"><button class="linkbtn" type="button" data-table="flow">Table</button></div>
+      </div>
+      <div class="chart" id="c-flow"><canvas></canvas></div>
+      <div class="stamp" id="flow-stamp"></div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2><span class="tag closed">CLOSED</span>Broker-reported closes</h2>
+        <div class="tools">
+          <div class="seg" id="close-op" role="group" aria-label="Operation">
+            <button type="button" data-v="sale" aria-pressed="true">Sales</button>
+            <button type="button" data-v="rent" aria-pressed="false">Rentals</button>
+          </div>
+          <button class="linkbtn" type="button" data-table="closes">Table</button>
+        </div>
+      </div>
+      <div class="sub-h">Closes per week</div>
+      <div class="chart shorter" id="c-closes"><canvas></canvas></div>
+      <div class="sub-h">Median close per week, USD</div>
+      <div class="chart shorter" id="c-closemed"><canvas></canvas></div>
+      <div class="stamp" id="closes-stamp"></div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2><span class="tag closed">CLOSED</span>Achieved rent by kind, monthly</h2>
+        <div class="tools"><button class="linkbtn" type="button" data-table="rent">Table</button></div>
+      </div>
+      <div class="chart" id="c-rent"><canvas></canvas></div>
+      <div class="stamp" id="rent-stamp"></div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2><span class="tag">ASKING</span>Asking medians over time</h2>
+        <div class="tools">
+          <div class="seg" id="series-metric" role="group" aria-label="Metric">
+            <button type="button" data-v="asking_price_usd" aria-pressed="true">Price</button>
+            <button type="button" data-v="asking_usd_per_m2_built" aria-pressed="false">USD/m2</button>
+            <button type="button" data-v="asking_rent_usd_month" aria-pressed="false">Rent</button>
+          </div>
+          <button class="linkbtn" type="button" data-table="series">Table</button>
+        </div>
+      </div>
+      <div class="chart" id="c-series"><canvas></canvas></div>
+      <div class="stamp" id="series-stamp"></div>
+    </section>
+  </div>
+
+  <section class="panel">
+    <div class="panel-head"><h2><span class="tag">ASKING</span>By property kind</h2></div>
+    <div class="tbl" id="t-kinds"></div>
+    <div class="stamp" id="kinds-stamp"></div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-head"><h2><span class="tag">ASKING</span>The cut board, last 7 days</h2></div>
+    <div class="tbl" id="t-cuts"></div>
+    <div class="stamp" id="cuts-stamp"></div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-head"><h2><span class="tag">ASKING</span>New to market, lowest USD per built m2</h2></div>
+    <div class="tbl" id="t-fresh"></div>
+    <div class="stamp" id="fresh-stamp"></div>
+  </section>
+
+  <div class="grid2">
+    <section class="panel">
+      <div class="panel-head"><h2><span class="tag closed">CLOSED</span>Ask-to-close, sales</h2></div>
+      <div class="tbl" id="t-spread"></div>
+      <div class="stamp" id="spread-stamp"></div>
+    </section>
+    <section class="panel">
+      <div class="panel-head"><h2><span class="tag">ASKING</span>Listing flow, last 30 days</h2></div>
+      <div class="tbl" id="t-flow30"></div>
+      <div class="stamp" id="flow30-stamp"></div>
+    </section>
+  </div>
+
+  <section class="panel">
+    <div class="panel-head"><h2><span class="tag">ASKING</span>Bank-owned (REO) parcels</h2></div>
+    <div class="tbl" id="t-reo"></div>
+    <div class="stamp" id="reo-stamp"></div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-head"><h2>Compare markets</h2><div class="tools muted" style="font-size:12px">Click a row to open that market</div></div>
+    <div class="tbl tall" id="t-markets"></div>
+    <div class="stamp" id="markets-stamp"></div>
+  </section>
+
+  <section class="panel" id="method">
+    <div class="panel-head"><h2>Method notes</h2></div>
+    <div class="method">
+      <h3>Asking and closed are different things</h3>
+      <p>Every figure here is either an <b>asking</b> price, what a seller advertises today, or a <b>closed</b> price, what a property actually sold or rented for. Each carries its tag and they are never combined in one number. An asking price is a claim, not a value: a listing can sit at its ask for a year.</p>
+      <h3>What a close is here</h3>
+      <p>Paraguay has no public sold-price registry and no MLS. Our closes are broker-reported: RE/MAX listings marked sold or rented, with the price and date the broker published (<span data-s="closes_sale"></span> sales and <span data-s="closes_rent"></span> rentals with a price since 2024). That is one franchise network, not the market. Century 21 closed records carry the final ask but no sold price, so they are held out of every closed figure. Earlier weeks are thinner because the feed only shows the closed listings RE/MAX still indexes, so a rising count across years is coverage, not activity.</p>
+      <h3>Ask-to-close</h3>
+      <p>Each broker-reported sale is compared with its last asking price before it closed. Only same-currency sales count: a guaraní close against a dollar ask measures the broker's exchange rate, not the negotiation. Ratios outside 0.4 to 1.6 are dropped as entry errors. A market needs 30 such closes before a spread is shown.</p>
+      <h3>Minimum samples</h3>
+      <p>Medians and percentiles need 20 listings or closes, the ask-to-close spread needs 30 and a map cell needs 5. Below that the page shows the n and no figure. Counts are always shown.</p>
+      <h3>Currency</h3>
+      <p>Listings keep the currency they were advertised in. USD figures convert guaraní asks at one rate, the SET mid rate of Gs <span data-s="fx_rate"></span> per USD dated <span data-s="fx_date"></span>. Closes convert at the SET mid rate of their own sale date, so a 2024 close is not repriced at today's rate.</p>
+      <h3>Markets</h3>
+      <p>A city gets its own page once it has 100 active sale listings; smaller towns count in their department. A listing takes its department and city from its own labels where the source labels reliably (RE/MAX, InfoCasas, Coldwell Banker, Century 21). uProp's city field is misaligned (listings in central Asunción arrive labeled as a distant town), so uProp and unlabeled listings take the majority label of their five nearest labeled listings: within 3 km for the city, 25 km for the department. Today, active listings: <span data-s="assign_own"></span> own label, <span data-s="assign_nearest"></span> nearest labeled listings, <span data-s="assign_dept"></span> department only, <span data-s="assign_none"></span> not placed.</p>
+      <h3>Guards</h3>
+      <p>A cut deeper than 90% or a rise above 900% is an entry correction, not a repricing, and is not counted. USD per m2 uses built area only, for casa, departamento, duplex, oficina and local, 40 to 800 m2 and USD 30,000 to 2,000,000. Asking rents outside USD 50 to 15,000 a month are dropped. New to market means first seen by us within 7 days of the portal's own publish date, so a backfill never reads as new stock. Identical cuts posted by several brokers show once, marked xN.</p>
+      <h3>Stock age</h3>
+      <p>Days since the portal's own publish date, active sale listings, from sources we capture whole every day (<span data-s="age_sources"></span>). uProp is left out: <span data-s="uprop_week"></span> of its active sale listings carry a publish date inside one week of June 2026, a bulk load, so its dates measure the load and not the listing.</p>
+      <h3>The map</h3>
+      <p>Cells are colored by the median asking USD per built m2 of the chosen kind: 0.01 degrees (about 1 km) when zoomed in, 0.05 and 0.25 degrees further out, each computed from its own listings. Portals place a listing with a withheld address on a city or barrio center; <span data-s="map_placeholder"></span> active listings sit on such shared points (100 or more from one source at identical coordinates) and stay off the map while still counting in their market. Tiles &copy; OpenStreetMap contributors.</p>
+      <h3>What this data cannot tell you</h3>
+      <p>What a property is worth. Asking prices are claims and our closes come from one network. The page publishes no forecasts, estimates or yields: a median rent divided by a median price mixes different properties and is not a yield. InfoCasas carries an ask on <span data-s="ic_priced"></span> of its active listings today, while prices are re-captured after a September 2026 parser fix, so asking medians under-weight InfoCasas until that completes. Bank base prices are the banks' own figures, net of 10% IVA where the bank includes it; implausible ones are flagged, not corrected.</p>
+    </div>
+    <h3 class="sub-h" style="font-size:13px;margin-top:6px">Sources today</h3>
+    <div class="tbl" id="t-sources"></div>
+  </section>
+
+  <section class="panel" id="downloads">
+    <div class="panel-head"><h2>Download the data</h2><div class="tools muted" style="font-size:12px">CSV and JSON, rebuilt every morning</div></div>
+    <ul class="files" id="files"></ul>
+  </section>
+</main>
+
+<footer>TEKOHA DAILY &middot; measured, not modeled &middot; asking prices unless marked closed</footer>
+
+<noscript><p class="wrap">This dashboard needs JavaScript. Every table is also available as CSV in the data folder.</p></noscript>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.5.1/chart.umd.min.js" integrity="sha512-WoViKhKD4qI2WruSZqv9+kvM4WfFhUMQCLN4QlDTt5aU56fLQy2gYoxWIqlEnXqJy/+Ac5q/hk1oWfqnMDhwMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" integrity="sha512-puJW3E/qXDqYp9IfhAI54BJEaWIfloJ7JWs7OeD5i6ruC9JZL1gERT1wjtwXFlh7CjE7ZJ+/vcRZRkIYIb6p4g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="module" src="app.js"></script>
+</body>
+</html>

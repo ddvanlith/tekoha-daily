@@ -1,0 +1,1582 @@
+market_id,market,date,pipeline_ran,cuts,increases,new,delisted,went_sold,went_rented
+py,Paraguay,2026-08-24,1,12,5,117,0,15,7
+py,Paraguay,2026-08-25,1,8,2,73,14,1,2
+py,Paraguay,2026-08-26,1,19,4,158,52,9,5
+py,Paraguay,2026-08-27,0,,,,,,
+py,Paraguay,2026-08-28,1,30,8,224,47,16,14
+py,Paraguay,2026-08-29,1,0,0,73,0,1,0
+py,Paraguay,2026-08-30,1,7,0,93,8,2,0
+py,Paraguay,2026-08-31,1,4,0,43,0,0,1
+py,Paraguay,2026-09-01,1,25,11,153,13,11,14
+py,Paraguay,2026-09-02,1,24,5,121,7,5,7
+py,Paraguay,2026-09-03,1,12,4,152,25,10,9
+py,Paraguay,2026-09-04,1,25,10,130,8,2,3
+py,Paraguay,2026-09-05,1,7,3,108,6,2,4
+py,Paraguay,2026-09-06,1,3,2,103,9,2,0
+py,Paraguay,2026-09-07,1,2,0,71,0,1,1
+py,Paraguay,2026-09-08,1,27,9,245,55,17,14
+py,Paraguay,2026-09-09,1,0,0,98,0,0,0
+py,Paraguay,2026-09-10,1,26,5,179,28,7,9
+py,Paraguay,2026-09-11,1,7,0,62,12,5,3
+py,Paraguay,2026-09-12,1,18,1,104,16,6,7
+py,Paraguay,2026-09-13,1,2,6,42,1,0,1
+py,Paraguay,2026-09-14,1,4,3,41,0,2,1
+py,Paraguay,2026-09-15,1,22,6,92,33,3,7
+py,Paraguay,2026-09-16,1,20,7,122,79,4,8
+py,Paraguay,2026-09-17,1,13,8,79,19,8,14
+py,Paraguay,2026-09-18,1,29,1,129,23,4,4
+py,Paraguay,2026-09-19,1,11,12,125,8,12,4
+py,Paraguay,2026-09-20,1,2,0,42,10,1,2
+py,Paraguay,2026-09-21,1,6,3,50,6,4,4
+py,Paraguay,2026-09-22,1,18,2,68,37,10,10
+py,Paraguay,2026-09-23,1,32,2,89,22,4,6
+d:asuncion,Asunción,2026-08-24,1,6,1,69,0,8,2
+d:asuncion,Asunción,2026-08-25,1,5,0,59,5,0,0
+d:asuncion,Asunción,2026-08-26,1,4,2,85,12,1,2
+d:asuncion,Asunción,2026-08-27,0,,,,,,
+d:asuncion,Asunción,2026-08-28,1,4,3,114,20,4,3
+d:asuncion,Asunción,2026-08-29,1,0,0,55,0,0,0
+d:asuncion,Asunción,2026-08-30,1,3,0,53,3,0,0
+d:asuncion,Asunción,2026-08-31,1,1,0,25,0,0,0
+d:asuncion,Asunción,2026-09-01,1,5,1,55,4,5,5
+d:asuncion,Asunción,2026-09-02,1,4,2,61,2,2,3
+d:asuncion,Asunción,2026-09-03,1,2,3,93,9,5,2
+d:asuncion,Asunción,2026-09-04,1,10,2,69,3,0,2
+d:asuncion,Asunción,2026-09-05,1,0,2,61,2,0,1
+d:asuncion,Asunción,2026-09-06,1,1,0,65,2,0,0
+d:asuncion,Asunción,2026-09-07,1,0,0,40,0,0,0
+d:asuncion,Asunción,2026-09-08,1,10,2,121,12,4,3
+d:asuncion,Asunción,2026-09-09,1,0,0,47,0,0,0
+d:asuncion,Asunción,2026-09-10,1,9,0,84,2,2,2
+d:asuncion,Asunción,2026-09-11,1,4,0,27,2,0,2
+d:asuncion,Asunción,2026-09-12,1,6,0,49,3,0,4
+d:asuncion,Asunción,2026-09-13,1,1,0,25,0,0,1
+d:asuncion,Asunción,2026-09-14,1,0,2,27,0,0,1
+d:asuncion,Asunción,2026-09-15,1,9,2,47,6,0,3
+d:asuncion,Asunción,2026-09-16,1,6,3,54,16,3,5
+d:asuncion,Asunción,2026-09-17,1,3,4,36,3,2,9
+d:asuncion,Asunción,2026-09-18,1,9,1,64,10,1,2
+d:asuncion,Asunción,2026-09-19,1,4,3,66,3,5,3
+d:asuncion,Asunción,2026-09-20,1,0,0,26,1,0,1
+d:asuncion,Asunción,2026-09-21,1,2,1,23,0,1,1
+d:asuncion,Asunción,2026-09-22,1,4,1,29,11,3,1
+d:asuncion,Asunción,2026-09-23,1,7,0,50,4,0,0
+d:central,Central,2026-08-24,1,4,3,34,0,5,3
+d:central,Central,2026-08-25,1,2,1,12,6,0,0
+d:central,Central,2026-08-26,1,10,1,56,23,3,2
+d:central,Central,2026-08-27,0,,,,,,
+d:central,Central,2026-08-28,1,16,4,77,21,6,5
+d:central,Central,2026-08-29,1,0,0,16,0,1,0
+d:central,Central,2026-08-30,1,3,0,38,2,0,0
+d:central,Central,2026-08-31,1,2,0,16,0,0,1
+d:central,Central,2026-09-01,1,11,6,76,4,3,6
+d:central,Central,2026-09-02,1,12,2,45,3,3,2
+d:central,Central,2026-09-03,1,8,1,49,9,4,5
+d:central,Central,2026-09-04,1,12,5,49,2,1,0
+d:central,Central,2026-09-05,1,6,0,41,3,0,0
+d:central,Central,2026-09-06,1,2,2,36,5,2,0
+d:central,Central,2026-09-07,1,1,0,28,0,1,1
+d:central,Central,2026-09-08,1,10,5,85,21,8,8
+d:central,Central,2026-09-09,1,0,0,30,0,0,0
+d:central,Central,2026-09-10,1,12,3,77,9,3,5
+d:central,Central,2026-09-11,1,2,0,29,7,1,0
+d:central,Central,2026-09-12,1,8,1,47,5,3,1
+d:central,Central,2026-09-13,1,1,1,15,1,0,0
+d:central,Central,2026-09-14,1,4,1,13,0,0,0
+d:central,Central,2026-09-15,1,6,0,31,22,0,2
+d:central,Central,2026-09-16,1,9,2,41,43,1,3
+d:central,Central,2026-09-17,1,5,2,30,3,3,3
+d:central,Central,2026-09-18,1,13,0,53,10,3,2
+d:central,Central,2026-09-19,1,2,6,40,0,5,1
+d:central,Central,2026-09-20,1,0,0,15,7,0,1
+d:central,Central,2026-09-21,1,2,2,20,2,2,3
+d:central,Central,2026-09-22,1,5,0,28,22,6,5
+d:central,Central,2026-09-23,1,16,1,24,7,2,3
+c:central:luque,Luque,2026-08-24,1,2,1,9,0,2,0
+c:central:luque,Luque,2026-08-25,1,1,1,1,1,0,0
+c:central:luque,Luque,2026-08-26,1,1,0,14,4,0,0
+c:central:luque,Luque,2026-08-27,0,,,,,,
+c:central:luque,Luque,2026-08-28,1,3,0,21,3,0,0
+c:central:luque,Luque,2026-08-29,1,0,0,2,0,0,0
+c:central:luque,Luque,2026-08-30,1,1,0,10,1,0,0
+c:central:luque,Luque,2026-08-31,1,1,0,2,0,0,1
+c:central:luque,Luque,2026-09-01,1,3,3,17,1,0,2
+c:central:luque,Luque,2026-09-02,1,2,1,6,2,0,0
+c:central:luque,Luque,2026-09-03,1,2,0,12,0,1,0
+c:central:luque,Luque,2026-09-04,1,3,4,10,0,0,0
+c:central:luque,Luque,2026-09-05,1,0,0,17,0,0,0
+c:central:luque,Luque,2026-09-06,1,0,1,7,0,1,0
+c:central:luque,Luque,2026-09-07,1,0,0,10,0,0,0
+c:central:luque,Luque,2026-09-08,1,6,1,29,5,3,2
+c:central:luque,Luque,2026-09-09,1,0,0,5,0,0,0
+c:central:luque,Luque,2026-09-10,1,2,1,20,0,2,1
+c:central:luque,Luque,2026-09-11,1,1,0,3,3,0,0
+c:central:luque,Luque,2026-09-12,1,1,0,5,0,0,0
+c:central:luque,Luque,2026-09-13,1,0,0,1,0,0,0
+c:central:luque,Luque,2026-09-14,1,1,0,1,0,0,0
+c:central:luque,Luque,2026-09-15,1,1,0,11,6,0,0
+c:central:luque,Luque,2026-09-16,1,2,1,8,6,0,0
+c:central:luque,Luque,2026-09-17,1,1,0,4,0,0,1
+c:central:luque,Luque,2026-09-18,1,2,0,8,1,2,0
+c:central:luque,Luque,2026-09-19,1,0,2,7,0,1,1
+c:central:luque,Luque,2026-09-20,1,0,0,1,0,0,1
+c:central:luque,Luque,2026-09-21,1,0,0,3,0,0,0
+c:central:luque,Luque,2026-09-22,1,2,0,3,8,0,0
+c:central:luque,Luque,2026-09-23,1,0,1,2,0,1,2
+c:central:san-lorenzo,San Lorenzo,2026-08-24,1,0,0,8,0,2,0
+c:central:san-lorenzo,San Lorenzo,2026-08-25,1,0,0,1,1,0,0
+c:central:san-lorenzo,San Lorenzo,2026-08-26,1,1,0,4,6,1,0
+c:central:san-lorenzo,San Lorenzo,2026-08-27,0,,,,,,
+c:central:san-lorenzo,San Lorenzo,2026-08-28,1,1,0,4,2,1,1
+c:central:san-lorenzo,San Lorenzo,2026-08-29,1,0,0,1,0,0,0
+c:central:san-lorenzo,San Lorenzo,2026-08-30,1,0,0,3,0,0,0
+c:central:san-lorenzo,San Lorenzo,2026-08-31,1,0,0,3,0,0,0
+c:central:san-lorenzo,San Lorenzo,2026-09-01,1,1,0,13,0,1,0
+c:central:san-lorenzo,San Lorenzo,2026-09-02,1,2,0,11,0,0,0
+c:central:san-lorenzo,San Lorenzo,2026-09-03,1,0,1,2,2,0,2
+c:central:san-lorenzo,San Lorenzo,2026-09-04,1,1,0,3,0,0,0
+c:central:san-lorenzo,San Lorenzo,2026-09-05,1,0,0,1,0,0,0
+c:central:san-lorenzo,San Lorenzo,2026-09-06,1,0,1,4,0,0,0
+c:central:san-lorenzo,San Lorenzo,2026-09-07,1,0,0,3,0,0,0
+c:central:san-lorenzo,San Lorenzo,2026-09-08,1,0,0,7,2,1,1
+c:central:san-lorenzo,San Lorenzo,2026-09-09,1,0,0,2,0,0,0
+c:central:san-lorenzo,San Lorenzo,2026-09-10,1,2,0,8,3,0,0
+c:central:san-lorenzo,San Lorenzo,2026-09-11,1,0,0,6,1,0,0
+c:central:san-lorenzo,San Lorenzo,2026-09-12,1,1,0,7,2,0,0
+c:central:san-lorenzo,San Lorenzo,2026-09-13,1,0,1,1,0,0,0
+c:central:san-lorenzo,San Lorenzo,2026-09-14,1,1,1,0,0,0,0
+c:central:san-lorenzo,San Lorenzo,2026-09-15,1,1,0,2,2,0,0
+c:central:san-lorenzo,San Lorenzo,2026-09-16,1,0,0,6,4,0,0
+c:central:san-lorenzo,San Lorenzo,2026-09-17,1,1,0,5,0,0,0
+c:central:san-lorenzo,San Lorenzo,2026-09-18,1,3,0,8,2,0,0
+c:central:san-lorenzo,San Lorenzo,2026-09-19,1,0,0,1,0,0,0
+c:central:san-lorenzo,San Lorenzo,2026-09-20,1,0,0,0,0,0,0
+c:central:san-lorenzo,San Lorenzo,2026-09-21,1,1,1,5,1,1,0
+c:central:san-lorenzo,San Lorenzo,2026-09-22,1,1,0,6,6,1,2
+c:central:san-lorenzo,San Lorenzo,2026-09-23,1,1,0,2,1,0,0
+c:central:lambare,Lambaré,2026-08-24,1,0,0,3,0,0,0
+c:central:lambare,Lambaré,2026-08-25,1,0,0,2,0,0,0
+c:central:lambare,Lambaré,2026-08-26,1,4,1,8,0,1,0
+c:central:lambare,Lambaré,2026-08-27,0,,,,,,
+c:central:lambare,Lambaré,2026-08-28,1,1,2,7,0,3,3
+c:central:lambare,Lambaré,2026-08-29,1,0,0,1,0,1,0
+c:central:lambare,Lambaré,2026-08-30,1,0,0,6,0,0,0
+c:central:lambare,Lambaré,2026-08-31,1,0,0,2,0,0,0
+c:central:lambare,Lambaré,2026-09-01,1,2,0,8,0,0,0
+c:central:lambare,Lambaré,2026-09-02,1,1,0,4,0,0,0
+c:central:lambare,Lambaré,2026-09-03,1,1,0,6,0,0,1
+c:central:lambare,Lambaré,2026-09-04,1,1,0,6,0,0,0
+c:central:lambare,Lambaré,2026-09-05,1,0,0,3,1,0,0
+c:central:lambare,Lambaré,2026-09-06,1,0,0,4,0,1,0
+c:central:lambare,Lambaré,2026-09-07,1,0,0,2,0,0,1
+c:central:lambare,Lambaré,2026-09-08,1,0,0,7,4,3,0
+c:central:lambare,Lambaré,2026-09-09,1,0,0,4,0,0,0
+c:central:lambare,Lambaré,2026-09-10,1,0,0,7,1,0,0
+c:central:lambare,Lambaré,2026-09-11,1,0,0,3,0,0,0
+c:central:lambare,Lambaré,2026-09-12,1,1,1,4,0,0,0
+c:central:lambare,Lambaré,2026-09-13,1,1,0,2,0,0,0
+c:central:lambare,Lambaré,2026-09-14,1,0,0,1,0,0,0
+c:central:lambare,Lambaré,2026-09-15,1,0,0,3,0,0,0
+c:central:lambare,Lambaré,2026-09-16,1,2,1,4,4,0,0
+c:central:lambare,Lambaré,2026-09-17,1,1,1,0,0,1,1
+c:central:lambare,Lambaré,2026-09-18,1,0,0,1,2,0,1
+c:central:lambare,Lambaré,2026-09-19,1,0,0,1,0,1,0
+c:central:lambare,Lambaré,2026-09-20,1,0,0,2,0,0,0
+c:central:lambare,Lambaré,2026-09-21,1,0,0,0,0,0,0
+c:central:lambare,Lambaré,2026-09-22,1,1,0,0,0,1,1
+c:central:lambare,Lambaré,2026-09-23,1,1,0,0,0,0,0
+c:central:fernando-de-la-mora,Fernando de la Mora,2026-08-24,1,1,0,5,0,1,0
+c:central:fernando-de-la-mora,Fernando de la Mora,2026-08-25,1,0,0,2,0,0,0
+c:central:fernando-de-la-mora,Fernando de la Mora,2026-08-26,1,0,0,8,1,0,1
+c:central:fernando-de-la-mora,Fernando de la Mora,2026-08-27,0,,,,,,
+c:central:fernando-de-la-mora,Fernando de la Mora,2026-08-28,1,1,1,3,2,0,0
+c:central:fernando-de-la-mora,Fernando de la Mora,2026-08-29,1,0,0,4,0,0,0
+c:central:fernando-de-la-mora,Fernando de la Mora,2026-08-30,1,0,0,7,0,0,0
+c:central:fernando-de-la-mora,Fernando de la Mora,2026-08-31,1,0,0,1,0,0,0
+c:central:fernando-de-la-mora,Fernando de la Mora,2026-09-01,1,2,1,6,0,0,1
+c:central:fernando-de-la-mora,Fernando de la Mora,2026-09-02,1,1,0,5,1,2,1
+c:central:fernando-de-la-mora,Fernando de la Mora,2026-09-03,1,0,0,7,2,1,0
+c:central:fernando-de-la-mora,Fernando de la Mora,2026-09-04,1,1,0,11,0,0,0
+c:central:fernando-de-la-mora,Fernando de la Mora,2026-09-05,1,1,0,3,0,0,0
+c:central:fernando-de-la-mora,Fernando de la Mora,2026-09-06,1,0,0,2,1,0,0
+c:central:fernando-de-la-mora,Fernando de la Mora,2026-09-07,1,0,0,4,0,0,0
+c:central:fernando-de-la-mora,Fernando de la Mora,2026-09-08,1,0,1,8,4,0,2
+c:central:fernando-de-la-mora,Fernando de la Mora,2026-09-09,1,0,0,6,0,0,0
+c:central:fernando-de-la-mora,Fernando de la Mora,2026-09-10,1,0,1,5,1,0,1
+c:central:fernando-de-la-mora,Fernando de la Mora,2026-09-11,1,0,0,1,0,0,0
+c:central:fernando-de-la-mora,Fernando de la Mora,2026-09-12,1,0,0,1,0,2,1
+c:central:fernando-de-la-mora,Fernando de la Mora,2026-09-13,1,0,0,0,0,0,0
+c:central:fernando-de-la-mora,Fernando de la Mora,2026-09-14,1,0,0,0,0,0,0
+c:central:fernando-de-la-mora,Fernando de la Mora,2026-09-15,1,0,0,0,2,0,0
+c:central:fernando-de-la-mora,Fernando de la Mora,2026-09-16,1,0,0,2,1,0,1
+c:central:fernando-de-la-mora,Fernando de la Mora,2026-09-17,1,0,0,3,0,0,0
+c:central:fernando-de-la-mora,Fernando de la Mora,2026-09-18,1,2,0,0,0,1,0
+c:central:fernando-de-la-mora,Fernando de la Mora,2026-09-19,1,0,0,3,0,2,0
+c:central:fernando-de-la-mora,Fernando de la Mora,2026-09-20,1,0,0,0,2,0,0
+c:central:fernando-de-la-mora,Fernando de la Mora,2026-09-21,1,1,0,5,0,0,1
+c:central:fernando-de-la-mora,Fernando de la Mora,2026-09-22,1,0,0,8,1,0,2
+c:central:fernando-de-la-mora,Fernando de la Mora,2026-09-23,1,0,0,2,0,0,0
+c:central:capiata,Capiatá,2026-08-24,1,0,0,1,0,0,1
+c:central:capiata,Capiatá,2026-08-25,1,0,0,0,1,0,0
+c:central:capiata,Capiatá,2026-08-26,1,0,0,3,0,0,0
+c:central:capiata,Capiatá,2026-08-27,0,,,,,,
+c:central:capiata,Capiatá,2026-08-28,1,1,0,4,3,0,0
+c:central:capiata,Capiatá,2026-08-29,1,0,0,0,0,0,0
+c:central:capiata,Capiatá,2026-08-30,1,0,0,1,0,0,0
+c:central:capiata,Capiatá,2026-08-31,1,0,0,1,0,0,0
+c:central:capiata,Capiatá,2026-09-01,1,0,1,8,1,0,0
+c:central:capiata,Capiatá,2026-09-02,1,1,1,5,0,0,0
+c:central:capiata,Capiatá,2026-09-03,1,2,0,6,0,0,0
+c:central:capiata,Capiatá,2026-09-04,1,2,1,3,0,0,0
+c:central:capiata,Capiatá,2026-09-05,1,1,0,4,2,0,0
+c:central:capiata,Capiatá,2026-09-06,1,0,0,3,0,0,0
+c:central:capiata,Capiatá,2026-09-07,1,0,0,0,0,0,0
+c:central:capiata,Capiatá,2026-09-08,1,0,0,4,0,0,1
+c:central:capiata,Capiatá,2026-09-09,1,0,0,3,0,0,0
+c:central:capiata,Capiatá,2026-09-10,1,0,0,5,0,0,0
+c:central:capiata,Capiatá,2026-09-11,1,0,0,1,2,1,0
+c:central:capiata,Capiatá,2026-09-12,1,1,0,1,0,0,0
+c:central:capiata,Capiatá,2026-09-13,1,0,0,0,0,0,0
+c:central:capiata,Capiatá,2026-09-14,1,0,0,1,0,0,0
+c:central:capiata,Capiatá,2026-09-15,1,1,0,1,6,0,0
+c:central:capiata,Capiatá,2026-09-16,1,1,0,3,6,0,0
+c:central:capiata,Capiatá,2026-09-17,1,0,0,0,0,0,1
+c:central:capiata,Capiatá,2026-09-18,1,2,0,4,1,0,0
+c:central:capiata,Capiatá,2026-09-19,1,0,2,2,0,0,0
+c:central:capiata,Capiatá,2026-09-20,1,0,0,0,0,0,0
+c:central:capiata,Capiatá,2026-09-21,1,0,0,0,0,0,0
+c:central:capiata,Capiatá,2026-09-22,1,0,0,2,1,1,0
+c:central:capiata,Capiatá,2026-09-23,1,2,0,2,0,1,0
+c:central:mariano-roque-alonso,Mariano Roque Alonso,2026-08-24,1,0,1,4,0,0,1
+c:central:mariano-roque-alonso,Mariano Roque Alonso,2026-08-25,1,1,0,2,2,0,0
+c:central:mariano-roque-alonso,Mariano Roque Alonso,2026-08-26,1,1,0,3,4,0,0
+c:central:mariano-roque-alonso,Mariano Roque Alonso,2026-08-27,0,,,,,,
+c:central:mariano-roque-alonso,Mariano Roque Alonso,2026-08-28,1,0,0,8,2,0,0
+c:central:mariano-roque-alonso,Mariano Roque Alonso,2026-08-29,1,0,0,2,0,0,0
+c:central:mariano-roque-alonso,Mariano Roque Alonso,2026-08-30,1,0,0,0,0,0,0
+c:central:mariano-roque-alonso,Mariano Roque Alonso,2026-08-31,1,0,0,2,0,0,0
+c:central:mariano-roque-alonso,Mariano Roque Alonso,2026-09-01,1,1,0,5,1,1,1
+c:central:mariano-roque-alonso,Mariano Roque Alonso,2026-09-02,1,2,0,1,0,0,0
+c:central:mariano-roque-alonso,Mariano Roque Alonso,2026-09-03,1,0,0,4,0,1,2
+c:central:mariano-roque-alonso,Mariano Roque Alonso,2026-09-04,1,0,0,3,0,0,0
+c:central:mariano-roque-alonso,Mariano Roque Alonso,2026-09-05,1,2,0,3,0,0,0
+c:central:mariano-roque-alonso,Mariano Roque Alonso,2026-09-06,1,0,0,4,0,0,0
+c:central:mariano-roque-alonso,Mariano Roque Alonso,2026-09-07,1,0,0,1,0,0,0
+c:central:mariano-roque-alonso,Mariano Roque Alonso,2026-09-08,1,0,1,9,1,0,1
+c:central:mariano-roque-alonso,Mariano Roque Alonso,2026-09-09,1,0,0,4,0,0,0
+c:central:mariano-roque-alonso,Mariano Roque Alonso,2026-09-10,1,2,1,3,0,0,2
+c:central:mariano-roque-alonso,Mariano Roque Alonso,2026-09-11,1,0,0,0,0,0,0
+c:central:mariano-roque-alonso,Mariano Roque Alonso,2026-09-12,1,3,0,1,1,0,0
+c:central:mariano-roque-alonso,Mariano Roque Alonso,2026-09-13,1,0,0,0,0,0,0
+c:central:mariano-roque-alonso,Mariano Roque Alonso,2026-09-14,1,0,0,1,0,0,0
+c:central:mariano-roque-alonso,Mariano Roque Alonso,2026-09-15,1,0,0,0,1,0,0
+c:central:mariano-roque-alonso,Mariano Roque Alonso,2026-09-16,1,0,0,3,1,1,2
+c:central:mariano-roque-alonso,Mariano Roque Alonso,2026-09-17,1,0,1,0,1,1,0
+c:central:mariano-roque-alonso,Mariano Roque Alonso,2026-09-18,1,0,0,0,0,0,0
+c:central:mariano-roque-alonso,Mariano Roque Alonso,2026-09-19,1,1,0,3,0,0,0
+c:central:mariano-roque-alonso,Mariano Roque Alonso,2026-09-20,1,0,0,0,0,0,0
+c:central:mariano-roque-alonso,Mariano Roque Alonso,2026-09-21,1,0,0,0,1,1,0
+c:central:mariano-roque-alonso,Mariano Roque Alonso,2026-09-22,1,0,0,1,0,0,0
+c:central:mariano-roque-alonso,Mariano Roque Alonso,2026-09-23,1,1,0,2,0,0,0
+c:central:nemby,Ñemby,2026-08-24,1,0,0,0,0,0,0
+c:central:nemby,Ñemby,2026-08-25,1,0,0,0,0,0,0
+c:central:nemby,Ñemby,2026-08-26,1,0,0,1,1,0,1
+c:central:nemby,Ñemby,2026-08-27,0,,,,,,
+c:central:nemby,Ñemby,2026-08-28,1,1,0,7,0,0,0
+c:central:nemby,Ñemby,2026-08-29,1,0,0,1,0,0,0
+c:central:nemby,Ñemby,2026-08-30,1,0,0,2,0,0,0
+c:central:nemby,Ñemby,2026-08-31,1,0,0,0,0,0,0
+c:central:nemby,Ñemby,2026-09-01,1,1,1,2,0,1,1
+c:central:nemby,Ñemby,2026-09-02,1,0,0,1,0,1,0
+c:central:nemby,Ñemby,2026-09-03,1,0,0,5,0,0,0
+c:central:nemby,Ñemby,2026-09-04,1,0,0,0,0,1,0
+c:central:nemby,Ñemby,2026-09-05,1,0,0,2,0,0,0
+c:central:nemby,Ñemby,2026-09-06,1,0,0,3,0,0,0
+c:central:nemby,Ñemby,2026-09-07,1,0,0,1,0,0,0
+c:central:nemby,Ñemby,2026-09-08,1,0,0,1,1,1,0
+c:central:nemby,Ñemby,2026-09-09,1,0,0,0,0,0,0
+c:central:nemby,Ñemby,2026-09-10,1,1,0,4,2,0,0
+c:central:nemby,Ñemby,2026-09-11,1,0,0,0,0,0,0
+c:central:nemby,Ñemby,2026-09-12,1,0,0,2,1,0,0
+c:central:nemby,Ñemby,2026-09-13,1,0,0,2,0,0,0
+c:central:nemby,Ñemby,2026-09-14,1,0,0,0,0,0,0
+c:central:nemby,Ñemby,2026-09-15,1,0,0,0,0,0,0
+c:central:nemby,Ñemby,2026-09-16,1,0,0,0,5,0,0
+c:central:nemby,Ñemby,2026-09-17,1,1,0,3,1,0,0
+c:central:nemby,Ñemby,2026-09-18,1,1,0,4,1,0,0
+c:central:nemby,Ñemby,2026-09-19,1,1,0,6,0,0,0
+c:central:nemby,Ñemby,2026-09-20,1,0,0,2,4,0,0
+c:central:nemby,Ñemby,2026-09-21,1,0,0,1,0,0,0
+c:central:nemby,Ñemby,2026-09-22,1,1,0,0,2,1,0
+c:central:nemby,Ñemby,2026-09-23,1,1,0,3,0,0,0
+c:central:villa-elisa,Villa Elisa,2026-08-24,1,0,0,0,0,0,1
+c:central:villa-elisa,Villa Elisa,2026-08-25,1,0,0,0,0,0,0
+c:central:villa-elisa,Villa Elisa,2026-08-26,1,2,0,3,1,1,0
+c:central:villa-elisa,Villa Elisa,2026-08-27,0,,,,,,
+c:central:villa-elisa,Villa Elisa,2026-08-28,1,2,0,4,1,1,1
+c:central:villa-elisa,Villa Elisa,2026-08-29,1,0,0,0,0,0,0
+c:central:villa-elisa,Villa Elisa,2026-08-30,1,0,0,3,0,0,0
+c:central:villa-elisa,Villa Elisa,2026-08-31,1,1,0,2,0,0,0
+c:central:villa-elisa,Villa Elisa,2026-09-01,1,0,0,0,0,0,0
+c:central:villa-elisa,Villa Elisa,2026-09-02,1,0,0,2,0,0,0
+c:central:villa-elisa,Villa Elisa,2026-09-03,1,0,0,1,0,0,0
+c:central:villa-elisa,Villa Elisa,2026-09-04,1,1,0,1,0,0,0
+c:central:villa-elisa,Villa Elisa,2026-09-05,1,1,0,1,0,0,0
+c:central:villa-elisa,Villa Elisa,2026-09-06,1,0,0,1,0,0,0
+c:central:villa-elisa,Villa Elisa,2026-09-07,1,0,0,1,0,1,0
+c:central:villa-elisa,Villa Elisa,2026-09-08,1,2,1,5,1,0,1
+c:central:villa-elisa,Villa Elisa,2026-09-09,1,0,0,2,0,0,0
+c:central:villa-elisa,Villa Elisa,2026-09-10,1,1,0,4,0,0,0
+c:central:villa-elisa,Villa Elisa,2026-09-11,1,0,0,3,0,0,0
+c:central:villa-elisa,Villa Elisa,2026-09-12,1,0,0,1,0,0,0
+c:central:villa-elisa,Villa Elisa,2026-09-13,1,0,0,1,0,0,0
+c:central:villa-elisa,Villa Elisa,2026-09-14,1,0,0,2,0,0,0
+c:central:villa-elisa,Villa Elisa,2026-09-15,1,0,0,1,0,0,1
+c:central:villa-elisa,Villa Elisa,2026-09-16,1,0,0,1,0,0,0
+c:central:villa-elisa,Villa Elisa,2026-09-17,1,0,0,2,0,0,0
+c:central:villa-elisa,Villa Elisa,2026-09-18,1,0,0,3,2,0,0
+c:central:villa-elisa,Villa Elisa,2026-09-19,1,0,0,3,0,0,0
+c:central:villa-elisa,Villa Elisa,2026-09-20,1,0,0,2,0,0,0
+c:central:villa-elisa,Villa Elisa,2026-09-21,1,0,0,1,0,0,0
+c:central:villa-elisa,Villa Elisa,2026-09-22,1,0,0,0,0,0,0
+c:central:villa-elisa,Villa Elisa,2026-09-23,1,1,0,2,0,0,0
+c:central:limpio,Limpio,2026-08-24,1,0,0,2,0,0,0
+c:central:limpio,Limpio,2026-08-25,1,0,0,0,0,0,0
+c:central:limpio,Limpio,2026-08-26,1,0,0,5,1,0,0
+c:central:limpio,Limpio,2026-08-27,0,,,,,,
+c:central:limpio,Limpio,2026-08-28,1,1,0,9,3,1,0
+c:central:limpio,Limpio,2026-08-29,1,0,0,2,0,0,0
+c:central:limpio,Limpio,2026-08-30,1,0,0,1,1,0,0
+c:central:limpio,Limpio,2026-08-31,1,0,0,1,0,0,0
+c:central:limpio,Limpio,2026-09-01,1,0,0,7,0,0,0
+c:central:limpio,Limpio,2026-09-02,1,2,0,5,0,0,0
+c:central:limpio,Limpio,2026-09-03,1,0,0,1,1,0,0
+c:central:limpio,Limpio,2026-09-04,1,0,0,5,1,0,0
+c:central:limpio,Limpio,2026-09-05,1,1,0,0,0,0,0
+c:central:limpio,Limpio,2026-09-06,1,1,0,2,2,0,0
+c:central:limpio,Limpio,2026-09-07,1,1,0,1,0,0,0
+c:central:limpio,Limpio,2026-09-08,1,0,0,4,0,0,0
+c:central:limpio,Limpio,2026-09-09,1,0,0,2,0,0,0
+c:central:limpio,Limpio,2026-09-10,1,0,0,7,0,1,1
+c:central:limpio,Limpio,2026-09-11,1,0,0,0,0,0,0
+c:central:limpio,Limpio,2026-09-12,1,0,0,2,0,0,0
+c:central:limpio,Limpio,2026-09-13,1,0,0,0,0,0,0
+c:central:limpio,Limpio,2026-09-14,1,0,0,0,0,0,0
+c:central:limpio,Limpio,2026-09-15,1,0,0,5,1,0,0
+c:central:limpio,Limpio,2026-09-16,1,1,0,4,5,0,0
+c:central:limpio,Limpio,2026-09-17,1,1,0,1,0,0,0
+c:central:limpio,Limpio,2026-09-18,1,1,0,5,0,0,1
+c:central:limpio,Limpio,2026-09-19,1,0,2,2,0,1,0
+c:central:limpio,Limpio,2026-09-20,1,0,0,0,0,0,0
+c:central:limpio,Limpio,2026-09-21,1,0,1,0,0,0,1
+c:central:limpio,Limpio,2026-09-22,1,0,0,1,1,2,0
+c:central:limpio,Limpio,2026-09-23,1,5,0,0,1,0,1
+c:central:itaugua,Itauguá,2026-08-24,1,0,1,0,0,0,0
+c:central:itaugua,Itauguá,2026-08-25,1,0,0,0,0,0,0
+c:central:itaugua,Itauguá,2026-08-26,1,1,0,0,4,0,0
+c:central:itaugua,Itauguá,2026-08-27,0,,,,,,
+c:central:itaugua,Itauguá,2026-08-28,1,3,1,1,0,0,0
+c:central:itaugua,Itauguá,2026-08-29,1,0,0,0,0,0,0
+c:central:itaugua,Itauguá,2026-08-30,1,2,0,1,0,0,0
+c:central:itaugua,Itauguá,2026-08-31,1,0,0,0,0,0,0
+c:central:itaugua,Itauguá,2026-09-01,1,0,0,6,0,0,0
+c:central:itaugua,Itauguá,2026-09-02,1,1,0,0,0,0,0
+c:central:itaugua,Itauguá,2026-09-03,1,2,0,2,0,0,0
+c:central:itaugua,Itauguá,2026-09-04,1,2,0,0,0,0,0
+c:central:itaugua,Itauguá,2026-09-05,1,0,0,2,0,0,0
+c:central:itaugua,Itauguá,2026-09-06,1,0,0,0,0,0,0
+c:central:itaugua,Itauguá,2026-09-07,1,0,0,1,0,0,0
+c:central:itaugua,Itauguá,2026-09-08,1,1,1,3,1,0,0
+c:central:itaugua,Itauguá,2026-09-09,1,0,0,0,0,0,0
+c:central:itaugua,Itauguá,2026-09-10,1,1,0,0,0,0,0
+c:central:itaugua,Itauguá,2026-09-11,1,0,0,1,0,0,0
+c:central:itaugua,Itauguá,2026-09-12,1,0,0,2,1,0,0
+c:central:itaugua,Itauguá,2026-09-13,1,0,0,0,0,0,0
+c:central:itaugua,Itauguá,2026-09-14,1,2,0,1,0,0,0
+c:central:itaugua,Itauguá,2026-09-15,1,1,0,2,1,0,1
+c:central:itaugua,Itauguá,2026-09-16,1,1,0,1,0,0,0
+c:central:itaugua,Itauguá,2026-09-17,1,0,0,2,0,1,0
+c:central:itaugua,Itauguá,2026-09-18,1,0,0,5,1,0,0
+c:central:itaugua,Itauguá,2026-09-19,1,0,0,0,0,0,0
+c:central:itaugua,Itauguá,2026-09-20,1,0,0,1,0,0,0
+c:central:itaugua,Itauguá,2026-09-21,1,0,0,1,0,0,0
+c:central:itaugua,Itauguá,2026-09-22,1,0,0,1,1,0,0
+c:central:itaugua,Itauguá,2026-09-23,1,2,0,2,1,0,0
+c:central:aregua,Areguá,2026-08-24,1,0,0,0,0,0,0
+c:central:aregua,Areguá,2026-08-25,1,0,0,0,0,0,0
+c:central:aregua,Areguá,2026-08-26,1,0,0,2,1,0,0
+c:central:aregua,Areguá,2026-08-27,0,,,,,,
+c:central:aregua,Areguá,2026-08-28,1,1,0,3,3,0,0
+c:central:aregua,Areguá,2026-08-29,1,0,0,0,0,0,0
+c:central:aregua,Areguá,2026-08-30,1,0,0,1,0,0,0
+c:central:aregua,Areguá,2026-08-31,1,0,0,1,0,0,0
+c:central:aregua,Areguá,2026-09-01,1,1,0,0,0,0,0
+c:central:aregua,Areguá,2026-09-02,1,0,0,0,0,0,1
+c:central:aregua,Areguá,2026-09-03,1,1,0,0,0,0,0
+c:central:aregua,Areguá,2026-09-04,1,0,0,1,0,0,0
+c:central:aregua,Areguá,2026-09-05,1,0,0,0,0,0,0
+c:central:aregua,Areguá,2026-09-06,1,0,0,2,0,0,0
+c:central:aregua,Areguá,2026-09-07,1,0,0,0,0,0,0
+c:central:aregua,Areguá,2026-09-08,1,1,0,2,2,0,0
+c:central:aregua,Areguá,2026-09-09,1,0,0,0,0,0,0
+c:central:aregua,Areguá,2026-09-10,1,0,0,1,0,0,0
+c:central:aregua,Areguá,2026-09-11,1,0,0,2,0,0,0
+c:central:aregua,Areguá,2026-09-12,1,0,0,1,0,0,0
+c:central:aregua,Areguá,2026-09-13,1,0,0,0,0,0,0
+c:central:aregua,Areguá,2026-09-14,1,0,0,0,0,0,0
+c:central:aregua,Areguá,2026-09-15,1,1,0,0,0,0,0
+c:central:aregua,Areguá,2026-09-16,1,1,0,3,1,0,0
+c:central:aregua,Areguá,2026-09-17,1,0,0,2,1,0,0
+c:central:aregua,Areguá,2026-09-18,1,0,0,4,0,0,0
+c:central:aregua,Areguá,2026-09-19,1,0,0,1,0,0,0
+c:central:aregua,Areguá,2026-09-20,1,0,0,0,0,0,0
+c:central:aregua,Areguá,2026-09-21,1,0,0,2,0,0,0
+c:central:aregua,Areguá,2026-09-22,1,0,0,0,0,0,0
+c:central:aregua,Areguá,2026-09-23,1,0,0,0,1,0,0
+c:central:ypane,Ypané,2026-08-24,1,0,0,0,0,0,0
+c:central:ypane,Ypané,2026-08-25,1,0,0,1,0,0,0
+c:central:ypane,Ypané,2026-08-26,1,0,0,2,0,0,0
+c:central:ypane,Ypané,2026-08-27,0,,,,,,
+c:central:ypane,Ypané,2026-08-28,1,1,0,1,0,0,0
+c:central:ypane,Ypané,2026-08-29,1,0,0,1,0,0,0
+c:central:ypane,Ypané,2026-08-30,1,0,0,2,0,0,0
+c:central:ypane,Ypané,2026-08-31,1,0,0,0,0,0,0
+c:central:ypane,Ypané,2026-09-01,1,0,0,2,0,0,0
+c:central:ypane,Ypané,2026-09-02,1,0,0,1,0,0,0
+c:central:ypane,Ypané,2026-09-03,1,0,0,0,0,0,0
+c:central:ypane,Ypané,2026-09-04,1,0,0,2,0,0,0
+c:central:ypane,Ypané,2026-09-05,1,0,0,1,0,0,0
+c:central:ypane,Ypané,2026-09-06,1,0,0,1,0,0,0
+c:central:ypane,Ypané,2026-09-07,1,0,0,2,0,0,0
+c:central:ypane,Ypané,2026-09-08,1,0,0,0,0,0,0
+c:central:ypane,Ypané,2026-09-09,1,0,0,0,0,0,0
+c:central:ypane,Ypané,2026-09-10,1,0,0,0,0,0,0
+c:central:ypane,Ypané,2026-09-11,1,0,0,0,0,0,0
+c:central:ypane,Ypané,2026-09-12,1,0,0,2,0,0,0
+c:central:ypane,Ypané,2026-09-13,1,0,0,2,0,0,0
+c:central:ypane,Ypané,2026-09-14,1,0,0,0,0,0,0
+c:central:ypane,Ypané,2026-09-15,1,0,0,0,0,0,0
+c:central:ypane,Ypané,2026-09-16,1,1,0,2,0,0,0
+c:central:ypane,Ypané,2026-09-17,1,0,0,1,0,0,0
+c:central:ypane,Ypané,2026-09-18,1,0,0,3,0,0,0
+c:central:ypane,Ypané,2026-09-19,1,0,0,3,0,0,0
+c:central:ypane,Ypané,2026-09-20,1,0,0,2,1,0,0
+c:central:ypane,Ypané,2026-09-21,1,0,0,1,0,0,0
+c:central:ypane,Ypané,2026-09-22,1,0,0,0,1,0,0
+c:central:ypane,Ypané,2026-09-23,1,0,0,3,0,0,0
+c:central:ypacarai,Ypacaraí,2026-08-24,1,0,0,2,0,0,0
+c:central:ypacarai,Ypacaraí,2026-08-25,1,0,0,0,1,0,0
+c:central:ypacarai,Ypacaraí,2026-08-26,1,0,0,1,0,0,0
+c:central:ypacarai,Ypacaraí,2026-08-27,0,,,,,,
+c:central:ypacarai,Ypacaraí,2026-08-28,1,0,0,1,0,0,0
+c:central:ypacarai,Ypacaraí,2026-08-29,1,0,0,0,0,0,0
+c:central:ypacarai,Ypacaraí,2026-08-30,1,0,0,0,0,0,0
+c:central:ypacarai,Ypacaraí,2026-08-31,1,0,0,0,0,0,0
+c:central:ypacarai,Ypacaraí,2026-09-01,1,0,0,1,0,0,0
+c:central:ypacarai,Ypacaraí,2026-09-02,1,0,0,1,0,0,0
+c:central:ypacarai,Ypacaraí,2026-09-03,1,0,0,1,1,0,0
+c:central:ypacarai,Ypacaraí,2026-09-04,1,0,0,0,0,0,0
+c:central:ypacarai,Ypacaraí,2026-09-05,1,0,0,0,0,0,0
+c:central:ypacarai,Ypacaraí,2026-09-06,1,1,0,2,0,0,0
+c:central:ypacarai,Ypacaraí,2026-09-07,1,0,0,0,0,0,0
+c:central:ypacarai,Ypacaraí,2026-09-08,1,0,0,0,0,0,0
+c:central:ypacarai,Ypacaraí,2026-09-09,1,0,0,0,0,0,0
+c:central:ypacarai,Ypacaraí,2026-09-10,1,2,0,3,0,0,0
+c:central:ypacarai,Ypacaraí,2026-09-11,1,0,0,1,0,0,0
+c:central:ypacarai,Ypacaraí,2026-09-12,1,0,0,1,0,1,0
+c:central:ypacarai,Ypacaraí,2026-09-13,1,0,0,3,0,0,0
+c:central:ypacarai,Ypacaraí,2026-09-14,1,0,0,1,0,0,0
+c:central:ypacarai,Ypacaraí,2026-09-15,1,0,0,1,1,0,0
+c:central:ypacarai,Ypacaraí,2026-09-16,1,0,0,0,1,0,0
+c:central:ypacarai,Ypacaraí,2026-09-17,1,0,0,0,0,0,0
+c:central:ypacarai,Ypacaraí,2026-09-18,1,0,0,2,0,0,0
+c:central:ypacarai,Ypacaraí,2026-09-19,1,0,0,1,0,0,0
+c:central:ypacarai,Ypacaraí,2026-09-20,1,0,0,0,0,0,0
+c:central:ypacarai,Ypacaraí,2026-09-21,1,0,0,0,0,0,0
+c:central:ypacarai,Ypacaraí,2026-09-22,1,0,0,1,0,0,0
+c:central:ypacarai,Ypacaraí,2026-09-23,1,2,0,0,0,0,0
+c:central:san-antonio,San Antonio,2026-08-24,1,0,0,0,0,0,0
+c:central:san-antonio,San Antonio,2026-08-25,1,0,0,2,0,0,0
+c:central:san-antonio,San Antonio,2026-08-26,1,0,0,0,0,0,0
+c:central:san-antonio,San Antonio,2026-08-27,0,,,,,,
+c:central:san-antonio,San Antonio,2026-08-28,1,0,0,0,1,0,0
+c:central:san-antonio,San Antonio,2026-08-29,1,0,0,1,0,0,0
+c:central:san-antonio,San Antonio,2026-08-30,1,0,0,0,0,0,0
+c:central:san-antonio,San Antonio,2026-08-31,1,0,0,0,0,0,0
+c:central:san-antonio,San Antonio,2026-09-01,1,0,0,0,0,0,0
+c:central:san-antonio,San Antonio,2026-09-02,1,0,0,0,0,0,0
+c:central:san-antonio,San Antonio,2026-09-03,1,0,0,0,0,0,0
+c:central:san-antonio,San Antonio,2026-09-04,1,1,0,1,0,0,0
+c:central:san-antonio,San Antonio,2026-09-05,1,0,0,0,0,0,0
+c:central:san-antonio,San Antonio,2026-09-06,1,0,0,1,0,0,0
+c:central:san-antonio,San Antonio,2026-09-07,1,0,0,0,0,0,0
+c:central:san-antonio,San Antonio,2026-09-08,1,0,0,2,0,0,0
+c:central:san-antonio,San Antonio,2026-09-09,1,0,0,0,0,0,0
+c:central:san-antonio,San Antonio,2026-09-10,1,1,0,3,0,0,0
+c:central:san-antonio,San Antonio,2026-09-11,1,0,0,2,0,0,0
+c:central:san-antonio,San Antonio,2026-09-12,1,0,0,1,0,0,0
+c:central:san-antonio,San Antonio,2026-09-13,1,0,0,1,0,0,0
+c:central:san-antonio,San Antonio,2026-09-14,1,0,0,0,0,0,0
+c:central:san-antonio,San Antonio,2026-09-15,1,0,0,0,2,0,0
+c:central:san-antonio,San Antonio,2026-09-16,1,0,0,0,0,0,0
+c:central:san-antonio,San Antonio,2026-09-17,1,0,0,1,0,0,0
+c:central:san-antonio,San Antonio,2026-09-18,1,0,0,0,0,0,0
+c:central:san-antonio,San Antonio,2026-09-19,1,0,0,1,0,0,0
+c:central:san-antonio,San Antonio,2026-09-20,1,0,0,0,0,0,0
+c:central:san-antonio,San Antonio,2026-09-21,1,0,0,0,0,0,0
+c:central:san-antonio,San Antonio,2026-09-22,1,0,0,1,0,0,0
+c:central:san-antonio,San Antonio,2026-09-23,1,0,0,1,0,0,0
+c:central:villeta,Villeta,2026-08-24,1,1,0,0,0,0,0
+c:central:villeta,Villeta,2026-08-25,1,0,0,0,0,0,0
+c:central:villeta,Villeta,2026-08-26,1,0,0,0,0,0,0
+c:central:villeta,Villeta,2026-08-27,0,,,,,,
+c:central:villeta,Villeta,2026-08-28,1,0,0,1,0,0,0
+c:central:villeta,Villeta,2026-08-29,1,0,0,1,0,0,0
+c:central:villeta,Villeta,2026-08-30,1,0,0,0,0,0,0
+c:central:villeta,Villeta,2026-08-31,1,0,0,1,0,0,0
+c:central:villeta,Villeta,2026-09-01,1,0,0,0,0,0,1
+c:central:villeta,Villeta,2026-09-02,1,0,0,0,0,0,0
+c:central:villeta,Villeta,2026-09-03,1,0,0,1,0,0,0
+c:central:villeta,Villeta,2026-09-04,1,0,0,1,1,0,0
+c:central:villeta,Villeta,2026-09-05,1,0,0,0,0,0,0
+c:central:villeta,Villeta,2026-09-06,1,0,0,0,0,0,0
+c:central:villeta,Villeta,2026-09-07,1,0,0,0,0,0,0
+c:central:villeta,Villeta,2026-09-08,1,0,0,0,0,0,0
+c:central:villeta,Villeta,2026-09-09,1,0,0,0,0,0,0
+c:central:villeta,Villeta,2026-09-10,1,0,0,3,0,0,0
+c:central:villeta,Villeta,2026-09-11,1,0,0,3,0,0,0
+c:central:villeta,Villeta,2026-09-12,1,0,0,7,0,0,0
+c:central:villeta,Villeta,2026-09-13,1,0,0,1,0,0,0
+c:central:villeta,Villeta,2026-09-14,1,0,0,2,0,0,0
+c:central:villeta,Villeta,2026-09-15,1,0,0,2,0,0,0
+c:central:villeta,Villeta,2026-09-16,1,0,0,0,5,0,0
+c:central:villeta,Villeta,2026-09-17,1,0,0,4,0,0,0
+c:central:villeta,Villeta,2026-09-18,1,0,0,2,0,0,0
+c:central:villeta,Villeta,2026-09-19,1,0,0,2,0,0,0
+c:central:villeta,Villeta,2026-09-20,1,0,0,1,0,0,0
+c:central:villeta,Villeta,2026-09-21,1,0,0,0,0,0,0
+c:central:villeta,Villeta,2026-09-22,1,0,0,1,0,0,0
+c:central:villeta,Villeta,2026-09-23,1,0,0,0,0,0,0
+c:central:ita,Itá,2026-08-24,1,0,0,0,0,0,0
+c:central:ita,Itá,2026-08-25,1,0,0,0,0,0,0
+c:central:ita,Itá,2026-08-26,1,0,0,1,0,0,0
+c:central:ita,Itá,2026-08-27,0,,,,,,
+c:central:ita,Itá,2026-08-28,1,0,0,2,0,0,0
+c:central:ita,Itá,2026-08-29,1,0,0,0,0,0,0
+c:central:ita,Itá,2026-08-30,1,0,0,0,0,0,0
+c:central:ita,Itá,2026-08-31,1,0,0,0,0,0,0
+c:central:ita,Itá,2026-09-01,1,0,0,0,1,0,0
+c:central:ita,Itá,2026-09-02,1,0,0,1,0,0,0
+c:central:ita,Itá,2026-09-03,1,0,0,0,3,0,0
+c:central:ita,Itá,2026-09-04,1,0,0,2,0,0,0
+c:central:ita,Itá,2026-09-05,1,0,0,2,0,0,0
+c:central:ita,Itá,2026-09-06,1,0,0,0,2,0,0
+c:central:ita,Itá,2026-09-07,1,0,0,0,0,0,0
+c:central:ita,Itá,2026-09-08,1,0,0,1,0,0,0
+c:central:ita,Itá,2026-09-09,1,0,0,2,0,0,0
+c:central:ita,Itá,2026-09-10,1,0,0,2,0,0,0
+c:central:ita,Itá,2026-09-11,1,0,0,0,1,0,0
+c:central:ita,Itá,2026-09-12,1,0,0,2,0,0,0
+c:central:ita,Itá,2026-09-13,1,0,0,0,0,0,0
+c:central:ita,Itá,2026-09-14,1,0,0,0,0,0,0
+c:central:ita,Itá,2026-09-15,1,1,0,0,0,0,0
+c:central:ita,Itá,2026-09-16,1,0,0,3,0,0,0
+c:central:ita,Itá,2026-09-17,1,0,0,0,0,0,0
+c:central:ita,Itá,2026-09-18,1,1,0,1,0,0,0
+c:central:ita,Itá,2026-09-19,1,0,0,1,0,0,0
+c:central:ita,Itá,2026-09-20,1,0,0,0,0,0,0
+c:central:ita,Itá,2026-09-21,1,0,0,0,0,0,1
+c:central:ita,Itá,2026-09-22,1,0,0,1,0,0,0
+c:central:ita,Itá,2026-09-23,1,0,0,1,0,0,0
+c:central:julian-augusto-saldivar,Julián Augusto Saldívar,2026-08-24,1,0,0,0,0,0,0
+c:central:julian-augusto-saldivar,Julián Augusto Saldívar,2026-08-25,1,0,0,1,0,0,0
+c:central:julian-augusto-saldivar,Julián Augusto Saldívar,2026-08-26,1,0,0,1,0,0,0
+c:central:julian-augusto-saldivar,Julián Augusto Saldívar,2026-08-27,0,,,,,,
+c:central:julian-augusto-saldivar,Julián Augusto Saldívar,2026-08-28,1,0,0,0,1,0,0
+c:central:julian-augusto-saldivar,Julián Augusto Saldívar,2026-08-29,1,0,0,0,0,0,0
+c:central:julian-augusto-saldivar,Julián Augusto Saldívar,2026-08-30,1,0,0,0,0,0,0
+c:central:julian-augusto-saldivar,Julián Augusto Saldívar,2026-08-31,1,0,0,0,0,0,0
+c:central:julian-augusto-saldivar,Julián Augusto Saldívar,2026-09-01,1,0,0,1,0,0,0
+c:central:julian-augusto-saldivar,Julián Augusto Saldívar,2026-09-02,1,0,0,0,0,0,0
+c:central:julian-augusto-saldivar,Julián Augusto Saldívar,2026-09-03,1,0,0,1,0,1,0
+c:central:julian-augusto-saldivar,Julián Augusto Saldívar,2026-09-04,1,0,0,0,0,0,0
+c:central:julian-augusto-saldivar,Julián Augusto Saldívar,2026-09-05,1,0,0,1,0,0,0
+c:central:julian-augusto-saldivar,Julián Augusto Saldívar,2026-09-06,1,0,0,0,0,0,0
+c:central:julian-augusto-saldivar,Julián Augusto Saldívar,2026-09-07,1,0,0,0,0,0,0
+c:central:julian-augusto-saldivar,Julián Augusto Saldívar,2026-09-08,1,0,0,0,0,0,0
+c:central:julian-augusto-saldivar,Julián Augusto Saldívar,2026-09-09,1,0,0,0,0,0,0
+c:central:julian-augusto-saldivar,Julián Augusto Saldívar,2026-09-10,1,0,0,1,1,0,0
+c:central:julian-augusto-saldivar,Julián Augusto Saldívar,2026-09-11,1,1,0,2,0,0,0
+c:central:julian-augusto-saldivar,Julián Augusto Saldívar,2026-09-12,1,0,0,3,0,0,0
+c:central:julian-augusto-saldivar,Julián Augusto Saldívar,2026-09-13,1,0,0,1,0,0,0
+c:central:julian-augusto-saldivar,Julián Augusto Saldívar,2026-09-14,1,0,0,1,0,0,0
+c:central:julian-augusto-saldivar,Julián Augusto Saldívar,2026-09-15,1,0,0,2,0,0,0
+c:central:julian-augusto-saldivar,Julián Augusto Saldívar,2026-09-16,1,0,0,0,3,0,0
+c:central:julian-augusto-saldivar,Julián Augusto Saldívar,2026-09-17,1,0,0,2,0,0,0
+c:central:julian-augusto-saldivar,Julián Augusto Saldívar,2026-09-18,1,0,0,1,0,0,0
+c:central:julian-augusto-saldivar,Julián Augusto Saldívar,2026-09-19,1,0,0,0,0,0,0
+c:central:julian-augusto-saldivar,Julián Augusto Saldívar,2026-09-20,1,0,0,1,0,0,0
+c:central:julian-augusto-saldivar,Julián Augusto Saldívar,2026-09-21,1,0,0,1,0,0,0
+c:central:julian-augusto-saldivar,Julián Augusto Saldívar,2026-09-22,1,0,0,0,0,0,0
+c:central:julian-augusto-saldivar,Julián Augusto Saldívar,2026-09-23,1,0,0,0,1,0,0
+c:central:nueva-italia,Nueva Italia,2026-08-24,1,0,0,0,0,0,0
+c:central:nueva-italia,Nueva Italia,2026-08-25,1,0,0,0,0,0,0
+c:central:nueva-italia,Nueva Italia,2026-08-26,1,0,0,0,0,0,0
+c:central:nueva-italia,Nueva Italia,2026-08-27,0,,,,,,
+c:central:nueva-italia,Nueva Italia,2026-08-28,1,0,0,0,0,0,0
+c:central:nueva-italia,Nueva Italia,2026-08-29,1,0,0,0,0,0,0
+c:central:nueva-italia,Nueva Italia,2026-08-30,1,0,0,0,0,0,0
+c:central:nueva-italia,Nueva Italia,2026-08-31,1,0,0,0,0,0,0
+c:central:nueva-italia,Nueva Italia,2026-09-01,1,0,0,0,0,0,0
+c:central:nueva-italia,Nueva Italia,2026-09-02,1,0,0,0,0,0,0
+c:central:nueva-italia,Nueva Italia,2026-09-03,1,0,0,0,0,0,0
+c:central:nueva-italia,Nueva Italia,2026-09-04,1,0,0,0,0,0,0
+c:central:nueva-italia,Nueva Italia,2026-09-05,1,0,0,0,0,0,0
+c:central:nueva-italia,Nueva Italia,2026-09-06,1,0,0,0,0,0,0
+c:central:nueva-italia,Nueva Italia,2026-09-07,1,0,0,1,0,0,0
+c:central:nueva-italia,Nueva Italia,2026-09-08,1,0,0,0,0,0,0
+c:central:nueva-italia,Nueva Italia,2026-09-09,1,0,0,0,0,0,0
+c:central:nueva-italia,Nueva Italia,2026-09-10,1,0,0,1,0,0,0
+c:central:nueva-italia,Nueva Italia,2026-09-11,1,0,0,1,0,0,0
+c:central:nueva-italia,Nueva Italia,2026-09-12,1,0,0,1,0,0,0
+c:central:nueva-italia,Nueva Italia,2026-09-13,1,0,0,0,0,0,0
+c:central:nueva-italia,Nueva Italia,2026-09-14,1,0,0,2,0,0,0
+c:central:nueva-italia,Nueva Italia,2026-09-15,1,0,0,0,0,0,0
+c:central:nueva-italia,Nueva Italia,2026-09-16,1,0,0,1,1,0,0
+c:central:nueva-italia,Nueva Italia,2026-09-17,1,0,0,0,0,0,0
+c:central:nueva-italia,Nueva Italia,2026-09-18,1,0,0,1,0,0,0
+c:central:nueva-italia,Nueva Italia,2026-09-19,1,0,0,2,0,0,0
+c:central:nueva-italia,Nueva Italia,2026-09-20,1,0,0,2,0,0,0
+c:central:nueva-italia,Nueva Italia,2026-09-21,1,0,0,0,0,0,0
+c:central:nueva-italia,Nueva Italia,2026-09-22,1,0,0,1,0,0,0
+c:central:nueva-italia,Nueva Italia,2026-09-23,1,0,0,1,0,0,0
+c:central:nueva-asuncion,Nueva Asunción,2026-08-24,1,0,0,0,0,0,0
+c:central:nueva-asuncion,Nueva Asunción,2026-08-25,1,0,0,0,0,0,0
+c:central:nueva-asuncion,Nueva Asunción,2026-08-26,1,0,0,0,0,0,0
+c:central:nueva-asuncion,Nueva Asunción,2026-08-27,0,,,,,,
+c:central:nueva-asuncion,Nueva Asunción,2026-08-28,1,0,0,1,0,0,0
+c:central:nueva-asuncion,Nueva Asunción,2026-08-29,1,0,0,0,0,0,0
+c:central:nueva-asuncion,Nueva Asunción,2026-08-30,1,0,0,1,0,0,0
+c:central:nueva-asuncion,Nueva Asunción,2026-08-31,1,0,0,0,0,0,0
+c:central:nueva-asuncion,Nueva Asunción,2026-09-01,1,0,0,0,0,0,0
+c:central:nueva-asuncion,Nueva Asunción,2026-09-02,1,0,0,2,0,0,0
+c:central:nueva-asuncion,Nueva Asunción,2026-09-03,1,0,0,0,0,0,0
+c:central:nueva-asuncion,Nueva Asunción,2026-09-04,1,0,0,0,0,0,0
+c:central:nueva-asuncion,Nueva Asunción,2026-09-05,1,0,0,0,0,0,0
+c:central:nueva-asuncion,Nueva Asunción,2026-09-06,1,0,0,0,0,0,0
+c:central:nueva-asuncion,Nueva Asunción,2026-09-07,1,0,0,1,0,0,0
+c:central:nueva-asuncion,Nueva Asunción,2026-09-08,1,0,0,1,0,0,0
+c:central:nueva-asuncion,Nueva Asunción,2026-09-09,1,0,0,0,0,0,0
+c:central:nueva-asuncion,Nueva Asunción,2026-09-10,1,0,0,0,0,0,0
+c:central:nueva-asuncion,Nueva Asunción,2026-09-11,1,0,0,0,0,0,0
+c:central:nueva-asuncion,Nueva Asunción,2026-09-12,1,0,0,3,0,0,0
+c:central:nueva-asuncion,Nueva Asunción,2026-09-13,1,0,0,0,0,0,0
+c:central:nueva-asuncion,Nueva Asunción,2026-09-14,1,0,0,0,0,0,0
+c:central:nueva-asuncion,Nueva Asunción,2026-09-15,1,0,0,0,0,0,0
+c:central:nueva-asuncion,Nueva Asunción,2026-09-16,1,0,0,0,0,0,0
+c:central:nueva-asuncion,Nueva Asunción,2026-09-17,1,0,0,0,0,0,0
+c:central:nueva-asuncion,Nueva Asunción,2026-09-18,1,0,0,1,0,0,0
+c:central:nueva-asuncion,Nueva Asunción,2026-09-19,1,0,0,1,0,0,0
+c:central:nueva-asuncion,Nueva Asunción,2026-09-20,1,0,0,1,0,0,0
+c:central:nueva-asuncion,Nueva Asunción,2026-09-21,1,0,0,0,0,0,0
+c:central:nueva-asuncion,Nueva Asunción,2026-09-22,1,0,0,0,0,0,0
+c:central:nueva-asuncion,Nueva Asunción,2026-09-23,1,0,0,0,0,0,0
+d:itapua,Itapúa,2026-08-24,1,0,1,1,0,1,1
+d:itapua,Itapúa,2026-08-25,1,1,1,2,0,0,1
+d:itapua,Itapúa,2026-08-26,1,1,0,2,1,3,1
+d:itapua,Itapúa,2026-08-27,0,,,,,,
+d:itapua,Itapúa,2026-08-28,1,4,0,15,2,3,5
+d:itapua,Itapúa,2026-08-29,1,0,0,1,0,0,0
+d:itapua,Itapúa,2026-08-30,1,1,0,0,0,2,0
+d:itapua,Itapúa,2026-08-31,1,0,0,1,0,0,0
+d:itapua,Itapúa,2026-09-01,1,1,3,8,2,0,3
+d:itapua,Itapúa,2026-09-02,1,2,0,3,1,0,1
+d:itapua,Itapúa,2026-09-03,1,0,0,1,6,0,0
+d:itapua,Itapúa,2026-09-04,1,1,1,4,0,0,1
+d:itapua,Itapúa,2026-09-05,1,1,1,2,0,1,1
+d:itapua,Itapúa,2026-09-06,1,0,0,0,0,0,0
+d:itapua,Itapúa,2026-09-07,1,1,0,0,0,0,0
+d:itapua,Itapúa,2026-09-08,1,3,1,14,7,3,1
+d:itapua,Itapúa,2026-09-09,1,0,0,15,0,0,0
+d:itapua,Itapúa,2026-09-10,1,2,1,3,0,0,0
+d:itapua,Itapúa,2026-09-11,1,0,0,0,0,0,0
+d:itapua,Itapúa,2026-09-12,1,2,0,0,5,0,0
+d:itapua,Itapúa,2026-09-13,1,0,5,0,0,0,0
+d:itapua,Itapúa,2026-09-14,1,0,0,0,0,0,0
+d:itapua,Itapúa,2026-09-15,1,2,1,8,1,1,1
+d:itapua,Itapúa,2026-09-16,1,0,1,5,1,0,0
+d:itapua,Itapúa,2026-09-17,1,1,1,8,2,0,0
+d:itapua,Itapúa,2026-09-18,1,1,0,2,3,0,0
+d:itapua,Itapúa,2026-09-19,1,2,2,3,0,0,0
+d:itapua,Itapúa,2026-09-20,1,1,0,0,2,0,0
+d:itapua,Itapúa,2026-09-21,1,0,0,2,0,0,0
+d:itapua,Itapúa,2026-09-22,1,2,0,1,0,0,4
+d:itapua,Itapúa,2026-09-23,1,1,1,8,3,2,1
+c:itapua:encarnacion,Encarnación,2026-08-24,1,0,0,1,0,0,1
+c:itapua:encarnacion,Encarnación,2026-08-25,1,1,1,1,0,0,1
+c:itapua:encarnacion,Encarnación,2026-08-26,1,1,0,1,1,1,1
+c:itapua:encarnacion,Encarnación,2026-08-27,0,,,,,,
+c:itapua:encarnacion,Encarnación,2026-08-28,1,3,0,10,1,1,3
+c:itapua:encarnacion,Encarnación,2026-08-29,1,0,0,0,0,0,0
+c:itapua:encarnacion,Encarnación,2026-08-30,1,0,0,0,0,0,0
+c:itapua:encarnacion,Encarnación,2026-08-31,1,0,0,0,0,0,0
+c:itapua:encarnacion,Encarnación,2026-09-01,1,0,2,5,2,0,2
+c:itapua:encarnacion,Encarnación,2026-09-02,1,0,0,1,0,0,0
+c:itapua:encarnacion,Encarnación,2026-09-03,1,0,0,1,5,0,0
+c:itapua:encarnacion,Encarnación,2026-09-04,1,0,1,3,0,0,1
+c:itapua:encarnacion,Encarnación,2026-09-05,1,0,0,1,0,0,0
+c:itapua:encarnacion,Encarnación,2026-09-06,1,0,0,0,0,0,0
+c:itapua:encarnacion,Encarnación,2026-09-07,1,0,0,0,0,0,0
+c:itapua:encarnacion,Encarnación,2026-09-08,1,2,0,7,3,1,0
+c:itapua:encarnacion,Encarnación,2026-09-09,1,0,0,12,0,0,0
+c:itapua:encarnacion,Encarnación,2026-09-10,1,2,1,1,0,0,0
+c:itapua:encarnacion,Encarnación,2026-09-11,1,0,0,0,0,0,0
+c:itapua:encarnacion,Encarnación,2026-09-12,1,2,0,0,5,0,0
+c:itapua:encarnacion,Encarnación,2026-09-13,1,0,0,0,0,0,0
+c:itapua:encarnacion,Encarnación,2026-09-14,1,0,0,0,0,0,0
+c:itapua:encarnacion,Encarnación,2026-09-15,1,2,0,2,0,1,0
+c:itapua:encarnacion,Encarnación,2026-09-16,1,0,1,3,0,0,0
+c:itapua:encarnacion,Encarnación,2026-09-17,1,1,1,3,1,0,0
+c:itapua:encarnacion,Encarnación,2026-09-18,1,1,0,2,1,0,0
+c:itapua:encarnacion,Encarnación,2026-09-19,1,1,0,0,0,0,0
+c:itapua:encarnacion,Encarnación,2026-09-20,1,0,0,0,1,0,0
+c:itapua:encarnacion,Encarnación,2026-09-21,1,0,0,2,0,0,0
+c:itapua:encarnacion,Encarnación,2026-09-22,1,1,0,1,0,0,3
+c:itapua:encarnacion,Encarnación,2026-09-23,1,1,1,6,2,0,1
+c:itapua:cambyreta,Cambyretá,2026-08-24,1,0,1,0,0,1,0
+c:itapua:cambyreta,Cambyretá,2026-08-25,1,0,0,0,0,0,0
+c:itapua:cambyreta,Cambyretá,2026-08-26,1,0,0,0,0,1,0
+c:itapua:cambyreta,Cambyretá,2026-08-27,0,,,,,,
+c:itapua:cambyreta,Cambyretá,2026-08-28,1,0,0,3,0,2,2
+c:itapua:cambyreta,Cambyretá,2026-08-29,1,0,0,0,0,0,0
+c:itapua:cambyreta,Cambyretá,2026-08-30,1,0,0,0,0,1,0
+c:itapua:cambyreta,Cambyretá,2026-08-31,1,0,0,1,0,0,0
+c:itapua:cambyreta,Cambyretá,2026-09-01,1,1,0,2,0,0,1
+c:itapua:cambyreta,Cambyretá,2026-09-02,1,1,0,2,1,0,0
+c:itapua:cambyreta,Cambyretá,2026-09-03,1,0,0,0,1,0,0
+c:itapua:cambyreta,Cambyretá,2026-09-04,1,1,0,1,0,0,0
+c:itapua:cambyreta,Cambyretá,2026-09-05,1,1,1,1,0,1,1
+c:itapua:cambyreta,Cambyretá,2026-09-06,1,0,0,0,0,0,0
+c:itapua:cambyreta,Cambyretá,2026-09-07,1,1,0,0,0,0,0
+c:itapua:cambyreta,Cambyretá,2026-09-08,1,1,1,3,3,2,1
+c:itapua:cambyreta,Cambyretá,2026-09-09,1,0,0,0,0,0,0
+c:itapua:cambyreta,Cambyretá,2026-09-10,1,0,0,2,0,0,0
+c:itapua:cambyreta,Cambyretá,2026-09-11,1,0,0,0,0,0,0
+c:itapua:cambyreta,Cambyretá,2026-09-12,1,0,0,0,0,0,0
+c:itapua:cambyreta,Cambyretá,2026-09-13,1,0,5,0,0,0,0
+c:itapua:cambyreta,Cambyretá,2026-09-14,1,0,0,0,0,0,0
+c:itapua:cambyreta,Cambyretá,2026-09-15,1,0,0,0,1,0,1
+c:itapua:cambyreta,Cambyretá,2026-09-16,1,0,0,1,1,0,0
+c:itapua:cambyreta,Cambyretá,2026-09-17,1,0,0,3,1,0,0
+c:itapua:cambyreta,Cambyretá,2026-09-18,1,0,0,0,1,0,0
+c:itapua:cambyreta,Cambyretá,2026-09-19,1,1,2,3,0,0,0
+c:itapua:cambyreta,Cambyretá,2026-09-20,1,1,0,0,1,0,0
+c:itapua:cambyreta,Cambyretá,2026-09-21,1,0,0,0,0,0,0
+c:itapua:cambyreta,Cambyretá,2026-09-22,1,0,0,0,0,0,1
+c:itapua:cambyreta,Cambyretá,2026-09-23,1,0,0,1,1,1,0
+c:itapua:san-juan-del-parana,San Juan del Paraná,2026-08-24,1,0,0,0,0,0,0
+c:itapua:san-juan-del-parana,San Juan del Paraná,2026-08-25,1,0,0,0,0,0,0
+c:itapua:san-juan-del-parana,San Juan del Paraná,2026-08-26,1,0,0,0,0,0,0
+c:itapua:san-juan-del-parana,San Juan del Paraná,2026-08-27,0,,,,,,
+c:itapua:san-juan-del-parana,San Juan del Paraná,2026-08-28,1,0,0,1,0,0,0
+c:itapua:san-juan-del-parana,San Juan del Paraná,2026-08-29,1,0,0,0,0,0,0
+c:itapua:san-juan-del-parana,San Juan del Paraná,2026-08-30,1,0,0,0,0,0,0
+c:itapua:san-juan-del-parana,San Juan del Paraná,2026-08-31,1,0,0,0,0,0,0
+c:itapua:san-juan-del-parana,San Juan del Paraná,2026-09-01,1,0,0,0,0,0,0
+c:itapua:san-juan-del-parana,San Juan del Paraná,2026-09-02,1,0,0,0,0,0,1
+c:itapua:san-juan-del-parana,San Juan del Paraná,2026-09-03,1,0,0,0,0,0,0
+c:itapua:san-juan-del-parana,San Juan del Paraná,2026-09-04,1,0,0,0,0,0,0
+c:itapua:san-juan-del-parana,San Juan del Paraná,2026-09-05,1,0,0,0,0,0,0
+c:itapua:san-juan-del-parana,San Juan del Paraná,2026-09-06,1,0,0,0,0,0,0
+c:itapua:san-juan-del-parana,San Juan del Paraná,2026-09-07,1,0,0,0,0,0,0
+c:itapua:san-juan-del-parana,San Juan del Paraná,2026-09-08,1,0,0,2,0,0,0
+c:itapua:san-juan-del-parana,San Juan del Paraná,2026-09-09,1,0,0,0,0,0,0
+c:itapua:san-juan-del-parana,San Juan del Paraná,2026-09-10,1,0,0,0,0,0,0
+c:itapua:san-juan-del-parana,San Juan del Paraná,2026-09-11,1,0,0,0,0,0,0
+c:itapua:san-juan-del-parana,San Juan del Paraná,2026-09-12,1,0,0,0,0,0,0
+c:itapua:san-juan-del-parana,San Juan del Paraná,2026-09-13,1,0,0,0,0,0,0
+c:itapua:san-juan-del-parana,San Juan del Paraná,2026-09-14,1,0,0,0,0,0,0
+c:itapua:san-juan-del-parana,San Juan del Paraná,2026-09-15,1,0,0,6,0,0,0
+c:itapua:san-juan-del-parana,San Juan del Paraná,2026-09-16,1,0,0,0,0,0,0
+c:itapua:san-juan-del-parana,San Juan del Paraná,2026-09-17,1,0,0,2,0,0,0
+c:itapua:san-juan-del-parana,San Juan del Paraná,2026-09-18,1,0,0,0,1,0,0
+c:itapua:san-juan-del-parana,San Juan del Paraná,2026-09-19,1,0,0,0,0,0,0
+c:itapua:san-juan-del-parana,San Juan del Paraná,2026-09-20,1,0,0,0,0,0,0
+c:itapua:san-juan-del-parana,San Juan del Paraná,2026-09-21,1,0,0,0,0,0,0
+c:itapua:san-juan-del-parana,San Juan del Paraná,2026-09-22,1,1,0,0,0,0,0
+c:itapua:san-juan-del-parana,San Juan del Paraná,2026-09-23,1,0,0,0,0,0,0
+c:itapua:capitan-miranda,Capitán Miranda,2026-08-24,1,0,0,0,0,0,0
+c:itapua:capitan-miranda,Capitán Miranda,2026-08-25,1,0,0,0,0,0,0
+c:itapua:capitan-miranda,Capitán Miranda,2026-08-26,1,0,0,0,0,0,0
+c:itapua:capitan-miranda,Capitán Miranda,2026-08-27,0,,,,,,
+c:itapua:capitan-miranda,Capitán Miranda,2026-08-28,1,1,0,0,0,0,0
+c:itapua:capitan-miranda,Capitán Miranda,2026-08-29,1,0,0,0,0,0,0
+c:itapua:capitan-miranda,Capitán Miranda,2026-08-30,1,0,0,0,0,0,0
+c:itapua:capitan-miranda,Capitán Miranda,2026-08-31,1,0,0,0,0,0,0
+c:itapua:capitan-miranda,Capitán Miranda,2026-09-01,1,0,0,0,0,0,0
+c:itapua:capitan-miranda,Capitán Miranda,2026-09-02,1,0,0,0,0,0,0
+c:itapua:capitan-miranda,Capitán Miranda,2026-09-03,1,0,0,0,0,0,0
+c:itapua:capitan-miranda,Capitán Miranda,2026-09-04,1,0,0,0,0,0,0
+c:itapua:capitan-miranda,Capitán Miranda,2026-09-05,1,0,0,0,0,0,0
+c:itapua:capitan-miranda,Capitán Miranda,2026-09-06,1,0,0,0,0,0,0
+c:itapua:capitan-miranda,Capitán Miranda,2026-09-07,1,0,0,0,0,0,0
+c:itapua:capitan-miranda,Capitán Miranda,2026-09-08,1,0,0,0,0,0,0
+c:itapua:capitan-miranda,Capitán Miranda,2026-09-09,1,0,0,0,0,0,0
+c:itapua:capitan-miranda,Capitán Miranda,2026-09-10,1,0,0,0,0,0,0
+c:itapua:capitan-miranda,Capitán Miranda,2026-09-11,1,0,0,0,0,0,0
+c:itapua:capitan-miranda,Capitán Miranda,2026-09-12,1,0,0,0,0,0,0
+c:itapua:capitan-miranda,Capitán Miranda,2026-09-13,1,0,0,0,0,0,0
+c:itapua:capitan-miranda,Capitán Miranda,2026-09-14,1,0,0,0,0,0,0
+c:itapua:capitan-miranda,Capitán Miranda,2026-09-15,1,0,0,0,0,0,0
+c:itapua:capitan-miranda,Capitán Miranda,2026-09-16,1,0,0,0,0,0,0
+c:itapua:capitan-miranda,Capitán Miranda,2026-09-17,1,0,0,0,0,0,0
+c:itapua:capitan-miranda,Capitán Miranda,2026-09-18,1,0,0,0,0,0,0
+c:itapua:capitan-miranda,Capitán Miranda,2026-09-19,1,0,0,0,0,0,0
+c:itapua:capitan-miranda,Capitán Miranda,2026-09-20,1,0,0,0,0,0,0
+c:itapua:capitan-miranda,Capitán Miranda,2026-09-21,1,0,0,0,0,0,0
+c:itapua:capitan-miranda,Capitán Miranda,2026-09-22,1,0,0,0,0,0,0
+c:itapua:capitan-miranda,Capitán Miranda,2026-09-23,1,0,0,1,0,1,0
+d:cordillera,Cordillera,2026-08-24,1,1,0,6,0,1,0
+d:cordillera,Cordillera,2026-08-25,1,0,0,0,1,0,0
+d:cordillera,Cordillera,2026-08-26,1,2,0,5,15,1,0
+d:cordillera,Cordillera,2026-08-27,0,,,,,,
+d:cordillera,Cordillera,2026-08-28,1,0,0,7,2,1,0
+d:cordillera,Cordillera,2026-08-29,1,0,0,0,0,0,0
+d:cordillera,Cordillera,2026-08-30,1,0,0,1,0,0,0
+d:cordillera,Cordillera,2026-08-31,1,0,0,0,0,0,0
+d:cordillera,Cordillera,2026-09-01,1,2,1,1,0,0,0
+d:cordillera,Cordillera,2026-09-02,1,3,1,2,0,0,0
+d:cordillera,Cordillera,2026-09-03,1,1,0,1,1,0,0
+d:cordillera,Cordillera,2026-09-04,1,0,2,4,0,0,0
+d:cordillera,Cordillera,2026-09-05,1,0,0,1,0,0,0
+d:cordillera,Cordillera,2026-09-06,1,0,0,0,1,0,0
+d:cordillera,Cordillera,2026-09-07,1,0,0,0,0,0,0
+d:cordillera,Cordillera,2026-09-08,1,2,0,9,5,2,0
+d:cordillera,Cordillera,2026-09-09,1,0,0,2,0,0,0
+d:cordillera,Cordillera,2026-09-10,1,1,0,3,1,0,0
+d:cordillera,Cordillera,2026-09-11,1,0,0,1,0,2,0
+d:cordillera,Cordillera,2026-09-12,1,0,0,1,1,0,0
+d:cordillera,Cordillera,2026-09-13,1,0,0,1,0,0,0
+d:cordillera,Cordillera,2026-09-14,1,0,0,1,0,0,0
+d:cordillera,Cordillera,2026-09-15,1,2,2,2,2,1,0
+d:cordillera,Cordillera,2026-09-16,1,0,0,5,9,0,0
+d:cordillera,Cordillera,2026-09-17,1,2,0,0,4,0,1
+d:cordillera,Cordillera,2026-09-18,1,3,0,3,0,0,0
+d:cordillera,Cordillera,2026-09-19,1,0,1,7,2,0,0
+d:cordillera,Cordillera,2026-09-20,1,1,0,0,0,0,0
+d:cordillera,Cordillera,2026-09-21,1,0,0,0,0,1,0
+d:cordillera,Cordillera,2026-09-22,1,1,0,4,0,0,0
+d:cordillera,Cordillera,2026-09-23,1,2,0,0,2,0,0
+c:cordillera:san-bernardino,San Bernardino,2026-08-24,1,1,0,0,0,0,0
+c:cordillera:san-bernardino,San Bernardino,2026-08-25,1,0,0,0,0,0,0
+c:cordillera:san-bernardino,San Bernardino,2026-08-26,1,2,0,3,6,1,0
+c:cordillera:san-bernardino,San Bernardino,2026-08-27,0,,,,,,
+c:cordillera:san-bernardino,San Bernardino,2026-08-28,1,0,0,5,1,1,0
+c:cordillera:san-bernardino,San Bernardino,2026-08-29,1,0,0,0,0,0,0
+c:cordillera:san-bernardino,San Bernardino,2026-08-30,1,0,0,1,0,0,0
+c:cordillera:san-bernardino,San Bernardino,2026-08-31,1,0,0,0,0,0,0
+c:cordillera:san-bernardino,San Bernardino,2026-09-01,1,1,0,0,0,0,0
+c:cordillera:san-bernardino,San Bernardino,2026-09-02,1,1,0,0,0,0,0
+c:cordillera:san-bernardino,San Bernardino,2026-09-03,1,0,0,0,1,0,0
+c:cordillera:san-bernardino,San Bernardino,2026-09-04,1,0,2,3,0,0,0
+c:cordillera:san-bernardino,San Bernardino,2026-09-05,1,0,0,0,0,0,0
+c:cordillera:san-bernardino,San Bernardino,2026-09-06,1,0,0,0,0,0,0
+c:cordillera:san-bernardino,San Bernardino,2026-09-07,1,0,0,0,0,0,0
+c:cordillera:san-bernardino,San Bernardino,2026-09-08,1,0,0,2,1,2,0
+c:cordillera:san-bernardino,San Bernardino,2026-09-09,1,0,0,1,0,0,0
+c:cordillera:san-bernardino,San Bernardino,2026-09-10,1,0,0,3,0,0,0
+c:cordillera:san-bernardino,San Bernardino,2026-09-11,1,0,0,0,0,0,0
+c:cordillera:san-bernardino,San Bernardino,2026-09-12,1,0,0,0,1,0,0
+c:cordillera:san-bernardino,San Bernardino,2026-09-13,1,0,0,1,0,0,0
+c:cordillera:san-bernardino,San Bernardino,2026-09-14,1,0,0,1,0,0,0
+c:cordillera:san-bernardino,San Bernardino,2026-09-15,1,1,2,1,2,1,0
+c:cordillera:san-bernardino,San Bernardino,2026-09-16,1,0,0,4,3,0,0
+c:cordillera:san-bernardino,San Bernardino,2026-09-17,1,1,0,0,3,0,0
+c:cordillera:san-bernardino,San Bernardino,2026-09-18,1,1,0,2,0,0,0
+c:cordillera:san-bernardino,San Bernardino,2026-09-19,1,0,0,5,2,0,0
+c:cordillera:san-bernardino,San Bernardino,2026-09-20,1,0,0,0,0,0,0
+c:cordillera:san-bernardino,San Bernardino,2026-09-21,1,0,0,0,0,1,0
+c:cordillera:san-bernardino,San Bernardino,2026-09-22,1,0,0,3,0,0,0
+c:cordillera:san-bernardino,San Bernardino,2026-09-23,1,1,0,0,2,0,0
+c:cordillera:altos,Altos,2026-08-24,1,0,0,0,0,0,0
+c:cordillera:altos,Altos,2026-08-25,1,0,0,0,0,0,0
+c:cordillera:altos,Altos,2026-08-26,1,0,0,0,0,0,0
+c:cordillera:altos,Altos,2026-08-27,0,,,,,,
+c:cordillera:altos,Altos,2026-08-28,1,0,0,0,0,0,0
+c:cordillera:altos,Altos,2026-08-29,1,0,0,0,0,0,0
+c:cordillera:altos,Altos,2026-08-30,1,0,0,0,0,0,0
+c:cordillera:altos,Altos,2026-08-31,1,0,0,0,0,0,0
+c:cordillera:altos,Altos,2026-09-01,1,0,0,0,0,0,0
+c:cordillera:altos,Altos,2026-09-02,1,0,1,0,0,0,0
+c:cordillera:altos,Altos,2026-09-03,1,0,0,0,0,0,0
+c:cordillera:altos,Altos,2026-09-04,1,0,0,0,0,0,0
+c:cordillera:altos,Altos,2026-09-05,1,0,0,0,0,0,0
+c:cordillera:altos,Altos,2026-09-06,1,0,0,0,0,0,0
+c:cordillera:altos,Altos,2026-09-07,1,0,0,0,0,0,0
+c:cordillera:altos,Altos,2026-09-08,1,1,0,1,0,0,0
+c:cordillera:altos,Altos,2026-09-09,1,0,0,0,0,0,0
+c:cordillera:altos,Altos,2026-09-10,1,0,0,0,0,0,0
+c:cordillera:altos,Altos,2026-09-11,1,0,0,0,0,1,0
+c:cordillera:altos,Altos,2026-09-12,1,0,0,0,0,0,0
+c:cordillera:altos,Altos,2026-09-13,1,0,0,0,0,0,0
+c:cordillera:altos,Altos,2026-09-14,1,0,0,0,0,0,0
+c:cordillera:altos,Altos,2026-09-15,1,1,0,0,0,0,0
+c:cordillera:altos,Altos,2026-09-16,1,0,0,0,1,0,0
+c:cordillera:altos,Altos,2026-09-17,1,0,0,0,0,0,1
+c:cordillera:altos,Altos,2026-09-18,1,0,0,0,0,0,0
+c:cordillera:altos,Altos,2026-09-19,1,0,1,0,0,0,0
+c:cordillera:altos,Altos,2026-09-20,1,0,0,0,0,0,0
+c:cordillera:altos,Altos,2026-09-21,1,0,0,0,0,0,0
+c:cordillera:altos,Altos,2026-09-22,1,0,0,1,0,0,0
+c:cordillera:altos,Altos,2026-09-23,1,0,0,0,0,0,0
+c:cordillera:caacupe,Caacupé,2026-08-24,1,0,0,4,0,0,0
+c:cordillera:caacupe,Caacupé,2026-08-25,1,0,0,0,0,0,0
+c:cordillera:caacupe,Caacupé,2026-08-26,1,0,0,0,0,0,0
+c:cordillera:caacupe,Caacupé,2026-08-27,0,,,,,,
+c:cordillera:caacupe,Caacupé,2026-08-28,1,0,0,0,1,0,0
+c:cordillera:caacupe,Caacupé,2026-08-29,1,0,0,0,0,0,0
+c:cordillera:caacupe,Caacupé,2026-08-30,1,0,0,0,0,0,0
+c:cordillera:caacupe,Caacupé,2026-08-31,1,0,0,0,0,0,0
+c:cordillera:caacupe,Caacupé,2026-09-01,1,0,0,0,0,0,0
+c:cordillera:caacupe,Caacupé,2026-09-02,1,1,0,0,0,0,0
+c:cordillera:caacupe,Caacupé,2026-09-03,1,0,0,0,0,0,0
+c:cordillera:caacupe,Caacupé,2026-09-04,1,0,0,1,0,0,0
+c:cordillera:caacupe,Caacupé,2026-09-05,1,0,0,0,0,0,0
+c:cordillera:caacupe,Caacupé,2026-09-06,1,0,0,0,1,0,0
+c:cordillera:caacupe,Caacupé,2026-09-07,1,0,0,0,0,0,0
+c:cordillera:caacupe,Caacupé,2026-09-08,1,0,0,3,2,0,0
+c:cordillera:caacupe,Caacupé,2026-09-09,1,0,0,0,0,0,0
+c:cordillera:caacupe,Caacupé,2026-09-10,1,0,0,0,0,0,0
+c:cordillera:caacupe,Caacupé,2026-09-11,1,0,0,0,0,0,0
+c:cordillera:caacupe,Caacupé,2026-09-12,1,0,0,1,0,0,0
+c:cordillera:caacupe,Caacupé,2026-09-13,1,0,0,0,0,0,0
+c:cordillera:caacupe,Caacupé,2026-09-14,1,0,0,0,0,0,0
+c:cordillera:caacupe,Caacupé,2026-09-15,1,0,0,0,0,0,0
+c:cordillera:caacupe,Caacupé,2026-09-16,1,0,0,1,3,0,0
+c:cordillera:caacupe,Caacupé,2026-09-17,1,0,0,0,0,0,0
+c:cordillera:caacupe,Caacupé,2026-09-18,1,0,0,1,0,0,0
+c:cordillera:caacupe,Caacupé,2026-09-19,1,0,0,0,0,0,0
+c:cordillera:caacupe,Caacupé,2026-09-20,1,1,0,0,0,0,0
+c:cordillera:caacupe,Caacupé,2026-09-21,1,0,0,0,0,0,0
+c:cordillera:caacupe,Caacupé,2026-09-22,1,1,0,0,0,0,0
+c:cordillera:caacupe,Caacupé,2026-09-23,1,0,0,0,0,0,0
+d:alto-parana,Alto Paraná,2026-08-24,1,1,0,4,0,0,0
+d:alto-parana,Alto Paraná,2026-08-25,1,0,0,0,0,0,0
+d:alto-parana,Alto Paraná,2026-08-26,1,0,0,8,0,0,0
+d:alto-parana,Alto Paraná,2026-08-27,0,,,,,,
+d:alto-parana,Alto Paraná,2026-08-28,1,2,1,6,1,1,0
+d:alto-parana,Alto Paraná,2026-08-29,1,0,0,1,0,0,0
+d:alto-parana,Alto Paraná,2026-08-30,1,0,0,0,0,0,0
+d:alto-parana,Alto Paraná,2026-08-31,1,1,0,1,0,0,0
+d:alto-parana,Alto Paraná,2026-09-01,1,6,0,8,2,1,0
+d:alto-parana,Alto Paraná,2026-09-02,1,1,0,4,0,0,1
+d:alto-parana,Alto Paraná,2026-09-03,1,0,0,6,0,0,0
+d:alto-parana,Alto Paraná,2026-09-04,1,2,0,2,3,1,0
+d:alto-parana,Alto Paraná,2026-09-05,1,0,0,2,0,1,2
+d:alto-parana,Alto Paraná,2026-09-06,1,0,0,2,0,0,0
+d:alto-parana,Alto Paraná,2026-09-07,1,0,0,2,0,0,0
+d:alto-parana,Alto Paraná,2026-09-08,1,1,1,7,0,0,1
+d:alto-parana,Alto Paraná,2026-09-09,1,0,0,3,0,0,0
+d:alto-parana,Alto Paraná,2026-09-10,1,0,0,6,0,1,1
+d:alto-parana,Alto Paraná,2026-09-11,1,1,0,4,3,2,1
+d:alto-parana,Alto Paraná,2026-09-12,1,1,0,2,1,3,2
+d:alto-parana,Alto Paraná,2026-09-13,1,0,0,0,0,0,0
+d:alto-parana,Alto Paraná,2026-09-14,1,0,0,0,0,0,0
+d:alto-parana,Alto Paraná,2026-09-15,1,1,1,2,1,1,0
+d:alto-parana,Alto Paraná,2026-09-16,1,4,1,10,0,0,0
+d:alto-parana,Alto Paraná,2026-09-17,1,1,1,1,4,2,1
+d:alto-parana,Alto Paraná,2026-09-18,1,1,0,6,0,0,0
+d:alto-parana,Alto Paraná,2026-09-19,1,2,0,7,2,2,0
+d:alto-parana,Alto Paraná,2026-09-20,1,0,0,0,0,1,0
+d:alto-parana,Alto Paraná,2026-09-21,1,1,0,5,4,0,0
+d:alto-parana,Alto Paraná,2026-09-22,1,0,0,6,3,1,0
+d:alto-parana,Alto Paraná,2026-09-23,1,5,0,4,5,0,2
+c:alto-parana:ciudad-del-este,Ciudad del Este,2026-08-24,1,1,0,2,0,0,0
+c:alto-parana:ciudad-del-este,Ciudad del Este,2026-08-25,1,0,0,0,0,0,0
+c:alto-parana:ciudad-del-este,Ciudad del Este,2026-08-26,1,0,0,2,0,0,0
+c:alto-parana:ciudad-del-este,Ciudad del Este,2026-08-27,0,,,,,,
+c:alto-parana:ciudad-del-este,Ciudad del Este,2026-08-28,1,1,0,6,1,1,0
+c:alto-parana:ciudad-del-este,Ciudad del Este,2026-08-29,1,0,0,0,0,0,0
+c:alto-parana:ciudad-del-este,Ciudad del Este,2026-08-30,1,0,0,0,0,0,0
+c:alto-parana:ciudad-del-este,Ciudad del Este,2026-08-31,1,1,0,0,0,0,0
+c:alto-parana:ciudad-del-este,Ciudad del Este,2026-09-01,1,1,0,2,1,0,0
+c:alto-parana:ciudad-del-este,Ciudad del Este,2026-09-02,1,0,0,2,0,0,1
+c:alto-parana:ciudad-del-este,Ciudad del Este,2026-09-03,1,0,0,2,0,0,0
+c:alto-parana:ciudad-del-este,Ciudad del Este,2026-09-04,1,2,0,1,1,1,0
+c:alto-parana:ciudad-del-este,Ciudad del Este,2026-09-05,1,0,0,2,0,1,1
+c:alto-parana:ciudad-del-este,Ciudad del Este,2026-09-06,1,0,0,1,0,0,0
+c:alto-parana:ciudad-del-este,Ciudad del Este,2026-09-07,1,0,0,1,0,0,0
+c:alto-parana:ciudad-del-este,Ciudad del Este,2026-09-08,1,0,0,2,0,0,0
+c:alto-parana:ciudad-del-este,Ciudad del Este,2026-09-09,1,0,0,3,0,0,0
+c:alto-parana:ciudad-del-este,Ciudad del Este,2026-09-10,1,0,0,2,0,1,0
+c:alto-parana:ciudad-del-este,Ciudad del Este,2026-09-11,1,0,0,1,0,1,0
+c:alto-parana:ciudad-del-este,Ciudad del Este,2026-09-12,1,0,0,2,0,1,1
+c:alto-parana:ciudad-del-este,Ciudad del Este,2026-09-13,1,0,0,0,0,0,0
+c:alto-parana:ciudad-del-este,Ciudad del Este,2026-09-14,1,0,0,0,0,0,0
+c:alto-parana:ciudad-del-este,Ciudad del Este,2026-09-15,1,1,1,2,1,1,0
+c:alto-parana:ciudad-del-este,Ciudad del Este,2026-09-16,1,0,0,5,0,0,0
+c:alto-parana:ciudad-del-este,Ciudad del Este,2026-09-17,1,1,0,0,1,2,1
+c:alto-parana:ciudad-del-este,Ciudad del Este,2026-09-18,1,1,0,4,0,0,0
+c:alto-parana:ciudad-del-este,Ciudad del Este,2026-09-19,1,1,0,4,2,1,0
+c:alto-parana:ciudad-del-este,Ciudad del Este,2026-09-20,1,0,0,0,0,1,0
+c:alto-parana:ciudad-del-este,Ciudad del Este,2026-09-21,1,1,0,5,0,0,0
+c:alto-parana:ciudad-del-este,Ciudad del Este,2026-09-22,1,0,0,1,3,1,0
+c:alto-parana:ciudad-del-este,Ciudad del Este,2026-09-23,1,2,0,0,1,0,2
+c:alto-parana:hernandarias,Hernandarias,2026-08-24,1,0,0,0,0,0,0
+c:alto-parana:hernandarias,Hernandarias,2026-08-25,1,0,0,0,0,0,0
+c:alto-parana:hernandarias,Hernandarias,2026-08-26,1,0,0,5,0,0,0
+c:alto-parana:hernandarias,Hernandarias,2026-08-27,0,,,,,,
+c:alto-parana:hernandarias,Hernandarias,2026-08-28,1,0,0,0,0,0,0
+c:alto-parana:hernandarias,Hernandarias,2026-08-29,1,0,0,1,0,0,0
+c:alto-parana:hernandarias,Hernandarias,2026-08-30,1,0,0,0,0,0,0
+c:alto-parana:hernandarias,Hernandarias,2026-08-31,1,0,0,1,0,0,0
+c:alto-parana:hernandarias,Hernandarias,2026-09-01,1,0,0,6,1,0,0
+c:alto-parana:hernandarias,Hernandarias,2026-09-02,1,1,0,1,0,0,0
+c:alto-parana:hernandarias,Hernandarias,2026-09-03,1,0,0,1,0,0,0
+c:alto-parana:hernandarias,Hernandarias,2026-09-04,1,0,0,0,0,0,0
+c:alto-parana:hernandarias,Hernandarias,2026-09-05,1,0,0,0,0,0,0
+c:alto-parana:hernandarias,Hernandarias,2026-09-06,1,0,0,0,0,0,0
+c:alto-parana:hernandarias,Hernandarias,2026-09-07,1,0,0,1,0,0,0
+c:alto-parana:hernandarias,Hernandarias,2026-09-08,1,0,0,1,0,0,0
+c:alto-parana:hernandarias,Hernandarias,2026-09-09,1,0,0,0,0,0,0
+c:alto-parana:hernandarias,Hernandarias,2026-09-10,1,0,0,1,0,0,0
+c:alto-parana:hernandarias,Hernandarias,2026-09-11,1,1,0,0,0,0,1
+c:alto-parana:hernandarias,Hernandarias,2026-09-12,1,0,0,0,1,1,0
+c:alto-parana:hernandarias,Hernandarias,2026-09-13,1,0,0,0,0,0,0
+c:alto-parana:hernandarias,Hernandarias,2026-09-14,1,0,0,0,0,0,0
+c:alto-parana:hernandarias,Hernandarias,2026-09-15,1,0,0,0,0,0,0
+c:alto-parana:hernandarias,Hernandarias,2026-09-16,1,0,0,2,0,0,0
+c:alto-parana:hernandarias,Hernandarias,2026-09-17,1,0,1,0,0,0,0
+c:alto-parana:hernandarias,Hernandarias,2026-09-18,1,0,0,0,0,0,0
+c:alto-parana:hernandarias,Hernandarias,2026-09-19,1,0,0,2,0,0,0
+c:alto-parana:hernandarias,Hernandarias,2026-09-20,1,0,0,0,0,0,0
+c:alto-parana:hernandarias,Hernandarias,2026-09-21,1,0,0,0,2,0,0
+c:alto-parana:hernandarias,Hernandarias,2026-09-22,1,0,0,1,0,0,0
+c:alto-parana:hernandarias,Hernandarias,2026-09-23,1,2,0,2,2,0,0
+c:alto-parana:minga-guazu,Minga Guazú,2026-08-24,1,0,0,0,0,0,0
+c:alto-parana:minga-guazu,Minga Guazú,2026-08-25,1,0,0,0,0,0,0
+c:alto-parana:minga-guazu,Minga Guazú,2026-08-26,1,0,0,0,0,0,0
+c:alto-parana:minga-guazu,Minga Guazú,2026-08-27,0,,,,,,
+c:alto-parana:minga-guazu,Minga Guazú,2026-08-28,1,0,0,0,0,0,0
+c:alto-parana:minga-guazu,Minga Guazú,2026-08-29,1,0,0,0,0,0,0
+c:alto-parana:minga-guazu,Minga Guazú,2026-08-30,1,0,0,0,0,0,0
+c:alto-parana:minga-guazu,Minga Guazú,2026-08-31,1,0,0,0,0,0,0
+c:alto-parana:minga-guazu,Minga Guazú,2026-09-01,1,0,0,0,0,0,0
+c:alto-parana:minga-guazu,Minga Guazú,2026-09-02,1,0,0,0,0,0,0
+c:alto-parana:minga-guazu,Minga Guazú,2026-09-03,1,0,0,0,0,0,0
+c:alto-parana:minga-guazu,Minga Guazú,2026-09-04,1,0,0,0,2,0,0
+c:alto-parana:minga-guazu,Minga Guazú,2026-09-05,1,0,0,0,0,0,0
+c:alto-parana:minga-guazu,Minga Guazú,2026-09-06,1,0,0,0,0,0,0
+c:alto-parana:minga-guazu,Minga Guazú,2026-09-07,1,0,0,0,0,0,0
+c:alto-parana:minga-guazu,Minga Guazú,2026-09-08,1,0,0,1,0,0,0
+c:alto-parana:minga-guazu,Minga Guazú,2026-09-09,1,0,0,0,0,0,0
+c:alto-parana:minga-guazu,Minga Guazú,2026-09-10,1,0,0,0,0,0,0
+c:alto-parana:minga-guazu,Minga Guazú,2026-09-11,1,0,0,0,0,1,0
+c:alto-parana:minga-guazu,Minga Guazú,2026-09-12,1,0,0,0,0,0,0
+c:alto-parana:minga-guazu,Minga Guazú,2026-09-13,1,0,0,0,0,0,0
+c:alto-parana:minga-guazu,Minga Guazú,2026-09-14,1,0,0,0,0,0,0
+c:alto-parana:minga-guazu,Minga Guazú,2026-09-15,1,0,0,0,0,0,0
+c:alto-parana:minga-guazu,Minga Guazú,2026-09-16,1,0,0,0,0,0,0
+c:alto-parana:minga-guazu,Minga Guazú,2026-09-17,1,0,0,1,3,0,0
+c:alto-parana:minga-guazu,Minga Guazú,2026-09-18,1,0,0,0,0,0,0
+c:alto-parana:minga-guazu,Minga Guazú,2026-09-19,1,0,0,1,0,0,0
+c:alto-parana:minga-guazu,Minga Guazú,2026-09-20,1,0,0,0,0,0,0
+c:alto-parana:minga-guazu,Minga Guazú,2026-09-21,1,0,0,0,2,0,0
+c:alto-parana:minga-guazu,Minga Guazú,2026-09-22,1,0,0,3,0,0,0
+c:alto-parana:minga-guazu,Minga Guazú,2026-09-23,1,0,0,0,1,0,0
+c:alto-parana:presidente-franco,Presidente Franco,2026-08-24,1,0,0,1,0,0,0
+c:alto-parana:presidente-franco,Presidente Franco,2026-08-25,1,0,0,0,0,0,0
+c:alto-parana:presidente-franco,Presidente Franco,2026-08-26,1,0,0,1,0,0,0
+c:alto-parana:presidente-franco,Presidente Franco,2026-08-27,0,,,,,,
+c:alto-parana:presidente-franco,Presidente Franco,2026-08-28,1,1,0,0,0,0,0
+c:alto-parana:presidente-franco,Presidente Franco,2026-08-29,1,0,0,0,0,0,0
+c:alto-parana:presidente-franco,Presidente Franco,2026-08-30,1,0,0,0,0,0,0
+c:alto-parana:presidente-franco,Presidente Franco,2026-08-31,1,0,0,0,0,0,0
+c:alto-parana:presidente-franco,Presidente Franco,2026-09-01,1,0,0,0,0,0,0
+c:alto-parana:presidente-franco,Presidente Franco,2026-09-02,1,0,0,0,0,0,0
+c:alto-parana:presidente-franco,Presidente Franco,2026-09-03,1,0,0,0,0,0,0
+c:alto-parana:presidente-franco,Presidente Franco,2026-09-04,1,0,0,0,0,0,0
+c:alto-parana:presidente-franco,Presidente Franco,2026-09-05,1,0,0,0,0,0,0
+c:alto-parana:presidente-franco,Presidente Franco,2026-09-06,1,0,0,1,0,0,0
+c:alto-parana:presidente-franco,Presidente Franco,2026-09-07,1,0,0,0,0,0,0
+c:alto-parana:presidente-franco,Presidente Franco,2026-09-08,1,1,0,0,0,0,0
+c:alto-parana:presidente-franco,Presidente Franco,2026-09-09,1,0,0,0,0,0,0
+c:alto-parana:presidente-franco,Presidente Franco,2026-09-10,1,0,0,0,0,0,0
+c:alto-parana:presidente-franco,Presidente Franco,2026-09-11,1,0,0,1,0,0,0
+c:alto-parana:presidente-franco,Presidente Franco,2026-09-12,1,0,0,0,0,0,0
+c:alto-parana:presidente-franco,Presidente Franco,2026-09-13,1,0,0,0,0,0,0
+c:alto-parana:presidente-franco,Presidente Franco,2026-09-14,1,0,0,0,0,0,0
+c:alto-parana:presidente-franco,Presidente Franco,2026-09-15,1,0,0,0,0,0,0
+c:alto-parana:presidente-franco,Presidente Franco,2026-09-16,1,0,0,0,0,0,0
+c:alto-parana:presidente-franco,Presidente Franco,2026-09-17,1,0,0,0,0,0,0
+c:alto-parana:presidente-franco,Presidente Franco,2026-09-18,1,0,0,0,0,0,0
+c:alto-parana:presidente-franco,Presidente Franco,2026-09-19,1,0,0,0,0,0,0
+c:alto-parana:presidente-franco,Presidente Franco,2026-09-20,1,0,0,0,0,0,0
+c:alto-parana:presidente-franco,Presidente Franco,2026-09-21,1,0,0,0,0,0,0
+c:alto-parana:presidente-franco,Presidente Franco,2026-09-22,1,0,0,0,0,0,0
+c:alto-parana:presidente-franco,Presidente Franco,2026-09-23,1,1,0,1,0,0,0
+d:presidente-hayes,Presidente Hayes,2026-08-24,1,0,0,1,0,0,0
+d:presidente-hayes,Presidente Hayes,2026-08-25,1,0,0,0,0,0,0
+d:presidente-hayes,Presidente Hayes,2026-08-26,1,0,0,0,1,0,0
+d:presidente-hayes,Presidente Hayes,2026-08-27,0,,,,,,
+d:presidente-hayes,Presidente Hayes,2026-08-28,1,2,0,1,0,0,0
+d:presidente-hayes,Presidente Hayes,2026-08-29,1,0,0,0,0,0,0
+d:presidente-hayes,Presidente Hayes,2026-08-30,1,0,0,1,3,0,0
+d:presidente-hayes,Presidente Hayes,2026-08-31,1,0,0,0,0,0,0
+d:presidente-hayes,Presidente Hayes,2026-09-01,1,0,0,0,0,0,0
+d:presidente-hayes,Presidente Hayes,2026-09-02,1,1,0,2,1,0,0
+d:presidente-hayes,Presidente Hayes,2026-09-03,1,0,0,1,0,0,0
+d:presidente-hayes,Presidente Hayes,2026-09-04,1,0,0,0,0,0,0
+d:presidente-hayes,Presidente Hayes,2026-09-05,1,0,0,0,0,0,0
+d:presidente-hayes,Presidente Hayes,2026-09-06,1,0,0,0,1,0,0
+d:presidente-hayes,Presidente Hayes,2026-09-07,1,0,0,1,0,0,0
+d:presidente-hayes,Presidente Hayes,2026-09-08,1,0,0,0,3,0,0
+d:presidente-hayes,Presidente Hayes,2026-09-09,1,0,0,0,0,0,0
+d:presidente-hayes,Presidente Hayes,2026-09-10,1,0,1,0,0,0,0
+d:presidente-hayes,Presidente Hayes,2026-09-11,1,0,0,0,0,0,0
+d:presidente-hayes,Presidente Hayes,2026-09-12,1,0,0,0,0,0,0
+d:presidente-hayes,Presidente Hayes,2026-09-13,1,0,0,0,0,0,0
+d:presidente-hayes,Presidente Hayes,2026-09-14,1,0,0,0,0,0,0
+d:presidente-hayes,Presidente Hayes,2026-09-15,1,0,0,0,0,0,0
+d:presidente-hayes,Presidente Hayes,2026-09-16,1,0,0,0,1,0,0
+d:presidente-hayes,Presidente Hayes,2026-09-17,1,0,0,1,0,0,0
+d:presidente-hayes,Presidente Hayes,2026-09-18,1,0,0,1,0,0,0
+d:presidente-hayes,Presidente Hayes,2026-09-19,1,0,0,0,0,0,0
+d:presidente-hayes,Presidente Hayes,2026-09-20,1,0,0,0,0,0,0
+d:presidente-hayes,Presidente Hayes,2026-09-21,1,0,0,0,0,0,0
+d:presidente-hayes,Presidente Hayes,2026-09-22,1,0,0,0,0,0,0
+d:presidente-hayes,Presidente Hayes,2026-09-23,1,1,0,0,0,0,0
+c:presidente-hayes:villa-hayes,Villa Hayes,2026-08-24,1,0,0,0,0,0,0
+c:presidente-hayes:villa-hayes,Villa Hayes,2026-08-25,1,0,0,0,0,0,0
+c:presidente-hayes:villa-hayes,Villa Hayes,2026-08-26,1,0,0,0,1,0,0
+c:presidente-hayes:villa-hayes,Villa Hayes,2026-08-27,0,,,,,,
+c:presidente-hayes:villa-hayes,Villa Hayes,2026-08-28,1,2,0,1,0,0,0
+c:presidente-hayes:villa-hayes,Villa Hayes,2026-08-29,1,0,0,0,0,0,0
+c:presidente-hayes:villa-hayes,Villa Hayes,2026-08-30,1,0,0,1,0,0,0
+c:presidente-hayes:villa-hayes,Villa Hayes,2026-08-31,1,0,0,0,0,0,0
+c:presidente-hayes:villa-hayes,Villa Hayes,2026-09-01,1,0,0,0,0,0,0
+c:presidente-hayes:villa-hayes,Villa Hayes,2026-09-02,1,1,0,2,1,0,0
+c:presidente-hayes:villa-hayes,Villa Hayes,2026-09-03,1,0,0,1,0,0,0
+c:presidente-hayes:villa-hayes,Villa Hayes,2026-09-04,1,0,0,0,0,0,0
+c:presidente-hayes:villa-hayes,Villa Hayes,2026-09-05,1,0,0,0,0,0,0
+c:presidente-hayes:villa-hayes,Villa Hayes,2026-09-06,1,0,0,0,0,0,0
+c:presidente-hayes:villa-hayes,Villa Hayes,2026-09-07,1,0,0,0,0,0,0
+c:presidente-hayes:villa-hayes,Villa Hayes,2026-09-08,1,0,0,0,1,0,0
+c:presidente-hayes:villa-hayes,Villa Hayes,2026-09-09,1,0,0,0,0,0,0
+c:presidente-hayes:villa-hayes,Villa Hayes,2026-09-10,1,0,0,0,0,0,0
+c:presidente-hayes:villa-hayes,Villa Hayes,2026-09-11,1,0,0,0,0,0,0
+c:presidente-hayes:villa-hayes,Villa Hayes,2026-09-12,1,0,0,0,0,0,0
+c:presidente-hayes:villa-hayes,Villa Hayes,2026-09-13,1,0,0,0,0,0,0
+c:presidente-hayes:villa-hayes,Villa Hayes,2026-09-14,1,0,0,0,0,0,0
+c:presidente-hayes:villa-hayes,Villa Hayes,2026-09-15,1,0,0,0,0,0,0
+c:presidente-hayes:villa-hayes,Villa Hayes,2026-09-16,1,0,0,0,0,0,0
+c:presidente-hayes:villa-hayes,Villa Hayes,2026-09-17,1,0,0,1,0,0,0
+c:presidente-hayes:villa-hayes,Villa Hayes,2026-09-18,1,0,0,0,0,0,0
+c:presidente-hayes:villa-hayes,Villa Hayes,2026-09-19,1,0,0,0,0,0,0
+c:presidente-hayes:villa-hayes,Villa Hayes,2026-09-20,1,0,0,0,0,0,0
+c:presidente-hayes:villa-hayes,Villa Hayes,2026-09-21,1,0,0,0,0,0,0
+c:presidente-hayes:villa-hayes,Villa Hayes,2026-09-22,1,0,0,0,0,0,0
+c:presidente-hayes:villa-hayes,Villa Hayes,2026-09-23,1,1,0,0,0,0,0
+d:boqueron,Boquerón,2026-08-24,1,0,0,0,0,0,1
+d:boqueron,Boquerón,2026-08-25,1,0,0,0,0,0,1
+d:boqueron,Boquerón,2026-08-26,1,0,1,0,0,0,0
+d:boqueron,Boquerón,2026-08-27,0,,,,,,
+d:boqueron,Boquerón,2026-08-28,1,2,0,1,0,1,1
+d:boqueron,Boquerón,2026-08-29,1,0,0,0,0,0,0
+d:boqueron,Boquerón,2026-08-30,1,0,0,0,0,0,0
+d:boqueron,Boquerón,2026-08-31,1,0,0,0,0,0,0
+d:boqueron,Boquerón,2026-09-01,1,0,0,2,0,1,0
+d:boqueron,Boquerón,2026-09-02,1,0,0,3,0,0,0
+d:boqueron,Boquerón,2026-09-03,1,0,0,0,0,0,2
+d:boqueron,Boquerón,2026-09-04,1,0,0,1,0,0,0
+d:boqueron,Boquerón,2026-09-05,1,0,0,0,0,0,0
+d:boqueron,Boquerón,2026-09-06,1,0,0,0,0,0,0
+d:boqueron,Boquerón,2026-09-07,1,0,0,0,0,0,0
+d:boqueron,Boquerón,2026-09-08,1,1,0,0,6,0,1
+d:boqueron,Boquerón,2026-09-09,1,0,0,0,0,0,0
+d:boqueron,Boquerón,2026-09-10,1,2,0,3,0,0,1
+d:boqueron,Boquerón,2026-09-11,1,0,0,1,0,0,0
+d:boqueron,Boquerón,2026-09-12,1,0,0,3,0,0,0
+d:boqueron,Boquerón,2026-09-13,1,0,0,1,0,0,0
+d:boqueron,Boquerón,2026-09-14,1,0,0,0,0,1,0
+d:boqueron,Boquerón,2026-09-15,1,1,0,0,1,0,1
+d:boqueron,Boquerón,2026-09-16,1,0,0,2,0,0,0
+d:boqueron,Boquerón,2026-09-17,1,0,0,0,0,1,0
+d:boqueron,Boquerón,2026-09-18,1,1,0,0,0,0,0
+d:boqueron,Boquerón,2026-09-19,1,0,0,1,0,0,0
+d:boqueron,Boquerón,2026-09-20,1,0,0,0,0,0,0
+d:boqueron,Boquerón,2026-09-21,1,0,0,0,0,0,0
+d:boqueron,Boquerón,2026-09-22,1,4,1,0,0,0,0
+d:boqueron,Boquerón,2026-09-23,1,0,0,1,0,0,0
+c:boqueron:loma-plata,Loma Plata,2026-08-24,1,0,0,0,0,0,1
+c:boqueron:loma-plata,Loma Plata,2026-08-25,1,0,0,0,0,0,1
+c:boqueron:loma-plata,Loma Plata,2026-08-26,1,0,0,0,0,0,0
+c:boqueron:loma-plata,Loma Plata,2026-08-27,0,,,,,,
+c:boqueron:loma-plata,Loma Plata,2026-08-28,1,0,0,0,0,0,0
+c:boqueron:loma-plata,Loma Plata,2026-08-29,1,0,0,0,0,0,0
+c:boqueron:loma-plata,Loma Plata,2026-08-30,1,0,0,0,0,0,0
+c:boqueron:loma-plata,Loma Plata,2026-08-31,1,0,0,0,0,0,0
+c:boqueron:loma-plata,Loma Plata,2026-09-01,1,0,0,2,0,1,0
+c:boqueron:loma-plata,Loma Plata,2026-09-02,1,0,0,2,0,0,0
+c:boqueron:loma-plata,Loma Plata,2026-09-03,1,0,0,0,0,0,2
+c:boqueron:loma-plata,Loma Plata,2026-09-04,1,0,0,0,0,0,0
+c:boqueron:loma-plata,Loma Plata,2026-09-05,1,0,0,0,0,0,0
+c:boqueron:loma-plata,Loma Plata,2026-09-06,1,0,0,0,0,0,0
+c:boqueron:loma-plata,Loma Plata,2026-09-07,1,0,0,0,0,0,0
+c:boqueron:loma-plata,Loma Plata,2026-09-08,1,0,0,0,0,0,0
+c:boqueron:loma-plata,Loma Plata,2026-09-09,1,0,0,0,0,0,0
+c:boqueron:loma-plata,Loma Plata,2026-09-10,1,0,0,2,0,0,1
+c:boqueron:loma-plata,Loma Plata,2026-09-11,1,0,0,0,0,0,0
+c:boqueron:loma-plata,Loma Plata,2026-09-12,1,0,0,3,0,0,0
+c:boqueron:loma-plata,Loma Plata,2026-09-13,1,0,0,1,0,0,0
+c:boqueron:loma-plata,Loma Plata,2026-09-14,1,0,0,0,0,0,0
+c:boqueron:loma-plata,Loma Plata,2026-09-15,1,0,0,0,1,0,0
+c:boqueron:loma-plata,Loma Plata,2026-09-16,1,0,0,1,0,0,0
+c:boqueron:loma-plata,Loma Plata,2026-09-17,1,0,0,0,0,0,0
+c:boqueron:loma-plata,Loma Plata,2026-09-18,1,1,0,0,0,0,0
+c:boqueron:loma-plata,Loma Plata,2026-09-19,1,0,0,1,0,0,0
+c:boqueron:loma-plata,Loma Plata,2026-09-20,1,0,0,0,0,0,0
+c:boqueron:loma-plata,Loma Plata,2026-09-21,1,0,0,0,0,0,0
+c:boqueron:loma-plata,Loma Plata,2026-09-22,1,4,1,0,0,0,0
+c:boqueron:loma-plata,Loma Plata,2026-09-23,1,0,0,0,0,0,0
+d:paraguari,Paraguarí,2026-08-24,1,0,0,1,0,0,0
+d:paraguari,Paraguarí,2026-08-25,1,0,0,0,1,0,0
+d:paraguari,Paraguarí,2026-08-26,1,0,0,0,0,0,0
+d:paraguari,Paraguarí,2026-08-27,0,,,,,,
+d:paraguari,Paraguarí,2026-08-28,1,0,0,2,0,0,0
+d:paraguari,Paraguarí,2026-08-29,1,0,0,0,0,0,0
+d:paraguari,Paraguarí,2026-08-30,1,0,0,0,0,0,0
+d:paraguari,Paraguarí,2026-08-31,1,0,0,0,0,0,0
+d:paraguari,Paraguarí,2026-09-01,1,0,0,1,0,0,0
+d:paraguari,Paraguarí,2026-09-02,1,0,0,0,0,0,0
+d:paraguari,Paraguarí,2026-09-03,1,0,0,1,0,1,0
+d:paraguari,Paraguarí,2026-09-04,1,0,0,0,0,0,0
+d:paraguari,Paraguarí,2026-09-05,1,0,0,0,1,0,0
+d:paraguari,Paraguarí,2026-09-06,1,0,0,0,0,0,0
+d:paraguari,Paraguarí,2026-09-07,1,0,0,0,0,0,0
+d:paraguari,Paraguarí,2026-09-08,1,0,0,4,1,0,0
+d:paraguari,Paraguarí,2026-09-09,1,0,0,0,0,0,0
+d:paraguari,Paraguarí,2026-09-10,1,0,0,1,1,1,0
+d:paraguari,Paraguarí,2026-09-11,1,0,0,0,0,0,0
+d:paraguari,Paraguarí,2026-09-12,1,0,0,0,0,0,0
+d:paraguari,Paraguarí,2026-09-13,1,0,0,0,0,0,0
+d:paraguari,Paraguarí,2026-09-14,1,0,0,0,0,0,0
+d:paraguari,Paraguarí,2026-09-15,1,0,0,0,0,0,0
+d:paraguari,Paraguarí,2026-09-16,1,0,0,3,3,0,0
+d:paraguari,Paraguarí,2026-09-17,1,0,0,2,0,0,0
+d:paraguari,Paraguarí,2026-09-18,1,1,0,0,0,0,0
+d:paraguari,Paraguarí,2026-09-19,1,0,0,0,0,0,0
+d:paraguari,Paraguarí,2026-09-20,1,0,0,0,0,0,0
+d:paraguari,Paraguarí,2026-09-21,1,0,0,0,0,0,0
+d:paraguari,Paraguarí,2026-09-22,1,0,0,0,0,0,0
+d:paraguari,Paraguarí,2026-09-23,1,0,0,2,1,0,0
+d:caaguazu,Caaguazú,2026-08-24,1,0,0,0,0,0,0
+d:caaguazu,Caaguazú,2026-08-25,1,0,0,0,0,0,0
+d:caaguazu,Caaguazú,2026-08-26,1,0,0,0,0,0,0
+d:caaguazu,Caaguazú,2026-08-27,0,,,,,,
+d:caaguazu,Caaguazú,2026-08-28,1,0,0,1,1,0,0
+d:caaguazu,Caaguazú,2026-08-29,1,0,0,0,0,0,0
+d:caaguazu,Caaguazú,2026-08-30,1,0,0,0,0,0,0
+d:caaguazu,Caaguazú,2026-08-31,1,0,0,0,0,0,0
+d:caaguazu,Caaguazú,2026-09-01,1,0,0,1,0,1,0
+d:caaguazu,Caaguazú,2026-09-02,1,0,0,1,0,0,0
+d:caaguazu,Caaguazú,2026-09-03,1,0,0,0,0,0,0
+d:caaguazu,Caaguazú,2026-09-04,1,0,0,0,0,0,0
+d:caaguazu,Caaguazú,2026-09-05,1,0,0,0,0,0,0
+d:caaguazu,Caaguazú,2026-09-06,1,0,0,0,0,0,0
+d:caaguazu,Caaguazú,2026-09-07,1,0,0,0,0,0,0
+d:caaguazu,Caaguazú,2026-09-08,1,0,0,1,0,0,0
+d:caaguazu,Caaguazú,2026-09-09,1,0,0,0,0,0,0
+d:caaguazu,Caaguazú,2026-09-10,1,0,0,0,0,0,0
+d:caaguazu,Caaguazú,2026-09-11,1,0,0,0,0,0,0
+d:caaguazu,Caaguazú,2026-09-12,1,0,0,0,0,0,0
+d:caaguazu,Caaguazú,2026-09-13,1,0,0,0,0,0,0
+d:caaguazu,Caaguazú,2026-09-14,1,0,0,0,0,0,0
+d:caaguazu,Caaguazú,2026-09-15,1,0,0,1,0,0,0
+d:caaguazu,Caaguazú,2026-09-16,1,1,0,0,1,0,0
+d:caaguazu,Caaguazú,2026-09-17,1,0,0,0,1,0,0
+d:caaguazu,Caaguazú,2026-09-18,1,0,0,0,0,0,0
+d:caaguazu,Caaguazú,2026-09-19,1,0,0,0,0,0,0
+d:caaguazu,Caaguazú,2026-09-20,1,0,0,1,0,0,0
+d:caaguazu,Caaguazú,2026-09-21,1,0,0,0,0,0,0
+d:caaguazu,Caaguazú,2026-09-22,1,0,0,0,1,0,0
+d:caaguazu,Caaguazú,2026-09-23,1,0,0,0,0,0,0
+d:misiones,Misiones,2026-08-24,1,0,0,0,0,0,0
+d:misiones,Misiones,2026-08-25,1,0,0,0,0,0,0
+d:misiones,Misiones,2026-08-26,1,0,0,0,0,0,0
+d:misiones,Misiones,2026-08-27,0,,,,,,
+d:misiones,Misiones,2026-08-28,1,0,0,0,0,0,0
+d:misiones,Misiones,2026-08-29,1,0,0,0,0,0,0
+d:misiones,Misiones,2026-08-30,1,0,0,0,0,0,0
+d:misiones,Misiones,2026-08-31,1,0,0,0,0,0,0
+d:misiones,Misiones,2026-09-01,1,0,0,0,0,0,0
+d:misiones,Misiones,2026-09-02,1,0,0,0,0,0,0
+d:misiones,Misiones,2026-09-03,1,0,0,0,0,0,0
+d:misiones,Misiones,2026-09-04,1,0,0,0,0,0,0
+d:misiones,Misiones,2026-09-05,1,0,0,0,0,0,0
+d:misiones,Misiones,2026-09-06,1,0,0,0,0,0,0
+d:misiones,Misiones,2026-09-07,1,0,0,0,0,0,0
+d:misiones,Misiones,2026-09-08,1,0,0,0,0,0,0
+d:misiones,Misiones,2026-09-09,1,0,0,0,0,0,0
+d:misiones,Misiones,2026-09-10,1,0,0,0,15,0,0
+d:misiones,Misiones,2026-09-11,1,0,0,0,0,0,0
+d:misiones,Misiones,2026-09-12,1,0,0,0,0,0,0
+d:misiones,Misiones,2026-09-13,1,0,0,0,0,0,0
+d:misiones,Misiones,2026-09-14,1,0,0,0,0,0,0
+d:misiones,Misiones,2026-09-15,1,0,0,0,0,0,0
+d:misiones,Misiones,2026-09-16,1,0,0,0,0,0,0
+d:misiones,Misiones,2026-09-17,1,0,0,0,0,0,0
+d:misiones,Misiones,2026-09-18,1,0,0,0,0,0,0
+d:misiones,Misiones,2026-09-19,1,0,0,0,0,0,0
+d:misiones,Misiones,2026-09-20,1,0,0,0,0,0,0
+d:misiones,Misiones,2026-09-21,1,0,0,0,0,0,0
+d:misiones,Misiones,2026-09-22,1,0,0,0,0,0,0
+d:misiones,Misiones,2026-09-23,1,0,0,0,0,0,0
+d:san-pedro,San Pedro,2026-08-24,1,0,0,0,0,0,0
+d:san-pedro,San Pedro,2026-08-25,1,0,0,0,1,0,0
+d:san-pedro,San Pedro,2026-08-26,1,2,0,1,0,0,0
+d:san-pedro,San Pedro,2026-08-27,0,,,,,,
+d:san-pedro,San Pedro,2026-08-28,1,0,0,0,0,0,0
+d:san-pedro,San Pedro,2026-08-29,1,0,0,0,0,0,0
+d:san-pedro,San Pedro,2026-08-30,1,0,0,0,0,0,0
+d:san-pedro,San Pedro,2026-08-31,1,0,0,0,0,0,0
+d:san-pedro,San Pedro,2026-09-01,1,0,0,0,1,0,0
+d:san-pedro,San Pedro,2026-09-02,1,0,0,0,0,0,0
+d:san-pedro,San Pedro,2026-09-03,1,0,0,0,0,0,0
+d:san-pedro,San Pedro,2026-09-04,1,0,0,0,0,0,0
+d:san-pedro,San Pedro,2026-09-05,1,0,0,1,0,0,0
+d:san-pedro,San Pedro,2026-09-06,1,0,0,0,0,0,0
+d:san-pedro,San Pedro,2026-09-07,1,0,0,0,0,0,0
+d:san-pedro,San Pedro,2026-09-08,1,0,0,0,0,0,0
+d:san-pedro,San Pedro,2026-09-09,1,0,0,0,0,0,0
+d:san-pedro,San Pedro,2026-09-10,1,0,0,0,0,0,0
+d:san-pedro,San Pedro,2026-09-11,1,0,0,0,0,0,0
+d:san-pedro,San Pedro,2026-09-12,1,0,0,0,0,0,0
+d:san-pedro,San Pedro,2026-09-13,1,0,0,0,0,0,0
+d:san-pedro,San Pedro,2026-09-14,1,0,0,0,0,0,0
+d:san-pedro,San Pedro,2026-09-15,1,0,0,0,0,0,0
+d:san-pedro,San Pedro,2026-09-16,1,0,0,1,0,0,0
+d:san-pedro,San Pedro,2026-09-17,1,0,0,0,1,0,0
+d:san-pedro,San Pedro,2026-09-18,1,0,0,0,0,0,0
+d:san-pedro,San Pedro,2026-09-19,1,0,0,0,0,0,0
+d:san-pedro,San Pedro,2026-09-20,1,0,0,0,0,0,0
+d:san-pedro,San Pedro,2026-09-21,1,0,0,0,0,0,0
+d:san-pedro,San Pedro,2026-09-22,1,1,0,0,0,0,0
+d:san-pedro,San Pedro,2026-09-23,1,0,0,0,0,0,0
+d:guaira,Guairá,2026-08-24,1,0,0,0,0,0,0
+d:guaira,Guairá,2026-08-25,1,0,0,0,0,1,0
+d:guaira,Guairá,2026-08-26,1,0,0,0,0,0,0
+d:guaira,Guairá,2026-08-27,0,,,,,,
+d:guaira,Guairá,2026-08-28,1,0,0,0,0,0,0
+d:guaira,Guairá,2026-08-29,1,0,0,0,0,0,0
+d:guaira,Guairá,2026-08-30,1,0,0,0,0,0,0
+d:guaira,Guairá,2026-08-31,1,0,0,0,0,0,0
+d:guaira,Guairá,2026-09-01,1,0,0,0,0,0,0
+d:guaira,Guairá,2026-09-02,1,0,0,0,0,0,0
+d:guaira,Guairá,2026-09-03,1,0,0,0,0,0,0
+d:guaira,Guairá,2026-09-04,1,0,0,0,0,0,0
+d:guaira,Guairá,2026-09-05,1,0,0,0,0,0,0
+d:guaira,Guairá,2026-09-06,1,0,0,0,0,0,0
+d:guaira,Guairá,2026-09-07,1,0,0,0,0,0,0
+d:guaira,Guairá,2026-09-08,1,0,0,1,0,0,0
+d:guaira,Guairá,2026-09-09,1,0,0,1,0,0,0
+d:guaira,Guairá,2026-09-10,1,0,0,1,0,0,0
+d:guaira,Guairá,2026-09-11,1,0,0,0,0,0,0
+d:guaira,Guairá,2026-09-12,1,0,0,0,1,0,0
+d:guaira,Guairá,2026-09-13,1,0,0,0,0,0,0
+d:guaira,Guairá,2026-09-14,1,0,0,0,0,0,0
+d:guaira,Guairá,2026-09-15,1,0,0,1,0,0,0
+d:guaira,Guairá,2026-09-16,1,0,0,1,2,0,0
+d:guaira,Guairá,2026-09-17,1,0,0,0,0,0,0
+d:guaira,Guairá,2026-09-18,1,0,0,0,0,0,0
+d:guaira,Guairá,2026-09-19,1,1,0,1,1,0,0
+d:guaira,Guairá,2026-09-20,1,0,0,0,0,0,0
+d:guaira,Guairá,2026-09-21,1,0,0,0,0,0,0
+d:guaira,Guairá,2026-09-22,1,0,0,0,0,0,0
+d:guaira,Guairá,2026-09-23,1,0,0,0,0,0,0
+d:caazapa,Caazapá,2026-08-24,1,0,0,0,0,0,0
+d:caazapa,Caazapá,2026-08-25,1,0,0,0,0,0,0
+d:caazapa,Caazapá,2026-08-26,1,0,0,1,0,1,0
+d:caazapa,Caazapá,2026-08-27,0,,,,,,
+d:caazapa,Caazapá,2026-08-28,1,0,0,0,0,0,0
+d:caazapa,Caazapá,2026-08-29,1,0,0,0,0,0,0
+d:caazapa,Caazapá,2026-08-30,1,0,0,0,0,0,0
+d:caazapa,Caazapá,2026-08-31,1,0,0,0,0,0,0
+d:caazapa,Caazapá,2026-09-01,1,0,0,0,0,0,0
+d:caazapa,Caazapá,2026-09-02,1,0,0,0,0,0,0
+d:caazapa,Caazapá,2026-09-03,1,0,0,0,0,0,0
+d:caazapa,Caazapá,2026-09-04,1,0,0,0,0,0,0
+d:caazapa,Caazapá,2026-09-05,1,0,0,0,0,0,0
+d:caazapa,Caazapá,2026-09-06,1,0,0,0,0,0,0
+d:caazapa,Caazapá,2026-09-07,1,0,0,0,0,0,0
+d:caazapa,Caazapá,2026-09-08,1,0,0,2,0,0,0
+d:caazapa,Caazapá,2026-09-09,1,0,0,0,0,0,0
+d:caazapa,Caazapá,2026-09-10,1,0,0,0,0,0,0
+d:caazapa,Caazapá,2026-09-11,1,0,0,0,0,0,0
+d:caazapa,Caazapá,2026-09-12,1,0,0,0,0,0,0
+d:caazapa,Caazapá,2026-09-13,1,0,0,0,0,0,0
+d:caazapa,Caazapá,2026-09-14,1,0,0,0,0,0,0
+d:caazapa,Caazapá,2026-09-15,1,0,0,0,0,0,0
+d:caazapa,Caazapá,2026-09-16,1,0,0,0,2,0,0
+d:caazapa,Caazapá,2026-09-17,1,0,0,0,0,0,0
+d:caazapa,Caazapá,2026-09-18,1,0,0,0,0,0,0
+d:caazapa,Caazapá,2026-09-19,1,0,0,0,0,0,0
+d:caazapa,Caazapá,2026-09-20,1,0,0,0,0,0,0
+d:caazapa,Caazapá,2026-09-21,1,0,0,0,0,0,0
+d:caazapa,Caazapá,2026-09-22,1,0,0,0,0,0,0
+d:caazapa,Caazapá,2026-09-23,1,0,0,0,0,0,0
+d:neembucu,Ñeembucú,2026-08-24,1,0,0,0,0,0,0
+d:neembucu,Ñeembucú,2026-08-25,1,0,0,0,0,0,0
+d:neembucu,Ñeembucú,2026-08-26,1,0,0,0,0,0,0
+d:neembucu,Ñeembucú,2026-08-27,0,,,,,,
+d:neembucu,Ñeembucú,2026-08-28,1,0,0,0,0,0,0
+d:neembucu,Ñeembucú,2026-08-29,1,0,0,0,0,0,0
+d:neembucu,Ñeembucú,2026-08-30,1,0,0,0,0,0,0
+d:neembucu,Ñeembucú,2026-08-31,1,0,0,0,0,0,0
+d:neembucu,Ñeembucú,2026-09-01,1,0,0,0,0,0,0
+d:neembucu,Ñeembucú,2026-09-02,1,0,0,0,0,0,0
+d:neembucu,Ñeembucú,2026-09-03,1,0,0,0,0,0,0
+d:neembucu,Ñeembucú,2026-09-04,1,0,0,0,0,0,0
+d:neembucu,Ñeembucú,2026-09-05,1,0,0,0,0,0,0
+d:neembucu,Ñeembucú,2026-09-06,1,0,0,0,0,0,0
+d:neembucu,Ñeembucú,2026-09-07,1,0,0,0,0,0,0
+d:neembucu,Ñeembucú,2026-09-08,1,0,0,0,0,0,0
+d:neembucu,Ñeembucú,2026-09-09,1,0,0,0,0,0,0
+d:neembucu,Ñeembucú,2026-09-10,1,0,0,0,0,0,0
+d:neembucu,Ñeembucú,2026-09-11,1,0,0,0,0,0,0
+d:neembucu,Ñeembucú,2026-09-12,1,0,0,1,0,0,0
+d:neembucu,Ñeembucú,2026-09-13,1,0,0,0,0,0,0
+d:neembucu,Ñeembucú,2026-09-14,1,0,0,0,0,0,0
+d:neembucu,Ñeembucú,2026-09-15,1,0,0,0,0,0,0
+d:neembucu,Ñeembucú,2026-09-16,1,0,0,0,0,0,0
+d:neembucu,Ñeembucú,2026-09-17,1,0,0,0,0,0,0
+d:neembucu,Ñeembucú,2026-09-18,1,0,0,0,0,0,0
+d:neembucu,Ñeembucú,2026-09-19,1,0,0,0,0,0,0
+d:neembucu,Ñeembucú,2026-09-20,1,0,0,0,0,0,0
+d:neembucu,Ñeembucú,2026-09-21,1,0,0,0,0,0,0
+d:neembucu,Ñeembucú,2026-09-22,1,0,0,0,0,0,0
+d:neembucu,Ñeembucú,2026-09-23,1,0,0,0,0,0,0
+d:canindeyu,Canindeyú,2026-08-24,1,0,0,0,0,0,0
+d:canindeyu,Canindeyú,2026-08-25,1,0,0,0,0,0,0
+d:canindeyu,Canindeyú,2026-08-26,1,0,0,0,0,0,0
+d:canindeyu,Canindeyú,2026-08-27,0,,,,,,
+d:canindeyu,Canindeyú,2026-08-28,1,0,0,0,0,0,0
+d:canindeyu,Canindeyú,2026-08-29,1,0,0,0,0,0,0
+d:canindeyu,Canindeyú,2026-08-30,1,0,0,0,0,0,0
+d:canindeyu,Canindeyú,2026-08-31,1,0,0,0,0,0,0
+d:canindeyu,Canindeyú,2026-09-01,1,0,0,0,0,0,0
+d:canindeyu,Canindeyú,2026-09-02,1,0,0,0,0,0,0
+d:canindeyu,Canindeyú,2026-09-03,1,0,0,0,0,0,0
+d:canindeyu,Canindeyú,2026-09-04,1,0,0,0,0,0,0
+d:canindeyu,Canindeyú,2026-09-05,1,0,0,0,0,0,0
+d:canindeyu,Canindeyú,2026-09-06,1,0,0,0,0,0,0
+d:canindeyu,Canindeyú,2026-09-07,1,0,0,0,0,0,0
+d:canindeyu,Canindeyú,2026-09-08,1,0,0,0,0,0,0
+d:canindeyu,Canindeyú,2026-09-09,1,0,0,0,0,0,0
+d:canindeyu,Canindeyú,2026-09-10,1,0,0,0,0,0,0
+d:canindeyu,Canindeyú,2026-09-11,1,0,0,0,0,0,0
+d:canindeyu,Canindeyú,2026-09-12,1,0,0,1,0,0,0
+d:canindeyu,Canindeyú,2026-09-13,1,0,0,0,0,0,0
+d:canindeyu,Canindeyú,2026-09-14,1,0,0,0,0,0,0
+d:canindeyu,Canindeyú,2026-09-15,1,0,0,0,0,0,0
+d:canindeyu,Canindeyú,2026-09-16,1,0,0,0,0,0,0
+d:canindeyu,Canindeyú,2026-09-17,1,0,0,1,0,0,0
+d:canindeyu,Canindeyú,2026-09-18,1,0,0,0,0,0,0
+d:canindeyu,Canindeyú,2026-09-19,1,0,0,0,0,0,0
+d:canindeyu,Canindeyú,2026-09-20,1,0,0,0,0,0,0
+d:canindeyu,Canindeyú,2026-09-21,1,0,0,0,0,0,0
+d:canindeyu,Canindeyú,2026-09-22,1,0,0,0,0,0,0
+d:canindeyu,Canindeyú,2026-09-23,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-08-24,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-08-25,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-08-26,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-08-27,0,,,,,,
+d:concepcion,Concepción,2026-08-28,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-08-29,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-08-30,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-08-31,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-09-01,1,0,0,1,0,0,0
+d:concepcion,Concepción,2026-09-02,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-09-03,1,1,0,0,0,0,0
+d:concepcion,Concepción,2026-09-04,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-09-05,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-09-06,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-09-07,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-09-08,1,0,0,1,0,0,0
+d:concepcion,Concepción,2026-09-09,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-09-10,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-09-11,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-09-12,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-09-13,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-09-14,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-09-15,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-09-16,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-09-17,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-09-18,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-09-19,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-09-20,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-09-21,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-09-22,1,1,0,0,0,0,0
+d:concepcion,Concepción,2026-09-23,1,0,0,0,0,0,0
+d:amambay,Amambay,2026-08-24,1,0,0,1,0,0,0
+d:amambay,Amambay,2026-08-25,1,0,0,0,0,0,0
+d:amambay,Amambay,2026-08-26,1,0,0,0,0,0,0
+d:amambay,Amambay,2026-08-27,0,,,,,,
+d:amambay,Amambay,2026-08-28,1,0,0,0,0,0,0
+d:amambay,Amambay,2026-08-29,1,0,0,0,0,0,0
+d:amambay,Amambay,2026-08-30,1,0,0,0,0,0,0
+d:amambay,Amambay,2026-08-31,1,0,0,0,0,0,0
+d:amambay,Amambay,2026-09-01,1,0,0,0,0,0,0
+d:amambay,Amambay,2026-09-02,1,0,0,0,0,0,0
+d:amambay,Amambay,2026-09-03,1,0,0,0,0,0,0
+d:amambay,Amambay,2026-09-04,1,0,0,0,0,0,0
+d:amambay,Amambay,2026-09-05,1,0,0,0,0,0,0
+d:amambay,Amambay,2026-09-06,1,0,0,0,0,0,0
+d:amambay,Amambay,2026-09-07,1,0,0,0,0,0,0
+d:amambay,Amambay,2026-09-08,1,0,0,0,0,0,0
+d:amambay,Amambay,2026-09-09,1,0,0,0,0,0,0
+d:amambay,Amambay,2026-09-10,1,0,0,0,0,0,0
+d:amambay,Amambay,2026-09-11,1,0,0,0,0,0,0
+d:amambay,Amambay,2026-09-12,1,0,0,0,0,0,0
+d:amambay,Amambay,2026-09-13,1,0,0,0,0,0,0
+d:amambay,Amambay,2026-09-14,1,0,0,0,0,1,0
+d:amambay,Amambay,2026-09-15,1,0,0,0,0,0,0
+d:amambay,Amambay,2026-09-16,1,0,0,0,0,0,0
+d:amambay,Amambay,2026-09-17,1,0,0,0,0,0,0
+d:amambay,Amambay,2026-09-18,1,0,0,0,0,0,0
+d:amambay,Amambay,2026-09-19,1,0,0,0,0,0,0
+d:amambay,Amambay,2026-09-20,1,0,0,0,0,0,0
+d:amambay,Amambay,2026-09-21,1,0,0,0,0,0,0
+d:amambay,Amambay,2026-09-22,1,0,0,0,0,0,0
+d:amambay,Amambay,2026-09-23,1,0,0,0,0,0,0
+d:alto-paraguay,Alto Paraguay,2026-08-24,1,0,0,0,0,0,0
+d:alto-paraguay,Alto Paraguay,2026-08-25,1,0,0,0,0,0,0
+d:alto-paraguay,Alto Paraguay,2026-08-26,1,0,0,0,0,0,0
+d:alto-paraguay,Alto Paraguay,2026-08-27,0,,,,,,
+d:alto-paraguay,Alto Paraguay,2026-08-28,1,0,0,0,0,0,0
+d:alto-paraguay,Alto Paraguay,2026-08-29,1,0,0,0,0,0,0
+d:alto-paraguay,Alto Paraguay,2026-08-30,1,0,0,0,0,0,0
+d:alto-paraguay,Alto Paraguay,2026-08-31,1,0,0,0,0,0,0
+d:alto-paraguay,Alto Paraguay,2026-09-01,1,0,0,0,0,0,0
+d:alto-paraguay,Alto Paraguay,2026-09-02,1,1,0,0,0,0,0
+d:alto-paraguay,Alto Paraguay,2026-09-03,1,0,0,0,0,0,0
+d:alto-paraguay,Alto Paraguay,2026-09-04,1,0,0,0,0,0,0
+d:alto-paraguay,Alto Paraguay,2026-09-05,1,0,0,0,0,0,0
+d:alto-paraguay,Alto Paraguay,2026-09-06,1,0,0,0,0,0,0
+d:alto-paraguay,Alto Paraguay,2026-09-07,1,0,0,0,0,0,0
+d:alto-paraguay,Alto Paraguay,2026-09-08,1,0,0,0,0,0,0
+d:alto-paraguay,Alto Paraguay,2026-09-09,1,0,0,0,0,0,0
+d:alto-paraguay,Alto Paraguay,2026-09-10,1,0,0,0,0,0,0
+d:alto-paraguay,Alto Paraguay,2026-09-11,1,0,0,0,0,0,0
+d:alto-paraguay,Alto Paraguay,2026-09-12,1,0,0,0,0,0,0
+d:alto-paraguay,Alto Paraguay,2026-09-13,1,0,0,0,0,0,0
+d:alto-paraguay,Alto Paraguay,2026-09-14,1,0,0,0,0,0,0
+d:alto-paraguay,Alto Paraguay,2026-09-15,1,0,0,0,0,0,0
+d:alto-paraguay,Alto Paraguay,2026-09-16,1,0,0,0,0,0,0
+d:alto-paraguay,Alto Paraguay,2026-09-17,1,0,0,0,0,0,0
+d:alto-paraguay,Alto Paraguay,2026-09-18,1,0,0,0,0,0,0
+d:alto-paraguay,Alto Paraguay,2026-09-19,1,0,0,0,0,0,0
+d:alto-paraguay,Alto Paraguay,2026-09-20,1,0,0,0,0,0,0
+d:alto-paraguay,Alto Paraguay,2026-09-21,1,1,0,0,0,0,0
+d:alto-paraguay,Alto Paraguay,2026-09-22,1,0,0,0,0,0,0
+d:alto-paraguay,Alto Paraguay,2026-09-23,1,0,0,0,0,0,0
