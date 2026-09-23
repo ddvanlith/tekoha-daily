@@ -1,115 +1,117 @@
-first_seen,place,area,kind,built_m2,bedrooms,asking,currency,asking_usd,asking_usd_m2,source,brokers,lat,lon
-2026-09-18,"Limpio, Central",,casa,150,4,250000000,PYG,42180,281,remax,1,-25.1626,-57.47045
-2026-09-19,"Mariano Roque Alonso, Central",,casa,210,2,350000000,PYG,59052,281,remax,1,-25.22477,-57.56305
-2026-09-23,Asunción,,casa,350,3,630000000,PYG,106294,304,infocasas,1,-25.2939,-57.64125
-2026-09-19,"Luque, Central",,casa,300,3,550000000,PYG,92796,309,infocasas,1,,
-2026-09-21,"Areguá, Central",,casa,125,2,240000000,PYG,40493,324,infocasas,1,-25.31293,-57.38466
-2026-09-23,"Limpio, Central",,casa,99,3,220000000,PYG,37119,375,infocasas,1,-25.16781,-57.49778
-2026-09-18,Alto Paraná,,casa,250,3,95000,USD,95000,380,remax,1,-26.1546,-55.26628
-2026-09-18,"Villeta, Central",,casa,608,3,1390000000,PYG,234522,386,infocasas,2,-25.51126,-57.56561
-2026-09-20,"Ypané, Central",,casa,150,4,350000000,PYG,59052,394,infocasas,1,-25.42839,-57.49818
-2026-09-23,"Encarnación, Itapúa",,casa,200,0,470000000,PYG,79299,396,uprop,1,-27.30454,-55.86707
-2026-09-20,"Villeta, Central",,casa,170,2,400000000,PYG,67488,397,infocasas,1,,
-2026-09-19,Asunción,San Blás,casa,180,3,450000000,PYG,75924,422,infocasas,2,-25.263,-57.54732
-2026-09-23,Asunción,Sajonia,casa,200,0,500000000,PYG,84360,422,infocasas,1,-25.28029,-57.65596
-2026-09-23,"Ñemby, Central",,casa,258,2,650000000,PYG,109668,425,remax,1,-25.39492,-57.51981
-2026-09-23,"San Antonio, Central",,casa,230,2,590000000,PYG,99545,433,infocasas,1,-25.40469,-57.56093
-2026-09-22,Asunción,Obrero,casa,336,4,890000000,PYG,150161,447,infocasas,1,-25.31045,-57.63639
-2026-09-19,"Villeta, Central",,casa,155,3,420000000,PYG,70863,457,infocasas,1,-25.50237,-57.56521
-2026-09-20,Asunción,San Vicente,casa,300,6,850000000,PYG,143413,478,remax,1,-25.3109,-57.6251
-2026-09-19,Asunción,Barrio Jara,casa,300,3,153000,USD,153000,510,infocasas,1,-25.27955,-57.60423
-2026-09-19,Asunción,Hipódromo,casa,450,6,1400000000,PYG,236209,525,infocasas,2,-25.31749,-57.57664
-2026-09-19,"Ypané, Central",,casa,145,2,460000000,PYG,77612,535,infocasas,1,,
-2026-09-21,"Ciudad del Este, Alto Paraná",,casa,100,1,320000000,PYG,53991,540,remax,1,-25.51967,-54.70388
-2026-09-21,Asunción,San Vicente,casa,250,4,800000000,PYG,134977,540,infocasas,1,-25.3087,-57.62704
-2026-09-22,"Limpio, Central",,casa,243,5,850000000,PYG,143413,590,infocasas,1,-25.16837,-57.48264
-2026-09-21,"Ciudad del Este, Alto Paraná",,casa,252,5,900000000,PYG,151849,603,remax,1,-25.50572,-54.67568
-2026-09-22,"Capiatá, Central",,casa,138,2,500000000,PYG,84360,611,remax,1,,
-2026-09-23,"Villa Elisa, Central",,casa,205,3,750000000,PYG,126541,617,infocasas,1,,
-2026-09-23,"Villa Elisa, Central",,casa,205,2,750000000,PYG,126541,617,infocasas,1,,
-2026-09-18,"San Lorenzo, Central",,casa,300,3,1100000000,PYG,185593,619,infocasas,2,-25.36355,-57.55109
-2026-09-22,Asunción,Pettirossi,casa,344,3,217000,USD,217000,631,infocasas,1,-25.29302,-57.63019
-2026-09-22,"San Lorenzo, Central",,duplex,130,3,490000000,PYG,82673,636,remax,1,-25.35922,-57.5225
-2026-09-17,"Itauguá, Central",,casa,158,5,101556,USD,101556,643,infocasas,1,-25.37733,-57.38331
-2026-09-22,"Fernando de la Mora, Central",,casa,200,2,780000000,PYG,131602,658,remax,1,-25.35574,-57.56317
-2026-09-18,"San Lorenzo, Central",,casa,280,3,1100000000,PYG,185593,663,remax,1,-25.26374,-57.57593
-2026-09-22,"Fernando de la Mora, Central",,casa,528,4,350000,USD,350000,663,infocasas,1,-25.31021,-57.53462
-2026-09-23,"Capitán Miranda, Itapúa",,casa,71,3,280000000,PYG,47242,665,remax,1,-27.22165,-55.8338
-2026-09-20,Asunción,Herrera,casa,200,4,800000000,PYG,134977,675,infocasas,1,-25.3273,-57.62985
-2026-09-18,Asunción,,casa,290,5,1250000000,PYG,210901,727,infocasas,1,,
-2026-09-22,"Ciudad del Este, Alto Paraná",,casa,150,3,650000000,PYG,109668,731,remax,1,-25.48913,-54.67498
-2026-09-18,"Capiatá, Central",,casa,85,3,370000000,PYG,62427,734,remax,1,-25.3773,-57.42592
-2026-09-23,"Ñemby, Central",,casa,126,3,550000000,PYG,92796,736,remax,1,,
-2026-09-23,"Itauguá, Central",,casa,60,2,270000000,PYG,45555,759,infocasas,1,,
-2026-09-17,"Ypané, Central",,casa,144,4,670000000,PYG,113043,785,remax,1,,
-2026-09-17,"Luque, Central",,casa,60,2,280000000,PYG,47242,787,infocasas,1,-25.3107,-57.49176
-2026-09-22,Asunción,Itá Enramada,casa,130,3,610000000,PYG,102920,792,infocasas,1,-25.3554,-57.64331
-2026-09-17,"Julián Augusto Saldívar, Central",,casa,55,2,260000000,PYG,43867,798,infocasas,1,,
-2026-09-19,"Ñemby, Central",,casa,80,2,380000000,PYG,64114,801,infocasas,1,-25.39265,-57.52738
-2026-09-18,Alto Paraná,,casa,120,1,98000,USD,98000,817,remax,1,-25.78089,-55.07776
-2026-09-18,"Areguá, Central",,casa,220,5,180000,USD,180000,818,infocasas,1,-25.32873,-57.39909
-2026-09-19,"Fernando de la Mora, Central",,casa,340,3,280000,USD,280000,824,infocasas,1,-25.32246,-57.53629
-2026-09-19,"Luque, Central",,casa,200,3,980000000,PYG,165346,827,infocasas,1,-25.23359,-57.46784
-2026-09-22,"Itauguá, Central",,casa,40,2,203000000,PYG,34250,856,infocasas,1,-25.47597,-57.34962
-2026-09-23,Asunción,Villa Morra,casa,350,3,300000,USD,300000,857,infocasas,1,-25.29338,-57.57197
-2026-09-21,"San Lorenzo, Central",,casa,147,3,750000000,PYG,126541,860,remax,1,,
-2026-09-19,"Ypané, Central",,casa,45,1,235000000,PYG,39649,881,infocasas,1,,
-2026-09-22,Asunción,,casa,272,5,240000,USD,240000,882,infocasas,1,-25.33283,-57.63322
-2026-09-18,"Ñemby, Central",,casa,75,2,395000000,PYG,66645,889,infocasas,1,-25.37919,-57.53696
-2026-09-19,"Minga Guazú, Alto Paraná",,casa,72,2,380000000,PYG,64114,890,remax,1,,
-2026-09-22,Asunción,Itá Enramada,casa,155,4,830000000,PYG,140038,903,infocasas,1,-25.36003,-57.62664
-2026-09-19,"Luque, Central",,casa,75,2,406000000,PYG,68501,913,remax,1,-25.21511,-57.47266
-2026-09-21,"Villa Elisa, Central",,casa,72,2,390000000,PYG,65801,914,infocasas,1,-25.37703,-57.58473
-2026-09-17,"Luque, Central",,casa,60,2,329000000,PYG,55509,925,infocasas,1,-25.30147,-57.4646
-2026-09-17,"Limpio, Central",,casa,60,2,330000000,PYG,55678,928,infocasas,1,,
-2026-09-21,Asunción,Los Laureles,casa,300,4,280000,USD,280000,933,infocasas,1,,
-2026-09-19,Asunción,San Jorge,casa,406,4,380000,USD,380000,936,infocasas,2,-25.28066,-57.54846
-2026-09-19,"San Bernardino, Cordillera",,casa,90,2,500000000,PYG,84360,937,remax,1,-25.33658,-57.24409
-2026-09-21,"Encarnación, Itapúa",,casa,180,2,1000000000,PYG,168721,937,remax,1,,
-2026-09-22,"San Lorenzo, Central",,casa,60,2,335000000,PYG,56521,942,infocasas,1,-25.38043,-57.4897
-2026-09-19,"San Lorenzo, Central",,casa,64,2,360000000,PYG,60739,949,infocasas,1,-25.38016,-57.49809
-2026-09-21,"Encarnación, Itapúa",,departamento,43,1,41985,USD,41985,966,remax,1,-27.26597,-55.81876
-2026-09-23,Asunción,Recoleta,casa,687,6,665000,USD,665000,968,infocasas,1,,
-2026-09-23,Asunción,San Vicente,casa,190,3,1100000000,PYG,185593,977,infocasas,1,,
-2026-09-22,"Capiatá, Central",,casa,100,4,580000000,PYG,97858,979,remax,1,-25.35064,-57.4833
-2026-09-21,"Luque, Central",,casa,58,2,340000000,PYG,57365,989,remax,1,,
-2026-09-22,Asunción,Pettirossi,casa,152,5,150463,USD,150463,990,infocasas,1,-25.30492,-57.62709
-2026-09-22,"Fernando de la Mora, Central",,duplex,160,3,950000000,PYG,160285,1002,remax,1,-25.33705,-57.56443
-2026-09-17,"San Lorenzo, Central",,casa,160,3,950000000,PYG,160285,1002,remax,1,-25.34468,-57.53417
-2026-09-17,"San Lorenzo, Central",,casa,50,2,300000000,PYG,50616,1012,remax,1,-25.34713,-57.48206
-2026-09-17,"Ñemby, Central",,casa,60,2,360000000,PYG,60739,1012,infocasas,1,-25.42618,-57.53322
-2026-09-20,Asunción,Las Mercedes,casa,515,5,525000,USD,525000,1019,infocasas,1,-25.28673,-57.60537
-2026-09-23,"Cambyretá, Itapúa",,casa,99,3,600000000,PYG,101232,1023,uprop,1,-27.33698,-55.83575
-2026-09-18,"Luque, Central",,duplex,200,3,205000,USD,205000,1025,remax,1,-25.25615,-57.49376
-2026-09-21,Asunción,San Cristóbal,casa,363,4,375000,USD,375000,1033,remax,1,-25.29488,-57.5648
-2026-09-19,Asunción,Las Mercedes,casa,384,3,400000,USD,400000,1042,infocasas,1,-25.35078,-57.50364
-2026-09-21,"Fernando de la Mora, Central",,casa,160,,990000000,PYG,167033,1044,remax,1,-25.32664,-57.54026
-2026-09-17,"San Lorenzo, Central",,casa,64,2,405000000,PYG,68332,1068,infocasas,1,-25.31493,-57.5046
-2026-09-17,Asunción,Mburucuyá,casa,720,4,780000,USD,780000,1083,infocasas,1,-25.26588,-57.57275
-2026-09-19,Asunción,San Jorge,casa,166,3,180000,USD,180000,1084,infocasas,1,-25.2838,-57.54845
-2026-09-17,"Villa Elisa, Central",,casa,76,2,490000000,PYG,82673,1088,infocasas,2,-25.36963,-57.59084
-2026-09-21,Asunción,Ytay,casa,200,5,1300000000,PYG,219337,1097,infocasas,1,-25.28324,-57.54491
-2026-09-19,"Mariano Roque Alonso, Central",,casa,53,2,350000000,PYG,59052,1114,infocasas,1,-25.20034,-57.53905
-2026-09-22,"Fernando de la Mora, Central",,casa,100,4,660000000,PYG,111356,1114,remax,1,-25.34124,-57.56016
-2026-09-23,"Encarnación, Itapúa",,departamento,63,2,430000000,PYG,72550,1152,uprop,1,-27.33329,-55.87226
-2026-09-19,Asunción,Salvador del Mundo,duplex,109,3,750000000,PYG,126541,1161,remax,1,-25.27515,-57.55051
-2026-09-19,Asunción,San Jorge,casa,273,5,320000,USD,320000,1172,infocasas,1,-25.27982,-57.55142
-2026-09-21,"Ciudad del Este, Alto Paraná",,casa,255,3,300000,USD,300000,1176,remax,1,-25.51079,-54.65385
-2026-09-18,"Luque, Central",,duplex,140,3,980000000,PYG,165346,1181,remax,1,-25.25283,-57.50246
-2026-09-23,Asunción,Pettirossi,casa,200,4,1400000000,PYG,236209,1181,infocasas,1,-25.30508,-57.62984
-2026-09-22,"Fernando de la Mora, Central",,casa,340,5,2500000000,PYG,421802,1241,infocasas,1,,
-2026-09-23,Asunción,Loma Pytá,casa,200,3,250000,USD,250000,1250,remax,1,-25.24026,-57.54649
-2026-09-18,"Luque, Central",,duplex,120,3,900000000,PYG,151849,1265,remax,1,-25.25347,-57.49784
-2026-09-17,"Cambyretá, Itapúa",,casa,144,3,185000,USD,185000,1285,uprop,1,-27.33022,-55.84895
-2026-09-23,"Ypané, Central",,casa,346,3,450000,USD,450000,1301,infocasas,1,-25.46927,-57.50669
-2026-09-23,"Luque, Central",,casa,100,2,780000000,PYG,131602,1316,infocasas,1,-25.27123,-57.46336
-2026-09-22,"Itá, Central",,casa,317,1,2700000000,PYG,455546,1437,infocasas,1,-25.49326,-57.3973
-2026-09-18,"San Lorenzo, Central",,casa,280,4,410000,USD,410000,1464,infocasas,1,,
-2026-09-18,"Lambaré, Central",,departamento,115,2,173900,USD,173900,1512,remax,1,-25.36529,-57.62901
-2026-09-20,"Lambaré, Central",,casa,98,2,890000000,PYG,150161,1532,infocasas,1,-25.33183,-57.62261
-2026-09-19,"Ypacaraí, Central",,casa,60,2,580000000,PYG,97858,1631,infocasas,1,-25.40506,-57.28907
-2026-09-21,"Ciudad del Este, Alto Paraná",,departamento,42,1,71832,USD,71832,1727,remax,1,-25.52871,-54.62642
-2026-09-18,"Encarnación, Itapúa",,casa,400,4,700000,USD,700000,1750,remax,1,,
-2026-09-19,"Ciudad del Este, Alto Paraná",,departamento,47,1,83903,USD,83903,1785,remax,1,-25.52365,-54.62109
-2026-09-23,"San Lorenzo, Central",,casa,100,3,200000,USD,200000,2000,remax,1,-25.36838,-57.52949
-2026-09-19,Guairá,,casa,290,4,685000,USD,685000,2362,remax,1,-25.69153,-56.26499
+first_seen,place,area,kind,built_m2,bedrooms,asking,currency,asking_usd,asking_usd_m2,source,brokers,url,lat,lon
+2026-09-21,"Ciudad del Este, Alto Paraná",,casa,100,1,320000000,PYG,53991,540,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/ciudad-del-este/143050197-2,-25.51967,-54.70388
+2026-09-22,"Ciudad del Este, Alto Paraná",,casa,150,3,650000000,PYG,109668,731,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/ciudad-del-este/143050185-6,-25.48913,-54.67498
+2026-09-21,"Ciudad del Este, Alto Paraná",,casa,252,5,900000000,PYG,151849,603,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/ciudad-del-este/114001120-4,-25.50572,-54.67568
+2026-09-21,"Ciudad del Este, Alto Paraná",,casa,255,3,300000,USD,300000,1176,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/ciudad-del-este/114001120-5,-25.51079,-54.65385
+2026-09-21,"Ciudad del Este, Alto Paraná",,departamento,42,1,71832,USD,71832,1727,remax,1,https://www.remax.com.py/es-py/propiedades/departamento/venta/ciudad-del-este/143099027-87,-25.52871,-54.62642
+2026-09-19,"Ciudad del Este, Alto Paraná",,departamento,47,1,83903,USD,83903,1785,remax,1,https://www.remax.com.py/es-py/propiedades/departamento/venta/ciudad-del-este/143050056-220,-25.52365,-54.62109
+2026-09-18,"Doctor Raúl Peña, Alto Paraná",,casa,250,3,95000,USD,95000,380,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/doctor-raul-pena/143065047-14,-26.1546,-55.26628
+2026-09-19,"Minga Guazú, Alto Paraná",,casa,72,2,380000000,PYG,64114,890,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/minga-guazu/114001129-2,,
+2026-09-18,"Santa Rita, Alto Paraná",,casa,120,1,98000,USD,98000,817,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/santa-rita/143065026-272,-25.78089,-55.07776
+2026-09-22,Asunción,Itá Enramada,casa,130,3,610000000,PYG,102920,792,infocasas,1,https://www.infocasas.com.py/casa-en-venta-en-asuncion-ita-enramada-3-dormitorios-quincho/194288827,,
+2026-09-22,Asunción,Itá Enramada,casa,155,4,830000000,PYG,140038,903,infocasas,1,https://www.infocasas.com.py/exclusivo-duplex-a-estrenar-en-lambare-lujo-y-confort-en-la-prestigiosa-zona-del-yacht/194290891,-25.36003,-57.62664
+2026-09-19,Asunción,San Blás,casa,180,3,450000000,PYG,75924,422,infocasas,2,https://www.infocasas.com.py/casa-venta-san-blas-asuncion-paraguay-gran-potencial/194279018,-25.263,-57.54732
+2026-09-23,Asunción,San Vicente,casa,190,3,1100000000,PYG,185593,977,infocasas,1,https://www.infocasas.com.py/casa-venta-san-vicente-asuncion-paraguay/194271823,,
+2026-09-23,Asunción,Sajonia,casa,200,0,500000000,PYG,84360,422,infocasas,1,https://www.infocasas.com.py/se-vende-casa-a-refaccionar-o-demoler/194271026,-25.28029,-57.65596
+2026-09-20,Asunción,Herrera,casa,200,4,800000000,PYG,134977,675,infocasas,1,https://www.infocasas.com.py/casa-4-dorm-en-esquina-santa-librada/194283597,-25.3273,-57.62985
+2026-09-21,Asunción,San Vicente,casa,250,4,800000000,PYG,134977,540,infocasas,1,https://www.infocasas.com.py/vendo-casa-a-refaccionar-en-asuncion/194284373,-25.3087,-57.62704
+2026-09-22,Asunción,,casa,272,5,240000,USD,240000,882,infocasas,1,https://www.infocasas.com.py/exclusiva-residencia-en-santa-librada-lujo-y-confort-con-3-dormitorios-en-suite-amplio-patio-y-piscina-privada/194290662,,
+2026-09-18,Asunción,,casa,290,5,1250000000,PYG,210901,727,infocasas,1,https://www.infocasas.com.py/vendo-residencia-en-sajonia/194273913,,
+2026-09-19,Asunción,Barrio Jara,casa,300,3,153000,USD,153000,510,infocasas,1,https://www.infocasas.com.py/venta-propiedad-en-barrio-jara-/194274995,-25.27955,-57.60423
+2026-09-21,Asunción,Los Laureles,casa,300,4,280000,USD,280000,933,infocasas,1,https://www.infocasas.com.py/en-venta-casa-los-laureles-asuncion-paraguay/194283288,,
+2026-09-20,Asunción,San Vicente,casa,300,6,850000000,PYG,143413,478,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/asuncion/143084005-98,-25.3109,-57.6251
+2026-09-22,Asunción,Obrero,casa,336,4,890000000,PYG,150161,447,infocasas,1,https://www.infocasas.com.py/vendo-casa-en-barrio-obrero-asuncion/194278860,-25.31045,-57.63639
+2026-09-22,Asunción,Pettirossi,casa,344,3,217000,USD,217000,631,infocasas,1,https://www.infocasas.com.py/hermosa-esquina/194286327,-25.29302,-57.63019
+2026-09-23,Asunción,Villa Morra,casa,350,3,300000,USD,300000,857,infocasas,1,https://www.infocasas.com.py/casa-en-venta/194278797,-25.29338,-57.57197
+2026-09-23,Asunción,,casa,350,3,630000000,PYG,106294,304,infocasas,1,https://www.infocasas.com.py/oportunidad-en-asuncion-propiedad-para-renovar/194303925,-25.2939,-57.64125
+2026-09-19,Asunción,San Jorge,casa,406,4,380000,USD,380000,936,infocasas,2,https://www.infocasas.com.py/vendo-casa-de-4-dorm-en-suite-en-el-barrio-san-jorge/194269351,-25.28066,-57.54846
+2026-09-19,Asunción,Hipódromo,casa,450,6,1400000000,PYG,236209,525,infocasas,2,https://www.infocasas.com.py/casa-en-venta-oportunidad-zona-snd-eusebio-ayala-multiplaza/194303641,-25.31749,-57.57664
+2026-09-23,Asunción,Recoleta,casa,687,6,665000,USD,665000,968,infocasas,1,https://www.infocasas.com.py/residencia-exclusiva-en-recoleta-oportunidad-unica-de-inversion/194294953,,
+2026-09-19,Asunción,,departamento,42,0,63900,USD,63900,1521,infocasas,1,https://www.infocasas.com.py/vendo-departamento-en-pozo-dhome-campos-cervera-/194253111,,
+2026-09-22,Asunción,Los Laureles,departamento,42,0,67000,USD,67000,1595,infocasas,1,https://www.infocasas.com.py/monoambiente-42-m2-con-cochera-los-laureles/194263729,-25.296,-57.582
+2026-09-22,Asunción,Recoleta,departamento,50,1,84000,USD,84000,1680,infocasas,1,https://www.infocasas.com.py/amplio-departamento-en-recoleta/194288689,-25.30088,-57.58529
+2026-09-23,Asunción,Barrio Jara,departamento,52,1,88000,USD,88000,1692,infocasas,1,https://www.infocasas.com.py/depto-1-dormitorio-con-cochera-en-barrio-jara/194303345,-25.27201,-57.59956
+2026-09-18,Asunción,Mburucuyá,departamento,70,2,120000,USD,120000,1714,infocasas,1,https://www.infocasas.com.py/estrena-hoy-departamento-de-2-dormitorios-c-cochera-en-mburucuya/194269828,,
+2026-09-22,Asunción,Barrio Jara,departamento,75,2,133750,USD,133750,1783,infocasas,1,https://www.infocasas.com.py/departamento-en-venta-de-2-habitaciones-con-cochera-incluida-en-barrio-jara-/194282717,-25.27488,-57.59669
+2026-09-23,Asunción,Sajonia,departamento,78,2,100000,USD,100000,1282,infocasas,1,https://www.infocasas.com.py/departamentoventasajonia-sajonia-asuncion/194296263,,
+2026-09-21,Asunción,Villa Morra,departamento,89,2,165700,USD,165700,1862,infocasas,1,https://www.infocasas.com.py/departamentos-amplios-de-2-habitaciones-en-construccion-barrio-villa-morra/194287493,-25.29784,-57.58115
+2026-09-21,Asunción,Barrio Jara,departamento,108,2,900000000,PYG,151849,1406,remax,1,https://www.remax.com.py/es-py/propiedades/departamento/venta/asuncion/143112002-46,-25.27882,-57.60738
+2026-09-17,Asunción,Las Mercedes,departamento,140,3,239000,USD,239000,1707,remax,1,https://www.remax.com.py/es-py/propiedades/departamento/venta/asuncion/143072073-154,-25.28733,-57.61844
+2026-09-23,Asunción,Las Lomas,departamento,150,3,200000,USD,200000,1333,infocasas,1,https://www.infocasas.com.py/divino-super-luminoso-amplio-y-comodo-dpto-en-la-mejor-zona-de-asuncion-de-3-dormitorios/194291961,-25.27328,-57.5729
+2026-09-21,"Areguá, Central",,casa,125,2,240000000,PYG,40493,324,infocasas,1,https://www.infocasas.com.py/vendo-casa-en-aregua-ideal-casa-de-verano-o-inversion-airbnb/194267827,,
+2026-09-18,"Areguá, Central",,casa,220,5,180000,USD,180000,818,infocasas,1,https://www.infocasas.com.py/venta-casa-en-el-cerro-de-aregua/194252366,-25.32873,-57.39909
+2026-09-18,"Capiatá, Central",,casa,85,3,370000000,PYG,62427,734,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/capiata/143061066-47,-25.3773,-57.42592
+2026-09-22,"Capiatá, Central",,casa,100,4,580000000,PYG,97858,979,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/capiata/143080106-20,-25.35064,-57.4833
+2026-09-22,"Capiatá, Central",,casa,138,2,500000000,PYG,84360,611,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/capiata/143020098-50,,
+2026-09-22,"Fernando de la Mora, Central",,casa,100,4,660000000,PYG,111356,1114,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/fernando-de-la-mora/143109001-31,-25.34124,-57.56016
+2026-09-21,"Fernando de la Mora, Central",,casa,160,,990000000,PYG,167033,1044,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/fernando-de-la-mora/143068129-172,-25.32664,-57.54026
+2026-09-22,"Fernando de la Mora, Central",,casa,200,2,780000000,PYG,131602,658,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/fernando-de-la-mora/143061002-214,-25.35574,-57.56317
+2026-09-23,"Fernando de la Mora, Central",,casa,268,4,1550000000,PYG,261517,976,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/fernando-de-la-mora/143054126-82,-25.32892,-57.55609
+2026-09-19,"Fernando de la Mora, Central",,casa,340,3,280000,USD,280000,824,infocasas,1,https://www.infocasas.com.py/vendo-casa-en-fdo-de-la-mora-%E2%80%93-zona-norte/194280395,,
+2026-09-22,"Fernando de la Mora, Central",,casa,340,5,2500000000,PYG,421802,1241,infocasas,1,https://www.infocasas.com.py/vendo-casa-en-fernando-de-la-mora/194283202,,
+2026-09-22,"Fernando de la Mora, Central",,casa,528,4,350000,USD,350000,663,infocasas,1,https://www.infocasas.com.py/casa-en-venta-en-fernando-de-la-mora-%E2%80%93-a-tres-cuadras-de-mcal-lopez/194291900,-25.31021,-57.53462
+2026-09-22,"Fernando de la Mora, Central",,duplex,160,3,950000000,PYG,160285,1002,remax,1,https://www.remax.com.py/es-py/propiedades/duplex/venta/fernando-de-la-mora/143109002-13,-25.33705,-57.56443
+2026-09-22,"Itá, Central",,casa,317,1,2700000000,PYG,455546,1437,infocasas,1,https://www.infocasas.com.py/casa-de-campoventa-ita-central/194278885,-25.49326,-57.3973
+2026-09-22,"Itauguá, Central",,casa,40,2,203000000,PYG,34250,856,infocasas,1,https://www.infocasas.com.py/hermosas-casas-en-venta/194286315,-25.47597,-57.34962
+2026-09-23,"Itauguá, Central",,casa,60,2,270000000,PYG,45555,759,infocasas,1,https://www.infocasas.com.py/casa-en-venta-en-itaugua-/194274692,,
+2026-09-17,"Itauguá, Central",,casa,158,5,101556,USD,101556,643,infocasas,1,https://www.infocasas.com.py/casaventaitagua-villa-alta-villa-alta-itaugua-central/194244135,-25.37733,-57.38331
+2026-09-17,"Julián Augusto Saldívar, Central",,casa,55,2,260000000,PYG,43867,798,infocasas,1,https://www.infocasas.com.py/vendo-chalet-en-j-augusto-saldivar-/194253968,,
+2026-09-20,"Lambaré, Central",,casa,98,2,890000000,PYG,150161,1532,infocasas,1,https://www.infocasas.com.py/venta-casa-con-piscina-en-lambare-479-m2-de-terreno-a-2-cuadras-de-av-arga%C3%B1a/194283601,-25.33183,-57.62261
+2026-09-18,"Lambaré, Central",,departamento,115,2,173900,USD,173900,1512,remax,1,https://www.remax.com.py/es-py/propiedades/departamento/venta/lambare/143072073-155,-25.36529,-57.62901
+2026-09-17,"Limpio, Central",,casa,60,2,330000000,PYG,55678,928,infocasas,1,https://www.infocasas.com.py/-tu-casa-propia-en-limpio-barrio-universitario/194264518,,
+2026-09-23,"Limpio, Central",,casa,99,3,220000000,PYG,37119,375,infocasas,1,https://www.infocasas.com.py/venta-de-terreno-limpio-costa-azul/194303982,-25.16781,-57.49778
+2026-09-18,"Limpio, Central",,casa,150,4,250000000,PYG,42180,281,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/limpio/143095016-25,-25.1626,-57.47045
+2026-09-22,"Limpio, Central",,casa,243,5,850000000,PYG,143413,590,infocasas,1,https://www.infocasas.com.py/venta-de-casa-ewn-limpio-santa-lucia/194279613,-25.16837,-57.48264
+2026-09-21,"Luque, Central",,casa,58,2,340000000,PYG,57365,989,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/luque/143068100-20,,
+2026-09-17,"Luque, Central",,casa,60,2,280000000,PYG,47242,787,infocasas,1,https://www.infocasas.com.py/-lujo-y-naturaleza-en-luque-isla-bogado-%E2%80%93-viviendas-del-bosque-tu-hogar-so%C3%B1ado-en-un-barrio-cerrado-exclusivo/194264342,,
+2026-09-17,"Luque, Central",,casa,60,2,329000000,PYG,55509,925,infocasas,1,https://www.infocasas.com.py/-%C2%A1oportunidad-unica-casa-en-venta-en-luque-ca%C3%B1ada-san-rafael-%E2%80%93-%C2%A1tu-nuevo-hogar-te-espera/194264096,-25.30147,-57.4646
+2026-09-19,"Luque, Central",,casa,75,2,406000000,PYG,68501,913,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/luque/143096059-44,-25.21511,-57.47266
+2026-09-23,"Luque, Central",,casa,100,2,780000000,PYG,131602,1316,infocasas,1,https://www.infocasas.com.py/vendo-casa-en-zona-palacio-de-justicia-luque/194303784,-25.27123,-57.46336
+2026-09-19,"Luque, Central",,casa,200,3,980000000,PYG,165346,827,infocasas,1,https://www.infocasas.com.py/en-venta-exclusiva-casa-quinta-estilo-rustico-en-mora-kue-luque/194271568,-25.23359,-57.46784
+2026-09-19,"Luque, Central",,casa,300,3,550000000,PYG,92796,309,infocasas,1,https://www.infocasas.com.py/vendo-casa-en-barrio-itapuami-luque-/194273606,,
+2026-09-18,"Luque, Central",,duplex,120,3,900000000,PYG,151849,1265,remax,1,https://www.remax.com.py/es-py/propiedades/duplex/venta/luque/143098038-48,-25.25347,-57.49784
+2026-09-18,"Luque, Central",,duplex,140,3,980000000,PYG,165346,1181,remax,1,https://www.remax.com.py/es-py/propiedades/duplex/venta/luque/143098038-49,-25.25283,-57.50246
+2026-09-18,"Luque, Central",,duplex,200,3,205000,USD,205000,1025,remax,1,https://www.remax.com.py/es-py/propiedades/duplex/venta/luque/143098021-95,-25.25615,-57.49376
+2026-09-19,"Mariano Roque Alonso, Central",,casa,53,2,350000000,PYG,59052,1114,infocasas,1,https://www.infocasas.com.py/%C2%A1tu-casa-propia-en-mariano-roque-alonso/194272593,-25.20034,-57.53905
+2026-09-19,"Mariano Roque Alonso, Central",,casa,210,2,350000000,PYG,59052,281,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/mariano-roque-alonso/143072083-44,-25.22477,-57.56305
+2026-09-17,"Ñemby, Central",,casa,60,2,360000000,PYG,60739,1012,infocasas,1,https://www.infocasas.com.py/%C2%A1oportunidad-unica-exclusivas-casas-a-la-venta-en-%C3%B1emby-barrio-ca%C3%B1adita-tu-nuevo-hogar-te-espera/194264151,-25.42618,-57.53322
+2026-09-18,"Ñemby, Central",,casa,75,2,395000000,PYG,66645,889,infocasas,1,https://www.infocasas.com.py/casa-pareada-en-barrio-cerrado/194274598,-25.37919,-57.53696
+2026-09-19,"Ñemby, Central",,casa,80,2,380000000,PYG,64114,801,infocasas,1,https://www.infocasas.com.py/%C2%A1exclusiva-oportunidad-tu-hogar-so%C3%B1ado-en-%C3%B1emby-barrio-rincon-confort-y-estilo-a-tu-alcance/194271693,,
+2026-09-23,"Ñemby, Central",,casa,126,3,550000000,PYG,92796,736,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/nemby/143061077-31,,
+2026-09-23,"Ñemby, Central",,casa,258,2,650000000,PYG,109668,425,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/nemby/143061077-32,-25.39492,-57.51981
+2026-09-23,"San Antonio, Central",,casa,230,2,590000000,PYG,99545,433,infocasas,1,https://www.infocasas.com.py/-casaventapy-central-san-antonio-la-merced/194288777,-25.40469,-57.56093
+2026-09-17,"San Lorenzo, Central",,casa,50,2,300000000,PYG,50616,1012,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/san-lorenzo/143063199-76,-25.34713,-57.48206
+2026-09-22,"San Lorenzo, Central",,casa,60,2,335000000,PYG,56521,942,infocasas,1,https://www.infocasas.com.py/vendo-chalet-en-san-lorenzo-barrio-reducto/194290930,,
+2026-09-19,"San Lorenzo, Central",,casa,64,2,360000000,PYG,60739,949,infocasas,1,https://www.infocasas.com.py/residencia-a-estrenar-en-san-lorenzo-barrio-mitai-tu-nuevo-hogar-te-esta-esperando/194268360,-25.38016,-57.49809
+2026-09-17,"San Lorenzo, Central",,casa,64,2,405000000,PYG,68332,1068,infocasas,1,https://www.infocasas.com.py/%E2%9C%A8-%C2%A1oportunidad-unica-casa-de-ensue%C3%B1o-en-venta-en-el-exclusivo-barrio-cerrado-vitalia-%E2%80%93-san-lorenzo-%E2%9C%A8/194264677,-25.31493,-57.5046
+2026-09-23,"San Lorenzo, Central",,casa,100,3,200000,USD,200000,2000,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/san-lorenzo/143091063-11,-25.36838,-57.52949
+2026-09-21,"San Lorenzo, Central",,casa,147,3,750000000,PYG,126541,860,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/san-lorenzo/143114003-4,,
+2026-09-17,"San Lorenzo, Central",,casa,160,3,950000000,PYG,160285,1002,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/san-lorenzo/114006136-3,-25.34468,-57.53417
+2026-09-18,"San Lorenzo, Central",,casa,280,3,1100000000,PYG,185593,663,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/san-lorenzo/143097025-19,,
+2026-09-18,"San Lorenzo, Central",,casa,280,4,410000,USD,410000,1464,infocasas,1,https://www.infocasas.com.py/vendo-residencia-minimalista-san-lorenzo-zona-salenma/194274394,,
+2026-09-18,"San Lorenzo, Central",,casa,300,3,1100000000,PYG,185593,619,infocasas,2,https://www.infocasas.com.py/vendo-casa-en-san-lorenzo/194294781,-25.36355,-57.55109
+2026-09-22,"San Lorenzo, Central",,duplex,130,3,490000000,PYG,82673,636,remax,1,https://www.remax.com.py/es-py/propiedades/duplex/venta/san-lorenzo/143114014-1,-25.35922,-57.5225
+2026-09-21,"Villa Elisa, Central",,casa,72,2,390000000,PYG,65801,914,infocasas,1,https://www.infocasas.com.py/vendo-casa-a-estrenar-en-villa-elisa-%E2%80%93-apta-para-credito-bancario/194259301,-25.37703,-57.58473
+2026-09-17,"Villa Elisa, Central",,casa,76,2,490000000,PYG,82673,1088,infocasas,2,https://www.infocasas.com.py/exclusiva-residencia-a-estrenar-en-el-prestigioso-barrio-sol-de-america-villa-elisa-su-nuevo-hogar-de-ensue%C3%B1o/194267882,-25.36963,-57.59084
+2026-09-23,"Villa Elisa, Central",,casa,205,2,750000000,PYG,126541,617,infocasas,1,https://www.infocasas.com.py/vendo-casa-en-esquina-en-el-centro-de-villa-elisa/194271723,,
+2026-09-23,"Villa Elisa, Central",,casa,205,3,750000000,PYG,126541,617,infocasas,1,https://www.infocasas.com.py/vendo-casa-en-esquina-zona-municipalidad-de-villa-elisa-/194290016,,
+2026-09-19,"Villeta, Central",,casa,155,3,420000000,PYG,70863,457,infocasas,1,https://www.infocasas.com.py/vendo-casa-en-villeta-%E2%80%94-a-2-cuadras-de-la-costanera/194251885,-25.50237,-57.56521
+2026-09-20,"Villeta, Central",,casa,170,2,400000000,PYG,67488,397,infocasas,1,https://www.infocasas.com.py/quinta-venta-villeta-central-paraguay/194283650,,
+2026-09-23,"Villeta, Central",,casa,229,3,390000000,PYG,65801,287,infocasas,1,https://www.infocasas.com.py/venta-de-casa-en-villeta-/194304389,-25.50155,-57.56288
+2026-09-18,"Villeta, Central",,casa,608,3,1390000000,PYG,234522,386,infocasas,2,https://www.infocasas.com.py/en-venta-propiedad-en-el-centro-de-villeta/194271223,-25.51126,-57.56561
+2026-09-19,"Ypacaraí, Central",,casa,60,2,580000000,PYG,97858,1631,infocasas,1,https://www.infocasas.com.py/chalet-venta-ypacarai-central-paraguay/194279566,-25.40506,-57.28907
+2026-09-19,"Ypané, Central",,casa,45,1,235000000,PYG,39649,881,infocasas,1,https://www.infocasas.com.py/vendo-casa-en-potrerito-ypane-/194274622,,
+2026-09-17,"Ypané, Central",,casa,144,4,670000000,PYG,113043,785,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/ypane/143091063-9,,
+2026-09-19,"Ypané, Central",,casa,145,2,460000000,PYG,77612,535,infocasas,1,https://www.infocasas.com.py/casa-venta-ypane-central-paraguay/194274278,,
+2026-09-20,"Ypané, Central",,casa,150,4,350000000,PYG,59052,394,infocasas,1,https://www.infocasas.com.py/vendo-casa-en-ypanethompson/194276525,-25.42839,-57.49818
+2026-09-23,"Ypané, Central",,casa,346,3,450000,USD,450000,1301,infocasas,1,https://www.infocasas.com.py/vendo-propiedad-en-ypane-sobre-acceso-sur/194301229,-25.46927,-57.50669
+2026-09-19,"San Bernardino, Cordillera",,casa,90,2,500000000,PYG,84360,937,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/san-bernardino/143063221-44,-25.33658,-57.24409
+2026-09-19,"Independencia, Guairá",,casa,290,4,685000,USD,685000,2362,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/independencia/143063256-2,-25.69153,-56.26499
+2026-09-23,"Cambyretá, Itapúa",,casa,99,3,600000000,PYG,101232,1023,uprop,1,https://uprop.com.py/detail/casa-en-venta-4-ambientes-b5e263fc-1352-4fb3-b78c-9bf22b8eb97e,-27.33698,-55.83575
+2026-09-17,"Cambyretá, Itapúa",,casa,144,3,185000,USD,185000,1285,uprop,1,https://uprop.com.py/detail/casa-en-venta-6-ambientes-3c9e36ce-dbf0-44a0-8bf7-c436342ea70c,-27.33022,-55.84895
+2026-09-23,"Capitán Miranda, Itapúa",,casa,71,3,280000000,PYG,47242,665,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/capitan-miranda/143085019-596,-27.22165,-55.8338
+2026-09-21,"Encarnación, Itapúa",,casa,180,2,1000000000,PYG,168721,937,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/encarnacion/143085018-150,,
+2026-09-23,"Encarnación, Itapúa",,casa,200,0,470000000,PYG,79299,396,uprop,1,https://uprop.com.py/detail/casa-en-venta-6-ambientes-f94cb018-c0e6-4ee9-8d69-ca833cf8860e,-27.30454,-55.86707
+2026-09-18,"Encarnación, Itapúa",,casa,400,4,700000,USD,700000,1750,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/encarnacion/143011003-469,,
+2026-09-21,"Encarnación, Itapúa",,departamento,43,1,41985,USD,41985,966,remax,1,https://www.remax.com.py/es-py/propiedades/departamento/venta/encarnacion/143085019-595,-27.26597,-55.81876
+2026-09-23,"Encarnación, Itapúa",,departamento,63,2,430000000,PYG,72550,1152,uprop,1,https://uprop.com.py/detail/departamento-en-venta-3-ambientes-a31a504a-30ae-4058-979a-c739b4a9f13a,-27.33329,-55.87226

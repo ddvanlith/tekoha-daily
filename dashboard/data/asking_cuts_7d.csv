@@ -1,96 +1,97 @@
-observed,place,area,kind,built_m2,asking_old,asking_new,currency,asking_new_usd,pct,days_listed,source,brokers,lat,lon
-2026-09-22,San Pedro,,terreno,,1360000000,870000000,PYG,146787,-36,165,remax,1,-24.90799,-56.34229
-2026-09-19,Asunción,San Roque,departamento,,108000,72000,USD,72000,-33.3,141,remax,1,-25.29406,-57.63255
-2026-09-18,Paraguarí,,terreno,,210000,140000,USD,140000,-33.3,26,remax,1,-25.94543,-56.8353
-2026-09-22,"Caacupé, Cordillera",,terreno,,700000000,500000000,PYG,84360,-28.6,98,remax,1,-25.34123,-57.49906
-2026-09-17,Asunción,La Encarnación,oficina,224,150000,110000,USD,110000,-26.7,82,remax,1,-25.28281,-57.63785
-2026-09-22,Concepción,,terreno,,4000000000,3200000000,PYG,539906,-20,287,remax,1,-23.26598,-57.31839
-2026-09-19,"Cambyretá, Itapúa",,terreno,,105000,85000,USD,85000,-19,652,remax,1,-27.32885,-55.84748
-2026-09-23,"Ypacaraí, Central",,terreno,,220000000,180000000,PYG,30370,-18.2,218,remax,2,-25.36485,-57.26465
-2026-09-19,"Ciudad del Este, Alto Paraná",,terreno,,232100000,190000000,PYG,32057,-18.1,168,remax,1,-25.49871,-54.66365
-2026-09-22,"Loma Plata, Boquerón",,terreno,,180000000,148000000,PYG,24971,-17.8,149,remax,1,-22.38755,-59.84993
-2026-09-21,Alto Paraguay,,rural,200,32000000,26500000,USD,26500000,-17.2,163,remax,1,-19.98383,-59.45347
-2026-09-18,Asunción,Trinidad,casa,150,1720000000,1430000000,PYG,241271,-16.9,71,remax,1,-25.25651,-57.57146
-2026-09-17,"Limpio, Central",,terreno,,600000000,500000000,PYG,84360,-16.7,154,remax,1,-25.16299,-57.46673
-2026-09-22,"Loma Plata, Boquerón",,casa,90,298000000,251000000,PYG,42349,-15.8,57,remax,1,-22.39855,-59.82794
-2026-09-22,"San Juan del Paraná, Itapúa",,terreno,,130000,110000,USD,110000,-15.4,202,remax,1,-27.26667,-56
-2026-09-23,Asunción,Loma Pytá,terreno,,470000000,400000000,PYG,67488,-14.9,21,remax,1,-25.23423,-57.55167
-2026-09-19,Alto Paraná,,terreno,,27000,23000,USD,23000,-14.8,378,remax,1,-25.79872,-55.09073
-2026-09-17,"San Lorenzo, Central",,casa,300,700000000,600000000,PYG,101232,-14.3,117,remax,1,-25.3386,-57.50383
-2026-09-19,Guairá,,terreno,,725000000,625000000,PYG,105450,-13.8,69,remax,1,-25.7027,-56.4299
-2026-09-23,"Encarnación, Itapúa",,casa,1400,1100000,950000,USD,950000,-13.6,148,remax,1,-27.40544,-55.82363
-2026-09-22,"Lambaré, Central",,casa,180,150000,130000,USD,130000,-13.3,216,infocasas,1,-25.32922,-57.60459
-2026-09-22,Asunción,San Roque,terreno,328,1150000000,1000000000,PYG,168721,-13,13,remax,1,-25.28383,-57.62743
-2026-09-18,"Loma Plata, Boquerón",,terreno,,78000000,68000000,PYG,11473,-12.8,168,remax,1,-22.5472,-59.83626
-2026-09-17,,,casa,1089,1950000,1700000,USD,1700000,-12.8,,psir,1,,
-2026-09-17,"Encarnación, Itapúa",,otro,,1050000,920000,USD,920000,-12.4,407,remax,1,-27.33584,-55.86887
-2026-09-23,"Villa Hayes, Presidente Hayes",,casa,81,170000000,150000000,PYG,25308,-11.8,63,remax,1,-25.08632,-57.54143
-2026-09-18,"Limpio, Central",,terreno,,85000000,75000000,PYG,12654,-11.8,338,remax,1,-25.11579,-57.48342
-2026-09-17,"Lambaré, Central",,duplex,220,850000000,750000000,PYG,126541,-11.8,239,remax,1,-25.3689,-57.63257
-2026-09-23,Cordillera,,terreno,,260000000,230000000,PYG,38806,-11.5,250,remax,1,-25.30892,-56.89678
-2026-09-18,"San Lorenzo, Central",,casa,100,1125000000,999000000,PYG,168552,-11.2,652,remax,1,-25.34562,-57.50257
-2026-09-23,"Hernandarias, Alto Paraná",,terreno,150,450000000,400000000,PYG,67488,-11.1,92,remax,1,-25.40806,-54.627
-2026-09-23,"Ciudad del Este, Alto Paraná",,terreno,,450000000,400000000,PYG,67488,-11.1,97,remax,1,-25.47066,-54.67212
-2026-09-20,"Cambyretá, Itapúa",,casa,69,450000000,400000000,PYG,67488,-11.1,232,remax,1,-27.34193,-55.82437
-2026-09-23,"Limpio, Central",,casa,50,325000000,290000000,PYG,48929,-10.8,37,remax,1,-25.19801,-57.46438
-2026-09-17,Cordillera,,terreno,,140000000,125000000,PYG,21090,-10.7,230,remax,1,-25.12198,-57.34159
-2026-09-23,Asunción,Herrera,casa,300,285000,255000,USD,255000,-10.5,78,remax,1,-25.30138,-57.56103
-2026-09-21,"Ciudad del Este, Alto Paraná",,deposito,510,335000,300000,USD,300000,-10.4,42,remax,1,-25.50266,-54.66358
-2026-09-23,"Hernandarias, Alto Paraná",,terreno,,500000000,450000000,PYG,75924,-10,126,remax,1,-25.42093,-54.65025
-2026-09-23,Asunción,Barrio Jara,casa,318,1500000000,1350000000,PYG,227773,-10,34,remax,1,-25.2748,-57.60117
-2026-09-17,"San Bernardino, Cordillera",,casa,270,200000,180000,USD,180000,-10,632,remax,1,-25.34615,-57.27057
-2026-09-17,Asunción,Las Lomas (Carmelitas),casa,234,422000,380000,USD,380000,-10,222,remax,1,-25.27749,-57.5691
-2026-09-18,Cordillera,,casa,1500,770000000,695000000,PYG,117261,-9.7,96,remax,1,-25.29722,-57.15853
-2026-09-23,"Limpio, Central",,casa,48,220000000,199000000,PYG,33575,-9.5,20,remax,1,-25.1927,-57.48877
-2026-09-19,Asunción,San Roque,casa,292,210000,190000,USD,190000,-9.5,194,remax,1,-25.30311,-57.62569
-2026-09-19,"Ñemby, Central",,terreno,,210000000,190000000,PYG,32057,-9.5,244,remax,1,-25.40689,-57.52551
-2026-09-18,Asunción,Recoleta,terreno,,2630000000,2380000000,PYG,401555,-9.5,79,remax,1,-25.56281,-57.50799
-2026-09-18,"Fernando de la Mora, Central",,casa,300,2211000000,2000000000,PYG,337441,-9.5,62,remax,1,-25.32166,-57.53308
-2026-09-23,"Itauguá, Central",,casa,110,330000000,300000000,PYG,50616,-9.1,47,remax,1,-25.40164,-57.37041
-2026-09-18,"Luque, Central",,otro,70,1100000000,1000000000,PYG,168721,-9.1,78,remax,1,-25.2613,-57.49059
-2026-09-22,"Luque, Central",,terreno,,125000000,115000000,PYG,19403,-8,63,remax,1,-25.26221,-57.43586
-2026-09-22,Asunción,La Encarnación,edificio,542,130000,120000,USD,120000,-7.7,114,remax,1,-25.28242,-57.63885
-2026-09-23,Asunción,Villa Morra,departamento,,108000,100000,USD,100000,-7.4,6,remax,1,-25.28903,-57.58235
-2026-09-23,"Capiatá, Central",,terreno,,135000000,125000000,PYG,21090,-7.4,148,remax,1,-25.37654,-57.42513
-2026-09-22,Asunción,Catedral,oficina,,270000000,250000000,PYG,42180,-7.4,34,remax,1,-25.28498,-57.63625
-2026-09-23,"Ciudad del Este, Alto Paraná",,terreno,,70000,65000,USD,65000,-7.1,42,remax,1,-25.51758,-54.64316
-2026-09-21,Asunción,Ycuá Satí,departamento,,700000000,650000000,PYG,109668,-7.1,1477,remax,1,-25.28005,-57.5522
-2026-09-17,"Ñemby, Central",,duplex,210,840000000,780000000,PYG,131602,-7.1,196,remax,1,-25.37399,-57.53278
-2026-09-17,"Luque, Central",,casa,136,585000000,545000000,PYG,91953,-6.8,180,remax,1,-25.27795,-57.49172
-2026-09-23,"Mariano Roque Alonso, Central",,casa,60,300000000,280000000,PYG,47242,-6.7,109,infocasas,1,-25.23767,-57.53734
-2026-09-22,"Encarnación, Itapúa",,departamento,2250,230000,215000,USD,215000,-6.5,189,remax,1,-27.32183,-55.87182
-2026-09-18,"Capiatá, Central",,casa,144,310000000,290000000,PYG,48929,-6.5,432,remax,1,-25.35589,-57.44075
-2026-09-19,"Mariano Roque Alonso, Central",,terreno,,800000,750000,USD,750000,-6.3,239,remax,1,-25.19369,-57.52967
-2026-09-19,Asunción,General Díaz,local,404,795000000,745000000,PYG,125697,-6.3,81,remax,1,-25.29755,-57.63618
-2026-09-18,"Encarnación, Itapúa",,casa,290,250000,235000,USD,235000,-6,167,remax,1,-27.23057,-55.94047
-2026-09-23,"Limpio, Central",,terreno,,690000000,650000000,PYG,109668,-5.8,92,remax,1,-25.14373,-57.47312
-2026-09-18,"Capiatá, Central",,casa,85,380000000,360000000,PYG,60739,-5.3,152,remax,1,-25.37381,-57.4288
-2026-09-18,"Itá, Central",,terreno,,390000000,370000000,PYG,62427,-5.1,229,remax,1,-25.47388,-57.38291
-2026-09-18,"Ñemby, Central",,terreno,,300000000,285000000,PYG,48085,-5,90,remax,1,-25.37849,-57.56312
-2026-09-18,Cordillera,,terreno,,620000000,590000000,PYG,99545,-4.8,146,remax,1,-25.32431,-57.15715
-2026-09-21,Asunción,Virgen de Fátima,otro,315,860000000,820000000,PYG,138351,-4.7,195,remax,1,-25.25795,-57.58797
-2026-09-21,"Fernando de la Mora, Central",,departamento,,42500,40500,USD,40500,-4.7,160,remax,1,-25.29877,-57.53828
-2026-09-23,"Villa Elisa, Central",,casa,142,1100000000,1050000000,PYG,177157,-4.5,85,remax,1,-25.3635,-57.57713
-2026-09-21,"San Lorenzo, Central",,terreno,,350000000,335000000,PYG,56521,-4.3,57,remax,1,-25.33889,-57.52838
-2026-09-22,"Luque, Central",,casa,300,1200000000,1150000000,PYG,194029,-4.2,97,remax,1,-25.24553,-57.50505
-2026-09-20,"Caacupé, Cordillera",,casa,350,730000000,700000000,PYG,118104,-4.1,222,remax,1,-25.38035,-57.14252
-2026-09-23,"Ñemby, Central",,duplex,210,780000000,750000000,PYG,126541,-3.8,196,remax,1,-25.37399,-57.53278
-2026-09-23,"Limpio, Central",,terreno,,300000000,289000000,PYG,48760,-3.7,216,infocasas,1,-25.16112,-57.472
-2026-09-23,"Itauguá, Central",,casa,180,270000000,260000000,PYG,43867,-3.7,204,remax,1,-25.39277,-57.39677
-2026-09-22,"Loma Plata, Boquerón",,terreno,,136000000,131000000,PYG,22102,-3.7,84,remax,1,-22.55546,-59.82585
-2026-09-17,"Ciudad del Este, Alto Paraná",,departamento,,161000,155000,USD,155000,-3.7,218,remax,1,-25.51215,-54.63778
-2026-09-23,"Areguá, Central",,terreno,,140000,135000,USD,135000,-3.6,136,remax,1,-25.30524,-57.38768
-2026-09-22,"Ñemby, Central",,terreno,,850000000,820000000,PYG,138351,-3.5,51,remax,1,-25.37414,-57.55716
-2026-09-22,Asunción,Mburucuyá,casa,230,1450000000,1400000000,PYG,236209,-3.4,749,infocasas,1,-25.26508,-57.5753
-2026-09-23,"Lambaré, Central",,casa,540,600000,580000,USD,580000,-3.3,13,infocasas,1,-25.36945,-57.63357
-2026-09-18,"San Bernardino, Cordillera",,terreno,,300000000,290000000,PYG,48929,-3.3,250,remax,1,-25.31102,-57.2613
-2026-09-23,"Capiatá, Central",,casa,250,650000000,630000000,PYG,106294,-3.1,115,remax,1,-25.34182,-57.47283
-2026-09-22,"Loma Plata, Boquerón",,terreno,,165400000,160400000,PYG,27063,-3,84,remax,1,-22.5539,-59.8273
-2026-09-17,Asunción,Virgen del Huerto,departamento,,87625,85091,USD,85091,-2.9,97,remax,1,-25.28163,-57.59964
-2026-09-18,Asunción,Villa Aurelia,duplex,192,200000,195000,USD,195000,-2.5,92,remax,1,-25.31249,-57.55812
-2026-09-18,Asunción,Mariscal Estigarribia,casa,1034,850000,830000,USD,830000,-2.4,83,remax,1,-25.3075,-57.57321
-2026-09-23,"San Bernardino, Cordillera",,terreno,,220000000,215000000,PYG,36275,-2.3,51,remax,1,-25.35159,-57.27113
-2026-09-18,"Ciudad del Este, Alto Paraná",,terreno,,230000,225000,USD,225000,-2.2,847,remax,1,-25.50314,-54.64815
-2026-09-18,"Luque, Central",,terreno,,97000,95000,USD,95000,-2.1,77,remax,1,-25.27418,-57.48328
-2026-09-18,"Fernando de la Mora, Central",,departamento,47,258000000,253000000,PYG,42686,-1.9,294,remax,1,-25.32791,-57.56208
-2026-09-23,"Luque, Central",,duplex,,660000000,650000000,PYG,109668,-1.5,218,remax,1,-25.30313,-57.50667
+observed,place,area,kind,built_m2,asking_old,asking_new,currency,asking_new_usd,pct,days_listed,source,brokers,url,lat,lon
+2026-09-22,"Yataity del Norte, San Pedro",,terreno,,1360000000,870000000,PYG,146787,-36,165,remax,1,https://www.remax.com.py/es-py/propiedades/terreno/venta/yataity-del-norte/114006001-283,-24.90799,-56.34229
+2026-09-19,Asunción,San Roque,departamento,,108000,72000,USD,72000,-33.3,141,remax,1,https://www.remax.com.py/es-py/propiedades/departamento/venta/asuncion/143098047-49,-25.29406,-57.63255
+2026-09-18,"Ybycuí, Paraguarí",,terreno,,210000,140000,USD,140000,-33.3,26,remax,1,https://www.remax.com.py/es-py/propiedades/terreno/venta/ybycui/143061002-212,-25.94543,-56.8353
+2026-09-22,"Caacupé, Cordillera",,terreno,,700000000,500000000,PYG,84360,-28.6,98,remax,1,https://www.remax.com.py/es-py/propiedades/terreno/venta/caacupe/143036165-8,-25.34123,-57.49906
+2026-09-17,Asunción,La Encarnación,oficina,224,150000,110000,USD,110000,-26.7,82,remax,1,https://www.remax.com.py/es-py/propiedades/oficina/venta/asuncion/143098088-21,-25.28281,-57.63785
+2026-09-22,"Loreto, Concepción",,terreno,,4000000000,3200000000,PYG,539906,-20,287,remax,1,https://www.remax.com.py/es-py/propiedades/terreno/venta/loreto/143109001-10,-23.26598,-57.31839
+2026-09-19,"Cambyretá, Itapúa",,terreno,,105000,85000,USD,85000,-19,652,remax,1,https://www.remax.com.py/es-py/propiedades/terreno/venta/cambyreta/143011007-1945,-27.32885,-55.84748
+2026-09-23,"Ypacaraí, Central",,terreno,,220000000,180000000,PYG,30370,-18.2,218,remax,2,https://www.remax.com.py/es-py/propiedades/terreno/venta/ypacarai/143061085-21,-25.36485,-57.26465
+2026-09-19,"Ciudad del Este, Alto Paraná",,terreno,,232100000,190000000,PYG,32057,-18.1,168,remax,1,https://www.remax.com.py/es-py/propiedades/terreno/venta/ciudad-del-este/143050014-119,,
+2026-09-22,"Loma Plata, Boquerón",,terreno,,180000000,148000000,PYG,24971,-17.8,149,remax,1,https://www.remax.com.py/es-py/propiedades/terreno/venta/loma-plata/143078013-63,-22.38755,-59.84993
+2026-09-21,"Bahia Negra, Alto Paraguay",,rural,200,32000000,26500000,USD,26500000,-17.2,163,remax,1,https://www.remax.com.py/es-py/propiedades/rural/venta/bahia-negra/143054072-72,-19.98383,-59.45347
+2026-09-18,Asunción,Trinidad,casa,150,1720000000,1430000000,PYG,241271,-16.9,71,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/asuncion/143025194-12,-25.25651,-57.57146
+2026-09-17,"Limpio, Central",,terreno,,600000000,500000000,PYG,84360,-16.7,154,remax,1,https://www.remax.com.py/es-py/propiedades/terreno/venta/limpio/143063200-7,-25.16299,-57.46673
+2026-09-22,"Loma Plata, Boquerón",,casa,90,298000000,251000000,PYG,42349,-15.8,57,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/loma-plata/143078013-92,-22.39855,-59.82794
+2026-09-22,"San Juan del Paraná, Itapúa",,terreno,,130000,110000,USD,110000,-15.4,202,remax,1,https://www.remax.com.py/es-py/propiedades/terreno/venta/san-juan-del-parana/143085032-74,-27.26667,-56
+2026-09-23,Asunción,Loma Pytá,terreno,,470000000,400000000,PYG,67488,-14.9,21,remax,1,https://www.remax.com.py/es-py/propiedades/terreno/venta/asuncion/143098095-2,-25.23423,-57.55167
+2026-09-19,"Santa Rita, Alto Paraná",,terreno,,27000,23000,USD,23000,-14.8,378,remax,1,https://www.remax.com.py/es-py/propiedades/terreno/venta/santa-rita/143065026-187,-25.79872,-55.09073
+2026-09-17,"San Lorenzo, Central",,casa,300,700000000,600000000,PYG,101232,-14.3,117,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/san-lorenzo/143080226-4,-25.3386,-57.50383
+2026-09-19,"Mbocayaty Del Guairá, Guairá",,terreno,,725000000,625000000,PYG,105450,-13.8,69,remax,1,https://www.remax.com.py/es-py/propiedades/terreno/venta/mbocayaty-del-guaira/114006036-18,-25.7027,-56.4299
+2026-09-23,"Encarnación, Itapúa",,casa,1400,1100000,950000,USD,950000,-13.6,148,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/encarnacion/143011007-2212,-27.40544,-55.82363
+2026-09-22,"Lambaré, Central",,casa,180,150000,130000,USD,130000,-13.3,216,infocasas,1,https://www.infocasas.com.py/casa-familiar-con-terreno-de-579m2-ideal-para-inversion-inmobiliaria/193414667,-25.32922,-57.60459
+2026-09-22,Asunción,San Roque,terreno,328,1150000000,1000000000,PYG,168721,-13,13,remax,1,https://www.remax.com.py/es-py/propiedades/terreno/venta/asuncion/143092038-106,-25.28383,-57.62743
+2026-09-18,"Loma Plata, Boquerón",,terreno,,78000000,68000000,PYG,11473,-12.8,168,remax,1,https://www.remax.com.py/es-py/propiedades/terreno/venta/loma-plata/143078029-1,-22.5472,-59.83626
+2026-09-17,,,casa,1089,1950000,1700000,USD,1700000,-12.8,,psir,1,https://www.psir.com.py/propiedades/59119,,
+2026-09-17,"Encarnación, Itapúa",,otro,,1050000,920000,USD,920000,-12.4,407,remax,1,https://www.remax.com.py/es-py/propiedades/otro/venta/encarnacion/143011080-57,-27.33584,-55.86887
+2026-09-23,"Villa Hayes, Presidente Hayes",,casa,81,170000000,150000000,PYG,25308,-11.8,63,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/villa-hayes/143025261-3,-25.08632,-57.54143
+2026-09-18,"Limpio, Central",,terreno,,85000000,75000000,PYG,12654,-11.8,338,remax,1,https://www.remax.com.py/es-py/propiedades/terreno/venta/limpio/143063132-92,-25.11579,-57.48342
+2026-09-17,"Lambaré, Central",,duplex,220,850000000,750000000,PYG,126541,-11.8,239,remax,1,https://www.remax.com.py/es-py/propiedades/duplex/venta/lambare/143063138-63,-25.3689,-57.63257
+2026-09-23,"Isla Pucú, Cordillera",,terreno,,260000000,230000000,PYG,38806,-11.5,250,remax,1,https://www.remax.com.py/es-py/propiedades/terreno/venta/isla-pucu/143094012-70,-25.30892,-56.89678
+2026-09-18,"San Lorenzo, Central",,casa,100,1125000000,999000000,PYG,168552,-11.2,652,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/san-lorenzo/143096015-25,-25.34562,-57.50257
+2026-09-23,"Hernandarias, Alto Paraná",,terreno,150,450000000,400000000,PYG,67488,-11.1,92,remax,1,https://www.remax.com.py/es-py/propiedades/terreno/venta/hernandarias/143099004-67,-25.40806,-54.627
+2026-09-23,"Ciudad del Este, Alto Paraná",,terreno,,450000000,400000000,PYG,67488,-11.1,97,remax,1,https://www.remax.com.py/es-py/propiedades/terreno/venta/ciudad-del-este/143050033-225,-25.47066,-54.67212
+2026-09-20,"Cambyretá, Itapúa",,casa,69,450000000,400000000,PYG,67488,-11.1,232,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/cambyreta/143011111-2,-27.34193,-55.82437
+2026-09-23,"Limpio, Central",,casa,50,325000000,290000000,PYG,48929,-10.8,37,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/limpio/143025265-2,-25.19801,-57.46438
+2026-09-17,"Emboscada, Cordillera",,terreno,,140000000,125000000,PYG,21090,-10.7,230,remax,1,https://www.remax.com.py/es-py/propiedades/terreno/venta/emboscada/114006114-2,-25.12198,-57.34159
+2026-09-23,Asunción,Herrera,casa,300,285000,255000,USD,255000,-10.5,78,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/asuncion/143096064-1,-25.30138,-57.56103
+2026-09-21,"Ciudad del Este, Alto Paraná",,deposito,510,335000,300000,USD,300000,-10.4,42,remax,1,https://www.remax.com.py/es-py/propiedades/deposito/venta/ciudad-del-este/143094028-59,-25.50266,-54.66358
+2026-09-23,"Hernandarias, Alto Paraná",,terreno,,500000000,450000000,PYG,75924,-10,126,remax,1,https://www.remax.com.py/es-py/propiedades/terreno/venta/hernandarias/143099032-7,-25.42093,-54.65025
+2026-09-23,Asunción,Barrio Jara,casa,318,1500000000,1350000000,PYG,227773,-10,34,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/asuncion/143091036-85,-25.2748,-57.60117
+2026-09-17,"San Bernardino, Cordillera",,casa,270,200000,180000,USD,180000,-10,632,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/san-bernardino/143094007-57,,
+2026-09-17,Asunción,Las Lomas (Carmelitas),casa,234,422000,380000,USD,380000,-10,222,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/asuncion/143094057-6,,
+2026-09-18,"Atyra, Cordillera",,casa,1500,770000000,695000000,PYG,117261,-9.7,96,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/atyra/143100054-1,-25.29722,-57.15853
+2026-09-23,"Limpio, Central",,casa,48,220000000,199000000,PYG,33575,-9.5,20,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/limpio/143025254-1,,
+2026-09-19,Asunción,San Roque,casa,292,210000,190000,USD,190000,-9.5,194,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/asuncion/143098047-45,-25.30311,-57.62569
+2026-09-19,"Ñemby, Central",,terreno,,210000000,190000000,PYG,32057,-9.5,244,remax,1,https://www.remax.com.py/es-py/propiedades/terreno/venta/nemby/143028076-8,-25.40689,-57.52551
+2026-09-18,"Fernando de la Mora, Central",,casa,300,2211000000,2000000000,PYG,337441,-9.5,62,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/fernando-de-la-mora/143094028-55,-25.32166,-57.53308
+2026-09-18,Asunción,Recoleta,terreno,,2630000000,2380000000,PYG,401555,-9.5,79,remax,1,https://www.remax.com.py/es-py/propiedades/terreno/venta/asuncion/143109001-25,,
+2026-09-23,"Itauguá, Central",,casa,110,330000000,300000000,PYG,50616,-9.1,47,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/itaugua/143080233-5,,
+2026-09-18,"Luque, Central",,otro,70,1100000000,1000000000,PYG,168721,-9.1,78,remax,1,https://www.remax.com.py/es-py/propiedades/otro/venta/luque/143028074-32,-25.2613,-57.49059
+2026-09-22,"Luque, Central",,terreno,,125000000,115000000,PYG,19403,-8,63,remax,1,https://www.remax.com.py/es-py/propiedades/terreno/venta/luque/143109010-3,-25.26221,-57.43586
+2026-09-22,Asunción,La Encarnación,edificio,542,130000,120000,USD,120000,-7.7,114,remax,1,https://www.remax.com.py/es-py/propiedades/edificio/venta/asuncion/143063196-118,-25.28242,-57.63885
+2026-09-23,"Capiatá, Central",,terreno,,135000000,125000000,PYG,21090,-7.4,148,remax,1,https://www.remax.com.py/es-py/propiedades/terreno/venta/capiata/143020131-6,-25.37654,-57.42513
+2026-09-23,Asunción,Villa Morra,departamento,,108000,100000,USD,100000,-7.4,6,remax,1,https://www.remax.com.py/es-py/propiedades/departamento/venta/asuncion/114006036-26,,
+2026-09-22,Asunción,Catedral,oficina,,270000000,250000000,PYG,42180,-7.4,34,remax,1,https://www.remax.com.py/es-py/propiedades/oficina/venta/asuncion/143038002-324,-25.28498,-57.63625
+2026-09-23,"Ciudad del Este, Alto Paraná",,terreno,,70000,65000,USD,65000,-7.1,42,remax,1,https://www.remax.com.py/es-py/propiedades/terreno/venta/ciudad-del-este/143050134-19,-25.51758,-54.64316
+2026-09-21,Asunción,Ycuá Satí,departamento,,700000000,650000000,PYG,109668,-7.1,1477,remax,1,https://www.remax.com.py/es-py/propiedades/departamento/venta/asuncion/143038002-155,-25.28005,-57.5522
+2026-09-17,"Ñemby, Central",,duplex,210,840000000,780000000,PYG,131602,-7.1,196,remax,1,https://www.remax.com.py/es-py/propiedades/duplex/venta/nemby/143091063-5,-25.37399,-57.53278
+2026-09-23,Asunción,Mburucuyá,departamento,246,580000,540000,USD,540000,-6.9,56,infocasas,1,https://www.infocasas.com.py/palacio-de-los-patos-%E2%80%93-venta-departamento-3-dormitorios-en-suite-19-b1-t1/194048121,,
+2026-09-17,"Luque, Central",,casa,136,585000000,545000000,PYG,91953,-6.8,180,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/luque/143096049-10,-25.27795,-57.49172
+2026-09-23,"Mariano Roque Alonso, Central",,casa,60,300000000,280000000,PYG,47242,-6.7,109,infocasas,1,https://www.infocasas.com.py/%C2%A1oportunidad-depto-2-dormitorios-%E2%80%93-umax-san-blas-mariano-r-alonso/193847815,-25.23767,-57.53734
+2026-09-22,"Encarnación, Itapúa",,departamento,2250,230000,215000,USD,215000,-6.5,189,remax,1,https://www.remax.com.py/es-py/propiedades/departamento/venta/encarnacion/143085032-81,-27.32183,-55.87182
+2026-09-18,"Capiatá, Central",,casa,144,310000000,290000000,PYG,48929,-6.5,432,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/capiata/143025184-29,,
+2026-09-19,"Mariano Roque Alonso, Central",,terreno,,800000,750000,USD,750000,-6.3,239,remax,1,https://www.remax.com.py/es-py/propiedades/terreno/venta/mariano-roque-alonso/143098009-703,-25.19369,-57.52967
+2026-09-19,Asunción,General Díaz,local,404,795000000,745000000,PYG,125697,-6.3,81,remax,1,https://www.remax.com.py/es-py/propiedades/local/venta/asuncion/143094012-86,-25.29755,-57.63618
+2026-09-18,"Encarnación, Itapúa",,casa,290,250000,235000,USD,235000,-6,167,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/encarnacion/143011109-11,-27.23057,-55.94047
+2026-09-23,"Limpio, Central",,terreno,,690000000,650000000,PYG,109668,-5.8,92,remax,1,https://www.remax.com.py/es-py/propiedades/terreno/venta/limpio/143098054-73,-25.14373,-57.47312
+2026-09-18,"Capiatá, Central",,casa,85,380000000,360000000,PYG,60739,-5.3,152,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/capiata/143061066-35,-25.37381,-57.4288
+2026-09-18,"Itá, Central",,terreno,,390000000,370000000,PYG,62427,-5.1,229,remax,1,https://www.remax.com.py/es-py/propiedades/terreno/venta/ita/143092059-31,-25.47388,-57.38291
+2026-09-18,"Ñemby, Central",,terreno,,300000000,285000000,PYG,48085,-5,90,remax,1,https://www.remax.com.py/es-py/propiedades/terreno/venta/nemby/143054131-4,-25.37849,-57.56312
+2026-09-18,"Atyra, Cordillera",,terreno,,620000000,590000000,PYG,99545,-4.8,146,remax,1,https://www.remax.com.py/es-py/propiedades/terreno/venta/atyra/143094043-49,-25.32431,-57.15715
+2026-09-21,"Fernando de la Mora, Central",,departamento,,42500,40500,USD,40500,-4.7,160,remax,1,https://www.remax.com.py/es-py/propiedades/departamento/venta/fernando-de-la-mora/143092038-97,-25.29877,-57.53828
+2026-09-21,Asunción,Virgen de Fátima,otro,315,860000000,820000000,PYG,138351,-4.7,195,remax,1,https://www.remax.com.py/es-py/propiedades/otro/venta/asuncion/143025091-122,-25.25795,-57.58797
+2026-09-23,"Villa Elisa, Central",,casa,142,1100000000,1050000000,PYG,177157,-4.5,85,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/villa-elisa/143080232-11,-25.3635,-57.57713
+2026-09-21,"San Lorenzo, Central",,terreno,,350000000,335000000,PYG,56521,-4.3,57,remax,1,https://www.remax.com.py/es-py/propiedades/terreno/venta/san-lorenzo/143036021-153,-25.33889,-57.52838
+2026-09-22,"Luque, Central",,casa,300,1200000000,1150000000,PYG,194029,-4.2,97,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/luque/143098095-1,-25.24553,-57.50505
+2026-09-20,"Caacupé, Cordillera",,casa,350,730000000,700000000,PYG,118104,-4.1,222,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/caacupe/143094043-26,-25.38035,-57.14252
+2026-09-23,"Ñemby, Central",,duplex,210,780000000,750000000,PYG,126541,-3.8,196,remax,1,https://www.remax.com.py/es-py/propiedades/duplex/venta/nemby/143091063-5,-25.37399,-57.53278
+2026-09-23,"Limpio, Central",,terreno,,300000000,289000000,PYG,48760,-3.7,216,infocasas,1,https://www.infocasas.com.py/terreno-de-1200-m%C2%B2-apto-para-desarrollo-inmobiliario-limpio/193414335,-25.16112,-57.472
+2026-09-23,"Itauguá, Central",,casa,180,270000000,260000000,PYG,43867,-3.7,204,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/itaugua/143092058-104,-25.39277,-57.39677
+2026-09-22,"Loma Plata, Boquerón",,terreno,,136000000,131000000,PYG,22102,-3.7,84,remax,1,https://www.remax.com.py/es-py/propiedades/terreno/venta/loma-plata/143078013-66,-22.55546,-59.82585
+2026-09-17,"Ciudad del Este, Alto Paraná",,departamento,,161000,155000,USD,155000,-3.7,218,remax,1,https://www.remax.com.py/es-py/propiedades/departamento/venta/ciudad-del-este/143050056-187,-25.51215,-54.63778
+2026-09-23,"Areguá, Central",,terreno,,140000,135000,USD,135000,-3.6,136,remax,1,https://www.remax.com.py/es-py/propiedades/terreno/venta/aregua/143061068-49,-25.30524,-57.38768
+2026-09-22,"Ñemby, Central",,terreno,,850000000,820000000,PYG,138351,-3.5,51,remax,1,https://www.remax.com.py/es-py/propiedades/terreno/venta/nemby/143036152-18,-25.37414,-57.55716
+2026-09-22,Asunción,Mburucuyá,casa,230,1450000000,1400000000,PYG,236209,-3.4,749,infocasas,1,https://www.infocasas.com.py/vendo-casa-b-mburucuya-z-paraguay-lawn-tenis-club/191307460,-25.26508,-57.5753
+2026-09-23,"Lambaré, Central",,casa,540,600000,580000,USD,580000,-3.3,13,infocasas,1,https://www.infocasas.com.py/imponente-residencia-de-arquitectura-moderna-y-minimalista-amoblada-zona-yacht/194236951,-25.36945,-57.63357
+2026-09-18,"San Bernardino, Cordillera",,terreno,,300000000,290000000,PYG,48929,-3.3,250,remax,1,https://www.remax.com.py/es-py/propiedades/terreno/venta/san-bernardino/143097041-11,-25.31102,-57.2613
+2026-09-23,"Capiatá, Central",,casa,250,650000000,630000000,PYG,106294,-3.1,115,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/capiata/143092058-118,-25.34182,-57.47283
+2026-09-22,"Loma Plata, Boquerón",,terreno,,165400000,160400000,PYG,27063,-3,84,remax,1,https://www.remax.com.py/es-py/propiedades/terreno/venta/loma-plata/143078013-65,-22.5539,-59.8273
+2026-09-17,Asunción,Virgen del Huerto,departamento,,87625,85091,USD,85091,-2.9,97,remax,1,https://www.remax.com.py/es-py/propiedades/departamento/venta/asuncion/143098011-331,-25.28163,-57.59964
+2026-09-18,Asunción,Villa Aurelia,duplex,192,200000,195000,USD,195000,-2.5,92,remax,1,https://www.remax.com.py/es-py/propiedades/duplex/venta/asuncion/143098027-135,-25.31249,-57.55812
+2026-09-18,Asunción,Mariscal Estigarribia,casa,1034,850000,830000,USD,830000,-2.4,83,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/asuncion/143054131-7,-25.3075,-57.57321
+2026-09-23,"San Bernardino, Cordillera",,terreno,,220000000,215000000,PYG,36275,-2.3,51,remax,1,https://www.remax.com.py/es-py/propiedades/terreno/venta/san-bernardino/114006036-21,-25.35159,-57.27113
+2026-09-18,"Ciudad del Este, Alto Paraná",,terreno,,230000,225000,USD,225000,-2.2,847,remax,1,https://www.remax.com.py/es-py/propiedades/terreno/venta/ciudad-del-este/143094002-65,-25.50314,-54.64815
+2026-09-18,"Luque, Central",,terreno,,97000,95000,USD,95000,-2.1,77,remax,1,https://www.remax.com.py/es-py/propiedades/terreno/venta/luque/143098023-43,-25.27418,-57.48328
+2026-09-18,"Fernando de la Mora, Central",,departamento,47,258000000,253000000,PYG,42686,-1.9,294,remax,1,https://www.remax.com.py/es-py/propiedades/departamento/venta/fernando-de-la-mora/143100046-18,-25.32791,-57.56208
+2026-09-23,"Luque, Central",,duplex,,660000000,650000000,PYG,109668,-1.5,218,remax,1,https://www.remax.com.py/es-py/propiedades/duplex/venta/luque/114006001-275,-25.30313,-57.50667

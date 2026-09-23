@@ -1,10 +1,11 @@
 // Tekoha dashboard page. Reads the JSON that pipeline/build-dashboard.mjs writes each morning and
-// renders every panel for the selected market. The builder already applied min-n and the asking or
-// closed split; this file only formats, so a suppressed figure arrives as {n, suppressed} and is
-// shown as its n, never as a number. Chart.js and Leaflet are the only dependencies (cdnjs, pinned).
+// renders every panel for the selected market. The builder already applied min-n, the seen rule,
+// the price-coverage rule and the asking or closed split; this file only formats, so a suppressed
+// figure arrives as {n, suppressed} and is shown as its n, never as a number. Chart.js and Leaflet
+// are the only dependencies (cdnjs, pinned).
 const FLOW = [["cuts", "Price cuts", "#3987e5"], ["increases", "Price rises", "#d95926"], ["new", "New to market", "#199e70"],
   ["delisted", "Delisted", "#c98500"], ["went_sold", "Marked sold", "#d55181"], ["went_rented", "Marked rented", "#008300"]];
-const KIND_COLOR = { departamento: "#3987e5", casa: "#d95926", duplex: "#199e70" };
+const KIND_COLOR = { departamento: "#3987e5", casa: "#d95926", duplex: "#199e70", terreno: "#d55181" };
 const RAMP = ["#764f00", "#966700", "#b5811c", "#d49c3a", "#efba64", "#ffd691"];
 const CUT_DOT = "#3987e5", REO_DOT = "#d55181", INK = "#171310", GOLD = "#a97e2f";
 const SOURCES = { remax: "RE/MAX", infocasas: "InfoCasas", uprop: "uProp", c21: "Century 21", cb: "Coldwell Banker",
@@ -12,14 +13,16 @@ const SOURCES = { remax: "RE/MAX", infocasas: "InfoCasas", uprop: "uProp", c21: 
 const BANKS = { atlas: "Atlas", bancop: "Bancop", basa: "BASA", bna: "Banco Nación", bnf: "BNF", caja_bancaria: "Caja Bancaria",
   gnb: "GNB", itau: "Itaú", solar: "Solar", sudameris: "Sudameris" };
 const KINDS = { casa: "Casa", departamento: "Departamento", terreno: "Terreno", duplex: "Duplex", local: "Local",
-  oficina: "Oficina", deposito: "Deposito", quinta: "Quinta", edificio: "Edificio", rural: "Rural", otro: "Otro", unknown: "Unknown" };
+  oficina: "Oficina", deposito: "Depósito", quinta: "Quinta", edificio: "Edificio", rural: "Rural", otro: "Otro",
+  unknown: "Kind not stated" };
+const SHORT = { casa: "casa", departamento: "depto" };
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
 const D = {};
-const S = { market: "py", cellKind: "departamento", closeOp: "sale", metric: "asking_price_usd", tables: new Set() };
+const S = { market: "py", cellKind: "departamento", closeOp: "sale", metric: "sale", tables: new Set() };
 const charts = {};
-let map, cells, cutDots, reoDots, breaks = {};
-const renderers = {};
+let map, renderer, cells, cutDots, reoDots, gridShown = null, fitPending = null, rentWin = "month";
+const breaks = {};
 
 // ---------- small helpers ----------
 const $ = (id) => document.getElementById(id);
@@ -39,47 +42,83 @@ const nf = new Intl.NumberFormat("en-US");
 const num = (x) => (x == null ? "-" : nf.format(Math.round(x)));
 const usd = (x) => (x == null ? "-" : "$" + nf.format(Math.round(x)));
 const usdK = (x) => (x == null ? "-" : x >= 1e6 ? "$" + +(x / 1e6).toFixed(2) + "M" : x >= 1e4 ? "$" + +(x / 1e3).toFixed(1) + "K" : usd(x));
-const money = (x, cur) => (x == null ? "-" : cur === "PYG" ? "Gs " + nf.format(Math.round(x)) : usd(x));
+const gs = (x) => (x == null ? "-" : "Gs " + nf.format(Math.round(x)));
+const gsM = (x) => (x == null ? "-" : Math.abs(x) >= 1e6 ? "Gs " + +(x / 1e6).toFixed(2) + "M" : gs(x));
+const money = (x, cur) => (x == null ? "-" : cur === "PYG" ? gs(x) : usd(x));
 const pct = (x) => (x == null ? "-" : (x > 0 ? "+" : "") + x.toFixed(1) + "%");
+const signed = (x) => (x == null ? "-" : (x > 0 ? "+" : x < 0 ? "-" : "") + num(Math.abs(x)));
+const share = (a, b) => (b ? `${Math.round((a / b) * 100)}%` : "-");
 const day = (iso) => { const [y, m, d] = iso.slice(0, 10).split("-"); return `${+d} ${MONTHS[m - 1]} ${y}`; };
 const dayShort = (iso) => day(iso).slice(0, -5);
 const monthYear = (iso) => `${MONTHS[+iso.slice(5, 7) - 1]} ${iso.slice(0, 4)}`;
+const quarterName = (iso) => `Q${Math.floor((+iso.slice(5, 7) - 1) / 3) + 1} ${iso.slice(0, 4)}`;
 const addDays = (iso, n) => new Date(Date.parse(iso.slice(0, 10) + "T00:00:00Z") + n * 864e5).toISOString().slice(0, 10);
 const norm = (s) => s.normalize("NFD").replace(/\p{M}/gu, "").toLowerCase();
 const kindName = (k) => KINDS[k] || k;
+const srcName = (c) => SOURCES[c] || c;
 const market = () => D.byId.get(S.market);
 const here = (row) => row.mk.includes(S.market);
 const tag = (closed) => h("span", { class: closed ? "tag closed" : "tag", text: closed ? "CLOSED" : "ASKING" });
 const stamp = (id, closed, text) => $(id).replaceChildren(tag(closed), text);
 const nLabel = (d, min) => `n ${num(d.n)}, below ${min}`;
+const ext = (href, text, label) => (href
+  ? h("a", { href, target: "_blank", rel: "noopener noreferrer", class: "ext", "aria-label": label, title: label, text })
+  : h("span", { text, title: "No verified page pattern for this source" }));
+
+// Top three sources by share, the rest folded into "others".
+function mixText(counts) {
+  const e = Object.entries(counts || {}).filter(([, n]) => n > 0).sort((a, b) => b[1] - a[1]);
+  const tot = e.reduce((a, [, n]) => a + n, 0);
+  if (!tot) return null;
+  const rest = e.slice(3).reduce((a, [, n]) => a + n, 0);
+  return e.slice(0, 3).map(([c, n]) => `${srcName(c)} ${share(n, tot)}`).join(", ") + (rest ? `, others ${share(rest, tot)}` : "");
+}
+const sumKinds = (byKind, kinds) => {
+  const out = {};
+  for (const k of kinds) for (const [c, n] of Object.entries(byKind?.[k] || {})) out[c] = (out[c] || 0) + n;
+  return out;
+};
+const exclusionNote = () => D.summary.medians.excluded.map((x) =>
+  `${srcName(x.code)} excluded from asking medians until price coverage completes: ${Math.round(x.priced_share * 100)}% today.`).join(" ");
+const seenRule = () => `seen by our capture in the last ${D.summary.seen_days.full} days ` +
+  `(${D.summary.seen_days.partial} for ${D.summary.partial_sources.map(srcName).join(" and ")})`;
 
 // ---------- data ----------
 async function load() {
   const get = (f) => fetch("data/" + f, { cache: "no-cache" }).then((r) => {
     if (!r.ok) throw new Error(`${f} returned HTTP ${r.status}`);
-    return r;
+    return r.json();
   });
-  const [summary, markets, trends, movers, geo, series] = await Promise.all([
-    get("summary.json").then((r) => r.json()), get("markets.json").then((r) => r.json()),
-    get("trends.json").then((r) => r.json()), get("movers.json").then((r) => r.json()), get("geo.json").then((r) => r.json()),
-    get("series.jsonl").then((r) => r.text()).then((t) => t.split("\n").filter(Boolean).map((l) => JSON.parse(l))).catch(() => []),
-  ]);
-  Object.assign(D, { summary, markets: markets.markets, trends, movers, geo, series });
+  const [summary, markets, trends, movers, geo] = await Promise.all(["summary.json", "markets.json", "trends.json", "movers.json", "geo.json"].map(get));
+  Object.assign(D, { summary, markets: markets.markets, trends, movers, geo });
   D.byId = new Map(D.markets.map((m) => [m.id, m]));
 }
 
-// Reading from about a week before the latest one, for the deltas. None until the series has two days.
-function prior(pickValue) {
-  const rows = D.series;
-  if (rows.length < 2) return null;
-  const last = rows[rows.length - 1];
-  const before = rows.slice(0, -1);
-  const ref = [...before].reverse().find((r) => r.date <= addDays(last.date, -7)) || before[0];
-  const a = pickValue(last.markets[S.market] || {}), b = pickValue(ref.markets[S.market] || {});
-  return a == null || b == null ? null : { from: ref.date, diff: a - b, rel: b ? (a - b) / b : null };
+// The RE/MAX panel is rebuilt daily from whole-panel captures, so its change over about a week is
+// like for like: the same source, the same rules, guarani asks at one rate.
+function remaxChange(metric, kind) {
+  const r = D.trends.asking_remax_daily, rs = r.markets[S.market];
+  const arr = kind ? rs?.[metric]?.[kind] : rs?.[metric];
+  if (!arr) return null;
+  const val = (x) => (x == null ? null : Array.isArray(x) ? x[0] : x);
+  let last = -1;
+  for (let i = arr.length - 1; i >= 0; i--) if (val(arr[i]) != null) { last = i; break; }
+  if (last < 1) return null;
+  const target = addDays(r.days[last], -7);
+  for (let i = last - 1; i >= 0; i--) {
+    if (r.days[i] > target || val(arr[i]) == null) continue;
+    const a = val(arr[last]), b = val(arr[i]);
+    return { from: r.days[i], to: r.days[last], diff: a - b, rel: b ? (a - b) / b : null, n: Array.isArray(arr[last]) ? arr[last][1] : null };
+  }
+  return null;
 }
-const deltaText = (p, fmt, what = "") => (p ? `${what}vs ${dayShort(p.from)}: ${p.diff >= 0 ? "+" : "-"}${fmt(Math.abs(p.diff))}${p.rel != null ? ` (${pct(p.rel * 100)})` : ""}`
-  : "First reading, no change to show yet");
+function remaxDelta(metric, kinds) {
+  const parts = kinds.map((k) => [k, remaxChange(metric, k)]).filter(([, c]) => c);
+  if (!parts.length) return "RE/MAX panel: no like-for-like reading for these kinds here";
+  const c0 = parts[0][1];
+  return `RE/MAX panel, ${dayShort(c0.from)} to ${dayShort(c0.to)}: ` +
+    parts.map(([k, c]) => `${SHORT[k] || k} ${pct(c.rel * 100)} (n ${num(c.n)})`).join(", ");
+}
 
 // ---------- header, picker, hero ----------
 function buildPicker() {
@@ -128,13 +167,16 @@ function renderHero(m) {
   document.title = m.id === "py" ? "Tekoha Market Dashboard" : `${m.name}: Tekoha Market Dashboard`;
   const a = m.asking_active;
   $("lede").className = "";
-  $("lede").textContent = `${num(a.total)} active listings: ${num(a.sale_total)} for sale, ${num(a.rent_total)} for rent` +
-    `${m.note ? ` (${m.note})` : ""}. Asking figures unless tagged closed; every figure carries its n and window.`;
+  $("lede").textContent = `${num(a.total)} active listings, ${seenRule()}: ${num(a.sale_total)} for sale, ${num(a.rent_total)} for rent` +
+    `${a.other ? `, ${num(a.other)} with no operation stated` : ""}${m.note ? ` (${m.note})` : ""}. ` +
+    "Asking figures unless tagged closed; every figure carries its n and window.";
 }
 
 // ---------- KPI row ----------
-function kpi(title, body, delta, closed, stampText) {
-  return h("div", { class: "kpi" }, h("h3", { text: title }), body, delta && h("div", { class: "delta", text: delta }),
+function kpi(title, body, { delta, closed = false, stampText, mix } = {}) {
+  return h("div", { class: "kpi" }, h("h3", { text: title }), body,
+    mix && h("div", { class: "mix", text: `Sources: ${mix}` }),
+    delta && h("div", { class: "delta", text: delta }),
     h("div", { class: "stamp" }, tag(closed), stampText));
 }
 function kindRows(dists, kinds, fmt, min) {
@@ -143,25 +185,42 @@ function kindRows(dists, kinds, fmt, min) {
     : [h("span", { class: "v", text: fmt(dists[k]) }), h("small", { text: `${kindName(k).toLowerCase()}, n ${num(dists[k].n)}` })]));
   return rows.length ? h("div", { class: "rows" }, rows) : h("div", { class: "empty", text: "No listings of these kinds" });
 }
+function statRows(items) {
+  return h("div", { class: "rows" }, items.map(([v, label]) => h("div", { class: "row" }, h("span", { class: "v", text: v }), h("small", { text: label }))));
+}
 function renderKpis(m) {
-  const s = D.summary, a = m.asking_active, f = m.asking_flow_30d, sp = m.closed_ask_to_close_pct, min = s.min_n.median;
-  const fxLine = `USD at Gs ${num(s.fx.rate)}, SET mid ${dayShort(s.fx.date)}`;
-  const ageSrc = s.sources.filter((x) => x.staleness_used).map((x) => SOURCES[x.code] || x.code).join(" and ");
+  const s = D.summary, a = m.asking_active, f = m.asking_flow_30d, sp = m.closed_ask_to_close.sale.all, min = s.min_n.median;
+  const fxLine = `USD at Gs ${num(s.fx.rate)}, SET mid ${dayShort(s.fx.date)}.`;
+  const excl = exclusionNote();
+  const act = remaxChange("count_sale");
+  const ageSrc = s.sources.filter((x) => x.staleness_used).map((x) => srcName(x.code));
+  const email = m.id === "py" && s.email.stock_age.casa
+    ? ` The morning email also counts uProp, whose publish dates are one bulk load: casa ${num(s.email.stock_age.casa.p50)} days (n ${num(s.email.stock_age.casa.n)}).` : "";
   $("kpis").replaceChildren(
-    kpi("Active listings", [h("div", { class: "v", text: num(a.total) }), h("div", { class: "sub", text: `${num(a.sale_total)} sale, ${num(a.rent_total)} rent` })],
-      deltaText(prior((x) => (x.active_sale == null ? null : x.active_sale + (x.active_rent ?? 0))), num), false, ` all sources, ${dayShort(s.date)}`),
-    kpi("Median ask, sale", kindRows(m.asking_price_usd, ["casa", "departamento"], (d) => usdK(d.median), min),
-      deltaText(prior((x) => x.asking_price_usd?.casa?.[0]), usdK, "Casa "), false, ` ${fxLine}`),
-    kpi("Median rent, monthly", kindRows(m.asking_rent_usd_month, ["departamento", "casa"], (d) => usd(d.median), min),
-      deltaText(prior((x) => x.asking_rent_usd_month?.departamento?.[0]), usd, "Depto "), false, ` ${fxLine}`),
-    kpi("Ask-to-close, median", sp.status
+    kpi("Active listings", [h("div", { class: "v", text: num(a.total) }),
+      h("div", { class: "sub", text: `${num(a.sale_total)} sale, ${num(a.rent_total)} rent${a.other ? `, ${num(a.other)} no operation stated` : ""}` })], {
+      delta: act ? `RE/MAX panel, ${dayShort(act.from)} to ${dayShort(act.to)}: ${signed(act.diff)} for sale` : null,
+      stampText: ` ${seenRule()}. ${num(a.listed)} are listed as active; ${num(a.listed - a.total)} were not seen in that window.` }),
+    kpi("Median ask, sale", kindRows(m.asking_price_usd, ["casa", "departamento"], (d) => usdK(d.median), min), {
+      mix: mixText(sumKinds(m.asking_mix.sale, ["casa", "departamento"])), delta: remaxDelta("sale", ["casa", "departamento"]),
+      stampText: ` ${fxLine} ${excl}` }),
+    kpi("Median rent, monthly", kindRows(m.asking_rent_usd_month, ["departamento", "casa"], (d) => usd(d.median), min), {
+      mix: mixText(sumKinds(m.asking_mix.rent, ["departamento", "casa"])), delta: remaxDelta("rent", ["departamento", "casa"]),
+      stampText: ` ${fxLine} ${excl}` }),
+    kpi("Ask-to-close, sales", sp.status
       ? [h("div", { class: "v small", text: "Insufficient closes" }), h("div", { class: "sub", text: `n ${num(sp.n)}, needs ${s.min_n.spread}` })]
-      : [h("div", { class: "v", text: pct(sp.p50) }), h("div", { class: "sub", text: `P25 ${pct(sp.p25)}, P75 ${pct(sp.p75)}` })],
-      null, true, sp.status ? " same-currency sales, RE/MAX" : ` n ${num(sp.n)} same-currency sales, RE/MAX, ${monthYear(sp.first)} to ${monthYear(sp.last)}`),
-    kpi("Stock age, median", kindRows(m.asking_staleness_days, ["casa", "departamento"], (d) => `${num(d.p50)} days`, min),
-      null, false, ` since publish, ${ageSrc} sale listings`),
-    kpi("Price cuts, 30 days", [h("div", { class: "v", text: num(f.all.cuts) }), h("div", { class: "sub", text: `${num(f.sale.cuts)} sale, ${num(f.rent.cuts)} rent; ${num(f.all.increases)} rises` })],
-      null, false, ` ${dayShort(s.flow_window.from)} to ${dayShort(s.flow_window.to)}, past -90% excluded`),
+      : statRows([
+        [`${Math.round(sp.at_ask_pct)}%`, `closed at exactly the last ask, ${num(sp.at_ask)} of ${num(sp.n)}`],
+        [pct(sp.p50), `median spread, all ${num(sp.n)} closes`],
+        [sp.below_p50 == null ? "n/a" : pct(sp.below_p50), sp.below_p50 == null ? `when below the ask, n ${num(sp.below)} below ${s.min_n.spread}` : `when a discount happened, n ${num(sp.below)}`]]), {
+      closed: true, stampText: sp.status ? " same-currency sales, RE/MAX network"
+        : ` same-currency sales, RE/MAX network, ${monthYear(sp.first)} to ${monthYear(sp.last)}. A price identical to the ask is a full-price sale or a broker who left the ask in the sold field.` }),
+    kpi("Stock age, median", kindRows(m.asking_staleness_days, ["casa", "departamento"], (d) => `${num(d.p50)} days`, min), {
+      stampText: ` days since publish, active sale listings, ${ageSrc.join(", ").replace(/, ([^,]*)$/, " and $1")}.${email}` }),
+    kpi("Price cuts, 30 days", [h("div", { class: "v", text: num(f.all.cuts) }),
+      h("div", { class: "sub", text: `${num(f.sale.cuts)} sale, ${num(f.rent.cuts)} rent; ${num(f.all.increases)} rises` })], {
+      mix: mixText(m.asking_cuts_30d_by_source),
+      stampText: ` ${dayShort(s.flow_window.from)} to ${dayShort(s.flow_window.to)}, cuts past -90% excluded.` }),
   );
 }
 
@@ -179,82 +238,102 @@ const rampColor = (v) => RAMP[breaks[S.cellKind].filter((b) => v >= b).length];
 // 1 km cells from zoom 11, 5 km from 8.5, 25 km below: a cell never draws smaller than about 7 px.
 const gridFor = (z) => D.geo.grids[z >= 11 ? 0 : z >= 8.5 ? 1 : 2];
 const cellKm = (deg) => `about ${Math.round(deg * 100)} km`;
-let gridShown = null;
-function cellTip(c, deg) {
+// Index of the cell field that names the market a dimmed view compares against.
+const cellMarketField = (m) => (m.level === "department" ? 9 : m.level === "city" ? 10 : null);
+function cellTip(c, deg, owner) {
   const line = (label, v, n) => h("div", {}, `${label}: `, v == null ? h("span", { class: "muted", text: `n ${n}, below 5` }) : h("b", { text: `${usd(v)}/m2` }), v == null ? "" : ` (n ${n})`);
   return h("div", {}, h("div", { class: "muted", text: `${deg} degree cell (${cellKm(deg)}) at ${c[0].toFixed(2)}, ${c[1].toFixed(2)}: ${num(c[2])} active sale listings` }),
     line("Departamento", c[7], c[8]), line("Casa", c[5], c[6]),
-    h("div", {}, `Median ask, all kinds: ${c[3] == null ? "n below 5" : usd(c[3])}`), h("div", { class: "muted", text: "ASKING prices" }));
+    h("div", {}, `Median ask, all kinds: ${c[3] == null ? "n below 5" : usd(c[3])}`),
+    owner ? h("div", { class: "muted", text: `Mostly ${owner} listings, so dimmed in this view` }) : null,
+    h("div", { class: "muted", text: "ASKING prices" }));
 }
 function cutTip(r) {
   return h("div", {}, h("b", { text: `${pct(r.pct)} ` }), `${kindName(r.kind)}${r.m2 ? ` ${r.m2} m2` : ""}`,
     h("div", { text: `${[r.area, r.place].filter(Boolean).join(", ") || "Paraguay"}` }),
     h("div", { text: `${money(r.asking_old, r.currency)} to ${money(r.asking_new, r.currency)}` }),
-    h("div", { class: "muted", text: `ASKING, cut ${dayShort(r.observed)}, ${r.days_listed ?? "?"} days listed, ${SOURCES[r.source] || r.source}` }));
+    h("div", { class: "muted", text: `ASKING, cut ${dayShort(r.observed)}, ${r.days_listed ?? "?"} days listed, ${srcName(r.source)}` }));
 }
 function reoTip(r) {
   return h("div", {}, h("b", { text: r.asking_base_net_usd == null ? "No published price" : `${usd(r.asking_base_net_usd)} net base` }),
-    h("div", { text: `${kindName(r.kind)}, ${[r.city, r.department].filter(Boolean).join(", ")}` }),
+    h("div", { text: `${kindName(r.kind)}${r.items > 1 ? `, ${r.items} identical lots` : ""}, ${reoPlace(r)}` }),
     h("div", { class: "muted", text: `Bank REO, ${BANKS[r.bank] || r.bank} item ${r.item}${r.land_m2 ? `, land ${num(r.land_m2)} m2` : ""}` }));
 }
+function fitTo(bbox) {
+  const el = $("map");
+  // A zero-size container (first paint, a hidden tab) would fit Paraguay to a single tile.
+  if (!el.clientWidth || !el.clientHeight) { fitPending = bbox; return; }
+  fitPending = null;
+  map.invalidateSize();
+  // No zoom animation: an animated fit interrupted by a tab switch can leave the map mid-zoom.
+  map.fitBounds(bbox, { padding: [18, 18], maxZoom: 14, animate: false });
+}
 function buildMap() {
-  map = L.map("map", { preferCanvas: true, scrollWheelZoom: false, zoomSnap: 0.5 });
+  map = L.map("map", { preferCanvas: true, scrollWheelZoom: false, zoomSnap: 0.5 }).setView([-23.4, -58.2], 6);
   L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 18,
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' }).addTo(map);
   map.on("click", () => map.scrollWheelZoom.enable());
   map.on("mouseout", () => map.scrollWheelZoom.disable());
-  // Cells and dots get their own canvases so a cell redraw (kind switch, zoom level) can never
-  // paint over the dots; the dot canvas widens the hover target to about 24 px.
-  map.createPane("cells").style.zIndex = 390;
-  map.createPane("dots").style.zIndex = 450;
-  renderers.cells = L.canvas({ pane: "cells" });
-  renderers.dots = L.canvas({ pane: "dots", tolerance: 6 });
+  // One canvas for cells and dots: Leaflet hit-tests per canvas, so a dot canvas stacked on top
+  // swallowed every hover meant for the cells beneath it.
+  renderer = L.canvas({ tolerance: 5 });
   // Breaks come from the 1 km grid and serve every zoom, so a color means the same USD/m2 everywhere.
   for (const [kind, col] of [["casa", 5], ["departamento", 7]]) breaks[kind] = quantileBreaks(D.geo.grids[0].cells.map((c) => c[col]).filter((v) => v != null));
   cells = L.layerGroup().addTo(map);
   cutDots = L.layerGroup().addTo(map);
   reoDots = L.layerGroup();
   map.on("zoomend", () => drawCells(false));
+  new ResizeObserver(() => { map.invalidateSize(); if (fitPending) fitTo(fitPending); }).observe($("map"));
+}
+function raiseDots() {
+  for (const g of [cutDots, reoDots]) if (map.hasLayer(g)) g.eachLayer((l) => l.bringToFront());
 }
 function drawCells(force) {
   const g = gridFor(map.getZoom());
   if (!force && g === gridShown) return;
   gridShown = g;
   cells.clearLayers();
-  const half = g.deg / 2;
+  const half = g.deg / 2, m = market(), field = cellMarketField(m), mi = D.geo.markets.indexOf(m.id);
   for (const c of g.cells) {
     const v = cellValue(c);
     if (v == null) continue;
-    L.rectangle([[c[0] - half, c[1] - half], [c[0] + half, c[1] + half]], { pane: "cells", renderer: renderers.cells, stroke: false, fillColor: rampColor(v), fillOpacity: 0.8 })
-      .bindTooltip(() => cellTip(c, g.deg), { sticky: true }).addTo(cells);
+    const inside = field == null || c[field] === mi;
+    const owner = inside ? null : D.byId.get(D.geo.markets[c[field]])?.name || "other";
+    L.rectangle([[c[0] - half, c[1] - half], [c[0] + half, c[1] + half]], { renderer, stroke: false, fillColor: rampColor(v), fillOpacity: inside ? 0.8 : 0.16 })
+      .bindTooltip(() => cellTip(c, g.deg, owner), { sticky: true }).addTo(cells);
   }
-  if (map.getZoom() != null) renderLegend();
+  raiseDots();
+  renderLegend();
 }
-function dots(group, rows, color, tip) {
+const popup = (r, tip, name) => h("div", {}, tip(r), r.url ? h("div", { class: "pop-link" }, ext(r.url, `Open on ${name}`, `Open on ${name} (new tab)`)) : null);
+function dots(group, rows, color, tip, nameOf) {
   group.clearLayers();
   for (const r of rows) if (r.lat != null) {
-    L.circleMarker([r.lat, r.lon], { pane: "dots", renderer: renderers.dots, radius: 6, color: INK, weight: 2, fillColor: color, fillOpacity: 1 })
-      .bindTooltip(() => tip(r)).addTo(group);
+    L.circleMarker([r.lat, r.lon], { renderer, radius: 6, color: INK, weight: 2, fillColor: color, fillOpacity: 1 })
+      .bindTooltip(() => tip(r)).bindPopup(() => popup(r, tip, nameOf(r)))
+      .on("popupopen", (e) => e.target.closeTooltip()).addTo(group);
   }
 }
 function renderMap(m, refit = true) {
-  dots(cutDots, D.movers.asking_cuts_7d.filter(here), CUT_DOT, cutTip);
-  dots(reoDots, D.movers.reo_parcels.filter(here), REO_DOT, reoTip);
-  if (refit && m.bbox) map.fitBounds(m.bbox, { padding: [18, 18], maxZoom: 14 });
-  drawCells(!refit);
-  renderLegend();
+  dots(cutDots, D.movers.asking_cuts_7d.filter(here), CUT_DOT, cutTip, (r) => srcName(r.source));
+  dots(reoDots, D.movers.reo_parcels.filter(here), REO_DOT, reoTip, (r) => `${BANKS[r.bank] || r.bank}${r.url_is_item ? "" : " (bank list)"}`);
+  if (refit && m.bbox) fitTo(m.bbox);
+  drawCells(true);
   const mp = D.summary.map;
-  stamp("map-stamp", false, ` cells with 5 or more listings of the kind: 0.01 degree (about 1 km) when zoomed in, 0.05 and 0.25 degree further out, each its own median. ` +
-    `Color breaks are country-wide sextiles of the 1 km cells. ${num(mp.mapped)} active listings mapped; ${num(mp.placeholder)} sit on shared placeholder points and ` +
-    `${num(mp.no_coordinates)} have no coordinates, so they count in their market but are not drawn.`);
+  stamp("map-stamp", false, ` cells with 5 or more listings of the kind: 0.01 degree (about 1 km) when zoomed in, 0.05 and 0.25 degree further out, each its own median, ` +
+    `asking prices from the sources in the medians. Color breaks are country-wide sextiles of the 1 km cells. In a department or city view, cells whose listings mostly belong elsewhere are dimmed. ` +
+    `${num(mp.mapped)} active listings mapped; ${num(mp.placeholder)} sit on ${num(mp.placeholder_points)} points shared by ${mp.placeholder_min} or more listings (a geocoder's city or barrio center) and ` +
+    `${num(mp.no_coordinates)} have no coordinates, so they count in their market but are not drawn. Click a dot to open its listing.`);
 }
 function renderLegend() {
-  const cutsHere = D.movers.asking_cuts_7d.filter(here), reoHere = D.movers.reo_parcels.filter(here), b = breaks[S.cellKind];
+  if (!gridShown) return;
+  const cutsHere = D.movers.asking_cuts_7d.filter(here), reoHere = D.movers.reo_parcels.filter(here), b = breaks[S.cellKind], m = market();
   $("legend").replaceChildren(
     h("span", {}, `Median asking USD per built m2, ${kindName(S.cellKind).toLowerCase()}, ${cellKm(gridShown.deg)} cells: `),
     h("span", { class: "ramp" }, RAMP.slice(0, b.length + 1).map((col, i) => h("span", {}, h("i", { style: `background:${col}` }), i ? num(b[i - 1]) + (i === b.length ? "+" : "") : `< ${num(b[0])}`))),
     h("span", {}, h("span", { class: "key", style: `background:${CUT_DOT}` }), ` ${cutsHere.filter((r) => r.lat != null).length} of ${cutsHere.length} cuts mapped`),
-    h("span", {}, h("span", { class: "key", style: `background:${REO_DOT}` }), ` ${reoHere.filter((r) => r.lat != null).length} of ${reoHere.length} REO parcels mapped`));
+    h("span", {}, h("span", { class: "key", style: `background:${REO_DOT}` }), ` ${reoHere.filter((r) => r.lat != null).length} of ${reoHere.length} REO rows mapped`),
+    ...(cellMarketField(m) != null ? [h("span", { class: "muted", text: `Cells mostly outside ${m.name} are dimmed` })] : []));
 }
 
 // ---------- charts ----------
@@ -267,15 +346,18 @@ function chartDefaults() {
   Object.assign(Chart.defaults.plugins.legend.labels, { boxWidth: 10, boxHeight: 10, color: "#b7aa96", padding: 12 });
 }
 const yAxis = (fmt, extra = {}) => ({ beginAtZero: true, grid: { color: "#2e2820" }, border: { display: false },
-  ticks: { callback: fmt, maxTicksLimit: 5 }, afterFit: (s) => { s.width = 60; }, ...extra });
+  ticks: { callback: fmt, maxTicksLimit: 5 }, afterFit: (s) => { s.width = 64; }, ...extra });
 const xAxis = (fmt, extra = {}) => ({ grid: { display: false }, ticks: { maxRotation: 0, autoSkip: true, maxTicksLimit: 7,
   callback(v) { return fmt(this.getLabelForValue(v)); } }, ...extra });
 function makeChart(id, type, options) {
   return new Chart($(id).querySelector("canvas"), { type, data: { labels: [], datasets: [] },
     options: { interaction: { mode: "index", intersect: false }, ...options } });
 }
-function note(id, text) {
+// An empty chart is not drawn at all: its canvas collapses to a one-line note, so a market with no
+// data never shows a blank frame with placeholder axis ticks.
+function empty(id, text) {
   const box = $(id);
+  box.classList.toggle("is-empty", !!text);
   box.querySelector(".note")?.remove();
   if (text) box.append(h("div", { class: "note" }, h("span", { text })));
 }
@@ -283,24 +365,36 @@ function buildCharts() {
   chartDefaults();
   charts.flow = makeChart("c-flow", "bar", { scales: { x: xAxis(dayShort, { stacked: true }), y: yAxis(num, { stacked: true }) },
     plugins: { legend: { position: "bottom" }, tooltip: { callbacks: { title: (it) => day(it[0].label) } } } });
-  const weekTitle = { title: (it) => `Week of ${day(it[0].label)}` };
-  charts.closes = makeChart("c-closes", "bar", { scales: { x: xAxis(monthYear, { ticks: { display: false } }), y: yAxis(num) },
-    plugins: { legend: { display: false }, tooltip: { callbacks: { ...weekTitle, label: (c) => ` ${num(c.raw)} priced closes` } } } });
-  charts.closemed = makeChart("c-closemed", "line", { scales: { x: xAxis(monthYear), y: yAxis(usdK, { beginAtZero: false }) },
-    plugins: { legend: { display: false }, tooltip: { callbacks: { ...weekTitle, label: (c) => ` Median ${usd(c.raw)}` } } } });
-  charts.rent = makeChart("c-rent", "line", { scales: { x: xAxis(monthYear), y: yAxis(usd, { beginAtZero: false }) },
-    plugins: { legend: { position: "bottom" }, tooltip: { callbacks: { title: (it) => monthYear(it[0].label),
-      label: (c) => ` ${c.dataset.label}: ${usd(c.raw)} a month` } } } });
-  charts.series = makeChart("c-series", "line", { scales: { x: xAxis(dayShort, { offset: true }), y: yAxis(usdK, { beginAtZero: false }) },
+  charts.closes = makeChart("c-closes", "bar", { scales: { x: xAxis(monthYear), y: yAxis(num) },
+    plugins: { legend: { display: false }, tooltip: { callbacks: { title: (it) => `Week of ${day(it[0].label)}`, label: (c) => ` ${num(c.raw)} priced closes` } } } });
+  charts.spreadq = makeChart("c-spreadq", "line", { scales: { x: xAxis(quarterName, { offset: true }), y: yAxis(pct, { beginAtZero: true }) },
+    plugins: { legend: { position: "bottom" }, tooltip: { callbacks: { title: (it) => quarterTitle(it[0].label),
+      label: (c) => { const r = c.dataset.rows[c.dataIndex]; return ` ${c.dataset.label}: ${pct(c.raw)} median, n ${num(r[1])}, ${Math.round(r[3])}% at the ask${r[4] != null ? `, ${pct(r[4])} when below` : ""}`; } } } } });
+  charts.rent = makeChart("c-rent", "line", { scales: { x: xAxis((v) => (rentWin === "month" ? monthYear(v) : quarterName(v))),
+    y: yAxis(gsM, { beginAtZero: false }), usd: yAxis(usd, { position: "right", beginAtZero: false, display: false, grid: { display: false } }) },
+    plugins: { legend: { position: "bottom" }, tooltip: { callbacks: { title: (it) => (rentWin === "month" ? monthYear(it[0].label) : quarterName(it[0].label)),
+      label: rentLabel } } } });
+  charts.series = makeChart("c-series", "line", { scales: { x: xAxis(dayShort, { offset: true }), y: yAxis((v) => seriesFmt()(v), { beginAtZero: false }) },
     plugins: { legend: { position: "bottom" }, tooltip: { callbacks: { title: (it) => day(it[0].label),
-      label: (c) => ` ${c.dataset.label}: ${usd(c.raw)}` } } } });
+      label: (c) => ` ${c.dataset.label}: ${seriesFmt()(c.raw)} (n ${num(c.dataset.ns[c.dataIndex])})` } } } });
 }
-const lineSet = (label, data, color) => ({ label, data, borderColor: color, backgroundColor: color, borderWidth: 2, tension: 0,
-  spanGaps: false, borderJoinStyle: "round", borderCapStyle: "round", pointBackgroundColor: color, pointBorderColor: "#1e1914",
-  pointBorderWidth: 2, pointHoverRadius: 5, pointRadius: (c) => (c.dataIndex === lastIndex(c.dataset.data) ? 4 : 0) });
 const lastIndex = (arr) => { for (let i = arr.length - 1; i >= 0; i--) if (arr[i] != null) return i; return -1; };
+// Markers on the latest point and on any point with no neighbour, which a line alone would not draw.
+const lineSet = (label, data, color, extra = {}) => ({ label, data, borderColor: color, backgroundColor: color, borderWidth: 2, tension: 0,
+  spanGaps: false, borderJoinStyle: "round", borderCapStyle: "round", pointBackgroundColor: color, pointBorderColor: "#1e1914",
+  pointBorderWidth: 2, pointHoverRadius: 5,
+  pointRadius: (c) => { const d = c.dataset.data, i = c.dataIndex; return i === lastIndex(d) || (d[i] != null && d[i - 1] == null && d[i + 1] == null) ? 4 : 0; },
+  ...extra });
 const weeksFrom = (from, to) => { const out = []; for (let d = from; d <= to; d = addDays(d, 7)) out.push(d); return out; };
 const monthsFrom = (from, to) => { const out = []; for (let y = +from.slice(0, 4), mo = +from.slice(5, 7); `${y}-${String(mo).padStart(2, "0")}` <= to.slice(0, 7); mo === 12 ? (y++, mo = 1) : mo++) out.push(`${y}-${String(mo).padStart(2, "0")}-01`); return out; };
+const quarterStart = (iso) => `${iso.slice(0, 4)}-${String(Math.floor((+iso.slice(5, 7) - 1) / 3) * 3 + 1).padStart(2, "0")}-01`;
+const quartersFrom = (from, to) => { const out = []; for (let q = quarterStart(from); q <= to; q = monthsFrom(q, addDays(q, 100))[3]) out.push(q); return out; };
+function quarterTitle(q) {
+  const from = D.trends.closed_quarterly.from, parts = [quarterName(q)];
+  if (quarterStart(from) === q && from > q) parts.push(`from ${dayShort(from)}`);
+  if (quarterStart(D.summary.date) === q) parts.push("in progress");
+  return parts.join(", ");
+}
 
 function renderFlow() {
   const t = D.trends.asking_flow_daily, f = t.markets[S.market];
@@ -311,71 +405,134 @@ function renderFlow() {
     `A missing bar means no capture ran that day. The series starts the day after our first capture (${day(D.summary.history_start)}).`);
 }
 function renderCloses() {
-  const rows = D.trends.closed_weekly.markets[S.market][S.closeOp];
+  const op = S.closeOp, t = D.trends, rows = t.closed_weekly.markets[S.market][op];
   const monday = addDays(D.summary.date, -((new Date(D.summary.date + "T00:00:00Z").getUTCDay() + 6) % 7));
-  const weeks = weeksFrom("2024-01-01", monday), byWeek = new Map(rows.map((r) => [r[0], r]));
-  charts.closes.data = { labels: weeks, datasets: [{ data: weeks.map((w) => byWeek.get(w)?.[1] ?? 0), backgroundColor: GOLD, maxBarThickness: 24, borderRadius: 1 }] };
-  charts.closemed.data = { labels: weeks, datasets: [lineSet("Median close", weeks.map((w) => byWeek.get(w)?.[2] ?? null), GOLD)] };
-  charts.closes.update(); charts.closemed.update();
+  const weeks = weeksFrom(t.closed_weekly.from, monday), byWeek = new Map(rows);
   const total = rows.reduce((a, r) => a + r[1], 0);
-  note("c-closes", total ? "" : `No broker-reported ${S.closeOp === "sale" ? "sales" : "rentals"} with a price in this market`);
-  note("c-closemed", rows.some((r) => r[2] != null) ? "" : "No week reaches 20 closes here, so no weekly median is shown");
-  stamp("closes-stamp", true, ` ${num(total)} priced ${S.closeOp === "sale" ? "sales" : "rentals"} from the RE/MAX network since Jan 2024, by close date, USD at each close date's SET rate. ` +
-    `Median shown for weeks with 20 or more closes; the latest week is still in progress. Earlier weeks are thinner because the feed only shows closed listings RE/MAX still indexes.`);
+  charts.closes.data = { labels: weeks, datasets: [{ data: weeks.map((w) => byWeek.get(w) ?? 0), backgroundColor: GOLD, maxBarThickness: 24, borderRadius: 1 }] };
+  charts.closes.update();
+  const what = op === "sale" ? "sales" : "rentals";
+  empty("c-closes", total ? "" : `No broker-reported ${what} with a price in this market since ${monthYear(t.closed_weekly.from)}`);
+
+  const qd = t.closed_quarterly.markets[S.market][op], quarters = quartersFrom(t.closed_quarterly.from, D.summary.date);
+  const kinds = ["all", ...(op === "sale" ? ["casa", "departamento", "terreno", "duplex"] : ["departamento", "casa"])];
+  const sets = kinds.filter((k) => qd[k]?.some((x) => x[2] != null)).map((k) => {
+    const byQ = new Map(qd[k].map((x) => [x[0], x]));
+    return lineSet(k === "all" ? "All kinds" : kindName(k), quarters.map((p) => byQ.get(p)?.[2] ?? null), k === "all" ? GOLD : KIND_COLOR[k],
+      { rows: quarters.map((p) => byQ.get(p) || null), borderWidth: k === "all" ? 3 : 2, pointRadius: 3 });
+  });
+  charts.spreadq.data = { labels: quarters, datasets: sets };
+  charts.spreadq.update();
+  empty("c-spreadq", sets.length ? "" : `No quarter reaches ${D.summary.min_n.spread} same-currency ${what} here`);
+
+  const before = D.summary.closes.before[op];
+  stamp("closes-stamp", true, ` ${num(total)} priced ${what} from the RE/MAX network since ${day(t.closed_weekly.from)}, by close date; the latest week is in progress. ` +
+    (before ? `Before that the feed shows only ${num(before.before)} ${what} back to ${monthYear(before.first)} (country-wide), the closed listings RE/MAX still indexes, so the chart starts where coverage does. ` : "") +
+    `Ask-to-close by quarter: same-currency ${what}, lines where a kind has ${D.summary.min_n.spread} or more in the quarter.`);
+}
+const rentFx = (p) => (rentWin === "month" ? D.trends.closed_rent.fx_monthly[p.slice(0, 7)] : D.trends.closed_rent.fx_quarterly[p.slice(0, 7)]);
+function rentLabel(c) {
+  const d = c.dataset, n = d.ns[c.dataIndex];
+  if (d.cur === "USD") return ` ${d.label}: ${usd(c.raw)} a month (n ${num(n)})`;
+  const rate = rentFx(c.label);
+  return ` ${d.label}: ${gs(c.raw)} a month (n ${num(n)})${rate ? `, about ${usd(c.raw / rate)} at the ${rentWin}'s average SET rate (FX-converted)` : ""}`;
+}
+function rentChoice() {
+  const rc = D.trends.closed_rent.markets[S.market];
+  const has = (win) => Object.entries(rc[win]).filter(([, rows]) => rows.some((x) => x[2] != null));
+  const month = has("month");
+  return month.length ? { win: "month", sets: month } : { win: "quarter", sets: has("quarter") };
 }
 function renderRent() {
-  const byKind = D.trends.closed_rent_monthly.markets[S.market];
-  const months = monthsFrom("2024-01-01", D.summary.date);
-  // Residential kinds only, each on its fixed color, so a color never changes meaning between markets.
-  const kinds = Object.keys(KIND_COLOR).filter((k) => byKind[k]?.some((x) => x[2] != null));
-  charts.rent.data = { labels: months, datasets: kinds.map((k) => {
-    const m = new Map(byKind[k].map((x) => [x[0], x[2]]));
-    return lineSet(kindName(k), months.map((mo) => m.get(mo) ?? null), KIND_COLOR[k]);
-  }) };
+  const { win, sets } = rentChoice(), from = D.trends.closed_rent.from;
+  rentWin = win;
+  const labels = win === "month" ? monthsFrom(from, D.summary.date) : quartersFrom(from, D.summary.date);
+  const order = ["departamento", "casa", "duplex"];
+  const ds = sets.sort((a, b) => order.indexOf(a[0].split("|")[0]) - order.indexOf(b[0].split("|")[0])).map(([key, rows]) => {
+    const [kind, cur] = key.split("|"), byP = new Map(rows.map((x) => [x[0], x]));
+    return lineSet(`${kindName(kind)}${cur === "USD" ? ", settled in USD" : ""}`, labels.map((p) => byP.get(p)?.[2] ?? null), KIND_COLOR[kind] || GOLD,
+      { ns: labels.map((p) => byP.get(p)?.[1] ?? 0), cur, yAxisID: cur === "USD" ? "usd" : "y", borderDash: cur === "USD" ? [5, 4] : undefined });
+  });
+  charts.rent.options.scales.usd.display = ds.some((d) => d.cur === "USD");
+  charts.rent.options.scales.y.display = ds.some((d) => d.cur === "PYG");
+  charts.rent.data = { labels, datasets: ds };
   charts.rent.update();
-  note("c-rent", kinds.length ? "" : "No month in this market reaches 20 rented closes of one kind");
-  const n = Object.values(byKind).flat().reduce((a, x) => a + x[1], 0);
-  stamp("rent-stamp", true, ` median monthly rent of ${num(n)} rented closes, RE/MAX network, USD at each close date's SET rate. Months under 20 closes of a kind are gaps.`);
+  const all = Object.entries(D.trends.closed_rent.markets[S.market].month);
+  const nCur = (cur) => all.filter(([k]) => k.endsWith(`|${cur}`)).reduce((a, [, rows]) => a + rows.reduce((b, x) => b + x[1], 0), 0);
+  const pyg = nCur("PYG"), dollars = nCur("USD");
+  empty("c-rent", ds.length ? "" : `No ${win === "month" ? "month or quarter" : "quarter"} here reaches ${D.summary.min_n.median} rented closes of one kind in one currency`);
+  const by = !ds.length ? "" : win === "month" ? " by month" : " by quarter (no single month here reaches the minimum)";
+  stamp("rent-stamp", true, ` median monthly rent${by}, in the currency each lease settled in, RE/MAX network since ${monthYear(from)}: ` +
+    `${num(pyg)} rentals settled in guaraníes, ${num(dollars)} in dollars${dollars && !ds.some((d) => d.cur === "USD") ? ", too few for a dollar line; they are in the table" : ""}. ` +
+    `Points need ${D.summary.min_n.median} closes of one kind; closes outside the rent bands are left out (${num(D.summary.rent_closes_out_of_band)} country-wide). The tooltip's USD figure is FX-converted, not a dollar rent.`);
 }
+const seriesFmt = () => (S.metric === "sale" ? usdK : usd);
 function renderSeries() {
-  const rows = D.series, lab = { asking_price_usd: "median ask", asking_usd_per_m2_built: "median USD per built m2", asking_rent_usd_month: "median monthly rent" }[S.metric];
-  const kinds = S.metric === "asking_rent_usd_month" ? ["departamento", "casa"] : ["casa", "departamento"];
-  charts.series.data = { labels: rows.map((r) => r.date), datasets: kinds.map((k) =>
-    lineSet(kindName(k), rows.map((r) => r.markets[S.market]?.[S.metric]?.[k]?.[0] ?? null), KIND_COLOR[k])) };
+  const r = D.trends.asking_remax_daily, rs = r.markets[S.market], min = D.summary.min_n.median;
+  const kinds = S.metric === "rent" ? ["departamento", "casa"] : ["casa", "departamento"];
+  const sets = kinds.filter((k) => rs?.[S.metric]?.[k]).map((k) => lineSet(kindName(k), rs[S.metric][k].map((x) => x?.[0] ?? null),
+    KIND_COLOR[k], { ns: rs[S.metric][k].map((x) => x?.[1] ?? null) }));
+  // A daily median moves a percent or two; an axis hugging the data would draw that as a cliff.
+  const vals = sets.flatMap((s) => s.data).filter((v) => v != null);
+  Object.assign(charts.series.options.scales.y, vals.length
+    ? { suggestedMin: Math.min(...vals) * 0.9, suggestedMax: Math.max(...vals) * 1.1 } : { suggestedMin: undefined, suggestedMax: undefined });
+  charts.series.data = { labels: r.days, datasets: sets };
   charts.series.update();
-  const first = rows[0]?.date;
-  note("c-series", rows.length < 2 ? `One reading so far (${first ? day(first) : "today"}). A reading is added each morning; nothing before launch is back-filled.` : "");
-  stamp("series-stamp", false, ` daily ${lab} of active listings, same rules as the tiles above. Series begins ${first ? day(first) : "today"}.`);
+  const what = { sale: "median ask", m2: "median USD per built m2", rent: "median monthly rent" }[S.metric];
+  empty("c-series", sets.length ? "" : `RE/MAX has fewer than ${min} active ${kinds.map((k) => kindName(k).toLowerCase() + "s").join(" or ")} here on every day, so no daily median`);
+  stamp("series-stamp", false, ` daily ${what} of RE/MAX listings active at each day's end, ${day(r.days[0])} to ${day(r.days.at(-1))}, rebuilt from our captures of the whole RE/MAX panel. ` +
+    `Guaraní asks convert at today's SET mid (Gs ${num(r.fx.rate)}) for every day, so exchange-rate moves do not show as price moves. One source on purpose: its moves are its asks and stock, not our crawl. ` +
+    `A gap is a day without a capture; a day needs ${min} listings of the kind.`);
 }
 
 // Every chart has a table twin, so no value is reachable only by hovering.
 const TWINS = {
-  flow: () => [["Date", ...FLOW.map((f) => f[1])], D.trends.asking_flow_daily.days.map((d, i) => [day(d),
-    ...FLOW.map(([k]) => D.trends.asking_flow_daily.markets[S.market][k][i] ?? "no capture")])],
-  closes: () => [["Week of", "Priced closes", "Median close"], D.trends.closed_weekly.markets[S.market][S.closeOp].slice().reverse()
-    .map((r) => [day(r[0]), num(r[1]), r[2] == null ? "n below 20" : usd(r[2])])],
-  rent: () => [["Month", "Kind", "Rented closes", "Median rent"], Object.entries(D.trends.closed_rent_monthly.markets[S.market])
-    .flatMap(([k, rs]) => rs.map((r) => [r[0], kindName(k), num(r[1]), r[2] == null ? "n below 20" : usd(r[2])]))
-    .sort((a, b) => (a[0] < b[0] ? 1 : -1)).map((r) => [monthYear(r[0]), ...r.slice(1)])],
-  series: () => [["Date", "Kind", "Median", "n"], D.series.flatMap((r) => Object.entries(r.markets[S.market]?.[S.metric] || {})
-    .map(([k, v]) => [day(r.date), kindName(k), usd(v[0]), num(v[1])]))],
+  flow: () => [[["Date", ...FLOW.map((f) => f[1])], D.trends.asking_flow_daily.days.map((d, i) => [day(d),
+    ...FLOW.map(([k]) => D.trends.asking_flow_daily.markets[S.market][k][i] ?? "no capture")])]],
+  closes: () => {
+    const op = S.closeOp, qd = D.trends.closed_quarterly.markets[S.market][op];
+    const qRows = Object.entries(qd).flatMap(([k, rs]) => rs.map((r) => [r[0], k === "all" ? "All kinds" : kindName(k), num(r[1]),
+      r[2] == null ? `n below ${D.summary.min_n.spread}` : pct(r[2]), r[3] == null ? "-" : `${Math.round(r[3])}%`,
+      r[4] == null ? `n ${num(r[5])}` : `${pct(r[4])} (n ${num(r[5])})`])).sort((a, b) => (a[0] < b[0] ? 1 : a[0] > b[0] ? -1 : 0))
+      .map((r) => [quarterTitle(r[0]), ...r.slice(1)]);
+    return [[["Quarter", "Kind", "Closes", "Median spread", "At the ask", "When below ask"], qRows],
+      [["Week of", "Priced closes"], D.trends.closed_weekly.markets[S.market][op].slice().reverse().map((r) => [day(r[0]), num(r[1])])]];
+  },
+  rent: () => {
+    const rc = D.trends.closed_rent.markets[S.market][rentWin];
+    const rows = Object.entries(rc).flatMap(([key, rs]) => { const [kind, cur] = key.split("|"); return rs.map((r) => [r[0], kindName(kind), cur === "PYG" ? "Guaraníes" : "Dollars", num(r[1]),
+      r[2] == null ? `n below ${D.summary.min_n.median}` : money(r[2], cur), cur === "PYG" && r[2] != null && rentFx(r[0]) ? usd(r[2] / rentFx(r[0])) : "-"]); })
+      .sort((a, b) => (a[0] < b[0] ? 1 : a[0] > b[0] ? -1 : 0)).map((r) => [rentWin === "month" ? monthYear(r[0]) : quarterName(r[0]), ...r.slice(1)]);
+    return [[[rentWin === "month" ? "Month" : "Quarter", "Kind", "Settled in", "Rented closes", "Median rent", "USD, FX-converted"], rows]];
+  },
+  series: () => {
+    const r = D.trends.asking_remax_daily, rs = r.markets[S.market]?.[S.metric] || {};
+    const rows = [];
+    for (let i = r.days.length - 1; i >= 0; i--) for (const [k, arr] of Object.entries(rs)) {
+      rows.push([day(r.days[i]), kindName(k), arr[i] == null ? "no capture" : arr[i][0] == null ? `n below ${D.summary.min_n.median}` : seriesFmt()(arr[i][0]), arr[i] == null ? "-" : num(arr[i][1])]);
+    }
+    return [[["Date", "Kind", "Median", "n"], rows]];
+  },
 };
 function renderTwins() {
   for (const key of Object.keys(TWINS)) {
     const btn = document.querySelector(`[data-table="${key}"]`), panel = btn.closest(".panel");
-    panel.querySelector(".twin")?.remove();
+    panel.querySelectorAll(".twin").forEach((x) => x.remove());
     btn.textContent = S.tables.has(key) ? "Chart only" : "Table";
+    btn.setAttribute("aria-pressed", String(S.tables.has(key)));
     if (!S.tables.has(key)) continue;
-    const [head, rows] = TWINS[key]();
-    panel.querySelector(".stamp").before(h("div", { class: "tbl twin", style: "margin-top:10px;max-height:260px" },
-      h("table", {}, h("thead", {}, h("tr", {}, head.map((c) => h("th", { text: c })))),
-        h("tbody", {}, rows.map((r) => h("tr", {}, r.map((c) => h("td", { text: c }))))))));
+    const st = panel.querySelector(".stamp");
+    for (const [head, rows] of TWINS[key]()) {
+      st.before(h("div", { class: "tbl twin", style: "margin-top:10px;max-height:260px" },
+        h("table", {}, h("thead", {}, h("tr", {}, head.map((c) => h("th", { text: c })))),
+          h("tbody", {}, rows.map((r) => h("tr", {}, r.map((c) => h("td", { text: c }))))))));
+    }
   }
 }
 
 // ---------- tables ----------
 // cols: [label, value(row) for sorting, display(row) or null, numeric?]
-function table(boxId, cols, rows, { sort = 0, dir = 1, onRow, current, empty = "Nothing to show for this market" } = {}) {
+function table(boxId, cols, rows, { sort = 0, dir = 1, onRow, current, empty: none = "Nothing to show for this market" } = {}) {
   const box = $(boxId);
   box._sort ??= { sort, dir };
   const st = box._sort, key = cols[st.sort][1];
@@ -386,19 +543,30 @@ function table(boxId, cols, rows, { sort = 0, dir = 1, onRow, current, empty = "
   });
   const head = h("tr", {}, cols.map(([label, , , isNum], i) => h("th", { class: isNum ? "num" : null,
     "aria-sort": i === st.sort ? (st.dir > 0 ? "ascending" : "descending") : null },
-  h("button", { type: "button", text: label, onclick: () => { st.dir = st.sort === i ? -st.dir : isNum ? -1 : 1; st.sort = i; table(boxId, cols, rows, { onRow, current, empty }); } }))));
+  h("button", { type: "button", text: label, onclick: () => { st.dir = st.sort === i ? -st.dir : isNum ? -1 : 1; st.sort = i; table(boxId, cols, rows, { onRow, current, empty: none }); } }))));
   const body = sorted.map((r) => h("tr", { class: `${onRow ? "pickable" : ""}${current?.(r) ? " current" : ""}`, onclick: onRow ? () => onRow(r) : null },
     cols.map(([, val, show, isNum]) => { const out = show ? show(r) : val(r); return h("td", { class: isNum ? "num" : null }, out ?? "-"); })));
-  box.replaceChildren(rows.length ? h("table", {}, h("thead", {}, head), h("tbody", {}, body)) : h("div", { class: "empty", style: "padding:14px", text: empty }));
+  box.replaceChildren(rows.length ? h("table", {}, h("thead", {}, head), h("tbody", {}, body)) : h("div", { class: "empty", style: "padding:14px", text: none }));
 }
 const distCell = (d, fmt, min) => (!d ? null : d.suppressed ? h("span", { class: "muted", text: nLabel(d, min) })
   : h("span", {}, fmt(d.median ?? d.p50), h("small", { text: `n ${num(d.n)}` })));
 const placeCell = (r) => [r.area, r.place].filter(Boolean).join(", ") || "Paraguay";
-const srcCell = (r) => `${SOURCES[r.source] || r.source}${r.brokers > 1 ? ` x${r.brokers}` : ""}`;
+const srcCell = (r) => h("span", {}, ext(r.url, srcName(r.source), `Open this listing on ${srcName(r.source)} (new tab)`),
+  r.brokers > 1 ? h("small", { text: `x${r.brokers}` }) : null);
 const usdNote = (amt, cur, usdAmt) => (cur === "PYG" ? h("span", {}, money(amt, cur), h("small", { text: `about ${usdK(usdAmt)}` })) : money(amt, cur));
+const reoPlace = (r) => [...new Set([r.area, r.city, r.department].filter(Boolean))].join(", ");
+// The median a new listing is measured against: its kind in this market, or the nearest parent.
+function kindMedian(mkId, kind) {
+  for (let m = D.byId.get(mkId); m; m = D.byId.get(m.parent)) {
+    const d = m.asking_usd_per_m2_built[kind];
+    if (d && !d.suppressed) return { market: m, median: d.median };
+  }
+  return null;
+}
 
 function renderTables(m) {
-  const min = D.summary.min_n.median;
+  const min = D.summary.min_n.median, excl = exclusionNote();
+  const medSrc = D.summary.medians.sources.map(srcName).join(", ").replace(/, ([^,]*)$/, " and $1");
   const kinds = [...new Set([...Object.keys(m.asking_active.sale), ...Object.keys(m.asking_active.rent)])];
   table("t-kinds", [
     ["Kind", (k) => kindName(k)],
@@ -410,32 +578,52 @@ function renderTables(m) {
     ["Rent a month", (k) => m.asking_rent_usd_month[k]?.median, (k) => distCell(m.asking_rent_usd_month[k], usd, min), true],
     ["Age P50 / P75", (k) => m.asking_staleness_days[k]?.p50, (k) => { const d = m.asking_staleness_days[k]; return !d ? null : d.suppressed ? h("span", { class: "muted", text: nLabel(d, min) }) : h("span", {}, `${num(d.p50)}d / ${num(d.p75)}d`, h("small", { text: `n ${num(d.n)}` })); }, true],
   ], kinds, { sort: 1, dir: -1 });
-  stamp("kinds-stamp", false, ` active listings today. Medians need n ${min}. Asks and rents in USD at the day's SET mid rate; USD/m2 on built area only, 40 to 800 m2, USD 30,000 to 2,000,000; age from ${D.summary.sources.filter((x) => x.staleness_used).map((x) => SOURCES[x.code]).join(" and ")} only.`);
+  stamp("kinds-stamp", false, ` listings active and ${seenRule()}. Medians need n ${min} and use ${medSrc}. ${excl} Asks and rents in USD at the day's SET mid rate; USD/m2 on built area only, 40 to 800 m2, USD 30,000 to 2,000,000; age from ${D.summary.sources.filter((x) => x.staleness_used).map((x) => srcName(x.code)).join(", ")} only.`);
 
   const cuts = D.movers.asking_cuts_7d.filter(here);
   table("t-cuts", [["Cut", (r) => r.pct, (r) => h("span", { class: "cut", text: pct(r.pct) }), true],
     ["Now", (r) => r.asking_new_usd, (r) => usdNote(r.asking_new, r.currency, r.asking_new_usd), true],
     ["Was", (r) => r.asking_old, (r) => money(r.asking_old, r.currency), true], ["Place", placeCell], ["Kind", (r) => kindName(r.kind)],
     ["Built m2", (r) => r.m2, (r) => num(r.m2), true], ["Days listed", (r) => r.days_listed, null, true],
-    ["Cut on", (r) => r.observed, (r) => dayShort(r.observed)], ["Source", srcCell]],
+    ["Cut on", (r) => r.observed, (r) => dayShort(r.observed)], ["Listing", (r) => srcName(r.source), srcCell]],
   cuts, { sort: 0, dir: 1, empty: "No sale price cuts in this market in the last 7 days" });
-  stamp("cuts-stamp", false, ` sale listings cut in the last 7 days, deepest first, ${num(cuts.length)} rows (up to 100 per market). Cuts past -90% are entry corrections and excluded. xN is the same unit repriced by N brokers.`);
+  stamp("cuts-stamp", false, ` sale listings cut in the last 7 days, deepest first, ${num(cuts.length)} rows (up to 100 per market). Cuts past -90% are entry corrections and excluded. xN is the same unit repriced by N brokers; the link opens the first. ` +
+    `Sources here: ${mixText(cuts.reduce((a, r) => ({ ...a, [r.source]: (a[r.source] || 0) + 1 }), {})) || "none"}.`);
 
-  const fresh = D.movers.asking_new_7d.filter(here);
-  table("t-fresh", [["USD/m2", (r) => r.asking_usd_m2, (r) => usd(r.asking_usd_m2), true],
+  // The same 30 the builder kept for this market: deepest below its kind median first.
+  const fresh = D.movers.asking_new_7d.filter(here).map((r) => {
+    const ref = kindMedian(S.market, r.kind);
+    return { ...r, ref, disc: ref ? (r.asking_usd_m2 / ref.median - 1) * 100 : null };
+  }).sort((a, b) => (a.disc == null) - (b.disc == null) || (a.disc ?? 0) - (b.disc ?? 0) || a.asking_usd_m2 - b.asking_usd_m2).slice(0, 30);
+  table("t-fresh", [["Vs kind median", (r) => r.disc, (r) => (r.disc == null ? h("span", { class: "muted", text: "no kind median" })
+    : h("span", {}, pct(r.disc), h("small", { text: `${r.ref.market.id === S.market ? "" : `${r.ref.market.name} `}${kindName(r.kind).toLowerCase()} ${usd(r.ref.median)}` }))), true],
+    ["USD/m2", (r) => r.asking_usd_m2, (r) => usd(r.asking_usd_m2), true],
     ["Ask", (r) => r.asking_usd, (r) => usdNote(r.asking, r.currency, r.asking_usd), true], ["Place", placeCell], ["Kind", (r) => kindName(r.kind)],
     ["Built m2", (r) => r.m2, null, true], ["Beds", (r) => r.bedrooms, null, true],
-    ["First seen", (r) => r.first_seen, (r) => dayShort(r.first_seen)], ["Source", srcCell]],
+    ["First seen", (r) => r.first_seen, (r) => dayShort(r.first_seen)], ["Listing", (r) => srcName(r.source), srcCell]],
   fresh, { sort: 0, dir: 1, empty: "No new sale listings with a built area in this market this week" });
-  stamp("fresh-stamp", false, ` first seen in the last 7 days within a week of the portal's publish date, built area 40 to 800 m2, lowest USD per m2 first (up to 30 per market).`);
+  stamp("fresh-stamp", false, ` first seen in the last 7 days within a week of the portal's publish date, built area 40 to 800 m2. Ranked by asking USD per built m2 against the median of the same kind in this market ` +
+    `(or the nearest larger market that has one, named in the cell), up to 30 per market. An asking price below the median is a claim, not a bargain.`);
 
-  const sp = m.closed_ask_to_close_pct;
-  const spRows = [["All kinds", sp], ...Object.entries(m.closed_ask_to_close_pct_by_kind).map(([k, v]) => [kindName(k), v])];
-  table("t-spread", [["Kind", (r) => r[0]], ["P25", (r) => r[1].p25, (r) => (r[1].status ? h("span", { class: "muted", text: r[1].status }) : pct(r[1].p25)), true],
-    ["Median", (r) => r[1].p50, (r) => pct(r[1].p50), true], ["P75", (r) => r[1].p75, (r) => pct(r[1].p75), true],
-    ["n", (r) => r[1].n, (r) => num(r[1].n), true], ["Closes from", (r) => r[1].first, (r) => (r[1].first ? `${monthYear(r[1].first)} to ${monthYear(r[1].last)}` : "-")]],
-  spRows, { sort: 4, dir: -1 });
-  stamp("spread-stamp", true, ` broker-reported sale price against the last asking price, same currency only, RE/MAX network. Kinds show with ${D.summary.min_n.spread} or more closes. A 0.0% P75 means at least a quarter of closes land at the ask or above.`);
+  const spRows = [];
+  for (const op of ["sale", "rent"]) {
+    const sp = m.closed_ask_to_close[op];
+    [["all", sp.all], ...Object.entries(sp.kinds)].forEach(([k, v], i) => spRows.push({ op, kind: k, v, order: (op === "sale" ? 0 : 100) + i }));
+  }
+  const cell = (fn) => (r) => (r.v.status ? null : fn(r.v));
+  table("t-spread", [["Closes", (r) => r.order, (r) => (r.op === "sale" ? "Sales" : "Rentals")], ["Kind", (r) => (r.kind === "all" ? "All kinds" : kindName(r.kind))],
+    ["n", (r) => r.v.n, (r) => num(r.v.n), true],
+    ["At the ask", (r) => r.v.at_ask_pct, (r) => (r.v.status ? h("span", { class: "muted", text: `${r.v.status}, needs ${D.summary.min_n.spread}` })
+      : h("span", {}, `${Math.round(r.v.at_ask_pct)}%`, h("small", { text: num(r.v.at_ask) }))), true],
+    ["Median", (r) => r.v.p50, cell((v) => pct(v.p50)), true], ["P25", (r) => r.v.p25, cell((v) => pct(v.p25)), true],
+    ["P75", (r) => r.v.p75, cell((v) => pct(v.p75)), true],
+    ["When below ask", (r) => r.v.below_p50, cell((v) => (v.below_p50 == null ? h("span", { class: "muted", text: `n ${num(v.below)}, below ${D.summary.min_n.spread}` }) : h("span", {}, pct(v.below_p50), h("small", { text: `n ${num(v.below)}` })))), true],
+    ["Closes from", (r) => r.v.first, (r) => (r.v.first ? `${monthYear(r.v.first)} to ${monthYear(r.v.last)}` : "-")]],
+  spRows, { sort: 0, dir: 1 });
+  const s0 = m.closed_ask_to_close.sale.all;
+  stamp("spread-stamp", true, ` broker-reported price against the last asking price, same currency only, RE/MAX network. Kinds show with ${D.summary.min_n.spread} or more closes. ` +
+    (s0.status ? "" : `${Math.round(s0.at_ask_pct)}% of sales here report a price identical to the last ask, so the all-closes median sits near zero; the median of closes below the ask is the size of a discount when one happened. `) +
+    "The feed cannot tell a full-price sale from a broker who left the ask in the sold field.");
 
   const flow = m.asking_flow_30d;
   table("t-flow30", [["Event", (r) => FLOW.indexOf(r), (r) => r[1]], ...["sale", "rent", "all"].map((op) => [op === "all" ? "All" : op === "sale" ? "Sale" : "Rent",
@@ -443,18 +631,21 @@ function renderTables(m) {
   stamp("flow30-stamp", false, ` events ${day(D.summary.flow_window.from)} to ${day(D.summary.flow_window.to)}. The All column equals the sum of the daily chart's bars over the same 30 days.`);
 
   const reo = D.movers.reo_parcels.filter(here);
-  const placeReo = (r) => [...new Set([r.city, r.department].filter(Boolean))].join(", ");
   table("t-reo", [
     ["Net base", (r) => r.asking_base_net_usd, (r) => (r.asking_base_net_usd == null ? h("span", { class: "muted", text: "not published" }) : h("span", {}, usd(r.asking_base_net_usd), r.price_check ? h("span", { class: "flag", text: "CHECK" }) : null)), true],
-    ["Kind", (r) => kindName(r.kind)], ["Place", placeReo], ["Land m2", (r) => r.land_m2, (r) => num(r.land_m2), true],
-    ["Built m2", (r) => r.built_m2, (r) => num(r.built_m2), true], ["Bank", (r) => BANKS[r.bank] || r.bank], ["Item", (r) => r.item],
-    ["First seen", (r) => r.first_seen, (r) => dayShort(r.first_seen)]],
+    ["Kind", (r) => kindName(r.kind)], ["Lots", (r) => r.items, (r) => (r.items > 1 ? `x${r.items}` : "1"), true], ["Place", reoPlace],
+    ["Land m2", (r) => r.land_m2, (r) => num(r.land_m2), true], ["Built m2", (r) => r.built_m2, (r) => num(r.built_m2), true],
+    ["Bank", (r) => BANKS[r.bank] || r.bank, (r) => ext(r.url, `${BANKS[r.bank] || r.bank}${r.url && !r.url_is_item ? " list" : ""}`,
+      r.url_is_item ? `Open this item on ${BANKS[r.bank] || r.bank} (new tab)` : `Open ${BANKS[r.bank] || r.bank}'s published list (new tab)`)],
+    ["Item", (r) => r.item], ["First seen", (r) => r.first_seen, (r) => dayShort(r.first_seen)]],
   reo, { sort: 0, dir: 1, empty: "No bank-owned parcels listed in this market" });
-  stamp("reo-stamp", false, ` ${num(reo.length)} active parcels from ${D.summary.reo.banks} bank lists, base price as published net of 10% IVA. CHECK marks a built property under USD 10,000, likely an entry error at the bank. Last capture ${day(D.summary.reo.last_ok_capture)}.`);
+  const parcels = reo.reduce((a, r) => a + r.items, 0);
+  stamp("reo-stamp", false, ` ${num(parcels)} active parcels in ${num(reo.length)} rows from ${D.summary.reo.banks} bank lists; identical lots from one bank show once with their count. Base price as published net of 10% IVA. ` +
+    `CHECK marks a built property under USD 10,000, likely an entry error at the bank. Itaú items link to their own page; the other banks publish one list (a page or a file), and the link opens it. Last capture ${day(D.summary.reo.last_ok_capture)}.`);
 }
 
 function renderMarketsTable() {
-  const g = (m, f, k) => m[f][k], min = D.summary.min_n.median;
+  const g = (m, f, k) => m[f][k], min = D.summary.min_n.median, sp = (m) => m.closed_ask_to_close.sale.all;
   table("t-markets", [["Market", (m) => m.name], ["Level", (m) => m.level],
     ["For sale", (m) => m.asking_active.sale_total, (m) => num(m.asking_active.sale_total), true],
     ["Casa ask", (m) => g(m, "asking_price_usd", "casa")?.median, (m) => distCell(g(m, "asking_price_usd", "casa"), usdK, min), true],
@@ -462,32 +653,55 @@ function renderMarketsTable() {
     ["Depto USD/m2", (m) => g(m, "asking_usd_per_m2_built", "departamento")?.median, (m) => distCell(g(m, "asking_usd_per_m2_built", "departamento"), usd, min), true],
     ["Depto rent", (m) => g(m, "asking_rent_usd_month", "departamento")?.median, (m) => distCell(g(m, "asking_rent_usd_month", "departamento"), usd, min), true],
     ["Sale cuts 30d", (m) => m.asking_flow_30d.sale.cuts, (m) => num(m.asking_flow_30d.sale.cuts), true],
-    ["Ask-to-close", (m) => m.closed_ask_to_close_pct.p50, (m) => (m.closed_ask_to_close_pct.status ? h("span", { class: "muted", text: `n ${m.closed_ask_to_close_pct.n}` }) : h("span", {}, pct(m.closed_ask_to_close_pct.p50), h("small", { text: `n ${num(m.closed_ask_to_close_pct.n)}` }))), true]],
+    ["Sales at ask", (m) => sp(m).at_ask_pct, (m) => (sp(m).status ? h("span", { class: "muted", text: `n ${num(sp(m).n)}` }) : h("span", {}, `${Math.round(sp(m).at_ask_pct)}%`, h("small", { text: `n ${num(sp(m).n)}` }))), true],
+    ["Ask-to-close", (m) => sp(m).p50, (m) => (sp(m).status ? h("span", { class: "muted", text: `n ${num(sp(m).n)}` }) : h("span", {}, pct(sp(m).p50), h("small", { text: sp(m).below_p50 == null ? "" : `${pct(sp(m).below_p50)} below` }))), true]],
   D.markets, { sort: 2, dir: -1, onRow: (m) => { select(m.id); window.scrollTo({ top: 0, behavior: "smooth" }); }, current: (m) => m.id === S.market });
-  stamp("markets-stamp", false, " medians of active listings (asking) except the last column, which is closed. Cities appear at 100 active sale listings.");
+  stamp("markets-stamp", false, ` medians of active, recently seen listings (asking) except the last two columns, which are closed sales. Cities appear at ${D.summary.city_min_active_sale} active sale listings.`);
 }
 
 // ---------- page furniture that does not depend on the market ----------
 function renderStatic() {
-  const s = D.summary, t = D.trends.closed_weekly.markets.py;
+  const s = D.summary;
   const asof = new Date(s.as_of);
-  $("asof").textContent = `Data as of ${day(s.as_of)}, ${asof.toISOString().slice(11, 16)} UTC | Gs ${num(s.fx.rate)}/USD`;
-  const ic = s.sources.find((x) => x.code === "infocasas"), up = s.staleness_sources.find((x) => x.code === "uprop");
-  const fill = { closes_sale: num(t.sale.reduce((a, r) => a + r[1], 0)), closes_rent: num(t.rent.reduce((a, r) => a + r[1], 0)),
-    fx_rate: num(s.fx.rate), fx_date: day(s.fx.date), assign_own: num(s.assignment.own), assign_nearest: num(s.assignment.nearest),
+  $("asof").textContent = `Data as of ${day(s.as_of)}, ${asof.toISOString().slice(11, 16)} UTC | Gs ${num(s.fx.rate)}/USD, SET | Pipeline ${s.health || "status unknown"}`;
+  const up = s.staleness_sources.find((x) => x.code === "uprop"), before = s.closes.before;
+  const excluded = s.medians.excluded, rentPy = Object.entries(D.trends.closed_rent.markets.py.month);
+  const rentN = (cur) => rentPy.filter(([k]) => !cur || k.endsWith(`|${cur}`)).reduce((a, [, rows]) => a + rows.reduce((b, x) => b + x[1], 0), 0);
+  const fxMonths = Object.entries(D.trends.closed_rent.fx_monthly).sort((a, b) => (a[0] < b[0] ? -1 : 1));
+  const band = s.rent_close_bands;
+  const fill = {
+    closes_sale: num(before.sale?.total), closes_rent: num(before.rent?.total), closes_before_sale: num(before.sale?.before),
+    closes_before_rent: num(before.rent?.before), closes_after_sale: num(before.sale && before.sale.total - before.sale.before),
+    closes_after_rent: num(before.rent && before.rent.total - before.rent.before), weeks_from: day(s.closes.weeks_from),
+    rent_pyg: num(rentN("PYG")), rent_all: num(rentN()),
+    fx_rent_first: fxMonths.length ? `${num(fxMonths[0][1])} (${monthYear(fxMonths[0][0])})` : "-",
+    fx_rent_last: fxMonths.length ? `${num(fxMonths.at(-1)[1])} (${monthYear(fxMonths.at(-1)[0])})` : "-",
+    rent_bands: `${gs(band.PYG[0])} to ${num(band.PYG[1])} or USD ${num(band.USD[0])} to ${num(band.USD[1])}`,
+    fx_rate: num(s.fx.rate), fx_date: day(s.fx.date), email_fx: s.email.fx ? num(s.email.fx.rate) : "-",
+    email_age: s.email.stock_age.casa ? `${num(s.email.stock_age.casa.p50)} days (n ${num(s.email.stock_age.casa.n)})` : "-",
+    page_age: D.byId.get("py").asking_staleness_days.casa?.p50 != null ? `${num(D.byId.get("py").asking_staleness_days.casa.p50)} days (n ${num(D.byId.get("py").asking_staleness_days.casa.n)})` : "-",
+    assign_own: num(s.assignment.own), assign_nearest: num(s.assignment.nearest),
     assign_dept: num(s.assignment.nearest_dept), assign_none: num((s.assignment.no_coordinates || 0) + (s.assignment.unassigned || 0)),
-    age_sources: s.sources.filter((x) => x.staleness_used).map((x) => SOURCES[x.code]).join(" and "),
+    age_sources: s.sources.filter((x) => x.staleness_used).map((x) => srcName(x.code)).join(", "),
     uprop_week: up ? `${Math.round(up.densest_week_share * 100)}%` : "most", map_placeholder: num(s.map.placeholder),
-    ic_priced: ic ? `${Math.round((ic.priced / ic.active) * 100)}%` : "part" };
+    map_points: num(s.map.placeholder_points), placeholder_min: num(s.map.placeholder_min),
+    seen_full: num(s.seen_days.full), seen_partial: num(s.seen_days.partial), active: num(s.active), listed: num(s.listed_active),
+    not_seen: num(s.listed_active - s.active), cov_min: `${Math.round(s.medians.coverage_min * 100)}%`,
+    med_sources: s.medians.sources.map(srcName).join(", "),
+    excluded: excluded.length ? excluded.map((x) => `${srcName(x.code)} at ${Math.round(x.priced_share * 100)}%`).join(", ") : "none",
+    recon_from: day(s.recon.from), recon_days: num(s.recon.captured_days), rent_out: num(s.rent_closes_out_of_band),
+    reo_links: num(s.reo.item_links),
+  };
   document.querySelectorAll("[data-s]").forEach((e) => { e.textContent = fill[e.dataset.s] ?? "-"; });
-  const share = (a, b) => (b ? `${Math.round((a / b) * 100)}%` : "-");
   const PLACED = { own: "own labels", nearest: "nearest labeled listings", nearest_dept: "department only", no_coordinates: "not placed, no coordinates", unassigned: "not placed" };
   const placed = (x) => { const [k, n] = Object.entries(x.placement || {}).sort((a, b) => b[1] - a[1])[0] || []; return k ? `${PLACED[k] || k}, ${share(n, x.active)}` : "-"; };
-  table("t-sources", [["Source", (x) => SOURCES[x.code] || x.name], ["Active", (x) => x.active, (x) => num(x.active), true],
-    ["With an ask", (x) => x.priced / (x.active || 1), (x) => share(x.priced, x.active), true],
+  table("t-sources", [["Source", (x) => srcName(x.code)], ["Listed active", (x) => x.listed, (x) => num(x.listed), true],
+    ["Seen in window", (x) => x.active, (x) => h("span", {}, num(x.active), h("small", { text: `${x.seen_days}d, ${share(x.active, x.listed)}` })), true],
+    ["With an ask", (x) => x.priced_share, (x) => share(x.priced, x.active), true],
+    ["In asking medians", (x) => (x.in_medians ? 1 : 0), (x) => (x.in_medians ? "yes" : h("span", { class: "muted", text: `no, under ${Math.round(s.medians.coverage_min * 100)}%` }))],
     ["Last good pull", (x) => x.last_ok_pull || x.last_run, (x) => (x.last_ok_pull ? day(x.last_ok_pull) : x.last_run ? `none; last attempt ${day(x.last_run)}` : "none")],
     ["Captured", (x) => x.full_universe, (x) => (x.full_universe ? "whole panel daily" : x.code === "c21" ? "partial crawl, irregular" : "changed listings daily, deep crawl weekly")],
-    ["Market from", placed]], s.sources, { sort: 1, dir: -1 });
+    ["Market from", placed]], s.sources, { sort: 2, dir: -1 });
   $("files").replaceChildren(...s.files.map((f) => h("li", {}, h("a", { href: "data/" + f.file, download: true, text: f.file }),
     ` ${f.description}. ${num(f.rows)} ${f.rows === 1 ? "row" : "rows"}, ${(f.bytes / 1024).toFixed(0)} KB`)));
 }
@@ -506,10 +720,10 @@ function wire() {
     $(id).querySelectorAll("button").forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
     after();
   });
-  seg("cell-kind", "cellKind", () => renderMap(market(), false));
+  seg("cell-kind", "cellKind", () => drawCells(true));
   seg("close-op", "closeOp", () => { renderCloses(); renderTwins(); });
   seg("series-metric", "metric", () => { renderSeries(); renderTwins(); });
-  const layer = (id, group) => $(id).addEventListener("change", (e) => (e.target.checked ? group.addTo(map) : group.remove()));
+  const layer = (id, group) => $(id).addEventListener("change", (e) => { if (e.target.checked) { group.addTo(map); raiseDots(); } else group.remove(); });
   layer("lyr-cells", cells); layer("lyr-cuts", cutDots); layer("lyr-reo", reoDots);
   document.querySelectorAll("[data-table]").forEach((b) => b.addEventListener("click", () => {
     const k = b.dataset.table;

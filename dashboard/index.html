@@ -59,7 +59,7 @@
     <section class="panel">
       <div class="panel-head">
         <h2><span class="tag">ASKING</span>Listing flow, daily</h2>
-        <div class="tools"><button class="linkbtn" type="button" data-table="flow">Table</button></div>
+        <div class="tools"><button class="linkbtn" type="button" data-table="flow" aria-pressed="false">Table</button></div>
       </div>
       <div class="chart" id="c-flow"><canvas></canvas></div>
       <div class="stamp" id="flow-stamp"></div>
@@ -73,20 +73,20 @@
             <button type="button" data-v="sale" aria-pressed="true">Sales</button>
             <button type="button" data-v="rent" aria-pressed="false">Rentals</button>
           </div>
-          <button class="linkbtn" type="button" data-table="closes">Table</button>
+          <button class="linkbtn" type="button" data-table="closes" aria-pressed="false">Table</button>
         </div>
       </div>
       <div class="sub-h">Closes per week</div>
       <div class="chart shorter" id="c-closes"><canvas></canvas></div>
-      <div class="sub-h">Median close per week, USD</div>
-      <div class="chart shorter" id="c-closemed"><canvas></canvas></div>
+      <div class="sub-h">Ask-to-close by quarter and kind, median</div>
+      <div class="chart short" id="c-spreadq"><canvas></canvas></div>
       <div class="stamp" id="closes-stamp"></div>
     </section>
 
     <section class="panel">
       <div class="panel-head">
-        <h2><span class="tag closed">CLOSED</span>Achieved rent by kind, monthly</h2>
-        <div class="tools"><button class="linkbtn" type="button" data-table="rent">Table</button></div>
+        <h2><span class="tag closed">CLOSED</span>Achieved rent, in the lease's currency</h2>
+        <div class="tools"><button class="linkbtn" type="button" data-table="rent" aria-pressed="false">Table</button></div>
       </div>
       <div class="chart" id="c-rent"><canvas></canvas></div>
       <div class="stamp" id="rent-stamp"></div>
@@ -94,14 +94,14 @@
 
     <section class="panel">
       <div class="panel-head">
-        <h2><span class="tag">ASKING</span>Asking medians over time</h2>
+        <h2><span class="tag">ASKING</span>RE/MAX asking medians, daily</h2>
         <div class="tools">
           <div class="seg" id="series-metric" role="group" aria-label="Metric">
-            <button type="button" data-v="asking_price_usd" aria-pressed="true">Price</button>
-            <button type="button" data-v="asking_usd_per_m2_built" aria-pressed="false">USD/m2</button>
-            <button type="button" data-v="asking_rent_usd_month" aria-pressed="false">Rent</button>
+            <button type="button" data-v="sale" aria-pressed="true">Price</button>
+            <button type="button" data-v="m2" aria-pressed="false">USD/m2</button>
+            <button type="button" data-v="rent" aria-pressed="false">Rent</button>
           </div>
-          <button class="linkbtn" type="button" data-table="series">Table</button>
+          <button class="linkbtn" type="button" data-table="series" aria-pressed="false">Table</button>
         </div>
       </div>
       <div class="chart" id="c-series"><canvas></canvas></div>
@@ -122,14 +122,14 @@
   </section>
 
   <section class="panel">
-    <div class="panel-head"><h2><span class="tag">ASKING</span>New to market, lowest USD per built m2</h2></div>
+    <div class="panel-head"><h2><span class="tag">ASKING</span>New to market, against the kind median</h2></div>
     <div class="tbl" id="t-fresh"></div>
     <div class="stamp" id="fresh-stamp"></div>
   </section>
 
   <div class="grid2">
     <section class="panel">
-      <div class="panel-head"><h2><span class="tag closed">CLOSED</span>Ask-to-close, sales</h2></div>
+      <div class="panel-head"><h2><span class="tag closed">CLOSED</span>Ask-to-close, sales and rentals</h2></div>
       <div class="tbl" id="t-spread"></div>
       <div class="stamp" id="spread-stamp"></div>
     </section>
@@ -157,24 +157,34 @@
     <div class="method">
       <h3>Asking and closed are different things</h3>
       <p>Every figure here is either an <b>asking</b> price, what a seller advertises today, or a <b>closed</b> price, what a property actually sold or rented for. Each carries its tag and they are never combined in one number. An asking price is a claim, not a value: a listing can sit at its ask for a year.</p>
+      <h3>Active means seen</h3>
+      <p>A listing counts as active stock only while its source still lists it as active and our capture saw it in the last <span data-s="seen_full"></span> days, or <span data-s="seen_partial"></span> for InfoCasas and Century 21, which we crawl in parts rather than whole. A portal we do not re-crawl cannot tell us a listing is gone. Today <span data-s="active"></span> listings pass; <span data-s="listed"></span> are listed as active, so <span data-s="not_seen"></span> are left out of every count and median until a crawl sees them again.</p>
+      <h3>Which sources feed the asking medians</h3>
+      <p>A source enters the asking medians and the map colors only when at least <span data-s="cov_min"></span> of its seen listings carry an ask. The rule is re-checked every morning. Today: <span data-s="med_sources"></span>. Below the bar: <span data-s="excluded"></span>. InfoCasas's scraper read no asks from 23 August to 20 September 2026; a listing regains its ask only when the crawl captures it again after the fix, and the snapshots stored in between hold no price to back-fill from. Its listings still count as stock, still appear on the cut board and the new-to-market list, and it rejoins the medians by itself once its coverage passes the bar. Each tile names its source mix.</p>
       <h3>What a close is here</h3>
-      <p>Paraguay has no public sold-price registry and no MLS. Our closes are broker-reported: RE/MAX listings marked sold or rented, with the price and date the broker published (<span data-s="closes_sale"></span> sales and <span data-s="closes_rent"></span> rentals with a price since 2024). That is one franchise network, not the market. Century 21 closed records carry the final ask but no sold price, so they are held out of every closed figure. Earlier weeks are thinner because the feed only shows the closed listings RE/MAX still indexes, so a rising count across years is coverage, not activity.</p>
+      <p>Paraguay has no public sold-price registry and no MLS. Our closes are broker-reported: RE/MAX listings marked sold or rented, with the price and date the broker published (<span data-s="closes_sale"></span> sales and <span data-s="closes_rent"></span> rentals with a price since 2024). That is one franchise network, not the market. Century 21 closed records carry the final ask but no sold price, so they are held out of every closed figure. The feed shows only the closed listings RE/MAX still indexes: <span data-s="closes_before_sale"></span> sales and <span data-s="closes_before_rent"></span> rentals before <span data-s="weeks_from"></span>, against <span data-s="closes_after_sale"></span> and <span data-s="closes_after_rent"></span> since. The weekly chart starts on that date so that coverage does not pass for activity.</p>
       <h3>Ask-to-close</h3>
-      <p>Each broker-reported sale is compared with its last asking price before it closed. Only same-currency sales count: a guaraní close against a dollar ask measures the broker's exchange rate, not the negotiation. Ratios outside 0.4 to 1.6 are dropped as entry errors. A market needs 30 such closes before a spread is shown.</p>
+      <p>Each broker-reported close is compared with its last asking price. Only same-currency closes count: a guaraní close against a dollar ask measures the broker's exchange rate, not the negotiation. Ratios outside 0.4 to 1.6 are dropped as entry errors, and a market needs 30 closes. Three numbers travel together: the share of closes whose reported price is identical to the last ask, the median over all closes, and the median of closes below the ask, the size of a discount when one happened. An identical price is either a full-price deal or a broker who left the ask in the sold field; the feed cannot say which, so the all-closes median is never shown alone. The quarterly chart uses the same rules per kind.</p>
+      <h3>Achieved rents</h3>
+      <p>Rents are charted in the currency the lease settled in: <span data-s="rent_pyg"></span> of the <span data-s="rent_all"></span> priced rentals since August 2025 settled in guaraníes. A dollar line built from guaraní rents moves with the exchange rate (the SET monthly average went from Gs <span data-s="fx_rent_first"></span> to Gs <span data-s="fx_rent_last"></span> per dollar over the chart's span) and would show a rent rise that did not happen. The tooltip adds a dollar figure at the period's average SET rate, labeled as converted. Closes outside <span data-s="rent_bands"></span> a month are left out as mislabeled or junk (<span data-s="rent_out"></span> since August 2025). A market with no month at 20 closes of one kind is shown by quarter.</p>
+      <h3>The RE/MAX daily series</h3>
+      <p>RE/MAX is captured whole every day and we keep a snapshot each time a listing's price or status changes, so its stock on any past day can be rebuilt: each listing's latest snapshot by that day's end, active status only, minus listings dropped for absence (one that returns unchanged counts again from its next snapshot, so the rebuilt count can sit a few listings under the live table). The chart and the tile changes use it from <span data-s="recon_from"></span> (<span data-s="recon_days"></span> capture days), the first day absence tracking can vouch for, rolling 30 days. Guaraní asks convert at today's SET rate for every day, so exchange-rate moves never show as price moves. The tile medians themselves pool every eligible source and are not a RE/MAX figure.</p>
       <h3>Minimum samples</h3>
       <p>Medians and percentiles need 20 listings or closes, the ask-to-close spread needs 30 and a map cell needs 5. Below that the page shows the n and no figure. Counts are always shown.</p>
       <h3>Currency</h3>
-      <p>Listings keep the currency they were advertised in. USD figures convert guaraní asks at one rate, the SET mid rate of Gs <span data-s="fx_rate"></span> per USD dated <span data-s="fx_date"></span>. Closes convert at the SET mid rate of their own sale date, so a 2024 close is not repriced at today's rate.</p>
+      <p>Listings keep the currency they were advertised in. USD figures convert guaraní asks at one rate, the SET mid rate of Gs <span data-s="fx_rate"></span> per USD dated <span data-s="fx_date"></span>. The morning email converts at open.er-api's daily rate, Gs <span data-s="email_fx"></span> today, so its dollar figures can differ from these by that margin. Ask-to-close compares each close with its ask in the same currency, so no rate enters it.</p>
       <h3>Markets</h3>
-      <p>A city gets its own page once it has 100 active sale listings; smaller towns count in their department. A listing takes its department and city from its own labels where the source labels reliably (RE/MAX, InfoCasas, Coldwell Banker, Century 21). uProp's city field is misaligned (listings in central Asunción arrive labeled as a distant town), so uProp and unlabeled listings take the majority label of their five nearest labeled listings: within 3 km for the city, 25 km for the department. Today, active listings: <span data-s="assign_own"></span> own label, <span data-s="assign_nearest"></span> nearest labeled listings, <span data-s="assign_dept"></span> department only, <span data-s="assign_none"></span> not placed.</p>
+      <p>A city gets its own page once it has 100 active sale listings; smaller towns count in their department. A listing takes its department and city from its own labels where the source labels reliably (RE/MAX, InfoCasas, Coldwell Banker, Century 21). uProp's city field is misaligned (listings in central Asunción arrive labeled as a distant town), so uProp and unlabeled listings take the majority label of their five nearest labeled listings: within 3 km for the city, 25 km for the department. Today, active listings: <span data-s="assign_own"></span> own label, <span data-s="assign_nearest"></span> nearest labeled listings, <span data-s="assign_dept"></span> department only, <span data-s="assign_none"></span> not placed. Bank labels are matched to the same spellings; a bank that names an Asunción barrio as its city is placed in Asunción.</p>
       <h3>Guards</h3>
-      <p>A cut deeper than 90% or a rise above 900% is an entry correction, not a repricing, and is not counted. USD per m2 uses built area only, for casa, departamento, duplex, oficina and local, 40 to 800 m2 and USD 30,000 to 2,000,000. Asking rents outside USD 50 to 15,000 a month are dropped. New to market means first seen by us within 7 days of the portal's own publish date, so a backfill never reads as new stock. Identical cuts posted by several brokers show once, marked xN.</p>
+      <p>A cut deeper than 90% or a rise above 900% is an entry correction, not a repricing, and is not counted. USD per m2 uses built area only, for casa, departamento, duplex, oficina and local, 40 to 800 m2 and USD 30,000 to 2,000,000. Asking rents outside USD 50 to 15,000 a month are dropped. New to market means first seen by us within 7 days of the portal's own publish date, so a backfill never reads as new stock; it is ranked against the median of its own kind. Identical cuts posted by several brokers show once, marked xN, and identical lots on one bank list show once with their count.</p>
       <h3>Stock age</h3>
-      <p>Days since the portal's own publish date, active sale listings, from sources we capture whole every day (<span data-s="age_sources"></span>). uProp is left out: <span data-s="uprop_week"></span> of its active sale listings carry a publish date inside one week of June 2026, a bulk load, so its dates measure the load and not the listing.</p>
+      <p>Days since the portal's own publish date, active sale listings, from sources we capture whole every day (<span data-s="age_sources"></span>). uProp is left out: <span data-s="uprop_week"></span> of its active sale listings carry a publish date inside one week of June 2026, a bulk load, so its dates measure the load and not the listing. The morning email still counts uProp, which is why its casa age reads <span data-s="email_age"></span> against <span data-s="page_age"></span> here.</p>
       <h3>The map</h3>
-      <p>Cells are colored by the median asking USD per built m2 of the chosen kind: 0.01 degrees (about 1 km) when zoomed in, 0.05 and 0.25 degrees further out, each computed from its own listings. Portals place a listing with a withheld address on a city or barrio center; <span data-s="map_placeholder"></span> active listings sit on such shared points (100 or more from one source at identical coordinates) and stay off the map while still counting in their market. Tiles &copy; OpenStreetMap contributors.</p>
+      <p>Cells are colored by the median asking USD per built m2 of the chosen kind: 0.01 degrees (about 1 km) when zoomed in, 0.05 and 0.25 degrees further out, each computed from its own listings. Portals place a listing with a withheld address on a city or barrio center; any point shared by <span data-s="placeholder_min"></span> or more listed listings, all sources pooled, is treated as such a center (<span data-s="map_points"></span> points, <span data-s="map_placeholder"></span> active listings today): those listings count in their market but stay off the map. In a department or city view, cells whose listings mostly belong to another market are dimmed. Tiles &copy; OpenStreetMap contributors.</p>
+      <h3>Links</h3>
+      <p>Every listing row opens its source page in a new tab, built from the key the source itself publishes; each pattern was checked against a live listing. RE/MAX pages resolve on the MLS id. Itaú lists each property on its own page (<span data-s="reo_links"></span> parcels); the other banks publish one list, a page or a file, and the link opens that list. A row whose source has no checked pattern stays unlinked.</p>
       <h3>What this data cannot tell you</h3>
-      <p>What a property is worth. Asking prices are claims and our closes come from one network. The page publishes no forecasts, estimates or yields: a median rent divided by a median price mixes different properties and is not a yield. InfoCasas carries an ask on <span data-s="ic_priced"></span> of its active listings today, while prices are re-captured after a September 2026 parser fix, so asking medians under-weight InfoCasas until that completes. Bank base prices are the banks' own figures, net of 10% IVA where the bank includes it; implausible ones are flagged, not corrected.</p>
+      <p>What a property is worth. Asking prices are claims and our closes come from one network. The page publishes no forecasts, estimates or yields: a median rent divided by a median price mixes different properties and is not a yield. Bank base prices are the banks' own figures, net of 10% IVA where the bank includes it; implausible ones are flagged, not corrected.</p>
     </div>
     <h3 class="sub-h" style="font-size:13px;margin-top:6px">Sources today</h3>
     <div class="tbl" id="t-sources"></div>
