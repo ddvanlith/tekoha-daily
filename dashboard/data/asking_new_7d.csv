@@ -26,6 +26,7 @@ first_seen,place,area,kind,built_m2,bedrooms,asking,currency,asking_usd,asking_u
 2026-09-21,"Ciudad del Este, Alto Paraná",,casa,252,5,900000000,PYG,151849,603,remax,1,-25.50572,-54.67568
 2026-09-22,"Capiatá, Central",,casa,138,2,500000000,PYG,84360,611,remax,1,,
 2026-09-23,"Villa Elisa, Central",,casa,205,3,750000000,PYG,126541,617,infocasas,1,,
+2026-09-23,"Villa Elisa, Central",,casa,205,2,750000000,PYG,126541,617,infocasas,1,,
 2026-09-18,"San Lorenzo, Central",,casa,300,3,1100000000,PYG,185593,619,infocasas,2,-25.36355,-57.55109
 2026-09-22,Asunción,Pettirossi,casa,344,3,217000,USD,217000,631,infocasas,1,-25.29302,-57.63019
 2026-09-22,"San Lorenzo, Central",,duplex,130,3,490000000,PYG,82673,636,remax,1,-25.35922,-57.5225
@@ -73,8 +74,8 @@ first_seen,place,area,kind,built_m2,bedrooms,asking,currency,asking_usd,asking_u
 2026-09-22,"Capiatá, Central",,casa,100,4,580000000,PYG,97858,979,remax,1,-25.35064,-57.4833
 2026-09-21,"Luque, Central",,casa,58,2,340000000,PYG,57365,989,remax,1,,
 2026-09-22,Asunción,Pettirossi,casa,152,5,150463,USD,150463,990,infocasas,1,-25.30492,-57.62709
-2026-09-17,"San Lorenzo, Central",,casa,160,3,950000000,PYG,160285,1002,remax,1,-25.34468,-57.53417
 2026-09-22,"Fernando de la Mora, Central",,duplex,160,3,950000000,PYG,160285,1002,remax,1,-25.33705,-57.56443
+2026-09-17,"San Lorenzo, Central",,casa,160,3,950000000,PYG,160285,1002,remax,1,-25.34468,-57.53417
 2026-09-17,"San Lorenzo, Central",,casa,50,2,300000000,PYG,50616,1012,remax,1,-25.34713,-57.48206
 2026-09-17,"Ñemby, Central",,casa,60,2,360000000,PYG,60739,1012,infocasas,1,-25.42618,-57.53322
 2026-09-20,Asunción,Las Mercedes,casa,515,5,525000,USD,525000,1019,infocasas,1,-25.28673,-57.60537
@@ -97,8 +98,8 @@ first_seen,place,area,kind,built_m2,bedrooms,asking,currency,asking_usd,asking_u
 2026-09-18,"Luque, Central",,duplex,140,3,980000000,PYG,165346,1181,remax,1,-25.25283,-57.50246
 2026-09-23,Asunción,Pettirossi,casa,200,4,1400000000,PYG,236209,1181,infocasas,1,-25.30508,-57.62984
 2026-09-22,"Fernando de la Mora, Central",,casa,340,5,2500000000,PYG,421802,1241,infocasas,1,,
+2026-09-23,Asunción,Loma Pytá,casa,200,3,250000,USD,250000,1250,remax,1,-25.24026,-57.54649
 2026-09-18,"Luque, Central",,duplex,120,3,900000000,PYG,151849,1265,remax,1,-25.25347,-57.49784
-2026-09-23,Asunción,Sajonia,departamento,78,2,100000,USD,100000,1282,infocasas,1,,
 2026-09-17,"Cambyretá, Itapúa",,casa,144,3,185000,USD,185000,1285,uprop,1,-27.33022,-55.84895
 2026-09-23,"Ypané, Central",,casa,346,3,450000,USD,450000,1301,infocasas,1,-25.46927,-57.50669
 2026-09-23,"Luque, Central",,casa,100,2,780000000,PYG,131602,1316,infocasas,1,-25.27123,-57.46336

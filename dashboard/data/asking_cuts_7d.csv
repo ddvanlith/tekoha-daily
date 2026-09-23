@@ -50,8 +50,8 @@ observed,place,area,kind,built_m2,asking_old,asking_new,currency,asking_new_usd,
 2026-09-18,"Luque, Central",,otro,70,1100000000,1000000000,PYG,168721,-9.1,78,remax,1,-25.2613,-57.49059
 2026-09-22,"Luque, Central",,terreno,,125000000,115000000,PYG,19403,-8,63,remax,1,-25.26221,-57.43586
 2026-09-22,Asunción,La Encarnación,edificio,542,130000,120000,USD,120000,-7.7,114,remax,1,-25.28242,-57.63885
-2026-09-23,"Capiatá, Central",,terreno,,135000000,125000000,PYG,21090,-7.4,148,remax,1,-25.37654,-57.42513
 2026-09-23,Asunción,Villa Morra,departamento,,108000,100000,USD,100000,-7.4,6,remax,1,-25.28903,-57.58235
+2026-09-23,"Capiatá, Central",,terreno,,135000000,125000000,PYG,21090,-7.4,148,remax,1,-25.37654,-57.42513
 2026-09-22,Asunción,Catedral,oficina,,270000000,250000000,PYG,42180,-7.4,34,remax,1,-25.28498,-57.63625
 2026-09-23,"Ciudad del Este, Alto Paraná",,terreno,,70000,65000,USD,65000,-7.1,42,remax,1,-25.51758,-54.64316
 2026-09-21,Asunción,Ycuá Satí,departamento,,700000000,650000000,PYG,109668,-7.1,1477,remax,1,-25.28005,-57.5522
@@ -60,16 +60,16 @@ observed,place,area,kind,built_m2,asking_old,asking_new,currency,asking_new_usd,
 2026-09-23,"Mariano Roque Alonso, Central",,casa,60,300000000,280000000,PYG,47242,-6.7,109,infocasas,1,-25.23767,-57.53734
 2026-09-22,"Encarnación, Itapúa",,departamento,2250,230000,215000,USD,215000,-6.5,189,remax,1,-27.32183,-55.87182
 2026-09-18,"Capiatá, Central",,casa,144,310000000,290000000,PYG,48929,-6.5,432,remax,1,-25.35589,-57.44075
-2026-09-19,Asunción,General Díaz,local,404,795000000,745000000,PYG,125697,-6.3,81,remax,1,-25.29755,-57.63618
 2026-09-19,"Mariano Roque Alonso, Central",,terreno,,800000,750000,USD,750000,-6.3,239,remax,1,-25.19369,-57.52967
+2026-09-19,Asunción,General Díaz,local,404,795000000,745000000,PYG,125697,-6.3,81,remax,1,-25.29755,-57.63618
 2026-09-18,"Encarnación, Itapúa",,casa,290,250000,235000,USD,235000,-6,167,remax,1,-27.23057,-55.94047
 2026-09-23,"Limpio, Central",,terreno,,690000000,650000000,PYG,109668,-5.8,92,remax,1,-25.14373,-57.47312
 2026-09-18,"Capiatá, Central",,casa,85,380000000,360000000,PYG,60739,-5.3,152,remax,1,-25.37381,-57.4288
 2026-09-18,"Itá, Central",,terreno,,390000000,370000000,PYG,62427,-5.1,229,remax,1,-25.47388,-57.38291
 2026-09-18,"Ñemby, Central",,terreno,,300000000,285000000,PYG,48085,-5,90,remax,1,-25.37849,-57.56312
 2026-09-18,Cordillera,,terreno,,620000000,590000000,PYG,99545,-4.8,146,remax,1,-25.32431,-57.15715
-2026-09-21,"Fernando de la Mora, Central",,departamento,,42500,40500,USD,40500,-4.7,160,remax,1,-25.29877,-57.53828
 2026-09-21,Asunción,Virgen de Fátima,otro,315,860000000,820000000,PYG,138351,-4.7,195,remax,1,-25.25795,-57.58797
+2026-09-21,"Fernando de la Mora, Central",,departamento,,42500,40500,USD,40500,-4.7,160,remax,1,-25.29877,-57.53828
 2026-09-23,"Villa Elisa, Central",,casa,142,1100000000,1050000000,PYG,177157,-4.5,85,remax,1,-25.3635,-57.57713
 2026-09-21,"San Lorenzo, Central",,terreno,,350000000,335000000,PYG,56521,-4.3,57,remax,1,-25.33889,-57.52838
 2026-09-22,"Luque, Central",,casa,300,1200000000,1150000000,PYG,194029,-4.2,97,remax,1,-25.24553,-57.50505
@@ -93,3 +93,4 @@ observed,place,area,kind,built_m2,asking_old,asking_new,currency,asking_new_usd,
 2026-09-18,"Ciudad del Este, Alto Paraná",,terreno,,230000,225000,USD,225000,-2.2,847,remax,1,-25.50314,-54.64815
 2026-09-18,"Luque, Central",,terreno,,97000,95000,USD,95000,-2.1,77,remax,1,-25.27418,-57.48328
 2026-09-18,"Fernando de la Mora, Central",,departamento,47,258000000,253000000,PYG,42686,-1.9,294,remax,1,-25.32791,-57.56208
+2026-09-23,"Luque, Central",,duplex,,660000000,650000000,PYG,109668,-1.5,218,remax,1,-25.30313,-57.50667

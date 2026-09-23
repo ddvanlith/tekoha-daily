@@ -1,29 +1,29 @@
 market_id,market,level,metric,property_kind,operation,value,p25,p75,n,basis
-py,Paraguay,country,asking_active_listings,terreno,sale,11574,,,11574,"active listings, all sources"
+py,Paraguay,country,asking_active_listings,terreno,sale,11575,,,11575,"active listings, all sources"
 py,Paraguay,country,asking_active_listings,oficina,sale,136,,,136,"active listings, all sources"
-py,Paraguay,country,asking_active_listings,casa,sale,19661,,,19661,"active listings, all sources"
+py,Paraguay,country,asking_active_listings,casa,sale,19664,,,19664,"active listings, all sources"
 py,Paraguay,country,asking_active_listings,rural,sale,208,,,208,"active listings, all sources"
 py,Paraguay,country,asking_active_listings,duplex,sale,387,,,387,"active listings, all sources"
 py,Paraguay,country,asking_active_listings,local,sale,422,,,422,"active listings, all sources"
 py,Paraguay,country,asking_active_listings,otro,sale,401,,,401,"active listings, all sources"
 py,Paraguay,country,asking_active_listings,edificio,sale,133,,,133,"active listings, all sources"
 py,Paraguay,country,asking_active_listings,deposito,sale,148,,,148,"active listings, all sources"
-py,Paraguay,country,asking_active_listings,quinta,sale,102,,,102,"active listings, all sources"
-py,Paraguay,country,asking_active_listings,departamento,sale,6910,,,6910,"active listings, all sources"
-py,Paraguay,country,asking_active_listings,duplex,rent,57,,,57,"active listings, all sources"
+py,Paraguay,country,asking_active_listings,quinta,sale,103,,,103,"active listings, all sources"
+py,Paraguay,country,asking_active_listings,departamento,sale,6911,,,6911,"active listings, all sources"
+py,Paraguay,country,asking_active_listings,duplex,rent,56,,,56,"active listings, all sources"
 py,Paraguay,country,asking_active_listings,otro,rent,97,,,97,"active listings, all sources"
 py,Paraguay,country,asking_active_listings,quinta,rent,2,,,2,"active listings, all sources"
-py,Paraguay,country,asking_active_listings,casa,rent,3950,,,3950,"active listings, all sources"
+py,Paraguay,country,asking_active_listings,casa,rent,3951,,,3951,"active listings, all sources"
 py,Paraguay,country,asking_active_listings,deposito,rent,71,,,71,"active listings, all sources"
 py,Paraguay,country,asking_active_listings,terreno,rent,89,,,89,"active listings, all sources"
 py,Paraguay,country,asking_active_listings,rural,rent,3,,,3,"active listings, all sources"
 py,Paraguay,country,asking_active_listings,edificio,rent,12,,,12,"active listings, all sources"
 py,Paraguay,country,asking_active_listings,oficina,rent,120,,,120,"active listings, all sources"
-py,Paraguay,country,asking_active_listings,departamento,rent,9111,,,9111,"active listings, all sources"
+py,Paraguay,country,asking_active_listings,departamento,rent,9112,,,9112,"active listings, all sources"
 py,Paraguay,country,asking_active_listings,local,rent,371,,,371,"active listings, all sources"
-py,Paraguay,country,asking_price_usd,terreno,sale,67488,30370,151849,7713,"median ask, USD at SET mid 2026-09-22"
-py,Paraguay,country,asking_price_usd,casa,sale,143413,77612,260000,7088,"median ask, USD at SET mid 2026-09-22"
-py,Paraguay,country,asking_price_usd,departamento,sale,104045,72000,160000,4037,"median ask, USD at SET mid 2026-09-22"
+py,Paraguay,country,asking_price_usd,terreno,sale,67488,30370,151849,7714,"median ask, USD at SET mid 2026-09-22"
+py,Paraguay,country,asking_price_usd,casa,sale,143413,77612,260000,7091,"median ask, USD at SET mid 2026-09-22"
+py,Paraguay,country,asking_price_usd,departamento,sale,104112,72000,160000,4038,"median ask, USD at SET mid 2026-09-22"
 py,Paraguay,country,asking_price_usd,local,sale,226386,131602,450000,422,"median ask, USD at SET mid 2026-09-22"
 py,Paraguay,country,asking_price_usd,otro,sale,151849,87608,350000,401,"median ask, USD at SET mid 2026-09-22"
 py,Paraguay,country,asking_price_usd,duplex,sale,126541,89711,160142,387,"median ask, USD at SET mid 2026-09-22"
@@ -31,68 +31,68 @@ py,Paraguay,country,asking_price_usd,rural,sale,430238,118104,1500000,208,"media
 py,Paraguay,country,asking_price_usd,deposito,sale,200000,126541,380000,148,"median ask, USD at SET mid 2026-09-22"
 py,Paraguay,country,asking_price_usd,oficina,sale,295261,168000,657711,135,"median ask, USD at SET mid 2026-09-22"
 py,Paraguay,country,asking_price_usd,edificio,sale,350000,185000,650000,132,"median ask, USD at SET mid 2026-09-22"
-py,Paraguay,country,asking_price_usd,quinta,sale,132488,80986,246552,102,"median ask, USD at SET mid 2026-09-22"
-py,Paraguay,country,asking_usd_per_m2_built,casa,sale,814,562,1096,5672,"built basis, 40-800 m2, 30k-2M USD"
+py,Paraguay,country,asking_price_usd,quinta,sale,134977,80986,243104,103,"median ask, USD at SET mid 2026-09-22"
+py,Paraguay,country,asking_usd_per_m2_built,casa,sale,814,562,1097,5675,"built basis, 40-800 m2, 30k-2M USD"
 py,Paraguay,country,asking_usd_per_m2_built,departamento,sale,1740,1373,2118,1842,"built basis, 40-800 m2, 30k-2M USD"
 py,Paraguay,country,asking_usd_per_m2_built,duplex,sale,917,767,1123,313,"built basis, 40-800 m2, 30k-2M USD"
 py,Paraguay,country,asking_usd_per_m2_built,local,sale,809,532,1338,228,"built basis, 40-800 m2, 30k-2M USD"
 py,Paraguay,country,asking_usd_per_m2_built,oficina,sale,2183,1387,2990,90,"built basis, 40-800 m2, 30k-2M USD"
-py,Paraguay,country,asking_rent_usd_month,departamento,rent,850,641,1200,1465,"median monthly ask, USD at SET mid 2026-09-22, 50-15000 USD band"
-py,Paraguay,country,asking_rent_usd_month,casa,rent,1856,1012,3000,1283,"median monthly ask, USD at SET mid 2026-09-22, 50-15000 USD band"
-py,Paraguay,country,asking_rent_usd_month,local,rent,810,422,1856,362,"median monthly ask, USD at SET mid 2026-09-22, 50-15000 USD band"
+py,Paraguay,country,asking_rent_usd_month,departamento,rent,850,641,1200,1466,"median monthly ask, USD at SET mid 2026-09-22, 50-15000 USD band"
+py,Paraguay,country,asking_rent_usd_month,casa,rent,1856,1012,3000,1284,"median monthly ask, USD at SET mid 2026-09-22, 50-15000 USD band"
+py,Paraguay,country,asking_rent_usd_month,local,rent,827,422,1856,362,"median monthly ask, USD at SET mid 2026-09-22, 50-15000 USD band"
 py,Paraguay,country,asking_rent_usd_month,oficina,rent,800,378,1955,120,"median monthly ask, USD at SET mid 2026-09-22, 50-15000 USD band"
 py,Paraguay,country,asking_rent_usd_month,otro,rent,422,253,818,96,"median monthly ask, USD at SET mid 2026-09-22, 50-15000 USD band"
 py,Paraguay,country,asking_rent_usd_month,terreno,rent,675,422,1265,86,"median monthly ask, USD at SET mid 2026-09-22, 50-15000 USD band"
 py,Paraguay,country,asking_rent_usd_month,deposito,rent,1265,624,2151,70,"median monthly ask, USD at SET mid 2026-09-22, 50-15000 USD band"
-py,Paraguay,country,asking_rent_usd_month,duplex,rent,844,675,1181,57,"median monthly ask, USD at SET mid 2026-09-22, 50-15000 USD band"
+py,Paraguay,country,asking_rent_usd_month,duplex,rent,839,675,1181,56,"median monthly ask, USD at SET mid 2026-09-22, 50-15000 USD band"
 py,Paraguay,country,asking_rent_usd_month,edificio,rent,,,,12,"suppressed, n below 20"
 py,Paraguay,country,asking_rent_usd_month,quinta,rent,,,,2,"suppressed, n below 20"
 py,Paraguay,country,asking_rent_usd_month,rural,rent,,,,2,"suppressed, n below 20"
-py,Paraguay,country,asking_staleness_days,terreno,sale,246,,552,4344,"days since source publish date, sources: remax prestige"
+py,Paraguay,country,asking_staleness_days,terreno,sale,246,,552,4343,"days since source publish date, sources: remax prestige"
 py,Paraguay,country,asking_staleness_days,casa,sale,207,,491,2351,"days since source publish date, sources: remax prestige"
-py,Paraguay,country,asking_staleness_days,departamento,sale,239,,527,1285,"days since source publish date, sources: remax prestige"
+py,Paraguay,country,asking_staleness_days,departamento,sale,239,,527,1286,"days since source publish date, sources: remax prestige"
 py,Paraguay,country,asking_staleness_days,otro,sale,211,,443,347,"days since source publish date, sources: remax prestige"
 py,Paraguay,country,asking_staleness_days,duplex,sale,229,,478,271,"days since source publish date, sources: remax prestige"
 py,Paraguay,country,asking_staleness_days,local,sale,262,,552,158,"days since source publish date, sources: remax prestige"
 py,Paraguay,country,asking_staleness_days,deposito,sale,329,,655,113,"days since source publish date, sources: remax prestige"
 py,Paraguay,country,asking_staleness_days,edificio,sale,411,,740,104,"days since source publish date, sources: remax prestige"
 py,Paraguay,country,asking_staleness_days,oficina,sale,310,,723,92,"days since source publish date, sources: remax prestige"
-py,Paraguay,country,asking_staleness_days,quinta,sale,295,,510,67,"days since source publish date, sources: remax prestige"
+py,Paraguay,country,asking_staleness_days,quinta,sale,288,,507,68,"days since source publish date, sources: remax prestige"
 py,Paraguay,country,asking_staleness_days,rural,sale,620,,1110,66,"days since source publish date, sources: remax prestige"
-py,Paraguay,country,asking_flow_30d_cuts,,all,404,,,404,events 2026-08-25 to 2026-09-23
-py,Paraguay,country,asking_flow_30d_increases,,all,114,,,114,events 2026-08-25 to 2026-09-23
-py,Paraguay,country,asking_flow_30d_new,,all,3073,,,3073,events 2026-08-25 to 2026-09-23
+py,Paraguay,country,asking_flow_30d_cuts,,all,407,,,407,events 2026-08-25 to 2026-09-23
+py,Paraguay,country,asking_flow_30d_increases,,all,117,,,117,events 2026-08-25 to 2026-09-23
+py,Paraguay,country,asking_flow_30d_new,,all,3079,,,3079,events 2026-08-25 to 2026-09-23
 py,Paraguay,country,asking_flow_30d_delisted,,all,538,,,538,events 2026-08-25 to 2026-09-23
-py,Paraguay,country,asking_flow_30d_went_sold,,all,149,,,149,events 2026-08-25 to 2026-09-23
+py,Paraguay,country,asking_flow_30d_went_sold,,all,151,,,151,events 2026-08-25 to 2026-09-23
 py,Paraguay,country,asking_flow_30d_went_rented,,all,155,,,155,events 2026-08-25 to 2026-09-23
-py,Paraguay,country,asking_flow_30d_cuts,,sale,315,,,315,events 2026-08-25 to 2026-09-23
+py,Paraguay,country,asking_flow_30d_cuts,,sale,316,,,316,events 2026-08-25 to 2026-09-23
 py,Paraguay,country,asking_flow_30d_increases,,sale,93,,,93,events 2026-08-25 to 2026-09-23
-py,Paraguay,country,asking_flow_30d_new,,sale,2001,,,2001,events 2026-08-25 to 2026-09-23
+py,Paraguay,country,asking_flow_30d_new,,sale,2007,,,2007,events 2026-08-25 to 2026-09-23
 py,Paraguay,country,asking_flow_30d_delisted,,sale,469,,,469,events 2026-08-25 to 2026-09-23
-py,Paraguay,country,asking_flow_30d_went_sold,,sale,149,,,149,events 2026-08-25 to 2026-09-23
+py,Paraguay,country,asking_flow_30d_went_sold,,sale,151,,,151,events 2026-08-25 to 2026-09-23
 py,Paraguay,country,asking_flow_30d_went_rented,,sale,0,,,0,events 2026-08-25 to 2026-09-23
-py,Paraguay,country,asking_flow_30d_cuts,,rent,89,,,89,events 2026-08-25 to 2026-09-23
-py,Paraguay,country,asking_flow_30d_increases,,rent,21,,,21,events 2026-08-25 to 2026-09-23
+py,Paraguay,country,asking_flow_30d_cuts,,rent,91,,,91,events 2026-08-25 to 2026-09-23
+py,Paraguay,country,asking_flow_30d_increases,,rent,24,,,24,events 2026-08-25 to 2026-09-23
 py,Paraguay,country,asking_flow_30d_new,,rent,1072,,,1072,events 2026-08-25 to 2026-09-23
 py,Paraguay,country,asking_flow_30d_delisted,,rent,69,,,69,events 2026-08-25 to 2026-09-23
 py,Paraguay,country,asking_flow_30d_went_sold,,rent,0,,,0,events 2026-08-25 to 2026-09-23
 py,Paraguay,country,asking_flow_30d_went_rented,,rent,155,,,155,events 2026-08-25 to 2026-09-23
 py,Paraguay,country,reo_parcels_active,,sale,407,,,407,bank REO lists
 py,Paraguay,country,reo_parcels_priced,,sale,302,,,302,bank REO lists
-py,Paraguay,country,closed_ask_to_close_pct,all,sale,-3.1,-8.9,0,1196,"same-currency broker-reported closes 2024-02-23 to 2026-09-22, terminal-ask basis"
-py,Paraguay,country,closed_ask_to_close_pct,terreno,sale,-3.8,-10,0,601,same-currency broker-reported closes
+py,Paraguay,country,closed_ask_to_close_pct,all,sale,-3.1,-8.9,0,1197,"same-currency broker-reported closes 2024-02-23 to 2026-09-22, terminal-ask basis"
+py,Paraguay,country,closed_ask_to_close_pct,terreno,sale,-3.7,-9.9,0,602,same-currency broker-reported closes
 py,Paraguay,country,closed_ask_to_close_pct,casa,sale,-3.5,-8.5,0,358,same-currency broker-reported closes
 py,Paraguay,country,closed_ask_to_close_pct,departamento,sale,0,-4.1,0,99,same-currency broker-reported closes
 py,Paraguay,country,closed_ask_to_close_pct,duplex,sale,-2.4,-5.2,0,71,same-currency broker-reported closes
-d:asuncion,Asunción,department,asking_active_listings,casa,sale,8595,,,8595,"active listings, all sources"
+d:asuncion,Asunción,department,asking_active_listings,casa,sale,8890,,,8890,"active listings, all sources"
 d:asuncion,Asunción,department,asking_active_listings,deposito,sale,37,,,37,"active listings, all sources"
 d:asuncion,Asunción,department,asking_active_listings,edificio,sale,54,,,54,"active listings, all sources"
-d:asuncion,Asunción,department,asking_active_listings,terreno,sale,955,,,955,"active listings, all sources"
+d:asuncion,Asunción,department,asking_active_listings,terreno,sale,980,,,980,"active listings, all sources"
 d:asuncion,Asunción,department,asking_active_listings,duplex,sale,55,,,55,"active listings, all sources"
 d:asuncion,Asunción,department,asking_active_listings,oficina,sale,129,,,129,"active listings, all sources"
 d:asuncion,Asunción,department,asking_active_listings,rural,sale,13,,,13,"active listings, all sources"
 d:asuncion,Asunción,department,asking_active_listings,quinta,sale,1,,,1,"active listings, all sources"
-d:asuncion,Asunción,department,asking_active_listings,departamento,sale,5858,,,5858,"active listings, all sources"
+d:asuncion,Asunción,department,asking_active_listings,departamento,sale,5893,,,5893,"active listings, all sources"
 d:asuncion,Asunción,department,asking_active_listings,otro,sale,66,,,66,"active listings, all sources"
 d:asuncion,Asunción,department,asking_active_listings,local,sale,203,,,203,"active listings, all sources"
 d:asuncion,Asunción,department,asking_active_listings,local,rent,144,,,144,"active listings, all sources"
@@ -102,11 +102,11 @@ d:asuncion,Asunción,department,asking_active_listings,terreno,rent,12,,,12,"act
 d:asuncion,Asunción,department,asking_active_listings,oficina,rent,88,,,88,"active listings, all sources"
 d:asuncion,Asunción,department,asking_active_listings,duplex,rent,9,,,9,"active listings, all sources"
 d:asuncion,Asunción,department,asking_active_listings,edificio,rent,2,,,2,"active listings, all sources"
-d:asuncion,Asunción,department,asking_active_listings,casa,rent,3579,,,3579,"active listings, all sources"
-d:asuncion,Asunción,department,asking_active_listings,departamento,rent,8533,,,8533,"active listings, all sources"
+d:asuncion,Asunción,department,asking_active_listings,casa,rent,3608,,,3608,"active listings, all sources"
+d:asuncion,Asunción,department,asking_active_listings,departamento,rent,8686,,,8686,"active listings, all sources"
 d:asuncion,Asunción,department,asking_price_usd,departamento,sale,113014,79024,170000,3088,"median ask, USD at SET mid 2026-09-22"
-d:asuncion,Asunción,department,asking_price_usd,casa,sale,269953,158972,465000,2247,"median ask, USD at SET mid 2026-09-22"
-d:asuncion,Asunción,department,asking_price_usd,terreno,sale,220000,118104,465140,908,"median ask, USD at SET mid 2026-09-22"
+d:asuncion,Asunción,department,asking_price_usd,casa,sale,269953,158972,465000,2250,"median ask, USD at SET mid 2026-09-22"
+d:asuncion,Asunción,department,asking_price_usd,terreno,sale,220000,118104,462500,907,"median ask, USD at SET mid 2026-09-22"
 d:asuncion,Asunción,department,asking_price_usd,local,sale,300000,151849,570000,203,"median ask, USD at SET mid 2026-09-22"
 d:asuncion,Asunción,department,asking_price_usd,oficina,sale,296250,166071,676525,128,"median ask, USD at SET mid 2026-09-22"
 d:asuncion,Asunción,department,asking_price_usd,otro,sale,140000,69210,247500,66,"median ask, USD at SET mid 2026-09-22"
@@ -115,13 +115,13 @@ d:asuncion,Asunción,department,asking_price_usd,edificio,sale,347306,200000,650
 d:asuncion,Asunción,department,asking_price_usd,deposito,sale,265000,180000,490000,37,"median ask, USD at SET mid 2026-09-22"
 d:asuncion,Asunción,department,asking_price_usd,rural,sale,,,,13,"suppressed, n below 20"
 d:asuncion,Asunción,department,asking_price_usd,quinta,sale,,,,1,"suppressed, n below 20"
-d:asuncion,Asunción,department,asking_usd_per_m2_built,casa,sale,993,710,1379,1779,"built basis, 40-800 m2, 30k-2M USD"
+d:asuncion,Asunción,department,asking_usd_per_m2_built,casa,sale,994,710,1379,1782,"built basis, 40-800 m2, 30k-2M USD"
 d:asuncion,Asunción,department,asking_usd_per_m2_built,departamento,sale,1810,1499,2161,1500,"built basis, 40-800 m2, 30k-2M USD"
 d:asuncion,Asunción,department,asking_usd_per_m2_built,local,sale,902,655,1639,106,"built basis, 40-800 m2, 30k-2M USD"
 d:asuncion,Asunción,department,asking_usd_per_m2_built,oficina,sale,2197,1493,3020,85,"built basis, 40-800 m2, 30k-2M USD"
 d:asuncion,Asunción,department,asking_usd_per_m2_built,duplex,sale,1007,849,1244,46,"built basis, 40-800 m2, 30k-2M USD"
-d:asuncion,Asunción,department,asking_rent_usd_month,departamento,rent,950,725,1265,1185,"median monthly ask, USD at SET mid 2026-09-22, 50-15000 USD band"
-d:asuncion,Asunción,department,asking_rent_usd_month,casa,rent,2278,1299,3164,1018,"median monthly ask, USD at SET mid 2026-09-22, 50-15000 USD band"
+d:asuncion,Asunción,department,asking_rent_usd_month,departamento,rent,952,725,1265,1186,"median monthly ask, USD at SET mid 2026-09-22, 50-15000 USD band"
+d:asuncion,Asunción,department,asking_rent_usd_month,casa,rent,2278,1299,3164,1019,"median monthly ask, USD at SET mid 2026-09-22, 50-15000 USD band"
 d:asuncion,Asunción,department,asking_rent_usd_month,local,rent,1518,591,2700,141,"median monthly ask, USD at SET mid 2026-09-22, 50-15000 USD band"
 d:asuncion,Asunción,department,asking_rent_usd_month,oficina,rent,1031,422,2168,88,"median monthly ask, USD at SET mid 2026-09-22, 50-15000 USD band"
 d:asuncion,Asunción,department,asking_rent_usd_month,otro,rent,,,,19,"suppressed, n below 20"
@@ -130,8 +130,8 @@ d:asuncion,Asunción,department,asking_rent_usd_month,deposito,rent,,,,11,"suppr
 d:asuncion,Asunción,department,asking_rent_usd_month,duplex,rent,,,,9,"suppressed, n below 20"
 d:asuncion,Asunción,department,asking_rent_usd_month,edificio,rent,,,,2,"suppressed, n below 20"
 d:asuncion,Asunción,department,asking_staleness_days,departamento,sale,229,,478,897,"days since source publish date, sources: remax prestige"
-d:asuncion,Asunción,department,asking_staleness_days,terreno,sale,268,,530,328,"days since source publish date, sources: remax prestige"
-d:asuncion,Asunción,department,asking_staleness_days,casa,sale,194,,509,324,"days since source publish date, sources: remax prestige"
+d:asuncion,Asunción,department,asking_staleness_days,terreno,sale,263,,525,327,"days since source publish date, sources: remax prestige"
+d:asuncion,Asunción,department,asking_staleness_days,casa,sale,193,,506,325,"days since source publish date, sources: remax prestige"
 d:asuncion,Asunción,department,asking_staleness_days,oficina,sale,299,,722,89,"days since source publish date, sources: remax prestige"
 d:asuncion,Asunción,department,asking_staleness_days,local,sale,257,,718,54,"days since source publish date, sources: remax prestige"
 d:asuncion,Asunción,department,asking_staleness_days,otro,sale,176,,611,51,"days since source publish date, sources: remax prestige"
@@ -141,19 +141,19 @@ d:asuncion,Asunción,department,asking_staleness_days,deposito,sale,227,,445,22,
 d:asuncion,Asunción,department,asking_staleness_days,quinta,sale,,,,1,"suppressed, n below 20"
 d:asuncion,Asunción,department,asking_flow_30d_cuts,,all,113,,,113,events 2026-08-25 to 2026-09-23
 d:asuncion,Asunción,department,asking_flow_30d_increases,,all,34,,,34,events 2026-08-25 to 2026-09-23
-d:asuncion,Asunción,department,asking_flow_30d_new,,all,1610,,,1610,events 2026-08-25 to 2026-09-23
+d:asuncion,Asunción,department,asking_flow_30d_new,,all,1616,,,1616,events 2026-08-25 to 2026-09-23
 d:asuncion,Asunción,department,asking_flow_30d_delisted,,all,135,,,135,events 2026-08-25 to 2026-09-23
 d:asuncion,Asunción,department,asking_flow_30d_went_sold,,all,38,,,38,events 2026-08-25 to 2026-09-23
 d:asuncion,Asunción,department,asking_flow_30d_went_rented,,all,56,,,56,events 2026-08-25 to 2026-09-23
 d:asuncion,Asunción,department,asking_flow_30d_cuts,,sale,75,,,75,events 2026-08-25 to 2026-09-23
 d:asuncion,Asunción,department,asking_flow_30d_increases,,sale,27,,,27,events 2026-08-25 to 2026-09-23
-d:asuncion,Asunción,department,asking_flow_30d_new,,sale,764,,,764,events 2026-08-25 to 2026-09-23
+d:asuncion,Asunción,department,asking_flow_30d_new,,sale,767,,,767,events 2026-08-25 to 2026-09-23
 d:asuncion,Asunción,department,asking_flow_30d_delisted,,sale,109,,,109,events 2026-08-25 to 2026-09-23
 d:asuncion,Asunción,department,asking_flow_30d_went_sold,,sale,38,,,38,events 2026-08-25 to 2026-09-23
 d:asuncion,Asunción,department,asking_flow_30d_went_rented,,sale,0,,,0,events 2026-08-25 to 2026-09-23
 d:asuncion,Asunción,department,asking_flow_30d_cuts,,rent,38,,,38,events 2026-08-25 to 2026-09-23
 d:asuncion,Asunción,department,asking_flow_30d_increases,,rent,7,,,7,events 2026-08-25 to 2026-09-23
-d:asuncion,Asunción,department,asking_flow_30d_new,,rent,846,,,846,events 2026-08-25 to 2026-09-23
+d:asuncion,Asunción,department,asking_flow_30d_new,,rent,849,,,849,events 2026-08-25 to 2026-09-23
 d:asuncion,Asunción,department,asking_flow_30d_delisted,,rent,26,,,26,events 2026-08-25 to 2026-09-23
 d:asuncion,Asunción,department,asking_flow_30d_went_sold,,rent,0,,,0,events 2026-08-25 to 2026-09-23
 d:asuncion,Asunción,department,asking_flow_30d_went_rented,,rent,56,,,56,events 2026-08-25 to 2026-09-23
@@ -166,12 +166,12 @@ d:asuncion,Asunción,department,closed_ask_to_close_pct,terreno,sale,-4.8,-10.9,
 d:central,Central,department,asking_active_listings,duplex,sale,281,,,281,"active listings, all sources"
 d:central,Central,department,asking_active_listings,oficina,sale,1,,,1,"active listings, all sources"
 d:central,Central,department,asking_active_listings,rural,sale,17,,,17,"active listings, all sources"
-d:central,Central,department,asking_active_listings,casa,sale,9879,,,9879,"active listings, all sources"
-d:central,Central,department,asking_active_listings,departamento,sale,728,,,728,"active listings, all sources"
+d:central,Central,department,asking_active_listings,casa,sale,9587,,,9587,"active listings, all sources"
+d:central,Central,department,asking_active_listings,departamento,sale,692,,,692,"active listings, all sources"
 d:central,Central,department,asking_active_listings,otro,sale,107,,,107,"active listings, all sources"
-d:central,Central,department,asking_active_listings,terreno,sale,7460,,,7460,"active listings, all sources"
+d:central,Central,department,asking_active_listings,terreno,sale,7434,,,7434,"active listings, all sources"
 d:central,Central,department,asking_active_listings,local,sale,131,,,131,"active listings, all sources"
-d:central,Central,department,asking_active_listings,quinta,sale,47,,,47,"active listings, all sources"
+d:central,Central,department,asking_active_listings,quinta,sale,48,,,48,"active listings, all sources"
 d:central,Central,department,asking_active_listings,edificio,sale,34,,,34,"active listings, all sources"
 d:central,Central,department,asking_active_listings,deposito,sale,69,,,69,"active listings, all sources"
 d:central,Central,department,asking_active_listings,otro,rent,46,,,46,"active listings, all sources"
@@ -179,19 +179,19 @@ d:central,Central,department,asking_active_listings,local,rent,178,,,178,"active
 d:central,Central,department,asking_active_listings,oficina,rent,14,,,14,"active listings, all sources"
 d:central,Central,department,asking_active_listings,edificio,rent,4,,,4,"active listings, all sources"
 d:central,Central,department,asking_active_listings,terreno,rent,49,,,49,"active listings, all sources"
-d:central,Central,department,asking_active_listings,duplex,rent,39,,,39,"active listings, all sources"
-d:central,Central,department,asking_active_listings,departamento,rent,471,,,471,"active listings, all sources"
+d:central,Central,department,asking_active_listings,duplex,rent,38,,,38,"active listings, all sources"
+d:central,Central,department,asking_active_listings,departamento,rent,319,,,319,"active listings, all sources"
 d:central,Central,department,asking_active_listings,deposito,rent,41,,,41,"active listings, all sources"
 d:central,Central,department,asking_active_listings,rural,rent,1,,,1,"active listings, all sources"
-d:central,Central,department,asking_active_listings,casa,rent,237,,,237,"active listings, all sources"
+d:central,Central,department,asking_active_listings,casa,rent,209,,,209,"active listings, all sources"
 d:central,Central,department,asking_price_usd,casa,sale,101232,65126,161972,3793,"median ask, USD at SET mid 2026-09-22"
-d:central,Central,department,asking_price_usd,terreno,sale,64114,32057,134977,3709,"median ask, USD at SET mid 2026-09-22"
+d:central,Central,department,asking_price_usd,terreno,sale,64114,32057,134977,3710,"median ask, USD at SET mid 2026-09-22"
 d:central,Central,department,asking_price_usd,departamento,sale,75300,53000,94364,650,"median ask, USD at SET mid 2026-09-22"
 d:central,Central,department,asking_price_usd,duplex,sale,122997,86891,151849,281,"median ask, USD at SET mid 2026-09-22"
 d:central,Central,department,asking_price_usd,local,sale,185593,112199,352157,131,"median ask, USD at SET mid 2026-09-22"
 d:central,Central,department,asking_price_usd,otro,sale,151849,84258,350000,107,"median ask, USD at SET mid 2026-09-22"
 d:central,Central,department,asking_price_usd,deposito,sale,185593,126541,354313,69,"median ask, USD at SET mid 2026-09-22"
-d:central,Central,department,asking_price_usd,quinta,sale,101232,67488,199000,47,"median ask, USD at SET mid 2026-09-22"
+d:central,Central,department,asking_price_usd,quinta,sale,103763,67488,200616,48,"median ask, USD at SET mid 2026-09-22"
 d:central,Central,department,asking_price_usd,edificio,sale,343721,206683,438732,34,"median ask, USD at SET mid 2026-09-22"
 d:central,Central,department,asking_price_usd,rural,sale,,,,17,"suppressed, n below 20"
 d:central,Central,department,asking_price_usd,oficina,sale,,,,1,"suppressed, n below 20"
@@ -201,46 +201,46 @@ d:central,Central,department,asking_usd_per_m2_built,departamento,sale,1233,1065
 d:central,Central,department,asking_usd_per_m2_built,local,sale,770,491,1125,73,"built basis, 40-800 m2, 30k-2M USD"
 d:central,Central,department,asking_usd_per_m2_built,oficina,sale,,,,1,"suppressed, n below 20"
 d:central,Central,department,asking_rent_usd_month,departamento,rent,591,422,675,218,"median monthly ask, USD at SET mid 2026-09-22, 50-15000 USD band"
-d:central,Central,department,asking_rent_usd_month,local,rent,607,337,1265,172,"median monthly ask, USD at SET mid 2026-09-22, 50-15000 USD band"
+d:central,Central,department,asking_rent_usd_month,local,rent,624,337,1265,172,"median monthly ask, USD at SET mid 2026-09-22, 50-15000 USD band"
 d:central,Central,department,asking_rent_usd_month,casa,rent,759,506,1181,158,"median monthly ask, USD at SET mid 2026-09-22, 50-15000 USD band"
 d:central,Central,department,asking_rent_usd_month,otro,rent,278,202,586,46,"median monthly ask, USD at SET mid 2026-09-22, 50-15000 USD band"
 d:central,Central,department,asking_rent_usd_month,terreno,rent,844,603,1329,46,"median monthly ask, USD at SET mid 2026-09-22, 50-15000 USD band"
 d:central,Central,department,asking_rent_usd_month,deposito,rent,1098,462,2015,40,"median monthly ask, USD at SET mid 2026-09-22, 50-15000 USD band"
-d:central,Central,department,asking_rent_usd_month,duplex,rent,759,675,1063,39,"median monthly ask, USD at SET mid 2026-09-22, 50-15000 USD band"
+d:central,Central,department,asking_rent_usd_month,duplex,rent,759,675,1063,38,"median monthly ask, USD at SET mid 2026-09-22, 50-15000 USD band"
 d:central,Central,department,asking_rent_usd_month,oficina,rent,,,,14,"suppressed, n below 20"
 d:central,Central,department,asking_rent_usd_month,edificio,rent,,,,4,"suppressed, n below 20"
-d:central,Central,department,asking_staleness_days,terreno,sale,217,,517,1725,"days since source publish date, sources: remax prestige"
-d:central,Central,department,asking_staleness_days,casa,sale,183,,440,1312,"days since source publish date, sources: remax prestige"
+d:central,Central,department,asking_staleness_days,terreno,sale,217,,517,1724,"days since source publish date, sources: remax prestige"
+d:central,Central,department,asking_staleness_days,casa,sale,183,,440,1311,"days since source publish date, sources: remax prestige"
 d:central,Central,department,asking_staleness_days,departamento,sale,296,,726,225,"days since source publish date, sources: remax prestige"
 d:central,Central,department,asking_staleness_days,duplex,sale,223,,457,204,"days since source publish date, sources: remax prestige"
 d:central,Central,department,asking_staleness_days,otro,sale,169,,396,102,"days since source publish date, sources: remax prestige"
 d:central,Central,department,asking_staleness_days,deposito,sale,432,,837,59,"days since source publish date, sources: remax prestige"
 d:central,Central,department,asking_staleness_days,local,sale,263,,440,51,"days since source publish date, sources: remax prestige"
-d:central,Central,department,asking_staleness_days,quinta,sale,250,,475,28,"days since source publish date, sources: remax prestige"
+d:central,Central,department,asking_staleness_days,quinta,sale,218,,451,29,"days since source publish date, sources: remax prestige"
 d:central,Central,department,asking_staleness_days,edificio,sale,310,,810,26,"days since source publish date, sources: remax prestige"
 d:central,Central,department,asking_staleness_days,rural,sale,,,,2,"suppressed, n below 20"
-d:central,Central,department,asking_flow_30d_cuts,,all,181,,,181,events 2026-08-25 to 2026-09-23
-d:central,Central,department,asking_flow_30d_increases,,all,46,,,46,events 2026-08-25 to 2026-09-23
-d:central,Central,department,asking_flow_30d_new,,all,1119,,,1119,events 2026-08-25 to 2026-09-23
+d:central,Central,department,asking_flow_30d_cuts,,all,183,,,183,events 2026-08-25 to 2026-09-23
+d:central,Central,department,asking_flow_30d_increases,,all,47,,,47,events 2026-08-25 to 2026-09-23
+d:central,Central,department,asking_flow_30d_new,,all,1116,,,1116,events 2026-08-25 to 2026-09-23
 d:central,Central,department,asking_flow_30d_delisted,,all,237,,,237,events 2026-08-25 to 2026-09-23
-d:central,Central,department,asking_flow_30d_went_sold,,all,61,,,61,events 2026-08-25 to 2026-09-23
+d:central,Central,department,asking_flow_30d_went_sold,,all,63,,,63,events 2026-08-25 to 2026-09-23
 d:central,Central,department,asking_flow_30d_went_rented,,all,60,,,60,events 2026-08-25 to 2026-09-23
-d:central,Central,department,asking_flow_30d_cuts,,sale,145,,,145,events 2026-08-25 to 2026-09-23
+d:central,Central,department,asking_flow_30d_cuts,,sale,146,,,146,events 2026-08-25 to 2026-09-23
 d:central,Central,department,asking_flow_30d_increases,,sale,38,,,38,events 2026-08-25 to 2026-09-23
 d:central,Central,department,asking_flow_30d_new,,sale,958,,,958,events 2026-08-25 to 2026-09-23
 d:central,Central,department,asking_flow_30d_delisted,,sale,209,,,209,events 2026-08-25 to 2026-09-23
-d:central,Central,department,asking_flow_30d_went_sold,,sale,61,,,61,events 2026-08-25 to 2026-09-23
+d:central,Central,department,asking_flow_30d_went_sold,,sale,63,,,63,events 2026-08-25 to 2026-09-23
 d:central,Central,department,asking_flow_30d_went_rented,,sale,0,,,0,events 2026-08-25 to 2026-09-23
-d:central,Central,department,asking_flow_30d_cuts,,rent,36,,,36,events 2026-08-25 to 2026-09-23
-d:central,Central,department,asking_flow_30d_increases,,rent,8,,,8,events 2026-08-25 to 2026-09-23
-d:central,Central,department,asking_flow_30d_new,,rent,161,,,161,events 2026-08-25 to 2026-09-23
+d:central,Central,department,asking_flow_30d_cuts,,rent,37,,,37,events 2026-08-25 to 2026-09-23
+d:central,Central,department,asking_flow_30d_increases,,rent,9,,,9,events 2026-08-25 to 2026-09-23
+d:central,Central,department,asking_flow_30d_new,,rent,158,,,158,events 2026-08-25 to 2026-09-23
 d:central,Central,department,asking_flow_30d_delisted,,rent,28,,,28,events 2026-08-25 to 2026-09-23
 d:central,Central,department,asking_flow_30d_went_sold,,rent,0,,,0,events 2026-08-25 to 2026-09-23
 d:central,Central,department,asking_flow_30d_went_rented,,rent,60,,,60,events 2026-08-25 to 2026-09-23
 d:central,Central,department,reo_parcels_active,,sale,79,,,79,bank REO lists
 d:central,Central,department,reo_parcels_priced,,sale,64,,,64,bank REO lists
-d:central,Central,department,closed_ask_to_close_pct,all,sale,-3.4,-9.1,0,657,"same-currency broker-reported closes 2024-03-02 to 2026-09-22, terminal-ask basis"
-d:central,Central,department,closed_ask_to_close_pct,terreno,sale,-4.5,-10,0,337,same-currency broker-reported closes
+d:central,Central,department,closed_ask_to_close_pct,all,sale,-3.4,-9.1,0,658,"same-currency broker-reported closes 2024-03-02 to 2026-09-22, terminal-ask basis"
+d:central,Central,department,closed_ask_to_close_pct,terreno,sale,-4.5,-10,0,338,same-currency broker-reported closes
 d:central,Central,department,closed_ask_to_close_pct,casa,sale,-3.6,-8.3,0,202,same-currency broker-reported closes
 d:central,Central,department,closed_ask_to_close_pct,duplex,sale,-2.1,-4.6,0,62,same-currency broker-reported closes
 c:central:luque,Luque,city,asking_active_listings,duplex,sale,102,,,102,"active listings, all sources"
@@ -250,7 +250,7 @@ c:central:luque,Luque,city,asking_active_listings,departamento,sale,279,,,279,"a
 c:central:luque,Luque,city,asking_active_listings,deposito,sale,7,,,7,"active listings, all sources"
 c:central:luque,Luque,city,asking_active_listings,otro,sale,27,,,27,"active listings, all sources"
 c:central:luque,Luque,city,asking_active_listings,casa,sale,2154,,,2154,"active listings, all sources"
-c:central:luque,Luque,city,asking_active_listings,terreno,sale,1318,,,1318,"active listings, all sources"
+c:central:luque,Luque,city,asking_active_listings,terreno,sale,1320,,,1320,"active listings, all sources"
 c:central:luque,Luque,city,asking_active_listings,edificio,sale,1,,,1,"active listings, all sources"
 c:central:luque,Luque,city,asking_active_listings,local,sale,15,,,15,"active listings, all sources"
 c:central:luque,Luque,city,asking_active_listings,departamento,rent,108,,,108,"active listings, all sources"
@@ -263,7 +263,7 @@ c:central:luque,Luque,city,asking_active_listings,local,rent,21,,,21,"active lis
 c:central:luque,Luque,city,asking_active_listings,casa,rent,50,,,50,"active listings, all sources"
 c:central:luque,Luque,city,asking_active_listings,oficina,rent,2,,,2,"active listings, all sources"
 c:central:luque,Luque,city,asking_price_usd,casa,sale,95749,67488,160000,938,"median ask, USD at SET mid 2026-09-22"
-c:central:luque,Luque,city,asking_price_usd,terreno,sale,84360,47233,185593,659,"median ask, USD at SET mid 2026-09-22"
+c:central:luque,Luque,city,asking_price_usd,terreno,sale,84360,47242,185593,661,"median ask, USD at SET mid 2026-09-22"
 c:central:luque,Luque,city,asking_price_usd,departamento,sale,77801,59625,91792,270,"median ask, USD at SET mid 2026-09-22"
 c:central:luque,Luque,city,asking_price_usd,duplex,sale,126541,89169,155000,102,"median ask, USD at SET mid 2026-09-22"
 c:central:luque,Luque,city,asking_price_usd,otro,sale,87735,69778,173460,27,"median ask, USD at SET mid 2026-09-22"
@@ -294,13 +294,13 @@ c:central:luque,Luque,city,asking_staleness_days,deposito,sale,,,,5,"suppressed,
 c:central:luque,Luque,city,asking_staleness_days,local,sale,,,,4,"suppressed, n below 20"
 c:central:luque,Luque,city,asking_staleness_days,quinta,sale,,,,3,"suppressed, n below 20"
 c:central:luque,Luque,city,asking_staleness_days,edificio,sale,,,,1,"suppressed, n below 20"
-c:central:luque,Luque,city,asking_flow_30d_cuts,,all,36,,,36,events 2026-08-25 to 2026-09-23
+c:central:luque,Luque,city,asking_flow_30d_cuts,,all,37,,,37,events 2026-08-25 to 2026-09-23
 c:central:luque,Luque,city,asking_flow_30d_increases,,all,16,,,16,events 2026-08-25 to 2026-09-23
 c:central:luque,Luque,city,asking_flow_30d_new,,all,240,,,240,events 2026-08-25 to 2026-09-23
 c:central:luque,Luque,city,asking_flow_30d_delisted,,all,41,,,41,events 2026-08-25 to 2026-09-23
 c:central:luque,Luque,city,asking_flow_30d_went_sold,,all,11,,,11,events 2026-08-25 to 2026-09-23
 c:central:luque,Luque,city,asking_flow_30d_went_rented,,all,11,,,11,events 2026-08-25 to 2026-09-23
-c:central:luque,Luque,city,asking_flow_30d_cuts,,sale,30,,,30,events 2026-08-25 to 2026-09-23
+c:central:luque,Luque,city,asking_flow_30d_cuts,,sale,31,,,31,events 2026-08-25 to 2026-09-23
 c:central:luque,Luque,city,asking_flow_30d_increases,,sale,15,,,15,events 2026-08-25 to 2026-09-23
 c:central:luque,Luque,city,asking_flow_30d_new,,sale,198,,,198,events 2026-08-25 to 2026-09-23
 c:central:luque,Luque,city,asking_flow_30d_delisted,,sale,39,,,39,events 2026-08-25 to 2026-09-23
@@ -320,17 +320,17 @@ c:central:luque,Luque,city,closed_ask_to_close_pct,casa,sale,0,-4.7,0,38,same-cu
 c:central:san-lorenzo,San Lorenzo,city,asking_active_listings,quinta,sale,1,,,1,"active listings, all sources"
 c:central:san-lorenzo,San Lorenzo,city,asking_active_listings,edificio,sale,9,,,9,"active listings, all sources"
 c:central:san-lorenzo,San Lorenzo,city,asking_active_listings,otro,sale,14,,,14,"active listings, all sources"
-c:central:san-lorenzo,San Lorenzo,city,asking_active_listings,departamento,sale,61,,,61,"active listings, all sources"
+c:central:san-lorenzo,San Lorenzo,city,asking_active_listings,departamento,sale,50,,,50,"active listings, all sources"
 c:central:san-lorenzo,San Lorenzo,city,asking_active_listings,deposito,sale,17,,,17,"active listings, all sources"
-c:central:san-lorenzo,San Lorenzo,city,asking_active_listings,casa,sale,1135,,,1135,"active listings, all sources"
+c:central:san-lorenzo,San Lorenzo,city,asking_active_listings,casa,sale,1085,,,1085,"active listings, all sources"
 c:central:san-lorenzo,San Lorenzo,city,asking_active_listings,local,sale,27,,,27,"active listings, all sources"
-c:central:san-lorenzo,San Lorenzo,city,asking_active_listings,terreno,sale,603,,,603,"active listings, all sources"
+c:central:san-lorenzo,San Lorenzo,city,asking_active_listings,terreno,sale,597,,,597,"active listings, all sources"
 c:central:san-lorenzo,San Lorenzo,city,asking_active_listings,duplex,sale,47,,,47,"active listings, all sources"
-c:central:san-lorenzo,San Lorenzo,city,asking_active_listings,departamento,rent,72,,,72,"active listings, all sources"
+c:central:san-lorenzo,San Lorenzo,city,asking_active_listings,departamento,rent,39,,,39,"active listings, all sources"
 c:central:san-lorenzo,San Lorenzo,city,asking_active_listings,oficina,rent,5,,,5,"active listings, all sources"
-c:central:san-lorenzo,San Lorenzo,city,asking_active_listings,casa,rent,13,,,13,"active listings, all sources"
+c:central:san-lorenzo,San Lorenzo,city,asking_active_listings,casa,rent,9,,,9,"active listings, all sources"
 c:central:san-lorenzo,San Lorenzo,city,asking_active_listings,local,rent,50,,,50,"active listings, all sources"
-c:central:san-lorenzo,San Lorenzo,city,asking_active_listings,duplex,rent,9,,,9,"active listings, all sources"
+c:central:san-lorenzo,San Lorenzo,city,asking_active_listings,duplex,rent,8,,,8,"active listings, all sources"
 c:central:san-lorenzo,San Lorenzo,city,asking_active_listings,otro,rent,13,,,13,"active listings, all sources"
 c:central:san-lorenzo,San Lorenzo,city,asking_active_listings,deposito,rent,13,,,13,"active listings, all sources"
 c:central:san-lorenzo,San Lorenzo,city,asking_active_listings,edificio,rent,2,,,2,"active listings, all sources"
@@ -353,8 +353,8 @@ c:central:san-lorenzo,San Lorenzo,city,asking_rent_usd_month,departamento,rent,4
 c:central:san-lorenzo,San Lorenzo,city,asking_rent_usd_month,deposito,rent,,,,13,"suppressed, n below 20"
 c:central:san-lorenzo,San Lorenzo,city,asking_rent_usd_month,otro,rent,,,,13,"suppressed, n below 20"
 c:central:san-lorenzo,San Lorenzo,city,asking_rent_usd_month,terreno,rent,,,,11,"suppressed, n below 20"
-c:central:san-lorenzo,San Lorenzo,city,asking_rent_usd_month,duplex,rent,,,,9,"suppressed, n below 20"
 c:central:san-lorenzo,San Lorenzo,city,asking_rent_usd_month,casa,rent,,,,8,"suppressed, n below 20"
+c:central:san-lorenzo,San Lorenzo,city,asking_rent_usd_month,duplex,rent,,,,8,"suppressed, n below 20"
 c:central:san-lorenzo,San Lorenzo,city,asking_rent_usd_month,oficina,rent,,,,5,"suppressed, n below 20"
 c:central:san-lorenzo,San Lorenzo,city,asking_rent_usd_month,edificio,rent,,,,2,"suppressed, n below 20"
 c:central:san-lorenzo,San Lorenzo,city,asking_staleness_days,casa,sale,189,,443,166,"days since source publish date, sources: remax prestige"
@@ -373,13 +373,13 @@ c:central:san-lorenzo,San Lorenzo,city,asking_flow_30d_went_sold,,all,6,,,6,even
 c:central:san-lorenzo,San Lorenzo,city,asking_flow_30d_went_rented,,all,6,,,6,events 2026-08-25 to 2026-09-23
 c:central:san-lorenzo,San Lorenzo,city,asking_flow_30d_cuts,,sale,9,,,9,events 2026-08-25 to 2026-09-23
 c:central:san-lorenzo,San Lorenzo,city,asking_flow_30d_increases,,sale,4,,,4,events 2026-08-25 to 2026-09-23
-c:central:san-lorenzo,San Lorenzo,city,asking_flow_30d_new,,sale,92,,,92,events 2026-08-25 to 2026-09-23
+c:central:san-lorenzo,San Lorenzo,city,asking_flow_30d_new,,sale,93,,,93,events 2026-08-25 to 2026-09-23
 c:central:san-lorenzo,San Lorenzo,city,asking_flow_30d_delisted,,sale,27,,,27,events 2026-08-25 to 2026-09-23
 c:central:san-lorenzo,San Lorenzo,city,asking_flow_30d_went_sold,,sale,6,,,6,events 2026-08-25 to 2026-09-23
 c:central:san-lorenzo,San Lorenzo,city,asking_flow_30d_went_rented,,sale,0,,,0,events 2026-08-25 to 2026-09-23
 c:central:san-lorenzo,San Lorenzo,city,asking_flow_30d_cuts,,rent,9,,,9,events 2026-08-25 to 2026-09-23
 c:central:san-lorenzo,San Lorenzo,city,asking_flow_30d_increases,,rent,1,,,1,events 2026-08-25 to 2026-09-23
-c:central:san-lorenzo,San Lorenzo,city,asking_flow_30d_new,,rent,28,,,28,events 2026-08-25 to 2026-09-23
+c:central:san-lorenzo,San Lorenzo,city,asking_flow_30d_new,,rent,27,,,27,events 2026-08-25 to 2026-09-23
 c:central:san-lorenzo,San Lorenzo,city,asking_flow_30d_delisted,,rent,8,,,8,events 2026-08-25 to 2026-09-23
 c:central:san-lorenzo,San Lorenzo,city,asking_flow_30d_went_sold,,rent,0,,,0,events 2026-08-25 to 2026-09-23
 c:central:san-lorenzo,San Lorenzo,city,asking_flow_30d_went_rented,,rent,6,,,6,events 2026-08-25 to 2026-09-23
@@ -387,9 +387,9 @@ c:central:san-lorenzo,San Lorenzo,city,reo_parcels_active,,sale,10,,,10,bank REO
 c:central:san-lorenzo,San Lorenzo,city,reo_parcels_priced,,sale,8,,,8,bank REO lists
 c:central:san-lorenzo,San Lorenzo,city,closed_ask_to_close_pct,all,sale,-4,-8.3,0,85,"same-currency broker-reported closes 2024-08-01 to 2026-08-27, terminal-ask basis"
 c:central:san-lorenzo,San Lorenzo,city,closed_ask_to_close_pct,terreno,sale,-2.8,-10,0,39,same-currency broker-reported closes
-c:central:lambare,Lambaré,city,asking_active_listings,terreno,sale,467,,,467,"active listings, all sources"
-c:central:lambare,Lambaré,city,asking_active_listings,casa,sale,1277,,,1277,"active listings, all sources"
-c:central:lambare,Lambaré,city,asking_active_listings,departamento,sale,89,,,89,"active listings, all sources"
+c:central:lambare,Lambaré,city,asking_active_listings,terreno,sale,460,,,460,"active listings, all sources"
+c:central:lambare,Lambaré,city,asking_active_listings,casa,sale,1198,,,1198,"active listings, all sources"
+c:central:lambare,Lambaré,city,asking_active_listings,departamento,sale,81,,,81,"active listings, all sources"
 c:central:lambare,Lambaré,city,asking_active_listings,local,sale,13,,,13,"active listings, all sources"
 c:central:lambare,Lambaré,city,asking_active_listings,deposito,sale,9,,,9,"active listings, all sources"
 c:central:lambare,Lambaré,city,asking_active_listings,edificio,sale,4,,,4,"active listings, all sources"
@@ -398,12 +398,12 @@ c:central:lambare,Lambaré,city,asking_active_listings,duplex,sale,37,,,37,"acti
 c:central:lambare,Lambaré,city,asking_active_listings,duplex,rent,3,,,3,"active listings, all sources"
 c:central:lambare,Lambaré,city,asking_active_listings,local,rent,15,,,15,"active listings, all sources"
 c:central:lambare,Lambaré,city,asking_active_listings,oficina,rent,1,,,1,"active listings, all sources"
-c:central:lambare,Lambaré,city,asking_active_listings,departamento,rent,75,,,75,"active listings, all sources"
+c:central:lambare,Lambaré,city,asking_active_listings,departamento,rent,44,,,44,"active listings, all sources"
 c:central:lambare,Lambaré,city,asking_active_listings,terreno,rent,8,,,8,"active listings, all sources"
-c:central:lambare,Lambaré,city,asking_active_listings,casa,rent,50,,,50,"active listings, all sources"
+c:central:lambare,Lambaré,city,asking_active_listings,casa,rent,43,,,43,"active listings, all sources"
 c:central:lambare,Lambaré,city,asking_active_listings,deposito,rent,2,,,2,"active listings, all sources"
 c:central:lambare,Lambaré,city,asking_active_listings,otro,rent,2,,,2,"active listings, all sources"
-c:central:lambare,Lambaré,city,asking_price_usd,casa,sale,160285,117261,241057,387,"median ask, USD at SET mid 2026-09-22"
+c:central:lambare,Lambaré,city,asking_price_usd,casa,sale,160285,117261,241586,386,"median ask, USD at SET mid 2026-09-22"
 c:central:lambare,Lambaré,city,asking_price_usd,terreno,sale,92796,70455,160285,221,"median ask, USD at SET mid 2026-09-22"
 c:central:lambare,Lambaré,city,asking_price_usd,departamento,sale,84360,75924,143798,73,"median ask, USD at SET mid 2026-09-22"
 c:central:lambare,Lambaré,city,asking_price_usd,duplex,sale,119792,109668,143413,37,"median ask, USD at SET mid 2026-09-22"
@@ -411,7 +411,7 @@ c:central:lambare,Lambaré,city,asking_price_usd,local,sale,,,,13,"suppressed, n
 c:central:lambare,Lambaré,city,asking_price_usd,otro,sale,,,,12,"suppressed, n below 20"
 c:central:lambare,Lambaré,city,asking_price_usd,deposito,sale,,,,9,"suppressed, n below 20"
 c:central:lambare,Lambaré,city,asking_price_usd,edificio,sale,,,,4,"suppressed, n below 20"
-c:central:lambare,Lambaré,city,asking_usd_per_m2_built,casa,sale,717,574,945,301,"built basis, 40-800 m2, 30k-2M USD"
+c:central:lambare,Lambaré,city,asking_usd_per_m2_built,casa,sale,720,574,952,300,"built basis, 40-800 m2, 30k-2M USD"
 c:central:lambare,Lambaré,city,asking_usd_per_m2_built,departamento,sale,1139,932,1289,28,"built basis, 40-800 m2, 30k-2M USD"
 c:central:lambare,Lambaré,city,asking_usd_per_m2_built,duplex,sale,903,781,1009,27,"built basis, 40-800 m2, 30k-2M USD"
 c:central:lambare,Lambaré,city,asking_usd_per_m2_built,local,sale,,,,7,"suppressed, n below 20"
@@ -424,7 +424,7 @@ c:central:lambare,Lambaré,city,asking_rent_usd_month,deposito,rent,,,,2,"suppre
 c:central:lambare,Lambaré,city,asking_rent_usd_month,otro,rent,,,,2,"suppressed, n below 20"
 c:central:lambare,Lambaré,city,asking_rent_usd_month,oficina,rent,,,,1,"suppressed, n below 20"
 c:central:lambare,Lambaré,city,asking_staleness_days,terreno,sale,295,,574,113,"days since source publish date, sources: remax prestige"
-c:central:lambare,Lambaré,city,asking_staleness_days,casa,sale,186,,403,111,"days since source publish date, sources: remax prestige"
+c:central:lambare,Lambaré,city,asking_staleness_days,casa,sale,185,,397,110,"days since source publish date, sources: remax prestige"
 c:central:lambare,Lambaré,city,asking_staleness_days,duplex,sale,197,,449,31,"days since source publish date, sources: remax prestige"
 c:central:lambare,Lambaré,city,asking_staleness_days,departamento,sale,,,,17,"suppressed, n below 20"
 c:central:lambare,Lambaré,city,asking_staleness_days,deposito,sale,,,,9,"suppressed, n below 20"
@@ -433,19 +433,19 @@ c:central:lambare,Lambaré,city,asking_staleness_days,local,sale,,,,4,"suppresse
 c:central:lambare,Lambaré,city,asking_staleness_days,edificio,sale,,,,3,"suppressed, n below 20"
 c:central:lambare,Lambaré,city,asking_flow_30d_cuts,,all,17,,,17,events 2026-08-25 to 2026-09-23
 c:central:lambare,Lambaré,city,asking_flow_30d_increases,,all,6,,,6,events 2026-08-25 to 2026-09-23
-c:central:lambare,Lambaré,city,asking_flow_30d_new,,all,97,,,97,events 2026-08-25 to 2026-09-23
+c:central:lambare,Lambaré,city,asking_flow_30d_new,,all,96,,,96,events 2026-08-25 to 2026-09-23
 c:central:lambare,Lambaré,city,asking_flow_30d_delisted,,all,12,,,12,events 2026-08-25 to 2026-09-23
-c:central:lambare,Lambaré,city,asking_flow_30d_went_sold,,all,12,,,12,events 2026-08-25 to 2026-09-23
+c:central:lambare,Lambaré,city,asking_flow_30d_went_sold,,all,13,,,13,events 2026-08-25 to 2026-09-23
 c:central:lambare,Lambaré,city,asking_flow_30d_went_rented,,all,8,,,8,events 2026-08-25 to 2026-09-23
 c:central:lambare,Lambaré,city,asking_flow_30d_cuts,,sale,12,,,12,events 2026-08-25 to 2026-09-23
 c:central:lambare,Lambaré,city,asking_flow_30d_increases,,sale,4,,,4,events 2026-08-25 to 2026-09-23
 c:central:lambare,Lambaré,city,asking_flow_30d_new,,sale,76,,,76,events 2026-08-25 to 2026-09-23
 c:central:lambare,Lambaré,city,asking_flow_30d_delisted,,sale,11,,,11,events 2026-08-25 to 2026-09-23
-c:central:lambare,Lambaré,city,asking_flow_30d_went_sold,,sale,12,,,12,events 2026-08-25 to 2026-09-23
+c:central:lambare,Lambaré,city,asking_flow_30d_went_sold,,sale,13,,,13,events 2026-08-25 to 2026-09-23
 c:central:lambare,Lambaré,city,asking_flow_30d_went_rented,,sale,0,,,0,events 2026-08-25 to 2026-09-23
 c:central:lambare,Lambaré,city,asking_flow_30d_cuts,,rent,5,,,5,events 2026-08-25 to 2026-09-23
 c:central:lambare,Lambaré,city,asking_flow_30d_increases,,rent,2,,,2,events 2026-08-25 to 2026-09-23
-c:central:lambare,Lambaré,city,asking_flow_30d_new,,rent,21,,,21,events 2026-08-25 to 2026-09-23
+c:central:lambare,Lambaré,city,asking_flow_30d_new,,rent,20,,,20,events 2026-08-25 to 2026-09-23
 c:central:lambare,Lambaré,city,asking_flow_30d_delisted,,rent,1,,,1,events 2026-08-25 to 2026-09-23
 c:central:lambare,Lambaré,city,asking_flow_30d_went_sold,,rent,0,,,0,events 2026-08-25 to 2026-09-23
 c:central:lambare,Lambaré,city,asking_flow_30d_went_rented,,rent,8,,,8,events 2026-08-25 to 2026-09-23
@@ -459,11 +459,11 @@ c:central:fernando-de-la-mora,Fernando de la Mora,city,asking_active_listings,ot
 c:central:fernando-de-la-mora,Fernando de la Mora,city,asking_active_listings,deposito,sale,9,,,9,"active listings, all sources"
 c:central:fernando-de-la-mora,Fernando de la Mora,city,asking_active_listings,oficina,sale,1,,,1,"active listings, all sources"
 c:central:fernando-de-la-mora,Fernando de la Mora,city,asking_active_listings,departamento,sale,131,,,131,"active listings, all sources"
-c:central:fernando-de-la-mora,Fernando de la Mora,city,asking_active_listings,terreno,sale,492,,,492,"active listings, all sources"
-c:central:fernando-de-la-mora,Fernando de la Mora,city,asking_active_listings,casa,sale,902,,,902,"active listings, all sources"
+c:central:fernando-de-la-mora,Fernando de la Mora,city,asking_active_listings,terreno,sale,488,,,488,"active listings, all sources"
+c:central:fernando-de-la-mora,Fernando de la Mora,city,asking_active_listings,casa,sale,888,,,888,"active listings, all sources"
 c:central:fernando-de-la-mora,Fernando de la Mora,city,asking_active_listings,duplex,sale,32,,,32,"active listings, all sources"
 c:central:fernando-de-la-mora,Fernando de la Mora,city,asking_active_listings,duplex,rent,9,,,9,"active listings, all sources"
-c:central:fernando-de-la-mora,Fernando de la Mora,city,asking_active_listings,departamento,rent,86,,,86,"active listings, all sources"
+c:central:fernando-de-la-mora,Fernando de la Mora,city,asking_active_listings,departamento,rent,85,,,85,"active listings, all sources"
 c:central:fernando-de-la-mora,Fernando de la Mora,city,asking_active_listings,otro,rent,5,,,5,"active listings, all sources"
 c:central:fernando-de-la-mora,Fernando de la Mora,city,asking_active_listings,deposito,rent,6,,,6,"active listings, all sources"
 c:central:fernando-de-la-mora,Fernando de la Mora,city,asking_active_listings,local,rent,30,,,30,"active listings, all sources"
@@ -504,13 +504,13 @@ c:central:fernando-de-la-mora,Fernando de la Mora,city,asking_staleness_days,loc
 c:central:fernando-de-la-mora,Fernando de la Mora,city,asking_staleness_days,otro,sale,,,,5,"suppressed, n below 20"
 c:central:fernando-de-la-mora,Fernando de la Mora,city,asking_flow_30d_cuts,,all,9,,,9,events 2026-08-25 to 2026-09-23
 c:central:fernando-de-la-mora,Fernando de la Mora,city,asking_flow_30d_increases,,all,4,,,4,events 2026-08-25 to 2026-09-23
-c:central:fernando-de-la-mora,Fernando de la Mora,city,asking_flow_30d_new,,all,108,,,108,events 2026-08-25 to 2026-09-23
+c:central:fernando-de-la-mora,Fernando de la Mora,city,asking_flow_30d_new,,all,107,,,107,events 2026-08-25 to 2026-09-23
 c:central:fernando-de-la-mora,Fernando de la Mora,city,asking_flow_30d_delisted,,all,18,,,18,events 2026-08-25 to 2026-09-23
 c:central:fernando-de-la-mora,Fernando de la Mora,city,asking_flow_30d_went_sold,,all,8,,,8,events 2026-08-25 to 2026-09-23
 c:central:fernando-de-la-mora,Fernando de la Mora,city,asking_flow_30d_went_rented,,all,12,,,12,events 2026-08-25 to 2026-09-23
 c:central:fernando-de-la-mora,Fernando de la Mora,city,asking_flow_30d_cuts,,sale,8,,,8,events 2026-08-25 to 2026-09-23
 c:central:fernando-de-la-mora,Fernando de la Mora,city,asking_flow_30d_increases,,sale,3,,,3,events 2026-08-25 to 2026-09-23
-c:central:fernando-de-la-mora,Fernando de la Mora,city,asking_flow_30d_new,,sale,79,,,79,events 2026-08-25 to 2026-09-23
+c:central:fernando-de-la-mora,Fernando de la Mora,city,asking_flow_30d_new,,sale,78,,,78,events 2026-08-25 to 2026-09-23
 c:central:fernando-de-la-mora,Fernando de la Mora,city,asking_flow_30d_delisted,,sale,13,,,13,events 2026-08-25 to 2026-09-23
 c:central:fernando-de-la-mora,Fernando de la Mora,city,asking_flow_30d_went_sold,,sale,8,,,8,events 2026-08-25 to 2026-09-23
 c:central:fernando-de-la-mora,Fernando de la Mora,city,asking_flow_30d_went_rented,,sale,0,,,0,events 2026-08-25 to 2026-09-23
@@ -527,7 +527,7 @@ c:central:capiata,Capiatá,city,asking_active_listings,terreno,sale,501,,,501,"a
 c:central:capiata,Capiatá,city,asking_active_listings,otro,sale,4,,,4,"active listings, all sources"
 c:central:capiata,Capiatá,city,asking_active_listings,departamento,sale,13,,,13,"active listings, all sources"
 c:central:capiata,Capiatá,city,asking_active_listings,casa,sale,790,,,790,"active listings, all sources"
-c:central:capiata,Capiatá,city,asking_active_listings,quinta,sale,7,,,7,"active listings, all sources"
+c:central:capiata,Capiatá,city,asking_active_listings,quinta,sale,8,,,8,"active listings, all sources"
 c:central:capiata,Capiatá,city,asking_active_listings,edificio,sale,1,,,1,"active listings, all sources"
 c:central:capiata,Capiatá,city,asking_active_listings,duplex,sale,5,,,5,"active listings, all sources"
 c:central:capiata,Capiatá,city,asking_active_listings,local,sale,18,,,18,"active listings, all sources"
@@ -544,7 +544,7 @@ c:central:capiata,Capiatá,city,asking_price_usd,casa,sale,62427,50616,84360,271
 c:central:capiata,Capiatá,city,asking_price_usd,terreno,sale,37962,21934,89211,210,"median ask, USD at SET mid 2026-09-22"
 c:central:capiata,Capiatá,city,asking_price_usd,local,sale,,,,18,"suppressed, n below 20"
 c:central:capiata,Capiatá,city,asking_price_usd,departamento,sale,,,,8,"suppressed, n below 20"
-c:central:capiata,Capiatá,city,asking_price_usd,quinta,sale,,,,7,"suppressed, n below 20"
+c:central:capiata,Capiatá,city,asking_price_usd,quinta,sale,,,,8,"suppressed, n below 20"
 c:central:capiata,Capiatá,city,asking_price_usd,deposito,sale,,,,5,"suppressed, n below 20"
 c:central:capiata,Capiatá,city,asking_price_usd,duplex,sale,,,,5,"suppressed, n below 20"
 c:central:capiata,Capiatá,city,asking_price_usd,otro,sale,,,,4,"suppressed, n below 20"
@@ -567,17 +567,17 @@ c:central:capiata,Capiatá,city,asking_staleness_days,local,sale,,,,8,"suppresse
 c:central:capiata,Capiatá,city,asking_staleness_days,deposito,sale,,,,5,"suppressed, n below 20"
 c:central:capiata,Capiatá,city,asking_staleness_days,duplex,sale,,,,5,"suppressed, n below 20"
 c:central:capiata,Capiatá,city,asking_staleness_days,otro,sale,,,,4,"suppressed, n below 20"
+c:central:capiata,Capiatá,city,asking_staleness_days,quinta,sale,,,,2,"suppressed, n below 20"
 c:central:capiata,Capiatá,city,asking_staleness_days,edificio,sale,,,,1,"suppressed, n below 20"
-c:central:capiata,Capiatá,city,asking_staleness_days,quinta,sale,,,,1,"suppressed, n below 20"
 c:central:capiata,Capiatá,city,asking_flow_30d_cuts,,all,14,,,14,events 2026-08-25 to 2026-09-23
 c:central:capiata,Capiatá,city,asking_flow_30d_increases,,all,5,,,5,events 2026-08-25 to 2026-09-23
-c:central:capiata,Capiatá,city,asking_flow_30d_new,,all,67,,,67,events 2026-08-25 to 2026-09-23
+c:central:capiata,Capiatá,city,asking_flow_30d_new,,all,68,,,68,events 2026-08-25 to 2026-09-23
 c:central:capiata,Capiatá,city,asking_flow_30d_delisted,,all,23,,,23,events 2026-08-25 to 2026-09-23
 c:central:capiata,Capiatá,city,asking_flow_30d_went_sold,,all,3,,,3,events 2026-08-25 to 2026-09-23
 c:central:capiata,Capiatá,city,asking_flow_30d_went_rented,,all,2,,,2,events 2026-08-25 to 2026-09-23
 c:central:capiata,Capiatá,city,asking_flow_30d_cuts,,sale,12,,,12,events 2026-08-25 to 2026-09-23
 c:central:capiata,Capiatá,city,asking_flow_30d_increases,,sale,5,,,5,events 2026-08-25 to 2026-09-23
-c:central:capiata,Capiatá,city,asking_flow_30d_new,,sale,55,,,55,events 2026-08-25 to 2026-09-23
+c:central:capiata,Capiatá,city,asking_flow_30d_new,,sale,56,,,56,events 2026-08-25 to 2026-09-23
 c:central:capiata,Capiatá,city,asking_flow_30d_delisted,,sale,22,,,22,events 2026-08-25 to 2026-09-23
 c:central:capiata,Capiatá,city,asking_flow_30d_went_sold,,sale,3,,,3,events 2026-08-25 to 2026-09-23
 c:central:capiata,Capiatá,city,asking_flow_30d_went_rented,,sale,0,,,0,events 2026-08-25 to 2026-09-23
@@ -654,12 +654,12 @@ c:central:mariano-roque-alonso,Mariano Roque Alonso,city,reo_parcels_priced,,sal
 c:central:mariano-roque-alonso,Mariano Roque Alonso,city,closed_ask_to_close_pct,all,sale,,,,29,insufficient closes
 c:central:nemby,Ñemby,city,asking_active_listings,deposito,sale,2,,,2,"active listings, all sources"
 c:central:nemby,Ñemby,city,asking_active_listings,departamento,sale,11,,,11,"active listings, all sources"
-c:central:nemby,Ñemby,city,asking_active_listings,casa,sale,523,,,523,"active listings, all sources"
+c:central:nemby,Ñemby,city,asking_active_listings,casa,sale,527,,,527,"active listings, all sources"
 c:central:nemby,Ñemby,city,asking_active_listings,quinta,sale,3,,,3,"active listings, all sources"
 c:central:nemby,Ñemby,city,asking_active_listings,duplex,sale,6,,,6,"active listings, all sources"
 c:central:nemby,Ñemby,city,asking_active_listings,local,sale,7,,,7,"active listings, all sources"
 c:central:nemby,Ñemby,city,asking_active_listings,otro,sale,4,,,4,"active listings, all sources"
-c:central:nemby,Ñemby,city,asking_active_listings,terreno,sale,436,,,436,"active listings, all sources"
+c:central:nemby,Ñemby,city,asking_active_listings,terreno,sale,441,,,441,"active listings, all sources"
 c:central:nemby,Ñemby,city,asking_active_listings,departamento,rent,3,,,3,"active listings, all sources"
 c:central:nemby,Ñemby,city,asking_active_listings,duplex,rent,3,,,3,"active listings, all sources"
 c:central:nemby,Ñemby,city,asking_active_listings,otro,rent,14,,,14,"active listings, all sources"
@@ -722,7 +722,7 @@ c:central:villa-elisa,Villa Elisa,city,asking_active_listings,otro,sale,1,,,1,"a
 c:central:villa-elisa,Villa Elisa,city,asking_active_listings,deposito,sale,1,,,1,"active listings, all sources"
 c:central:villa-elisa,Villa Elisa,city,asking_active_listings,duplex,sale,18,,,18,"active listings, all sources"
 c:central:villa-elisa,Villa Elisa,city,asking_active_listings,local,sale,4,,,4,"active listings, all sources"
-c:central:villa-elisa,Villa Elisa,city,asking_active_listings,casa,sale,480,,,480,"active listings, all sources"
+c:central:villa-elisa,Villa Elisa,city,asking_active_listings,casa,sale,481,,,481,"active listings, all sources"
 c:central:villa-elisa,Villa Elisa,city,asking_active_listings,departamento,sale,8,,,8,"active listings, all sources"
 c:central:villa-elisa,Villa Elisa,city,asking_active_listings,terreno,sale,345,,,345,"active listings, all sources"
 c:central:villa-elisa,Villa Elisa,city,asking_active_listings,departamento,rent,1,,,1,"active listings, all sources"
@@ -731,7 +731,7 @@ c:central:villa-elisa,Villa Elisa,city,asking_active_listings,oficina,rent,1,,,1
 c:central:villa-elisa,Villa Elisa,city,asking_active_listings,terreno,rent,2,,,2,"active listings, all sources"
 c:central:villa-elisa,Villa Elisa,city,asking_active_listings,local,rent,11,,,11,"active listings, all sources"
 c:central:villa-elisa,Villa Elisa,city,asking_active_listings,duplex,rent,1,,,1,"active listings, all sources"
-c:central:villa-elisa,Villa Elisa,city,asking_price_usd,casa,sale,97014,75924,145943,174,"median ask, USD at SET mid 2026-09-22"
+c:central:villa-elisa,Villa Elisa,city,asking_price_usd,casa,sale,97858,75924,145100,175,"median ask, USD at SET mid 2026-09-22"
 c:central:villa-elisa,Villa Elisa,city,asking_price_usd,terreno,sale,59052,45555,84360,133,"median ask, USD at SET mid 2026-09-22"
 c:central:villa-elisa,Villa Elisa,city,asking_price_usd,duplex,sale,,,,18,"suppressed, n below 20"
 c:central:villa-elisa,Villa Elisa,city,asking_price_usd,departamento,sale,,,,8,"suppressed, n below 20"
@@ -740,7 +740,7 @@ c:central:villa-elisa,Villa Elisa,city,asking_price_usd,edificio,sale,,,,2,"supp
 c:central:villa-elisa,Villa Elisa,city,asking_price_usd,quinta,sale,,,,2,"suppressed, n below 20"
 c:central:villa-elisa,Villa Elisa,city,asking_price_usd,deposito,sale,,,,1,"suppressed, n below 20"
 c:central:villa-elisa,Villa Elisa,city,asking_price_usd,otro,sale,,,,1,"suppressed, n below 20"
-c:central:villa-elisa,Villa Elisa,city,asking_usd_per_m2_built,casa,sale,749,517,1088,125,"built basis, 40-800 m2, 30k-2M USD"
+c:central:villa-elisa,Villa Elisa,city,asking_usd_per_m2_built,casa,sale,743,517,1088,126,"built basis, 40-800 m2, 30k-2M USD"
 c:central:villa-elisa,Villa Elisa,city,asking_usd_per_m2_built,duplex,sale,,,,14,"suppressed, n below 20"
 c:central:villa-elisa,Villa Elisa,city,asking_usd_per_m2_built,departamento,sale,,,,5,"suppressed, n below 20"
 c:central:villa-elisa,Villa Elisa,city,asking_usd_per_m2_built,local,sale,,,,3,"suppressed, n below 20"
@@ -759,20 +759,20 @@ c:central:villa-elisa,Villa Elisa,city,asking_staleness_days,deposito,sale,,,,1,
 c:central:villa-elisa,Villa Elisa,city,asking_staleness_days,local,sale,,,,1,"suppressed, n below 20"
 c:central:villa-elisa,Villa Elisa,city,asking_staleness_days,otro,sale,,,,1,"suppressed, n below 20"
 c:central:villa-elisa,Villa Elisa,city,asking_staleness_days,quinta,sale,,,,1,"suppressed, n below 20"
-c:central:villa-elisa,Villa Elisa,city,asking_flow_30d_cuts,,all,11,,,11,events 2026-08-25 to 2026-09-23
-c:central:villa-elisa,Villa Elisa,city,asking_flow_30d_increases,,all,1,,,1,events 2026-08-25 to 2026-09-23
-c:central:villa-elisa,Villa Elisa,city,asking_flow_30d_new,,all,52,,,52,events 2026-08-25 to 2026-09-23
+c:central:villa-elisa,Villa Elisa,city,asking_flow_30d_cuts,,all,12,,,12,events 2026-08-25 to 2026-09-23
+c:central:villa-elisa,Villa Elisa,city,asking_flow_30d_increases,,all,2,,,2,events 2026-08-25 to 2026-09-23
+c:central:villa-elisa,Villa Elisa,city,asking_flow_30d_new,,all,53,,,53,events 2026-08-25 to 2026-09-23
 c:central:villa-elisa,Villa Elisa,city,asking_flow_30d_delisted,,all,5,,,5,events 2026-08-25 to 2026-09-23
 c:central:villa-elisa,Villa Elisa,city,asking_flow_30d_went_sold,,all,3,,,3,events 2026-08-25 to 2026-09-23
 c:central:villa-elisa,Villa Elisa,city,asking_flow_30d_went_rented,,all,3,,,3,events 2026-08-25 to 2026-09-23
 c:central:villa-elisa,Villa Elisa,city,asking_flow_30d_cuts,,sale,10,,,10,events 2026-08-25 to 2026-09-23
 c:central:villa-elisa,Villa Elisa,city,asking_flow_30d_increases,,sale,1,,,1,events 2026-08-25 to 2026-09-23
-c:central:villa-elisa,Villa Elisa,city,asking_flow_30d_new,,sale,48,,,48,events 2026-08-25 to 2026-09-23
+c:central:villa-elisa,Villa Elisa,city,asking_flow_30d_new,,sale,49,,,49,events 2026-08-25 to 2026-09-23
 c:central:villa-elisa,Villa Elisa,city,asking_flow_30d_delisted,,sale,5,,,5,events 2026-08-25 to 2026-09-23
 c:central:villa-elisa,Villa Elisa,city,asking_flow_30d_went_sold,,sale,3,,,3,events 2026-08-25 to 2026-09-23
 c:central:villa-elisa,Villa Elisa,city,asking_flow_30d_went_rented,,sale,0,,,0,events 2026-08-25 to 2026-09-23
-c:central:villa-elisa,Villa Elisa,city,asking_flow_30d_cuts,,rent,1,,,1,events 2026-08-25 to 2026-09-23
-c:central:villa-elisa,Villa Elisa,city,asking_flow_30d_increases,,rent,0,,,0,events 2026-08-25 to 2026-09-23
+c:central:villa-elisa,Villa Elisa,city,asking_flow_30d_cuts,,rent,2,,,2,events 2026-08-25 to 2026-09-23
+c:central:villa-elisa,Villa Elisa,city,asking_flow_30d_increases,,rent,1,,,1,events 2026-08-25 to 2026-09-23
 c:central:villa-elisa,Villa Elisa,city,asking_flow_30d_new,,rent,4,,,4,events 2026-08-25 to 2026-09-23
 c:central:villa-elisa,Villa Elisa,city,asking_flow_30d_delisted,,rent,0,,,0,events 2026-08-25 to 2026-09-23
 c:central:villa-elisa,Villa Elisa,city,asking_flow_30d_went_sold,,rent,0,,,0,events 2026-08-25 to 2026-09-23
@@ -846,17 +846,16 @@ c:central:limpio,Limpio,city,reo_parcels_priced,,sale,5,,,5,bank REO lists
 c:central:limpio,Limpio,city,closed_ask_to_close_pct,all,sale,-4.3,-10,0,31,"same-currency broker-reported closes 2025-08-29 to 2026-09-19, terminal-ask basis"
 c:central:itaugua,Itauguá,city,asking_active_listings,otro,sale,9,,,9,"active listings, all sources"
 c:central:itaugua,Itauguá,city,asking_active_listings,edificio,sale,1,,,1,"active listings, all sources"
-c:central:itaugua,Itauguá,city,asking_active_listings,departamento,sale,4,,,4,"active listings, all sources"
+c:central:itaugua,Itauguá,city,asking_active_listings,departamento,sale,2,,,2,"active listings, all sources"
 c:central:itaugua,Itauguá,city,asking_active_listings,quinta,sale,2,,,2,"active listings, all sources"
-c:central:itaugua,Itauguá,city,asking_active_listings,terreno,sale,364,,,364,"active listings, all sources"
-c:central:itaugua,Itauguá,city,asking_active_listings,casa,sale,371,,,371,"active listings, all sources"
+c:central:itaugua,Itauguá,city,asking_active_listings,terreno,sale,360,,,360,"active listings, all sources"
+c:central:itaugua,Itauguá,city,asking_active_listings,casa,sale,298,,,298,"active listings, all sources"
 c:central:itaugua,Itauguá,city,asking_active_listings,duplex,sale,6,,,6,"active listings, all sources"
 c:central:itaugua,Itauguá,city,asking_active_listings,local,sale,3,,,3,"active listings, all sources"
-c:central:itaugua,Itauguá,city,asking_active_listings,departamento,rent,44,,,44,"active listings, all sources"
 c:central:itaugua,Itauguá,city,asking_active_listings,deposito,rent,2,,,2,"active listings, all sources"
 c:central:itaugua,Itauguá,city,asking_active_listings,local,rent,9,,,9,"active listings, all sources"
 c:central:itaugua,Itauguá,city,asking_active_listings,otro,rent,4,,,4,"active listings, all sources"
-c:central:itaugua,Itauguá,city,asking_active_listings,casa,rent,15,,,15,"active listings, all sources"
+c:central:itaugua,Itauguá,city,asking_active_listings,casa,rent,7,,,7,"active listings, all sources"
 c:central:itaugua,Itauguá,city,asking_price_usd,terreno,sale,23655,14341,71538,206,"median ask, USD at SET mid 2026-09-22"
 c:central:itaugua,Itauguá,city,asking_price_usd,casa,sale,64114,45555,109668,125,"median ask, USD at SET mid 2026-09-22"
 c:central:itaugua,Itauguá,city,asking_price_usd,otro,sale,,,,9,"suppressed, n below 20"
@@ -948,16 +947,14 @@ c:central:aregua,Areguá,city,asking_flow_30d_went_rented,,rent,1,,,1,events 202
 c:central:aregua,Areguá,city,reo_parcels_active,,sale,0,,,0,bank REO lists
 c:central:aregua,Areguá,city,reo_parcels_priced,,sale,0,,,0,bank REO lists
 c:central:aregua,Areguá,city,closed_ask_to_close_pct,all,sale,,,,12,insufficient closes
-c:central:ypane,Ypané,city,asking_active_listings,casa,sale,273,,,273,"active listings, all sources"
-c:central:ypane,Ypané,city,asking_active_listings,terreno,sale,317,,,317,"active listings, all sources"
+c:central:ypane,Ypané,city,asking_active_listings,casa,sale,196,,,196,"active listings, all sources"
+c:central:ypane,Ypané,city,asking_active_listings,terreno,sale,312,,,312,"active listings, all sources"
 c:central:ypane,Ypané,city,asking_active_listings,deposito,sale,2,,,2,"active listings, all sources"
-c:central:ypane,Ypané,city,asking_active_listings,departamento,sale,15,,,15,"active listings, all sources"
 c:central:ypane,Ypané,city,asking_active_listings,quinta,sale,1,,,1,"active listings, all sources"
 c:central:ypane,Ypané,city,asking_active_listings,otro,sale,2,,,2,"active listings, all sources"
 c:central:ypane,Ypané,city,asking_active_listings,terreno,rent,1,,,1,"active listings, all sources"
-c:central:ypane,Ypané,city,asking_active_listings,casa,rent,12,,,12,"active listings, all sources"
+c:central:ypane,Ypané,city,asking_active_listings,casa,rent,3,,,3,"active listings, all sources"
 c:central:ypane,Ypané,city,asking_active_listings,local,rent,2,,,2,"active listings, all sources"
-c:central:ypane,Ypané,city,asking_active_listings,departamento,rent,43,,,43,"active listings, all sources"
 c:central:ypane,Ypané,city,asking_active_listings,deposito,rent,2,,,2,"active listings, all sources"
 c:central:ypane,Ypané,city,asking_price_usd,terreno,sale,30585,20246,66856,196,"median ask, USD at SET mid 2026-09-22"
 c:central:ypane,Ypané,city,asking_price_usd,casa,sale,67320,42180,101232,89,"median ask, USD at SET mid 2026-09-22"
@@ -976,19 +973,19 @@ c:central:ypane,Ypané,city,asking_staleness_days,deposito,sale,,,,1,"suppressed
 c:central:ypane,Ypané,city,asking_staleness_days,quinta,sale,,,,1,"suppressed, n below 20"
 c:central:ypane,Ypané,city,asking_flow_30d_cuts,,all,2,,,2,events 2026-08-25 to 2026-09-23
 c:central:ypane,Ypané,city,asking_flow_30d_increases,,all,0,,,0,events 2026-08-25 to 2026-09-23
-c:central:ypane,Ypané,city,asking_flow_30d_new,,all,35,,,35,events 2026-08-25 to 2026-09-23
+c:central:ypane,Ypané,city,asking_flow_30d_new,,all,33,,,33,events 2026-08-25 to 2026-09-23
 c:central:ypane,Ypané,city,asking_flow_30d_delisted,,all,2,,,2,events 2026-08-25 to 2026-09-23
 c:central:ypane,Ypané,city,asking_flow_30d_went_sold,,all,0,,,0,events 2026-08-25 to 2026-09-23
 c:central:ypane,Ypané,city,asking_flow_30d_went_rented,,all,0,,,0,events 2026-08-25 to 2026-09-23
 c:central:ypane,Ypané,city,asking_flow_30d_cuts,,sale,2,,,2,events 2026-08-25 to 2026-09-23
 c:central:ypane,Ypané,city,asking_flow_30d_increases,,sale,0,,,0,events 2026-08-25 to 2026-09-23
-c:central:ypane,Ypané,city,asking_flow_30d_new,,sale,34,,,34,events 2026-08-25 to 2026-09-23
+c:central:ypane,Ypané,city,asking_flow_30d_new,,sale,33,,,33,events 2026-08-25 to 2026-09-23
 c:central:ypane,Ypané,city,asking_flow_30d_delisted,,sale,2,,,2,events 2026-08-25 to 2026-09-23
 c:central:ypane,Ypané,city,asking_flow_30d_went_sold,,sale,0,,,0,events 2026-08-25 to 2026-09-23
 c:central:ypane,Ypané,city,asking_flow_30d_went_rented,,sale,0,,,0,events 2026-08-25 to 2026-09-23
 c:central:ypane,Ypané,city,asking_flow_30d_cuts,,rent,0,,,0,events 2026-08-25 to 2026-09-23
 c:central:ypane,Ypané,city,asking_flow_30d_increases,,rent,0,,,0,events 2026-08-25 to 2026-09-23
-c:central:ypane,Ypané,city,asking_flow_30d_new,,rent,1,,,1,events 2026-08-25 to 2026-09-23
+c:central:ypane,Ypané,city,asking_flow_30d_new,,rent,0,,,0,events 2026-08-25 to 2026-09-23
 c:central:ypane,Ypané,city,asking_flow_30d_delisted,,rent,0,,,0,events 2026-08-25 to 2026-09-23
 c:central:ypane,Ypané,city,asking_flow_30d_went_sold,,rent,0,,,0,events 2026-08-25 to 2026-09-23
 c:central:ypane,Ypané,city,asking_flow_30d_went_rented,,rent,0,,,0,events 2026-08-25 to 2026-09-23
@@ -1035,10 +1032,10 @@ c:central:ypacarai,Ypacaraí,city,asking_flow_30d_went_rented,,rent,0,,,0,events
 c:central:ypacarai,Ypacaraí,city,reo_parcels_active,,sale,1,,,1,bank REO lists
 c:central:ypacarai,Ypacaraí,city,reo_parcels_priced,,sale,1,,,1,bank REO lists
 c:central:ypacarai,Ypacaraí,city,closed_ask_to_close_pct,all,sale,,,,10,insufficient closes
-c:central:san-antonio,San Antonio,city,asking_active_listings,terreno,sale,187,,,187,"active listings, all sources"
+c:central:san-antonio,San Antonio,city,asking_active_listings,terreno,sale,182,,,182,"active listings, all sources"
 c:central:san-antonio,San Antonio,city,asking_active_listings,duplex,sale,1,,,1,"active listings, all sources"
 c:central:san-antonio,San Antonio,city,asking_active_listings,edificio,sale,1,,,1,"active listings, all sources"
-c:central:san-antonio,San Antonio,city,asking_active_listings,casa,sale,184,,,184,"active listings, all sources"
+c:central:san-antonio,San Antonio,city,asking_active_listings,casa,sale,180,,,180,"active listings, all sources"
 c:central:san-antonio,San Antonio,city,asking_active_listings,deposito,sale,2,,,2,"active listings, all sources"
 c:central:san-antonio,San Antonio,city,asking_active_listings,terreno,rent,1,,,1,"active listings, all sources"
 c:central:san-antonio,San Antonio,city,asking_active_listings,casa,rent,3,,,3,"active listings, all sources"
@@ -1242,7 +1239,7 @@ c:central:nueva-italia,Nueva Italia,city,reo_parcels_active,,sale,0,,,0,bank REO
 c:central:nueva-italia,Nueva Italia,city,reo_parcels_priced,,sale,0,,,0,bank REO lists
 c:central:nueva-italia,Nueva Italia,city,closed_ask_to_close_pct,all,sale,,,,1,insufficient closes
 c:central:nueva-asuncion,Nueva Asunción,city,asking_active_listings,casa,sale,21,,,21,"active listings, all sources"
-c:central:nueva-asuncion,Nueva Asunción,city,asking_active_listings,terreno,sale,115,,,115,"active listings, all sources"
+c:central:nueva-asuncion,Nueva Asunción,city,asking_active_listings,terreno,sale,114,,,114,"active listings, all sources"
 c:central:nueva-asuncion,Nueva Asunción,city,asking_active_listings,departamento,sale,2,,,2,"active listings, all sources"
 c:central:nueva-asuncion,Nueva Asunción,city,asking_price_usd,terreno,sale,100125,41332,313960,46,"median ask, USD at SET mid 2026-09-22"
 c:central:nueva-asuncion,Nueva Asunción,city,asking_price_usd,casa,sale,,,,18,"suppressed, n below 20"
@@ -1250,13 +1247,13 @@ c:central:nueva-asuncion,Nueva Asunción,city,asking_usd_per_m2_built,casa,sale,
 c:central:nueva-asuncion,Nueva Asunción,city,asking_staleness_days,terreno,sale,,,,1,"suppressed, n below 20"
 c:central:nueva-asuncion,Nueva Asunción,city,asking_flow_30d_cuts,,all,0,,,0,events 2026-08-25 to 2026-09-23
 c:central:nueva-asuncion,Nueva Asunción,city,asking_flow_30d_increases,,all,0,,,0,events 2026-08-25 to 2026-09-23
-c:central:nueva-asuncion,Nueva Asunción,city,asking_flow_30d_new,,all,12,,,12,events 2026-08-25 to 2026-09-23
+c:central:nueva-asuncion,Nueva Asunción,city,asking_flow_30d_new,,all,11,,,11,events 2026-08-25 to 2026-09-23
 c:central:nueva-asuncion,Nueva Asunción,city,asking_flow_30d_delisted,,all,0,,,0,events 2026-08-25 to 2026-09-23
 c:central:nueva-asuncion,Nueva Asunción,city,asking_flow_30d_went_sold,,all,0,,,0,events 2026-08-25 to 2026-09-23
 c:central:nueva-asuncion,Nueva Asunción,city,asking_flow_30d_went_rented,,all,0,,,0,events 2026-08-25 to 2026-09-23
 c:central:nueva-asuncion,Nueva Asunción,city,asking_flow_30d_cuts,,sale,0,,,0,events 2026-08-25 to 2026-09-23
 c:central:nueva-asuncion,Nueva Asunción,city,asking_flow_30d_increases,,sale,0,,,0,events 2026-08-25 to 2026-09-23
-c:central:nueva-asuncion,Nueva Asunción,city,asking_flow_30d_new,,sale,12,,,12,events 2026-08-25 to 2026-09-23
+c:central:nueva-asuncion,Nueva Asunción,city,asking_flow_30d_new,,sale,11,,,11,events 2026-08-25 to 2026-09-23
 c:central:nueva-asuncion,Nueva Asunción,city,asking_flow_30d_delisted,,sale,0,,,0,events 2026-08-25 to 2026-09-23
 c:central:nueva-asuncion,Nueva Asunción,city,asking_flow_30d_went_sold,,sale,0,,,0,events 2026-08-25 to 2026-09-23
 c:central:nueva-asuncion,Nueva Asunción,city,asking_flow_30d_went_rented,,sale,0,,,0,events 2026-08-25 to 2026-09-23
@@ -1274,7 +1271,7 @@ d:itapua,Itapúa,department,asking_active_listings,quinta,sale,11,,,11,"active l
 d:itapua,Itapúa,department,asking_active_listings,deposito,sale,18,,,18,"active listings, all sources"
 d:itapua,Itapúa,department,asking_active_listings,edificio,sale,22,,,22,"active listings, all sources"
 d:itapua,Itapúa,department,asking_active_listings,duplex,sale,40,,,40,"active listings, all sources"
-d:itapua,Itapúa,department,asking_active_listings,departamento,sale,169,,,169,"active listings, all sources"
+d:itapua,Itapúa,department,asking_active_listings,departamento,sale,170,,,170,"active listings, all sources"
 d:itapua,Itapúa,department,asking_active_listings,terreno,sale,1004,,,1004,"active listings, all sources"
 d:itapua,Itapúa,department,asking_active_listings,casa,sale,401,,,401,"active listings, all sources"
 d:itapua,Itapúa,department,asking_active_listings,rural,sale,24,,,24,"active listings, all sources"
@@ -1291,7 +1288,7 @@ d:itapua,Itapúa,department,asking_active_listings,deposito,rent,3,,,3,"active l
 d:itapua,Itapúa,department,asking_active_listings,oficina,rent,5,,,5,"active listings, all sources"
 d:itapua,Itapúa,department,asking_price_usd,terreno,sale,38806,18306,89750,999,"median ask, USD at SET mid 2026-09-22"
 d:itapua,Itapúa,department,asking_price_usd,casa,sale,125000,67488,227230,375,"median ask, USD at SET mid 2026-09-22"
-d:itapua,Itapúa,department,asking_price_usd,departamento,sale,108700,70950,162000,161,"median ask, USD at SET mid 2026-09-22"
+d:itapua,Itapúa,department,asking_price_usd,departamento,sale,108700,71213,164250,162,"median ask, USD at SET mid 2026-09-22"
 d:itapua,Itapúa,department,asking_price_usd,otro,sale,147000,86717,263688,80,"median ask, USD at SET mid 2026-09-22"
 d:itapua,Itapúa,department,asking_price_usd,duplex,sale,97273,75924,120500,40,"median ask, USD at SET mid 2026-09-22"
 d:itapua,Itapúa,department,asking_price_usd,local,sale,200000,135000,450000,35,"median ask, USD at SET mid 2026-09-22"
@@ -1316,7 +1313,7 @@ d:itapua,Itapúa,department,asking_rent_usd_month,edificio,rent,,,,4,"suppressed
 d:itapua,Itapúa,department,asking_rent_usd_month,deposito,rent,,,,3,"suppressed, n below 20"
 d:itapua,Itapúa,department,asking_staleness_days,terreno,sale,506,,798,801,"days since source publish date, sources: remax prestige"
 d:itapua,Itapúa,department,asking_staleness_days,casa,sale,499,,945,253,"days since source publish date, sources: remax prestige"
-d:itapua,Itapúa,department,asking_staleness_days,departamento,sale,336,,780,103,"days since source publish date, sources: remax prestige"
+d:itapua,Itapúa,department,asking_staleness_days,departamento,sale,336,,778,104,"days since source publish date, sources: remax prestige"
 d:itapua,Itapúa,department,asking_staleness_days,otro,sale,220,,515,78,"days since source publish date, sources: remax prestige"
 d:itapua,Itapúa,department,asking_staleness_days,duplex,sale,715,,946,26,"days since source publish date, sources: remax prestige"
 d:itapua,Itapúa,department,asking_staleness_days,local,sale,297,,899,22,"days since source publish date, sources: remax prestige"
@@ -1327,13 +1324,13 @@ d:itapua,Itapúa,department,asking_staleness_days,quinta,sale,,,,6,"suppressed, 
 d:itapua,Itapúa,department,asking_staleness_days,oficina,sale,,,,2,"suppressed, n below 20"
 d:itapua,Itapúa,department,asking_flow_30d_cuts,,all,30,,,30,events 2026-08-25 to 2026-09-23
 d:itapua,Itapúa,department,asking_flow_30d_increases,,all,19,,,19,events 2026-08-25 to 2026-09-23
-d:itapua,Itapúa,department,asking_flow_30d_new,,all,108,,,108,events 2026-08-25 to 2026-09-23
+d:itapua,Itapúa,department,asking_flow_30d_new,,all,109,,,109,events 2026-08-25 to 2026-09-23
 d:itapua,Itapúa,department,asking_flow_30d_delisted,,all,36,,,36,events 2026-08-25 to 2026-09-23
 d:itapua,Itapúa,department,asking_flow_30d_went_sold,,all,15,,,15,events 2026-08-25 to 2026-09-23
 d:itapua,Itapúa,department,asking_flow_30d_went_rented,,all,20,,,20,events 2026-08-25 to 2026-09-23
 d:itapua,Itapúa,department,asking_flow_30d_cuts,,sale,25,,,25,events 2026-08-25 to 2026-09-23
 d:itapua,Itapúa,department,asking_flow_30d_increases,,sale,13,,,13,events 2026-08-25 to 2026-09-23
-d:itapua,Itapúa,department,asking_flow_30d_new,,sale,80,,,80,events 2026-08-25 to 2026-09-23
+d:itapua,Itapúa,department,asking_flow_30d_new,,sale,81,,,81,events 2026-08-25 to 2026-09-23
 d:itapua,Itapúa,department,asking_flow_30d_delisted,,sale,30,,,30,events 2026-08-25 to 2026-09-23
 d:itapua,Itapúa,department,asking_flow_30d_went_sold,,sale,15,,,15,events 2026-08-25 to 2026-09-23
 d:itapua,Itapúa,department,asking_flow_30d_went_rented,,sale,0,,,0,events 2026-08-25 to 2026-09-23
@@ -1356,7 +1353,7 @@ c:itapua:encarnacion,Encarnación,city,asking_active_listings,casa,sale,212,,,21
 c:itapua:encarnacion,Encarnación,city,asking_active_listings,oficina,sale,2,,,2,"active listings, all sources"
 c:itapua:encarnacion,Encarnación,city,asking_active_listings,deposito,sale,9,,,9,"active listings, all sources"
 c:itapua:encarnacion,Encarnación,city,asking_active_listings,otro,sale,34,,,34,"active listings, all sources"
-c:itapua:encarnacion,Encarnación,city,asking_active_listings,departamento,sale,159,,,159,"active listings, all sources"
+c:itapua:encarnacion,Encarnación,city,asking_active_listings,departamento,sale,160,,,160,"active listings, all sources"
 c:itapua:encarnacion,Encarnación,city,asking_active_listings,rural,sale,3,,,3,"active listings, all sources"
 c:itapua:encarnacion,Encarnación,city,asking_active_listings,terreno,rent,12,,,12,"active listings, all sources"
 c:itapua:encarnacion,Encarnación,city,asking_active_listings,otro,rent,5,,,5,"active listings, all sources"
@@ -1369,7 +1366,7 @@ c:itapua:encarnacion,Encarnación,city,asking_active_listings,deposito,rent,3,,,
 c:itapua:encarnacion,Encarnación,city,asking_active_listings,local,rent,16,,,16,"active listings, all sources"
 c:itapua:encarnacion,Encarnación,city,asking_price_usd,terreno,sale,50616,25308,118104,412,"median ask, USD at SET mid 2026-09-22"
 c:itapua:encarnacion,Encarnación,city,asking_price_usd,casa,sale,140000,81000,250000,205,"median ask, USD at SET mid 2026-09-22"
-c:itapua:encarnacion,Encarnación,city,asking_price_usd,departamento,sale,108700,71475,163500,159,"median ask, USD at SET mid 2026-09-22"
+c:itapua:encarnacion,Encarnación,city,asking_price_usd,departamento,sale,108700,71738,165000,160,"median ask, USD at SET mid 2026-09-22"
 c:itapua:encarnacion,Encarnación,city,asking_price_usd,otro,sale,148500,89975,245000,34,"median ask, USD at SET mid 2026-09-22"
 c:itapua:encarnacion,Encarnación,city,asking_price_usd,duplex,sale,109668,82500,150462,24,"median ask, USD at SET mid 2026-09-22"
 c:itapua:encarnacion,Encarnación,city,asking_price_usd,local,sale,325000,185000,457500,22,"median ask, USD at SET mid 2026-09-22"
@@ -1394,7 +1391,7 @@ c:itapua:encarnacion,Encarnación,city,asking_rent_usd_month,oficina,rent,,,,2,"
 c:itapua:encarnacion,Encarnación,city,asking_rent_usd_month,duplex,rent,,,,1,"suppressed, n below 20"
 c:itapua:encarnacion,Encarnación,city,asking_staleness_days,terreno,sale,608,,943,301,"days since source publish date, sources: remax prestige"
 c:itapua:encarnacion,Encarnación,city,asking_staleness_days,casa,sale,580,,1068,132,"days since source publish date, sources: remax prestige"
-c:itapua:encarnacion,Encarnación,city,asking_staleness_days,departamento,sale,336,,743,101,"days since source publish date, sources: remax prestige"
+c:itapua:encarnacion,Encarnación,city,asking_staleness_days,departamento,sale,336,,743,102,"days since source publish date, sources: remax prestige"
 c:itapua:encarnacion,Encarnación,city,asking_staleness_days,otro,sale,48,,223,34,"days since source publish date, sources: remax prestige"
 c:itapua:encarnacion,Encarnación,city,asking_staleness_days,duplex,sale,,,,17,"suppressed, n below 20"
 c:itapua:encarnacion,Encarnación,city,asking_staleness_days,edificio,sale,,,,17,"suppressed, n below 20"
@@ -1404,13 +1401,13 @@ c:itapua:encarnacion,Encarnación,city,asking_staleness_days,quinta,sale,,,,4,"s
 c:itapua:encarnacion,Encarnación,city,asking_staleness_days,oficina,sale,,,,2,"suppressed, n below 20"
 c:itapua:encarnacion,Encarnación,city,asking_flow_30d_cuts,,all,18,,,18,events 2026-08-25 to 2026-09-23
 c:itapua:encarnacion,Encarnación,city,asking_flow_30d_increases,,all,8,,,8,events 2026-08-25 to 2026-09-23
-c:itapua:encarnacion,Encarnación,city,asking_flow_30d_new,,all,62,,,62,events 2026-08-25 to 2026-09-23
+c:itapua:encarnacion,Encarnación,city,asking_flow_30d_new,,all,63,,,63,events 2026-08-25 to 2026-09-23
 c:itapua:encarnacion,Encarnación,city,asking_flow_30d_delisted,,all,22,,,22,events 2026-08-25 to 2026-09-23
 c:itapua:encarnacion,Encarnación,city,asking_flow_30d_went_sold,,all,4,,,4,events 2026-08-25 to 2026-09-23
 c:itapua:encarnacion,Encarnación,city,asking_flow_30d_went_rented,,all,12,,,12,events 2026-08-25 to 2026-09-23
 c:itapua:encarnacion,Encarnación,city,asking_flow_30d_cuts,,sale,15,,,15,events 2026-08-25 to 2026-09-23
 c:itapua:encarnacion,Encarnación,city,asking_flow_30d_increases,,sale,3,,,3,events 2026-08-25 to 2026-09-23
-c:itapua:encarnacion,Encarnación,city,asking_flow_30d_new,,sale,40,,,40,events 2026-08-25 to 2026-09-23
+c:itapua:encarnacion,Encarnación,city,asking_flow_30d_new,,sale,41,,,41,events 2026-08-25 to 2026-09-23
 c:itapua:encarnacion,Encarnación,city,asking_flow_30d_delisted,,sale,16,,,16,events 2026-08-25 to 2026-09-23
 c:itapua:encarnacion,Encarnación,city,asking_flow_30d_went_sold,,sale,4,,,4,events 2026-08-25 to 2026-09-23
 c:itapua:encarnacion,Encarnación,city,asking_flow_30d_went_rented,,sale,0,,,0,events 2026-08-25 to 2026-09-23
@@ -1595,7 +1592,7 @@ d:cordillera,Cordillera,department,asking_price_usd,local,sale,,,,2,"suppressed,
 d:cordillera,Cordillera,department,asking_price_usd,duplex,sale,,,,1,"suppressed, n below 20"
 d:cordillera,Cordillera,department,asking_usd_per_m2_built,casa,sale,888,612,1232,204,"built basis, 40-800 m2, 30k-2M USD"
 d:cordillera,Cordillera,department,asking_usd_per_m2_built,departamento,sale,,,,14,"suppressed, n below 20"
-d:cordillera,Cordillera,department,asking_rent_usd_month,casa,rent,1687,1097,3619,57,"median monthly ask, USD at SET mid 2026-09-22, 50-15000 USD band"
+d:cordillera,Cordillera,department,asking_rent_usd_month,casa,rent,1687,1097,4049,57,"median monthly ask, USD at SET mid 2026-09-22, 50-15000 USD band"
 d:cordillera,Cordillera,department,asking_rent_usd_month,local,rent,,,,9,"suppressed, n below 20"
 d:cordillera,Cordillera,department,asking_rent_usd_month,otro,rent,,,,2,"suppressed, n below 20"
 d:cordillera,Cordillera,department,asking_rent_usd_month,quinta,rent,,,,2,"suppressed, n below 20"
@@ -1610,8 +1607,8 @@ d:cordillera,Cordillera,department,asking_staleness_days,quinta,sale,,,,14,"supp
 d:cordillera,Cordillera,department,asking_staleness_days,rural,sale,,,,10,"suppressed, n below 20"
 d:cordillera,Cordillera,department,asking_staleness_days,duplex,sale,,,,1,"suppressed, n below 20"
 d:cordillera,Cordillera,department,asking_staleness_days,local,sale,,,,1,"suppressed, n below 20"
-d:cordillera,Cordillera,department,asking_flow_30d_cuts,,all,22,,,22,events 2026-08-25 to 2026-09-23
-d:cordillera,Cordillera,department,asking_flow_30d_increases,,all,7,,,7,events 2026-08-25 to 2026-09-23
+d:cordillera,Cordillera,department,asking_flow_30d_cuts,,all,23,,,23,events 2026-08-25 to 2026-09-23
+d:cordillera,Cordillera,department,asking_flow_30d_increases,,all,9,,,9,events 2026-08-25 to 2026-09-23
 d:cordillera,Cordillera,department,asking_flow_30d_new,,all,61,,,61,events 2026-08-25 to 2026-09-23
 d:cordillera,Cordillera,department,asking_flow_30d_delisted,,all,46,,,46,events 2026-08-25 to 2026-09-23
 d:cordillera,Cordillera,department,asking_flow_30d_went_sold,,all,8,,,8,events 2026-08-25 to 2026-09-23
@@ -1622,8 +1619,8 @@ d:cordillera,Cordillera,department,asking_flow_30d_new,,sale,56,,,56,events 2026
 d:cordillera,Cordillera,department,asking_flow_30d_delisted,,sale,43,,,43,events 2026-08-25 to 2026-09-23
 d:cordillera,Cordillera,department,asking_flow_30d_went_sold,,sale,8,,,8,events 2026-08-25 to 2026-09-23
 d:cordillera,Cordillera,department,asking_flow_30d_went_rented,,sale,0,,,0,events 2026-08-25 to 2026-09-23
-d:cordillera,Cordillera,department,asking_flow_30d_cuts,,rent,0,,,0,events 2026-08-25 to 2026-09-23
-d:cordillera,Cordillera,department,asking_flow_30d_increases,,rent,0,,,0,events 2026-08-25 to 2026-09-23
+d:cordillera,Cordillera,department,asking_flow_30d_cuts,,rent,1,,,1,events 2026-08-25 to 2026-09-23
+d:cordillera,Cordillera,department,asking_flow_30d_increases,,rent,2,,,2,events 2026-08-25 to 2026-09-23
 d:cordillera,Cordillera,department,asking_flow_30d_new,,rent,5,,,5,events 2026-08-25 to 2026-09-23
 d:cordillera,Cordillera,department,asking_flow_30d_delisted,,rent,3,,,3,events 2026-08-25 to 2026-09-23
 d:cordillera,Cordillera,department,asking_flow_30d_went_sold,,rent,0,,,0,events 2026-08-25 to 2026-09-23
@@ -1669,8 +1666,8 @@ c:cordillera:san-bernardino,San Bernardino,city,asking_staleness_days,otro,sale,
 c:cordillera:san-bernardino,San Bernardino,city,asking_staleness_days,duplex,sale,,,,1,"suppressed, n below 20"
 c:cordillera:san-bernardino,San Bernardino,city,asking_staleness_days,local,sale,,,,1,"suppressed, n below 20"
 c:cordillera:san-bernardino,San Bernardino,city,asking_staleness_days,quinta,sale,,,,1,"suppressed, n below 20"
-c:cordillera:san-bernardino,San Bernardino,city,asking_flow_30d_cuts,,all,8,,,8,events 2026-08-25 to 2026-09-23
-c:cordillera:san-bernardino,San Bernardino,city,asking_flow_30d_increases,,all,4,,,4,events 2026-08-25 to 2026-09-23
+c:cordillera:san-bernardino,San Bernardino,city,asking_flow_30d_cuts,,all,9,,,9,events 2026-08-25 to 2026-09-23
+c:cordillera:san-bernardino,San Bernardino,city,asking_flow_30d_increases,,all,6,,,6,events 2026-08-25 to 2026-09-23
 c:cordillera:san-bernardino,San Bernardino,city,asking_flow_30d_new,,all,35,,,35,events 2026-08-25 to 2026-09-23
 c:cordillera:san-bernardino,San Bernardino,city,asking_flow_30d_delisted,,all,22,,,22,events 2026-08-25 to 2026-09-23
 c:cordillera:san-bernardino,San Bernardino,city,asking_flow_30d_went_sold,,all,6,,,6,events 2026-08-25 to 2026-09-23
@@ -1681,8 +1678,8 @@ c:cordillera:san-bernardino,San Bernardino,city,asking_flow_30d_new,,sale,32,,,3
 c:cordillera:san-bernardino,San Bernardino,city,asking_flow_30d_delisted,,sale,19,,,19,events 2026-08-25 to 2026-09-23
 c:cordillera:san-bernardino,San Bernardino,city,asking_flow_30d_went_sold,,sale,6,,,6,events 2026-08-25 to 2026-09-23
 c:cordillera:san-bernardino,San Bernardino,city,asking_flow_30d_went_rented,,sale,0,,,0,events 2026-08-25 to 2026-09-23
-c:cordillera:san-bernardino,San Bernardino,city,asking_flow_30d_cuts,,rent,0,,,0,events 2026-08-25 to 2026-09-23
-c:cordillera:san-bernardino,San Bernardino,city,asking_flow_30d_increases,,rent,0,,,0,events 2026-08-25 to 2026-09-23
+c:cordillera:san-bernardino,San Bernardino,city,asking_flow_30d_cuts,,rent,1,,,1,events 2026-08-25 to 2026-09-23
+c:cordillera:san-bernardino,San Bernardino,city,asking_flow_30d_increases,,rent,2,,,2,events 2026-08-25 to 2026-09-23
 c:cordillera:san-bernardino,San Bernardino,city,asking_flow_30d_new,,rent,3,,,3,events 2026-08-25 to 2026-09-23
 c:cordillera:san-bernardino,San Bernardino,city,asking_flow_30d_delisted,,rent,3,,,3,events 2026-08-25 to 2026-09-23
 c:cordillera:san-bernardino,San Bernardino,city,asking_flow_30d_went_sold,,rent,0,,,0,events 2026-08-25 to 2026-09-23
@@ -1785,7 +1782,7 @@ d:alto-parana,Alto Paraná,department,asking_active_listings,casa,sale,256,,,256
 d:alto-parana,Alto Paraná,department,asking_active_listings,rural,sale,9,,,9,"active listings, all sources"
 d:alto-parana,Alto Paraná,department,asking_active_listings,local,sale,20,,,20,"active listings, all sources"
 d:alto-parana,Alto Paraná,department,asking_active_listings,quinta,sale,12,,,12,"active listings, all sources"
-d:alto-parana,Alto Paraná,department,asking_active_listings,terreno,sale,483,,,483,"active listings, all sources"
+d:alto-parana,Alto Paraná,department,asking_active_listings,terreno,sale,484,,,484,"active listings, all sources"
 d:alto-parana,Alto Paraná,department,asking_active_listings,deposito,sale,13,,,13,"active listings, all sources"
 d:alto-parana,Alto Paraná,department,asking_active_listings,otro,sale,46,,,46,"active listings, all sources"
 d:alto-parana,Alto Paraná,department,asking_active_listings,departamento,sale,64,,,64,"active listings, all sources"
@@ -1800,7 +1797,7 @@ d:alto-parana,Alto Paraná,department,asking_active_listings,otro,rent,13,,,13,"
 d:alto-parana,Alto Paraná,department,asking_active_listings,casa,rent,16,,,16,"active listings, all sources"
 d:alto-parana,Alto Paraná,department,asking_active_listings,local,rent,5,,,5,"active listings, all sources"
 d:alto-parana,Alto Paraná,department,asking_active_listings,departamento,rent,20,,,20,"active listings, all sources"
-d:alto-parana,Alto Paraná,department,asking_price_usd,terreno,sale,65000,32057,121479,481,"median ask, USD at SET mid 2026-09-22"
+d:alto-parana,Alto Paraná,department,asking_price_usd,terreno,sale,64557,30792,121479,482,"median ask, USD at SET mid 2026-09-22"
 d:alto-parana,Alto Paraná,department,asking_price_usd,casa,sale,118104,66856,180000,226,"median ask, USD at SET mid 2026-09-22"
 d:alto-parana,Alto Paraná,department,asking_price_usd,departamento,sale,76312,60574,123221,63,"median ask, USD at SET mid 2026-09-22"
 d:alto-parana,Alto Paraná,department,asking_price_usd,otro,sale,120291,78619,243750,46,"median ask, USD at SET mid 2026-09-22"
@@ -1823,7 +1820,7 @@ d:alto-parana,Alto Paraná,department,asking_rent_usd_month,departamento,rent,,,
 d:alto-parana,Alto Paraná,department,asking_rent_usd_month,local,rent,,,,5,"suppressed, n below 20"
 d:alto-parana,Alto Paraná,department,asking_rent_usd_month,edificio,rent,,,,1,"suppressed, n below 20"
 d:alto-parana,Alto Paraná,department,asking_rent_usd_month,rural,rent,,,,1,"suppressed, n below 20"
-d:alto-parana,Alto Paraná,department,asking_staleness_days,terreno,sale,228,,377,435,"days since source publish date, sources: remax prestige"
+d:alto-parana,Alto Paraná,department,asking_staleness_days,terreno,sale,227,,376,436,"days since source publish date, sources: remax prestige"
 d:alto-parana,Alto Paraná,department,asking_staleness_days,casa,sale,197,,386,217,"days since source publish date, sources: remax prestige"
 d:alto-parana,Alto Paraná,department,asking_staleness_days,otro,sale,334,,392,46,"days since source publish date, sources: remax prestige"
 d:alto-parana,Alto Paraná,department,asking_staleness_days,departamento,sale,154,,259,45,"days since source publish date, sources: remax prestige"
@@ -1835,13 +1832,13 @@ d:alto-parana,Alto Paraná,department,asking_staleness_days,rural,sale,,,,5,"sup
 d:alto-parana,Alto Paraná,department,asking_staleness_days,duplex,sale,,,,4,"suppressed, n below 20"
 d:alto-parana,Alto Paraná,department,asking_flow_30d_cuts,,all,30,,,30,events 2026-08-25 to 2026-09-23
 d:alto-parana,Alto Paraná,department,asking_flow_30d_increases,,all,5,,,5,events 2026-08-25 to 2026-09-23
-d:alto-parana,Alto Paraná,department,asking_flow_30d_new,,all,107,,,107,events 2026-08-25 to 2026-09-23
+d:alto-parana,Alto Paraná,department,asking_flow_30d_new,,all,108,,,108,events 2026-08-25 to 2026-09-23
 d:alto-parana,Alto Paraná,department,asking_flow_30d_delisted,,all,29,,,29,events 2026-08-25 to 2026-09-23
 d:alto-parana,Alto Paraná,department,asking_flow_30d_went_sold,,all,17,,,17,events 2026-08-25 to 2026-09-23
 d:alto-parana,Alto Paraná,department,asking_flow_30d_went_rented,,all,11,,,11,events 2026-08-25 to 2026-09-23
 d:alto-parana,Alto Paraná,department,asking_flow_30d_cuts,,sale,21,,,21,events 2026-08-25 to 2026-09-23
 d:alto-parana,Alto Paraná,department,asking_flow_30d_increases,,sale,5,,,5,events 2026-08-25 to 2026-09-23
-d:alto-parana,Alto Paraná,department,asking_flow_30d_new,,sale,86,,,86,events 2026-08-25 to 2026-09-23
+d:alto-parana,Alto Paraná,department,asking_flow_30d_new,,sale,87,,,87,events 2026-08-25 to 2026-09-23
 d:alto-parana,Alto Paraná,department,asking_flow_30d_delisted,,sale,28,,,28,events 2026-08-25 to 2026-09-23
 d:alto-parana,Alto Paraná,department,asking_flow_30d_went_sold,,sale,17,,,17,events 2026-08-25 to 2026-09-23
 d:alto-parana,Alto Paraná,department,asking_flow_30d_went_rented,,sale,0,,,0,events 2026-08-25 to 2026-09-23
@@ -1993,11 +1990,11 @@ c:alto-parana:minga-guazu,Minga Guazú,city,asking_active_listings,rural,sale,3,
 c:alto-parana:minga-guazu,Minga Guazú,city,asking_active_listings,local,sale,4,,,4,"active listings, all sources"
 c:alto-parana:minga-guazu,Minga Guazú,city,asking_active_listings,otro,sale,1,,,1,"active listings, all sources"
 c:alto-parana:minga-guazu,Minga Guazú,city,asking_active_listings,deposito,sale,1,,,1,"active listings, all sources"
-c:alto-parana:minga-guazu,Minga Guazú,city,asking_active_listings,terreno,sale,92,,,92,"active listings, all sources"
+c:alto-parana:minga-guazu,Minga Guazú,city,asking_active_listings,terreno,sale,93,,,93,"active listings, all sources"
 c:alto-parana:minga-guazu,Minga Guazú,city,asking_active_listings,quinta,sale,3,,,3,"active listings, all sources"
 c:alto-parana:minga-guazu,Minga Guazú,city,asking_active_listings,deposito,rent,2,,,2,"active listings, all sources"
 c:alto-parana:minga-guazu,Minga Guazú,city,asking_active_listings,rural,rent,1,,,1,"active listings, all sources"
-c:alto-parana:minga-guazu,Minga Guazú,city,asking_price_usd,terreno,sale,26995,20246,65200,92,"median ask, USD at SET mid 2026-09-22"
+c:alto-parana:minga-guazu,Minga Guazú,city,asking_price_usd,terreno,sale,26995,20246,65000,93,"median ask, USD at SET mid 2026-09-22"
 c:alto-parana:minga-guazu,Minga Guazú,city,asking_price_usd,casa,sale,,,,8,"suppressed, n below 20"
 c:alto-parana:minga-guazu,Minga Guazú,city,asking_price_usd,local,sale,,,,4,"suppressed, n below 20"
 c:alto-parana:minga-guazu,Minga Guazú,city,asking_price_usd,quinta,sale,,,,3,"suppressed, n below 20"
@@ -2008,7 +2005,7 @@ c:alto-parana:minga-guazu,Minga Guazú,city,asking_usd_per_m2_built,casa,sale,,,
 c:alto-parana:minga-guazu,Minga Guazú,city,asking_usd_per_m2_built,local,sale,,,,2,"suppressed, n below 20"
 c:alto-parana:minga-guazu,Minga Guazú,city,asking_rent_usd_month,deposito,rent,,,,2,"suppressed, n below 20"
 c:alto-parana:minga-guazu,Minga Guazú,city,asking_rent_usd_month,rural,rent,,,,1,"suppressed, n below 20"
-c:alto-parana:minga-guazu,Minga Guazú,city,asking_staleness_days,terreno,sale,237,,348,75,"days since source publish date, sources: remax prestige"
+c:alto-parana:minga-guazu,Minga Guazú,city,asking_staleness_days,terreno,sale,237,,342,76,"days since source publish date, sources: remax prestige"
 c:alto-parana:minga-guazu,Minga Guazú,city,asking_staleness_days,casa,sale,,,,7,"suppressed, n below 20"
 c:alto-parana:minga-guazu,Minga Guazú,city,asking_staleness_days,local,sale,,,,3,"suppressed, n below 20"
 c:alto-parana:minga-guazu,Minga Guazú,city,asking_staleness_days,quinta,sale,,,,3,"suppressed, n below 20"
@@ -2017,13 +2014,13 @@ c:alto-parana:minga-guazu,Minga Guazú,city,asking_staleness_days,otro,sale,,,,1
 c:alto-parana:minga-guazu,Minga Guazú,city,asking_staleness_days,rural,sale,,,,1,"suppressed, n below 20"
 c:alto-parana:minga-guazu,Minga Guazú,city,asking_flow_30d_cuts,,all,0,,,0,events 2026-08-25 to 2026-09-23
 c:alto-parana:minga-guazu,Minga Guazú,city,asking_flow_30d_increases,,all,0,,,0,events 2026-08-25 to 2026-09-23
-c:alto-parana:minga-guazu,Minga Guazú,city,asking_flow_30d_new,,all,6,,,6,events 2026-08-25 to 2026-09-23
+c:alto-parana:minga-guazu,Minga Guazú,city,asking_flow_30d_new,,all,7,,,7,events 2026-08-25 to 2026-09-23
 c:alto-parana:minga-guazu,Minga Guazú,city,asking_flow_30d_delisted,,all,8,,,8,events 2026-08-25 to 2026-09-23
 c:alto-parana:minga-guazu,Minga Guazú,city,asking_flow_30d_went_sold,,all,1,,,1,events 2026-08-25 to 2026-09-23
 c:alto-parana:minga-guazu,Minga Guazú,city,asking_flow_30d_went_rented,,all,0,,,0,events 2026-08-25 to 2026-09-23
 c:alto-parana:minga-guazu,Minga Guazú,city,asking_flow_30d_cuts,,sale,0,,,0,events 2026-08-25 to 2026-09-23
 c:alto-parana:minga-guazu,Minga Guazú,city,asking_flow_30d_increases,,sale,0,,,0,events 2026-08-25 to 2026-09-23
-c:alto-parana:minga-guazu,Minga Guazú,city,asking_flow_30d_new,,sale,6,,,6,events 2026-08-25 to 2026-09-23
+c:alto-parana:minga-guazu,Minga Guazú,city,asking_flow_30d_new,,sale,7,,,7,events 2026-08-25 to 2026-09-23
 c:alto-parana:minga-guazu,Minga Guazú,city,asking_flow_30d_delisted,,sale,8,,,8,events 2026-08-25 to 2026-09-23
 c:alto-parana:minga-guazu,Minga Guazú,city,asking_flow_30d_went_sold,,sale,1,,,1,events 2026-08-25 to 2026-09-23
 c:alto-parana:minga-guazu,Minga Guazú,city,asking_flow_30d_went_rented,,sale,0,,,0,events 2026-08-25 to 2026-09-23
@@ -2092,7 +2089,7 @@ d:presidente-hayes,Presidente Hayes,department,asking_active_listings,casa,sale,
 d:presidente-hayes,Presidente Hayes,department,asking_active_listings,local,sale,1,,,1,"active listings, all sources"
 d:presidente-hayes,Presidente Hayes,department,asking_active_listings,quinta,sale,3,,,3,"active listings, all sources"
 d:presidente-hayes,Presidente Hayes,department,asking_active_listings,deposito,sale,1,,,1,"active listings, all sources"
-d:presidente-hayes,Presidente Hayes,department,asking_active_listings,terreno,sale,238,,,238,"active listings, all sources"
+d:presidente-hayes,Presidente Hayes,department,asking_active_listings,terreno,sale,239,,,239,"active listings, all sources"
 d:presidente-hayes,Presidente Hayes,department,asking_active_listings,casa,rent,2,,,2,"active listings, all sources"
 d:presidente-hayes,Presidente Hayes,department,asking_price_usd,terreno,sale,82673,38303,199358,211,"median ask, USD at SET mid 2026-09-22"
 d:presidente-hayes,Presidente Hayes,department,asking_price_usd,rural,sale,1601000,543259,4000000,20,"median ask, USD at SET mid 2026-09-22"
@@ -2114,13 +2111,13 @@ d:presidente-hayes,Presidente Hayes,department,asking_staleness_days,departament
 d:presidente-hayes,Presidente Hayes,department,asking_staleness_days,deposito,sale,,,,1,"suppressed, n below 20"
 d:presidente-hayes,Presidente Hayes,department,asking_flow_30d_cuts,,all,4,,,4,events 2026-08-25 to 2026-09-23
 d:presidente-hayes,Presidente Hayes,department,asking_flow_30d_increases,,all,1,,,1,events 2026-08-25 to 2026-09-23
-d:presidente-hayes,Presidente Hayes,department,asking_flow_30d_new,,all,8,,,8,events 2026-08-25 to 2026-09-23
+d:presidente-hayes,Presidente Hayes,department,asking_flow_30d_new,,all,9,,,9,events 2026-08-25 to 2026-09-23
 d:presidente-hayes,Presidente Hayes,department,asking_flow_30d_delisted,,all,10,,,10,events 2026-08-25 to 2026-09-23
 d:presidente-hayes,Presidente Hayes,department,asking_flow_30d_went_sold,,all,0,,,0,events 2026-08-25 to 2026-09-23
 d:presidente-hayes,Presidente Hayes,department,asking_flow_30d_went_rented,,all,0,,,0,events 2026-08-25 to 2026-09-23
 d:presidente-hayes,Presidente Hayes,department,asking_flow_30d_cuts,,sale,4,,,4,events 2026-08-25 to 2026-09-23
 d:presidente-hayes,Presidente Hayes,department,asking_flow_30d_increases,,sale,1,,,1,events 2026-08-25 to 2026-09-23
-d:presidente-hayes,Presidente Hayes,department,asking_flow_30d_new,,sale,7,,,7,events 2026-08-25 to 2026-09-23
+d:presidente-hayes,Presidente Hayes,department,asking_flow_30d_new,,sale,8,,,8,events 2026-08-25 to 2026-09-23
 d:presidente-hayes,Presidente Hayes,department,asking_flow_30d_delisted,,sale,10,,,10,events 2026-08-25 to 2026-09-23
 d:presidente-hayes,Presidente Hayes,department,asking_flow_30d_went_sold,,sale,0,,,0,events 2026-08-25 to 2026-09-23
 d:presidente-hayes,Presidente Hayes,department,asking_flow_30d_went_rented,,sale,0,,,0,events 2026-08-25 to 2026-09-23
@@ -2343,7 +2340,7 @@ d:paraguari,Paraguarí,department,reo_parcels_priced,,sale,5,,,5,bank REO lists
 d:paraguari,Paraguarí,department,closed_ask_to_close_pct,all,sale,,,,9,insufficient closes
 d:caaguazu,Caaguazú,department,asking_active_listings,local,sale,1,,,1,"active listings, all sources"
 d:caaguazu,Caaguazú,department,asking_active_listings,otro,sale,3,,,3,"active listings, all sources"
-d:caaguazu,Caaguazú,department,asking_active_listings,departamento,sale,1,,,1,"active listings, all sources"
+d:caaguazu,Caaguazú,department,asking_active_listings,departamento,sale,2,,,2,"active listings, all sources"
 d:caaguazu,Caaguazú,department,asking_active_listings,deposito,sale,3,,,3,"active listings, all sources"
 d:caaguazu,Caaguazú,department,asking_active_listings,rural,sale,11,,,11,"active listings, all sources"
 d:caaguazu,Caaguazú,department,asking_active_listings,terreno,sale,53,,,53,"active listings, all sources"
