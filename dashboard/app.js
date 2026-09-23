@@ -19,7 +19,7 @@ const SHORT = { casa: "casa", departamento: "depto" };
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
 const D = {};
-const S = { market: "py", cellKind: "departamento", closeOp: "sale", metric: "sale", tables: new Set() };
+const S = { market: "py", cellKind: "departamento", closeOp: "sale", recentOp: "sale", metric: "sale", tables: new Set(), borrowed: {} };
 const charts = {};
 let map, renderer, cells, cutDots, reoDots, gridShown = null, fitPending = null, rentWin = "month";
 const breaks = {};
@@ -80,8 +80,33 @@ const sumKinds = (byKind, kinds) => {
 };
 const exclusionNote = () => D.summary.medians.excluded.map((x) =>
   `${srcName(x.code)} excluded from asking medians until price coverage completes: ${Math.round(x.priced_share * 100)}% today.`).join(" ");
-const seenRule = () => `seen by our capture in the last ${D.summary.seen_days.full} days ` +
-  `(${D.summary.seen_days.partial} for ${D.summary.partial_sources.map(srcName).join(" and ")})`;
+const andList = (a) => (a.length > 1 ? `${a.slice(0, -1).join(", ")} and ${a.at(-1)}` : a[0] || "none");
+const counted = () => D.summary.windows.filter((w) => w.pulled);
+function seenRule() {
+  const w = counted(), full = w.find((x) => x.role === "full_universe");
+  const others = w.filter((x) => x.since !== full?.since);
+  return `seen by our capture on or after ${full ? dayShort(full.since) : "-"}` +
+    (others.length ? ` (${others.map((x) => `${dayShort(x.since)} for ${srcName(x.code)}`).join(", ")})` : "");
+}
+// The latest change in a tile's source set, from the series: its figures before and after that day
+// are not like for like, so the tile says so with the date.
+function sourceFlag(key) {
+  const c = D.summary.source_changes?.[key];
+  if (!c) return null;
+  const parts = [c.joined.length && `${andList(c.joined.map(srcName))} joined`, c.left.length && `${andList(c.left.map(srcName))} left`].filter(Boolean);
+  return `Sources changed ${dayShort(c.date)}: ${parts.join(", ")}. Figures before and after are not like for like.`;
+}
+// A market too thin for a chart borrows the nearest larger market that has the data, named on the
+// chart and in its table, rather than showing an empty frame.
+function borrow(test) {
+  for (let m = market(); m; m = D.byId.get(m.parent)) if (test(m.id)) return m;
+  return null;
+}
+function borrowNote(id, text) {
+  const box = $(id), prev = box.previousElementSibling;
+  if (prev?.classList.contains("borrow")) prev.remove();
+  if (text) box.before(h("div", { class: "borrow", text }));
+}
 
 // ---------- data ----------
 async function load() {
@@ -89,8 +114,9 @@ async function load() {
     if (!r.ok) throw new Error(`${f} returned HTTP ${r.status}`);
     return r.json();
   });
-  const [summary, markets, trends, movers, geo] = await Promise.all(["summary.json", "markets.json", "trends.json", "movers.json", "geo.json"].map(get));
-  Object.assign(D, { summary, markets: markets.markets, trends, movers, geo });
+  const [summary, markets, trends, movers, geo, closes] = await Promise.all(["summary.json", "markets.json", "trends.json", "movers.json",
+    "geo.json", "closes.json"].map(get));
+  Object.assign(D, { summary, markets: markets.markets, trends, movers, geo, closes });
   D.byId = new Map(D.markets.map((m) => [m.id, m]));
 }
 
@@ -108,16 +134,19 @@ function remaxChange(metric, kind) {
   for (let i = last - 1; i >= 0; i--) {
     if (r.days[i] > target || val(arr[i]) == null) continue;
     const a = val(arr[last]), b = val(arr[i]);
-    return { from: r.days[i], to: r.days[last], diff: a - b, rel: b ? (a - b) / b : null, n: Array.isArray(arr[last]) ? arr[last][1] : null };
+    return { from: r.days[i], to: r.days[last], level: a, diff: a - b, rel: b ? (a - b) / b : null, n: Array.isArray(arr[last]) ? arr[last][1] : null };
   }
   return null;
 }
+// The change is RE/MAX's own median, not the pooled one on the tile, so its level prints beside it:
+// a median of round asks moves in steps from one round price to the next.
 function remaxDelta(metric, kinds) {
+  const fmt = metric === "sale" ? usdK : usd;
   const parts = kinds.map((k) => [k, remaxChange(metric, k)]).filter(([, c]) => c);
   if (!parts.length) return "RE/MAX panel: no like-for-like reading for these kinds here";
   const c0 = parts[0][1];
-  return `RE/MAX panel, ${dayShort(c0.from)} to ${dayShort(c0.to)}: ` +
-    parts.map(([k, c]) => `${SHORT[k] || k} ${pct(c.rel * 100)} (n ${num(c.n)})`).join(", ");
+  return `RE/MAX panel alone, ${dayShort(c0.to)} against ${dayShort(c0.from)}: ` +
+    parts.map(([k, c]) => `${SHORT[k] || k} ${fmt(c.level)}, ${pct(c.rel * 100)} (n ${num(c.n)})`).join("; ");
 }
 
 // ---------- header, picker, hero ----------
@@ -168,16 +197,28 @@ function renderHero(m) {
   const a = m.asking_active;
   $("lede").className = "";
   $("lede").textContent = `${num(a.total)} active listings, ${seenRule()}: ${num(a.sale_total)} for sale, ${num(a.rent_total)} for rent` +
-    `${a.other ? `, ${num(a.other)} with no operation stated` : ""}${m.note ? ` (${m.note})` : ""}. ` +
+    `${a.other ? `, ${num(a.other)} with no operation stated` : ""}${m.note ? ` (${m.note})` : ""}` +
+    `${m.id === "py" ? `, of ${num(D.summary.tracked)} listings tracked in all` : ""}. ` +
     "Asking figures unless tagged closed; every figure carries its n and window.";
 }
 
 // ---------- KPI row ----------
-function kpi(title, body, { delta, closed = false, stampText, mix } = {}) {
+function kpi(title, body, { delta, closed = false, stampText, mix, flag, own } = {}) {
   return h("div", { class: "kpi" }, h("h3", { text: title }), body,
     mix && h("div", { class: "mix", text: `Sources: ${mix}` }),
+    flag && h("div", { class: "srcflag", text: flag }),
+    own && h("div", { class: "delta", text: own }),
     delta && h("div", { class: "delta", text: delta }),
     h("div", { class: "stamp" }, tag(closed), stampText));
+}
+// The Active tile's own change against the previous build day, split by source, so a crawl rolling
+// out of its window reads as that source and not as the market. Country only: the split is national.
+function activeOwnChange(m) {
+  const c = D.summary.active_change;
+  if (m.id !== "py" || !c) return null;
+  const by = Object.entries(c.by_source).sort((x, y) => Math.abs(y[1]) - Math.abs(x[1])).map(([k, d]) => `${srcName(k)} ${signed(d)}`);
+  return `This count against ${dayShort(c.from)}: ${signed(c.diff)}${by.length ? ` (${by.join(", ")})` : ""}` +
+    `${c.same_sources ? "" : ", counted sources differ"}.`;
 }
 function kindRows(dists, kinds, fmt, min) {
   const rows = kinds.filter((k) => dists[k]).map((k) => h("div", { class: "row" }, dists[k].suppressed
@@ -194,29 +235,34 @@ function renderKpis(m) {
   const excl = exclusionNote();
   const act = remaxChange("count_sale");
   const ageSrc = s.sources.filter((x) => x.staleness_used).map((x) => srcName(x.code));
-  const email = m.id === "py" && s.email.stock_age.casa
-    ? ` The morning email also counts uProp, whose publish dates are one bulk load: casa ${num(s.email.stock_age.casa.p50)} days (n ${num(s.email.stock_age.casa.n)}).` : "";
+  const closesOnly = s.sources.filter((x) => x.role === "closes_only").map((x) => srcName(x.code));
+  const agedOut = s.staleness_sources.filter((x) => !x.used).map((x) => srcName(x.code));
   $("kpis").replaceChildren(
     kpi("Active listings", [h("div", { class: "v", text: num(a.total) }),
       h("div", { class: "sub", text: `${num(a.sale_total)} sale, ${num(a.rent_total)} rent${a.other ? `, ${num(a.other)} no operation stated` : ""}` })], {
-      delta: act ? `RE/MAX panel, ${dayShort(act.from)} to ${dayShort(act.to)}: ${signed(act.diff)} for sale` : null,
-      stampText: ` ${seenRule()}. ${num(a.listed)} are listed as active; ${num(a.listed - a.total)} were not seen in that window.` }),
+      flag: sourceFlag("stock_sources"), own: activeOwnChange(m),
+      delta: act ? `RE/MAX panel alone, for sale: ${num(act.level)} on ${dayShort(act.to)}, ${signed(act.diff)} against ${dayShort(act.from)}` : null,
+      stampText: ` ${seenRule()}. ${num(a.listed)} are listed as active on the counted sources; ${num(a.listed - a.total)} were not seen in that window.` +
+        `${closesOnly.length ? ` ${andList(closesOnly)} counts only for closes.` : ""}` }),
     kpi("Median ask, sale", kindRows(m.asking_price_usd, ["casa", "departamento"], (d) => usdK(d.median), min), {
-      mix: mixText(sumKinds(m.asking_mix.sale, ["casa", "departamento"])), delta: remaxDelta("sale", ["casa", "departamento"]),
-      stampText: ` ${fxLine} ${excl}` }),
+      mix: mixText(sumKinds(m.asking_mix.sale, ["casa", "departamento"])), flag: sourceFlag("median_sources"),
+      delta: remaxDelta("sale", ["casa", "departamento"]), stampText: ` ${fxLine} ${excl}` }),
     kpi("Median rent, monthly", kindRows(m.asking_rent_usd_month, ["departamento", "casa"], (d) => usd(d.median), min), {
-      mix: mixText(sumKinds(m.asking_mix.rent, ["departamento", "casa"])), delta: remaxDelta("rent", ["departamento", "casa"]),
-      stampText: ` ${fxLine} ${excl}` }),
+      mix: mixText(sumKinds(m.asking_mix.rent, ["departamento", "casa"])), flag: sourceFlag("median_sources"),
+      delta: remaxDelta("rent", ["departamento", "casa"]), stampText: ` ${fxLine} ${excl}` }),
     kpi("Ask-to-close, sales", sp.status
       ? [h("div", { class: "v small", text: "Insufficient closes" }), h("div", { class: "sub", text: `n ${num(sp.n)}, needs ${s.min_n.spread}` })]
       : statRows([
-        [`${Math.round(sp.at_ask_pct)}%`, `closed at exactly the last ask, ${num(sp.at_ask)} of ${num(sp.n)}`],
+        [`${Math.round(sp.at_ask_pct)}%`, `reported price identical to the last ask, ${num(sp.at_ask)} of ${num(sp.n)}`],
         [pct(sp.p50), `median spread, all ${num(sp.n)} closes`],
-        [sp.below_p50 == null ? "n/a" : pct(sp.below_p50), sp.below_p50 == null ? `when below the ask, n ${num(sp.below)} below ${s.min_n.spread}` : `when a discount happened, n ${num(sp.below)}`]]), {
+        [sp.below_p50 == null ? "n/a" : pct(sp.below_p50), sp.below_p50 == null ? `reported below the ask, n ${num(sp.below)} below ${s.min_n.spread}`
+          : `median of the ${num(sp.below)} reported below the ask`]]), {
       closed: true, stampText: sp.status ? " same-currency sales, RE/MAX network"
-        : ` same-currency sales, RE/MAX network, ${monthYear(sp.first)} to ${monthYear(sp.last)}. A price identical to the ask is a full-price sale or a broker who left the ask in the sold field.` }),
+        : ` same-currency sales, RE/MAX network, ${monthYear(sp.first)} to ${monthYear(sp.last)}. A price identical to the ask is a full-price sale or a broker who left the ask in the sold field; the feed cannot say which.` }),
     kpi("Stock age, median", kindRows(m.asking_staleness_days, ["casa", "departamento"], (d) => `${num(d.p50)} days`, min), {
-      stampText: ` days since publish, active sale listings, ${ageSrc.join(", ").replace(/, ([^,]*)$/, " and $1")}.${email}` }),
+      flag: sourceFlag("age_sources"),
+      stampText: ` days since publish, active sale listings, ${andList(ageSrc)}.` +
+        `${agedOut.length ? ` ${andList(agedOut)} ${agedOut.length > 1 ? "sit" : "sits"} out: publish dates from one bulk load.` : ""}` }),
     kpi("Price cuts, 30 days", [h("div", { class: "v", text: num(f.all.cuts) }),
       h("div", { class: "sub", text: `${num(f.sale.cuts)} sale, ${num(f.rent.cuts)} rent; ${num(f.all.increases)} rises` })], {
       mix: mixText(m.asking_cuts_30d_by_source),
@@ -369,7 +415,7 @@ function buildCharts() {
     plugins: { legend: { display: false }, tooltip: { callbacks: { title: (it) => `Week of ${day(it[0].label)}`, label: (c) => ` ${num(c.raw)} priced closes` } } } });
   charts.spreadq = makeChart("c-spreadq", "line", { scales: { x: xAxis(quarterName, { offset: true }), y: yAxis(pct, { beginAtZero: true }) },
     plugins: { legend: { position: "bottom" }, tooltip: { callbacks: { title: (it) => quarterTitle(it[0].label),
-      label: (c) => { const r = c.dataset.rows[c.dataIndex]; return ` ${c.dataset.label}: ${pct(c.raw)} median, n ${num(r[1])}, ${Math.round(r[3])}% at the ask${r[4] != null ? `, ${pct(r[4])} when below` : ""}`; } } } } });
+      label: (c) => { const r = c.dataset.rows[c.dataIndex]; return ` ${c.dataset.label}: ${pct(c.raw)} median, n ${num(r[1])}, ${Math.round(r[3])}% report the ask${r[4] != null ? `, ${pct(r[4])} median below it` : ""}`; } } } } });
   charts.rent = makeChart("c-rent", "line", { scales: { x: xAxis((v) => (rentWin === "month" ? monthYear(v) : quarterName(v))),
     y: yAxis(gsM, { beginAtZero: false }), usd: yAxis(usd, { position: "right", beginAtZero: false, display: false, grid: { display: false } }) },
     plugins: { legend: { position: "bottom" }, tooltip: { callbacks: { title: (it) => (rentWin === "month" ? monthYear(it[0].label) : quarterName(it[0].label)),
@@ -414,16 +460,21 @@ function renderCloses() {
   const what = op === "sale" ? "sales" : "rentals";
   empty("c-closes", total ? "" : `No broker-reported ${what} with a price in this market since ${monthYear(t.closed_weekly.from)}`);
 
-  const qd = t.closed_quarterly.markets[S.market][op], quarters = quartersFrom(t.closed_quarterly.from, D.summary.date);
+  const quarters = quartersFrom(t.closed_quarterly.from, D.summary.date);
   const kinds = ["all", ...(op === "sale" ? ["casa", "departamento", "terreno", "duplex"] : ["departamento", "casa"])];
-  const sets = kinds.filter((k) => qd[k]?.some((x) => x[2] != null)).map((k) => {
+  const drawn = (id) => kinds.filter((k) => t.closed_quarterly.markets[id][op][k]?.some((x) => x[2] != null));
+  const src = borrow((id) => drawn(id).length > 0), lent = src && src.id !== S.market;
+  S.borrowed.closes = src?.id ?? S.market;
+  const qd = t.closed_quarterly.markets[S.borrowed.closes][op];
+  const sets = (src ? drawn(src.id) : []).map((k) => {
     const byQ = new Map(qd[k].map((x) => [x[0], x]));
-    return lineSet(k === "all" ? "All kinds" : kindName(k), quarters.map((p) => byQ.get(p)?.[2] ?? null), k === "all" ? GOLD : KIND_COLOR[k],
-      { rows: quarters.map((p) => byQ.get(p) || null), borderWidth: k === "all" ? 3 : 2, pointRadius: 3 });
+    return lineSet(`${lent ? `${src.name}: ` : ""}${k === "all" ? "All kinds" : kindName(k)}`, quarters.map((p) => byQ.get(p)?.[2] ?? null),
+      k === "all" ? GOLD : KIND_COLOR[k], { rows: quarters.map((p) => byQ.get(p) || null), borderWidth: k === "all" ? 3 : 2, pointRadius: 3 });
   });
   charts.spreadq.data = { labels: quarters, datasets: sets };
   charts.spreadq.update();
-  empty("c-spreadq", sets.length ? "" : `No quarter reaches ${D.summary.min_n.spread} same-currency ${what} here`);
+  empty("c-spreadq", sets.length ? "" : `No quarter reaches ${D.summary.min_n.spread} same-currency ${what} anywhere`);
+  borrowNote("c-spreadq", lent ? `No quarter in ${market().name} reaches ${D.summary.min_n.spread} same-currency ${what}; the lines are ${src.name}'s.` : "");
 
   const before = D.summary.closes.before[op];
   stamp("closes-stamp", true, ` ${num(total)} priced ${what} from the RE/MAX network since ${day(t.closed_weekly.from)}, by close date; the latest week is in progress. ` +
@@ -437,21 +488,23 @@ function rentLabel(c) {
   const rate = rentFx(c.label);
   return ` ${d.label}: ${gs(c.raw)} a month (n ${num(n)})${rate ? `, about ${usd(c.raw / rate)} at the ${rentWin}'s average SET rate (FX-converted)` : ""}`;
 }
-function rentChoice() {
-  const rc = D.trends.closed_rent.markets[S.market];
+function rentChoice(id) {
+  const rc = D.trends.closed_rent.markets[id];
   const has = (win) => Object.entries(rc[win]).filter(([, rows]) => rows.some((x) => x[2] != null));
   const month = has("month");
   return month.length ? { win: "month", sets: month } : { win: "quarter", sets: has("quarter") };
 }
 function renderRent() {
-  const { win, sets } = rentChoice(), from = D.trends.closed_rent.from;
+  const src = borrow((id) => rentChoice(id).sets.length > 0), lent = src && src.id !== S.market, from = D.trends.closed_rent.from;
+  S.borrowed.rent = src?.id ?? S.market;
+  const { win, sets } = rentChoice(S.borrowed.rent);
   rentWin = win;
   const labels = win === "month" ? monthsFrom(from, D.summary.date) : quartersFrom(from, D.summary.date);
   const order = ["departamento", "casa", "duplex"];
   const ds = sets.sort((a, b) => order.indexOf(a[0].split("|")[0]) - order.indexOf(b[0].split("|")[0])).map(([key, rows]) => {
     const [kind, cur] = key.split("|"), byP = new Map(rows.map((x) => [x[0], x]));
-    return lineSet(`${kindName(kind)}${cur === "USD" ? ", settled in USD" : ""}`, labels.map((p) => byP.get(p)?.[2] ?? null), KIND_COLOR[kind] || GOLD,
-      { ns: labels.map((p) => byP.get(p)?.[1] ?? 0), cur, yAxisID: cur === "USD" ? "usd" : "y", borderDash: cur === "USD" ? [5, 4] : undefined });
+    return lineSet(`${lent ? `${src.name}: ` : ""}${kindName(kind)}${cur === "USD" ? ", settled in USD" : ""}`, labels.map((p) => byP.get(p)?.[2] ?? null),
+      KIND_COLOR[kind] || GOLD, { ns: labels.map((p) => byP.get(p)?.[1] ?? 0), cur, yAxisID: cur === "USD" ? "usd" : "y", borderDash: cur === "USD" ? [5, 4] : undefined });
   });
   charts.rent.options.scales.usd.display = ds.some((d) => d.cur === "USD");
   charts.rent.options.scales.y.display = ds.some((d) => d.cur === "PYG");
@@ -460,18 +513,23 @@ function renderRent() {
   const all = Object.entries(D.trends.closed_rent.markets[S.market].month);
   const nCur = (cur) => all.filter(([k]) => k.endsWith(`|${cur}`)).reduce((a, [, rows]) => a + rows.reduce((b, x) => b + x[1], 0), 0);
   const pyg = nCur("PYG"), dollars = nCur("USD");
-  empty("c-rent", ds.length ? "" : `No ${win === "month" ? "month or quarter" : "quarter"} here reaches ${D.summary.min_n.median} rented closes of one kind in one currency`);
-  const by = !ds.length ? "" : win === "month" ? " by month" : " by quarter (no single month here reaches the minimum)";
-  stamp("rent-stamp", true, ` median monthly rent${by}, in the currency each lease settled in, RE/MAX network since ${monthYear(from)}: ` +
-    `${num(pyg)} rentals settled in guaraníes, ${num(dollars)} in dollars${dollars && !ds.some((d) => d.cur === "USD") ? ", too few for a dollar line; they are in the table" : ""}. ` +
+  empty("c-rent", ds.length ? "" : `No month or quarter anywhere reaches ${D.summary.min_n.median} rented closes of one kind in one currency`);
+  borrowNote("c-rent", lent ? `${market().name} has ${num(pyg + dollars)} rented departamentos, casas and duplexes since ${day(from)}, no month or quarter at ${D.summary.min_n.median} of one kind; the lines are ${src.name}'s.` : "");
+  const by = !ds.length ? "" : win === "month" ? " by month" : " by quarter (no single month reaches the minimum)";
+  stamp("rent-stamp", true, ` median monthly rent${by}, departamentos, casas and duplexes, in the currency each lease settled in, RE/MAX network since ${day(from)}. ` +
+    `${lent ? "Here" : "In this market"}: ${num(pyg)} of those rentals settled in guaraníes, ${num(dollars)} in dollars${dollars && !ds.some((d) => d.cur === "USD") && !lent ? ", too few for a dollar line; they are in the table" : ""}. ` +
     `Points need ${D.summary.min_n.median} closes of one kind; closes outside the rent bands are left out (${num(D.summary.rent_closes_out_of_band)} country-wide). The tooltip's USD figure is FX-converted, not a dollar rent.`);
 }
 const seriesFmt = () => (S.metric === "sale" ? usdK : usd);
 function renderSeries() {
-  const r = D.trends.asking_remax_daily, rs = r.markets[S.market], min = D.summary.min_n.median;
+  const r = D.trends.asking_remax_daily, min = D.summary.min_n.median;
   const kinds = S.metric === "rent" ? ["departamento", "casa"] : ["casa", "departamento"];
-  const sets = kinds.filter((k) => rs?.[S.metric]?.[k]).map((k) => lineSet(kindName(k), rs[S.metric][k].map((x) => x?.[0] ?? null),
-    KIND_COLOR[k], { ns: rs[S.metric][k].map((x) => x?.[1] ?? null) }));
+  const src = borrow((id) => kinds.some((k) => r.markets[id]?.[S.metric]?.[k])), lent = src && src.id !== S.market;
+  S.borrowed.series = src?.id ?? S.market;
+  const rs = r.markets[S.borrowed.series];
+  const sets = kinds.filter((k) => rs?.[S.metric]?.[k]).map((k) => lineSet(`${lent ? `${src.name}: ` : ""}${kindName(k)}`,
+    rs[S.metric][k].map((x) => x?.[0] ?? null), KIND_COLOR[k], { ns: rs[S.metric][k].map((x) => x?.[1] ?? null) }));
+  borrowNote("c-series", lent ? `RE/MAX has fewer than ${min} active ${kinds.map((k) => kindName(k).toLowerCase() + "s").join(" or ")} in ${market().name} on every day; the lines are ${src.name}'s.` : "");
   // A daily median moves a percent or two; an axis hugging the data would draw that as a cliff.
   const vals = sets.flatMap((s) => s.data).filter((v) => v != null);
   Object.assign(charts.series.options.scales.y, vals.length
@@ -479,7 +537,7 @@ function renderSeries() {
   charts.series.data = { labels: r.days, datasets: sets };
   charts.series.update();
   const what = { sale: "median ask", m2: "median USD per built m2", rent: "median monthly rent" }[S.metric];
-  empty("c-series", sets.length ? "" : `RE/MAX has fewer than ${min} active ${kinds.map((k) => kindName(k).toLowerCase() + "s").join(" or ")} here on every day, so no daily median`);
+  empty("c-series", sets.length ? "" : `RE/MAX has fewer than ${min} active ${kinds.map((k) => kindName(k).toLowerCase() + "s").join(" or ")} on every day anywhere, so no daily median`);
   stamp("series-stamp", false, ` daily ${what} of RE/MAX listings active at each day's end, ${day(r.days[0])} to ${day(r.days.at(-1))}, rebuilt from our captures of the whole RE/MAX panel. ` +
     `Guaraní asks convert at today's SET mid (Gs ${num(r.fx.rate)}) for every day, so exchange-rate moves do not show as price moves. One source on purpose: its moves are its asks and stock, not our crawl. ` +
     `A gap is a day without a capture; a day needs ${min} listings of the kind.`);
@@ -490,28 +548,28 @@ const TWINS = {
   flow: () => [[["Date", ...FLOW.map((f) => f[1])], D.trends.asking_flow_daily.days.map((d, i) => [day(d),
     ...FLOW.map(([k]) => D.trends.asking_flow_daily.markets[S.market][k][i] ?? "no capture")])]],
   closes: () => {
-    const op = S.closeOp, qd = D.trends.closed_quarterly.markets[S.market][op];
+    const op = S.closeOp, id = S.borrowed.closes || S.market, qd = D.trends.closed_quarterly.markets[id][op];
     const qRows = Object.entries(qd).flatMap(([k, rs]) => rs.map((r) => [r[0], k === "all" ? "All kinds" : kindName(k), num(r[1]),
       r[2] == null ? `n below ${D.summary.min_n.spread}` : pct(r[2]), r[3] == null ? "-" : `${Math.round(r[3])}%`,
       r[4] == null ? `n ${num(r[5])}` : `${pct(r[4])} (n ${num(r[5])})`])).sort((a, b) => (a[0] < b[0] ? 1 : a[0] > b[0] ? -1 : 0))
       .map((r) => [quarterTitle(r[0]), ...r.slice(1)]);
-    return [[["Quarter", "Kind", "Closes", "Median spread", "At the ask", "When below ask"], qRows],
+    return [[[`Quarter${id === S.market ? "" : `, ${D.byId.get(id).name}`}`, "Kind", "Closes", "Median spread", "Price identical to ask", "Median below ask"], qRows],
       [["Week of", "Priced closes"], D.trends.closed_weekly.markets[S.market][op].slice().reverse().map((r) => [day(r[0]), num(r[1])])]];
   },
   rent: () => {
-    const rc = D.trends.closed_rent.markets[S.market][rentWin];
+    const id = S.borrowed.rent || S.market, rc = D.trends.closed_rent.markets[id][rentWin];
     const rows = Object.entries(rc).flatMap(([key, rs]) => { const [kind, cur] = key.split("|"); return rs.map((r) => [r[0], kindName(kind), cur === "PYG" ? "Guaraníes" : "Dollars", num(r[1]),
       r[2] == null ? `n below ${D.summary.min_n.median}` : money(r[2], cur), cur === "PYG" && r[2] != null && rentFx(r[0]) ? usd(r[2] / rentFx(r[0])) : "-"]); })
       .sort((a, b) => (a[0] < b[0] ? 1 : a[0] > b[0] ? -1 : 0)).map((r) => [rentWin === "month" ? monthYear(r[0]) : quarterName(r[0]), ...r.slice(1)]);
-    return [[[rentWin === "month" ? "Month" : "Quarter", "Kind", "Settled in", "Rented closes", "Median rent", "USD, FX-converted"], rows]];
+    return [[[`${rentWin === "month" ? "Month" : "Quarter"}${id === S.market ? "" : `, ${D.byId.get(id).name}`}`, "Kind", "Settled in", "Rented closes", "Median rent", "USD, FX-converted"], rows]];
   },
   series: () => {
-    const r = D.trends.asking_remax_daily, rs = r.markets[S.market]?.[S.metric] || {};
+    const r = D.trends.asking_remax_daily, id = S.borrowed.series || S.market, rs = r.markets[id]?.[S.metric] || {};
     const rows = [];
     for (let i = r.days.length - 1; i >= 0; i--) for (const [k, arr] of Object.entries(rs)) {
       rows.push([day(r.days[i]), kindName(k), arr[i] == null ? "no capture" : arr[i][0] == null ? `n below ${D.summary.min_n.median}` : seriesFmt()(arr[i][0]), arr[i] == null ? "-" : num(arr[i][1])]);
     }
-    return [[["Date", "Kind", "Median", "n"], rows]];
+    return [[[`Date${id === S.market ? "" : `, ${D.byId.get(id).name}`}`, "Kind", "Median", "n"], rows]];
   },
 };
 function renderTwins() {
@@ -613,16 +671,16 @@ function renderTables(m) {
   const cell = (fn) => (r) => (r.v.status ? null : fn(r.v));
   table("t-spread", [["Closes", (r) => r.order, (r) => (r.op === "sale" ? "Sales" : "Rentals")], ["Kind", (r) => (r.kind === "all" ? "All kinds" : kindName(r.kind))],
     ["n", (r) => r.v.n, (r) => num(r.v.n), true],
-    ["At the ask", (r) => r.v.at_ask_pct, (r) => (r.v.status ? h("span", { class: "muted", text: `${r.v.status}, needs ${D.summary.min_n.spread}` })
+    ["Price identical to ask", (r) => r.v.at_ask_pct, (r) => (r.v.status ? h("span", { class: "muted", text: `${r.v.status}, needs ${D.summary.min_n.spread}` })
       : h("span", {}, `${Math.round(r.v.at_ask_pct)}%`, h("small", { text: num(r.v.at_ask) }))), true],
     ["Median", (r) => r.v.p50, cell((v) => pct(v.p50)), true], ["P25", (r) => r.v.p25, cell((v) => pct(v.p25)), true],
     ["P75", (r) => r.v.p75, cell((v) => pct(v.p75)), true],
-    ["When below ask", (r) => r.v.below_p50, cell((v) => (v.below_p50 == null ? h("span", { class: "muted", text: `n ${num(v.below)}, below ${D.summary.min_n.spread}` }) : h("span", {}, pct(v.below_p50), h("small", { text: `n ${num(v.below)}` })))), true],
+    ["Median below ask", (r) => r.v.below_p50, cell((v) => (v.below_p50 == null ? h("span", { class: "muted", text: `n ${num(v.below)}, below ${D.summary.min_n.spread}` }) : h("span", {}, pct(v.below_p50), h("small", { text: `n ${num(v.below)}` })))), true],
     ["Closes from", (r) => r.v.first, (r) => (r.v.first ? `${monthYear(r.v.first)} to ${monthYear(r.v.last)}` : "-")]],
   spRows, { sort: 0, dir: 1 });
   const s0 = m.closed_ask_to_close.sale.all;
   stamp("spread-stamp", true, ` broker-reported price against the last asking price, same currency only, RE/MAX network. Kinds show with ${D.summary.min_n.spread} or more closes. ` +
-    (s0.status ? "" : `${Math.round(s0.at_ask_pct)}% of sales here report a price identical to the last ask, so the all-closes median sits near zero; the median of closes below the ask is the size of a discount when one happened. `) +
+    (s0.status ? "" : `${Math.round(s0.at_ask_pct)}% of sales here report a price identical to the last ask, so the all-closes median sits near zero; the median of the closes reported below the ask travels beside it. `) +
     "The feed cannot tell a full-price sale from a broker who left the ask in the sold field.");
 
   const flow = m.asking_flow_30d;
@@ -644,6 +702,32 @@ function renderTables(m) {
     `CHECK marks a built property under USD 10,000, likely an entry error at the bank. Itaú items link to their own page; the other banks publish one list (a page or a file), and the link opens it. Last capture ${day(D.summary.reo.last_ok_capture)}.`);
 }
 
+// Individual broker-reported closes in the selected market: the comps this market has.
+function renderRecentCloses() {
+  const op = S.recentOp, c = D.closes, what = op === "sale" ? "sales" : "rentals", m = market();
+  const [n30, n7] = c.counts[S.market]?.[op] || [0, 0];
+  const rows = c.rows.filter((r) => r.op === op && here(r)).sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0)).slice(0, c.cap);
+  table("t-closes", [
+    ["Closed", (r) => r.date, (r) => dayShort(r.date)],
+    ["Kind", (r) => kindName(r.kind)],
+    ["Place", placeCell],
+    ["Last ask", (r) => r.ask, (r) => money(r.ask, r.ask_currency), true],
+    ["Reported price", (r) => r.close, (r) => h("b", { text: money(r.close, r.close_currency) }), true],
+    ["Spread", (r) => r.spread_pct, (r) => (r.spread_pct == null ? h("span", { class: "muted", text: "cross-currency" })
+      : r.entry_check ? h("span", { class: "muted", title: "Outside the 0.4 to 1.6 guard: likely an entry error, left out of ask-to-close" },
+        pct(r.spread_pct), h("span", { class: "flag", text: "CHECK" }))
+      : h("span", { class: r.spread_pct < 0 ? "cut" : null, text: pct(r.spread_pct) })), true],
+    ["Days to close", (r) => r.days_to_close, (r) => num(r.days_to_close), true],
+    ["Listing", (r) => r.mls || "", (r) => h("span", { title: "RE/MAX takes a listing's page down once it closes" }, `${srcName(r.source)} ${r.mls || ""}`.trim())],
+  ], rows, { sort: 0, dir: -1, empty: `No broker-reported ${what} with a price in ${m.name} in the last ${c.days} days` });
+  const thin = n30 > 0 && n30 < c.min_n ? `Fewer than ${c.min_n} ${what} here in ${c.days} days: read them as single deals, not a price level. ` : "";
+  stamp("closes-list-stamp", true, ` ${num(n30)} ${n30 === 1 ? what.slice(0, -1) : what} reported closed in ${m.name} from ${dayShort(c.from)} to ${dayShort(c.to)}, ${num(n7)} of them in the last ${c.recent_days} days` +
+    `${rows.length < n30 ? `; the newest ${num(rows.length)} shown` : ""}. ${thin}Broker-reported prices from the RE/MAX network, newest first. ` +
+    "Spread is the reported price against the last ask in the same currency; a close settled in another currency than its ask shows cross-currency and no spread, and CHECK marks a spread outside the 0.4 to 1.6 guard, likely an entry error and left out of ask-to-close. " +
+    "Days to close run from the listing's publish date to the close date, blank when the listing was published after its close date. RE/MAX takes a listing's page down once it closes, so rows carry its MLS id instead of a link. " +
+    "Century 21 closed records carry no price and are not listed.");
+}
+
 function renderMarketsTable() {
   const g = (m, f, k) => m[f][k], min = D.summary.min_n.median, sp = (m) => m.closed_ask_to_close.sale.all;
   table("t-markets", [["Market", (m) => m.name], ["Level", (m) => m.level],
@@ -653,7 +737,7 @@ function renderMarketsTable() {
     ["Depto USD/m2", (m) => g(m, "asking_usd_per_m2_built", "departamento")?.median, (m) => distCell(g(m, "asking_usd_per_m2_built", "departamento"), usd, min), true],
     ["Depto rent", (m) => g(m, "asking_rent_usd_month", "departamento")?.median, (m) => distCell(g(m, "asking_rent_usd_month", "departamento"), usd, min), true],
     ["Sale cuts 30d", (m) => m.asking_flow_30d.sale.cuts, (m) => num(m.asking_flow_30d.sale.cuts), true],
-    ["Sales at ask", (m) => sp(m).at_ask_pct, (m) => (sp(m).status ? h("span", { class: "muted", text: `n ${num(sp(m).n)}` }) : h("span", {}, `${Math.round(sp(m).at_ask_pct)}%`, h("small", { text: `n ${num(sp(m).n)}` }))), true],
+    ["Sales reporting the ask", (m) => sp(m).at_ask_pct, (m) => (sp(m).status ? h("span", { class: "muted", text: `n ${num(sp(m).n)}` }) : h("span", {}, `${Math.round(sp(m).at_ask_pct)}%`, h("small", { text: `n ${num(sp(m).n)}` }))), true],
     ["Ask-to-close", (m) => sp(m).p50, (m) => (sp(m).status ? h("span", { class: "muted", text: `n ${num(sp(m).n)}` }) : h("span", {}, pct(sp(m).p50), h("small", { text: sp(m).below_p50 == null ? "" : `${pct(sp(m).below_p50)} below` }))), true]],
   D.markets, { sort: 2, dir: -1, onRow: (m) => { select(m.id); window.scrollTo({ top: 0, behavior: "smooth" }); }, current: (m) => m.id === S.market });
   stamp("markets-stamp", false, ` medians of active, recently seen listings (asking) except the last two columns, which are closed sales. Cities appear at ${D.summary.city_min_active_sale} active sale listings.`);
@@ -669,39 +753,45 @@ function renderStatic() {
   const rentN = (cur) => rentPy.filter(([k]) => !cur || k.endsWith(`|${cur}`)).reduce((a, [, rows]) => a + rows.reduce((b, x) => b + x[1], 0), 0);
   const fxMonths = Object.entries(D.trends.closed_rent.fx_monthly).sort((a, b) => (a[0] < b[0] ? -1 : 1));
   const band = s.rent_close_bands;
+  const full = counted().find((w) => w.role === "full_universe"), facet = counted().find((w) => w.role === "facet_bounded");
   const fill = {
     closes_sale: num(before.sale?.total), closes_rent: num(before.rent?.total), closes_before_sale: num(before.sale?.before),
     closes_before_rent: num(before.rent?.before), closes_after_sale: num(before.sale && before.sale.total - before.sale.before),
     closes_after_rent: num(before.rent && before.rent.total - before.rent.before), weeks_from: day(s.closes.weeks_from),
-    rent_pyg: num(rentN("PYG")), rent_all: num(rentN()),
+    rent_pyg: num(rentN("PYG")), rent_all: num(rentN()), rent_three: num(before.rent?.three_kinds),
     fx_rent_first: fxMonths.length ? `${num(fxMonths[0][1])} (${monthYear(fxMonths[0][0])})` : "-",
     fx_rent_last: fxMonths.length ? `${num(fxMonths.at(-1)[1])} (${monthYear(fxMonths.at(-1)[0])})` : "-",
     rent_bands: `${gs(band.PYG[0])} to ${num(band.PYG[1])} or USD ${num(band.USD[0])} to ${num(band.USD[1])}`,
-    fx_rate: num(s.fx.rate), fx_date: day(s.fx.date), email_fx: s.email.fx ? num(s.email.fx.rate) : "-",
-    email_age: s.email.stock_age.casa ? `${num(s.email.stock_age.casa.p50)} days (n ${num(s.email.stock_age.casa.n)})` : "-",
-    page_age: D.byId.get("py").asking_staleness_days.casa?.p50 != null ? `${num(D.byId.get("py").asking_staleness_days.casa.p50)} days (n ${num(D.byId.get("py").asking_staleness_days.casa.n)})` : "-",
-    assign_own: num(s.assignment.own), assign_nearest: num(s.assignment.nearest),
+    fx_rate: num(s.fx.rate), fx_date: day(s.fx.date),
+    assign_own: num(s.assignment.own), assign_nearest: num(s.assignment.nearest), assign_city: num(s.assignment.city_label || 0),
     assign_dept: num(s.assignment.nearest_dept), assign_none: num((s.assignment.no_coordinates || 0) + (s.assignment.unassigned || 0)),
-    age_sources: s.sources.filter((x) => x.staleness_used).map((x) => srcName(x.code)).join(", "),
+    age_sources: andList(s.sources.filter((x) => x.staleness_used).map((x) => srcName(x.code))),
     uprop_week: up ? `${Math.round(up.densest_week_share * 100)}%` : "most", map_placeholder: num(s.map.placeholder),
     map_points: num(s.map.placeholder_points), placeholder_min: num(s.map.placeholder_min),
-    seen_full: num(s.seen_days.full), seen_partial: num(s.seen_days.partial), active: num(s.active), listed: num(s.listed_active),
-    not_seen: num(s.listed_active - s.active), cov_min: `${Math.round(s.medians.coverage_min * 100)}%`,
-    med_sources: s.medians.sources.map(srcName).join(", "),
+    seen_full: full ? day(full.since) : "-", seen_facet: facet ? day(facet.since) : "-", active: num(s.active), listed: num(s.listed_active),
+    not_seen: num(s.listed_active - s.active), tracked: num(s.tracked), cov_min: `${Math.round(s.medians.coverage_min * 100)}%`,
+    med_sources: andList(s.medians.sources.map(srcName)),
     excluded: excluded.length ? excluded.map((x) => `${srcName(x.code)} at ${Math.round(x.priced_share * 100)}%`).join(", ") : "none",
     recon_from: day(s.recon.from), recon_days: num(s.recon.captured_days), rent_out: num(s.rent_closes_out_of_band),
-    reo_links: num(s.reo.item_links),
+    reo_links: num(s.reo.item_links), city_spread: num(s.city_max_spread_km),
+    cities_dropped: s.cities_dropped.length ? s.cities_dropped.map((c) => `${c.city}, ${c.department} (${num(c.spread_km)} km)`).join("; ") : "none today",
   };
   document.querySelectorAll("[data-s]").forEach((e) => { e.textContent = fill[e.dataset.s] ?? "-"; });
-  const PLACED = { own: "own labels", nearest: "nearest labeled listings", nearest_dept: "department only", no_coordinates: "not placed, no coordinates", unassigned: "not placed" };
+  const PLACED = { own: "own labels", city_label: "own city label", nearest: "nearest labeled listings", nearest_dept: "department only",
+    no_coordinates: "not placed, no coordinates", unassigned: "not placed" };
+  const ROLE = { full_universe: "whole panel every run", facet_bounded: "in parts, facet-bounded", closes_only: "closes only, per-id crawl by hand" };
+  const stock = (x) => x.role !== "closes_only";
   const placed = (x) => { const [k, n] = Object.entries(x.placement || {}).sort((a, b) => b[1] - a[1])[0] || []; return k ? `${PLACED[k] || k}, ${share(n, x.active)}` : "-"; };
-  table("t-sources", [["Source", (x) => srcName(x.code)], ["Listed active", (x) => x.listed, (x) => num(x.listed), true],
-    ["Seen in window", (x) => x.active, (x) => h("span", {}, num(x.active), h("small", { text: `${x.seen_days}d, ${share(x.active, x.listed)}` })), true],
-    ["With an ask", (x) => x.priced_share, (x) => share(x.priced, x.active), true],
-    ["In asking medians", (x) => (x.in_medians ? 1 : 0), (x) => (x.in_medians ? "yes" : h("span", { class: "muted", text: `no, under ${Math.round(s.medians.coverage_min * 100)}%` }))],
+  table("t-sources", [["Source", (x) => srcName(x.code)], ["Role", (x) => ROLE[x.role] || "none"],
+    ["Tracked", (x) => x.tracked, (x) => num(x.tracked), true],
+    ["Listed active", (x) => x.listed, (x) => (stock(x) ? num(x.listed) : h("span", { class: "muted" }, num(x.listed), h("small", { text: "not stock" }))), true],
+    ["Seen in window", (x) => x.active, (x) => (stock(x) ? h("span", {}, num(x.active), h("small", { text: `since ${dayShort(x.seen_since)}, ${share(x.active, x.listed)}` }))
+      : h("span", { class: "muted", text: "not counted" })), true],
+    ["With an ask", (x) => x.priced_share, (x) => (stock(x) ? share(x.priced, x.active) : "-"), true],
+    ["In asking medians", (x) => (x.in_medians ? 1 : 0), (x) => (x.in_medians ? "yes"
+      : h("span", { class: "muted", text: stock(x) ? `no, under ${Math.round(s.medians.coverage_min * 100)}%` : "no, closes only" }))],
     ["Last good pull", (x) => x.last_ok_pull || x.last_run, (x) => (x.last_ok_pull ? day(x.last_ok_pull) : x.last_run ? `none; last attempt ${day(x.last_run)}` : "none")],
-    ["Captured", (x) => x.full_universe, (x) => (x.full_universe ? "whole panel daily" : x.code === "c21" ? "partial crawl, irregular" : "changed listings daily, deep crawl weekly")],
-    ["Market from", placed]], s.sources, { sort: 2, dir: -1 });
+    ["Market from", placed]], s.sources, { sort: 4, dir: -1 });
   $("files").replaceChildren(...s.files.map((f) => h("li", {}, h("a", { href: "data/" + f.file, download: true, text: f.file }),
     ` ${f.description}. ${num(f.rows)} ${f.rows === 1 ? "row" : "rows"}, ${(f.bytes / 1024).toFixed(0)} KB`)));
 }
@@ -709,7 +799,7 @@ function renderStatic() {
 function render() {
   const m = market();
   renderHero(m); renderKpis(m); renderMap(m); renderFlow(); renderCloses(); renderRent(); renderSeries(); renderTwins();
-  renderTables(m); renderMarketsTable();
+  renderTables(m); renderRecentCloses(); renderMarketsTable();
 }
 
 function wire() {
@@ -722,6 +812,7 @@ function wire() {
   });
   seg("cell-kind", "cellKind", () => drawCells(true));
   seg("close-op", "closeOp", () => { renderCloses(); renderTwins(); });
+  seg("recent-op", "recentOp", renderRecentCloses);
   seg("series-metric", "metric", () => { renderSeries(); renderTwins(); });
   const layer = (id, group) => $(id).addEventListener("change", (e) => { if (e.target.checked) { group.addTo(map); raiseDots(); } else group.remove(); });
   layer("lyr-cells", cells); layer("lyr-cuts", cutDots); layer("lyr-reo", reoDots);
