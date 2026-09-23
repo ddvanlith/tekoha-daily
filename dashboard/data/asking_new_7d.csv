@@ -19,6 +19,7 @@ first_seen,place,area,kind,built_m2,bedrooms,asking,currency,asking_usd,asking_u
 2026-09-18,Asunción,,casa,290,5,1250000000,PYG,210901,727,infocasas,1,https://www.infocasas.com.py/vendo-residencia-en-sajonia/194273913,,
 2026-09-19,Asunción,Barrio Jara,casa,300,3,153000,USD,153000,510,infocasas,1,https://www.infocasas.com.py/venta-propiedad-en-barrio-jara-/194274995,-25.27955,-57.60423
 2026-09-21,Asunción,Los Laureles,casa,300,4,280000,USD,280000,933,infocasas,1,https://www.infocasas.com.py/en-venta-casa-los-laureles-asuncion-paraguay/194283288,,
+2026-09-23,Asunción,Trinidad,casa,300,4,920000000,PYG,155223,517,infocasas,1,https://www.infocasas.com.py/vendo-propiedad-santisima-trinidad-asuncion/194306643,-25.25628,-57.59064
 2026-09-20,Asunción,San Vicente,casa,300,6,850000000,PYG,143413,478,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/asuncion/143084005-98,-25.3109,-57.6251
 2026-09-22,Asunción,Obrero,casa,336,4,890000000,PYG,150161,447,infocasas,1,https://www.infocasas.com.py/vendo-casa-en-barrio-obrero-asuncion/194278860,-25.31045,-57.63639
 2026-09-22,Asunción,Pettirossi,casa,344,3,217000,USD,217000,631,infocasas,1,https://www.infocasas.com.py/hermosa-esquina/194286327,-25.29302,-57.63019
@@ -34,7 +35,6 @@ first_seen,place,area,kind,built_m2,bedrooms,asking,currency,asking_usd,asking_u
 2026-09-18,Asunción,Mburucuyá,departamento,70,2,120000,USD,120000,1714,infocasas,1,https://www.infocasas.com.py/estrena-hoy-departamento-de-2-dormitorios-c-cochera-en-mburucuya/194269828,,
 2026-09-22,Asunción,Barrio Jara,departamento,75,2,133750,USD,133750,1783,infocasas,1,https://www.infocasas.com.py/departamento-en-venta-de-2-habitaciones-con-cochera-incluida-en-barrio-jara-/194282717,-25.27488,-57.59669
 2026-09-23,Asunción,Sajonia,departamento,78,2,100000,USD,100000,1282,infocasas,1,https://www.infocasas.com.py/departamentoventasajonia-sajonia-asuncion/194296263,,
-2026-09-21,Asunción,Villa Morra,departamento,89,2,165700,USD,165700,1862,infocasas,1,https://www.infocasas.com.py/departamentos-amplios-de-2-habitaciones-en-construccion-barrio-villa-morra/194287493,-25.29784,-57.58115
 2026-09-21,Asunción,Barrio Jara,departamento,108,2,900000000,PYG,151849,1406,remax,1,https://www.remax.com.py/es-py/propiedades/departamento/venta/asuncion/143112002-46,-25.27882,-57.60738
 2026-09-17,Asunción,Las Mercedes,departamento,140,3,239000,USD,239000,1707,remax,1,https://www.remax.com.py/es-py/propiedades/departamento/venta/asuncion/143072073-154,-25.28733,-57.61844
 2026-09-23,Asunción,Las Lomas,departamento,150,3,200000,USD,200000,1333,infocasas,1,https://www.infocasas.com.py/divino-super-luminoso-amplio-y-comodo-dpto-en-la-mejor-zona-de-asuncion-de-3-dormitorios/194291961,-25.27328,-57.5729
@@ -79,6 +79,7 @@ first_seen,place,area,kind,built_m2,bedrooms,asking,currency,asking_usd,asking_u
 2026-09-19,"Ñemby, Central",,casa,80,2,380000000,PYG,64114,801,infocasas,1,https://www.infocasas.com.py/%C2%A1exclusiva-oportunidad-tu-hogar-so%C3%B1ado-en-%C3%B1emby-barrio-rincon-confort-y-estilo-a-tu-alcance/194271693,,
 2026-09-23,"Ñemby, Central",,casa,126,3,550000000,PYG,92796,736,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/nemby/143061077-31,,
 2026-09-23,"Ñemby, Central",,casa,258,2,650000000,PYG,109668,425,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/nemby/143061077-32,-25.39492,-57.51981
+2026-09-23,"Nueva Italia, Central",,casa,200,3,125000,USD,125000,625,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/nueva-italia/143063225-28,-25.60585,-57.48496
 2026-09-23,"San Antonio, Central",,casa,230,2,590000000,PYG,99545,433,infocasas,1,https://www.infocasas.com.py/-casaventapy-central-san-antonio-la-merced/194288777,-25.40469,-57.56093
 2026-09-17,"San Lorenzo, Central",,casa,50,2,300000000,PYG,50616,1012,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/san-lorenzo/143063199-76,-25.34713,-57.48206
 2026-09-22,"San Lorenzo, Central",,casa,60,2,335000000,PYG,56521,942,infocasas,1,https://www.infocasas.com.py/vendo-chalet-en-san-lorenzo-barrio-reducto/194290930,,

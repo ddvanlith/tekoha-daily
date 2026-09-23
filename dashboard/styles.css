@@ -57,6 +57,13 @@ button, input { font: inherit; color: inherit; }
 .hero h1 { font-family: var(--display); font-weight: 800; font-size: clamp(30px, 5vw, 46px); letter-spacing: -.02em; margin: 6px 0 4px; line-height: 1.05; }
 .hero p { margin: 0; color: var(--ink-2); max-width: 820px; }
 
+/* since yesterday: the email's 26-hour line for the selected market */
+.changed { background: var(--panel); border: 1px solid var(--line); border-left: 3px solid var(--gold); border-radius: 6px; padding: 12px 16px; margin-bottom: 16px; }
+.changed p { margin: 0; font-size: 15px; line-height: 1.55; }
+.changed .stamp { margin-top: 6px; }
+.hero .borrow { margin: 4px 0 8px; max-width: 820px; color: #e0b458; }
+.newtag { display: inline-block; font-family: var(--mono); font-size: 9px; font-weight: 600; letter-spacing: 1px; background: var(--gold); color: #171310; border-radius: 3px; padding: 0 4px; margin-left: 6px; vertical-align: 1px; }
+
 /* asking / closed tags: every number on the page wears one */
 .tag { display: inline-block; font-family: var(--mono); font-size: 9.5px; letter-spacing: 1.5px; padding: 1px 6px; border-radius: 3px; border: 1px solid var(--gold); color: var(--gold-ink); vertical-align: 2px; margin-right: 6px; }
 .tag.closed { border-color: var(--closed); color: var(--closed); }
@@ -119,6 +126,7 @@ button, input { font: inherit; color: inherit; }
 a.ext { color: var(--gold-ink); text-decoration: underline; text-decoration-color: var(--line-2); text-underline-offset: 3px; }
 a.ext:hover { text-decoration-color: var(--gold-ink); }
 .legend { display: flex; flex-wrap: wrap; gap: 6px 18px; align-items: center; margin-top: 10px; font-size: 12px; color: var(--ink-2); }
+.legend .offmap { flex-basis: 100%; color: #e0b458; }
 .ramp { display: inline-flex; align-items: stretch; gap: 2px; }
 .ramp span { display: inline-flex; flex-direction: column; align-items: center; font-family: var(--mono); font-size: 9.5px; color: var(--ink-3); }
 .ramp i { display: block; width: 44px; height: 10px; border-radius: 2px; margin-bottom: 3px; }
@@ -151,6 +159,9 @@ td.cut { color: #e79a77; font-weight: 600; }
 tr.pickable { cursor: pointer; }
 tr.pickable:hover td, tr.current td { background: var(--panel-2); }
 td small { color: var(--ink-3); font-size: 11px; margin-left: 4px; }
+td small.under { display: block; margin-left: 0; }
+#t-closes th, #t-closes td { padding-left: 8px; padding-right: 8px; }
+td .wrapcell { display: inline-block; white-space: normal; min-width: 7em; max-width: 11em; }
 .flag { font-family: var(--mono); font-size: 9.5px; border: 1px solid #c98500; color: #e0b458; border-radius: 3px; padding: 0 4px; margin-left: 6px; }
 
 /* method notes */

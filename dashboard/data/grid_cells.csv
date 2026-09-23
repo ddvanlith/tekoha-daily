@@ -92,14 +92,14 @@ cell_deg,lat,lon,n_sale,asking_median_usd,asking_n,casa_asking_usd_m2,casa_n,dep
 0.01,-25.21,-57.53,13,121000,8,,4,,0,Central,Mariano Roque Alonso
 0.01,-25.21,-57.52,16,146000,12,696,5,,0,Central,Mariano Roque Alonso
 0.01,-25.21,-57.54,13,102000,12,,2,,0,Central,Mariano Roque Alonso
-0.01,-25.21,-57.55,6,,3,,1,,0,Central,Mariano Roque Alonso
+0.01,-25.21,-57.55,7,,3,,1,,0,Central,Mariano Roque Alonso
 0.01,-25.2,-57.55,14,54000,9,,3,,0,Central,Mariano Roque Alonso
 0.01,-25.2,-57.54,21,76000,16,,3,,0,Central,Mariano Roque Alonso
 0.01,-25.19,-57.54,9,51000,6,,0,,0,Central,Mariano Roque Alonso
 0.01,-25.19,-57.6,5,,2,,0,,0,Presidente Hayes,Villa Hayes
 0.01,-25.21,-57.62,26,52000,22,,0,,0,Presidente Hayes,Villa Hayes
 0.01,-25.21,-57.61,7,112000,7,,0,,0,Presidente Hayes,Villa Hayes
-0.01,-25.22,-57.61,7,,3,,0,,0,Presidente Hayes,
+0.01,-25.22,-57.61,7,,3,,0,,0,Central,
 0.01,-25.23,-57.61,14,151000,6,,0,,0,Presidente Hayes,Villa Hayes
 0.01,-25.23,-57.62,5,,3,,0,,0,Presidente Hayes,Villa Hayes
 0.01,-25.25,-57.59,5,,2,,2,,0,Asunción,
@@ -132,17 +132,17 @@ cell_deg,lat,lon,n_sale,asking_median_usd,asking_n,casa_asking_usd_m2,casa_n,dep
 0.01,-25.27,-57.52,15,88000,12,,2,,0,Central,Luque
 0.01,-25.27,-57.54,5,,4,,0,,0,Central,Luque
 0.01,-25.28,-57.54,37,78000,20,,2,,1,Central,Luque
-0.01,-25.28,-57.55,141,130000,78,,3,1727,15,Asunción,
-0.01,-25.28,-57.56,229,165000,121,,4,2076,34,Asunción,
+0.01,-25.28,-57.55,140,127000,77,,3,1662,14,Asunción,
+0.01,-25.28,-57.56,231,165000,122,,4,2076,34,Asunción,
 0.01,-25.27,-57.56,116,152000,60,1288,8,1813,17,Asunción,
 0.01,-25.27,-57.55,67,218000,36,,3,2032,7,Asunción,
 0.01,-25.26,-57.56,47,150000,16,,2,,4,Asunción,
 0.01,-25.26,-57.55,38,252000,18,1349,11,,0,Asunción,
 0.01,-25.26,-57.57,85,330000,32,,4,2670,12,Asunción,
 0.01,-25.26,-57.58,83,135000,40,,4,1418,15,Asunción,
-0.01,-25.26,-57.59,35,194000,17,725,7,,2,Asunción,
+0.01,-25.26,-57.59,36,194000,17,725,7,,2,Asunción,
 0.01,-25.26,-57.6,5,,4,,1,,0,Asunción,
-0.01,-25.27,-57.6,59,234000,32,,4,2057,8,Asunción,
+0.01,-25.27,-57.6,60,234000,32,,4,2057,8,Asunción,
 0.01,-25.27,-57.62,9,106000,9,,2,,0,Central,Luque
 0.01,-25.27,-57.61,16,178000,15,,2,1522,8,Asunción,
 0.01,-25.28,-57.62,24,220000,15,,0,,4,Asunción,
@@ -152,8 +152,8 @@ cell_deg,lat,lon,n_sale,asking_median_usd,asking_n,casa_asking_usd_m2,casa_n,dep
 0.01,-25.28,-57.58,73,220000,13,1038,5,,2,Asunción,
 0.01,-25.27,-57.59,15,218000,12,,4,,1,Asunción,
 0.01,-25.27,-57.58,70,277000,21,1364,5,1936,5,Asunción,
-0.01,-25.27,-57.57,188,165000,101,1201,12,2006,43,Asunción,
-0.01,-25.28,-57.57,387,200000,214,1520,13,2325,75,Asunción,
+0.01,-25.27,-57.57,190,165000,103,1201,12,2006,45,Asunción,
+0.01,-25.28,-57.57,386,200000,213,1520,13,2323,74,Asunción,
 0.01,-25.29,-57.57,147,195000,68,1015,10,1926,15,Asunción,
 0.01,-25.29,-57.58,219,128000,134,,3,1835,56,Asunción,
 0.01,-25.29,-57.59,95,197000,42,,3,1813,13,Asunción,
@@ -163,7 +163,7 @@ cell_deg,lat,lon,n_sale,asking_median_usd,asking_n,casa_asking_usd_m2,casa_n,dep
 0.01,-25.3,-57.6,118,210000,24,1316,8,,2,Asunción,
 0.01,-25.3,-57.61,71,230000,28,844,6,,2,Asunción,
 0.01,-25.3,-57.62,58,168000,33,695,6,,0,Asunción,
-0.01,-25.31,-57.62,47,225000,21,688,12,,0,Asunción,
+0.01,-25.31,-57.62,48,225000,21,688,12,,0,Asunción,
 0.01,-25.31,-57.61,49,191000,26,643,6,,1,Asunción,
 0.01,-25.31,-57.6,49,540000,18,,3,,0,Asunción,
 0.01,-25.31,-57.59,57,255000,24,1188,7,,0,Asunción,
@@ -177,7 +177,7 @@ cell_deg,lat,lon,n_sale,asking_median_usd,asking_n,casa_asking_usd_m2,casa_n,dep
 0.01,-25.31,-57.54,27,130000,15,844,7,,0,Central,Fernando de la Mora
 0.01,-25.3,-57.54,37,180000,25,829,8,,1,Central,Fernando de la Mora
 0.01,-25.3,-57.55,86,169000,50,1400,7,1651,14,Asunción,
-0.01,-25.3,-57.56,164,160000,95,1022,10,1530,22,Asunción,
+0.01,-25.3,-57.56,163,165000,94,1022,10,1528,21,Asunción,
 0.01,-25.29,-57.55,140,133000,68,,3,1842,23,Asunción,
 0.01,-25.29,-57.56,242,248000,122,1003,15,2044,29,Asunción,
 0.01,-25.29,-57.54,79,74000,58,,3,1435,10,Central,Luque
@@ -188,7 +188,7 @@ cell_deg,lat,lon,n_sale,asking_median_usd,asking_n,casa_asking_usd_m2,casa_n,dep
 0.01,-25.3,-57.52,23,101000,12,,3,,1,Central,Luque
 0.01,-25.3,-57.53,20,143000,15,725,6,,1,Central,San Lorenzo
 0.01,-25.31,-57.53,59,174000,34,703,9,,0,Central,Fernando de la Mora
-0.01,-25.31,-57.52,57,163000,38,1179,16,,1,Central,San Lorenzo
+0.01,-25.31,-57.52,58,162000,39,1179,16,,1,Central,San Lorenzo
 0.01,-25.31,-57.51,9,124000,8,,2,,0,Central,San Lorenzo
 0.01,-25.32,-57.51,8,157000,8,,2,,0,Central,San Lorenzo
 0.01,-25.32,-57.53,53,160000,38,859,12,,4,Central,Fernando de la Mora
@@ -200,7 +200,7 @@ cell_deg,lat,lon,n_sale,asking_median_usd,asking_n,casa_asking_usd_m2,casa_n,dep
 0.01,-25.33,-57.55,30,145000,19,1248,5,,2,Central,Fernando de la Mora
 0.01,-25.33,-57.56,14,197000,10,,4,,2,Central,Fernando de la Mora
 0.01,-25.34,-57.56,31,160000,19,810,9,,0,Central,Fernando de la Mora
-0.01,-25.34,-57.55,23,204000,12,553,5,,0,Central,Fernando de la Mora
+0.01,-25.34,-57.55,24,204000,13,553,6,,0,Central,Fernando de la Mora
 0.01,-25.34,-57.54,16,185000,13,617,6,,0,Central,San Lorenzo
 0.01,-25.34,-57.53,21,36000,14,,2,,0,Central,San Lorenzo
 0.01,-25.33,-57.53,38,125000,21,,4,,2,Central,Fernando de la Mora
@@ -284,7 +284,7 @@ cell_deg,lat,lon,n_sale,asking_median_usd,asking_n,casa_asking_usd_m2,casa_n,dep
 0.01,-25.29,-57.66,97,176000,18,537,5,,0,Asunción,
 0.01,-25.29,-57.67,23,107000,11,,1,,0,Asunción,
 0.01,-25.28,-57.66,26,118000,11,,3,,0,Asunción,
-0.01,-25.28,-57.65,35,136000,12,,1,,0,Asunción,
+0.01,-25.28,-57.65,36,98000,13,,1,,0,Asunción,
 0.01,-25.28,-57.64,54,138000,35,,3,,1,Asunción,
 0.01,-25.28,-57.63,22,250000,11,,1,,2,Asunción,
 0.01,-25.42,-57.57,15,,1,,0,,0,Central,San Antonio
@@ -384,7 +384,7 @@ cell_deg,lat,lon,n_sale,asking_median_usd,asking_n,casa_asking_usd_m2,casa_n,dep
 0.01,-25.39,-57.29,7,,1,,1,,0,Central,Ypacaraí
 0.01,-25.39,-57.3,8,,3,,1,,0,Central,Ypacaraí
 0.01,-25.38,-57.31,5,,2,,0,,0,Central,Ypacaraí
-0.01,-25.38,-57.3,40,63000,23,,0,,0,Central,Ypacaraí
+0.01,-25.38,-57.3,41,63000,23,,0,,0,Central,Ypacaraí
 0.01,-25.38,-57.33,10,,2,,0,,0,Central,Itauguá
 0.01,-25.39,-57.34,6,,4,,1,,0,Central,Itauguá
 0.01,-25.39,-57.32,5,,2,,1,,0,Central,Itauguá
@@ -423,7 +423,7 @@ cell_deg,lat,lon,n_sale,asking_median_usd,asking_n,casa_asking_usd_m2,casa_n,dep
 0.01,-25.42,-57.48,5,,3,,0,,0,Central,Capiatá
 0.01,-25.41,-57.47,10,39000,5,,2,,0,Central,Capiatá
 0.01,-25.41,-57.48,8,,2,,0,,0,Central,Capiatá
-0.01,-25.4,-57.49,5,,4,,2,,0,Central,San Lorenzo
+0.01,-25.4,-57.49,6,44000,5,,2,,0,Central,San Lorenzo
 0.01,-25.4,-57.5,5,,4,,1,,0,Central,Capiatá
 0.01,-25.4,-57.47,5,,2,,0,,0,Central,Capiatá
 0.01,-25.4,-57.48,8,,4,,1,,0,Central,Capiatá
@@ -476,7 +476,7 @@ cell_deg,lat,lon,n_sale,asking_median_usd,asking_n,casa_asking_usd_m2,casa_n,dep
 0.01,-25.32,-57.45,5,,2,,1,,0,Central,Capiatá
 0.01,-25.33,-57.44,5,,4,,1,,0,Central,Capiatá
 0.01,-25.33,-57.45,8,,4,,2,,0,Central,Capiatá
-0.01,-25.34,-57.44,12,84000,8,,3,,0,Central,Capiatá
+0.01,-25.34,-57.44,13,76000,9,,3,,0,Central,Capiatá
 0.01,-25.34,-57.45,7,,4,,3,,0,Central,Capiatá
 0.01,-25.34,-57.46,5,,4,,3,,0,Central,Capiatá
 0.01,-25.33,-57.46,10,67000,5,,2,,0,Central,Capiatá
@@ -615,6 +615,7 @@ cell_deg,lat,lon,n_sale,asking_median_usd,asking_n,casa_asking_usd_m2,casa_n,dep
 0.01,-27.23,-56.2,6,42000,6,,2,,0,Itapúa,
 0.01,-27.22,-56.15,6,95000,6,,1,,0,Itapúa,
 0.01,-27.22,-56.14,11,29000,11,,3,,0,Itapúa,
+0.01,-27.41,-55.82,5,297000,5,,2,,0,Itapúa,Encarnación
 0.01,-27.38,-55.82,5,29000,5,,1,,0,Itapúa,Encarnación
 0.01,-27.4,-55.82,5,13000,5,,0,,0,Itapúa,Encarnación
 0.01,-27.28,-55.8,6,34000,6,,3,,0,Itapúa,Cambyretá
@@ -690,7 +691,7 @@ cell_deg,lat,lon,n_sale,asking_median_usd,asking_n,casa_asking_usd_m2,casa_n,dep
 0.01,-25.55,-54.62,9,160000,9,,2,,0,Alto Paraná,
 0.01,-25.53,-54.62,5,219000,5,,2,,0,Alto Paraná,Ciudad del Este
 0.01,-25.53,-54.61,9,161000,9,,2,,0,Alto Paraná,Ciudad del Este
-0.01,-25.52,-54.62,12,141000,12,,2,,4,Alto Paraná,Ciudad del Este
+0.01,-25.52,-54.62,11,143000,11,,2,,4,Alto Paraná,Ciudad del Este
 0.01,-25.52,-54.61,5,38000,5,,1,,0,Alto Paraná,Ciudad del Este
 0.01,-25.51,-54.61,6,230000,6,,0,,1,Alto Paraná,Ciudad del Este
 0.01,-25.51,-54.62,6,137000,6,,0,,1,Alto Paraná,Ciudad del Este
@@ -765,16 +766,16 @@ cell_deg,lat,lon,n_sale,asking_median_usd,asking_n,casa_asking_usd_m2,casa_n,dep
 0.05,-25.2,-57.65,18,126000,9,,3,,0,Central,
 0.05,-25.2,-57.7,13,18000,12,,0,,0,Presidente Hayes,
 0.05,-25.15,-57.55,11,226000,9,,1,,0,Presidente Hayes,Villa Hayes
-0.05,-25.2,-57.55,154,100000,108,569,25,,1,Central,Mariano Roque Alonso
+0.05,-25.2,-57.55,155,100000,108,569,25,,1,Central,Mariano Roque Alonso
 0.05,-25.2,-57.6,52,77000,40,,0,,0,Presidente Hayes,Villa Hayes
-0.05,-25.25,-57.6,331,200000,166,725,31,1596,41,Asunción,
-0.05,-25.25,-57.55,817,154000,360,1201,60,1974,86,Asunción,
-0.05,-25.3,-57.6,2278,164000,985,912,153,1650,222,Asunción,
-0.05,-25.3,-57.55,2472,169000,1276,970,178,1875,271,Asunción,
-0.05,-25.35,-57.55,417,121000,237,800,85,1107,8,Central,Fernando de la Mora
+0.05,-25.25,-57.6,333,200000,166,725,31,1596,41,Asunción,
+0.05,-25.25,-57.55,819,157000,362,1201,60,1990,88,Asunción,
+0.05,-25.3,-57.6,2279,164000,985,912,153,1650,222,Asunción,
+0.05,-25.3,-57.55,2471,169000,1274,970,178,1870,268,Asunción,
+0.05,-25.35,-57.55,418,122000,238,788,86,1107,8,Central,Fernando de la Mora
 0.05,-25.35,-57.6,639,127000,333,709,125,1202,6,Central,Lambaré
 0.05,-25.35,-57.65,317,150000,158,820,51,1218,10,Central,Lambaré
-0.05,-25.3,-57.65,843,135000,349,560,73,1386,25,Asunción,
+0.05,-25.3,-57.65,844,135000,350,560,73,1386,25,Asunción,
 0.05,-25.4,-57.6,199,67000,75,781,24,,2,Central,Villa Elisa
 0.05,-25.4,-57.55,430,67000,157,624,62,,2,Central,Ñemby
 0.05,-25.45,-57.55,209,40000,80,759,15,,0,Central,Ypané
@@ -788,15 +789,15 @@ cell_deg,lat,lon,n_sale,asking_median_usd,asking_n,casa_asking_usd_m2,casa_n,dep
 0.05,-25.5,-57.35,74,30000,22,,3,,0,Central,Itá
 0.05,-25.45,-57.3,23,61000,10,,0,,0,Central,Itauguá
 0.05,-25.45,-57.35,49,19000,39,727,8,,0,Central,Itauguá
-0.05,-25.4,-57.3,149,59000,61,699,11,,0,Central,Ypacaraí
+0.05,-25.4,-57.3,150,59000,61,699,11,,0,Central,Ypacaraí
 0.05,-25.4,-57.35,190,49000,109,637,30,,1,Central,Itauguá
 0.05,-25.4,-57.4,86,51000,30,443,9,,0,Central,Itauguá
-0.05,-25.4,-57.5,187,57000,97,583,41,,0,Central,San Lorenzo
+0.05,-25.4,-57.5,188,57000,98,583,41,,0,Central,San Lorenzo
 0.05,-25.4,-57.45,154,47000,67,691,32,,0,Central,Capiatá
 0.05,-25.35,-57.5,321,118000,192,714,77,,2,Central,San Lorenzo
-0.05,-25.35,-57.45,197,69000,105,564,52,,0,Central,Capiatá
+0.05,-25.35,-57.45,198,68000,106,564,52,,0,Central,Capiatá
 0.05,-25.35,-57.4,156,42000,84,453,21,,0,Central,Areguá
-0.05,-25.3,-57.5,408,113000,291,810,97,1129,12,Central,Luque
+0.05,-25.3,-57.5,409,113000,292,810,97,1129,12,Central,Luque
 0.05,-25.3,-57.45,181,76000,106,769,41,,0,Central,Luque
 0.05,-25.3,-57.4,127,42000,62,769,12,,0,Central,Areguá
 0.05,-25.3,-57.35,24,63000,10,,2,,0,Central,Areguá
@@ -826,7 +827,7 @@ cell_deg,lat,lon,n_sale,asking_median_usd,asking_n,casa_asking_usd_m2,casa_n,dep
 0.05,-25.65,-57.45,7,,0,,0,,0,Central,Nueva Italia
 0.05,-25.65,-57.5,16,,3,,0,,0,Central,Nueva Italia
 0.05,-25.6,-57.45,26,,4,,1,,0,Central,Nueva Italia
-0.05,-25.6,-57.5,17,,3,,0,,0,Central,Nueva Italia
+0.05,-25.6,-57.5,19,35000,5,,1,,0,Central,Nueva Italia
 0.05,-25.55,-57.35,11,101000,7,,0,,0,Central,Itá
 0.05,-25.55,-57.3,15,45000,14,,1,,0,Paraguarí,
 0.05,-25.55,-57.4,6,,0,,0,,0,Central,Itá
@@ -848,7 +849,7 @@ cell_deg,lat,lon,n_sale,asking_median_usd,asking_n,casa_asking_usd_m2,casa_n,dep
 0.05,-27.2,-56.15,18,43000,18,475,5,,0,Itapúa,
 0.05,-27.25,-56.2,6,42000,6,,2,,0,Itapúa,
 0.05,-27.4,-55.85,10,46000,10,,1,,0,Itapúa,Encarnación
-0.05,-27.4,-55.8,18,52000,18,,3,,0,Itapúa,Encarnación
+0.05,-27.4,-55.8,19,56000,19,,3,,0,Itapúa,Encarnación
 0.05,-27.4,-55.75,5,67000,5,,0,,0,Itapúa,Cambyretá
 0.05,-27.35,-55.75,11,232000,11,,3,,0,Itapúa,Cambyretá
 0.05,-27.3,-55.85,149,84000,149,516,36,,4,Itapúa,Encarnación
@@ -893,7 +894,7 @@ cell_deg,lat,lon,n_sale,asking_median_usd,asking_n,casa_asking_usd_m2,casa_n,dep
 0.05,-25.5,-54.75,35,34000,35,519,5,,0,Alto Paraná,Minga Guazú
 0.05,-25.5,-54.7,78,74000,78,540,13,1253,6,Alto Paraná,Ciudad del Este
 0.05,-25.5,-54.65,100,130000,93,815,30,,1,Alto Paraná,Ciudad del Este
-0.05,-25.5,-54.6,39,134000,38,1305,6,1203,6,Alto Paraná,Ciudad del Este
+0.05,-25.5,-54.6,38,138000,37,1305,6,1203,6,Alto Paraná,Ciudad del Este
 0.05,-25.4,-55.35,11,70000,10,,0,,0,Alto Paraná,
 0.05,-25.35,-55.7,6,,1,,0,,0,Caaguazú,
 0.05,-25.4,-55.85,6,68000,5,,0,,0,Caaguazú,
@@ -917,10 +918,10 @@ cell_deg,lat,lon,n_sale,asking_median_usd,asking_n,casa_asking_usd_m2,casa_n,dep
 0.25,-25.25,-57,36,40000,36,,0,,0,Cordillera,Caacupé
 0.25,-25.25,-56.75,8,72000,8,,0,,0,Cordillera,
 0.25,-25.25,-57.25,681,72000,575,935,106,2069,9,Cordillera,San Bernardino
-0.25,-25.25,-57.5,9969,132000,5273,844,1276,1765,661,Asunción,
-0.25,-25.25,-57.75,1251,135000,559,676,127,1265,35,Asunción,
-0.25,-25.5,-57.5,1876,56000,719,627,223,,4,Central,Ñemby
-0.25,-25.5,-57.25,691,47000,412,571,78,,2,Central,Itauguá
+0.25,-25.25,-57.5,9977,132000,5276,844,1277,1768,660,Asunción,
+0.25,-25.25,-57.75,1252,135000,560,676,127,1265,35,Asunción,
+0.25,-25.5,-57.5,1879,56000,722,626,224,,4,Central,Ñemby
+0.25,-25.5,-57.25,692,47000,412,571,78,,2,Central,Itauguá
 0.25,-25.75,-57.25,11,130000,9,433,5,,0,Paraguarí,
 0.25,-25.75,-57.5,24,,3,,0,,0,Central,Nueva Italia
 0.25,-26,-57.25,7,17000,7,,0,,0,Paraguarí,
@@ -936,7 +937,7 @@ cell_deg,lat,lon,n_sale,asking_median_usd,asking_n,casa_asking_usd_m2,casa_n,dep
 0.25,-26.75,-57.25,9,84000,9,,1,,0,Misiones,
 0.25,-27.5,-56.75,5,100000,5,,2,,0,Misiones,
 0.25,-27.25,-56.25,47,51000,44,481,8,,0,Itapúa,
-0.25,-27.5,-55.75,38,62000,38,,4,,0,Itapúa,Encarnación
+0.25,-27.5,-55.75,39,66000,39,,4,,0,Itapúa,Encarnación
 0.25,-27.25,-56,239,81000,239,841,47,,2,Itapúa,Encarnación
 0.25,-27.25,-55.75,714,84000,697,720,155,1221,22,Itapúa,Encarnación
 0.25,-26.75,-55.5,5,210000,5,,0,,0,Itapúa,
@@ -949,7 +950,7 @@ cell_deg,lat,lon,n_sale,asking_median_usd,asking_n,casa_asking_usd_m2,casa_n,dep
 0.25,-25.75,-55,83,100000,82,740,22,,1,Alto Paraná,
 0.25,-25.5,-55,10,93000,10,,1,,0,Alto Paraná,
 0.25,-25.5,-54.75,471,74000,458,729,105,1481,10,Alto Paraná,Ciudad del Este
-0.25,-25.5,-54.5,101,127000,99,791,20,1203,6,Alto Paraná,Ciudad del Este
+0.25,-25.5,-54.5,100,127000,98,791,20,1203,6,Alto Paraná,Ciudad del Este
 0.25,-25.25,-54.5,6,42000,6,,1,,0,Alto Paraná,Hernandarias
 0.25,-25.25,-54.75,25,70000,25,583,6,,0,Alto Paraná,Hernandarias
 0.25,-25.5,-55.25,19,77000,18,,2,,0,Alto Paraná,
