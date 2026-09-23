@@ -29,8 +29,8 @@ observed,place,area,kind,built_m2,asking_old,asking_new,currency,asking_new_usd,
 2026-09-17,"Lambaré, Central",,duplex,220,850000000,750000000,PYG,126541,-11.8,239,remax,1,-25.3689,-57.63257
 2026-09-23,Cordillera,,terreno,,260000000,230000000,PYG,38806,-11.5,250,remax,1,-25.30892,-56.89678
 2026-09-18,"San Lorenzo, Central",,casa,100,1125000000,999000000,PYG,168552,-11.2,652,remax,1,-25.34562,-57.50257
-2026-09-23,"Ciudad del Este, Alto Paraná",,terreno,,450000000,400000000,PYG,67488,-11.1,97,remax,1,-25.47066,-54.67212
 2026-09-23,"Hernandarias, Alto Paraná",,terreno,150,450000000,400000000,PYG,67488,-11.1,92,remax,1,-25.40806,-54.627
+2026-09-23,"Ciudad del Este, Alto Paraná",,terreno,,450000000,400000000,PYG,67488,-11.1,97,remax,1,-25.47066,-54.67212
 2026-09-20,"Cambyretá, Itapúa",,casa,69,450000000,400000000,PYG,67488,-11.1,232,remax,1,-27.34193,-55.82437
 2026-09-23,"Limpio, Central",,casa,50,325000000,290000000,PYG,48929,-10.8,37,remax,1,-25.19801,-57.46438
 2026-09-17,Cordillera,,terreno,,140000000,125000000,PYG,21090,-10.7,230,remax,1,-25.12198,-57.34159
@@ -38,12 +38,12 @@ observed,place,area,kind,built_m2,asking_old,asking_new,currency,asking_new_usd,
 2026-09-21,"Ciudad del Este, Alto Paraná",,deposito,510,335000,300000,USD,300000,-10.4,42,remax,1,-25.50266,-54.66358
 2026-09-23,"Hernandarias, Alto Paraná",,terreno,,500000000,450000000,PYG,75924,-10,126,remax,1,-25.42093,-54.65025
 2026-09-23,Asunción,Barrio Jara,casa,318,1500000000,1350000000,PYG,227773,-10,34,remax,1,-25.2748,-57.60117
-2026-09-17,Asunción,Las Lomas (Carmelitas),casa,234,422000,380000,USD,380000,-10,222,remax,1,-25.27749,-57.5691
 2026-09-17,"San Bernardino, Cordillera",,casa,270,200000,180000,USD,180000,-10,632,remax,1,-25.34615,-57.27057
+2026-09-17,Asunción,Las Lomas (Carmelitas),casa,234,422000,380000,USD,380000,-10,222,remax,1,-25.27749,-57.5691
 2026-09-18,Cordillera,,casa,1500,770000000,695000000,PYG,117261,-9.7,96,remax,1,-25.29722,-57.15853
 2026-09-23,"Limpio, Central",,casa,48,220000000,199000000,PYG,33575,-9.5,20,remax,1,-25.1927,-57.48877
-2026-09-19,"Ñemby, Central",,terreno,,210000000,190000000,PYG,32057,-9.5,244,remax,1,-25.40689,-57.52551
 2026-09-19,Asunción,San Roque,casa,292,210000,190000,USD,190000,-9.5,194,remax,1,-25.30311,-57.62569
+2026-09-19,"Ñemby, Central",,terreno,,210000000,190000000,PYG,32057,-9.5,244,remax,1,-25.40689,-57.52551
 2026-09-18,Asunción,Recoleta,terreno,,2630000000,2380000000,PYG,401555,-9.5,79,remax,1,-25.56281,-57.50799
 2026-09-18,"Fernando de la Mora, Central",,casa,300,2211000000,2000000000,PYG,337441,-9.5,62,remax,1,-25.32166,-57.53308
 2026-09-23,"Itauguá, Central",,casa,110,330000000,300000000,PYG,50616,-9.1,47,remax,1,-25.40164,-57.37041
@@ -75,10 +75,11 @@ observed,place,area,kind,built_m2,asking_old,asking_new,currency,asking_new_usd,
 2026-09-22,"Luque, Central",,casa,300,1200000000,1150000000,PYG,194029,-4.2,97,remax,1,-25.24553,-57.50505
 2026-09-20,"Caacupé, Cordillera",,casa,350,730000000,700000000,PYG,118104,-4.1,222,remax,1,-25.38035,-57.14252
 2026-09-23,"Ñemby, Central",,duplex,210,780000000,750000000,PYG,126541,-3.8,196,remax,1,-25.37399,-57.53278
-2026-09-23,"Itauguá, Central",,casa,180,270000000,260000000,PYG,43867,-3.7,204,remax,1,-25.39277,-57.39677
 2026-09-23,"Limpio, Central",,terreno,,300000000,289000000,PYG,48760,-3.7,216,infocasas,1,-25.16112,-57.472
+2026-09-23,"Itauguá, Central",,casa,180,270000000,260000000,PYG,43867,-3.7,204,remax,1,-25.39277,-57.39677
 2026-09-22,"Loma Plata, Boquerón",,terreno,,136000000,131000000,PYG,22102,-3.7,84,remax,1,-22.55546,-59.82585
 2026-09-17,"Ciudad del Este, Alto Paraná",,departamento,,161000,155000,USD,155000,-3.7,218,remax,1,-25.51215,-54.63778
+2026-09-23,"Areguá, Central",,terreno,,140000,135000,USD,135000,-3.6,136,remax,1,-25.30524,-57.38768
 2026-09-22,"Ñemby, Central",,terreno,,850000000,820000000,PYG,138351,-3.5,51,remax,1,-25.37414,-57.55716
 2026-09-22,Asunción,Mburucuyá,casa,230,1450000000,1400000000,PYG,236209,-3.4,749,infocasas,1,-25.26508,-57.5753
 2026-09-23,"Lambaré, Central",,casa,540,600000,580000,USD,580000,-3.3,13,infocasas,1,-25.36945,-57.63357
