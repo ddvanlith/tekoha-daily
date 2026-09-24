@@ -18,12 +18,12 @@ py,Paraguay,sale,terreno,2025-07-01,56,-6.6,32.1,-9.6,36
 py,Paraguay,sale,terreno,2025-10-01,139,-3,39.6,-9.4,80
 py,Paraguay,sale,terreno,2026-01-01,137,-3.4,42.3,-7.4,78
 py,Paraguay,sale,terreno,2026-04-01,111,-4,38.7,-7.4,68
-py,Paraguay,sale,terreno,2026-07-01,121,-3.3,40.5,-8.7,72
+py,Paraguay,sale,terreno,2026-07-01,122,-3.2,41,-8.7,72
 py,Paraguay,sale,all,2025-07-01,107,-4.6,34.6,-9.1,67
 py,Paraguay,sale,all,2025-10-01,296,-2.9,37.8,-8.1,176
 py,Paraguay,sale,all,2026-01-01,255,-3,39.6,-7.1,150
 py,Paraguay,sale,all,2026-04-01,265,-2.8,41.5,-7.1,147
-py,Paraguay,sale,all,2026-07-01,239,-2.9,41,-7.4,137
+py,Paraguay,sale,all,2026-07-01,240,-2.9,41.3,-7.4,137
 py,Paraguay,rent,casa,2025-07-01,46,0,69.6,,11
 py,Paraguay,rent,casa,2025-10-01,97,0,79.4,,16
 py,Paraguay,rent,casa,2026-01-01,115,0,79.1,,23
@@ -90,12 +90,12 @@ d:central,Central,sale,terreno,2025-07-01,30,-8.5,16.7,,24
 d:central,Central,sale,terreno,2025-10-01,75,-3.1,40,-11.1,43
 d:central,Central,sale,terreno,2026-01-01,77,-3.6,37.7,-7.9,48
 d:central,Central,sale,terreno,2026-04-01,67,-4.5,37.3,-7.2,42
-d:central,Central,sale,terreno,2026-07-01,57,-4.4,35.1,-9.1,37
+d:central,Central,sale,terreno,2026-07-01,58,-4.4,36.2,-9.1,37
 d:central,Central,sale,all,2025-07-01,57,-6.3,26.3,-9.1,40
 d:central,Central,sale,all,2025-10-01,167,-2.9,34.7,-8.1,104
 d:central,Central,sale,all,2026-01-01,129,-3.1,39.5,-7,78
 d:central,Central,sale,all,2026-04-01,147,-2.8,39.5,-6.7,83
-d:central,Central,sale,all,2026-07-01,114,-4.3,35.1,-7.8,74
+d:central,Central,sale,all,2026-07-01,115,-4.3,35.7,-7.8,74
 d:central,Central,sale,departamento,2025-10-01,8,,,,5
 d:central,Central,sale,departamento,2026-01-01,3,,,,1
 d:central,Central,sale,departamento,2026-04-01,16,,,,5
@@ -294,12 +294,12 @@ c:central:nemby,Ñemby,sale,terreno,2025-07-01,4,,,,3
 c:central:nemby,Ñemby,sale,terreno,2025-10-01,5,,,,3
 c:central:nemby,Ñemby,sale,terreno,2026-01-01,11,,,,6
 c:central:nemby,Ñemby,sale,terreno,2026-04-01,5,,,,3
-c:central:nemby,Ñemby,sale,terreno,2026-07-01,8,,,,6
+c:central:nemby,Ñemby,sale,terreno,2026-07-01,9,,,,6
 c:central:nemby,Ñemby,sale,all,2025-07-01,4,,,,3
 c:central:nemby,Ñemby,sale,all,2025-10-01,8,,,,6
 c:central:nemby,Ñemby,sale,all,2026-01-01,14,,,,7
 c:central:nemby,Ñemby,sale,all,2026-04-01,8,,,,4
-c:central:nemby,Ñemby,sale,all,2026-07-01,11,,,,7
+c:central:nemby,Ñemby,sale,all,2026-07-01,12,,,,7
 c:central:nemby,Ñemby,sale,casa,2025-10-01,3,,,,3
 c:central:nemby,Ñemby,sale,casa,2026-01-01,3,,,,1
 c:central:nemby,Ñemby,sale,casa,2026-04-01,2,,,,0
@@ -319,25 +319,6 @@ c:central:nemby,Ñemby,rent,casa,2025-10-01,2,,,,0
 c:central:nemby,Ñemby,rent,casa,2026-01-01,4,,,,1
 c:central:nemby,Ñemby,rent,casa,2026-04-01,4,,,,0
 c:central:nemby,Ñemby,rent,casa,2026-07-01,4,,,,0
-c:central:aregua,Areguá,sale,casa,2025-07-01,1,,,,1
-c:central:aregua,Areguá,sale,casa,2025-10-01,1,,,,1
-c:central:aregua,Areguá,sale,casa,2026-01-01,3,,,,0
-c:central:aregua,Areguá,sale,casa,2026-04-01,1,,,,0
-c:central:aregua,Areguá,sale,all,2025-07-01,1,,,,1
-c:central:aregua,Areguá,sale,all,2025-10-01,1,,,,1
-c:central:aregua,Areguá,sale,all,2026-01-01,4,,,,1
-c:central:aregua,Areguá,sale,all,2026-04-01,4,,,,1
-c:central:aregua,Areguá,sale,all,2026-07-01,1,,,,0
-c:central:aregua,Areguá,sale,terreno,2026-04-01,3,,,,1
-c:central:aregua,Areguá,sale,terreno,2026-07-01,1,,,,0
-c:central:aregua,Areguá,rent,casa,2025-10-01,1,,,,0
-c:central:aregua,Areguá,rent,casa,2026-01-01,1,,,,0
-c:central:aregua,Areguá,rent,casa,2026-04-01,2,,,,0
-c:central:aregua,Areguá,rent,casa,2026-07-01,2,,,,2
-c:central:aregua,Areguá,rent,all,2025-10-01,1,,,,0
-c:central:aregua,Areguá,rent,all,2026-01-01,1,,,,0
-c:central:aregua,Areguá,rent,all,2026-04-01,2,,,,0
-c:central:aregua,Areguá,rent,all,2026-07-01,2,,,,2
 c:central:villa-elisa,Villa Elisa,sale,casa,2025-07-01,2,,,,1
 c:central:villa-elisa,Villa Elisa,sale,casa,2025-10-01,7,,,,5
 c:central:villa-elisa,Villa Elisa,sale,casa,2026-01-01,3,,,,2
@@ -446,6 +427,25 @@ c:central:limpio,Limpio,rent,all,2025-10-01,3,,,,1
 c:central:limpio,Limpio,rent,all,2026-01-01,2,,,,0
 c:central:limpio,Limpio,rent,all,2026-04-01,6,,,,2
 c:central:limpio,Limpio,rent,all,2026-07-01,4,,,,1
+c:central:aregua,Areguá,sale,casa,2025-07-01,1,,,,1
+c:central:aregua,Areguá,sale,casa,2025-10-01,1,,,,1
+c:central:aregua,Areguá,sale,casa,2026-01-01,3,,,,0
+c:central:aregua,Areguá,sale,casa,2026-04-01,1,,,,0
+c:central:aregua,Areguá,sale,all,2025-07-01,1,,,,1
+c:central:aregua,Areguá,sale,all,2025-10-01,1,,,,1
+c:central:aregua,Areguá,sale,all,2026-01-01,4,,,,1
+c:central:aregua,Areguá,sale,all,2026-04-01,4,,,,1
+c:central:aregua,Areguá,sale,all,2026-07-01,1,,,,0
+c:central:aregua,Areguá,sale,terreno,2026-04-01,3,,,,1
+c:central:aregua,Areguá,sale,terreno,2026-07-01,1,,,,0
+c:central:aregua,Areguá,rent,casa,2025-10-01,1,,,,0
+c:central:aregua,Areguá,rent,casa,2026-01-01,1,,,,0
+c:central:aregua,Areguá,rent,casa,2026-04-01,2,,,,0
+c:central:aregua,Areguá,rent,casa,2026-07-01,2,,,,2
+c:central:aregua,Areguá,rent,all,2025-10-01,1,,,,0
+c:central:aregua,Areguá,rent,all,2026-01-01,1,,,,0
+c:central:aregua,Areguá,rent,all,2026-04-01,2,,,,0
+c:central:aregua,Areguá,rent,all,2026-07-01,2,,,,2
 c:central:ypane,Ypané,sale,terreno,2025-07-01,1,,,,1
 c:central:ypane,Ypané,sale,terreno,2025-10-01,2,,,,0
 c:central:ypane,Ypané,sale,terreno,2026-01-01,1,,,,0
@@ -857,13 +857,13 @@ d:caaguazu,Caaguazú,sale,all,2026-01-01,1,,,,0
 d:caaguazu,Caaguazú,sale,all,2026-07-01,1,,,,1
 d:caaguazu,Caaguazú,sale,terreno,2026-01-01,1,,,,0
 d:caaguazu,Caaguazú,sale,terreno,2026-07-01,1,,,,1
-d:san-pedro,San Pedro,sale,all,2025-07-01,1,,,,1
-d:san-pedro,San Pedro,sale,all,2025-10-01,1,,,,1
 d:misiones,Misiones,sale,terreno,2025-10-01,1,,,,0
 d:misiones,Misiones,sale,all,2025-10-01,2,,,,1
 d:misiones,Misiones,sale,all,2026-07-01,1,,,,0
 d:misiones,Misiones,rent,all,2025-07-01,1,,,,1
 d:misiones,Misiones,rent,all,2025-10-01,3,,,,0
+d:san-pedro,San Pedro,sale,all,2025-07-01,1,,,,1
+d:san-pedro,San Pedro,sale,all,2025-10-01,1,,,,1
 d:guaira,Guairá,sale,terreno,2025-10-01,1,,,,0
 d:guaira,Guairá,sale,all,2025-10-01,1,,,,0
 d:guaira,Guairá,sale,all,2026-01-01,1,,,,1

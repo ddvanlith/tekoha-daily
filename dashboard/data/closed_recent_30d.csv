@@ -1,4 +1,5 @@
 close_date,operation,place,barrio,kind,deal_records,deal_kinds,area_m2,area_basis,bedrooms,terminal_ask,ask_currency,ask_usd_sale_date_fx,close_price,close_currency,close_usd_sale_date_fx,close_per_m2,close_usd_per_m2,spread_pct,spread_basis,entry_check,days_to_close,new_since_previous_build,source,mls_id,department_market,city_market
+2026-09-23,sale,"Ñemby, Central",,terreno,1,,,,,110000000,PYG,18561,110000000,PYG,18561,,,0,same currency,0,197,1,remax,143099035-1,Central,Ñemby
 2026-09-23,sale,Asunción,Sajonia,departamento,1,,96,land,2,200000000,PYG,33748,180000000,PYG,30373,1875000,316,-10,same currency,0,119,1,remax,143025234-23,Asunción,
 2026-09-23,rent,Asunción,Carmelitas,departamento,1,,66,built,1,1300,USD,1300,7400000,PYG,1249,112121,19,-3.9,"cross-currency, at sale-date rate",0,54,1,remax,143098011-346,Asunción,
 2026-09-23,sale,"San Lorenzo, Central",,terreno,1,,398,land,,450000000,PYG,75933,400000000,PYG,67496,1006264,170,-11.1,same currency,0,231,0,remax,143021053-2,Central,San Lorenzo
@@ -60,7 +61,6 @@ close_date,operation,place,barrio,kind,deal_records,deal_kinds,area_m2,area_basi
 2026-09-16,sale,"Ciudad del Este, Alto Paraná",,terreno,1,,,,,358500000,PYG,60605,358500000,PYG,60605,,,0,same currency,0,159,0,remax,143048005-312,Alto Paraná,Ciudad del Este
 2026-09-15,rent,"Luque, Central",,casa,1,,183,built,3,5000000,PYG,845,5000000,PYG,845,27322,5,0,same currency,0,1,0,remax,143025091-136,Central,Luque
 2026-09-15,sale,"Fernando de la Mora, Central",,casa,1,,420,built,4,320000,USD,320000,1680000000,PYG,283931,4000000,676,-11.3,"cross-currency, at sale-date rate",0,53,0,remax,143019092-20,Central,Fernando de la Mora
-2026-09-15,sale,Asunción,Mburucuyá,departamento,1,,33,land,1,86500,USD,86500,512080000,PYG,86545,15470695,2615,0.1,"cross-currency, at sale-date rate",0,34,0,remax,143098011-348,Asunción,
 2026-09-15,rent,Asunción,Carmelitas,departamento,1,,48,built,1,1000,USD,1000,6000000,PYG,1014,125000,21,1.4,"cross-currency, at sale-date rate",0,46,1,remax,143098011-345,Asunción,
 2026-09-15,sale,"Mariano Roque Alonso, Central",,terreno,1,,,,,265000000,PYG,44787,265000000,PYG,44787,,,0,same currency,0,19,0,remax,143020119-29,Central,Mariano Roque Alonso
 2026-09-15,sale,"Ciudad del Este, Alto Paraná",,duplex,1,,130,built,2,145000,USD,145000,8600000000,PYG,1453455,66317088,11208,902.4,"cross-currency, at sale-date rate",1,762,0,remax,143050081-95,Alto Paraná,Ciudad del Este

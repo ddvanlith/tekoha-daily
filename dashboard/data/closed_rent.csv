@@ -21,7 +21,7 @@ py,Paraguay,month,departamento,PYG,2025-12-01,89,3600000,536
 py,Paraguay,month,departamento,PYG,2026-01-01,107,3800000,569
 py,Paraguay,month,departamento,PYG,2026-02-01,76,3450000,528
 py,Paraguay,month,departamento,PYG,2026-03-01,91,3600000,554
-py,Paraguay,month,departamento,PYG,2026-04-01,66,3500000,550
+py,Paraguay,month,departamento,PYG,2026-04-01,67,3500000,550
 py,Paraguay,month,departamento,PYG,2026-05-01,80,3325000,544
 py,Paraguay,month,departamento,PYG,2026-06-01,94,3500000,572
 py,Paraguay,month,departamento,PYG,2026-07-01,92,3690000,610
@@ -63,7 +63,7 @@ py,Paraguay,quarter,casa,PYG,2026-07-01,116,3637500,607
 py,Paraguay,quarter,departamento,PYG,2025-07-01,107,3500000,487
 py,Paraguay,quarter,departamento,PYG,2025-10-01,219,3600000,519
 py,Paraguay,quarter,departamento,PYG,2026-01-01,274,3600000,548
-py,Paraguay,quarter,departamento,PYG,2026-04-01,240,3500000,565
+py,Paraguay,quarter,departamento,PYG,2026-04-01,241,3500000,565
 py,Paraguay,quarter,departamento,PYG,2026-07-01,190,3735000,623
 py,Paraguay,quarter,departamento,USD,2025-07-01,3,,
 py,Paraguay,quarter,departamento,USD,2025-10-01,4,,
@@ -99,7 +99,7 @@ d:asuncion,Asunción,month,departamento,PYG,2025-12-01,54,4695000,700
 d:asuncion,Asunción,month,departamento,PYG,2026-01-01,73,4500000,674
 d:asuncion,Asunción,month,departamento,PYG,2026-02-01,42,4100000,628
 d:asuncion,Asunción,month,departamento,PYG,2026-03-01,53,4500000,692
-d:asuncion,Asunción,month,departamento,PYG,2026-04-01,36,4432500,696
+d:asuncion,Asunción,month,departamento,PYG,2026-04-01,37,4465000,701
 d:asuncion,Asunción,month,departamento,PYG,2026-05-01,39,4500000,737
 d:asuncion,Asunción,month,departamento,PYG,2026-06-01,48,4285000,701
 d:asuncion,Asunción,month,departamento,PYG,2026-07-01,53,4200000,694
@@ -141,7 +141,7 @@ d:asuncion,Asunción,quarter,casa,PYG,2026-07-01,28,5750000,959
 d:asuncion,Asunción,quarter,departamento,PYG,2025-07-01,61,4000000,556
 d:asuncion,Asunción,quarter,departamento,PYG,2025-10-01,136,4500000,649
 d:asuncion,Asunción,quarter,departamento,PYG,2026-01-01,168,4372500,665
-d:asuncion,Asunción,quarter,departamento,PYG,2026-04-01,123,4300000,694
+d:asuncion,Asunción,quarter,departamento,PYG,2026-04-01,124,4300000,694
 d:asuncion,Asunción,quarter,departamento,PYG,2026-07-01,105,4478220,747
 d:asuncion,Asunción,quarter,departamento,USD,2025-07-01,3,,
 d:asuncion,Asunción,quarter,departamento,USD,2025-10-01,4,,
@@ -470,16 +470,6 @@ c:central:nemby,Ñemby,quarter,casa,PYG,2026-04-01,4,,
 c:central:nemby,Ñemby,quarter,casa,PYG,2026-07-01,4,,
 c:central:nemby,Ñemby,quarter,duplex,PYG,2025-10-01,1,,
 c:central:nemby,Ñemby,quarter,duplex,PYG,2026-01-01,1,,
-c:central:aregua,Areguá,month,casa,PYG,2025-11-01,1,,
-c:central:aregua,Areguá,month,casa,PYG,2026-03-01,1,,
-c:central:aregua,Areguá,month,casa,PYG,2026-04-01,1,,
-c:central:aregua,Areguá,month,casa,PYG,2026-05-01,1,,
-c:central:aregua,Areguá,month,casa,PYG,2026-07-01,1,,
-c:central:aregua,Areguá,month,casa,PYG,2026-08-01,1,,
-c:central:aregua,Areguá,quarter,casa,PYG,2025-10-01,1,,
-c:central:aregua,Areguá,quarter,casa,PYG,2026-01-01,1,,
-c:central:aregua,Areguá,quarter,casa,PYG,2026-04-01,2,,
-c:central:aregua,Areguá,quarter,casa,PYG,2026-07-01,2,,
 c:central:villa-elisa,Villa Elisa,month,departamento,PYG,2025-08-01,1,,
 c:central:villa-elisa,Villa Elisa,month,departamento,PYG,2025-09-01,2,,
 c:central:villa-elisa,Villa Elisa,month,departamento,PYG,2025-10-01,1,,
@@ -581,6 +571,16 @@ c:central:limpio,Limpio,quarter,casa,PYG,2026-07-01,2,,
 c:central:limpio,Limpio,quarter,departamento,PYG,2025-10-01,1,,
 c:central:limpio,Limpio,quarter,departamento,PYG,2026-04-01,1,,
 c:central:limpio,Limpio,quarter,departamento,PYG,2026-07-01,1,,
+c:central:aregua,Areguá,month,casa,PYG,2025-11-01,1,,
+c:central:aregua,Areguá,month,casa,PYG,2026-03-01,1,,
+c:central:aregua,Areguá,month,casa,PYG,2026-04-01,1,,
+c:central:aregua,Areguá,month,casa,PYG,2026-05-01,1,,
+c:central:aregua,Areguá,month,casa,PYG,2026-07-01,1,,
+c:central:aregua,Areguá,month,casa,PYG,2026-08-01,1,,
+c:central:aregua,Areguá,quarter,casa,PYG,2025-10-01,1,,
+c:central:aregua,Areguá,quarter,casa,PYG,2026-01-01,1,,
+c:central:aregua,Areguá,quarter,casa,PYG,2026-04-01,2,,
+c:central:aregua,Areguá,quarter,casa,PYG,2026-07-01,2,,
 c:central:san-antonio,San Antonio,month,casa,PYG,2026-06-01,1,,
 c:central:san-antonio,San Antonio,quarter,casa,PYG,2026-04-01,1,,
 c:central:villeta,Villeta,month,casa,PYG,2026-08-01,1,,
