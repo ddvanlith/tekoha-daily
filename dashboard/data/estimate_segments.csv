@@ -1,98 +1,98 @@
 basis,segment,kind,department,training_closes,holdout_closes,intrinsic_median_ape,intrinsic_mape,band_80_low,band_80_high,per_m2_baseline_median_ape,on_market_median_ape,ask_ratio_baseline_median_ape,confidence_intrinsic,confidence_on_market,intrinsic_published,on_market_published,why_not
-sale,casa|alto parana,casa,Alto Paraná,44,7,0.274,0.3258,-0.0412,2.2287,0.2077,0.0418,0.0588,,,0,0,"7 holdout closes, needs 10 to measure an error"
-sale,casa|asuncion,casa,Asunción,103,14,0.2995,0.2853,-0.2993,0.4292,0.1999,0.0488,0.043,,,0,0,does not beat the per-m2 baseline on holdout (median error 29.9% against 20.0%)
-sale,casa|boqueron,casa,Boquerón,10,1,0.4565,0.4565,0.8399,0.8399,0.4709,0.0422,0.0535,,,0,0,"10 training closes, needs 30"
+sale,casa|alto parana,casa,Alto Paraná,44,7,0.3083,0.3646,-0.0559,2.0599,0.2077,0.0421,0.0588,,,0,0,"7 holdout closes, needs 10 to measure an error"
+sale,casa|asuncion,casa,Asunción,103,14,0.3137,0.3323,-0.3571,0.3896,0.1999,0.056,0.043,,,0,0,does not beat the per-m2 baseline on holdout (median error 31.4% against 20.0%)
+sale,casa|boqueron,casa,Boquerón,10,1,0.4559,0.4559,0.8379,0.8379,0.4709,0.0485,0.0535,,,0,0,"10 training closes, needs 30"
 sale,casa|caaguazu,casa,Caaguazú,1,0,,,,,,,,,,0,0,"1 training closes, needs 30"
-sale,casa|caazapa,casa,Caazapá,0,1,0.2546,0.2546,-0.203,-0.203,0.0821,0.1572,0.1441,,,0,0,"0 training closes, needs 30"
-sale,casa|central,casa,Central,179,45,0.2318,0.3417,-0.3922,0.5504,0.3053,0.0296,0.0263,43,92,1,1,
+sale,casa|caazapa,casa,Caazapá,0,1,0.4183,0.4183,-0.2949,-0.2949,0.0821,0.1594,0.1441,,,0,0,"0 training closes, needs 30"
+sale,casa|central,casa,Central,179,45,0.2391,0.3592,-0.4053,0.5003,0.3053,0.0307,0.0263,42,92,1,1,
 sale,casa|concepcion,casa,Concepción,1,0,,,,,,,,,,0,0,"1 training closes, needs 30"
-sale,casa|cordillera,casa,Cordillera,23,7,0.3558,0.3226,-0.3355,0.9374,0.4408,0.0519,0.0553,,,0,0,"23 training closes, needs 30"
-sale,casa|itapua,casa,Itapúa,15,9,0.3035,0.3311,-0.2811,0.5987,0.3661,0.0289,0,,,0,0,"15 training closes, needs 30"
-sale,casa|paraguari,casa,Paraguarí,0,1,0.6329,0.6329,-0.3876,-0.3876,0.1847,0.0365,0.0319,,,0,0,"0 training closes, needs 30"
-sale,departamento|alto parana,departamento,Alto Paraná,32,11,0.1847,0.2004,-0.2339,0.5168,0.3324,0.0565,0,51,,1,0,"1 same-currency holdout closes, needs 10 to measure an error"
-sale,departamento|asuncion,departamento,Asunción,217,58,0.123,0.2213,-0.3226,0.4258,0.2156,0.0219,0.0269,57,91,1,1,
+sale,casa|cordillera,casa,Cordillera,23,7,0.4213,0.3751,-0.3676,0.9934,0.4408,0.0547,0.0553,,,0,0,"23 training closes, needs 30"
+sale,casa|itapua,casa,Itapúa,15,9,0.2358,0.3189,-0.3451,0.4666,0.3661,0.0337,0,,,0,0,"15 training closes, needs 30"
+sale,casa|paraguari,casa,Paraguarí,0,1,0.5379,0.5379,-0.3498,-0.3498,0.1847,0.0325,0.0319,,,0,0,"0 training closes, needs 30"
+sale,departamento|alto parana,departamento,Alto Paraná,38,16,0.177,0.2018,-0.1586,0.5139,0.265,0.0779,0,59,,1,0,"1 same-currency holdout closes, needs 10 to measure an error"
+sale,departamento|asuncion,departamento,Asunción,302,77,0.1754,0.2474,-0.3987,0.4027,0.2098,0.023,0.0211,56,93,1,1,
 sale,departamento|boqueron,departamento,Boquerón,2,0,,,,,,,,,,0,0,"2 training closes, needs 30"
-sale,departamento|central,departamento,Central,54,20,0.3257,0.5485,-0.4029,0.5863,0.2613,0.0371,0,,,0,0,does not beat the per-m2 baseline on holdout (median error 32.6% against 26.1%)
-sale,departamento|cordillera,departamento,Cordillera,1,0,,,,,,,,,,0,0,"1 training closes, needs 30"
-sale,departamento|itapua,departamento,Itapúa,25,6,0.2808,0.2675,-0.3101,0.2148,0.1592,0.0332,0.0282,,,0,0,"25 training closes, needs 30"
+sale,departamento|central,departamento,Central,65,23,0.2368,0.4918,-0.3937,0.523,0.2556,0.0322,0,42,,1,0,"6 same-currency holdout closes, needs 10 to measure an error"
+sale,departamento|cordillera,departamento,Cordillera,2,0,,,,,,,,,,0,0,"2 training closes, needs 30"
+sale,departamento|itapua,departamento,Itapúa,26,7,0.1847,0.2163,-0.2753,0.1575,0.1049,0.0414,0.0282,,,0,0,"26 training closes, needs 30"
 sale,deposito|alto parana,deposito,Alto Paraná,2,0,,,,,,,,,,0,0,"2 training closes, needs 30"
 sale,deposito|asuncion,deposito,Asunción,1,0,,,,,,,,,,0,0,"1 training closes, needs 30"
-sale,deposito|central,deposito,Central,9,2,1.7136,1.7136,-0.6873,-0.0181,0.3802,0.127,0.034,,,0,0,"9 training closes, needs 30"
+sale,deposito|central,deposito,Central,9,2,0.3688,0.3688,-0.2871,0.1968,0.3802,0.1742,0.034,,,0,0,"9 training closes, needs 30"
 sale,deposito|itapua,deposito,Itapúa,1,0,,,,,,,,,,0,0,"1 training closes, needs 30"
 sale,duplex|alto parana,duplex,Alto Paraná,4,0,,,,,,,,,,0,0,"4 training closes, needs 30"
-sale,duplex|asuncion,duplex,Asunción,11,2,0.2422,0.2422,0.004,0.6105,0.2683,0.0549,0.0151,,,0,0,"11 training closes, needs 30"
-sale,duplex|central,duplex,Central,68,13,0.2819,0.2629,-0.3108,0.3989,0.1351,0.0342,0.0242,,,0,0,does not beat the per-m2 baseline on holdout (median error 28.2% against 13.5%)
-sale,duplex|itapua,duplex,Itapúa,7,2,0.0837,0.0837,0.005,0.1608,0.1981,0.0481,0.0258,,,0,0,"7 training closes, needs 30"
-sale,local|alto parana,local,Alto Paraná,0,2,0.0603,0.0603,0.0155,0.1209,0.4852,,,,,0,0,"0 training closes, needs 30"
-sale,local|asuncion,local,Asunción,6,2,1.3393,1.3393,-0.6341,0.0472,0.5859,,,,,0,0,"6 training closes, needs 30"
+sale,duplex|asuncion,duplex,Asunción,11,2,0.1972,0.1972,0.0048,0.4577,0.2683,0.0642,0.0151,,,0,0,"11 training closes, needs 30"
+sale,duplex|central,duplex,Central,68,13,0.1885,0.2253,-0.3156,0.3148,0.1351,0.0332,0.0242,,,0,0,does not beat the per-m2 baseline on holdout (median error 18.9% against 13.5%)
+sale,duplex|itapua,duplex,Itapúa,7,2,0.032,0.032,-0.0095,0.0434,0.1981,0.0475,0.0258,,,0,0,"7 training closes, needs 30"
+sale,local|alto parana,local,Alto Paraná,0,2,0.2959,0.2959,0.3557,0.4954,0.4852,,,,,0,0,"0 training closes, needs 30"
+sale,local|asuncion,local,Asunción,6,2,0.6522,0.6522,-0.3872,0.4289,0.5859,,,,,0,0,"6 training closes, needs 30"
 sale,local|boqueron,local,Boquerón,2,0,,,,,,,,,,0,0,"2 training closes, needs 30"
-sale,local|central,local,Central,6,3,0.7767,1.658,-0.7286,-0.1972,0.2145,0.0385,0.0384,,,0,0,"6 training closes, needs 30"
+sale,local|central,local,Central,6,3,0.1776,0.1512,-0.1485,0.1591,0.2145,0.0437,0.0384,,,0,0,"6 training closes, needs 30"
 sale,local|cordillera,local,Cordillera,2,0,,,,,,,,,,0,0,"2 training closes, needs 30"
 sale,local|itapua,local,Itapúa,2,0,,,,,,,,,,0,0,"2 training closes, needs 30"
-sale,local|misiones,local,Misiones,0,1,0.6526,0.6526,1.8787,1.8787,0.4055,0.0562,0.0825,,,0,0,"0 training closes, needs 30"
+sale,local|misiones,local,Misiones,0,1,0.6883,0.6883,2.208,2.208,0.4055,0.0585,0.0825,,,0,0,"0 training closes, needs 30"
 sale,oficina|alto parana,oficina,Alto Paraná,1,0,,,,,,,,,,0,0,"1 training closes, needs 30"
-sale,oficina|asuncion,oficina,Asunción,8,2,0.1896,0.1896,0.1404,0.3569,0.3094,,,,,0,0,"8 training closes, needs 30"
-sale,quinta|central,quinta,Central,2,1,0.4807,0.4807,0.9258,0.9258,0.5663,0.0111,0.0274,,,0,0,"2 training closes, needs 30"
+sale,oficina|asuncion,oficina,Asunción,8,2,0.3016,0.3016,0.3321,0.5598,0.3094,,,,,0,0,"8 training closes, needs 30"
+sale,quinta|central,quinta,Central,2,1,0.5421,0.5421,1.184,1.184,0.5663,0.0476,0.0274,,,0,0,"2 training closes, needs 30"
 sale,quinta|cordillera,quinta,Cordillera,4,0,,,,,,,,,,0,0,"4 training closes, needs 30"
-sale,quinta|itapua,quinta,Itapúa,0,1,0.3288,0.3288,-0.2474,-0.2474,0.2283,0.0654,0.0446,,,0,0,"0 training closes, needs 30"
-sale,terreno|alto parana,terreno,Alto Paraná,106,37,0.3294,0.4179,-0.373,1.5696,0.363,0.0636,0.0667,0,92,1,1,
-sale,terreno|amambay,terreno,Amambay,0,1,0.7948,0.7948,3.8726,3.8726,0.6078,,,,,0,0,"0 training closes, needs 30"
-sale,terreno|asuncion,terreno,Asunción,92,14,0.3491,0.4167,-0.3971,1.1724,0.4699,0.0402,0.0476,1,,1,0,"6 same-currency holdout closes, needs 10 to measure an error"
-sale,terreno|boqueron,terreno,Boquerón,33,10,0.3187,0.8066,-0.7412,0.8817,0.5399,0.0284,0.0308,0,94,1,1,
-sale,terreno|caaguazu,terreno,Caaguazú,1,2,0.285,0.285,0.2306,0.6711,20.2512,0.1012,0.0873,,,0,0,"1 training closes, needs 30"
-sale,terreno|caazapa,terreno,Caazapá,2,1,0.0954,0.0954,-0.0871,-0.0871,1.3225,0.3752,0.4375,,,0,0,"2 training closes, needs 30"
-sale,terreno|central,terreno,Central,286,65,0.2835,0.466,-0.52,0.828,0.4199,0.0563,0.0476,13,90,1,1,
-sale,terreno|concepcion,terreno,Concepción,0,1,0.07,0.07,0.0752,0.0752,93.8198,0.0257,0.0417,,,0,0,"0 training closes, needs 30"
-sale,terreno|cordillera,terreno,Cordillera,47,12,0.267,0.2931,-0.2539,0.581,1.7597,0.0132,0.0197,34,,1,0,"7 same-currency holdout closes, needs 10 to measure an error"
+sale,quinta|itapua,quinta,Itapúa,0,1,0.0562,0.0562,-0.0532,-0.0532,0.2283,0.0484,0.0446,,,0,0,"0 training closes, needs 30"
+sale,terreno|alto parana,terreno,Alto Paraná,106,37,0.3153,0.4267,-0.3908,1.235,0.363,0.0625,0.0667,0,92,1,1,
+sale,terreno|amambay,terreno,Amambay,0,1,0.7916,0.7916,3.7979,3.7979,0.6078,,,,,0,0,"0 training closes, needs 30"
+sale,terreno|asuncion,terreno,Asunción,92,14,0.2698,0.3858,-0.4164,1.1464,0.4699,0.0416,0.0476,2,,1,0,"6 same-currency holdout closes, needs 10 to measure an error"
+sale,terreno|boqueron,terreno,Boquerón,33,10,0.319,0.8847,-0.7562,0.6577,0.5399,0.0333,0.0308,0,93,1,1,
+sale,terreno|caaguazu,terreno,Caaguazú,1,2,0.2791,0.2791,0.2344,0.622,20.2512,0.0994,0.0873,,,0,0,"1 training closes, needs 30"
+sale,terreno|caazapa,terreno,Caazapá,2,1,0.3605,0.3605,-0.265,-0.265,1.3225,0.3763,0.4375,,,0,0,"2 training closes, needs 30"
+sale,terreno|central,terreno,Central,286,66,0.2774,0.4775,-0.5544,0.7474,0.4109,0.0556,0.0476,19,90,1,1,
+sale,terreno|concepcion,terreno,Concepción,0,1,0.04,0.04,0.0416,0.0416,93.8198,0.0351,0.0417,,,0,0,"0 training closes, needs 30"
+sale,terreno|cordillera,terreno,Cordillera,47,12,0.1921,0.287,-0.3407,0.3028,1.7597,0.0084,0.0197,49,,1,0,"7 same-currency holdout closes, needs 10 to measure an error"
 sale,terreno|guaira,terreno,Guairá,2,0,,,,,,,,,,0,0,"2 training closes, needs 30"
-sale,terreno|itapua,terreno,Itapúa,51,16,0.5761,0.9975,-0.7121,0.1208,0.512,0.0213,0,,,0,0,does not beat the per-m2 baseline on holdout (median error 57.6% against 51.2%)
+sale,terreno|itapua,terreno,Itapúa,51,16,0.7326,1.0267,-0.7277,0.0857,0.512,0.0226,0,,,0,0,does not beat the per-m2 baseline on holdout (median error 73.3% against 51.2%)
 sale,terreno|misiones,terreno,Misiones,1,0,,,,,,,,,,0,0,"1 training closes, needs 30"
-sale,terreno|paraguari,terreno,Paraguarí,2,1,4.2147,4.2147,-0.8082,-0.8082,268.0842,0.2114,0.1979,,,0,0,"2 training closes, needs 30"
-sale,terreno|presidente hayes,terreno,Presidente Hayes,8,1,3.3475,3.3475,-0.77,-0.77,12.4524,0.0271,0.0143,,,0,0,"8 training closes, needs 30"
-rent,casa|alto parana,casa,Alto Paraná,62,21,0.3553,0.3867,-0.4228,0.2873,0.3788,0.0132,0,5,92,1,1,
-rent,casa|asuncion,casa,Asunción,76,27,0.1735,0.2388,-0.2727,0.3611,0.4062,0.0175,0,45,95,1,1,
-rent,casa|boqueron,casa,Boquerón,24,9,0.2599,0.2572,-0.2217,0.8298,0.2867,0.0146,0,,,0,0,"24 training closes, needs 30"
+sale,terreno|paraguari,terreno,Paraguarí,2,1,3.9289,3.9289,-0.7971,-0.7971,268.0842,0.2021,0.1979,,,0,0,"2 training closes, needs 30"
+sale,terreno|presidente hayes,terreno,Presidente Hayes,8,1,3.2297,3.2297,-0.7636,-0.7636,12.4524,0.0327,0.0143,,,0,0,"8 training closes, needs 30"
+rent,casa|alto parana,casa,Alto Paraná,55,22,0.2417,0.4349,-0.3937,0.3264,0.3792,0.0113,0,2,92,1,1,
+rent,casa|asuncion,casa,Asunción,64,27,0.1865,0.2168,-0.2017,0.4993,0.4062,0.0166,0,47,95,1,1,
+rent,casa|boqueron,casa,Boquerón,24,9,0.103,0.2042,-0.0987,0.7072,0.2867,0.0117,0,,,0,0,"24 training closes, needs 30"
 rent,casa|caazapa,casa,Caazapá,1,0,,,,,,,,,,0,0,"1 training closes, needs 30"
-rent,casa|central,casa,Central,185,47,0.2619,0.2813,-0.3055,0.476,0.3404,0.0131,0,56,94,1,1,
-rent,casa|concepcion,casa,Concepción,0,1,0.0761,0.0761,-0.0707,-0.0707,0.4835,0.0045,0,,,0,0,"0 training closes, needs 30"
-rent,casa|cordillera,casa,Cordillera,10,3,0.1727,0.3531,-0.3834,0.0528,0.5718,0.0171,0,,,0,0,"10 training closes, needs 30"
-rent,casa|guaira,casa,Guairá,1,1,0.4535,0.4535,-0.312,-0.312,0.9369,0.0056,0,,,0,0,"1 training closes, needs 30"
-rent,casa|itapua,casa,Itapúa,33,10,0.4337,0.4132,-0.4128,0.9931,0.4977,0.0059,0,20,,1,0,"4 same-currency holdout closes, needs 10 to measure an error"
-rent,casa|paraguari,casa,Paraguarí,0,1,0.9756,0.9756,-0.4938,-0.4938,1.85,0.0115,0,,,0,0,"0 training closes, needs 30"
+rent,casa|central,casa,Central,180,47,0.2441,0.2495,-0.2974,0.4661,0.3404,0.0122,0,59,94,1,1,
+rent,casa|concepcion,casa,Concepción,0,1,0.0143,0.0143,-0.0141,-0.0141,0.483,0.0001,0,,,0,0,"0 training closes, needs 30"
+rent,casa|cordillera,casa,Cordillera,10,3,0.1941,0.1399,-0.1354,0.1918,0.5718,0.0167,0,,,0,0,"10 training closes, needs 30"
+rent,casa|guaira,casa,Guairá,1,1,0.5327,0.5327,-0.3476,-0.3476,0.9386,0.0031,0,,,0,0,"1 training closes, needs 30"
+rent,casa|itapua,casa,Itapúa,25,10,0.4364,0.6639,-0.5282,1.0283,0.4977,0.0058,0,,,0,0,"25 training closes, needs 30"
+rent,casa|paraguari,casa,Paraguarí,0,1,1.0009,1.0009,-0.5002,-0.5002,1.8524,0.0089,0,,,0,0,"0 training closes, needs 30"
 rent,casa|presidente hayes,casa,Presidente Hayes,1,0,,,,,,,,,,0,0,"1 training closes, needs 30"
-rent,departamento|alto parana,departamento,Alto Paraná,29,3,0.4442,0.3928,-0.1779,0.8064,1.0688,0.0087,0,,,0,0,"29 training closes, needs 30"
-rent,departamento|asuncion,departamento,Asunción,331,73,0.1807,0.2292,-0.2699,0.45,0.3038,0.0115,0,59,95,1,1,
+rent,departamento|alto parana,departamento,Alto Paraná,24,4,0.3813,0.5486,-0.4575,0.5242,0.835,0.0075,0,,,0,0,"24 training closes, needs 30"
+rent,departamento|asuncion,departamento,Asunción,342,105,0.1134,0.1717,-0.201,0.4232,0.303,0.0108,0,62,96,1,1,
 rent,departamento|boqueron,departamento,Boquerón,1,0,,,,,,,,,,0,0,"1 training closes, needs 30"
-rent,departamento|central,departamento,Central,181,50,0.1629,0.2462,-0.2839,0.5789,0.3815,0.0103,0,52,94,1,1,
-rent,departamento|itapua,departamento,Itapúa,54,12,0.1904,0.3696,-0.4837,-0.0035,0.4274,0.0068,0,64,99,1,1,
-rent,deposito|alto parana,deposito,Alto Paraná,10,3,0.4846,0.3771,0.1971,1.5833,0.2457,0.2617,0.2759,,,0,0,"10 training closes, needs 30"
-rent,deposito|asuncion,deposito,Asunción,13,3,0.3174,0.5655,-0.4878,-0.1579,0.3087,0.0156,0,,,0,0,"13 training closes, needs 30"
-rent,deposito|boqueron,deposito,Boquerón,0,1,0.2913,0.2913,-0.2256,-0.2256,0.1997,0.0219,0,,,0,0,"0 training closes, needs 30"
-rent,deposito|central,deposito,Central,47,5,0.3748,0.3475,0.1777,1.1528,0.2536,0.0459,0,,,0,0,"5 holdout closes, needs 10 to measure an error"
-rent,deposito|concepcion,deposito,Concepción,0,1,0.1613,0.1613,-0.1389,-0.1389,0.2256,0.0327,0,,,0,0,"0 training closes, needs 30"
-rent,deposito|itapua,deposito,Itapúa,2,2,0.2378,0.2378,-0.2596,0.0247,0.2346,0.0166,0,,,0,0,"2 training closes, needs 30"
+rent,departamento|central,departamento,Central,220,55,0.1774,0.2605,-0.3626,0.5767,0.3807,0.0087,0,49,94,1,1,
+rent,departamento|itapua,departamento,Itapúa,49,14,0.218,0.3131,-0.4074,0.1995,0.3519,0.0057,0,53,99,1,1,
+rent,deposito|alto parana,deposito,Alto Paraná,7,3,0.4045,0.3856,0.2005,1.8171,0.2457,0.2603,0.2759,,,0,0,"7 training closes, needs 30"
+rent,deposito|asuncion,deposito,Asunción,12,3,0.336,0.4986,-0.4598,-0.1304,0.3087,0.0139,0,,,0,0,"12 training closes, needs 30"
+rent,deposito|boqueron,deposito,Boquerón,0,1,0.2705,0.2705,-0.2129,-0.2129,0.1997,0.0207,0,,,0,0,"0 training closes, needs 30"
+rent,deposito|central,deposito,Central,46,5,0.4278,0.3851,0.2558,1.3246,0.2536,0.0444,0,,,0,0,"5 holdout closes, needs 10 to measure an error"
+rent,deposito|concepcion,deposito,Concepción,0,1,0.0871,0.0871,-0.0802,-0.0802,0.2256,0.0313,0,,,0,0,"0 training closes, needs 30"
+rent,deposito|itapua,deposito,Itapúa,2,2,0.2363,0.2363,-0.222,0.0946,0.2346,0.0149,0,,,0,0,"2 training closes, needs 30"
 rent,deposito|misiones,deposito,Misiones,1,0,,,,,,,,,,0,0,"1 training closes, needs 30"
-rent,duplex|alto parana,duplex,Alto Paraná,10,0,,,,,,,,,,0,0,"10 training closes, needs 30"
-rent,duplex|asuncion,duplex,Asunción,33,7,0.2621,0.2828,-0.2423,0.5026,0.2232,0.0124,0,,,0,0,"7 holdout closes, needs 10 to measure an error"
-rent,duplex|central,duplex,Central,111,27,0.1679,0.2435,-0.2656,0.3017,0.1645,0.0079,0,,,0,0,does not beat the per-m2 baseline on holdout (median error 16.8% against 16.4%)
-rent,duplex|concepcion,duplex,Concepción,0,1,0.2566,0.2566,-0.2042,-0.2042,0.4088,0.0015,0,,,0,0,"0 training closes, needs 30"
-rent,duplex|itapua,duplex,Itapúa,14,6,0.0848,0.0924,-0.1394,-0.0275,0.0723,0.0066,0,,,0,0,"14 training closes, needs 30"
-rent,local|alto parana,local,Alto Paraná,16,4,0.3206,0.6646,-0.5824,-0.0003,0.7626,0.0097,0,,,0,0,"16 training closes, needs 30"
-rent,local|asuncion,local,Asunción,67,10,0.4526,0.7821,-0.6221,0.7436,0.4862,0.0285,0,22,87,1,1,
-rent,local|boqueron,local,Boquerón,4,5,0.1066,0.0915,-0.0413,0.1536,0.3143,0.0341,0,,,0,0,"4 training closes, needs 30"
+rent,duplex|alto parana,duplex,Alto Paraná,7,0,,,,,,,,,,0,0,"7 training closes, needs 30"
+rent,duplex|asuncion,duplex,Asunción,31,7,0.2328,0.2633,-0.2135,0.5417,0.2232,0.0099,0,,,0,0,"7 holdout closes, needs 10 to measure an error"
+rent,duplex|central,duplex,Central,111,27,0.1861,0.243,-0.2786,0.3135,0.1645,0.0068,0,,,0,0,does not beat the per-m2 baseline on holdout (median error 18.6% against 16.4%)
+rent,duplex|concepcion,duplex,Concepción,0,1,0.2363,0.2363,-0.1911,-0.1911,0.4088,0.001,0,,,0,0,"0 training closes, needs 30"
+rent,duplex|itapua,duplex,Itapúa,9,6,0.0794,0.0695,-0.0473,0.0882,0.0723,0.0076,0,,,0,0,"9 training closes, needs 30"
+rent,local|alto parana,local,Alto Paraná,12,4,0.2345,0.8178,-0.5837,0.1588,0.7626,0.007,0,,,0,0,"12 training closes, needs 30"
+rent,local|asuncion,local,Asunción,58,10,0.519,0.6555,-0.5646,0.8171,0.4862,0.0297,0,,,0,0,does not beat the per-m2 baseline on holdout (median error 51.9% against 48.6%)
+rent,local|boqueron,local,Boquerón,4,5,0.1673,0.1801,-0.0263,0.2615,0.3143,0.0299,0,,,0,0,"4 training closes, needs 30"
 rent,local|caazapa,local,Caazapá,1,0,,,,,,,,,,0,0,"1 training closes, needs 30"
-rent,local|central,local,Central,95,20,0.1842,0.3423,-0.4491,0.2959,0.3318,0.0337,0,54,81,1,1,
-rent,local|cordillera,local,Cordillera,3,1,0.3636,0.3636,-0.2667,-0.2667,0.0585,0.0232,0,,,0,0,"3 training closes, needs 30"
-rent,local|itapua,local,Itapúa,15,6,0.3507,0.5514,-0.4882,0.1419,0.2518,0.0073,0,,,0,0,"15 training closes, needs 30"
+rent,local|central,local,Central,89,20,0.2151,0.3409,-0.4838,0.4007,0.3318,0.031,0,51,81,1,1,
+rent,local|cordillera,local,Cordillera,3,1,0.348,0.348,-0.2581,-0.2581,0.0585,0.0199,0,,,0,0,"3 training closes, needs 30"
+rent,local|itapua,local,Itapúa,15,6,0.5109,0.6277,-0.5049,0.0362,0.2518,0.0049,0,,,0,0,"15 training closes, needs 30"
 rent,local|misiones,local,Misiones,1,0,,,,,,,,,,0,0,"1 training closes, needs 30"
-rent,oficina|alto parana,oficina,Alto Paraná,15,4,0.1903,0.2251,-0.181,0.5812,0.5762,0.0092,0,,,0,0,"15 training closes, needs 30"
-rent,oficina|asuncion,oficina,Asunción,47,12,0.2071,0.526,-0.6089,0.1701,0.2704,0.0317,0.0073,23,88,1,1,
+rent,oficina|alto parana,oficina,Alto Paraná,18,4,0.2292,0.2264,-0.1893,0.508,0.6831,0.0052,0,,,0,0,"18 training closes, needs 30"
+rent,oficina|asuncion,oficina,Asunción,36,12,0.3636,0.489,-0.4719,0.6684,0.2704,0.0351,0.0073,,,0,0,does not beat the per-m2 baseline on holdout (median error 36.4% against 27.0%)
 rent,oficina|boqueron,oficina,Boquerón,1,0,,,,,,,,,,0,0,"1 training closes, needs 30"
-rent,oficina|central,oficina,Central,7,1,0.0934,0.0934,-0.0854,-0.0854,0.7049,0.0208,0.0769,,,0,0,"7 training closes, needs 30"
+rent,oficina|central,oficina,Central,7,1,0.2828,0.2828,-0.2205,-0.2205,1.0415,0.0177,0.0769,,,0,0,"7 training closes, needs 30"
 rent,oficina|itapua,oficina,Itapúa,2,0,,,,,,,,,,0,0,"2 training closes, needs 30"
-rent,quinta|itapua,quinta,Itapúa,0,1,2.4746,2.4746,-0.7122,-0.7122,0.1692,0.0291,0,,,0,0,"0 training closes, needs 30"
+rent,quinta|itapua,quinta,Itapúa,0,1,0.8333,0.8333,-0.4545,-0.4545,0.1709,0.0955,0,,,0,0,"0 training closes, needs 30"
 rent,terreno|alto parana,terreno,Alto Paraná,1,0,,,,,,,,,,0,0,"1 training closes, needs 30"
 rent,terreno|asuncion,terreno,Asunción,2,0,,,,,,,,,,0,0,"2 training closes, needs 30"
 rent,terreno|boqueron,terreno,Boquerón,3,0,,,,,,,,,,0,0,"3 training closes, needs 30"
-rent,terreno|central,terreno,Central,4,3,0.3405,0.2661,-0.2002,0.6391,0.2125,0.0224,0,,,0,0,"4 training closes, needs 30"
+rent,terreno|central,terreno,Central,3,3,0.3113,0.3268,-0.1225,0.6396,0.2125,0.0219,0,,,0,0,"3 training closes, needs 30"
 rent,terreno|itapua,terreno,Itapúa,4,0,,,,,,,,,,0,0,"4 training closes, needs 30"

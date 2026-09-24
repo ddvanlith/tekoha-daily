@@ -15,6 +15,7 @@ close_date,operation,place,barrio,kind,deal_records,deal_kinds,area_m2,area_basi
 2026-09-22,sale,Asunción,Ciudad Nueva,departamento,1,,99,built,2,310000000,PYG,52303,288000000,PYG,48592,2920892,493,-7.1,same currency,0,375,0,remax,143036021-142,Asunción,
 2026-09-21,sale,Asunción,Mburicaó,departamento,1,,314,land,2,132821,USD,132821,132821,USD,132821,422,422,0,same currency,0,,0,remax,143063102-378,Asunción,
 2026-09-21,sale,"Lambaré, Central",,terreno,1,,615,land,,450000000,PYG,75626,430000000,PYG,72265,699187,118,-4.4,same currency,0,150,0,remax,143036136-29,Central,Lambaré
+2026-09-21,sale,"Lambaré, Central",,terreno,1,,360,land,,280000000,PYG,47056,280000000,PYG,47056,777778,131,0,same currency,0,150,1,remax,143036136-28,Central,Lambaré
 2026-09-21,rent,"Encarnación, Itapúa",,departamento,1,,1,land,2,1200,USD,1200,7137600,PYG,1200,7137600,1200,0,"cross-currency, at sale-date rate",0,48,0,remax,143011007-2256,Itapúa,Encarnación
 2026-09-21,rent,"Encarnación, Itapúa",,casa,1,,1,built,4,3500000,PYG,588,3500000,PYG,588,3500000,588,0,same currency,0,21,0,remax,143011007-2268,Itapúa,Encarnación
 2026-09-21,rent,"Cambyretá, Itapúa",,casa,1,,1,built,2,6000000,PYG,1008,6000000,PYG,1008,6000000,1008,0,same currency,0,17,0,remax,143011007-2272,Itapúa,Cambyretá
@@ -37,6 +38,7 @@ close_date,operation,place,barrio,kind,deal_records,deal_kinds,area_m2,area_basi
 2026-09-18,sale,Asunción,Ycuá Satí,casa,2,"casa, terreno",630,built,6,560000,USD,560000,495000,USD,495000,786,786,-11.6,same currency,0,617,0,remax,143094053-3,Asunción,
 2026-09-18,sale,"Fernando de la Mora, Central",,departamento,1,,80,built,2,65000,USD,65000,380550000,PYG,63941,4756875,799,-1.6,"cross-currency, at sale-date rate",0,100,0,remax,143063091-111,Central,Fernando de la Mora
 2026-09-18,sale,Asunción,La Encarnación,local,1,,,,,29000,USD,29000,172550000,PYG,28992,,,0,"cross-currency, at sale-date rate",0,215,0,remax,143036045-234,Asunción,
+2026-09-18,sale,"Ciudad del Este, Alto Paraná",,departamento,1,,47,built,1,83903,USD,83903,599114040,PYG,100664,12747107,2142,20,"cross-currency, at sale-date rate",0,52,1,remax,143050056-218,Alto Paraná,Ciudad del Este
 2026-09-17,sale,"Ciudad del Este, Alto Paraná",,terreno,1,,360,land,,145000000,PYG,24458,133000000,PYG,22434,369444,62,-8.3,same currency,0,414,0,remax,143050187-1,Alto Paraná,Ciudad del Este
 2026-09-17,rent,Asunción,Ytay,departamento,1,,65,land,2,6000000,PYG,1012,6000000,PYG,1012,92308,16,0,same currency,0,14,0,remax,114006036-25,Asunción,
 2026-09-17,sale,"Luque, Central",,terreno,1,,360,land,,125000000,PYG,21085,125000000,PYG,21085,347222,59,0,same currency,0,386,0,remax,143096013-22,Central,Luque
@@ -59,12 +61,14 @@ close_date,operation,place,barrio,kind,deal_records,deal_kinds,area_m2,area_basi
 2026-09-15,rent,"Luque, Central",,casa,1,,183,built,3,5000000,PYG,845,5000000,PYG,845,27322,5,0,same currency,0,1,0,remax,143025091-136,Central,Luque
 2026-09-15,sale,"Fernando de la Mora, Central",,casa,1,,420,built,4,320000,USD,320000,1680000000,PYG,283931,4000000,676,-11.3,"cross-currency, at sale-date rate",0,53,0,remax,143019092-20,Central,Fernando de la Mora
 2026-09-15,sale,Asunción,Mburucuyá,departamento,1,,33,land,1,86500,USD,86500,512080000,PYG,86545,15470695,2615,0.1,"cross-currency, at sale-date rate",0,34,0,remax,143098011-348,Asunción,
+2026-09-15,rent,Asunción,Carmelitas,departamento,1,,48,built,1,1000,USD,1000,6000000,PYG,1014,125000,21,1.4,"cross-currency, at sale-date rate",0,46,1,remax,143098011-345,Asunción,
 2026-09-15,sale,"Mariano Roque Alonso, Central",,terreno,1,,,,,265000000,PYG,44787,265000000,PYG,44787,,,0,same currency,0,19,0,remax,143020119-29,Central,Mariano Roque Alonso
 2026-09-15,sale,"Ciudad del Este, Alto Paraná",,duplex,1,,130,built,2,145000,USD,145000,8600000000,PYG,1453455,66317088,11208,902.4,"cross-currency, at sale-date rate",1,762,0,remax,143050081-95,Alto Paraná,Ciudad del Este
 2026-09-15,rent,"Lambaré, Central",,duplex,1,,89,land,3,2800000,PYG,473,2800000,PYG,473,31380,5,0,same currency,0,8,0,remax,143061015-155,Central,Lambaré
 2026-09-15,sale,Asunción,Catedral,casa,1,,113,built,3,400000000,PYG,67603,385000000,PYG,65067,3407080,576,-3.8,same currency,0,13,0,remax,143068074-53,Asunción,
 2026-09-15,rent,Asunción,Recoleta,departamento,1,,49,land,1,3750000,PYG,634,3750000,PYG,634,76531,13,0,same currency,0,,0,remax,143096014-69,Asunción,
 2026-09-15,sale,"Mariano Roque Alonso, Central",,terreno,1,,360,land,,380000000,PYG,64222,310000000,PYG,52392,861111,146,-18.4,same currency,0,176,0,remax,143072093-15,Central,Mariano Roque Alonso
+2026-09-15,rent,"Encarnación, Itapúa",,departamento,1,,50,built,1,660,USD,660,3933600,PYG,665,78672,13,0.7,"cross-currency, at sale-date rate",0,42,1,remax,143032061-160,Itapúa,Encarnación
 2026-09-15,rent,"Mariano Roque Alonso, Central",,departamento,1,,360,land,3,7000000,PYG,1183,7000000,PYG,1183,19444,3,0,same currency,0,39,0,remax,143025149-274,Central,Mariano Roque Alonso
 2026-09-15,sale,Asunción,Villa Morra,departamento,1,,360,land,1,62800,USD,62800,373845000,PYG,63182,1038458,176,0.6,"cross-currency, at sale-date rate",0,49,0,remax,143056070-19,Asunción,
 2026-09-15,rent,"Luque, Central",,duplex,1,,100,built,3,5000000,PYG,845,5000000,PYG,845,50000,8,0,same currency,0,,0,remax,143092053-41,Central,Luque
@@ -86,6 +90,7 @@ close_date,operation,place,barrio,kind,deal_records,deal_kinds,area_m2,area_basi
 2026-09-11,sale,Asunción,Santa María,terreno,1,,,,,550000000,PYG,91443,500000000,PYG,83130,,,-9.1,same currency,0,322,0,remax,143098070-14,Asunción,
 2026-09-11,rent,Asunción,Las Lomas (Carmelitas),oficina,1,,225,built,,14500000,PYG,2411,14500000,PYG,2411,64444,11,0,same currency,0,,0,remax,143098122-220,Asunción,
 2026-09-11,rent,"Capiatá, Central",,casa,1,,120,built,2,1500000,PYG,249,1500000,PYG,249,12500,2,0,same currency,0,,0,remax,143072073-153,Central,Capiatá
+2026-09-11,sale,Asunción,Ycuá Satí,departamento,1,,43,built,1,86000,USD,86000,512295000,PYG,85174,11913837,1981,-1,"cross-currency, at sale-date rate",0,138,1,remax,143061061-148,Asunción,
 2026-09-11,rent,"Fernando de la Mora, Central",,departamento,1,,57,land,1,3500000,PYG,582,3500000,PYG,582,61404,10,0,same currency,0,3,0,remax,143046081-6,Central,Fernando de la Mora
 2026-09-11,rent,Asunción,San Cristóbal,casa,1,,82,built,1,3300000,PYG,549,3300000,PYG,549,40244,7,0,same currency,0,13,0,remax,143026176-92,Asunción,
 2026-09-11,rent,Asunción,San Vicente,casa,1,,40,built,1,1650000,PYG,274,1650000,PYG,274,41250,7,0,same currency,0,,0,remax,143025175-36,Asunción,
@@ -116,12 +121,14 @@ close_date,operation,place,barrio,kind,deal_records,deal_kinds,area_m2,area_basi
 2026-09-09,rent,"Santa Rita, Alto Paraná",,deposito,1,,,,,6960000,PYG,1182,6960000,PYG,1182,,,0,same currency,0,149,0,remax,143065043-8,Alto Paraná,
 2026-09-09,rent,"Fernando de la Mora, Central",,terreno,1,,2100,land,,8000000,PYG,1358,8000000,PYG,1358,3810,1,0,same currency,0,105,0,remax,143025234-25,Central,Fernando de la Mora
 2026-09-09,sale,Asunción,Villa Morra,departamento,1,,38,land,1,95000,USD,95000,547400000,PYG,92938,14519894,2465,-2.2,"cross-currency, at sale-date rate",0,118,0,remax,143098009-733,Asunción,
+2026-09-08,sale,"Ciudad del Este, Alto Paraná",,departamento,1,,32,land,1,46296,USD,46296,27111366,PYG,4594,855248,145,-90.1,"cross-currency, at sale-date rate",1,2,1,remax,143099027-82,Alto Paraná,Ciudad del Este
 2026-09-08,rent,"Altos, Cordillera",,casa,1,,360,built,3,10000000,PYG,1694,10000000,PYG,1694,27778,5,0,same currency,0,76,0,remax,143098061-67,Cordillera,Altos
 2026-09-08,sale,"Ciudad del Este, Alto Paraná",,departamento,1,,32,built,1,69832,USD,69832,411475260,PYG,69717,13062707,2213,-0.2,"cross-currency, at sale-date rate",0,2,0,remax,143099027-79,Alto Paraná,Ciudad del Este
 2026-09-08,sale,"Atyra, Cordillera",,terreno,1,,5304,land,,300000000,PYG,50830,85000000,PYG,14402,16026,3,-71.7,same currency,1,166,0,remax,143092070-71,Cordillera,
 2026-09-08,rent,"Limpio, Central",,casa,1,,90,built,2,3000000,PYG,508,3000000,PYG,508,33333,6,0,same currency,0,62,0,remax,143025241-46,Central,Limpio
 2026-09-08,rent,"Mariano Roque Alonso, Central",,departamento,1,,48,built,,300,USD,300,1550000,PYG,263,32292,5,-12.5,"cross-currency, at sale-date rate",0,21,0,remax,143109001-30,Central,Mariano Roque Alonso
 2026-09-08,rent,"Fernando de la Mora, Central",,local,1,,,,,3100000,PYG,525,3100000,PYG,525,,,0,same currency,0,5,0,remax,143061046-104,Central,Fernando de la Mora
+2026-09-08,rent,Asunción,Loma Pytá,departamento,1,,300,land,1,2600000,PYG,441,2600000,PYG,441,8667,1,0,same currency,0,95,1,remax,143054132-4,Asunción,
 2026-09-08,sale,"Encarnación, Itapúa",,departamento,1,,49,land,1,73500,USD,73500,433576500,PYG,73462,8848500,1499,-0.1,"cross-currency, at sale-date rate",0,5,0,remax,143011007-2270,Itapúa,Encarnación
 2026-09-08,rent,"Fernando de la Mora, Central",,casa,1,,190,built,4,5200000,PYG,881,5000000,PYG,847,26316,4,-3.8,same currency,0,20,0,remax,143072093-27,Central,Fernando de la Mora
 2026-09-07,rent,Asunción,Carmelitas,casa,1,,275,built,7,9000000,PYG,1521,9000000,PYG,1521,32727,6,0,same currency,0,40,0,remax,143025154-133,Asunción,
@@ -143,6 +150,8 @@ close_date,operation,place,barrio,kind,deal_records,deal_kinds,area_m2,area_basi
 2026-09-05,rent,"Capiatá, Central",,otro,1,,300,built,2,8800000,PYG,1477,8000000,PYG,1343,26667,4,-9.1,same currency,0,4,0,remax,143108029-2,Central,Capiatá
 2026-09-05,rent,"San Lorenzo, Central",,duplex,1,,120,built,3,4500000,PYG,755,4000000,PYG,671,33333,6,-11.1,same currency,0,54,0,remax,143068046-70,Central,San Lorenzo
 2026-09-05,rent,"Filadelfia, Boquerón",,casa,1,,140,built,4,4000000,PYG,671,4000000,PYG,671,28571,5,0,same currency,0,87,0,remax,143016008-536,Boquerón,
+2026-09-05,sale,"Mariano Roque Alonso, Central",,departamento,1,,28,built,1,45000,USD,45000,262350000,PYG,44037,9369643,1573,-2.1,"cross-currency, at sale-date rate",0,3,1,remax,143020091-74,Central,Mariano Roque Alonso
+2026-09-05,rent,Asunción,Las Mercedes,departamento,1,,43,built,1,3700000,PYG,621,3500000,PYG,588,81814,14,-5.4,same currency,0,61,1,remax,143097001-132,Asunción,
 2026-09-05,rent,"Lambaré, Central",,departamento,1,,50,built,1,1500000,PYG,252,1500000,PYG,252,30000,5,0,same currency,0,7,0,remax,143026121-11,Central,Lambaré
 2026-09-04,rent,"Ciudad del Este, Alto Paraná",,otro,1,,,,,8500,USD,8500,50678530,PYG,8507,,,0.1,"cross-currency, at sale-date rate",0,,0,remax,143107012-16,Alto Paraná,Ciudad del Este
 2026-09-04,sale,Asunción,Recoleta,local,1,,,,,320000,USD,320000,1955536000,PYG,328252,,,2.6,"cross-currency, at sale-date rate",0,39,0,remax,143063136-328,Asunción,
@@ -151,6 +160,8 @@ close_date,operation,place,barrio,kind,deal_records,deal_kinds,area_m2,area_basi
 2026-09-04,sale,Asunción,Herrera,casa,2,"casa, terreno",210,built,3,195000,USD,195000,1132780000,PYG,190146,5394190,905,-2.5,"cross-currency, at sale-date rate",0,553,0,remax,143063152-23,Asunción,
 2026-09-04,rent,"Santa Rita, Alto Paraná",,casa,1,,500,built,3,2500,USD,2500,14810000,PYG,2486,29620,5,-0.6,"cross-currency, at sale-date rate",0,1,0,remax,143065026-271,Alto Paraná,
 2026-09-04,sale,"Villa Elisa, Central",,terreno,1,,,,,400000000,PYG,67143,400000000,PYG,67143,,,0,same currency,0,56,0,remax,143080161-46,Central,Villa Elisa
+2026-09-04,sale,"Ciudad del Este, Alto Paraná",,departamento,1,,42,built,1,82545,USD,82545,501400000,PYG,84164,12081928,2028,2,"cross-currency, at sale-date rate",0,72,1,remax,143099027-62,Alto Paraná,Ciudad del Este
+2026-09-04,sale,"Ciudad del Este, Alto Paraná",,departamento,1,,32,built,1,54349,USD,54349,326700000,PYG,54839,10371429,1741,0.9,"cross-currency, at sale-date rate",0,55,1,remax,143099027-67,Alto Paraná,Ciudad del Este
 2026-09-04,rent,"Ciudad del Este, Alto Paraná",,departamento,1,,360,land,2,3000000,PYG,504,3000000,PYG,504,8333,1,0,same currency,0,49,0,remax,143050055-150,Alto Paraná,Ciudad del Este
 2026-09-04,rent,"Santa Rita, Alto Paraná",,casa,1,,75,built,,3000000,PYG,504,3000000,PYG,504,40000,7,0,same currency,0,3,0,remax,143065026-269,Alto Paraná,
 2026-09-04,sale,"Cambyretá, Itapúa",,terreno,1,,40005,land,,260000000,PYG,43643,260000000,PYG,43643,6499,1,0,same currency,0,2139,0,remax,143011030-76,Itapúa,Cambyretá
@@ -193,6 +204,7 @@ close_date,operation,place,barrio,kind,deal_records,deal_kinds,area_m2,area_basi
 2026-09-01,rent,Asunción,Mariscal Estigarribia,departamento,1,,82,land,2,5000000,PYG,845,5000000,PYG,845,60976,10,0,same currency,0,1,0,remax,143098086-12,Asunción,
 2026-09-01,rent,"Ciudad del Este, Alto Paraná",,casa,1,,360,land,3,4000000,PYG,676,4000000,PYG,676,11111,2,0,same currency,0,1,0,remax,143099035-4,Alto Paraná,Ciudad del Este
 2026-09-01,rent,"Ciudad del Este, Alto Paraná",,departamento,1,,,,,1300,USD,1300,7685600,PYG,1300,,,0,"cross-currency, at sale-date rate",0,1,0,remax,143050054-99,Alto Paraná,Ciudad del Este
+2026-08-31,rent,Asunción,Recoleta,departamento,1,,47,land,1,4000000,PYG,678,4000000,PYG,678,85106,14,0,same currency,0,25,1,remax,143054116-65,Asunción,
 2026-08-31,sale,Asunción,Loma Pytá,terreno,1,,,,,500000000,PYG,84706,480000000,PYG,81318,,,-4,same currency,0,131,0,remax,143063199-61,Asunción,
 2026-08-31,rent,"Mariano Roque Alonso, Central",,local,1,,,,,2500000,PYG,424,2000000,PYG,339,,,-20,same currency,0,111,0,remax,143025157-31,Central,Mariano Roque Alonso
 2026-08-31,rent,"San Lorenzo, Central",,departamento,1,,28,built,1,2000000,PYG,339,2000000,PYG,339,71429,12,0,same currency,0,10,0,remax,143054111-140,Central,San Lorenzo
@@ -203,6 +215,7 @@ close_date,operation,place,barrio,kind,deal_records,deal_kinds,area_m2,area_basi
 2026-08-31,rent,"Fernando de la Mora, Central",,local,1,,800,built,,13000000,PYG,2202,8000000,PYG,1355,10000,2,-38.5,same currency,0,410,0,remax,143025147-84,Central,Fernando de la Mora
 2026-08-31,sale,"Loma Plata, Boquerón",,casa,1,,3334,built,4,845000000,PYG,143153,845000000,PYG,143153,253449,43,0,same currency,0,53,0,remax,143078001-187,Boquerón,
 2026-08-31,rent,"Villeta, Central",,deposito,1,,495,built,,7000000,PYG,1186,7000000,PYG,1186,14141,2,0,same currency,0,90,0,remax,143095030-16,Central,Villeta
+2026-08-31,rent,Asunción,Las Lomas (Carmelitas),departamento,1,,55,built,,1250,USD,1250,7176000,PYG,1216,130473,22,-2.7,"cross-currency, at sale-date rate",0,54,0,remax,143046003-271,Asunción,
 2026-08-31,sale,"Loma Plata, Boquerón",,terreno,1,,,,,100000000,PYG,16941,100000000,PYG,16941,,,0,same currency,0,,0,remax,143078001-191,Boquerón,
 2026-08-31,sale,"Santa Rita, Alto Paraná",,terreno,1,,,,,38000,USD,38000,226100000,PYG,38304,,,0.8,"cross-currency, at sale-date rate",0,94,0,remax,143065032-30,Alto Paraná,
 2026-08-31,rent,"San Lorenzo, Central",,departamento,1,,60,built,1,1500000,PYG,254,1500000,PYG,254,25000,4,0,same currency,0,3,0,remax,143009127-105,Central,San Lorenzo
@@ -210,24 +223,25 @@ close_date,operation,place,barrio,kind,deal_records,deal_kinds,area_m2,area_basi
 2026-08-31,sale,"Ñemby, Central",,terreno,1,,360,land,,240000000,PYG,40659,210000000,PYG,35576,583333,99,-12.5,same currency,0,77,0,remax,143096011-83,Central,Ñemby
 2026-08-31,rent,"Luque, Central",,casa,1,,85,built,2,3300000,PYG,559,3300000,PYG,559,38824,7,0,same currency,0,37,0,remax,114006036-19,Central,Luque
 2026-08-31,rent,"Encarnación, Itapúa",,duplex,1,,79,built,2,3000000,PYG,508,3000000,PYG,508,37975,6,0,same currency,0,160,0,remax,143085019-560,Itapúa,Encarnación
+2026-08-31,sale,Asunción,Recoleta,departamento,1,,66,land,2,149956,USD,149956,889239080,PYG,150648,13473319,2283,0.5,"cross-currency, at sale-date rate",0,26,1,remax,143096010-47,Asunción,
 2026-08-31,rent,"Lambaré, Central",,duplex,1,,,,2,2700000,PYG,457,2700000,PYG,457,,,0,same currency,0,,0,remax,143025240-22,Central,Lambaré
 2026-08-31,rent,Asunción,Virgen de la Asunción,departamento,1,,,,,600,USD,600,3672000,PYG,622,,,3.7,"cross-currency, at sale-date rate",0,39,0,remax,143056070-18,Asunción,
-2026-08-30,sale,Asunción,Mburucuyá,departamento,1,,56,built,1,85000,USD,85000,498127500,PYG,84167,8865056,1498,-1,"cross-currency, at sale-date rate",0,4,0,remax,143063076-124,Asunción,
 2026-08-29,rent,"Luque, Central",,departamento,1,,,,1,2100000,PYG,355,2100000,PYG,355,,,0,same currency,0,29,0,remax,143037122-91,Central,Luque
 2026-08-28,rent,Asunción,La Encarnación,oficina,1,,106,built,,720,USD,720,4689432,PYG,792,44420,8,10.1,"cross-currency, at sale-date rate",0,243,0,remax,143061088-13,Asunción,
 2026-08-28,sale,"Mariano Roque Alonso, Central",,casa,1,,240,built,3,350000000,PYG,59138,300000000,PYG,50690,1250000,211,-14.3,same currency,0,273,0,remax,143025157-19,Central,Mariano Roque Alonso
 2026-08-28,rent,"Mariano Roque Alonso, Central",,local,1,,109,built,,5500000,PYG,929,5500000,PYG,929,50459,9,0,same currency,0,71,0,remax,143019021-120,Central,Mariano Roque Alonso
 2026-08-28,rent,Asunción,San Jorge,oficina,1,,360,land,,7000000,PYG,1183,6000000,PYG,1014,16667,3,-14.3,same currency,0,25,0,remax,143098058-65,Asunción,
+2026-08-28,rent,"Luque, Central",,departamento,1,,51,built,2,3900000,PYG,659,3900000,PYG,659,76321,13,0,same currency,0,24,1,remax,143094007-124,Central,Luque
 2026-08-28,rent,"Encarnación, Itapúa",,departamento,1,,65,built,1,2500000,PYG,422,2500000,PYG,422,38462,6,0,same currency,0,2,0,remax,143085019-583,Itapúa,Encarnación
+2026-08-28,sale,"Encarnación, Itapúa",,departamento,1,,58,land,2,92500,USD,92500,547785000,PYG,92557,9444569,1596,0.1,"cross-currency, at sale-date rate",0,1362,1,remax,143011008-263,Itapúa,Encarnación
 2026-08-28,rent,"Cambyretá, Itapúa",,casa,1,,60,built,2,2400000,PYG,406,2400000,PYG,406,40000,7,0,same currency,0,16,0,remax,143011091-77,Itapúa,Cambyretá
 2026-08-28,sale,"Cambyretá, Itapúa",,casa,1,,130,built,3,550000000,PYG,92932,550000000,PYG,92932,4230769,715,0,same currency,0,666,0,remax,143032061-78,Itapúa,Cambyretá
 2026-08-28,rent,"Lambaré, Central",,duplex,1,,,,2,2200000,PYG,372,2200000,PYG,372,,,0,same currency,0,42,0,remax,143025241-47,Central,Lambaré
-2026-08-28,rent,"Encarnación, Itapúa",,departamento,1,,38,built,1,1000000,PYG,169,1000000,PYG,169,26316,4,0,same currency,0,1,0,remax,143032061-161,Itapúa,Encarnación
+2026-08-28,rent,"Encarnación, Itapúa",,departamento,2,departamento,38,built,1,1000000,PYG,169,1000000,PYG,169,26316,4,0,same currency,0,1,0,remax,143032061-161,Itapúa,Encarnación
 2026-08-28,sale,"Lambaré, Central",,terreno,1,,,,,70000,USD,70000,420000000,PYG,70966,,,1.4,"cross-currency, at sale-date rate",0,387,0,remax,143071067-82,Central,Lambaré
 2026-08-28,sale,"Filadelfia, Boquerón",,terreno,1,,436,land,,80000000,PYG,13517,78000000,PYG,13179,179104,30,-2.5,same currency,0,11,0,remax,143078001-190,Boquerón,
 2026-08-27,sale,Asunción,Catedral,edificio,1,,397,land,,550000,USD,550000,2489340000,PYG,420065,6278285,1059,-23.6,"cross-currency, at sale-date rate",0,1081,0,remax,143098119-33,Asunción,
 2026-08-27,sale,"Ñemby, Central",,terreno,1,,,,,230000000,PYG,38811,220000000,PYG,37124,,,-4.3,same currency,0,225,0,remax,143009135-77,Central,Ñemby
-2026-08-27,rent,"Fernando de la Mora, Central",,departamento,1,,98,land,2,4200000,PYG,709,4200000,PYG,709,42818,7,0,same currency,0,,0,remax,143046046-151,Central,Fernando de la Mora
 2026-08-27,rent,"Luque, Central",,casa,1,,,,3,5500000,PYG,928,5500000,PYG,928,,,0,same currency,0,,0,remax,143100042-57,Central,Luque
 2026-08-27,sale,"Obligado, Itapúa",,casa,1,,512,built,4,753132860,PYG,127088,753132860,PYG,127088,1470963,248,0,same currency,0,159,0,remax,143085041-5,Itapúa,
 2026-08-27,sale,"Cambyretá, Itapúa",,departamento,1,,,,2,27000,USD,27000,160083000,PYG,27013,,,0,"cross-currency, at sale-date rate",0,653,0,remax,143011007-1919,Itapúa,Cambyretá
@@ -246,12 +260,16 @@ close_date,operation,place,barrio,kind,deal_records,deal_kinds,area_m2,area_basi
 2026-08-27,rent,"Luque, Central",,departamento,1,,,,,3000000,PYG,506,3000000,PYG,506,,,0,same currency,0,,0,remax,143028065-69,Central,Luque
 2026-08-27,rent,"Encarnación, Itapúa",,departamento,1,,,,3,6500000,PYG,1097,6500000,PYG,1097,,,0,same currency,0,16,0,remax,143011007-2262,Itapúa,Encarnación
 2026-08-27,sale,"Encarnación, Itapúa",,departamento,1,,36,land,1,48000,USD,48000,284592000,PYG,48024,7820610,1320,0,"cross-currency, at sale-date rate",0,358,0,remax,143011007-2108,Itapúa,Encarnación
+2026-08-26,sale,Asunción,Villa Morra,departamento,1,,68,land,2,124900,USD,124900,761890000,PYG,128321,11287259,1901,2.7,"cross-currency, at sale-date rate",0,,1,remax,143056047-120,Asunción,
 2026-08-26,sale,"San Bernardino, Cordillera",,terreno,1,,,,,93613,USD,93613,555998375,PYG,93644,,,0,"cross-currency, at sale-date rate",0,8,0,remax,143063172-39,Cordillera,San Bernardino
 2026-08-26,sale,"San Bernardino, Cordillera",,terreno,1,,,,,125000,USD,125000,734375000,PYG,123687,,,-1.1,"cross-currency, at sale-date rate",0,8,0,remax,143063172-38,Cordillera,San Bernardino
+2026-08-26,sale,Asunción,Las Lomas (Carmelitas),departamento,1,,142,built,3,270873,USD,270873,1600859430,PYG,269624,11273658,1899,-0.5,"cross-currency, at sale-date rate",0,248,1,remax,143036045-221,Asunción,
 2026-08-26,sale,"Lambaré, Central",,casa,1,,230,built,3,950000000,PYG,160003,850000000,PYG,143161,3695652,622,-10.5,same currency,0,203,0,remax,143098119-22,Central,Lambaré
+2026-08-26,sale,Asunción,Ytay,departamento,1,,26,land,,43000,USD,43000,43000,USD,43000,1654,1654,0,same currency,0,8,1,remax,143063198-13,Asunción,
 2026-08-26,sale,"Fernando de la Mora, Central",,local,1,,8342,land,,1950000,USD,1950000,11044500000,PYG,1860162,1323963,223,-4.6,"cross-currency, at sale-date rate",0,63,0,remax,143098031-73,Central,Fernando de la Mora
+2026-08-26,rent,Asunción,Las Mercedes,departamento,1,,62,built,1,4500000,PYG,758,4200000,PYG,707,67742,11,-6.7,same currency,0,74,1,remax,143097001-125,Asunción,
 2026-08-26,sale,Asunción,Las Mercedes,departamento,1,,190,land,3,90000,USD,90000,534150000,PYG,89964,2817098,474,0,"cross-currency, at sale-date rate",0,121,0,remax,143100046-11,Asunción,
 2026-08-26,sale,Asunción,Herrera,departamento,1,,82,built,2,115000,USD,115000,712000000,PYG,119918,8682927,1462,4.3,"cross-currency, at sale-date rate",0,352,0,remax,143098054-43,Asunción,
-2026-08-26,rent,"San Lorenzo, Central",,departamento,1,,25,built,1,1600000,PYG,269,1600000,PYG,269,65306,11,0,same currency,0,,0,remax,143028080-158,Central,San Lorenzo
 2026-08-26,rent,"Lambaré, Central",,casa,1,,366,built,5,8000000,PYG,1347,8000000,PYG,1347,21858,4,0,same currency,0,72,0,remax,143026188-98,Central,Lambaré
+2026-08-26,rent,Asunción,Loma Pytá,departamento,1,,99,built,2,5300000,PYG,893,5300000,PYG,893,53535,9,0,same currency,0,128,1,remax,143068079-126,Asunción,
 2026-08-26,rent,"Villa Elisa, Central",,casa,1,,95,built,2,2000000,PYG,337,2000000,PYG,337,21053,4,0,same currency,0,46,0,remax,143026092-77,Central,Villa Elisa
