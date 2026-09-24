@@ -19,7 +19,7 @@ const SHORT = { casa: "casa", departamento: "depto" };
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
 const D = {};
-const S = { market: "py", cellKind: "departamento", closeOp: "sale", recentOp: "sale", metric: "sale", tables: new Set(), borrowed: {}, missing: null };
+const S = { market: "py", cellKind: "departamento", closeOp: "sale", recentOp: "sale", metric: "sale", estBasis: "sale", tables: new Set(), borrowed: {}, missing: null };
 const charts = {};
 let map, renderer, cells, cutDots, reoDots, gridShown = null, fitPending = null, rentWin = "month";
 const breaks = {};
@@ -118,9 +118,10 @@ async function load() {
     if (!r.ok) throw new Error(`${f} returned HTTP ${r.status}`);
     return r.json();
   });
-  const [summary, markets, trends, movers, geo, closes] = await Promise.all(["summary.json", "markets.json", "trends.json", "movers.json",
-    "geo.json", "closes.json"].map(get));
-  Object.assign(D, { summary, markets: markets.markets, trends, movers, geo, closes });
+  // The estimate is optional: a build whose estimate step failed still renders every measured panel.
+  const [summary, markets, trends, movers, geo, closes, estimate] = await Promise.all([...["summary.json", "markets.json", "trends.json",
+    "movers.json", "geo.json", "closes.json"].map(get), get("estimate.json").catch(() => null)]);
+  Object.assign(D, { summary, markets: markets.markets, trends, movers, geo, closes, estimate });
   D.byId = new Map(D.markets.map((m) => [m.id, m]));
 }
 
@@ -678,6 +679,16 @@ function freshShown() {
 }
 const closesShown = (op) => D.closes.rows.filter((r) => r.op === op && here(r))
   .sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0)).slice(0, D.closes.cap);
+// The Tekoha estimate wears its own tag and ink wherever it appears (method notes, "The Tekoha estimate").
+const estTag = () => h("span", { class: "tag estimate", text: "ESTIMATE" });
+const pct1 = (x) => (x == null ? "-" : `${(x * 100).toFixed(1)}%`);
+const bandPct = (b) => (b ? `${b[0] > 0 ? "+" : ""}${Math.round(b[0] * 100)}% to ${b[1] > 0 ? "+" : ""}${Math.round(b[1] * 100)}%` : "-");
+const segLabel = (key) => { const [k, d] = key.split("|"); return `${kindName(k)}, ${D.byId.get(`d:${d.replace(/ /g, "-")}`)?.name || d}`; };
+const estCell = (r) => (r.estimate
+  ? h("span", { class: "estv", title: `Tekoha intrinsic estimate of the close price, a model: ${segLabel(r.estimate.segment)} segment, confidence ${r.estimate.confidence}, ${r.estimate.n_comps} comps` },
+    usdK(r.estimate.est), h("small", { class: "under", text: `${usdK(r.estimate.low)} to ${usdK(r.estimate.high)}` }))
+  : h("span", { class: "muted", title: "No estimate: the listing's segment abstains, or its kind, size or place cannot be read", text: "none" }));
+const estNote = " Estimate: the Tekoha intrinsic estimate of the listing's close price with its segment's 80% band, a model and not a price (method notes); none where its segment abstains.";
 
 function renderTables(m) {
   const min = D.summary.min_n.median, excl = exclusionNote();
@@ -698,24 +709,26 @@ function renderTables(m) {
   const cuts = D.movers.asking_cuts_7d.filter(here);
   table("t-cuts", [["Cut", (r) => r.pct, (r) => h("span", {}, h("span", { class: "cut", text: pct(r.pct) }), newTag(r)), true],
     ["Now", (r) => r.asking_new_usd, (r) => usdNote(r.asking_new, r.currency, r.asking_new_usd), true],
+    ["Estimate", (r) => r.estimate?.est, estCell, true],
     ["Was", (r) => r.asking_old, (r) => money(r.asking_old, r.currency), true], ["Place", placeCell], ["Kind", (r) => kindName(r.kind)],
     ["Built m2", (r) => r.m2, (r) => num(r.m2), true], ["Days listed", (r) => r.days_listed, null, true],
     ["Cut on", (r) => r.observed, (r) => dayShort(r.observed)], ["Listing", (r) => srcName(r.source), srcCell]],
   cuts, { sort: 0, dir: 1, empty: "No sale price cuts in this market in the last 7 days" });
   const newNote = D.summary.changed.baseline ? " NEW marks a row not on file at the previous day's build." : "";
   stamp("cuts-stamp", false, ` sale listings cut in the last 7 days, deepest first, ${num(cuts.length)} rows (up to 100 per market). Cuts past -90% are entry corrections and excluded. xN is the same unit repriced by N brokers; the link opens the first.${newNote} ` +
-    `Sources here: ${mixText(cuts.reduce((a, r) => ({ ...a, [r.source]: (a[r.source] || 0) + 1 }), {})) || "none"}.`);
+    `Sources here: ${mixText(cuts.reduce((a, r) => ({ ...a, [r.source]: (a[r.source] || 0) + 1 }), {})) || "none"}.${estNote}`);
 
   const fresh = freshShown();
   table("t-fresh", [["Vs kind median", (r) => r.disc, (r) => (r.disc == null ? h("span", { class: "muted" }, "no kind median", newTag(r))
     : h("span", {}, pct(r.disc), h("small", { text: `${r.ref.market.id === S.market ? "" : `${r.ref.market.name} `}${kindName(r.kind).toLowerCase()} ${usd(r.ref.median)}` }), newTag(r))), true],
     ["USD/m2", (r) => r.asking_usd_m2, (r) => usd(r.asking_usd_m2), true],
-    ["Ask", (r) => r.asking_usd, (r) => usdNote(r.asking, r.currency, r.asking_usd), true], ["Place", placeCell], ["Kind", (r) => kindName(r.kind)],
+    ["Ask", (r) => r.asking_usd, (r) => usdNote(r.asking, r.currency, r.asking_usd), true], ["Estimate", (r) => r.estimate?.est, estCell, true],
+    ["Place", placeCell], ["Kind", (r) => kindName(r.kind)],
     ["Built m2", (r) => r.m2, null, true], ["Beds", (r) => r.bedrooms, null, true],
     ["First seen", (r) => r.first_seen, (r) => dayShort(r.first_seen)], ["Listing", (r) => srcName(r.source), srcCell]],
   fresh, { sort: 0, dir: 1, empty: "No new sale listings with a built area in this market this week" });
   stamp("fresh-stamp", false, ` first seen in the last 7 days within a week of the portal's publish date, built area 40 to 800 m2. Ranked by asking USD per built m2 against the median of the same kind in this market ` +
-    `(or the nearest larger market that has one, named in the cell), up to 30 per market. An asking price below the median is a claim, not a bargain.${newNote}`);
+    `(or the nearest larger market that has one, named in the cell), up to 30 per market. An asking price below the median is a claim, not a bargain.${newNote}${estNote}`);
 
   const spRows = [];
   for (const op of ["sale", "rent"]) {
@@ -806,6 +819,73 @@ function renderRecentCloses() {
     `Century 21 closed records carry no price and are not listed.${D.summary.changed.baseline ? " NEW marks a deal not on file at the previous day's build." : ""}`);
 }
 
+// ---------- the Tekoha estimate ----------
+// Per market: how many live listings carry an estimate, the measured holdout error of the segments
+// they fall in, the median estimate by kind, and the top of the buy screen. Every figure here is a
+// model's, tagged ESTIMATE, and each travels with its error.
+function renderEstimate(m) {
+  const E = D.estimate, b = S.estBasis;
+  if (!E?.available || !E.markets[m.id]) {
+    $("est-lede").textContent = "No estimate run is on file for this build; the measured panels above are unaffected.";
+    ["t-est-segs", "t-est-kinds", "t-est-under"].forEach((id) => $(id).replaceChildren());
+    $("est-stamp").replaceChildren(estTag(), " no estimate run on file.");
+    return;
+  }
+  const me = E.markets[m.id], base = E.bases[b], ov = base.overall, what = b === "sale" ? "close price" : "monthly rent";
+  const onMarket = me.counts[b].on_market;
+  const segRows = me.segments.filter((s) => s.basis === b).map((s) => {
+    const [kind, dept] = s.segment.split("|");
+    return { ...s, ...(E.segments[b][s.segment] || { kind, department: D.byId.get(`d:${dept.replace(/ /g, "-")}`)?.name || dept,
+      estimate: false, reason: "no training closes in this segment" }) };
+  });
+  $("est-lede").replaceChildren(h("b", { text: num(me.counts[b].intrinsic) }),
+    ` of ${num(me.live[b])} live ${b === "sale" ? "sale" : "rental"} listings of the modeled kinds in ${m.name} carry an intrinsic estimate of their ${what}` +
+    `${onMarket ? `, ${num(onMarket)} of them also an on-market estimate built on their ask` : ""}. ` +
+    `Across Paraguay, on ${num(ov.intrinsic.n)} held-out ${b === "sale" ? "sales" : "rentals"} closed ${dayShort(base.test.from)} to ${dayShort(base.test.to)}, the intrinsic estimate missed by a median ` +
+    `${pct1(ov.intrinsic.mdape)}; the segment's median close per m2 times size missed by ${pct1(ov.baseline_m2.mdape)}. Each segment's own error is in the table.`);
+
+  table("t-est-segs", [
+    ["Segment", (s) => `${s.kind}|${s.department}`, (s) => `${kindName(s.kind)}, ${s.department}`],
+    ["Live", (s) => s.live, (s) => h("span", {}, num(s.live), h("small", { text: `${num(s.scored)} scored` })), true],
+    ["Held out", (s) => s.n_test ?? 0, (s) => (s.n_test == null ? "0" : h("span", {}, num(s.n_test), h("small", { text: `${num(s.n_train)} trained` }))), true],
+    ["Median miss", (s) => s.intrinsic?.median_ape, (s) => (s.intrinsic ? pct1(s.intrinsic.median_ape) : null), true],
+    ["80% band", (s) => s.intrinsic?.band?.[0], (s) => (s.intrinsic ? bandPct(s.intrinsic.band) : null)],
+    ["Per m2 baseline", (s) => s.per_m2_baseline?.median_ape, (s) => (s.per_m2_baseline ? pct1(s.per_m2_baseline.median_ape) : null), true],
+    ["Confidence", (s) => s.confidence?.intrinsic, (s) => (s.confidence ? h("span", {}, num(s.confidence.intrinsic),
+      s.confidence.on_market != null ? h("small", { text: `on-market ${num(s.confidence.on_market)}` }) : null) : null), true],
+    ["Estimate", (s) => (s.estimate ? 0 : 1), (s) => (s.estimate ? "published" : h("span", { class: "muted wrapcell", text: `abstains: ${s.reason}` }))],
+  ], segRows, { sort: 1, dir: -1, empty: "No listings of the modeled kinds in this market" });
+
+  table("t-est-kinds", [["Kind", ([k]) => kindName(k)],
+    ["Median estimate", ([, d]) => d.median, ([, d]) => (d.suppressed ? h("span", { class: "muted", text: nLabel(d, E.min_n) })
+      : h("span", { class: "estv", text: b === "sale" ? usdK(d.median) : `${usd(d.median)} a month` })), true],
+    ["Listings", ([, d]) => d.n, ([, d]) => num(d.n), true]],
+  Object.entries(me.median_estimate[b]), { sort: 2, dir: -1, empty: "No estimates in this market" });
+
+  table("t-est-under", [["#", (r) => r.rank, null, true],
+    ["Ask / estimate", (r) => r.ask / r.est, (r) => (r.ask / r.est).toFixed(2), true],
+    ["Asking", (r) => r.ask, (r) => usdNote(r.asking, r.currency, r.ask), true],
+    ["Estimate", (r) => r.est, (r) => h("span", { class: "estv" }, usdK(r.est), h("small", { class: "under", text: `${usdK(r.low)} to ${usdK(r.high)}` })), true],
+    ["Confidence", (r) => r.confidence, (r) => h("span", {}, num(r.confidence), h("small", { text: `${num(r.n_comps)} comps` })), true],
+    ["Place", placeCell], ["Kind", (r) => kindName(r.kind)],
+    ["Size", (r) => r.a1, (r) => h("span", {}, `${num(r.a1)} m2`, h("small", { text: r.a1src })), true],
+    ["Listed", (r) => r.days_listed ?? r.days_seen, (r) => (r.days_listed != null ? `${num(r.days_listed)}d` : `${num(r.days_seen)}d+`), true],
+    ["Listing", (r) => srcName(r.source), (r) => h("span", {}, ext(r.url, srcName(r.source), `Open this listing on ${srcName(r.source)} (new tab)`),
+      r.dupes > 1 ? h("small", { text: `x${r.dupes}` }) : null)]],
+  me.under_ask.map((r, i) => ({ ...r, rank: i + 1 })), { sort: 0, dir: 1, empty: "No sale listing here asks at or below 90% of its estimate" });
+
+  const sc = E.screen;
+  $("est-stamp").replaceChildren(estTag(), ` ${E.run.model_version}, run of ${day(E.run.computed_at)}, USD at Gs ${num(E.run.fx.rate)}, SET mid. A model of the ${what}, ` +
+    "fit on broker-reported closes from the RE/MAX network and never on an ask. Each estimate carries its segment's 80% band of misses on the most recent 20% of closes, " +
+    "held out of the fit, and a confidence mapped from that band. A segment is one kind in one department, so a city shows its department's segments" +
+    `${me.segments_more[b] ? `; ${num(me.segments_more[b])} smaller ones are not shown (estimate_segments.csv has all)` : ""}. ` +
+    `The top 10 follow the Monday buy screen: casas, departamentos and duplexes of ${num(sc.rules.minM2)} m2 or more and terrenos with a land-basis area, asking at or below ` +
+    `${Math.round(sc.rules.atOrBelow * 100)}% of the estimate, ranked by the gap times the confidence, one row per property (xN listings); ${num(sc.entry_errors)} listings asking under ` +
+    `${Math.round(sc.rules.entryError * 100)}% of their estimate, or of their segment's median close per m2 times size, are left out as likely entry errors. ` +
+    "d+ counts days since our first sighting where the portal's publish date is missing or a bulk load. An ask under the estimate is a lead to check, not a finding: " +
+    "condition, title and finish are not in the model.");
+}
+
 function renderMarketsTable() {
   const g = (m, f, k) => m[f][k], min = D.summary.min_n.median, sp = (m) => m.closed_ask_to_close.sale.all;
   table("t-markets", [["Market", (m) => m.name], ["Level", (m) => m.level],
@@ -822,6 +902,16 @@ function renderMarketsTable() {
 }
 
 // ---------- page furniture that does not depend on the market ----------
+function estimateFill(E) {
+  if (!E?.available) return { est_closes: "no run on file", est_cutoff: "-", est_err: "not available in this build" };
+  const [s, r] = [E.bases.sale, E.bases.rent];
+  return {
+    est_closes: `${num(s.train.n + s.test.n)} sales and ${num(r.train.n + r.test.n)} rentals in the run of ${day(E.run.computed_at)}`,
+    est_cutoff: `${day(s.cutoff)} for sales and ${day(r.cutoff)} for rentals`,
+    est_err: `${pct1(s.overall.intrinsic.mdape)} on ${num(s.overall.intrinsic.n)} sales, where the segment's median close per m2 times size missed by ` +
+      `${pct1(s.overall.baseline_m2.mdape)}, and ${pct1(r.overall.intrinsic.mdape)} on ${num(r.overall.intrinsic.n)} rentals, against ${pct1(r.overall.baseline_m2.mdape)}`,
+  };
+}
 function renderStatic() {
   const s = D.summary;
   const asof = new Date(s.as_of);
@@ -857,6 +947,7 @@ function renderStatic() {
     baseline: s.changed.baseline ? `today, the build of ${day(s.changed.baseline.as_of)} ${hhmm(s.changed.baseline.as_of)} UTC`
       : "today there is none on file, so nothing is tagged",
     deals: `today ${num(s.closes.deals_filed_twice)} deals filed as more than one record, ${num(s.closes.records_folded)} records folded`,
+    ...estimateFill(D.estimate),
   };
   document.querySelectorAll("[data-s]").forEach((e) => { e.textContent = fill[e.dataset.s] ?? "-"; });
   const PLACED = { own: "own labels", city_label: "own city label", nearest: "nearest labeled listings", nearest_dept: "department only",
@@ -881,7 +972,7 @@ function renderStatic() {
 function render() {
   const m = market();
   renderHero(m); renderChanged(m); renderKpis(m); renderMap(m); renderFlow(); renderCloses(); renderRent(); renderSeries(); renderTwins();
-  renderTables(m); renderRecentCloses(); renderMarketsTable();
+  renderTables(m); renderEstimate(m); renderRecentCloses(); renderMarketsTable();
 }
 
 function wire() {
@@ -896,6 +987,7 @@ function wire() {
   seg("close-op", "closeOp", () => { renderCloses(); renderTwins(); });
   seg("recent-op", "recentOp", renderRecentCloses);
   seg("series-metric", "metric", () => { renderSeries(); renderTwins(); });
+  seg("est-basis", "estBasis", () => renderEstimate(market()));
   const layer = (id, group) => $(id).addEventListener("change", (e) => { if (e.target.checked) { group.addTo(map); raiseDots(); } else group.remove(); });
   layer("lyr-cells", cells); layer("lyr-cuts", cutDots); layer("lyr-reo", reoDots);
   document.querySelectorAll("[data-table]").forEach((b) => b.addEventListener("click", () => {

@@ -131,6 +131,32 @@
     <div class="stamp" id="fresh-stamp"></div>
   </section>
 
+  <section class="panel" id="estimate">
+    <div class="panel-head">
+      <h2><span class="tag estimate">ESTIMATE</span>The Tekoha estimate</h2>
+      <div class="tools">
+        <div class="seg" id="est-basis" role="group" aria-label="Estimate basis">
+          <button type="button" data-v="sale" aria-pressed="true">Sales</button>
+          <button type="button" data-v="rent" aria-pressed="false">Rentals</button>
+        </div>
+      </div>
+    </div>
+    <p class="est-lede" id="est-lede"></p>
+    <div class="grid2">
+      <div>
+        <div class="sub-h">Measured error of this market's segments, on held-out closes</div>
+        <div class="tbl" id="t-est-segs"></div>
+      </div>
+      <div>
+        <div class="sub-h">Median estimate by kind, listings live today</div>
+        <div class="tbl" id="t-est-kinds"></div>
+      </div>
+    </div>
+    <div class="sub-h">Sale listings asking at or below 90% of their estimate, top 10</div>
+    <div class="tbl" id="t-est-under"></div>
+    <div class="stamp" id="est-stamp"></div>
+  </section>
+
   <div class="grid2">
     <section class="panel">
       <div class="panel-head"><h2><span class="tag closed">CLOSED</span>Ask-to-close, sales and rentals</h2></div>
@@ -205,8 +231,10 @@
       <p>Cells are colored by the median asking USD per built m2 of the chosen kind: 0.01 degrees (about 1 km) when zoomed in, 0.05 and 0.25 degrees further out, each computed from its own listings. Portals place a listing with a withheld address on a city or barrio center; any point shared by <span data-s="placeholder_min"></span> or more listed listings, all sources pooled, is treated as such a center (<span data-s="map_points"></span> points, <span data-s="map_placeholder"></span> active listings today): those listings count in their market but stay off the map. In a department or city view, cells whose listings mostly belong to another market are dimmed. Tiles &copy; OpenStreetMap contributors.</p>
       <h3>Links</h3>
       <p>Every listing row opens its source page in a new tab, built from the key the source itself publishes; each pattern was checked against a live listing. RE/MAX pages resolve on the MLS id. Itaú lists each property on its own page (<span data-s="reo_links"></span> parcels); the other banks publish one list, a page or a file, and the link opens that list. A row whose source has no checked pattern stays unlinked.</p>
+      <h3>The Tekoha estimate</h3>
+      <p>The estimate panel and the estimate column on the cut board and the new-to-market table carry the one modeled figure on this page, tagged ESTIMATE wherever it appears. The intrinsic estimate models a listing's close price (sales) or achieved monthly rent (rentals) from its kind, size, rooms, place and date. It is fit on broker-reported closes from the RE/MAX network (<span data-s="est_closes"></span>) and never on an ask, then corrected by up to 8 closes of the same kind within 2 km and 18 months. It is tested the way it is used: fit on closes dated before <span data-s="est_cutoff"></span>, scored on the most recent 20% of closes, which it never saw. On those held-out closes its median miss was <span data-s="est_err"></span>. Each estimate's range is the 80% band of its segment's held-out misses; its confidence, 0 to 100, is 100 times one minus that band's half-width, read at the upper end of what the segment's sample allows. A segment, one kind in one department, carries estimates only with 30 training closes, 10 held-out closes and a smaller median miss than its median close per m2 times size; elsewhere the panel says why it abstains. The on-market estimate adds the listing's ask and seldom lands more than a few percent from it, since most closes report a price at or near the last ask. Condition, title, finish and view are not in the model. estimate_segments.csv lists every segment with its errors and its gate.</p>
       <h3>What this data cannot tell you</h3>
-      <p>What a property is worth. Asking prices are claims and our closes come from one network. The page publishes no forecasts, estimates or yields: a median rent divided by a median price mixes different properties and is not a yield. Bank base prices are the banks' own figures, net of 10% IVA where the bank includes it; implausible ones are flagged, not corrected.</p>
+      <p>What a property is worth. Asking prices are claims and our closes come from one network; the estimate is a model, labeled as one, with its measured error beside it, and it is not a price. The page publishes no forecasts or yields: a median rent divided by a median price mixes different properties and is not a yield. Bank base prices are the banks' own figures, net of 10% IVA where the bank includes it; implausible ones are flagged, not corrected.</p>
     </div>
     <h3 class="sub-h" style="font-size:13px;margin-top:6px">Sources today</h3>
     <div class="tbl" id="t-sources"></div>
@@ -218,7 +246,7 @@
   </section>
 </main>
 
-<footer>TEKOHA DAILY &middot; measured, not modeled &middot; asking prices unless marked closed</footer>
+<footer>TEKOHA DAILY &middot; measured, not modeled, except figures tagged estimate &middot; asking prices unless marked closed</footer>
 
 <noscript><p class="wrap">This dashboard needs JavaScript. Every table is also available as CSV in the data folder.</p></noscript>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.5.1/chart.umd.min.js" integrity="sha512-WoViKhKD4qI2WruSZqv9+kvM4WfFhUMQCLN4QlDTt5aU56fLQy2gYoxWIqlEnXqJy/+Ac5q/hk1oWfqnMDhwMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>

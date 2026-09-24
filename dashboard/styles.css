@@ -67,6 +67,12 @@ button, input { font: inherit; color: inherit; }
 /* asking / closed tags: every number on the page wears one */
 .tag { display: inline-block; font-family: var(--mono); font-size: 9.5px; letter-spacing: 1.5px; padding: 1px 6px; border-radius: 3px; border: 1px solid var(--gold); color: var(--gold-ink); vertical-align: 2px; margin-right: 6px; }
 .tag.closed { border-color: var(--closed); color: var(--closed); }
+/* the Tekoha estimate is the page's one modeled figure, so it wears its own tag and ink */
+.tag.estimate { border-color: #7f9fcf; color: #a9c4ea; }
+.estv { color: #a9c4ea; }
+.est-lede { margin: 0 0 6px; font-size: 14px; color: var(--ink-2); max-width: 980px; }
+#estimate .grid2 > div { min-width: 0; }
+.est-lede b { color: var(--ink); }
 .stamp { font-family: var(--mono); font-size: 10.5px; line-height: 1.6; color: var(--ink-3); margin-top: 8px; }
 
 /* KPI row */
