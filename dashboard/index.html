@@ -142,17 +142,15 @@
       </div>
     </div>
     <p class="est-lede" id="est-lede"></p>
+    <div class="sub-h">Measured error of this market's segments, on closes scored out of time</div>
+    <div class="tbl" id="t-est-segs"></div>
     <div class="grid2">
-      <div>
-        <div class="sub-h">Measured error of this market's segments, on held-out closes</div>
-        <div class="tbl" id="t-est-segs"></div>
-      </div>
       <div>
         <div class="sub-h">Median estimate by kind, listings live today</div>
         <div class="tbl" id="t-est-kinds"></div>
       </div>
     </div>
-    <div class="sub-h">Sale listings asking at or below 90% of their estimate, top 10</div>
+    <div class="sub-h">Sale listings asking at or below the low end of their estimate's range, top 10</div>
     <div class="tbl" id="t-est-under"></div>
     <div class="stamp" id="est-stamp"></div>
   </section>
@@ -232,7 +230,7 @@
       <h3>Links</h3>
       <p>Every listing row opens its source page in a new tab, built from the key the source itself publishes; each pattern was checked against a live listing. RE/MAX pages resolve on the MLS id. Itaú lists each property on its own page (<span data-s="reo_links"></span> parcels); the other banks publish one list, a page or a file, and the link opens that list. A row whose source has no checked pattern stays unlinked.</p>
       <h3>The Tekoha estimate</h3>
-      <p>The estimate panel and the estimate column on the cut board and the new-to-market table carry the one modeled figure on this page, tagged ESTIMATE wherever it appears. The intrinsic estimate models a listing's close price (sales) or achieved monthly rent (rentals) from its kind, size, rooms, place and date. It is fit on broker-reported closes from the RE/MAX network (<span data-s="est_closes"></span>) and never on an ask, then corrected by up to 8 closes of the same kind within 2 km and 18 months. It is tested the way it is used: fit on closes dated before <span data-s="est_cutoff"></span>, scored on the most recent 20% of closes, which it never saw. On those held-out closes its median miss was <span data-s="est_err"></span>. Each estimate's range is the 80% band of its segment's held-out misses; its confidence, 0 to 100, is 100 times one minus that band's half-width, read at the upper end of what the segment's sample allows. A segment, one kind in one department, carries estimates only with 30 training closes, 10 held-out closes and a smaller median miss than its median close per m2 times size; elsewhere the panel says why it abstains. The on-market estimate adds the listing's ask and seldom lands more than a few percent from it, since most closes report a price at or near the last ask. Condition, title, finish and view are not in the model. estimate_segments.csv lists every segment with its errors and its gate.</p>
+      <p>The estimate panel and the estimate column on the cut board and the new-to-market table carry the one modeled figure on this page, tagged ESTIMATE wherever it appears. The intrinsic estimate models a listing's close price (sales) or achieved monthly rent (rentals) from its kind, size, rooms, place and date. It is fit on broker-reported closes from the RE/MAX network (<span data-s="est_closes"></span>) and never on an ask, then corrected by up to 8 closes of the same kind within 2 km and 18 months. Location decides how it is built: a listing on its own point gets 1 and 5 km location cells and the nearby closes; a listing on a point it shares with 10 or more other listings (a portal's default point or a barrio centre) or without coordinates gets only its city and department, has its own wider range, and is marked "shared point" or "no coordinates" wherever its estimate appears. It is tested the way it is used: the closes of <span data-s="est_window"></span> are cut by date into three folds, and each fold is scored by a model fit only on closes dated before it. On those closes its median miss was <span data-s="est_err"></span>. Each estimate's range is the 80% band of its segment's misses in its location mode; its confidence, 0 to 100, is 100 times one minus that band's half-width, read at the upper end of what the segment's sample allows. A segment, one kind in one department, carries estimates only with 30 training closes, 60 closes scored across the folds and at least an 80% bootstrap chance of a smaller median miss than its median close per m2 times size; elsewhere the panel says why it abstains. The screen lists sale listings asking at or below the low end of their range, with an exact location, a plausible size and room count, and a description that names no teardown, off-plan unit, installment, share, auction or similar type; <span data-s="est_screen"></span> An ask under the estimate is a lead to check, not a finding. Condition, title, finish and view are not in the model. estimate_segments.csv lists every segment with its errors and its gate.</p>
       <h3>What this data cannot tell you</h3>
       <p>What a property is worth. Asking prices are claims and our closes come from one network; the estimate is a model, labeled as one, with its measured error beside it, and it is not a price. The page publishes no forecasts or yields: a median rent divided by a median price mixes different properties and is not a yield. Bank base prices are the banks' own figures, net of 10% IVA where the bank includes it; implausible ones are flagged, not corrected.</p>
     </div>

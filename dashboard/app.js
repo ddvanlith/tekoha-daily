@@ -684,11 +684,13 @@ const estTag = () => h("span", { class: "tag estimate", text: "ESTIMATE" });
 const pct1 = (x) => (x == null ? "-" : `${(x * 100).toFixed(1)}%`);
 const bandPct = (b) => (b ? `${b[0] > 0 ? "+" : ""}${Math.round(b[0] * 100)}% to ${b[1] > 0 ? "+" : ""}${Math.round(b[1] * 100)}%` : "-");
 const segLabel = (key) => { const [k, d] = key.split("|"); return `${kindName(k)}, ${D.byId.get(`d:${d.replace(/ /g, "-")}`)?.name || d}`; };
+const LOCQ = { exact: "exact location", shared_point: "shared point", none: "no coordinates" };
+const locNote = (lq) => (lq && lq !== "exact" ? `${LOCQ[lq] || lq}: estimated from city and department only` : "exact location");
 const estCell = (r) => (r.estimate
-  ? h("span", { class: "estv", title: `Tekoha intrinsic estimate of the close price, a model: ${segLabel(r.estimate.segment)} segment, confidence ${r.estimate.confidence}, ${r.estimate.n_comps} comps` },
-    usdK(r.estimate.est), h("small", { class: "under", text: `${usdK(r.estimate.low)} to ${usdK(r.estimate.high)}` }))
-  : h("span", { class: "muted", title: "No estimate: the listing's segment abstains, or its kind, size or place cannot be read", text: "none" }));
-const estNote = " Estimate: the Tekoha intrinsic estimate of the listing's close price with its segment's 80% band, a model and not a price (method notes); none where its segment abstains.";
+  ? h("span", { class: "estv", title: `Tekoha intrinsic estimate of the close price, a model: ${segLabel(r.estimate.segment)} segment, ${locNote(r.estimate.location)}, confidence ${r.estimate.confidence}, ${r.estimate.n_comps} comps` },
+    usdK(r.estimate.est), h("small", { class: "under", text: `${usdK(r.estimate.low)} to ${usdK(r.estimate.high)}${r.estimate.location && r.estimate.location !== "exact" ? `, ${LOCQ[r.estimate.location]}` : ""}` }))
+  : h("span", { class: "muted", title: "No estimate: the listing's segment abstains for its location, or its kind, size or place cannot be read", text: "none" }));
+const estNote = " Estimate: the Tekoha intrinsic estimate of the listing's close price with its segment's 80% range, a model and not a price (method notes); marked when the listing sits on a shared point or has no coordinates, none where its segment abstains.";
 
 function renderTables(m) {
   const min = D.summary.min_n.median, excl = exclusionNote();
@@ -832,28 +834,39 @@ function renderEstimate(m) {
     return;
   }
   const me = E.markets[m.id], base = E.bases[b], ov = base.overall, what = b === "sale" ? "close price" : "monthly rent";
-  const onMarket = me.counts[b].on_market;
+  const cnt = me.counts[b], scored = cnt.exact + cnt.shared_point + cnt.none, noPoint = cnt.shared_point + cnt.none;
   const segRows = me.segments.filter((s) => s.basis === b).map((s) => {
     const [kind, dept] = s.segment.split("|");
     return { ...s, ...(E.segments[b][s.segment] || { kind, department: D.byId.get(`d:${dept.replace(/ /g, "-")}`)?.name || dept,
-      estimate: false, reason: "no training closes in this segment" }) };
+      estimate: false, estimate_city: false, reason: "no training closes in this segment", confidence: {} }) };
   });
-  $("est-lede").replaceChildren(h("b", { text: num(me.counts[b].intrinsic) }),
+  const plural = b === "sale" ? "sales" : "rentals";
+  $("est-lede").replaceChildren(h("b", { text: num(scored) }),
     ` of ${num(me.live[b])} live ${b === "sale" ? "sale" : "rental"} listings of the modeled kinds in ${m.name} carry an intrinsic estimate of their ${what}` +
-    `${onMarket ? `, ${num(onMarket)} of them also an on-market estimate built on their ask` : ""}. ` +
-    `Across Paraguay, on ${num(ov.intrinsic.n)} held-out ${b === "sale" ? "sales" : "rentals"} closed ${dayShort(base.test.from)} to ${dayShort(base.test.to)}, the intrinsic estimate missed by a median ` +
-    `${pct1(ov.intrinsic.mdape)}; the segment's median close per m2 times size missed by ${pct1(ov.baseline_m2.mdape)}. Each segment's own error is in the table.`);
+    `${noPoint ? `: ${num(cnt.exact)} on their own point, ${num(noPoint)} on a shared point or without coordinates, estimated from their city and department only` : ""}. ` +
+    `Across Paraguay, the ${num(ov.intrinsic.n)} ${plural} closed ${day(base.tested.from)} to ${day(base.tested.to)}, each scored by a model fit only on earlier closes, ` +
+    `were missed by a median ${pct1(ov.intrinsic.mdape)} (${pct1(ov.exact.mdape)} on ${num(ov.exact.n)} with an exact location, ${pct1(ov.shared_point.mdape)} on ${num(ov.shared_point.n)} on a shared point); ` +
+    `the segment's median close per m2 times size missed by ${pct1(ov.baseline_m2.mdape)}. Each segment's own error is in the table.`);
 
+  const status = (s) => (s.estimate && s.estimate_city ? "published" : s.estimate ? "exact locations only"
+    : s.estimate_city ? "shared points only" : "abstains");
+  const R = E.rules;
+  const shortWhy = (s) => (s.n_train == null || s.n_train < R.min_train ? `${num(s.n_train ?? 0)} of ${num(R.min_train)} training closes`
+    : (s.n_test ?? 0) < R.min_test ? `${num(s.n_test ?? 0)} of ${num(R.min_test)} scored closes`
+      : `beats per m2 in ${Math.round((s.exact?.p_beat ?? 0) * 100)}% of resamples, needs ${Math.round(R.p_beat * 100)}%`);
   table("t-est-segs", [
     ["Segment", (s) => `${s.kind}|${s.department}`, (s) => `${kindName(s.kind)}, ${s.department}`],
     ["Live", (s) => s.live, (s) => h("span", {}, num(s.live), h("small", { text: `${num(s.scored)} scored` })), true],
-    ["Held out", (s) => s.n_test ?? 0, (s) => (s.n_test == null ? "0" : h("span", {}, num(s.n_test), h("small", { text: `${num(s.n_train)} trained` }))), true],
-    ["Median miss", (s) => s.intrinsic?.median_ape, (s) => (s.intrinsic ? pct1(s.intrinsic.median_ape) : null), true],
-    ["80% band", (s) => s.intrinsic?.band?.[0], (s) => (s.intrinsic ? bandPct(s.intrinsic.band) : null)],
-    ["Per m2 baseline", (s) => s.per_m2_baseline?.median_ape, (s) => (s.per_m2_baseline ? pct1(s.per_m2_baseline.median_ape) : null), true],
-    ["Confidence", (s) => s.confidence?.intrinsic, (s) => (s.confidence ? h("span", {}, num(s.confidence.intrinsic),
-      s.confidence.on_market != null ? h("small", { text: `on-market ${num(s.confidence.on_market)}` }) : null) : null), true],
-    ["Estimate", (s) => (s.estimate ? 0 : 1), (s) => (s.estimate ? "published" : h("span", { class: "muted wrapcell", text: `abstains: ${s.reason}` }))],
+    ["Scored closes", (s) => s.n_test ?? 0, (s) => (s.n_test == null ? "0" : h("span", {}, num(s.n_test), h("small", { text: `${num(s.n_train)} trained` }))), true],
+    ["Median miss", (s) => s.exact?.median_ape, (s) => (s.exact ? pct1(s.exact.median_ape) : null), true],
+    ["80% band", (s) => s.exact?.band?.[0], (s) => (s.exact ? bandPct(s.exact.band) : null)],
+    ["Per m2 baseline", (s) => s.exact?.per_m2_median_ape, (s) => (s.exact?.per_m2_median_ape != null ? pct1(s.exact.per_m2_median_ape) : null), true],
+    ["Beats it", (s) => s.exact?.p_beat, (s) => (s.exact?.p_beat != null ? `${Math.round(s.exact.p_beat * 100)}%` : null), true],
+    ["Confidence", (s) => s.confidence?.exact, (s) => (s.confidence?.exact != null || s.confidence?.city != null
+      ? h("span", {}, s.confidence.exact != null ? num(s.confidence.exact) : "-", s.confidence.city != null ? h("small", { text: `shared point ${num(s.confidence.city)}` }) : null) : null), true],
+    ["Estimate", (s) => (s.estimate ? 0 : s.estimate_city ? 1 : 2), (s) => (s.estimate || s.estimate_city
+      ? h("span", { class: "wrapcell", title: [s.reason && `exact: ${s.reason}`, s.reason_city && `shared point: ${s.reason_city}`].filter(Boolean).join("; ") }, status(s))
+      : h("span", { class: "muted wrapcell", title: `abstains: ${s.reason}` }, "abstains", h("small", { text: shortWhy(s) })))],
   ], segRows, { sort: 1, dir: -1, empty: "No listings of the modeled kinds in this market" });
 
   table("t-est-kinds", [["Kind", ([k]) => kindName(k)],
@@ -865,23 +878,28 @@ function renderEstimate(m) {
   table("t-est-under", [["#", (r) => r.rank, null, true],
     ["Ask / estimate", (r) => r.ask / r.est, (r) => (r.ask / r.est).toFixed(2), true],
     ["Asking", (r) => r.ask, (r) => usdNote(r.asking, r.currency, r.ask), true],
-    ["Estimate", (r) => r.est, (r) => h("span", { class: "estv" }, usdK(r.est), h("small", { class: "under", text: `${usdK(r.low)} to ${usdK(r.high)}` })), true],
+    ["Estimate", (r) => r.est, (r) => h("span", { class: "estv", title: `${segLabel(r.segment)} segment, exact location` }, usdK(r.est),
+      h("small", { class: "under", text: `${usdK(r.low)} to ${usdK(r.high)}` })), true],
     ["Confidence", (r) => r.confidence, (r) => h("span", {}, num(r.confidence), h("small", { text: `${num(r.n_comps)} comps` })), true],
     ["Place", placeCell], ["Kind", (r) => kindName(r.kind)],
-    ["Size", (r) => r.a1, (r) => h("span", {}, `${num(r.a1)} m2`, h("small", { text: r.a1src })), true],
+    ["Size", (r) => r.a1, (r) => h("span", {}, `${num(r.a1)} m2`, h("small", { text: r.kind === "terreno" ? r.a1src : `${r.a1src}, ${r.beds ?? "-"} bed ${r.baths ?? "-"} bath` })), true],
     ["Listed", (r) => r.days_listed ?? r.days_seen, (r) => (r.days_listed != null ? `${num(r.days_listed)}d` : `${num(r.days_seen)}d+`), true],
     ["Listing", (r) => srcName(r.source), (r) => h("span", {}, ext(r.url, srcName(r.source), `Open this listing on ${srcName(r.source)} (new tab)`),
       r.dupes > 1 ? h("small", { text: `x${r.dupes}` }) : null)]],
-  me.under_ask.map((r, i) => ({ ...r, rank: i + 1 })), { sort: 0, dir: 1, empty: "No sale listing here asks at or below 90% of its estimate" });
+  me.under_ask.map((r, i) => ({ ...r, rank: i + 1 })), { sort: 0, dir: 1, empty: "No sale listing here passes the screen" });
 
-  const sc = E.screen;
+  const sc = E.screen, st = sc.steps, bt = sc.backtest;
   $("est-stamp").replaceChildren(estTag(), ` ${E.run.model_version}, run of ${day(E.run.computed_at)}, USD at Gs ${num(E.run.fx.rate)}, SET mid. A model of the ${what}, ` +
-    "fit on broker-reported closes from the RE/MAX network and never on an ask. Each estimate carries its segment's 80% band of misses on the most recent 20% of closes, " +
-    "held out of the fit, and a confidence mapped from that band. A segment is one kind in one department, so a city shows its department's segments" +
-    `${me.segments_more[b] ? `; ${num(me.segments_more[b])} smaller ones are not shown (estimate_segments.csv has all)` : ""}. ` +
-    `The top 10 follow the Monday buy screen: casas, departamentos and duplexes of ${num(sc.rules.minM2)} m2 or more and terrenos with a land-basis area, asking at or below ` +
-    `${Math.round(sc.rules.atOrBelow * 100)}% of the estimate, ranked by the gap times the confidence, one row per property (xN listings); ${num(sc.entry_errors)} listings asking under ` +
-    `${Math.round(sc.rules.entryError * 100)}% of their estimate, or of their segment's median close per m2 times size, are left out as likely entry errors. ` +
+    `fit on broker-reported closes from the RE/MAX network and never on an ask. Each estimate carries its segment's 80% band of misses on the ${plural} of ` +
+    `${day(base.tested.from)} to ${day(base.tested.to)}, scored in three date folds by models fit only on earlier closes, in its location mode, and a confidence mapped from that band. ` +
+    `A segment is one kind in one department, so a city shows its department's segments${me.segments_more[b] ? `; ${num(me.segments_more[b])} smaller ones are not shown (estimate_segments.csv has all)` : ""}. ` +
+    `The top 10 follow the Monday screen: casas, departamentos and duplexes of ${num(sc.rules.minM2)} m2 or more and terrenos with a land-basis area, asking at or below the low end of ` +
+    `their range, with an exact location, plausible size and rooms and a description on file that names no misread type, ranked by the gap times the confidence, one row per property (xN listings); ` +
+    `${num(me.screen_n)} properties here, ${num(sc.properties)} in Paraguay. Across Paraguay today ${num(st.considered)} sale listings were screened: ${num(st.above_line)} ask above the line, ` +
+    `${num(st.entry_error)} look like entry errors, ${num(st.location_not_exact)} have no exact location, ${num(st.implausible)} have implausible size or rooms, ` +
+    `${num(st.no_description)} ${st.no_description === 1 ? "has" : "have"} no description on file yet and ${num(st.misread)} ${st.misread === 1 ? "names" : "name"} a misread type. ` +
+    (bt ? `On the ${num(bt.steps.ordinary)} held-out sales these rules could apply to, they flagged ${pct1(bt.flag_rate)}; the flagged closes landed at a median ` +
+      `${bt.flagged.close_over_ask_p50?.toFixed(2)} of their ask and ${bt.flagged.close_over_estimate_p50?.toFixed(2)} of their estimate. ` : "") +
     "d+ counts days since our first sighting where the portal's publish date is missing or a bulk load. An ask under the estimate is a lead to check, not a finding: " +
     "condition, title and finish are not in the model.");
 }
@@ -903,13 +921,17 @@ function renderMarketsTable() {
 
 // ---------- page furniture that does not depend on the market ----------
 function estimateFill(E) {
-  if (!E?.available) return { est_closes: "no run on file", est_cutoff: "-", est_err: "not available in this build" };
-  const [s, r] = [E.bases.sale, E.bases.rent];
+  if (!E?.available) return { est_closes: "no run on file", est_window: "-", est_err: "not available in this build", est_screen: "" };
+  const [s, r] = [E.bases.sale, E.bases.rent], bt = E.screen?.backtest;
   return {
-    est_closes: `${num(s.train.n + s.test.n)} sales and ${num(r.train.n + r.test.n)} rentals in the run of ${day(E.run.computed_at)}`,
-    est_cutoff: `${day(s.cutoff)} for sales and ${day(r.cutoff)} for rentals`,
-    est_err: `${pct1(s.overall.intrinsic.mdape)} on ${num(s.overall.intrinsic.n)} sales, where the segment's median close per m2 times size missed by ` +
+    est_closes: `${num(s.closes.n)} sales and ${num(r.closes.n)} rentals in the run of ${day(E.run.computed_at)}`,
+    est_window: `${day(s.tested.from)} to ${day(s.tested.to)}`,
+    est_err: `${pct1(s.overall.intrinsic.mdape)} on ${num(s.overall.intrinsic.n)} sales (${pct1(s.overall.exact.mdape)} on the ${num(s.overall.exact.n)} with an exact location, ` +
+      `${pct1(s.overall.shared_point.mdape)} on the ${num(s.overall.shared_point.n)} on a shared point), where the segment's median close per m2 times size missed by ` +
       `${pct1(s.overall.baseline_m2.mdape)}, and ${pct1(r.overall.intrinsic.mdape)} on ${num(r.overall.intrinsic.n)} rentals, against ${pct1(r.overall.baseline_m2.mdape)}`,
+    est_screen: bt ? `run on the ${num(bt.steps.ordinary)} held-out sales it could apply to, it flagged ${pct1(bt.flag_rate)} of them, and those closed at a median ` +
+      `${bt.flagged.close_over_ask_p50?.toFixed(2)} of their ask and ${bt.flagged.close_over_estimate_p50?.toFixed(2)} of their estimate (the rule of v1, asks at or below 90% of the estimate, ` +
+      `flagged ${pct1(bt.v1_rule.flag_rate)}).` : "",
   };
 }
 function renderStatic() {
