@@ -407,7 +407,7 @@ function renderMap(m, refit = true) {
   const mp = D.summary.map;
   stamp("map-stamp", false, ` cells with 5 or more listings of the kind: 0.01 degree (about 1 km) when zoomed in, 0.05 and 0.25 degree further out, each its own median, ` +
     `asking prices from the sources in the medians. Color breaks are country-wide sextiles of the 1 km cells. In a department or city view, cells whose listings mostly belong elsewhere are dimmed. ` +
-    `${num(mp.mapped)} active listings mapped; ${num(mp.placeholder)} sit on ${num(mp.placeholder_points)} points shared by ${mp.placeholder_min} or more listings (a geocoder's city or barrio center) and ` +
+    `${num(mp.mapped)} active listings mapped; ${num(mp.placeholder)} sit on ${num(mp.placeholder_points)} points that are a portal's default point for a city or barrio (the diff engine's geocode precision) and ` +
     `${num(mp.no_coordinates)} have no coordinates, so they count in their market but are not drawn. Click a dot to open its listing.`);
 }
 function renderLegend() {
@@ -415,7 +415,7 @@ function renderLegend() {
   const cutsHere = D.movers.asking_cuts_7d.filter(here), reoHere = D.movers.reo_parcels.filter(here), b = breaks[S.cellKind], m = market();
   const mp = m.asking_map, act = m.asking_active.total, off = act - mp.mapped;
   $("legend").replaceChildren(
-    h("span", { class: "offmap", text: `${share(off, act)} of the ${num(act)} active listings here are not drawn: ${num(mp.placeholder)} sit on a shared placeholder point, ` +
+    h("span", { class: "offmap", text: `${share(off, act)} of the ${num(act)} active listings here are not drawn: ${num(mp.placeholder)} sit on a portal's default point for a city or barrio, ` +
       `${num(mp.no_coordinates)} have no coordinates. They count in every figure but not in the map cells.` }),
     h("span", {}, `Median asking USD per built m2, ${kindName(S.cellKind).toLowerCase()}, ${cellKm(gridShown.deg)} cells: `),
     h("span", { class: "ramp" }, RAMP.slice(0, b.length + 1).map((col, i) => h("span", {}, h("i", { style: `background:${col}` }), i ? num(b[i - 1]) + (i === b.length ? "+" : "") : `< ${num(b[0])}`))),
@@ -983,11 +983,11 @@ function renderStatic() {
     fx_rent_last: fxMonths.length ? `${num(fxMonths.at(-1)[1])} (${monthYear(fxMonths.at(-1)[0])})` : "-",
     rent_bands: `${gs(band.PYG[0])} to ${num(band.PYG[1])} or USD ${num(band.USD[0])} to ${num(band.USD[1])}`,
     fx_rate: num(s.fx.rate), fx_date: day(s.fx.date),
-    assign_own: num(s.assignment.own), assign_nearest: num(s.assignment.nearest), assign_city: num(s.assignment.city_label || 0),
+    assign_own: num(s.assignment.own), assign_pin: num(s.assignment.pin || 0), assign_nearest: num(s.assignment.nearest), assign_city: num(s.assignment.city_label || 0),
     assign_dept: num(s.assignment.nearest_dept), assign_none: num((s.assignment.no_coordinates || 0) + (s.assignment.unassigned || 0)),
     age_sources: andList(s.sources.filter((x) => x.staleness_used).map((x) => srcName(x.code))),
     uprop_week: up ? `${Math.round(up.densest_week_share * 100)}%` : "most", map_placeholder: num(s.map.placeholder),
-    map_points: num(s.map.placeholder_points), placeholder_min: num(s.map.placeholder_min),
+    map_points: num(s.map.placeholder_points),
     seen_full: full ? day(full.since) : "-", seen_facet: facet ? day(facet.since) : "-", active: num(s.active), listed: num(s.listed_active),
     not_seen: num(s.listed_active - s.active), tracked: num(s.tracked), cov_min: `${Math.round(s.medians.coverage_min * 100)}%`,
     med_sources: andList(s.medians.sources.map(srcName)),
@@ -1002,7 +1002,7 @@ function renderStatic() {
     ...estimateFill(D.estimate),
   };
   document.querySelectorAll("[data-s]").forEach((e) => { e.textContent = fill[e.dataset.s] ?? "-"; });
-  const PLACED = { own: "own labels", city_label: "own city label", nearest: "nearest labeled listings", nearest_dept: "department only",
+  const PLACED = { own: "own labels", pin: "boundary holding its default point", city_label: "own city label", nearest: "nearest labeled listings", nearest_dept: "department only",
     no_coordinates: "not placed, no coordinates", unassigned: "not placed" };
   const ROLE = { full_universe: "whole panel every run", facet_bounded: "in parts, facet-bounded", closes_only: "partial crawl by hand, counted nowhere" };
   const stock = (x) => x.role !== "closes_only";
@@ -1012,7 +1012,7 @@ function renderStatic() {
     ["Listed active", (x) => x.listed, (x) => (stock(x) ? num(x.listed) : h("span", { class: "muted" }, num(x.listed), h("small", { text: "not stock" }))), true],
     ["Seen in window", (x) => x.active, (x) => (stock(x) ? h("span", {}, num(x.active), h("small", { text: `since ${dayShort(x.seen_since)}, ${share(x.active, x.listed)}` }))
       : h("span", { class: "muted", text: "not counted" })), true],
-    ["With an ask", (x) => x.priced_share, (x) => (stock(x) ? share(x.priced, x.active) : "-"), true],
+    ["With an ask", (x) => x.priced_share, (x) => (stock(x) ? share(x.priced, x.seen) : "-"), true],
     ["In asking medians", (x) => (x.in_medians ? 1 : 0), (x) => (x.in_medians ? "yes"
       : h("span", { class: "muted", text: stock(x) ? `no, under ${Math.round(s.medians.coverage_min * 100)}%` : "no, counted nowhere" }))],
     ["Last good pull", (x) => x.last_ok_pull || x.last_run, (x) => (x.last_ok_pull ? day(x.last_ok_pull) : x.last_run ? `none; last attempt ${day(x.last_run)}` : "none")],
