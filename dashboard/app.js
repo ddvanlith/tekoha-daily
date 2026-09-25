@@ -19,7 +19,8 @@ const SHORT = { casa: "casa", departamento: "depto" };
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
 const D = {};
-const S = { market: "py", cellKind: "departamento", closeOp: "sale", recentOp: "sale", metric: "sale", estBasis: "sale", tables: new Set(), borrowed: {}, missing: null };
+const S = { market: "py", cellKind: "departamento", closeOp: "sale", recentOp: "sale", metric: "sale", estBasis: "sale", trustCuts: "all", trustFresh: "all",
+  tables: new Set(), borrowed: {}, missing: null };
 const charts = {};
 let map, renderer, cells, cutDots, reoDots, gridShown = null, fitPending = null, rentWin = "month";
 const breaks = {};
@@ -242,13 +243,24 @@ function renderChanged(m) {
 }
 
 // ---------- KPI row ----------
-function kpi(title, body, { delta, closed = false, stampText, mix, flag, own } = {}) {
+function kpi(title, body, { delta, closed = false, stampText, mix, flag, own, trust } = {}) {
   return h("div", { class: "kpi" }, h("h3", { text: title }), body,
     mix && h("div", { class: "mix", text: `Sources: ${mix}` }),
     flag && h("div", { class: "srcflag", text: flag }),
     own && h("div", { class: "delta", text: own }),
     delta && h("div", { class: "delta", text: delta }),
+    trust && h("div", { class: "delta", text: trust }),
     h("div", { class: "stamp" }, tag(closed), stampText));
+}
+// The market's active units by listing trust band (pipeline/trust-score.mjs), each unit read through the
+// listing that speaks for it, with n.
+const pctOf = (a, n) => { const p = (a / n) * 100; return p > 0 && p < 1 ? `${p.toFixed(1)}%` : `${Math.round(p)}%`; };
+function trustLine(m) {
+  const b = m.asking_trust_bands, T = D.summary.trust;
+  const n = b ? Object.values(b).reduce((a, x) => a + x, 0) : 0;
+  if (!T || !n) return null;
+  const order = [...T.bands.map(([k]) => k), T.none, "unscored"];
+  return `Listing trust, active units: ${order.filter((k) => b[k]).map((k) => `${k === "unscored" ? "not scored" : k} ${pctOf(b[k], n)}`).join(", ")} (n ${num(n)}).`;
 }
 // The Active tile's own change against the previous build day, split by source, so a crawl rolling
 // out of its window reads as that source and not as the market. Country only: the split is national.
@@ -279,7 +291,7 @@ function renderKpis(m) {
   $("kpis").replaceChildren(
     kpi("Active listings", [h("div", { class: "v", text: num(a.total) }),
       h("div", { class: "sub", text: `${num(a.sale_total)} sale, ${num(a.rent_total)} rent${a.other ? `, ${num(a.other)} no operation stated` : ""}` })], {
-      flag: sourceFlag("stock_sources"), own: activeOwnChange(m),
+      flag: sourceFlag("stock_sources"), own: activeOwnChange(m), trust: trustLine(m),
       delta: act ? `RE/MAX panel alone, for sale: ${num(act.level)} on ${dayShort(act.to)}, ${signed(act.diff)} against ${dayShort(act.from)}` : null,
       stampText: ` ${seenRule()}. ${num(a.listed)} are listed as active on the counted sources; ${num(a.listed - a.total)} were not seen in that window.` +
         `${closesOnly.length ? ` ${andList(closesOnly)} ${closesOnly.length > 1 ? "count" : "counts"} nowhere: a partial crawl, and ${closesOnly.length > 1 ? "their" : "its"} closed records carry no price.` : ""}` }),
@@ -692,6 +704,20 @@ const estCell = (r) => (r.estimate
     usdK(r.estimate.est), h("small", { class: "under", text: `${usdK(r.estimate.low)} to ${usdK(r.estimate.high)}${r.estimate.location && r.estimate.location !== "exact" ? `, ${LOCQ[r.estimate.location]}` : ""}` }))
   : h("span", { class: "muted", title: "No estimate: the listing's segment abstains for its location, or its kind, size or place cannot be read", text: "none" }));
 const estNote = " Estimate: the Tekoha intrinsic estimate of the listing's close price with its segment's 80% range, a model and not a price (method notes); context, not a bargain signal; marked when the listing sits on a barrio centre, a shared point or has no coordinates, none where its segment abstains.";
+// Listing trust wears its band and score; the tooltip carries the reasons that moved the score, as the
+// listing's page prints them.
+const trustCell = (r) => (r.trust
+  ? h("span", { title: r.trust.why?.length ? r.trust.why.join("\n") : "No reason moved the score" }, r.trust.band,
+    r.trust.score != null ? h("small", { text: String(r.trust.score) }) : null)
+  : h("span", { class: "muted", title: "No trust row for this listing in the latest run", text: "not scored" }));
+const byTrust = (rows, band) => (band === "all" ? rows : rows.filter((r) => (r.trust?.band || "unscored") === band));
+function trustNote(band, shown, all) {
+  const T = D.summary.trust;
+  const rule = T ? ` Trust: the listing's band from the Tekoha trust rule ${T.version} (run of ${day(T.computed_at)}), a points rule over what we store, not a model: ` +
+    `${T.bands[0][0]} from ${T.bands[0][1]}, ${T.bands[1][0]} ${T.bands[1][1]} to ${T.bands[0][1] - 1}, ${T.bands[2][0]} under ${T.bands[1][1]}, ${T.none} for a reported close or a listing not seen; ` +
+    "the tooltip lists the reasons that moved the score, and the listing's Tekoha page prints them all." : " Trust: no trust run on file for this build.";
+  return rule + (band === "all" ? "" : ` Filter: ${num(shown)} of ${num(all)} rows with trust ${band}.`);
+}
 
 function renderTables(m) {
   const min = D.summary.min_n.median, excl = exclusionNote();
@@ -709,29 +735,30 @@ function renderTables(m) {
   ], kinds, { sort: 1, dir: -1 });
   stamp("kinds-stamp", false, ` listings active and ${seenRule()}. Medians need n ${min} and use ${medSrc}. ${excl} Asks and rents in USD at the day's SET mid rate; USD/m2 on built area only, 40 to 800 m2, USD 30,000 to 2,000,000; age from ${D.summary.sources.filter((x) => x.staleness_used).map((x) => srcName(x.code)).join(", ")} only.`);
 
-  const cuts = D.movers.asking_cuts_7d.filter(here);
+  const cutsAll = D.movers.asking_cuts_7d.filter(here), cuts = byTrust(cutsAll, S.trustCuts);
   table("t-cuts", [["Cut", (r) => r.pct, (r) => h("span", {}, h("span", { class: "cut", text: pct(r.pct) }), newTag(r)), true],
     ["Now", (r) => r.asking_new_usd, (r) => usdNote(r.asking_new, r.currency, r.asking_new_usd), true],
-    ["Estimate", (r) => r.estimate?.est, estCell, true],
+    ["Estimate", (r) => r.estimate?.est, estCell, true], ["Trust", (r) => r.trust?.score ?? -1, trustCell, true],
     ["Was", (r) => r.asking_old, (r) => money(r.asking_old, r.currency), true], ["Place", placeCell], ["Kind", (r) => kindName(r.kind)],
     ["Built m2", (r) => r.m2, (r) => num(r.m2), true], ["Days listed", (r) => r.days_listed, null, true],
     ["Cut on", (r) => r.observed, (r) => dayShort(r.observed)], ["Listing", (r) => srcName(r.source), srcCell]],
-  cuts, { sort: 0, dir: 1, empty: "No sale price cuts in this market in the last 7 days" });
+  cuts, { sort: 0, dir: 1, empty: S.trustCuts === "all" ? "No sale price cuts in this market in the last 7 days" : `No cut rows in this market with trust ${S.trustCuts}` });
   const newNote = D.summary.changed.baseline ? " NEW marks a row not on file at the previous day's build." : "";
-  stamp("cuts-stamp", false, ` sale listings cut in the last 7 days, deepest first, ${num(cuts.length)} rows (up to 100 per market). Cuts past -90% are entry corrections and excluded. xN is the same unit repriced by N brokers; the link opens the first.${newNote} ` +
-    `Sources here: ${mixText(cuts.reduce((a, r) => ({ ...a, [r.source]: (a[r.source] || 0) + 1 }), {})) || "none"}.${estNote}`);
+  stamp("cuts-stamp", false, ` sale listings cut in the last 7 days, deepest first, ${num(cutsAll.length)} rows (up to 100 per market). Cuts past -90% are entry corrections and excluded. xN is the same unit repriced by N brokers; the link opens the first.${newNote} ` +
+    `Sources here: ${mixText(cutsAll.reduce((a, r) => ({ ...a, [r.source]: (a[r.source] || 0) + 1 }), {})) || "none"}.${estNote}${trustNote(S.trustCuts, cuts.length, cutsAll.length)}`);
 
-  const fresh = freshShown();
+  const freshAll = freshShown(), fresh = byTrust(freshAll, S.trustFresh);
   table("t-fresh", [["Vs kind median", (r) => r.disc, (r) => (r.disc == null ? h("span", { class: "muted" }, "no kind median", newTag(r))
     : h("span", {}, pct(r.disc), h("small", { text: `${r.ref.market.id === S.market ? "" : `${r.ref.market.name} `}${kindName(r.kind).toLowerCase()} ${usd(r.ref.median)}` }), newTag(r))), true],
     ["USD/m2", (r) => r.asking_usd_m2, (r) => usd(r.asking_usd_m2), true],
     ["Ask", (r) => r.asking_usd, (r) => usdNote(r.asking, r.currency, r.asking_usd), true], ["Estimate", (r) => r.estimate?.est, estCell, true],
+    ["Trust", (r) => r.trust?.score ?? -1, trustCell, true],
     ["Place", placeCell], ["Kind", (r) => kindName(r.kind)],
     ["Built m2", (r) => r.m2, null, true], ["Beds", (r) => r.bedrooms, null, true],
     ["First seen", (r) => r.first_seen, (r) => dayShort(r.first_seen)], ["Listing", (r) => srcName(r.source), srcCell]],
-  fresh, { sort: 0, dir: 1, empty: "No new sale listings with a built area in this market this week" });
+  fresh, { sort: 0, dir: 1, empty: S.trustFresh === "all" ? "No new sale listings with a built area in this market this week" : `No new-to-market rows in this market with trust ${S.trustFresh}` });
   stamp("fresh-stamp", false, ` first seen in the last 7 days within a week of the portal's publish date, built area 40 to 800 m2. Ranked by asking USD per built m2 against the median of the same kind in this market ` +
-    `(or the nearest larger market that has one, named in the cell), up to 30 per market. An asking price below the median is a claim, not a bargain.${newNote}${estNote}`);
+    `(or the nearest larger market that has one, named in the cell), up to 30 per market. An asking price below the median is a claim, not a bargain.${newNote}${estNote}${trustNote(S.trustFresh, fresh.length, freshAll.length)}`);
 
   const spRows = [];
   for (const op of ["sale", "rent"]) {
@@ -1040,6 +1067,8 @@ function wire() {
   seg("recent-op", "recentOp", renderRecentCloses);
   seg("series-metric", "metric", () => { renderSeries(); renderTwins(); });
   seg("est-basis", "estBasis", () => renderEstimate(market()));
+  seg("cuts-trust", "trustCuts", () => renderTables(market()));
+  seg("fresh-trust", "trustFresh", () => renderTables(market()));
   const layer = (id, group) => $(id).addEventListener("change", (e) => { if (e.target.checked) { group.addTo(map); raiseDots(); } else group.remove(); });
   layer("lyr-cells", cells); layer("lyr-cuts", cutDots); layer("lyr-reo", reoDots);
   document.querySelectorAll("[data-table]").forEach((b) => b.addEventListener("click", () => {

@@ -4,7 +4,7 @@ caja_bancaria,00-2722-01,2,terreno,Central,Limpio,,,,2619,2381,0,2026-09-08,http
 bnf,429-L1-MG,48,terreno,Caazapá,Yuty,,,610,3100,2818,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-26.60507,-56.23498
 bnf,195-L13-M2-A,1,terreno,Canindeyú,Francisco Caballero Álvarez,,,600,3530,3209,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-24.02209,-54.75604
 bnf,937-L5-MC,2,terreno,Concepción,Yby Yau,,,504,3788,3444,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-22.95474,-56.53622
-bnf,1360-L291-MQ,1,unknown,,Minga Guazú,,,1000,3980,3618,0,2026-09-25,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.51392,-54.8574
+bnf,1360-L291-MQ,1,unknown,Alto Paraná,Minga Guazú,,,1000,3980,3618,0,2026-09-25,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.51392,-54.8574
 solar,10,4,terreno,Concepción,Yby Yau,,,384,4241,3856,0,2026-09-08,https://www.solar.com.py/bienes,0,,
 solar,18,3,terreno,San Pedro,Santa Rosa del Aguaray,,,375,6447,5861,0,2026-09-08,https://www.solar.com.py/bienes,0,,
 atlas,10736,1,terreno,Concepción,Concepción,,,360,6786,6169,0,2026-09-08,https://www.bancoatlas.com.py/web/bienes-adjudicados,0,-23.4336,-57.39596
@@ -63,7 +63,8 @@ bnf,1326-L0-M0,1,casa,Ñeembucú,Pilar,,150,410,37367,33970,0,2026-09-08,https:/
 bnf,453-L3-M23,1,rural,Concepción,Horqueta,,,160370,37539,34126,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-23.41161,-57.14104
 bnf,1065,1,terreno,Caaguazú,3 de febrero,,,625,37668,34244,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.24528,-55.77713
 bnf,1259-L2-MA,1,casa,Central,San Lorenzo,,107,457,38658,35144,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.33178,-57.49306
-bnf,1360-L292-MR,2,unknown,Alto Paraná,Minga Guazú,,,1000,39800,36182,0,2026-09-25,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.51392,-54.8574
+bnf,1360-L292-MR,1,unknown,Alto Paraná,Minga Guazú,,,1000,39800,36182,0,2026-09-25,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.51392,-54.8574
+bnf,1360-L292-MR-265,3,unknown,Alto Paraná,Minga Guazú,,,1000,40397,36725,0,2026-09-25,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.51392,-54.8574
 caja_bancaria,26-4237-01,1,casa,Alto Paraná,Ciudad del Este,,,,41592,37811,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
 bnf,453-L5-M23,1,rural,Concepción,Horqueta,,,186000,41758,37961,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-23.41161,-57.14104
 bnf,1343-L3-M1C,1,unknown,Canindeyú,Saltos de Guairá hoy KATUETE,,,600,42016,38196,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-24.25031,-54.76781

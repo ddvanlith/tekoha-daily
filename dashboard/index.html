@@ -120,13 +120,33 @@
   </section>
 
   <section class="panel">
-    <div class="panel-head"><h2><span class="tag">ASKING</span>The cut board, last 7 days</h2></div>
+    <div class="panel-head"><h2><span class="tag">ASKING</span>The cut board, last 7 days</h2>
+      <div class="tools">
+        <div class="seg" id="cuts-trust" role="group" aria-label="Show cut rows by listing trust band">
+          <button type="button" data-v="all" aria-pressed="true">All</button>
+          <button type="button" data-v="alta" aria-pressed="false">alta</button>
+          <button type="button" data-v="media" aria-pressed="false">media</button>
+          <button type="button" data-v="baja" aria-pressed="false">baja</button>
+          <button type="button" data-v="sin datos" aria-pressed="false">sin datos</button>
+        </div>
+      </div>
+    </div>
     <div class="tbl" id="t-cuts"></div>
     <div class="stamp" id="cuts-stamp"></div>
   </section>
 
   <section class="panel">
-    <div class="panel-head"><h2><span class="tag">ASKING</span>New to market, against the kind median</h2></div>
+    <div class="panel-head"><h2><span class="tag">ASKING</span>New to market, against the kind median</h2>
+      <div class="tools">
+        <div class="seg" id="fresh-trust" role="group" aria-label="Show new-to-market rows by listing trust band">
+          <button type="button" data-v="all" aria-pressed="true">All</button>
+          <button type="button" data-v="alta" aria-pressed="false">alta</button>
+          <button type="button" data-v="media" aria-pressed="false">media</button>
+          <button type="button" data-v="baja" aria-pressed="false">baja</button>
+          <button type="button" data-v="sin datos" aria-pressed="false">sin datos</button>
+        </div>
+      </div>
+    </div>
     <div class="tbl" id="t-fresh"></div>
     <div class="stamp" id="fresh-stamp"></div>
   </section>
