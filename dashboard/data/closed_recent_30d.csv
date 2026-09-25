@@ -7,6 +7,7 @@ close_date,operation,place,barrio,kind,deal_records,deal_kinds,area_m2,area_basi
 2026-09-24,sale,"San Lorenzo, Central",,terreno,1,,,,,218000000,PYG,36984,218000000,PYG,36984,,,0,same currency,0,183,1,remax,143100017-27,Central,San Lorenzo
 2026-09-24,rent,"Cambyretá, Itapúa",,duplex,1,,200,land,3,6000000,PYG,1018,6000000,PYG,1018,30000,5,0,same currency,0,6,1,remax,143032066-67,Itapúa,
 2026-09-24,rent,"Fernando de la Mora, Central",,departamento,1,,50,built,1,2000000,PYG,339,2000000,PYG,339,40000,7,0,same currency,0,128,0,remax,143072123-35,Central,Fernando de la Mora
+2026-09-23,rent,Asunción,Catedral,oficina,1,,120,built,,4000000,PYG,675,5500000,PYG,928,45833,8,37.5,same currency,0,43,1,remax,143072016-212,Asunción,
 2026-09-23,sale,Asunción,Herrera,departamento,1,,72,built,2,110000,USD,110000,607700000,PYG,102544,8440278,1424,-6.8,"cross-currency, at sale-date rate",0,156,1,remax,143046003-259,Asunción,
 2026-09-23,sale,Asunción,Pettirossi,departamento,1,,39,land,1,50000,USD,50000,271400000,PYG,45796,6923469,1168,-8.4,"cross-currency, at sale-date rate",0,117,1,remax,143098126-515,Asunción,
 2026-09-23,sale,"Ñemby, Central",,terreno,1,,,,,110000000,PYG,18561,110000000,PYG,18561,,,0,same currency,0,197,0,remax,143099035-1,Central,Ñemby
@@ -215,6 +216,7 @@ close_date,operation,place,barrio,kind,deal_records,deal_kinds,area_m2,area_basi
 2026-09-02,rent,"Mariano Roque Alonso, Central",,casa,1,,720,land,3,5000000,PYG,840,4500000,PYG,756,6250,1,-10,same currency,0,16,0,remax,143021054-24,Central,Mariano Roque Alonso
 2026-09-02,rent,"Loma Plata, Boquerón",,local,1,,80,built,,4400000,PYG,739,4400000,PYG,739,55000,9,0,same currency,0,16,0,remax,143078018-108,Boquerón,
 2026-09-02,sale,Asunción,Bernardino Caballero,casa,1,,320,built,6,810000000,PYG,136056,750000000,PYG,125978,2343750,394,-7.4,same currency,0,83,0,remax,143096058-6,Asunción,
+2026-09-01,sale,Asunción,Mariscal Estigarribia,departamento,1,,90,built,3,158000,USD,158000,150000,USD,150000,1676,1676,-5.1,same currency,0,51,1,remax,143084086-9,Asunción,
 2026-09-01,rent,Asunción,Mburucuyá,departamento,1,,143,land,2,1450,USD,1450,1450,USD,1450,10,10,0,same currency,0,22,0,remax,143063102-370,Asunción,
 2026-09-01,rent,Asunción,San Jorge,departamento,1,,53,built,1,850,USD,850,4500000,PYG,761,84906,14,-10.5,"cross-currency, at sale-date rate",0,28,0,remax,143063098-63,Asunción,
 2026-09-01,rent,Asunción,Villa Aurelia,casa,1,,200,built,3,6500000,PYG,1099,6500000,PYG,1099,32500,5,0,same currency,0,28,0,remax,143063091-114,Asunción,

@@ -8,7 +8,7 @@ py,Paraguay,sale,departamento,2025-07-01,7,,,,3
 py,Paraguay,sale,departamento,2025-10-01,30,-0.1,46.7,,15
 py,Paraguay,sale,departamento,2026-01-01,34,-5.3,20.6,,25
 py,Paraguay,sale,departamento,2026-04-01,45,0,62.2,,16
-py,Paraguay,sale,departamento,2026-07-01,42,0,54.8,,17
+py,Paraguay,sale,departamento,2026-07-01,43,0,53.5,,18
 py,Paraguay,sale,duplex,2025-07-01,5,,,,4
 py,Paraguay,sale,duplex,2025-10-01,16,,,,13
 py,Paraguay,sale,duplex,2026-01-01,12,,,,9
@@ -23,7 +23,7 @@ py,Paraguay,sale,all,2025-07-01,106,-4.8,34,-9.1,67
 py,Paraguay,sale,all,2025-10-01,300,-2.9,38,-8,178
 py,Paraguay,sale,all,2026-01-01,269,-3.4,38.3,-6.9,162
 py,Paraguay,sale,all,2026-04-01,270,-2.8,41.1,-6.9,151
-py,Paraguay,sale,all,2026-07-01,255,-2.7,42,-7,144
+py,Paraguay,sale,all,2026-07-01,256,-2.8,41.8,-6.9,145
 py,Paraguay,rent,casa,2025-07-01,46,0,69.6,,11
 py,Paraguay,rent,casa,2025-10-01,97,0,79.4,,16
 py,Paraguay,rent,casa,2026-01-01,115,0,79.1,,23
@@ -38,7 +38,7 @@ py,Paraguay,rent,all,2025-07-01,221,0,67.9,-9.1,61
 py,Paraguay,rent,all,2025-10-01,453,0,74,-8.7,106
 py,Paraguay,rent,all,2026-01-01,512,0,75.6,-8.4,116
 py,Paraguay,rent,all,2026-04-01,492,0,78.7,-8,97
-py,Paraguay,rent,all,2026-07-01,423,0,77.5,-8.7,86
+py,Paraguay,rent,all,2026-07-01,424,0,77.4,-8.7,86
 d:asuncion,Asunción,sale,casa,2025-07-01,7,,,,5
 d:asuncion,Asunción,sale,casa,2025-10-01,10,,,,8
 d:asuncion,Asunción,sale,casa,2026-01-01,21,,,,14
@@ -48,7 +48,7 @@ d:asuncion,Asunción,sale,departamento,2025-07-01,6,,,,2
 d:asuncion,Asunción,sale,departamento,2025-10-01,18,,,,9
 d:asuncion,Asunción,sale,departamento,2026-01-01,30,-6.6,16.7,,23
 d:asuncion,Asunción,sale,departamento,2026-04-01,25,,,,10
-d:asuncion,Asunción,sale,departamento,2026-07-01,36,0,55.6,,14
+d:asuncion,Asunción,sale,departamento,2026-07-01,37,0,54.1,,15
 d:asuncion,Asunción,sale,duplex,2025-07-01,1,,,,1
 d:asuncion,Asunción,sale,duplex,2025-10-01,1,,,,0
 d:asuncion,Asunción,sale,duplex,2026-07-01,1,,,,1
@@ -61,7 +61,7 @@ d:asuncion,Asunción,sale,all,2025-07-01,17,,,,10
 d:asuncion,Asunción,sale,all,2025-10-01,48,-2.9,39.6,,28
 d:asuncion,Asunción,sale,all,2026-01-01,62,-6.6,25.8,-7.7,44
 d:asuncion,Asunción,sale,all,2026-04-01,51,-1.4,43.1,,28
-d:asuncion,Asunción,sale,all,2026-07-01,51,-0.1,45.1,,26
+d:asuncion,Asunción,sale,all,2026-07-01,52,-0.6,44.2,,27
 d:asuncion,Asunción,rent,casa,2025-07-01,12,,,,1
 d:asuncion,Asunción,rent,casa,2025-10-01,19,,,,6
 d:asuncion,Asunción,rent,casa,2026-01-01,14,,,,5
@@ -76,7 +76,7 @@ d:asuncion,Asunción,rent,all,2025-07-01,91,0,71.4,,20
 d:asuncion,Asunción,rent,all,2025-10-01,173,0,72.3,-6.4,43
 d:asuncion,Asunción,rent,all,2026-01-01,181,0,65.7,-7.7,59
 d:asuncion,Asunción,rent,all,2026-04-01,152,0,72.4,-7.7,40
-d:asuncion,Asunción,rent,all,2026-07-01,150,0,70.7,-7.9,42
+d:asuncion,Asunción,rent,all,2026-07-01,151,0,70.2,-7.9,42
 d:central,Central,sale,casa,2025-07-01,20,,,,10
 d:central,Central,sale,casa,2025-10-01,63,-3.8,34.9,-7.9,39
 d:central,Central,sale,casa,2026-01-01,34,-2.1,44.1,,19

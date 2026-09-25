@@ -4908,6 +4908,7 @@ transaction_id,close_date,operation,kind,place,barrio,department_market,city_mar
 283058,2026-09-01,rent,casa,Asunción,Villa Aurelia,Asunción,,200,built,3,6500000,PYG,1099.07,6500000,PYG,1099.07,5914.08,5,0,1,0,1,1,1,,remax,143063091-114
 283250,2026-09-01,rent,departamento,Asunción,San Jorge,Asunción,,53,built,1,850,USD,850,4500000,PYG,760.9,5914.08,14,-10.482,0,0,1,1,0,cross-currency,remax,143063098-63
 283327,2026-09-01,rent,departamento,Asunción,Mburucuyá,Asunción,,143,land,2,1450,USD,1450,1450,USD,1450,5914.08,10,0,1,0,1,1,1,,remax,143063102-370
+478818,2026-09-01,sale,departamento,Asunción,Mariscal Estigarribia,Asunción,,90,built,3,158000,USD,158000,150000,USD,150000,5914.08,1676,-5.063,0,1,1,1,1,,remax,143084086-9
 89477,2026-09-02,sale,casa,Asunción,Bernardino Caballero,Asunción,,320,built,6,810000000,PYG,136055.91,750000000,PYG,125977.69,5953.435,394,-7.407,0,1,1,1,1,,remax,143096058-6
 90366,2026-09-02,rent,local,"Loma Plata, Boquerón",,Boquerón,,80,built,,4400000,PYG,739.07,4400000,PYG,739.07,5953.435,9,0,1,0,1,1,1,,remax,143078018-108
 90645,2026-09-02,rent,casa,"Mariano Roque Alonso, Central",,Central,Mariano Roque Alonso,720,land,3,5000000,PYG,839.85,4500000,PYG,755.87,5953.435,1,-9.999,0,1,1,1,1,,remax,143021054-24
@@ -5119,6 +5120,7 @@ transaction_id,close_date,operation,kind,place,barrio,department_market,city_mar
 452372,2026-09-23,sale,terreno,"Ñemby, Central",,Central,Ñemby,,,,110000000,PYG,18561.44,110000000,PYG,18561.44,5926.265,,0,1,0,1,1,1,,remax,143099035-1
 463501,2026-09-23,sale,departamento,Asunción,Pettirossi,Asunción,,39,land,1,50000,USD,50000,271400000,PYG,45796.13,5926.265,1168,-8.408,0,0,1,1,0,cross-currency,remax,143098126-515
 466988,2026-09-23,sale,departamento,Asunción,Herrera,Asunción,,72,built,2,110000,USD,110000,607700000,PYG,102543.51,5926.265,1424,-6.779,0,0,1,1,0,cross-currency,remax,143046003-259
+480189,2026-09-23,rent,oficina,Asunción,Catedral,Asunción,,120,built,,4000000,PYG,674.96,5500000,PYG,928.07,5926.265,8,37.5,0,0,1,1,1,,remax,143072016-212
 456366,2026-09-24,rent,departamento,"Fernando de la Mora, Central",,Central,Fernando de la Mora,50,built,1,2000000,PYG,339.3,2000000,PYG,339.3,5894.43,7,0,1,0,1,1,1,,remax,143072123-35
 463047,2026-09-24,rent,duplex,"Cambyretá, Itapúa",,Itapúa,,200,land,3,6000000,PYG,1017.91,6000000,PYG,1017.91,5894.43,5,0,1,0,1,1,1,,remax,143032066-67
 466355,2026-09-24,sale,terreno,"San Lorenzo, Central",,Central,San Lorenzo,,,,218000000,PYG,36984.07,218000000,PYG,36984.07,5894.43,,0,1,0,1,1,1,,remax,143100017-27
