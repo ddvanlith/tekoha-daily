@@ -965,6 +965,28 @@ c:central:limpio,Limpio,rent,2026-06-29,1
 c:central:limpio,Limpio,rent,2026-09-07,1
 c:central:limpio,Limpio,rent,2026-09-14,2
 c:central:limpio,Limpio,rent,2026-09-21,1
+c:central:aregua,Areguá,sale,2025-08-25,2
+c:central:aregua,Areguá,sale,2025-09-08,1
+c:central:aregua,Areguá,sale,2025-11-24,1
+c:central:aregua,Areguá,sale,2025-12-15,1
+c:central:aregua,Areguá,sale,2026-01-12,1
+c:central:aregua,Areguá,sale,2026-01-26,1
+c:central:aregua,Areguá,sale,2026-02-02,1
+c:central:aregua,Areguá,sale,2026-02-16,2
+c:central:aregua,Areguá,sale,2026-02-23,1
+c:central:aregua,Areguá,sale,2026-03-23,1
+c:central:aregua,Areguá,sale,2026-04-20,1
+c:central:aregua,Areguá,sale,2026-05-18,1
+c:central:aregua,Areguá,sale,2026-05-25,1
+c:central:aregua,Areguá,sale,2026-06-08,1
+c:central:aregua,Areguá,sale,2026-06-22,1
+c:central:aregua,Areguá,sale,2026-07-06,1
+c:central:aregua,Areguá,rent,2025-11-03,1
+c:central:aregua,Areguá,rent,2026-03-02,1
+c:central:aregua,Areguá,rent,2026-04-06,1
+c:central:aregua,Areguá,rent,2026-05-11,1
+c:central:aregua,Areguá,rent,2026-07-27,1
+c:central:aregua,Areguá,rent,2026-08-24,1
 c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2025-08-25,2
 c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2025-09-15,2
 c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2025-09-29,1
@@ -1031,28 +1053,6 @@ c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-08-24,1
 c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-08-31,2
 c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-09-07,3
 c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-09-14,2
-c:central:aregua,Areguá,sale,2025-08-25,2
-c:central:aregua,Areguá,sale,2025-09-08,1
-c:central:aregua,Areguá,sale,2025-11-24,1
-c:central:aregua,Areguá,sale,2025-12-15,1
-c:central:aregua,Areguá,sale,2026-01-12,1
-c:central:aregua,Areguá,sale,2026-01-26,1
-c:central:aregua,Areguá,sale,2026-02-02,1
-c:central:aregua,Areguá,sale,2026-02-16,2
-c:central:aregua,Areguá,sale,2026-02-23,1
-c:central:aregua,Areguá,sale,2026-03-23,1
-c:central:aregua,Areguá,sale,2026-04-20,1
-c:central:aregua,Areguá,sale,2026-05-18,1
-c:central:aregua,Areguá,sale,2026-05-25,1
-c:central:aregua,Areguá,sale,2026-06-08,1
-c:central:aregua,Areguá,sale,2026-06-22,1
-c:central:aregua,Areguá,sale,2026-07-06,1
-c:central:aregua,Areguá,rent,2025-11-03,1
-c:central:aregua,Areguá,rent,2026-03-02,1
-c:central:aregua,Areguá,rent,2026-04-06,1
-c:central:aregua,Areguá,rent,2026-05-11,1
-c:central:aregua,Areguá,rent,2026-07-27,1
-c:central:aregua,Areguá,rent,2026-08-24,1
 c:central:ypane,Ypané,sale,2025-09-15,1
 c:central:ypane,Ypané,sale,2025-12-29,2
 c:central:ypane,Ypané,sale,2026-03-16,2
@@ -1757,23 +1757,6 @@ c:cordillera:altos,Altos,sale,2026-04-20,1
 c:cordillera:altos,Altos,sale,2026-09-07,1
 c:cordillera:altos,Altos,rent,2026-08-10,1
 c:cordillera:altos,Altos,rent,2026-09-07,1
-d:presidente-hayes,Presidente Hayes,sale,2025-09-22,1
-d:presidente-hayes,Presidente Hayes,sale,2025-10-20,1
-d:presidente-hayes,Presidente Hayes,sale,2025-11-10,1
-d:presidente-hayes,Presidente Hayes,sale,2026-01-19,1
-d:presidente-hayes,Presidente Hayes,sale,2026-02-02,2
-d:presidente-hayes,Presidente Hayes,sale,2026-03-23,1
-d:presidente-hayes,Presidente Hayes,sale,2026-05-04,1
-d:presidente-hayes,Presidente Hayes,sale,2026-05-25,1
-d:presidente-hayes,Presidente Hayes,sale,2026-07-20,1
-d:presidente-hayes,Presidente Hayes,sale,2026-09-21,1
-d:presidente-hayes,Presidente Hayes,rent,2026-01-05,1
-c:presidente-hayes:villa-hayes,Villa Hayes,sale,2025-09-22,1
-c:presidente-hayes:villa-hayes,Villa Hayes,sale,2025-10-20,1
-c:presidente-hayes:villa-hayes,Villa Hayes,sale,2025-11-10,1
-c:presidente-hayes:villa-hayes,Villa Hayes,sale,2026-01-19,1
-c:presidente-hayes:villa-hayes,Villa Hayes,sale,2026-05-04,1
-c:presidente-hayes:villa-hayes,Villa Hayes,rent,2026-01-05,1
 d:boqueron,Boquerón,sale,2025-08-25,2
 d:boqueron,Boquerón,sale,2025-09-01,1
 d:boqueron,Boquerón,sale,2025-09-08,4
@@ -1854,6 +1837,23 @@ d:boqueron,Boquerón,rent,2026-08-17,3
 d:boqueron,Boquerón,rent,2026-08-31,3
 d:boqueron,Boquerón,rent,2026-09-07,1
 d:boqueron,Boquerón,rent,2026-09-14,1
+d:presidente-hayes,Presidente Hayes,sale,2025-09-22,1
+d:presidente-hayes,Presidente Hayes,sale,2025-10-20,1
+d:presidente-hayes,Presidente Hayes,sale,2025-11-10,1
+d:presidente-hayes,Presidente Hayes,sale,2026-01-19,1
+d:presidente-hayes,Presidente Hayes,sale,2026-02-02,2
+d:presidente-hayes,Presidente Hayes,sale,2026-03-23,1
+d:presidente-hayes,Presidente Hayes,sale,2026-05-04,1
+d:presidente-hayes,Presidente Hayes,sale,2026-05-25,1
+d:presidente-hayes,Presidente Hayes,sale,2026-07-20,1
+d:presidente-hayes,Presidente Hayes,sale,2026-09-21,1
+d:presidente-hayes,Presidente Hayes,rent,2026-01-05,1
+c:presidente-hayes:villa-hayes,Villa Hayes,sale,2025-09-22,1
+c:presidente-hayes:villa-hayes,Villa Hayes,sale,2025-10-20,1
+c:presidente-hayes:villa-hayes,Villa Hayes,sale,2025-11-10,1
+c:presidente-hayes:villa-hayes,Villa Hayes,sale,2026-01-19,1
+c:presidente-hayes:villa-hayes,Villa Hayes,sale,2026-05-04,1
+c:presidente-hayes:villa-hayes,Villa Hayes,rent,2026-01-05,1
 d:paraguari,Paraguarí,sale,2025-12-22,2
 d:paraguari,Paraguarí,sale,2026-01-12,2
 d:paraguari,Paraguarí,sale,2026-04-20,1

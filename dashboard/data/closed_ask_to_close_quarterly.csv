@@ -380,6 +380,25 @@ c:central:limpio,Limpio,rent,all,2025-10-01,3,,,,1
 c:central:limpio,Limpio,rent,all,2026-01-01,2,,,,0
 c:central:limpio,Limpio,rent,all,2026-04-01,6,,,,2
 c:central:limpio,Limpio,rent,all,2026-07-01,4,,,,1
+c:central:aregua,Areguá,sale,casa,2025-07-01,1,,,,1
+c:central:aregua,Areguá,sale,casa,2025-10-01,1,,,,1
+c:central:aregua,Areguá,sale,casa,2026-01-01,3,,,,0
+c:central:aregua,Areguá,sale,casa,2026-04-01,1,,,,0
+c:central:aregua,Areguá,sale,all,2025-07-01,1,,,,1
+c:central:aregua,Areguá,sale,all,2025-10-01,1,,,,1
+c:central:aregua,Areguá,sale,all,2026-01-01,4,,,,1
+c:central:aregua,Areguá,sale,all,2026-04-01,4,,,,1
+c:central:aregua,Areguá,sale,all,2026-07-01,1,,,,0
+c:central:aregua,Areguá,sale,terreno,2026-04-01,3,,,,1
+c:central:aregua,Areguá,sale,terreno,2026-07-01,1,,,,0
+c:central:aregua,Areguá,rent,casa,2025-10-01,1,,,,0
+c:central:aregua,Areguá,rent,casa,2026-01-01,1,,,,0
+c:central:aregua,Areguá,rent,casa,2026-04-01,2,,,,0
+c:central:aregua,Areguá,rent,casa,2026-07-01,2,,,,2
+c:central:aregua,Areguá,rent,all,2025-10-01,1,,,,0
+c:central:aregua,Areguá,rent,all,2026-01-01,1,,,,0
+c:central:aregua,Areguá,rent,all,2026-04-01,2,,,,0
+c:central:aregua,Areguá,rent,all,2026-07-01,2,,,,2
 c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,casa,2025-07-01,1,,,,0
 c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,casa,2025-10-01,2,,,,1
 c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,casa,2026-01-01,5,,,,4
@@ -412,25 +431,6 @@ c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,all,2025-10-01,7,,,,2
 c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,all,2026-01-01,14,,,,2
 c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,all,2026-04-01,20,,,,6
 c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,all,2026-07-01,15,,,,5
-c:central:aregua,Areguá,sale,casa,2025-07-01,1,,,,1
-c:central:aregua,Areguá,sale,casa,2025-10-01,1,,,,1
-c:central:aregua,Areguá,sale,casa,2026-01-01,3,,,,0
-c:central:aregua,Areguá,sale,casa,2026-04-01,1,,,,0
-c:central:aregua,Areguá,sale,all,2025-07-01,1,,,,1
-c:central:aregua,Areguá,sale,all,2025-10-01,1,,,,1
-c:central:aregua,Areguá,sale,all,2026-01-01,4,,,,1
-c:central:aregua,Areguá,sale,all,2026-04-01,4,,,,1
-c:central:aregua,Areguá,sale,all,2026-07-01,1,,,,0
-c:central:aregua,Areguá,sale,terreno,2026-04-01,3,,,,1
-c:central:aregua,Areguá,sale,terreno,2026-07-01,1,,,,0
-c:central:aregua,Areguá,rent,casa,2025-10-01,1,,,,0
-c:central:aregua,Areguá,rent,casa,2026-01-01,1,,,,0
-c:central:aregua,Areguá,rent,casa,2026-04-01,2,,,,0
-c:central:aregua,Areguá,rent,casa,2026-07-01,2,,,,2
-c:central:aregua,Areguá,rent,all,2025-10-01,1,,,,0
-c:central:aregua,Areguá,rent,all,2026-01-01,1,,,,0
-c:central:aregua,Areguá,rent,all,2026-04-01,2,,,,0
-c:central:aregua,Areguá,rent,all,2026-07-01,2,,,,2
 c:central:ypane,Ypané,sale,terreno,2025-07-01,1,,,,1
 c:central:ypane,Ypané,sale,terreno,2025-10-01,2,,,,0
 c:central:ypane,Ypané,sale,terreno,2026-01-01,1,,,,0
@@ -761,24 +761,6 @@ c:cordillera:altos,Altos,sale,all,2026-07-01,1,,,,0
 c:cordillera:altos,Altos,sale,casa,2026-07-01,1,,,,0
 c:cordillera:altos,Altos,rent,casa,2026-07-01,2,,,,0
 c:cordillera:altos,Altos,rent,all,2026-07-01,2,,,,0
-d:presidente-hayes,Presidente Hayes,sale,terreno,2025-07-01,1,,,,0
-d:presidente-hayes,Presidente Hayes,sale,terreno,2025-10-01,1,,,,0
-d:presidente-hayes,Presidente Hayes,sale,terreno,2026-01-01,1,,,,0
-d:presidente-hayes,Presidente Hayes,sale,terreno,2026-07-01,1,,,,1
-d:presidente-hayes,Presidente Hayes,sale,all,2025-07-01,1,,,,0
-d:presidente-hayes,Presidente Hayes,sale,all,2025-10-01,1,,,,0
-d:presidente-hayes,Presidente Hayes,sale,all,2026-01-01,1,,,,0
-d:presidente-hayes,Presidente Hayes,sale,all,2026-07-01,1,,,,1
-d:presidente-hayes,Presidente Hayes,rent,casa,2026-01-01,1,,,,0
-d:presidente-hayes,Presidente Hayes,rent,all,2026-01-01,1,,,,0
-c:presidente-hayes:villa-hayes,Villa Hayes,sale,terreno,2025-07-01,1,,,,0
-c:presidente-hayes:villa-hayes,Villa Hayes,sale,terreno,2025-10-01,1,,,,0
-c:presidente-hayes:villa-hayes,Villa Hayes,sale,terreno,2026-01-01,1,,,,0
-c:presidente-hayes:villa-hayes,Villa Hayes,sale,all,2025-07-01,1,,,,0
-c:presidente-hayes:villa-hayes,Villa Hayes,sale,all,2025-10-01,1,,,,0
-c:presidente-hayes:villa-hayes,Villa Hayes,sale,all,2026-01-01,1,,,,0
-c:presidente-hayes:villa-hayes,Villa Hayes,rent,casa,2026-01-01,1,,,,0
-c:presidente-hayes:villa-hayes,Villa Hayes,rent,all,2026-01-01,1,,,,0
 d:boqueron,Boquerón,sale,casa,2025-07-01,1,,,,1
 d:boqueron,Boquerón,sale,casa,2025-10-01,2,,,,1
 d:boqueron,Boquerón,sale,casa,2026-01-01,3,,,,2
@@ -806,6 +788,24 @@ d:boqueron,Boquerón,rent,all,2025-10-01,11,,,,2
 d:boqueron,Boquerón,rent,all,2026-01-01,20,,,,4
 d:boqueron,Boquerón,rent,all,2026-04-01,10,,,,2
 d:boqueron,Boquerón,rent,all,2026-07-01,17,,,,3
+d:presidente-hayes,Presidente Hayes,sale,terreno,2025-07-01,1,,,,0
+d:presidente-hayes,Presidente Hayes,sale,terreno,2025-10-01,1,,,,0
+d:presidente-hayes,Presidente Hayes,sale,terreno,2026-01-01,1,,,,0
+d:presidente-hayes,Presidente Hayes,sale,terreno,2026-07-01,1,,,,1
+d:presidente-hayes,Presidente Hayes,sale,all,2025-07-01,1,,,,0
+d:presidente-hayes,Presidente Hayes,sale,all,2025-10-01,1,,,,0
+d:presidente-hayes,Presidente Hayes,sale,all,2026-01-01,1,,,,0
+d:presidente-hayes,Presidente Hayes,sale,all,2026-07-01,1,,,,1
+d:presidente-hayes,Presidente Hayes,rent,casa,2026-01-01,1,,,,0
+d:presidente-hayes,Presidente Hayes,rent,all,2026-01-01,1,,,,0
+c:presidente-hayes:villa-hayes,Villa Hayes,sale,terreno,2025-07-01,1,,,,0
+c:presidente-hayes:villa-hayes,Villa Hayes,sale,terreno,2025-10-01,1,,,,0
+c:presidente-hayes:villa-hayes,Villa Hayes,sale,terreno,2026-01-01,1,,,,0
+c:presidente-hayes:villa-hayes,Villa Hayes,sale,all,2025-07-01,1,,,,0
+c:presidente-hayes:villa-hayes,Villa Hayes,sale,all,2025-10-01,1,,,,0
+c:presidente-hayes:villa-hayes,Villa Hayes,sale,all,2026-01-01,1,,,,0
+c:presidente-hayes:villa-hayes,Villa Hayes,rent,casa,2026-01-01,1,,,,0
+c:presidente-hayes:villa-hayes,Villa Hayes,rent,all,2026-01-01,1,,,,0
 d:paraguari,Paraguarí,sale,all,2026-01-01,2,,,,1
 d:paraguari,Paraguarí,sale,all,2026-04-01,2,,,,1
 d:paraguari,Paraguarí,sale,all,2026-07-01,3,,,,2

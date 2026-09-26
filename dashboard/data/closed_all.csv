@@ -5136,10 +5136,10 @@ transaction_id,close_date,operation,kind,place,barrio,department_market,city_mar
 485532,2026-09-24,sale,terreno,"Ciudad del Este, Alto Paraná",,Alto Paraná,Ciudad del Este,,,,250000,USD,250000,1366200000,PYG,231778.14,5894.43,,-7.289,0,0,1,1,0,cross-currency,remax,143050065-19
 485681,2026-09-24,rent,casa,"Luque, Central",,Central,Luque,300,built,4,10000000,PYG,1696.52,7500000,PYG,1272.39,5894.43,4,-25,0,1,1,1,1,,remax,143036154-16
 488192,2026-09-24,sale,terreno,"Capiatá, Central",,Central,Capiatá,315,land,,120000000,PYG,20358.2,105000000,PYG,17813.43,5894.43,57,-12.5,0,1,1,1,1,,remax,143061066-48
-135363,2026-09-25,rent,departamento,Asunción,Ycuá Satí,Asunción,,29,land,1,3900000,PYG,661.64,3800000,PYG,644.68,5894.43,22,-2.563,0,1,1,1,1,,remax,143056032-510
-467083,2026-09-25,rent,local,"Hernandarias, Alto Paraná",,Alto Paraná,Hernandarias,140,built,,8000000,PYG,1357.21,8000000,PYG,1357.21,5894.43,10,0,1,0,1,1,1,,remax,143099038-6
-467766,2026-09-25,rent,departamento,Asunción,Pettirossi,Asunción,,39,land,1,3000000,PYG,508.96,3000000,PYG,508.96,5894.43,13,0,1,0,1,1,1,,remax,143098126-519
-485467,2026-09-25,sale,departamento,"Ciudad del Este, Alto Paraná",,Alto Paraná,Ciudad del Este,420,land,1,50320,USD,50320,298000000,PYG,50556.2,5894.43,120,0.469,0,0,1,1,0,cross-currency,remax,143050067-141
-486138,2026-09-25,rent,casa,"Ciudad del Este, Alto Paraná",,Alto Paraná,Ciudad del Este,130,built,4,4000000,PYG,678.61,4000000,PYG,678.61,5894.43,5,0,1,0,1,1,1,,remax,143050002-253
-488128,2026-09-25,sale,departamento,Asunción,San Cristóbal,Asunción,,58,land,1,115000,USD,115000,590000000,PYG,100094.5,5894.43,1726,-12.961,0,0,1,1,0,cross-currency,remax,143098020-80
-272869,2026-10-01,rent,local,Asunción,Villa Morra,Asunción,,120,land,,1200,USD,1200,7440000,PYG,1262.21,5894.43,11,5.184,0,0,1,1,0,dated after the build,remax,143054116-66
+135363,2026-09-25,rent,departamento,Asunción,Ycuá Satí,Asunción,,29,land,1,3900000,PYG,663.86,3800000,PYG,646.84,5874.745,22,-2.564,0,1,1,1,1,,remax,143056032-510
+467083,2026-09-25,rent,local,"Hernandarias, Alto Paraná",,Alto Paraná,Hernandarias,140,built,,8000000,PYG,1361.76,8000000,PYG,1361.76,5874.745,10,0,1,0,1,1,1,,remax,143099038-6
+467766,2026-09-25,rent,departamento,Asunción,Pettirossi,Asunción,,39,land,1,3000000,PYG,510.66,3000000,PYG,510.66,5874.745,13,0,1,0,1,1,1,,remax,143098126-519
+485467,2026-09-25,sale,departamento,"Ciudad del Este, Alto Paraná",,Alto Paraná,Ciudad del Este,420,land,1,50320,USD,50320,298000000,PYG,50725.61,5874.745,121,0.806,0,0,1,1,0,cross-currency,remax,143050067-141
+486138,2026-09-25,rent,casa,"Ciudad del Este, Alto Paraná",,Alto Paraná,Ciudad del Este,130,built,4,4000000,PYG,680.88,4000000,PYG,680.88,5874.745,5,0,1,0,1,1,1,,remax,143050002-253
+488128,2026-09-25,sale,departamento,Asunción,San Cristóbal,Asunción,,58,land,1,115000,USD,115000,590000000,PYG,100429.89,5874.745,1732,-12.67,0,0,1,1,0,cross-currency,remax,143098020-80
+272869,2026-10-01,rent,local,Asunción,Villa Morra,Asunción,,120,land,,1200,USD,1200,7440000,PYG,1266.44,5874.745,11,5.537,0,0,1,1,0,dated after the build,remax,143054116-66
