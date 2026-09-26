@@ -1,8 +1,8 @@
 market_id,market,level,metric,property_kind,operation,value,p25,p75,n,basis
-py,Paraguay,country,asking_listed_active,,,55496,,,55496,"status active on stock sources (remax uprop psir cb prestige infocasas), seen or not"
-py,Paraguay,country,asking_active_listings,terreno,sale,8154,,,8154,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
+py,Paraguay,country,asking_listed_active,,,55511,,,55511,"status active on stock sources (remax uprop psir cb prestige infocasas), seen or not"
+py,Paraguay,country,asking_active_listings,terreno,sale,8167,,,8167,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 py,Paraguay,country,asking_active_listings,oficina,sale,89,,,89,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
-py,Paraguay,country,asking_active_listings,casa,sale,10071,,,10071,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
+py,Paraguay,country,asking_active_listings,casa,sale,10073,,,10073,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 py,Paraguay,country,asking_active_listings,rural,sale,141,,,141,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 py,Paraguay,country,asking_active_listings,duplex,sale,264,,,264,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 py,Paraguay,country,asking_active_listings,local,sale,349,,,349,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
@@ -20,9 +20,9 @@ py,Paraguay,country,asking_active_listings,terreno,rent,74,,,74,"status active a
 py,Paraguay,country,asking_active_listings,rural,rent,3,,,3,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 py,Paraguay,country,asking_active_listings,edificio,rent,7,,,7,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 py,Paraguay,country,asking_active_listings,oficina,rent,108,,,108,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
-py,Paraguay,country,asking_active_listings,departamento,rent,4289,,,4289,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
+py,Paraguay,country,asking_active_listings,departamento,rent,4290,,,4290,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 py,Paraguay,country,asking_active_listings,local,rent,311,,,311,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
-py,Paraguay,country,asking_price_usd,terreno,sale,64684,28086,144687,6056,"median ask, USD at SET mid 2026-09-25, sources with 90%+ asks: remax uprop cb psir prestige"
+py,Paraguay,country,asking_price_usd,terreno,sale,64684,28086,144687,6057,"median ask, USD at SET mid 2026-09-25, sources with 90%+ asks: remax uprop cb psir prestige"
 py,Paraguay,country,asking_price_usd,casa,sale,130000,75748,220000,4347,"median ask, USD at SET mid 2026-09-25, sources with 90%+ asks: remax uprop cb psir prestige"
 py,Paraguay,country,asking_price_usd,departamento,sale,99841,69938,145076,3980,"median ask, USD at SET mid 2026-09-25, sources with 90%+ asks: remax uprop cb psir prestige"
 py,Paraguay,country,asking_price_usd,otro,sale,161709,93621,363731,383,"median ask, USD at SET mid 2026-09-25, sources with 90%+ asks: remax uprop cb psir prestige"
@@ -38,7 +38,7 @@ py,Paraguay,country,asking_usd_per_m2_built,departamento,sale,1727,1379,2065,155
 py,Paraguay,country,asking_usd_per_m2_built,duplex,sale,899,745,1098,198,"built basis, 40-800 m2, 30k-2M USD, sources with 90%+ asks: remax uprop cb psir prestige"
 py,Paraguay,country,asking_usd_per_m2_built,local,sale,835,550,1342,170,"built basis, 40-800 m2, 30k-2M USD, sources with 90%+ asks: remax uprop cb psir prestige"
 py,Paraguay,country,asking_usd_per_m2_built,oficina,sale,1759,991,2311,48,"built basis, 40-800 m2, 30k-2M USD, sources with 90%+ asks: remax uprop cb psir prestige"
-py,Paraguay,country,asking_rent_usd_month,departamento,rent,758,545,1021,736,"median monthly ask, USD at SET mid 2026-09-25, 50-15000 USD band, sources with 90%+ asks: remax uprop cb psir prestige"
+py,Paraguay,country,asking_rent_usd_month,departamento,rent,766,545,1021,735,"median monthly ask, USD at SET mid 2026-09-25, 50-15000 USD band, sources with 90%+ asks: remax uprop cb psir prestige"
 py,Paraguay,country,asking_rent_usd_month,casa,rent,1021,587,1702,323,"median monthly ask, USD at SET mid 2026-09-25, 50-15000 USD band, sources with 90%+ asks: remax uprop cb psir prestige"
 py,Paraguay,country,asking_rent_usd_month,local,rent,766,426,1702,305,"median monthly ask, USD at SET mid 2026-09-25, 50-15000 USD band, sources with 90%+ asks: remax uprop cb psir prestige"
 py,Paraguay,country,asking_rent_usd_month,oficina,rent,800,374,2011,108,"median monthly ask, USD at SET mid 2026-09-25, 50-15000 USD band, sources with 90%+ asks: remax uprop cb psir prestige"
@@ -49,7 +49,7 @@ py,Paraguay,country,asking_rent_usd_month,duplex,rent,785,681,1192,36,"median mo
 py,Paraguay,country,asking_rent_usd_month,edificio,rent,,,,7,"suppressed, n below 20"
 py,Paraguay,country,asking_rent_usd_month,rural,rent,,,,2,"suppressed, n below 20"
 py,Paraguay,country,asking_rent_usd_month,quinta,rent,,,,1,"suppressed, n below 20"
-py,Paraguay,country,asking_staleness_days,terreno,sale,243,,556,4291,"days since source publish date, sources: remax prestige"
+py,Paraguay,country,asking_staleness_days,terreno,sale,243,,555,4292,"days since source publish date, sources: remax prestige"
 py,Paraguay,country,asking_staleness_days,casa,sale,201,,483,2277,"days since source publish date, sources: remax prestige"
 py,Paraguay,country,asking_staleness_days,departamento,sale,219,,491,1772,"days since source publish date, sources: remax prestige"
 py,Paraguay,country,asking_staleness_days,otro,sale,213,,444,351,"days since source publish date, sources: remax prestige"
@@ -62,19 +62,19 @@ py,Paraguay,country,asking_staleness_days,quinta,sale,284,,506,69,"days since so
 py,Paraguay,country,asking_staleness_days,rural,sale,623,,1113,66,"days since source publish date, sources: remax prestige"
 py,Paraguay,country,asking_flow_30d_cuts,,all,444,,,444,events 2026-08-28 to 2026-09-26
 py,Paraguay,country,asking_flow_30d_increases,,all,184,,,184,events 2026-08-28 to 2026-09-26
-py,Paraguay,country,asking_flow_30d_new,,all,3243,,,3243,events 2026-08-28 to 2026-09-26
+py,Paraguay,country,asking_flow_30d_new,,all,3246,,,3246,events 2026-08-28 to 2026-09-26
 py,Paraguay,country,asking_flow_30d_delisted,,all,562,,,562,events 2026-08-28 to 2026-09-26
 py,Paraguay,country,asking_flow_30d_went_sold,,all,184,,,184,events 2026-08-28 to 2026-09-26
 py,Paraguay,country,asking_flow_30d_went_rented,,all,188,,,188,events 2026-08-28 to 2026-09-26
 py,Paraguay,country,asking_flow_30d_cuts,,sale,345,,,345,events 2026-08-28 to 2026-09-26
 py,Paraguay,country,asking_flow_30d_increases,,sale,147,,,147,events 2026-08-28 to 2026-09-26
-py,Paraguay,country,asking_flow_30d_new,,sale,2122,,,2122,events 2026-08-28 to 2026-09-26
+py,Paraguay,country,asking_flow_30d_new,,sale,2126,,,2126,events 2026-08-28 to 2026-09-26
 py,Paraguay,country,asking_flow_30d_delisted,,sale,488,,,488,events 2026-08-28 to 2026-09-26
 py,Paraguay,country,asking_flow_30d_went_sold,,sale,184,,,184,events 2026-08-28 to 2026-09-26
 py,Paraguay,country,asking_flow_30d_went_rented,,sale,0,,,0,events 2026-08-28 to 2026-09-26
 py,Paraguay,country,asking_flow_30d_cuts,,rent,99,,,99,events 2026-08-28 to 2026-09-26
 py,Paraguay,country,asking_flow_30d_increases,,rent,37,,,37,events 2026-08-28 to 2026-09-26
-py,Paraguay,country,asking_flow_30d_new,,rent,1121,,,1121,events 2026-08-28 to 2026-09-26
+py,Paraguay,country,asking_flow_30d_new,,rent,1120,,,1120,events 2026-08-28 to 2026-09-26
 py,Paraguay,country,asking_flow_30d_delisted,,rent,74,,,74,events 2026-08-28 to 2026-09-26
 py,Paraguay,country,asking_flow_30d_went_sold,,rent,0,,,0,events 2026-08-28 to 2026-09-26
 py,Paraguay,country,asking_flow_30d_went_rented,,rent,188,,,188,events 2026-08-28 to 2026-09-26
@@ -119,8 +119,8 @@ py,Paraguay,country,closed_below_ask_median_pct,otro,rent,,,,16,"suppressed, few
 py,Paraguay,country,closed_ask_to_close_pct,deposito,rent,0,-7.7,0,87,"same-currency broker-reported closes 2024-05-01 to 2026-09-17, terminal-ask basis"
 py,Paraguay,country,closed_at_ask_share_pct,deposito,rent,60.9,,,87,53 of 87 report a price identical to the last ask
 py,Paraguay,country,closed_below_ask_median_pct,deposito,rent,-12.5,,,33,median spread of closes below the last ask
-d:asuncion,Asunción,department,asking_listed_active,,,30757,,,30757,"status active on stock sources (remax uprop psir cb prestige infocasas), seen or not"
-d:asuncion,Asunción,department,asking_active_listings,casa,sale,4505,,,4505,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
+d:asuncion,Asunción,department,asking_listed_active,,,30759,,,30759,"status active on stock sources (remax uprop psir cb prestige infocasas), seen or not"
+d:asuncion,Asunción,department,asking_active_listings,casa,sale,4506,,,4506,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 d:asuncion,Asunción,department,asking_active_listings,deposito,sale,23,,,23,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 d:asuncion,Asunción,department,asking_active_listings,edificio,sale,45,,,45,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 d:asuncion,Asunción,department,asking_active_listings,terreno,sale,842,,,842,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
@@ -139,7 +139,7 @@ d:asuncion,Asunción,department,asking_active_listings,oficina,rent,64,,,64,"sta
 d:asuncion,Asunción,department,asking_active_listings,duplex,rent,6,,,6,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 d:asuncion,Asunción,department,asking_active_listings,edificio,rent,2,,,2,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 d:asuncion,Asunción,department,asking_active_listings,casa,rent,2249,,,2249,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
-d:asuncion,Asunción,department,asking_active_listings,departamento,rent,3904,,,3904,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
+d:asuncion,Asunción,department,asking_active_listings,departamento,rent,3906,,,3906,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 d:asuncion,Asunción,department,asking_price_usd,departamento,sale,110300,77732,155000,2917,"median ask, USD at SET mid 2026-09-25, sources with 90%+ asks: remax uprop cb psir prestige"
 d:asuncion,Asunción,department,asking_price_usd,casa,sale,221286,136176,380000,1006,"median ask, USD at SET mid 2026-09-25, sources with 90%+ asks: remax uprop cb psir prestige"
 d:asuncion,Asunción,department,asking_price_usd,terreno,sale,204264,108941,450000,821,"median ask, USD at SET mid 2026-09-25, sources with 90%+ asks: remax uprop cb psir prestige"
@@ -177,7 +177,7 @@ d:asuncion,Asunción,department,asking_staleness_days,deposito,sale,206,,430,23,
 d:asuncion,Asunción,department,asking_staleness_days,quinta,sale,,,,1,"suppressed, n below 20"
 d:asuncion,Asunción,department,asking_flow_30d_cuts,,all,134,,,134,events 2026-08-28 to 2026-09-26
 d:asuncion,Asunción,department,asking_flow_30d_increases,,all,67,,,67,events 2026-08-28 to 2026-09-26
-d:asuncion,Asunción,department,asking_flow_30d_new,,all,1697,,,1697,events 2026-08-28 to 2026-09-26
+d:asuncion,Asunción,department,asking_flow_30d_new,,all,1696,,,1696,events 2026-08-28 to 2026-09-26
 d:asuncion,Asunción,department,asking_flow_30d_delisted,,all,158,,,158,events 2026-08-28 to 2026-09-26
 d:asuncion,Asunción,department,asking_flow_30d_went_sold,,all,57,,,57,events 2026-08-28 to 2026-09-26
 d:asuncion,Asunción,department,asking_flow_30d_went_rented,,all,72,,,72,events 2026-08-28 to 2026-09-26
@@ -189,7 +189,7 @@ d:asuncion,Asunción,department,asking_flow_30d_went_sold,,sale,57,,,57,events 2
 d:asuncion,Asunción,department,asking_flow_30d_went_rented,,sale,0,,,0,events 2026-08-28 to 2026-09-26
 d:asuncion,Asunción,department,asking_flow_30d_cuts,,rent,42,,,42,events 2026-08-28 to 2026-09-26
 d:asuncion,Asunción,department,asking_flow_30d_increases,,rent,16,,,16,events 2026-08-28 to 2026-09-26
-d:asuncion,Asunción,department,asking_flow_30d_new,,rent,875,,,875,events 2026-08-28 to 2026-09-26
+d:asuncion,Asunción,department,asking_flow_30d_new,,rent,874,,,874,events 2026-08-28 to 2026-09-26
 d:asuncion,Asunción,department,asking_flow_30d_delisted,,rent,33,,,33,events 2026-08-28 to 2026-09-26
 d:asuncion,Asunción,department,asking_flow_30d_went_sold,,rent,0,,,0,events 2026-08-28 to 2026-09-26
 d:asuncion,Asunción,department,asking_flow_30d_went_rented,,rent,72,,,72,events 2026-08-28 to 2026-09-26
@@ -225,13 +225,13 @@ d:asuncion,Asunción,department,closed_below_ask_median_pct,oficina,rent,,,,21,"
 d:asuncion,Asunción,department,closed_ask_to_close_pct,duplex,rent,0,0,0,40,"same-currency broker-reported closes 2024-02-22 to 2026-09-14, terminal-ask basis"
 d:asuncion,Asunción,department,closed_at_ask_share_pct,duplex,rent,72.5,,,40,29 of 40 report a price identical to the last ask
 d:asuncion,Asunción,department,closed_below_ask_median_pct,duplex,rent,,,,9,"suppressed, fewer than 30 closes below ask"
-d:central,Central,department,asking_listed_active,,,19406,,,19406,"status active on stock sources (remax uprop psir cb prestige infocasas), seen or not"
+d:central,Central,department,asking_listed_active,,,19420,,,19420,"status active on stock sources (remax uprop psir cb prestige infocasas), seen or not"
 d:central,Central,department,asking_active_listings,duplex,sale,191,,,191,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 d:central,Central,department,asking_active_listings,rural,sale,12,,,12,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
-d:central,Central,department,asking_active_listings,casa,sale,4597,,,4597,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
+d:central,Central,department,asking_active_listings,casa,sale,4598,,,4598,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 d:central,Central,department,asking_active_listings,departamento,sale,781,,,781,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 d:central,Central,department,asking_active_listings,otro,sale,114,,,114,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
-d:central,Central,department,asking_active_listings,terreno,sale,4692,,,4692,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
+d:central,Central,department,asking_active_listings,terreno,sale,4705,,,4705,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 d:central,Central,department,asking_active_listings,local,sale,109,,,109,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 d:central,Central,department,asking_active_listings,quinta,sale,29,,,29,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 d:central,Central,department,asking_active_listings,edificio,sale,27,,,27,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
@@ -246,7 +246,7 @@ d:central,Central,department,asking_active_listings,departamento,rent,299,,,299,
 d:central,Central,department,asking_active_listings,deposito,rent,34,,,34,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 d:central,Central,department,asking_active_listings,rural,rent,2,,,2,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 d:central,Central,department,asking_active_listings,casa,rent,166,,,166,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
-d:central,Central,department,asking_price_usd,terreno,sale,60289,30640,119154,2669,"median ask, USD at SET mid 2026-09-25, sources with 90%+ asks: remax uprop cb psir prestige"
+d:central,Central,department,asking_price_usd,terreno,sale,60145,30640,119154,2670,"median ask, USD at SET mid 2026-09-25, sources with 90%+ asks: remax uprop cb psir prestige"
 d:central,Central,department,asking_price_usd,casa,sale,102132,67024,160002,2460,"median ask, USD at SET mid 2026-09-25, sources with 90%+ asks: remax uprop cb psir prestige"
 d:central,Central,department,asking_price_usd,departamento,sale,76231,53000,93621,763,"median ask, USD at SET mid 2026-09-25, sources with 90%+ asks: remax uprop cb psir prestige"
 d:central,Central,department,asking_price_usd,duplex,sale,115750,86357,144687,191,"median ask, USD at SET mid 2026-09-25, sources with 90%+ asks: remax uprop cb psir prestige"
@@ -270,7 +270,7 @@ d:central,Central,department,asking_rent_usd_month,duplex,rent,766,681,936,23,"m
 d:central,Central,department,asking_rent_usd_month,oficina,rent,,,,12,"suppressed, n below 20"
 d:central,Central,department,asking_rent_usd_month,edificio,rent,,,,1,"suppressed, n below 20"
 d:central,Central,department,asking_rent_usd_month,rural,rent,,,,1,"suppressed, n below 20"
-d:central,Central,department,asking_staleness_days,terreno,sale,213,,505,1700,"days since source publish date, sources: remax prestige"
+d:central,Central,department,asking_staleness_days,terreno,sale,213,,505,1701,"days since source publish date, sources: remax prestige"
 d:central,Central,department,asking_staleness_days,casa,sale,183,,435,1247,"days since source publish date, sources: remax prestige"
 d:central,Central,department,asking_staleness_days,departamento,sale,225,,670,320,"days since source publish date, sources: remax prestige"
 d:central,Central,department,asking_staleness_days,duplex,sale,227,,469,191,"days since source publish date, sources: remax prestige"
@@ -282,13 +282,13 @@ d:central,Central,department,asking_staleness_days,edificio,sale,313,,813,26,"da
 d:central,Central,department,asking_staleness_days,rural,sale,,,,2,"suppressed, n below 20"
 d:central,Central,department,asking_flow_30d_cuts,,all,193,,,193,events 2026-08-28 to 2026-09-26
 d:central,Central,department,asking_flow_30d_increases,,all,56,,,56,events 2026-08-28 to 2026-09-26
-d:central,Central,department,asking_flow_30d_new,,all,1144,,,1144,events 2026-08-28 to 2026-09-26
+d:central,Central,department,asking_flow_30d_new,,all,1148,,,1148,events 2026-08-28 to 2026-09-26
 d:central,Central,department,asking_flow_30d_delisted,,all,234,,,234,events 2026-08-28 to 2026-09-26
 d:central,Central,department,asking_flow_30d_went_sold,,all,73,,,73,events 2026-08-28 to 2026-09-26
 d:central,Central,department,asking_flow_30d_went_rented,,all,68,,,68,events 2026-08-28 to 2026-09-26
 d:central,Central,department,asking_flow_30d_cuts,,sale,157,,,157,events 2026-08-28 to 2026-09-26
 d:central,Central,department,asking_flow_30d_increases,,sale,45,,,45,events 2026-08-28 to 2026-09-26
-d:central,Central,department,asking_flow_30d_new,,sale,990,,,990,events 2026-08-28 to 2026-09-26
+d:central,Central,department,asking_flow_30d_new,,sale,994,,,994,events 2026-08-28 to 2026-09-26
 d:central,Central,department,asking_flow_30d_delisted,,sale,211,,,211,events 2026-08-28 to 2026-09-26
 d:central,Central,department,asking_flow_30d_went_sold,,sale,73,,,73,events 2026-08-28 to 2026-09-26
 d:central,Central,department,asking_flow_30d_went_rented,,sale,0,,,0,events 2026-08-28 to 2026-09-26
@@ -333,7 +333,7 @@ d:central,Central,department,closed_below_ask_median_pct,local,rent,-12.9,,,45,m
 d:central,Central,department,closed_ask_to_close_pct,deposito,rent,0,-9.1,0,53,"same-currency broker-reported closes 2024-05-01 to 2026-09-17, terminal-ask basis"
 d:central,Central,department,closed_at_ask_share_pct,deposito,rent,50.9,,,53,27 of 53 report a price identical to the last ask
 d:central,Central,department,closed_below_ask_median_pct,deposito,rent,,,,25,"suppressed, fewer than 30 closes below ask"
-c:central:luque,Luque,city,asking_listed_active,,,4087,,,4087,"status active on stock sources (remax uprop psir cb prestige infocasas), seen or not"
+c:central:luque,Luque,city,asking_listed_active,,,4088,,,4088,"status active on stock sources (remax uprop psir cb prestige infocasas), seen or not"
 c:central:luque,Luque,city,asking_active_listings,duplex,sale,70,,,70,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 c:central:luque,Luque,city,asking_active_listings,quinta,sale,2,,,2,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 c:central:luque,Luque,city,asking_active_listings,rural,sale,3,,,3,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
@@ -341,7 +341,7 @@ c:central:luque,Luque,city,asking_active_listings,departamento,sale,306,,,306,"s
 c:central:luque,Luque,city,asking_active_listings,deposito,sale,5,,,5,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 c:central:luque,Luque,city,asking_active_listings,otro,sale,30,,,30,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 c:central:luque,Luque,city,asking_active_listings,casa,sale,812,,,812,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
-c:central:luque,Luque,city,asking_active_listings,terreno,sale,632,,,632,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
+c:central:luque,Luque,city,asking_active_listings,terreno,sale,633,,,633,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 c:central:luque,Luque,city,asking_active_listings,edificio,sale,1,,,1,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 c:central:luque,Luque,city,asking_active_listings,local,sale,12,,,12,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 c:central:luque,Luque,city,asking_active_listings,departamento,rent,87,,,87,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
@@ -353,7 +353,7 @@ c:central:luque,Luque,city,asking_active_listings,local,rent,16,,,16,"status act
 c:central:luque,Luque,city,asking_active_listings,casa,rent,45,,,45,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 c:central:luque,Luque,city,asking_active_listings,oficina,rent,2,,,2,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 c:central:luque,Luque,city,asking_price_usd,casa,sale,105536,69790,160000,669,"median ask, USD at SET mid 2026-09-25, sources with 90%+ asks: remax uprop cb psir prestige"
-c:central:luque,Luque,city,asking_price_usd,terreno,sale,76599,42555,170220,548,"median ask, USD at SET mid 2026-09-25, sources with 90%+ asks: remax uprop cb psir prestige"
+c:central:luque,Luque,city,asking_price_usd,terreno,sale,76599,42555,170220,549,"median ask, USD at SET mid 2026-09-25, sources with 90%+ asks: remax uprop cb psir prestige"
 c:central:luque,Luque,city,asking_price_usd,departamento,sale,81237,60000,93621,305,"median ask, USD at SET mid 2026-09-25, sources with 90%+ asks: remax uprop cb psir prestige"
 c:central:luque,Luque,city,asking_price_usd,duplex,sale,127665,93834,151649,70,"median ask, USD at SET mid 2026-09-25, sources with 90%+ asks: remax uprop cb psir prestige"
 c:central:luque,Luque,city,asking_price_usd,otro,sale,92224,71821,200940,30,"median ask, USD at SET mid 2026-09-25, sources with 90%+ asks: remax uprop cb psir prestige"
@@ -374,7 +374,7 @@ c:central:luque,Luque,city,asking_rent_usd_month,otro,rent,,,,7,"suppressed, n b
 c:central:luque,Luque,city,asking_rent_usd_month,deposito,rent,,,,4,"suppressed, n below 20"
 c:central:luque,Luque,city,asking_rent_usd_month,duplex,rent,,,,4,"suppressed, n below 20"
 c:central:luque,Luque,city,asking_rent_usd_month,oficina,rent,,,,2,"suppressed, n below 20"
-c:central:luque,Luque,city,asking_staleness_days,terreno,sale,206,,495,291,"days since source publish date, sources: remax prestige"
+c:central:luque,Luque,city,asking_staleness_days,terreno,sale,204,,494,292,"days since source publish date, sources: remax prestige"
 c:central:luque,Luque,city,asking_staleness_days,casa,sale,200,,502,288,"days since source publish date, sources: remax prestige"
 c:central:luque,Luque,city,asking_staleness_days,departamento,sale,197,,554,120,"days since source publish date, sources: remax prestige"
 c:central:luque,Luque,city,asking_staleness_days,duplex,sale,216,,434,70,"days since source publish date, sources: remax prestige"
@@ -385,13 +385,13 @@ c:central:luque,Luque,city,asking_staleness_days,quinta,sale,,,,2,"suppressed, n
 c:central:luque,Luque,city,asking_staleness_days,edificio,sale,,,,1,"suppressed, n below 20"
 c:central:luque,Luque,city,asking_flow_30d_cuts,,all,36,,,36,events 2026-08-28 to 2026-09-26
 c:central:luque,Luque,city,asking_flow_30d_increases,,all,22,,,22,events 2026-08-28 to 2026-09-26
-c:central:luque,Luque,city,asking_flow_30d_new,,all,270,,,270,events 2026-08-28 to 2026-09-26
+c:central:luque,Luque,city,asking_flow_30d_new,,all,271,,,271,events 2026-08-28 to 2026-09-26
 c:central:luque,Luque,city,asking_flow_30d_delisted,,all,54,,,54,events 2026-08-28 to 2026-09-26
 c:central:luque,Luque,city,asking_flow_30d_went_sold,,all,13,,,13,events 2026-08-28 to 2026-09-26
 c:central:luque,Luque,city,asking_flow_30d_went_rented,,all,13,,,13,events 2026-08-28 to 2026-09-26
 c:central:luque,Luque,city,asking_flow_30d_cuts,,sale,30,,,30,events 2026-08-28 to 2026-09-26
 c:central:luque,Luque,city,asking_flow_30d_increases,,sale,19,,,19,events 2026-08-28 to 2026-09-26
-c:central:luque,Luque,city,asking_flow_30d_new,,sale,224,,,224,events 2026-08-28 to 2026-09-26
+c:central:luque,Luque,city,asking_flow_30d_new,,sale,225,,,225,events 2026-08-28 to 2026-09-26
 c:central:luque,Luque,city,asking_flow_30d_delisted,,sale,52,,,52,events 2026-08-28 to 2026-09-26
 c:central:luque,Luque,city,asking_flow_30d_went_sold,,sale,13,,,13,events 2026-08-28 to 2026-09-26
 c:central:luque,Luque,city,asking_flow_30d_went_rented,,sale,0,,,0,events 2026-08-28 to 2026-09-26
@@ -656,7 +656,7 @@ c:central:capiata,Capiatá,city,closed_below_ask_median_pct,all,sale,-9.1,,,31,m
 c:central:capiata,Capiatá,city,closed_ask_to_close_pct,all,rent,0,-10.7,0,35,"same-currency broker-reported closes 2024-07-03 to 2026-09-11, terminal-ask basis"
 c:central:capiata,Capiatá,city,closed_at_ask_share_pct,all,rent,65.7,,,35,23 of 35 report a price identical to the last ask
 c:central:capiata,Capiatá,city,closed_below_ask_median_pct,all,rent,,,,12,"suppressed, fewer than 30 closes below ask"
-c:central:nemby,Ñemby,city,asking_listed_active,,,1052,,,1052,"status active on stock sources (remax uprop psir cb prestige infocasas), seen or not"
+c:central:nemby,Ñemby,city,asking_listed_active,,,1064,,,1064,"status active on stock sources (remax uprop psir cb prestige infocasas), seen or not"
 c:central:nemby,Ñemby,city,asking_active_listings,deposito,sale,2,,,2,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 c:central:nemby,Ñemby,city,asking_active_listings,departamento,sale,11,,,11,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 c:central:nemby,Ñemby,city,asking_active_listings,casa,sale,368,,,368,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
@@ -664,7 +664,7 @@ c:central:nemby,Ñemby,city,asking_active_listings,quinta,sale,3,,,3,"status act
 c:central:nemby,Ñemby,city,asking_active_listings,duplex,sale,5,,,5,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 c:central:nemby,Ñemby,city,asking_active_listings,local,sale,6,,,6,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 c:central:nemby,Ñemby,city,asking_active_listings,otro,sale,4,,,4,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
-c:central:nemby,Ñemby,city,asking_active_listings,terreno,sale,297,,,297,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
+c:central:nemby,Ñemby,city,asking_active_listings,terreno,sale,309,,,309,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 c:central:nemby,Ñemby,city,asking_active_listings,departamento,rent,3,,,3,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 c:central:nemby,Ñemby,city,asking_active_listings,duplex,rent,2,,,2,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 c:central:nemby,Ñemby,city,asking_active_listings,otro,rent,14,,,14,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
@@ -701,13 +701,13 @@ c:central:nemby,Ñemby,city,asking_staleness_days,quinta,sale,,,,3,"suppressed, 
 c:central:nemby,Ñemby,city,asking_staleness_days,deposito,sale,,,,2,"suppressed, n below 20"
 c:central:nemby,Ñemby,city,asking_flow_30d_cuts,,all,8,,,8,events 2026-08-28 to 2026-09-26
 c:central:nemby,Ñemby,city,asking_flow_30d_increases,,all,1,,,1,events 2026-08-28 to 2026-09-26
-c:central:nemby,Ñemby,city,asking_flow_30d_new,,all,57,,,57,events 2026-08-28 to 2026-09-26
+c:central:nemby,Ñemby,city,asking_flow_30d_new,,all,60,,,60,events 2026-08-28 to 2026-09-26
 c:central:nemby,Ñemby,city,asking_flow_30d_delisted,,all,17,,,17,events 2026-08-28 to 2026-09-26
 c:central:nemby,Ñemby,city,asking_flow_30d_went_sold,,all,6,,,6,events 2026-08-28 to 2026-09-26
 c:central:nemby,Ñemby,city,asking_flow_30d_went_rented,,all,1,,,1,events 2026-08-28 to 2026-09-26
 c:central:nemby,Ñemby,city,asking_flow_30d_cuts,,sale,7,,,7,events 2026-08-28 to 2026-09-26
 c:central:nemby,Ñemby,city,asking_flow_30d_increases,,sale,0,,,0,events 2026-08-28 to 2026-09-26
-c:central:nemby,Ñemby,city,asking_flow_30d_new,,sale,52,,,52,events 2026-08-28 to 2026-09-26
+c:central:nemby,Ñemby,city,asking_flow_30d_new,,sale,55,,,55,events 2026-08-28 to 2026-09-26
 c:central:nemby,Ñemby,city,asking_flow_30d_delisted,,sale,14,,,14,events 2026-08-28 to 2026-09-26
 c:central:nemby,Ñemby,city,asking_flow_30d_went_sold,,sale,6,,,6,events 2026-08-28 to 2026-09-26
 c:central:nemby,Ñemby,city,asking_flow_30d_went_rented,,sale,0,,,0,events 2026-08-28 to 2026-09-26
@@ -1302,7 +1302,7 @@ c:central:ypacarai,Ypacaraí,city,reo_parcels_active,,sale,1,,,1,bank REO lists
 c:central:ypacarai,Ypacaraí,city,reo_parcels_priced,,sale,1,,,1,bank REO lists
 c:central:ypacarai,Ypacaraí,city,closed_ask_to_close_pct,all,sale,,,,9,insufficient closes
 c:central:ypacarai,Ypacaraí,city,closed_ask_to_close_pct,all,rent,,,,2,insufficient closes
-c:central:julian-augusto-saldivar,Julián Augusto Saldívar,city,asking_listed_active,,,312,,,312,"status active on stock sources (remax uprop psir cb prestige infocasas), seen or not"
+c:central:julian-augusto-saldivar,Julián Augusto Saldívar,city,asking_listed_active,,,311,,,311,"status active on stock sources (remax uprop psir cb prestige infocasas), seen or not"
 c:central:julian-augusto-saldivar,Julián Augusto Saldívar,city,asking_active_listings,casa,sale,104,,,104,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 c:central:julian-augusto-saldivar,Julián Augusto Saldívar,city,asking_active_listings,local,sale,1,,,1,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 c:central:julian-augusto-saldivar,Julián Augusto Saldívar,city,asking_active_listings,terreno,sale,159,,,159,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
@@ -1421,7 +1421,7 @@ c:central:nueva-italia,Nueva Italia,city,reo_parcels_active,,sale,0,,,0,bank REO
 c:central:nueva-italia,Nueva Italia,city,reo_parcels_priced,,sale,0,,,0,bank REO lists
 c:central:nueva-italia,Nueva Italia,city,closed_ask_to_close_pct,all,sale,,,,1,insufficient closes
 c:central:nueva-italia,Nueva Italia,city,closed_ask_to_close_pct,all,rent,,,,0,insufficient closes
-d:itapua,Itapúa,department,asking_listed_active,,,1831,,,1831,"status active on stock sources (remax uprop psir cb prestige infocasas), seen or not"
+d:itapua,Itapúa,department,asking_listed_active,,,1830,,,1830,"status active on stock sources (remax uprop psir cb prestige infocasas), seen or not"
 d:itapua,Itapúa,department,asking_active_listings,oficina,sale,2,,,2,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 d:itapua,Itapúa,department,asking_active_listings,quinta,sale,8,,,8,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 d:itapua,Itapúa,department,asking_active_listings,deposito,sale,13,,,13,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
@@ -1439,7 +1439,7 @@ d:itapua,Itapúa,department,asking_active_listings,terreno,rent,15,,,15,"status 
 d:itapua,Itapúa,department,asking_active_listings,edificio,rent,2,,,2,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 d:itapua,Itapúa,department,asking_active_listings,casa,rent,27,,,27,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 d:itapua,Itapúa,department,asking_active_listings,duplex,rent,5,,,5,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
-d:itapua,Itapúa,department,asking_active_listings,departamento,rent,60,,,60,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
+d:itapua,Itapúa,department,asking_active_listings,departamento,rent,59,,,59,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 d:itapua,Itapúa,department,asking_active_listings,deposito,rent,3,,,3,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 d:itapua,Itapúa,department,asking_active_listings,oficina,rent,6,,,6,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 d:itapua,Itapúa,department,asking_price_usd,terreno,sale,34044,15490,82057,870,"median ask, USD at SET mid 2026-09-25, sources with 90%+ asks: remax uprop cb psir prestige"
@@ -1458,7 +1458,7 @@ d:itapua,Itapúa,department,asking_usd_per_m2_built,departamento,sale,1290,1077,
 d:itapua,Itapúa,department,asking_usd_per_m2_built,duplex,sale,708,669,920,26,"built basis, 40-800 m2, 30k-2M USD, sources with 90%+ asks: remax uprop cb psir prestige"
 d:itapua,Itapúa,department,asking_usd_per_m2_built,local,sale,,,,17,"suppressed, n below 20"
 d:itapua,Itapúa,department,asking_usd_per_m2_built,oficina,sale,,,,2,"suppressed, n below 20"
-d:itapua,Itapúa,department,asking_rent_usd_month,departamento,rent,455,272,829,54,"median monthly ask, USD at SET mid 2026-09-25, 50-15000 USD band, sources with 90%+ asks: remax uprop cb psir prestige"
+d:itapua,Itapúa,department,asking_rent_usd_month,departamento,rent,460,272,850,53,"median monthly ask, USD at SET mid 2026-09-25, 50-15000 USD band, sources with 90%+ asks: remax uprop cb psir prestige"
 d:itapua,Itapúa,department,asking_rent_usd_month,casa,rent,809,332,1016,22,"median monthly ask, USD at SET mid 2026-09-25, 50-15000 USD band, sources with 90%+ asks: remax uprop cb psir prestige"
 d:itapua,Itapúa,department,asking_rent_usd_month,local,rent,,,,19,"suppressed, n below 20"
 d:itapua,Itapúa,department,asking_rent_usd_month,terreno,rent,,,,15,"suppressed, n below 20"
@@ -1513,7 +1513,7 @@ d:itapua,Itapúa,department,closed_below_ask_median_pct,departamento,rent,,,,5,"
 d:itapua,Itapúa,department,closed_ask_to_close_pct,casa,rent,0,0,0,44,"same-currency broker-reported closes 2025-09-08 to 2026-09-21, terminal-ask basis"
 d:itapua,Itapúa,department,closed_at_ask_share_pct,casa,rent,90.9,,,44,40 of 44 report a price identical to the last ask
 d:itapua,Itapúa,department,closed_below_ask_median_pct,casa,rent,,,,4,"suppressed, fewer than 30 closes below ask"
-c:itapua:encarnacion,Encarnación,city,asking_listed_active,,,917,,,917,"status active on stock sources (remax uprop psir cb prestige infocasas), seen or not"
+c:itapua:encarnacion,Encarnación,city,asking_listed_active,,,916,,,916,"status active on stock sources (remax uprop psir cb prestige infocasas), seen or not"
 c:itapua:encarnacion,Encarnación,city,asking_active_listings,duplex,sale,24,,,24,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 c:itapua:encarnacion,Encarnación,city,asking_active_listings,edificio,sale,14,,,14,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 c:itapua:encarnacion,Encarnación,city,asking_active_listings,terreno,sale,329,,,329,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
@@ -1530,7 +1530,7 @@ c:itapua:encarnacion,Encarnación,city,asking_active_listings,duplex,rent,1,,,1,
 c:itapua:encarnacion,Encarnación,city,asking_active_listings,edificio,rent,2,,,2,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 c:itapua:encarnacion,Encarnación,city,asking_active_listings,casa,rent,15,,,15,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 c:itapua:encarnacion,Encarnación,city,asking_active_listings,oficina,rent,3,,,3,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
-c:itapua:encarnacion,Encarnación,city,asking_active_listings,departamento,rent,53,,,53,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
+c:itapua:encarnacion,Encarnación,city,asking_active_listings,departamento,rent,52,,,52,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 c:itapua:encarnacion,Encarnación,city,asking_active_listings,deposito,rent,3,,,3,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 c:itapua:encarnacion,Encarnación,city,asking_active_listings,local,rent,12,,,12,"status active and seen on or after 2026-09-19 (remax), 2026-09-19 (uprop), 2026-09-19 (psir), 2026-09-19 (cb), 2026-09-19 (prestige), 2026-09-12 (infocasas)"
 c:itapua:encarnacion,Encarnación,city,asking_price_usd,terreno,sale,49364,21448,121000,329,"median ask, USD at SET mid 2026-09-25, sources with 90%+ asks: remax uprop cb psir prestige"
@@ -1548,7 +1548,7 @@ c:itapua:encarnacion,Encarnación,city,asking_usd_per_m2_built,departamento,sale
 c:itapua:encarnacion,Encarnación,city,asking_usd_per_m2_built,duplex,sale,669,669,918,24,"built basis, 40-800 m2, 30k-2M USD, sources with 90%+ asks: remax uprop cb psir prestige"
 c:itapua:encarnacion,Encarnación,city,asking_usd_per_m2_built,local,sale,,,,10,"suppressed, n below 20"
 c:itapua:encarnacion,Encarnación,city,asking_usd_per_m2_built,oficina,sale,,,,2,"suppressed, n below 20"
-c:itapua:encarnacion,Encarnación,city,asking_rent_usd_month,departamento,rent,438,268,787,52,"median monthly ask, USD at SET mid 2026-09-25, 50-15000 USD band, sources with 90%+ asks: remax uprop cb psir prestige"
+c:itapua:encarnacion,Encarnación,city,asking_rent_usd_month,departamento,rent,426,264,808,51,"median monthly ask, USD at SET mid 2026-09-25, 50-15000 USD band, sources with 90%+ asks: remax uprop cb psir prestige"
 c:itapua:encarnacion,Encarnación,city,asking_rent_usd_month,casa,rent,,,,15,"suppressed, n below 20"
 c:itapua:encarnacion,Encarnación,city,asking_rent_usd_month,local,rent,,,,12,"suppressed, n below 20"
 c:itapua:encarnacion,Encarnación,city,asking_rent_usd_month,terreno,rent,,,,11,"suppressed, n below 20"

@@ -231,13 +231,13 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-25,py,Paraguay,asking_usd_per_m2_built,departamento,1763,481
 2026-09-25,py,Paraguay,asking_rent_usd_month,departamento,630,358
 2026-09-25,py,Paraguay,asking_rent_usd_month,casa,766,173
-2026-09-26,py,Paraguay,active_sale,,9501,9501
-2026-09-26,py,Paraguay,active_rent,,1077,1077
+2026-09-26,py,Paraguay,active_sale,,9502,9502
+2026-09-26,py,Paraguay,active_rent,,1076,1076
 2026-09-26,py,Paraguay,asking_price_usd,casa,115625,2390
 2026-09-26,py,Paraguay,asking_price_usd,departamento,102770,1902
 2026-09-26,py,Paraguay,asking_usd_per_m2_built,casa,730,2202
 2026-09-26,py,Paraguay,asking_usd_per_m2_built,departamento,1763,481
-2026-09-26,py,Paraguay,asking_rent_usd_month,departamento,630,357
+2026-09-26,py,Paraguay,asking_rent_usd_month,departamento,630,356
 2026-09-26,py,Paraguay,asking_rent_usd_month,casa,766,173
 2026-08-28,d:asuncion,Asunción,active_sale,,2139,2139
 2026-08-28,d:asuncion,Asunción,active_rent,,315,315
@@ -711,7 +711,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-25,d:central,Central,asking_usd_per_m2_built,departamento,1270,63
 2026-09-25,d:central,Central,asking_rent_usd_month,departamento,426,146
 2026-09-25,d:central,Central,asking_rent_usd_month,casa,511,76
-2026-09-26,d:central,Central,active_sale,,3719,3719
+2026-09-26,d:central,Central,active_sale,,3720,3720
 2026-09-26,d:central,Central,active_rent,,463,463
 2026-09-26,d:central,Central,asking_price_usd,casa,90217,1335
 2026-09-26,d:central,Central,asking_price_usd,departamento,71492,349
@@ -951,7 +951,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-25,c:central:luque,Luque,asking_usd_per_m2_built,departamento,,19
 2026-09-25,c:central:luque,Luque,asking_rent_usd_month,departamento,630,48
 2026-09-25,c:central:luque,Luque,asking_rent_usd_month,casa,596,20
-2026-09-26,c:central:luque,Luque,active_sale,,808,808
+2026-09-26,c:central:luque,Luque,active_sale,,809,809
 2026-09-26,c:central:luque,Luque,active_rent,,99,99
 2026-09-26,c:central:luque,Luque,asking_price_usd,casa,86812,327
 2026-09-26,c:central:luque,Luque,asking_price_usd,departamento,78166,136
@@ -3082,12 +3082,12 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-25,d:itapua,Itapúa,asking_rent_usd_month,departamento,426,56
 2026-09-25,d:itapua,Itapúa,asking_rent_usd_month,casa,809,22
 2026-09-26,d:itapua,Itapúa,active_sale,,1404,1404
-2026-09-26,d:itapua,Itapúa,active_rent,,135,135
+2026-09-26,d:itapua,Itapúa,active_rent,,134,134
 2026-09-26,d:itapua,Itapúa,asking_price_usd,casa,113900,255
 2026-09-26,d:itapua,Itapúa,asking_price_usd,departamento,90000,147
 2026-09-26,d:itapua,Itapúa,asking_usd_per_m2_built,casa,677,230
 2026-09-26,d:itapua,Itapúa,asking_usd_per_m2_built,departamento,1121,25
-2026-09-26,d:itapua,Itapúa,asking_rent_usd_month,departamento,426,56
+2026-09-26,d:itapua,Itapúa,asking_rent_usd_month,departamento,426,55
 2026-09-26,d:itapua,Itapúa,asking_rent_usd_month,casa,809,22
 2026-08-28,c:itapua:encarnacion,Encarnación,active_sale,,666,666
 2026-08-28,c:itapua:encarnacion,Encarnación,active_rent,,104,104
@@ -3293,12 +3293,12 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-25,c:itapua:encarnacion,Encarnación,asking_usd_per_m2_built,departamento,1121,25
 2026-09-25,c:itapua:encarnacion,Encarnación,asking_rent_usd_month,departamento,426,54
 2026-09-26,c:itapua:encarnacion,Encarnación,active_sale,,685,685
-2026-09-26,c:itapua:encarnacion,Encarnación,active_rent,,102,102
+2026-09-26,c:itapua:encarnacion,Encarnación,active_rent,,101,101
 2026-09-26,c:itapua:encarnacion,Encarnación,asking_price_usd,casa,138088,134
 2026-09-26,c:itapua:encarnacion,Encarnación,asking_price_usd,departamento,90000,145
 2026-09-26,c:itapua:encarnacion,Encarnación,asking_usd_per_m2_built,casa,684,122
 2026-09-26,c:itapua:encarnacion,Encarnación,asking_usd_per_m2_built,departamento,1121,25
-2026-09-26,c:itapua:encarnacion,Encarnación,asking_rent_usd_month,departamento,426,54
+2026-09-26,c:itapua:encarnacion,Encarnación,asking_rent_usd_month,departamento,426,53
 2026-08-28,c:itapua:san-juan-del-parana,San Juan del Paraná,active_sale,,140,140
 2026-08-28,c:itapua:san-juan-del-parana,San Juan del Paraná,active_rent,,5,5
 2026-08-29,c:itapua:san-juan-del-parana,San Juan del Paraná,active_sale,,140,140
