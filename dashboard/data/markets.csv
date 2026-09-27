@@ -1,5 +1,5 @@
 market_id,market,level,metric,property_kind,operation,value,p25,p75,n,basis
-py,Paraguay,country,asking_listed_active,,,55826,,,55826,"status active on stock sources (remax uprop psir cb prestige infocasas), seen or not"
+py,Paraguay,country,asking_listed_active,,,55827,,,55827,"status active on stock sources (remax uprop psir cb prestige infocasas), seen or not"
 py,Paraguay,country,asking_active_listings,terreno,sale,8098,,,8098,"status active and seen on or after 2026-09-20 (remax), 2026-09-20 (uprop), 2026-09-20 (psir), 2026-09-20 (cb), 2026-09-20 (prestige), 2026-09-13 (infocasas)"
 py,Paraguay,country,asking_active_listings,oficina,sale,89,,,89,"status active and seen on or after 2026-09-20 (remax), 2026-09-20 (uprop), 2026-09-20 (psir), 2026-09-20 (cb), 2026-09-20 (prestige), 2026-09-13 (infocasas)"
 py,Paraguay,country,asking_active_listings,casa,sale,9892,,,9892,"status active and seen on or after 2026-09-20 (remax), 2026-09-20 (uprop), 2026-09-20 (psir), 2026-09-20 (cb), 2026-09-20 (prestige), 2026-09-13 (infocasas)"
@@ -14,7 +14,7 @@ py,Paraguay,country,asking_active_listings,departamento,sale,5613,,,5613,"status
 py,Paraguay,country,asking_active_listings,duplex,rent,36,,,36,"status active and seen on or after 2026-09-20 (remax), 2026-09-20 (uprop), 2026-09-20 (psir), 2026-09-20 (cb), 2026-09-20 (prestige), 2026-09-13 (infocasas)"
 py,Paraguay,country,asking_active_listings,otro,rent,99,,,99,"status active and seen on or after 2026-09-20 (remax), 2026-09-20 (uprop), 2026-09-20 (psir), 2026-09-20 (cb), 2026-09-20 (prestige), 2026-09-13 (infocasas)"
 py,Paraguay,country,asking_active_listings,quinta,rent,1,,,1,"status active and seen on or after 2026-09-20 (remax), 2026-09-20 (uprop), 2026-09-20 (psir), 2026-09-20 (cb), 2026-09-20 (prestige), 2026-09-13 (infocasas)"
-py,Paraguay,country,asking_active_listings,casa,rent,2439,,,2439,"status active and seen on or after 2026-09-20 (remax), 2026-09-20 (uprop), 2026-09-20 (psir), 2026-09-20 (cb), 2026-09-20 (prestige), 2026-09-13 (infocasas)"
+py,Paraguay,country,asking_active_listings,casa,rent,2438,,,2438,"status active and seen on or after 2026-09-20 (remax), 2026-09-20 (uprop), 2026-09-20 (psir), 2026-09-20 (cb), 2026-09-20 (prestige), 2026-09-13 (infocasas)"
 py,Paraguay,country,asking_active_listings,deposito,rent,61,,,61,"status active and seen on or after 2026-09-20 (remax), 2026-09-20 (uprop), 2026-09-20 (psir), 2026-09-20 (cb), 2026-09-20 (prestige), 2026-09-13 (infocasas)"
 py,Paraguay,country,asking_active_listings,terreno,rent,74,,,74,"status active and seen on or after 2026-09-20 (remax), 2026-09-20 (uprop), 2026-09-20 (psir), 2026-09-20 (cb), 2026-09-20 (prestige), 2026-09-13 (infocasas)"
 py,Paraguay,country,asking_active_listings,rural,rent,3,,,3,"status active and seen on or after 2026-09-20 (remax), 2026-09-20 (uprop), 2026-09-20 (psir), 2026-09-20 (cb), 2026-09-20 (prestige), 2026-09-13 (infocasas)"
@@ -62,13 +62,13 @@ py,Paraguay,country,asking_staleness_days,quinta,sale,285,,507,69,"days since so
 py,Paraguay,country,asking_staleness_days,rural,sale,629,,1115,65,"days since source publish date, sources: remax prestige"
 py,Paraguay,country,asking_flow_30d_cuts,,all,415,,,415,events 2026-08-29 to 2026-09-27
 py,Paraguay,country,asking_flow_30d_increases,,all,169,,,169,events 2026-08-29 to 2026-09-27
-py,Paraguay,country,asking_flow_30d_new,,all,3019,,,3019,events 2026-08-29 to 2026-09-27
+py,Paraguay,country,asking_flow_30d_new,,all,3020,,,3020,events 2026-08-29 to 2026-09-27
 py,Paraguay,country,asking_flow_30d_delisted,,all,505,,,505,events 2026-08-29 to 2026-09-27
 py,Paraguay,country,asking_flow_30d_went_sold,,all,169,,,169,events 2026-08-29 to 2026-09-27
 py,Paraguay,country,asking_flow_30d_went_rented,,all,170,,,170,events 2026-08-29 to 2026-09-27
 py,Paraguay,country,asking_flow_30d_cuts,,sale,321,,,321,events 2026-08-29 to 2026-09-27
 py,Paraguay,country,asking_flow_30d_increases,,sale,135,,,135,events 2026-08-29 to 2026-09-27
-py,Paraguay,country,asking_flow_30d_new,,sale,1967,,,1967,events 2026-08-29 to 2026-09-27
+py,Paraguay,country,asking_flow_30d_new,,sale,1968,,,1968,events 2026-08-29 to 2026-09-27
 py,Paraguay,country,asking_flow_30d_delisted,,sale,440,,,440,events 2026-08-29 to 2026-09-27
 py,Paraguay,country,asking_flow_30d_went_sold,,sale,169,,,169,events 2026-08-29 to 2026-09-27
 py,Paraguay,country,asking_flow_30d_went_rented,,sale,0,,,0,events 2026-08-29 to 2026-09-27
@@ -138,7 +138,7 @@ d:asuncion,Asunción,department,asking_active_listings,terreno,rent,10,,,10,"sta
 d:asuncion,Asunción,department,asking_active_listings,oficina,rent,64,,,64,"status active and seen on or after 2026-09-20 (remax), 2026-09-20 (uprop), 2026-09-20 (psir), 2026-09-20 (cb), 2026-09-20 (prestige), 2026-09-13 (infocasas)"
 d:asuncion,Asunción,department,asking_active_listings,duplex,rent,6,,,6,"status active and seen on or after 2026-09-20 (remax), 2026-09-20 (uprop), 2026-09-20 (psir), 2026-09-20 (cb), 2026-09-20 (prestige), 2026-09-13 (infocasas)"
 d:asuncion,Asunción,department,asking_active_listings,edificio,rent,2,,,2,"status active and seen on or after 2026-09-20 (remax), 2026-09-20 (uprop), 2026-09-20 (psir), 2026-09-20 (cb), 2026-09-20 (prestige), 2026-09-13 (infocasas)"
-d:asuncion,Asunción,department,asking_active_listings,casa,rent,2159,,,2159,"status active and seen on or after 2026-09-20 (remax), 2026-09-20 (uprop), 2026-09-20 (psir), 2026-09-20 (cb), 2026-09-20 (prestige), 2026-09-13 (infocasas)"
+d:asuncion,Asunción,department,asking_active_listings,casa,rent,2158,,,2158,"status active and seen on or after 2026-09-20 (remax), 2026-09-20 (uprop), 2026-09-20 (psir), 2026-09-20 (cb), 2026-09-20 (prestige), 2026-09-13 (infocasas)"
 d:asuncion,Asunción,department,asking_active_listings,departamento,rent,3816,,,3816,"status active and seen on or after 2026-09-20 (remax), 2026-09-20 (uprop), 2026-09-20 (psir), 2026-09-20 (cb), 2026-09-20 (prestige), 2026-09-13 (infocasas)"
 d:asuncion,Asunción,department,asking_price_usd,departamento,sale,110000,77665,155000,2918,"median ask, USD at SET mid 2026-09-25, sources with 90%+ asks: remax uprop cb psir prestige"
 d:asuncion,Asunción,department,asking_price_usd,casa,sale,221286,136176,380000,1006,"median ask, USD at SET mid 2026-09-25, sources with 90%+ asks: remax uprop cb psir prestige"
@@ -225,7 +225,7 @@ d:asuncion,Asunción,department,closed_below_ask_median_pct,oficina,rent,,,,21,"
 d:asuncion,Asunción,department,closed_ask_to_close_pct,duplex,rent,0,0,0,40,"same-currency broker-reported closes 2024-02-22 to 2026-09-14, terminal-ask basis"
 d:asuncion,Asunción,department,closed_at_ask_share_pct,duplex,rent,72.5,,,40,29 of 40 report a price identical to the last ask
 d:asuncion,Asunción,department,closed_below_ask_median_pct,duplex,rent,,,,9,"suppressed, fewer than 30 closes below ask"
-d:central,Central,department,asking_listed_active,,,19495,,,19495,"status active on stock sources (remax uprop psir cb prestige infocasas), seen or not"
+d:central,Central,department,asking_listed_active,,,19496,,,19496,"status active on stock sources (remax uprop psir cb prestige infocasas), seen or not"
 d:central,Central,department,asking_active_listings,duplex,sale,191,,,191,"status active and seen on or after 2026-09-20 (remax), 2026-09-20 (uprop), 2026-09-20 (psir), 2026-09-20 (cb), 2026-09-20 (prestige), 2026-09-13 (infocasas)"
 d:central,Central,department,asking_active_listings,rural,sale,12,,,12,"status active and seen on or after 2026-09-20 (remax), 2026-09-20 (uprop), 2026-09-20 (psir), 2026-09-20 (cb), 2026-09-20 (prestige), 2026-09-13 (infocasas)"
 d:central,Central,department,asking_active_listings,casa,sale,4522,,,4522,"status active and seen on or after 2026-09-20 (remax), 2026-09-20 (uprop), 2026-09-20 (psir), 2026-09-20 (cb), 2026-09-20 (prestige), 2026-09-13 (infocasas)"
@@ -282,13 +282,13 @@ d:central,Central,department,asking_staleness_days,edificio,sale,314,,814,26,"da
 d:central,Central,department,asking_staleness_days,rural,sale,,,,2,"suppressed, n below 20"
 d:central,Central,department,asking_flow_30d_cuts,,all,177,,,177,events 2026-08-29 to 2026-09-27
 d:central,Central,department,asking_flow_30d_increases,,all,48,,,48,events 2026-08-29 to 2026-09-27
-d:central,Central,department,asking_flow_30d_new,,all,1065,,,1065,events 2026-08-29 to 2026-09-27
+d:central,Central,department,asking_flow_30d_new,,all,1066,,,1066,events 2026-08-29 to 2026-09-27
 d:central,Central,department,asking_flow_30d_delisted,,all,210,,,210,events 2026-08-29 to 2026-09-27
 d:central,Central,department,asking_flow_30d_went_sold,,all,69,,,69,events 2026-08-29 to 2026-09-27
 d:central,Central,department,asking_flow_30d_went_rented,,all,61,,,61,events 2026-08-29 to 2026-09-27
 d:central,Central,department,asking_flow_30d_cuts,,sale,144,,,144,events 2026-08-29 to 2026-09-27
 d:central,Central,department,asking_flow_30d_increases,,sale,39,,,39,events 2026-08-29 to 2026-09-27
-d:central,Central,department,asking_flow_30d_new,,sale,921,,,921,events 2026-08-29 to 2026-09-27
+d:central,Central,department,asking_flow_30d_new,,sale,922,,,922,events 2026-08-29 to 2026-09-27
 d:central,Central,department,asking_flow_30d_delisted,,sale,190,,,190,events 2026-08-29 to 2026-09-27
 d:central,Central,department,asking_flow_30d_went_sold,,sale,69,,,69,events 2026-08-29 to 2026-09-27
 d:central,Central,department,asking_flow_30d_went_rented,,sale,0,,,0,events 2026-08-29 to 2026-09-27
@@ -939,7 +939,7 @@ c:central:limpio,Limpio,city,reo_parcels_active,,sale,5,,,5,bank REO lists
 c:central:limpio,Limpio,city,reo_parcels_priced,,sale,5,,,5,bank REO lists
 c:central:limpio,Limpio,city,closed_ask_to_close_pct,all,sale,,,,29,insufficient closes
 c:central:limpio,Limpio,city,closed_ask_to_close_pct,all,rent,,,,15,insufficient closes
-c:central:aregua,Areguá,city,asking_listed_active,,,689,,,689,"status active on stock sources (remax uprop psir cb prestige infocasas), seen or not"
+c:central:aregua,Areguá,city,asking_listed_active,,,690,,,690,"status active on stock sources (remax uprop psir cb prestige infocasas), seen or not"
 c:central:aregua,Areguá,city,asking_active_listings,otro,sale,3,,,3,"status active and seen on or after 2026-09-20 (remax), 2026-09-20 (uprop), 2026-09-20 (psir), 2026-09-20 (cb), 2026-09-20 (prestige), 2026-09-13 (infocasas)"
 c:central:aregua,Areguá,city,asking_active_listings,terreno,sale,266,,,266,"status active and seen on or after 2026-09-20 (remax), 2026-09-20 (uprop), 2026-09-20 (psir), 2026-09-20 (cb), 2026-09-20 (prestige), 2026-09-13 (infocasas)"
 c:central:aregua,Areguá,city,asking_active_listings,departamento,sale,2,,,2,"status active and seen on or after 2026-09-20 (remax), 2026-09-20 (uprop), 2026-09-20 (psir), 2026-09-20 (cb), 2026-09-20 (prestige), 2026-09-13 (infocasas)"
@@ -967,13 +967,13 @@ c:central:aregua,Areguá,city,asking_staleness_days,duplex,sale,,,,2,"suppressed
 c:central:aregua,Areguá,city,asking_staleness_days,rural,sale,,,,1,"suppressed, n below 20"
 c:central:aregua,Areguá,city,asking_flow_30d_cuts,,all,6,,,6,events 2026-08-29 to 2026-09-27
 c:central:aregua,Areguá,city,asking_flow_30d_increases,,all,0,,,0,events 2026-08-29 to 2026-09-27
-c:central:aregua,Areguá,city,asking_flow_30d_new,,all,25,,,25,events 2026-08-29 to 2026-09-27
+c:central:aregua,Areguá,city,asking_flow_30d_new,,all,26,,,26,events 2026-08-29 to 2026-09-27
 c:central:aregua,Areguá,city,asking_flow_30d_delisted,,all,6,,,6,events 2026-08-29 to 2026-09-27
 c:central:aregua,Areguá,city,asking_flow_30d_went_sold,,all,0,,,0,events 2026-08-29 to 2026-09-27
 c:central:aregua,Areguá,city,asking_flow_30d_went_rented,,all,1,,,1,events 2026-08-29 to 2026-09-27
 c:central:aregua,Areguá,city,asking_flow_30d_cuts,,sale,6,,,6,events 2026-08-29 to 2026-09-27
 c:central:aregua,Areguá,city,asking_flow_30d_increases,,sale,0,,,0,events 2026-08-29 to 2026-09-27
-c:central:aregua,Areguá,city,asking_flow_30d_new,,sale,24,,,24,events 2026-08-29 to 2026-09-27
+c:central:aregua,Areguá,city,asking_flow_30d_new,,sale,25,,,25,events 2026-08-29 to 2026-09-27
 c:central:aregua,Areguá,city,asking_flow_30d_delisted,,sale,6,,,6,events 2026-08-29 to 2026-09-27
 c:central:aregua,Areguá,city,asking_flow_30d_went_sold,,sale,0,,,0,events 2026-08-29 to 2026-09-27
 c:central:aregua,Areguá,city,asking_flow_30d_went_rented,,sale,0,,,0,events 2026-08-29 to 2026-09-27

@@ -956,7 +956,7 @@ date,market_id,market,metric,property_kind,value,n,median_sources
 2026-09-26,d:alto-paraguay,Alto Paraguay,active_sale,,13,13,remax uprop cb psir prestige
 2026-09-26,d:alto-paraguay,Alto Paraguay,active_rent,,0,0,remax uprop cb psir prestige
 2026-09-27,py,Paraguay,active_sale,,25124,25124,remax uprop cb psir prestige
-2026-09-27,py,Paraguay,active_rent,,7336,7336,remax uprop cb psir prestige
+2026-09-27,py,Paraguay,active_rent,,7335,7335,remax uprop cb psir prestige
 2026-09-27,py,Paraguay,asking_price_usd,casa,130000,4345,remax uprop cb psir prestige
 2026-09-27,py,Paraguay,asking_price_usd,departamento,99817,3988,remax uprop cb psir prestige
 2026-09-27,py,Paraguay,asking_price_usd,duplex,120000,264,remax uprop cb psir prestige
@@ -966,7 +966,7 @@ date,market_id,market,metric,property_kind,value,n,median_sources
 2026-09-27,py,Paraguay,asking_rent_usd_month,departamento,766,735,remax uprop cb psir prestige
 2026-09-27,py,Paraguay,asking_rent_usd_month,casa,1021,323,remax uprop cb psir prestige
 2026-09-27,d:asuncion,Asunción,active_sale,,10190,10190,remax uprop cb psir prestige
-2026-09-27,d:asuncion,Asunción,active_rent,,6205,6205,remax uprop cb psir prestige
+2026-09-27,d:asuncion,Asunción,active_rent,,6204,6204,remax uprop cb psir prestige
 2026-09-27,d:asuncion,Asunción,asking_price_usd,casa,221286,1006,remax uprop cb psir prestige
 2026-09-27,d:asuncion,Asunción,asking_price_usd,departamento,110000,2918,remax uprop cb psir prestige
 2026-09-27,d:asuncion,Asunción,asking_price_usd,duplex,192500,34,remax uprop cb psir prestige
