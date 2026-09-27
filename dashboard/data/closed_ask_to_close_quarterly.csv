@@ -23,7 +23,7 @@ py,Paraguay,sale,all,2025-07-01,106,-4.8,34,-9.1,67
 py,Paraguay,sale,all,2025-10-01,301,-2.9,37.9,-7.9,179
 py,Paraguay,sale,all,2026-01-01,269,-3.4,38.3,-6.9,162
 py,Paraguay,sale,all,2026-04-01,271,-2.8,41,-6.9,152
-py,Paraguay,sale,all,2026-07-01,259,-2.9,41.3,-7,148
+py,Paraguay,sale,all,2026-07-01,260,-2.9,41.2,-7.1,149
 py,Paraguay,rent,casa,2025-07-01,46,0,69.6,,11
 py,Paraguay,rent,casa,2025-10-01,97,0,79.4,,16
 py,Paraguay,rent,casa,2026-01-01,115,0,79.1,,23
@@ -470,6 +470,15 @@ c:central:villeta,Villeta,rent,all,2026-07-01,2,,,,0
 c:central:villeta,Villeta,rent,casa,2025-10-01,1,,,,0
 c:central:villeta,Villeta,rent,casa,2026-07-01,1,,,,0
 c:central:villeta,Villeta,rent,departamento,2026-04-01,1,,,,0
+c:central:ypacarai,Ypacaraí,sale,terreno,2025-10-01,5,,,,3
+c:central:ypacarai,Ypacaraí,sale,terreno,2026-01-01,2,,,,2
+c:central:ypacarai,Ypacaraí,sale,terreno,2026-07-01,1,,,,0
+c:central:ypacarai,Ypacaraí,sale,all,2025-10-01,5,,,,3
+c:central:ypacarai,Ypacaraí,sale,all,2026-01-01,3,,,,3
+c:central:ypacarai,Ypacaraí,sale,all,2026-07-01,1,,,,0
+c:central:ypacarai,Ypacaraí,sale,casa,2026-01-01,1,,,,1
+c:central:ypacarai,Ypacaraí,rent,all,2026-01-01,1,,,,0
+c:central:ypacarai,Ypacaraí,rent,all,2026-04-01,1,,,,0
 c:central:san-antonio,San Antonio,sale,casa,2025-10-01,1,,,,1
 c:central:san-antonio,San Antonio,sale,casa,2026-07-01,1,,,,1
 c:central:san-antonio,San Antonio,sale,duplex,2025-10-01,1,,,,1
@@ -484,15 +493,6 @@ c:central:san-antonio,San Antonio,sale,all,2026-07-01,2,,,,2
 c:central:san-antonio,San Antonio,rent,all,2025-10-01,2,,,,1
 c:central:san-antonio,San Antonio,rent,all,2026-04-01,2,,,,0
 c:central:san-antonio,San Antonio,rent,casa,2026-04-01,1,,,,0
-c:central:ypacarai,Ypacaraí,sale,terreno,2025-10-01,5,,,,3
-c:central:ypacarai,Ypacaraí,sale,terreno,2026-01-01,2,,,,2
-c:central:ypacarai,Ypacaraí,sale,terreno,2026-07-01,1,,,,0
-c:central:ypacarai,Ypacaraí,sale,all,2025-10-01,5,,,,3
-c:central:ypacarai,Ypacaraí,sale,all,2026-01-01,3,,,,3
-c:central:ypacarai,Ypacaraí,sale,all,2026-07-01,1,,,,0
-c:central:ypacarai,Ypacaraí,sale,casa,2026-01-01,1,,,,1
-c:central:ypacarai,Ypacaraí,rent,all,2026-01-01,1,,,,0
-c:central:ypacarai,Ypacaraí,rent,all,2026-04-01,1,,,,0
 c:central:julian-augusto-saldivar,Julián Augusto Saldívar,sale,casa,2025-07-01,1,,,,0
 c:central:julian-augusto-saldivar,Julián Augusto Saldívar,sale,casa,2026-07-01,1,,,,1
 c:central:julian-augusto-saldivar,Julián Augusto Saldívar,sale,all,2025-07-01,1,,,,0
@@ -520,7 +520,7 @@ d:itapua,Itapúa,sale,all,2025-07-01,3,,,,1
 d:itapua,Itapúa,sale,all,2025-10-01,15,,,,7
 d:itapua,Itapúa,sale,all,2026-01-01,19,,,,6
 d:itapua,Itapúa,sale,all,2026-04-01,11,,,,2
-d:itapua,Itapúa,sale,all,2026-07-01,24,,,,6
+d:itapua,Itapúa,sale,all,2026-07-01,25,,,,7
 d:itapua,Itapúa,sale,casa,2025-10-01,4,,,,3
 d:itapua,Itapúa,sale,casa,2026-01-01,3,,,,1
 d:itapua,Itapúa,sale,casa,2026-04-01,2,,,,0
