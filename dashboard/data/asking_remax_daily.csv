@@ -1,16 +1,8 @@
 date,market_id,market,metric,property_kind,value,n
-2026-08-29,py,Paraguay,active_sale,,9308,9308
-2026-08-29,py,Paraguay,active_rent,,1026,1026
-2026-08-29,py,Paraguay,asking_price_usd,casa,115750,2311
-2026-08-29,py,Paraguay,asking_price_usd,departamento,104843,1904
-2026-08-29,py,Paraguay,asking_usd_per_m2_built,casa,731,2116
-2026-08-29,py,Paraguay,asking_usd_per_m2_built,departamento,1750,481
-2026-08-29,py,Paraguay,asking_rent_usd_month,departamento,630,338
-2026-08-29,py,Paraguay,asking_rent_usd_month,casa,766,163
 2026-08-30,py,Paraguay,active_sale,,9301,9301
 2026-08-30,py,Paraguay,active_rent,,1029,1029
 2026-08-30,py,Paraguay,asking_price_usd,casa,115750,2311
-2026-08-30,py,Paraguay,asking_price_usd,departamento,104843,1900
+2026-08-30,py,Paraguay,asking_price_usd,departamento,104843,1898
 2026-08-30,py,Paraguay,asking_usd_per_m2_built,casa,731,2116
 2026-08-30,py,Paraguay,asking_usd_per_m2_built,departamento,1752,478
 2026-08-30,py,Paraguay,asking_rent_usd_month,departamento,609,342
@@ -18,7 +10,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-08-31,py,Paraguay,active_sale,,9302,9302
 2026-08-31,py,Paraguay,active_rent,,1032,1032
 2026-08-31,py,Paraguay,asking_price_usd,casa,115750,2313
-2026-08-31,py,Paraguay,asking_price_usd,departamento,105000,1897
+2026-08-31,py,Paraguay,asking_price_usd,departamento,105000,1895
 2026-08-31,py,Paraguay,asking_usd_per_m2_built,casa,731,2118
 2026-08-31,py,Paraguay,asking_usd_per_m2_built,departamento,1752,478
 2026-08-31,py,Paraguay,asking_rent_usd_month,departamento,604,343
@@ -26,7 +18,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-01,py,Paraguay,active_sale,,9330,9330
 2026-09-01,py,Paraguay,active_rent,,1052,1052
 2026-09-01,py,Paraguay,asking_price_usd,casa,115750,2330
-2026-09-01,py,Paraguay,asking_price_usd,departamento,104543,1890
+2026-09-01,py,Paraguay,asking_price_usd,departamento,104543,1888
 2026-09-01,py,Paraguay,asking_usd_per_m2_built,casa,731,2127
 2026-09-01,py,Paraguay,asking_usd_per_m2_built,departamento,1754,473
 2026-09-01,py,Paraguay,asking_rent_usd_month,departamento,596,359
@@ -34,7 +26,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-02,py,Paraguay,active_sale,,9336,9336
 2026-09-02,py,Paraguay,active_rent,,1041,1041
 2026-09-02,py,Paraguay,asking_price_usd,casa,115750,2327
-2026-09-02,py,Paraguay,asking_price_usd,departamento,104178,1891
+2026-09-02,py,Paraguay,asking_price_usd,departamento,104178,1889
 2026-09-02,py,Paraguay,asking_usd_per_m2_built,casa,730,2125
 2026-09-02,py,Paraguay,asking_usd_per_m2_built,departamento,1759,471
 2026-09-02,py,Paraguay,asking_rent_usd_month,departamento,596,346
@@ -42,7 +34,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-03,py,Paraguay,active_sale,,9339,9339
 2026-09-03,py,Paraguay,active_rent,,1031,1031
 2026-09-03,py,Paraguay,asking_price_usd,casa,115750,2332
-2026-09-03,py,Paraguay,asking_price_usd,departamento,104112,1890
+2026-09-03,py,Paraguay,asking_price_usd,departamento,104112,1888
 2026-09-03,py,Paraguay,asking_usd_per_m2_built,casa,731,2129
 2026-09-03,py,Paraguay,asking_usd_per_m2_built,departamento,1762,472
 2026-09-03,py,Paraguay,asking_rent_usd_month,departamento,596,345
@@ -50,7 +42,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-04,py,Paraguay,active_sale,,9335,9335
 2026-09-04,py,Paraguay,active_rent,,1033,1033
 2026-09-04,py,Paraguay,asking_price_usd,casa,115750,2337
-2026-09-04,py,Paraguay,asking_price_usd,departamento,103393,1880
+2026-09-04,py,Paraguay,asking_price_usd,departamento,103393,1878
 2026-09-04,py,Paraguay,asking_usd_per_m2_built,casa,730,2136
 2026-09-04,py,Paraguay,asking_usd_per_m2_built,departamento,1760,470
 2026-09-04,py,Paraguay,asking_rent_usd_month,departamento,596,348
@@ -58,7 +50,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-05,py,Paraguay,active_sale,,9319,9319
 2026-09-05,py,Paraguay,active_rent,,1039,1039
 2026-09-05,py,Paraguay,asking_price_usd,casa,115750,2338
-2026-09-05,py,Paraguay,asking_price_usd,departamento,102800,1875
+2026-09-05,py,Paraguay,asking_price_usd,departamento,102800,1873
 2026-09-05,py,Paraguay,asking_usd_per_m2_built,casa,730,2137
 2026-09-05,py,Paraguay,asking_usd_per_m2_built,departamento,1762,472
 2026-09-05,py,Paraguay,asking_rent_usd_month,departamento,596,347
@@ -66,7 +58,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-06,py,Paraguay,active_sale,,9313,9313
 2026-09-06,py,Paraguay,active_rent,,1038,1038
 2026-09-06,py,Paraguay,asking_price_usd,casa,115625,2336
-2026-09-06,py,Paraguay,asking_price_usd,departamento,102892,1874
+2026-09-06,py,Paraguay,asking_price_usd,departamento,102892,1872
 2026-09-06,py,Paraguay,asking_usd_per_m2_built,casa,730,2135
 2026-09-06,py,Paraguay,asking_usd_per_m2_built,departamento,1762,472
 2026-09-06,py,Paraguay,asking_rent_usd_month,departamento,596,345
@@ -74,7 +66,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-07,py,Paraguay,active_sale,,9321,9321
 2026-09-07,py,Paraguay,active_rent,,1037,1037
 2026-09-07,py,Paraguay,asking_price_usd,casa,115750,2335
-2026-09-07,py,Paraguay,asking_price_usd,departamento,102429,1880
+2026-09-07,py,Paraguay,asking_price_usd,departamento,102429,1878
 2026-09-07,py,Paraguay,asking_usd_per_m2_built,casa,730,2135
 2026-09-07,py,Paraguay,asking_usd_per_m2_built,departamento,1763,475
 2026-09-07,py,Paraguay,asking_rent_usd_month,departamento,596,346
@@ -82,7 +74,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-08,py,Paraguay,active_sale,,9301,9301
 2026-09-08,py,Paraguay,active_rent,,1036,1036
 2026-09-08,py,Paraguay,asking_price_usd,casa,115000,2325
-2026-09-08,py,Paraguay,asking_price_usd,departamento,102892,1870
+2026-09-08,py,Paraguay,asking_price_usd,departamento,102892,1868
 2026-09-08,py,Paraguay,asking_usd_per_m2_built,casa,730,2126
 2026-09-08,py,Paraguay,asking_usd_per_m2_built,departamento,1762,472
 2026-09-08,py,Paraguay,asking_rent_usd_month,departamento,596,349
@@ -90,7 +82,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-09,py,Paraguay,active_sale,,9304,9304
 2026-09-09,py,Paraguay,active_rent,,1035,1035
 2026-09-09,py,Paraguay,asking_price_usd,casa,115250,2326
-2026-09-09,py,Paraguay,asking_price_usd,departamento,102892,1870
+2026-09-09,py,Paraguay,asking_price_usd,departamento,102892,1868
 2026-09-09,py,Paraguay,asking_usd_per_m2_built,casa,730,2127
 2026-09-09,py,Paraguay,asking_usd_per_m2_built,departamento,1762,472
 2026-09-09,py,Paraguay,asking_rent_usd_month,departamento,596,348
@@ -98,7 +90,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-10,py,Paraguay,active_sale,,9329,9329
 2026-09-10,py,Paraguay,active_rent,,1046,1046
 2026-09-10,py,Paraguay,asking_price_usd,casa,114899,2351
-2026-09-10,py,Paraguay,asking_price_usd,departamento,102740,1873
+2026-09-10,py,Paraguay,asking_price_usd,departamento,102740,1871
 2026-09-10,py,Paraguay,asking_usd_per_m2_built,casa,731,2153
 2026-09-10,py,Paraguay,asking_usd_per_m2_built,departamento,1762,474
 2026-09-10,py,Paraguay,asking_rent_usd_month,departamento,596,355
@@ -106,7 +98,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-11,py,Paraguay,active_sale,,9332,9332
 2026-09-11,py,Paraguay,active_rent,,1047,1047
 2026-09-11,py,Paraguay,asking_price_usd,casa,115000,2352
-2026-09-11,py,Paraguay,asking_price_usd,departamento,102892,1874
+2026-09-11,py,Paraguay,asking_price_usd,departamento,102892,1872
 2026-09-11,py,Paraguay,asking_usd_per_m2_built,casa,731,2155
 2026-09-11,py,Paraguay,asking_usd_per_m2_built,departamento,1762,474
 2026-09-11,py,Paraguay,asking_rent_usd_month,departamento,596,355
@@ -114,7 +106,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-12,py,Paraguay,active_sale,,9350,9350
 2026-09-12,py,Paraguay,active_rent,,1042,1042
 2026-09-12,py,Paraguay,asking_price_usd,casa,114949,2356
-2026-09-12,py,Paraguay,asking_price_usd,departamento,102357,1885
+2026-09-12,py,Paraguay,asking_price_usd,departamento,102357,1883
 2026-09-12,py,Paraguay,asking_usd_per_m2_built,casa,731,2161
 2026-09-12,py,Paraguay,asking_usd_per_m2_built,departamento,1761,479
 2026-09-12,py,Paraguay,asking_rent_usd_month,departamento,613,351
@@ -122,7 +114,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-13,py,Paraguay,active_sale,,9348,9348
 2026-09-13,py,Paraguay,active_rent,,1044,1044
 2026-09-13,py,Paraguay,asking_price_usd,casa,114949,2356
-2026-09-13,py,Paraguay,asking_price_usd,departamento,102500,1887
+2026-09-13,py,Paraguay,asking_price_usd,departamento,102500,1885
 2026-09-13,py,Paraguay,asking_usd_per_m2_built,casa,730,2160
 2026-09-13,py,Paraguay,asking_usd_per_m2_built,departamento,1763,481
 2026-09-13,py,Paraguay,asking_rent_usd_month,departamento,613,354
@@ -130,7 +122,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-14,py,Paraguay,active_sale,,9345,9345
 2026-09-14,py,Paraguay,active_rent,,1047,1047
 2026-09-14,py,Paraguay,asking_price_usd,casa,114949,2354
-2026-09-14,py,Paraguay,asking_price_usd,departamento,102770,1886
+2026-09-14,py,Paraguay,asking_price_usd,departamento,102770,1884
 2026-09-14,py,Paraguay,asking_usd_per_m2_built,casa,730,2158
 2026-09-14,py,Paraguay,asking_usd_per_m2_built,departamento,1764,482
 2026-09-14,py,Paraguay,asking_rent_usd_month,departamento,613,355
@@ -138,7 +130,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-15,py,Paraguay,active_sale,,9336,9336
 2026-09-15,py,Paraguay,active_rent,,1050,1050
 2026-09-15,py,Paraguay,asking_price_usd,casa,115750,2342
-2026-09-15,py,Paraguay,asking_price_usd,departamento,102740,1889
+2026-09-15,py,Paraguay,asking_price_usd,departamento,102740,1887
 2026-09-15,py,Paraguay,asking_usd_per_m2_built,casa,730,2146
 2026-09-15,py,Paraguay,asking_usd_per_m2_built,departamento,1764,482
 2026-09-15,py,Paraguay,asking_rent_usd_month,departamento,619,356
@@ -146,7 +138,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-16,py,Paraguay,active_sale,,9341,9341
 2026-09-16,py,Paraguay,active_rent,,1056,1056
 2026-09-16,py,Paraguay,asking_price_usd,casa,115750,2345
-2026-09-16,py,Paraguay,asking_price_usd,departamento,103285,1883
+2026-09-16,py,Paraguay,asking_price_usd,departamento,103285,1881
 2026-09-16,py,Paraguay,asking_usd_per_m2_built,casa,730,2148
 2026-09-16,py,Paraguay,asking_usd_per_m2_built,departamento,1768,480
 2026-09-16,py,Paraguay,asking_rent_usd_month,departamento,630,358
@@ -154,7 +146,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-17,py,Paraguay,active_sale,,9335,9335
 2026-09-17,py,Paraguay,active_rent,,1054,1054
 2026-09-17,py,Paraguay,asking_price_usd,casa,115500,2345
-2026-09-17,py,Paraguay,asking_price_usd,departamento,103117,1883
+2026-09-17,py,Paraguay,asking_price_usd,departamento,103117,1881
 2026-09-17,py,Paraguay,asking_usd_per_m2_built,casa,730,2149
 2026-09-17,py,Paraguay,asking_usd_per_m2_built,departamento,1768,480
 2026-09-17,py,Paraguay,asking_rent_usd_month,departamento,613,356
@@ -162,7 +154,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-18,py,Paraguay,active_sale,,9331,9331
 2026-09-18,py,Paraguay,active_rent,,1058,1058
 2026-09-18,py,Paraguay,asking_price_usd,casa,114899,2341
-2026-09-18,py,Paraguay,asking_price_usd,departamento,103117,1887
+2026-09-18,py,Paraguay,asking_price_usd,departamento,103117,1885
 2026-09-18,py,Paraguay,asking_usd_per_m2_built,casa,730,2147
 2026-09-18,py,Paraguay,asking_usd_per_m2_built,departamento,1768,485
 2026-09-18,py,Paraguay,asking_rent_usd_month,departamento,627,360
@@ -170,7 +162,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-19,py,Paraguay,active_sale,,9430,9430
 2026-09-19,py,Paraguay,active_rent,,1076,1076
 2026-09-19,py,Paraguay,asking_price_usd,casa,114048,2361
-2026-09-19,py,Paraguay,asking_price_usd,departamento,103000,1901
+2026-09-19,py,Paraguay,asking_price_usd,departamento,103000,1899
 2026-09-19,py,Paraguay,asking_usd_per_m2_built,casa,730,2167
 2026-09-19,py,Paraguay,asking_usd_per_m2_built,departamento,1765,489
 2026-09-19,py,Paraguay,asking_rent_usd_month,departamento,625,365
@@ -178,7 +170,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-20,py,Paraguay,active_sale,,9422,9422
 2026-09-20,py,Paraguay,active_rent,,1076,1076
 2026-09-20,py,Paraguay,asking_price_usd,casa,114048,2357
-2026-09-20,py,Paraguay,asking_price_usd,departamento,102992,1900
+2026-09-20,py,Paraguay,asking_price_usd,departamento,102992,1898
 2026-09-20,py,Paraguay,asking_usd_per_m2_built,casa,730,2163
 2026-09-20,py,Paraguay,asking_usd_per_m2_built,departamento,1766,488
 2026-09-20,py,Paraguay,asking_rent_usd_month,departamento,625,365
@@ -186,7 +178,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-21,py,Paraguay,active_sale,,9410,9410
 2026-09-21,py,Paraguay,active_rent,,1065,1065
 2026-09-21,py,Paraguay,asking_price_usd,casa,114421,2352
-2026-09-21,py,Paraguay,asking_price_usd,departamento,102983,1905
+2026-09-21,py,Paraguay,asking_price_usd,departamento,102983,1903
 2026-09-21,py,Paraguay,asking_usd_per_m2_built,casa,730,2160
 2026-09-21,py,Paraguay,asking_usd_per_m2_built,departamento,1764,492
 2026-09-21,py,Paraguay,asking_rent_usd_month,departamento,630,361
@@ -194,7 +186,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-22,py,Paraguay,active_sale,,9402,9402
 2026-09-22,py,Paraguay,active_rent,,1053,1053
 2026-09-22,py,Paraguay,asking_price_usd,casa,114048,2349
-2026-09-22,py,Paraguay,asking_price_usd,departamento,102429,1890
+2026-09-22,py,Paraguay,asking_price_usd,departamento,102429,1888
 2026-09-22,py,Paraguay,asking_usd_per_m2_built,casa,730,2158
 2026-09-22,py,Paraguay,asking_usd_per_m2_built,departamento,1763,481
 2026-09-22,py,Paraguay,asking_rent_usd_month,departamento,630,355
@@ -202,7 +194,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-23,py,Paraguay,active_sale,,9412,9412
 2026-09-23,py,Paraguay,active_rent,,1050,1050
 2026-09-23,py,Paraguay,asking_price_usd,casa,115000,2353
-2026-09-23,py,Paraguay,asking_price_usd,departamento,102500,1889
+2026-09-23,py,Paraguay,asking_price_usd,departamento,102500,1887
 2026-09-23,py,Paraguay,asking_usd_per_m2_built,casa,730,2164
 2026-09-23,py,Paraguay,asking_usd_per_m2_built,departamento,1765,478
 2026-09-23,py,Paraguay,asking_rent_usd_month,departamento,630,355
@@ -210,7 +202,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-24,py,Paraguay,active_sale,,9475,9475
 2026-09-24,py,Paraguay,active_rent,,1069,1069
 2026-09-24,py,Paraguay,asking_price_usd,casa,115000,2379
-2026-09-24,py,Paraguay,asking_price_usd,departamento,102740,1911
+2026-09-24,py,Paraguay,asking_price_usd,departamento,102740,1909
 2026-09-24,py,Paraguay,asking_usd_per_m2_built,casa,730,2191
 2026-09-24,py,Paraguay,asking_usd_per_m2_built,departamento,1765,489
 2026-09-24,py,Paraguay,asking_rent_usd_month,departamento,630,357
@@ -218,7 +210,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-25,py,Paraguay,active_sale,,9508,9508
 2026-09-25,py,Paraguay,active_rent,,1079,1079
 2026-09-25,py,Paraguay,asking_price_usd,casa,115625,2390
-2026-09-25,py,Paraguay,asking_price_usd,departamento,102429,1910
+2026-09-25,py,Paraguay,asking_price_usd,departamento,102429,1908
 2026-09-25,py,Paraguay,asking_usd_per_m2_built,casa,730,2202
 2026-09-25,py,Paraguay,asking_usd_per_m2_built,departamento,1768,487
 2026-09-25,py,Paraguay,asking_rent_usd_month,departamento,630,358
@@ -226,7 +218,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-26,py,Paraguay,active_sale,,9512,9512
 2026-09-26,py,Paraguay,active_rent,,1076,1076
 2026-09-26,py,Paraguay,asking_price_usd,casa,115625,2390
-2026-09-26,py,Paraguay,asking_price_usd,departamento,102429,1910
+2026-09-26,py,Paraguay,asking_price_usd,departamento,102429,1908
 2026-09-26,py,Paraguay,asking_usd_per_m2_built,casa,730,2202
 2026-09-26,py,Paraguay,asking_usd_per_m2_built,departamento,1768,487
 2026-09-26,py,Paraguay,asking_rent_usd_month,departamento,630,356
@@ -234,23 +226,23 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-27,py,Paraguay,active_sale,,9508,9508
 2026-09-27,py,Paraguay,active_rent,,1076,1076
 2026-09-27,py,Paraguay,asking_price_usd,casa,115750,2387
-2026-09-27,py,Paraguay,asking_price_usd,departamento,102357,1911
+2026-09-27,py,Paraguay,asking_price_usd,departamento,102357,1909
 2026-09-27,py,Paraguay,asking_usd_per_m2_built,casa,730,2199
 2026-09-27,py,Paraguay,asking_usd_per_m2_built,departamento,1768,487
 2026-09-27,py,Paraguay,asking_rent_usd_month,departamento,630,356
 2026-09-27,py,Paraguay,asking_rent_usd_month,casa,766,173
-2026-08-29,d:asuncion,Asunción,active_sale,,2142,2142
-2026-08-29,d:asuncion,Asunción,active_rent,,315,315
-2026-08-29,d:asuncion,Asunción,asking_price_usd,casa,229797,323
-2026-08-29,d:asuncion,Asunción,asking_price_usd,departamento,115000,1322
-2026-08-29,d:asuncion,Asunción,asking_usd_per_m2_built,casa,857,291
-2026-08-29,d:asuncion,Asunción,asking_usd_per_m2_built,departamento,1821,369
-2026-08-29,d:asuncion,Asunción,asking_rent_usd_month,departamento,851,141
-2026-08-29,d:asuncion,Asunción,asking_rent_usd_month,casa,1115,24
+2026-09-28,py,Paraguay,active_sale,,9510,9510
+2026-09-28,py,Paraguay,active_rent,,1076,1076
+2026-09-28,py,Paraguay,asking_price_usd,casa,115000,2389
+2026-09-28,py,Paraguay,asking_price_usd,departamento,102500,1907
+2026-09-28,py,Paraguay,asking_usd_per_m2_built,casa,730,2200
+2026-09-28,py,Paraguay,asking_usd_per_m2_built,departamento,1766,486
+2026-09-28,py,Paraguay,asking_rent_usd_month,departamento,630,356
+2026-09-28,py,Paraguay,asking_rent_usd_month,casa,766,173
 2026-08-30,d:asuncion,Asunción,active_sale,,2139,2139
 2026-08-30,d:asuncion,Asunción,active_rent,,316,316
 2026-08-30,d:asuncion,Asunción,asking_price_usd,casa,229797,324
-2026-08-30,d:asuncion,Asunción,asking_price_usd,departamento,115000,1318
+2026-08-30,d:asuncion,Asunción,asking_price_usd,departamento,115000,1316
 2026-08-30,d:asuncion,Asunción,asking_usd_per_m2_built,casa,861,292
 2026-08-30,d:asuncion,Asunción,asking_usd_per_m2_built,departamento,1827,366
 2026-08-30,d:asuncion,Asunción,asking_rent_usd_month,departamento,851,143
@@ -258,7 +250,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-08-31,d:asuncion,Asunción,active_sale,,2137,2137
 2026-08-31,d:asuncion,Asunción,active_rent,,316,316
 2026-08-31,d:asuncion,Asunción,asking_price_usd,casa,229797,324
-2026-08-31,d:asuncion,Asunción,asking_price_usd,departamento,115000,1316
+2026-08-31,d:asuncion,Asunción,asking_price_usd,departamento,115000,1314
 2026-08-31,d:asuncion,Asunción,asking_usd_per_m2_built,casa,861,292
 2026-08-31,d:asuncion,Asunción,asking_usd_per_m2_built,departamento,1827,366
 2026-08-31,d:asuncion,Asunción,asking_rent_usd_month,departamento,851,144
@@ -266,7 +258,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-01,d:asuncion,Asunción,active_sale,,2133,2133
 2026-09-01,d:asuncion,Asunción,active_rent,,322,322
 2026-09-01,d:asuncion,Asunción,asking_price_usd,casa,229797,325
-2026-09-01,d:asuncion,Asunción,asking_price_usd,departamento,115000,1310
+2026-09-01,d:asuncion,Asunción,asking_price_usd,departamento,115000,1308
 2026-09-01,d:asuncion,Asunción,asking_usd_per_m2_built,casa,861,290
 2026-09-01,d:asuncion,Asunción,asking_usd_per_m2_built,departamento,1832,361
 2026-09-01,d:asuncion,Asunción,asking_rent_usd_month,departamento,851,154
@@ -274,7 +266,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-02,d:asuncion,Asunción,active_sale,,2137,2137
 2026-09-02,d:asuncion,Asunción,active_rent,,314,314
 2026-09-02,d:asuncion,Asunción,asking_price_usd,casa,229899,324
-2026-09-02,d:asuncion,Asunción,asking_price_usd,departamento,115000,1314
+2026-09-02,d:asuncion,Asunción,asking_price_usd,departamento,115000,1312
 2026-09-02,d:asuncion,Asunción,asking_usd_per_m2_built,casa,861,290
 2026-09-02,d:asuncion,Asunción,asking_usd_per_m2_built,departamento,1833,361
 2026-09-02,d:asuncion,Asunción,asking_rent_usd_month,departamento,851,146
@@ -282,7 +274,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-03,d:asuncion,Asunción,active_sale,,2137,2137
 2026-09-03,d:asuncion,Asunción,active_rent,,312,312
 2026-09-03,d:asuncion,Asunción,asking_price_usd,casa,230000,325
-2026-09-03,d:asuncion,Asunción,asking_price_usd,departamento,115000,1317
+2026-09-03,d:asuncion,Asunción,asking_price_usd,departamento,115000,1315
 2026-09-03,d:asuncion,Asunción,asking_usd_per_m2_built,casa,856,290
 2026-09-03,d:asuncion,Asunción,asking_usd_per_m2_built,departamento,1833,363
 2026-09-03,d:asuncion,Asunción,asking_rent_usd_month,departamento,851,146
@@ -290,7 +282,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-04,d:asuncion,Asunción,active_sale,,2120,2120
 2026-09-04,d:asuncion,Asunción,active_rent,,311,311
 2026-09-04,d:asuncion,Asunción,asking_price_usd,casa,230962,326
-2026-09-04,d:asuncion,Asunción,asking_price_usd,departamento,115000,1305
+2026-09-04,d:asuncion,Asunción,asking_price_usd,departamento,115000,1303
 2026-09-04,d:asuncion,Asunción,asking_usd_per_m2_built,casa,855,291
 2026-09-04,d:asuncion,Asunción,asking_usd_per_m2_built,departamento,1833,362
 2026-09-04,d:asuncion,Asunción,asking_rent_usd_month,departamento,851,147
@@ -298,7 +290,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-05,d:asuncion,Asunción,active_sale,,2101,2101
 2026-09-05,d:asuncion,Asunción,active_rent,,310,310
 2026-09-05,d:asuncion,Asunción,asking_price_usd,casa,230000,325
-2026-09-05,d:asuncion,Asunción,asking_price_usd,departamento,114962,1292
+2026-09-05,d:asuncion,Asunción,asking_price_usd,departamento,114962,1290
 2026-09-05,d:asuncion,Asunción,asking_usd_per_m2_built,casa,855,290
 2026-09-05,d:asuncion,Asunción,asking_usd_per_m2_built,departamento,1833,364
 2026-09-05,d:asuncion,Asunción,asking_rent_usd_month,departamento,851,144
@@ -306,7 +298,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-06,d:asuncion,Asunción,active_sale,,2102,2102
 2026-09-06,d:asuncion,Asunción,active_rent,,307,307
 2026-09-06,d:asuncion,Asunción,asking_price_usd,casa,230962,326
-2026-09-06,d:asuncion,Asunción,asking_price_usd,departamento,114962,1292
+2026-09-06,d:asuncion,Asunción,asking_price_usd,departamento,114962,1290
 2026-09-06,d:asuncion,Asunción,asking_usd_per_m2_built,casa,855,291
 2026-09-06,d:asuncion,Asunción,asking_usd_per_m2_built,departamento,1833,364
 2026-09-06,d:asuncion,Asunción,asking_rent_usd_month,departamento,851,141
@@ -314,7 +306,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-07,d:asuncion,Asunción,active_sale,,2102,2102
 2026-09-07,d:asuncion,Asunción,active_rent,,304,304
 2026-09-07,d:asuncion,Asunción,asking_price_usd,casa,230962,326
-2026-09-07,d:asuncion,Asunción,asking_price_usd,departamento,114962,1291
+2026-09-07,d:asuncion,Asunción,asking_price_usd,departamento,114962,1289
 2026-09-07,d:asuncion,Asunción,asking_usd_per_m2_built,casa,855,291
 2026-09-07,d:asuncion,Asunción,asking_usd_per_m2_built,departamento,1833,364
 2026-09-07,d:asuncion,Asunción,asking_rent_usd_month,departamento,851,140
@@ -322,7 +314,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-08,d:asuncion,Asunción,active_sale,,2092,2092
 2026-09-08,d:asuncion,Asunción,active_rent,,304,304
 2026-09-08,d:asuncion,Asunción,asking_price_usd,casa,230000,322
-2026-09-08,d:asuncion,Asunción,asking_price_usd,departamento,115000,1285
+2026-09-08,d:asuncion,Asunción,asking_price_usd,departamento,115000,1283
 2026-09-08,d:asuncion,Asunción,asking_usd_per_m2_built,casa,855,288
 2026-09-08,d:asuncion,Asunción,asking_usd_per_m2_built,departamento,1833,362
 2026-09-08,d:asuncion,Asunción,asking_rent_usd_month,departamento,851,143
@@ -330,7 +322,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-09,d:asuncion,Asunción,active_sale,,2092,2092
 2026-09-09,d:asuncion,Asunción,active_rent,,303,303
 2026-09-09,d:asuncion,Asunción,asking_price_usd,casa,230000,322
-2026-09-09,d:asuncion,Asunción,asking_price_usd,departamento,115000,1285
+2026-09-09,d:asuncion,Asunción,asking_price_usd,departamento,115000,1283
 2026-09-09,d:asuncion,Asunción,asking_usd_per_m2_built,casa,855,288
 2026-09-09,d:asuncion,Asunción,asking_usd_per_m2_built,departamento,1833,362
 2026-09-09,d:asuncion,Asunción,asking_rent_usd_month,departamento,851,142
@@ -338,7 +330,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-10,d:asuncion,Asunción,active_sale,,2095,2095
 2026-09-10,d:asuncion,Asunción,active_rent,,311,311
 2026-09-10,d:asuncion,Asunción,asking_price_usd,casa,230000,322
-2026-09-10,d:asuncion,Asunción,asking_price_usd,departamento,115000,1286
+2026-09-10,d:asuncion,Asunción,asking_price_usd,departamento,115000,1284
 2026-09-10,d:asuncion,Asunción,asking_usd_per_m2_built,casa,856,288
 2026-09-10,d:asuncion,Asunción,asking_usd_per_m2_built,departamento,1833,364
 2026-09-10,d:asuncion,Asunción,asking_rent_usd_month,departamento,851,147
@@ -346,7 +338,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-11,d:asuncion,Asunción,active_sale,,2097,2097
 2026-09-11,d:asuncion,Asunción,active_rent,,313,313
 2026-09-11,d:asuncion,Asunción,asking_price_usd,casa,230000,322
-2026-09-11,d:asuncion,Asunción,asking_price_usd,departamento,115000,1288
+2026-09-11,d:asuncion,Asunción,asking_price_usd,departamento,115000,1286
 2026-09-11,d:asuncion,Asunción,asking_usd_per_m2_built,casa,856,288
 2026-09-11,d:asuncion,Asunción,asking_usd_per_m2_built,departamento,1833,364
 2026-09-11,d:asuncion,Asunción,asking_rent_usd_month,departamento,851,148
@@ -354,7 +346,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-12,d:asuncion,Asunción,active_sale,,2105,2105
 2026-09-12,d:asuncion,Asunción,active_rent,,317,317
 2026-09-12,d:asuncion,Asunción,asking_price_usd,casa,230000,322
-2026-09-12,d:asuncion,Asunción,asking_price_usd,departamento,115000,1295
+2026-09-12,d:asuncion,Asunción,asking_price_usd,departamento,115000,1293
 2026-09-12,d:asuncion,Asunción,asking_usd_per_m2_built,casa,855,288
 2026-09-12,d:asuncion,Asunción,asking_usd_per_m2_built,departamento,1833,365
 2026-09-12,d:asuncion,Asunción,asking_rent_usd_month,departamento,850,151
@@ -362,7 +354,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-13,d:asuncion,Asunción,active_sale,,2103,2103
 2026-09-13,d:asuncion,Asunción,active_rent,,320,320
 2026-09-13,d:asuncion,Asunción,asking_price_usd,casa,230000,321
-2026-09-13,d:asuncion,Asunción,asking_price_usd,departamento,115000,1294
+2026-09-13,d:asuncion,Asunción,asking_price_usd,departamento,115000,1292
 2026-09-13,d:asuncion,Asunción,asking_usd_per_m2_built,casa,855,287
 2026-09-13,d:asuncion,Asunción,asking_usd_per_m2_built,departamento,1833,364
 2026-09-13,d:asuncion,Asunción,asking_rent_usd_month,departamento,850,154
@@ -370,7 +362,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-14,d:asuncion,Asunción,active_sale,,2102,2102
 2026-09-14,d:asuncion,Asunción,active_rent,,320,320
 2026-09-14,d:asuncion,Asunción,asking_price_usd,casa,230000,321
-2026-09-14,d:asuncion,Asunción,asking_price_usd,departamento,115000,1294
+2026-09-14,d:asuncion,Asunción,asking_price_usd,departamento,115000,1292
 2026-09-14,d:asuncion,Asunción,asking_usd_per_m2_built,casa,855,287
 2026-09-14,d:asuncion,Asunción,asking_usd_per_m2_built,departamento,1833,365
 2026-09-14,d:asuncion,Asunción,asking_rent_usd_month,departamento,850,155
@@ -378,7 +370,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-15,d:asuncion,Asunción,active_sale,,2102,2102
 2026-09-15,d:asuncion,Asunción,active_rent,,322,322
 2026-09-15,d:asuncion,Asunción,asking_price_usd,casa,230000,322
-2026-09-15,d:asuncion,Asunción,asking_price_usd,departamento,115000,1296
+2026-09-15,d:asuncion,Asunción,asking_price_usd,departamento,115000,1294
 2026-09-15,d:asuncion,Asunción,asking_usd_per_m2_built,casa,861,288
 2026-09-15,d:asuncion,Asunción,asking_usd_per_m2_built,departamento,1838,365
 2026-09-15,d:asuncion,Asunción,asking_rent_usd_month,departamento,850,155
@@ -386,7 +378,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-16,d:asuncion,Asunción,active_sale,,2098,2098
 2026-09-16,d:asuncion,Asunción,active_rent,,323,323
 2026-09-16,d:asuncion,Asunción,asking_price_usd,casa,230000,321
-2026-09-16,d:asuncion,Asunción,asking_price_usd,departamento,115000,1291
+2026-09-16,d:asuncion,Asunción,asking_price_usd,departamento,115000,1289
 2026-09-16,d:asuncion,Asunción,asking_usd_per_m2_built,casa,865,287
 2026-09-16,d:asuncion,Asunción,asking_usd_per_m2_built,departamento,1842,364
 2026-09-16,d:asuncion,Asunción,asking_rent_usd_month,departamento,850,155
@@ -394,7 +386,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-17,d:asuncion,Asunción,active_sale,,2095,2095
 2026-09-17,d:asuncion,Asunción,active_rent,,317,317
 2026-09-17,d:asuncion,Asunción,asking_price_usd,casa,230962,320
-2026-09-17,d:asuncion,Asunción,asking_price_usd,departamento,115000,1291
+2026-09-17,d:asuncion,Asunción,asking_price_usd,departamento,115000,1289
 2026-09-17,d:asuncion,Asunción,asking_usd_per_m2_built,casa,866,286
 2026-09-17,d:asuncion,Asunción,asking_usd_per_m2_built,departamento,1843,364
 2026-09-17,d:asuncion,Asunción,asking_rent_usd_month,departamento,850,151
@@ -402,7 +394,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-18,d:asuncion,Asunción,active_sale,,2097,2097
 2026-09-18,d:asuncion,Asunción,active_rent,,315,315
 2026-09-18,d:asuncion,Asunción,asking_price_usd,casa,230000,320
-2026-09-18,d:asuncion,Asunción,asking_price_usd,departamento,115000,1294
+2026-09-18,d:asuncion,Asunción,asking_price_usd,departamento,115000,1292
 2026-09-18,d:asuncion,Asunción,asking_usd_per_m2_built,casa,857,287
 2026-09-18,d:asuncion,Asunción,asking_usd_per_m2_built,departamento,1844,368
 2026-09-18,d:asuncion,Asunción,asking_rent_usd_month,departamento,851,152
@@ -410,7 +402,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-19,d:asuncion,Asunción,active_sale,,2113,2113
 2026-09-19,d:asuncion,Asunción,active_rent,,323,323
 2026-09-19,d:asuncion,Asunción,asking_price_usd,casa,230000,326
-2026-09-19,d:asuncion,Asunción,asking_price_usd,departamento,115000,1303
+2026-09-19,d:asuncion,Asunción,asking_price_usd,departamento,115000,1301
 2026-09-19,d:asuncion,Asunción,asking_usd_per_m2_built,casa,861,294
 2026-09-19,d:asuncion,Asunción,asking_usd_per_m2_built,departamento,1844,369
 2026-09-19,d:asuncion,Asunción,asking_rent_usd_month,departamento,850,156
@@ -418,7 +410,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-20,d:asuncion,Asunción,active_sale,,2113,2113
 2026-09-20,d:asuncion,Asunción,active_rent,,323,323
 2026-09-20,d:asuncion,Asunción,asking_price_usd,casa,230000,327
-2026-09-20,d:asuncion,Asunción,asking_price_usd,departamento,115000,1302
+2026-09-20,d:asuncion,Asunción,asking_price_usd,departamento,115000,1300
 2026-09-20,d:asuncion,Asunción,asking_usd_per_m2_built,casa,857,295
 2026-09-20,d:asuncion,Asunción,asking_usd_per_m2_built,departamento,1844,368
 2026-09-20,d:asuncion,Asunción,asking_rent_usd_month,departamento,850,156
@@ -426,7 +418,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-21,d:asuncion,Asunción,active_sale,,2113,2113
 2026-09-21,d:asuncion,Asunción,active_rent,,322,322
 2026-09-21,d:asuncion,Asunción,asking_price_usd,casa,230000,327
-2026-09-21,d:asuncion,Asunción,asking_price_usd,departamento,115000,1305
+2026-09-21,d:asuncion,Asunción,asking_price_usd,departamento,115000,1303
 2026-09-21,d:asuncion,Asunción,asking_usd_per_m2_built,casa,855,295
 2026-09-21,d:asuncion,Asunción,asking_usd_per_m2_built,departamento,1843,370
 2026-09-21,d:asuncion,Asunción,asking_rent_usd_month,departamento,850,155
@@ -434,7 +426,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-22,d:asuncion,Asunción,active_sale,,2100,2100
 2026-09-22,d:asuncion,Asunción,active_rent,,318,318
 2026-09-22,d:asuncion,Asunción,asking_price_usd,casa,233414,326
-2026-09-22,d:asuncion,Asunción,asking_price_usd,departamento,115000,1291
+2026-09-22,d:asuncion,Asunción,asking_price_usd,departamento,115000,1289
 2026-09-22,d:asuncion,Asunción,asking_usd_per_m2_built,casa,856,294
 2026-09-22,d:asuncion,Asunción,asking_usd_per_m2_built,departamento,1842,360
 2026-09-22,d:asuncion,Asunción,asking_rent_usd_month,departamento,850,152
@@ -442,7 +434,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-23,d:asuncion,Asunción,active_sale,,2101,2101
 2026-09-23,d:asuncion,Asunción,active_rent,,317,317
 2026-09-23,d:asuncion,Asunción,asking_price_usd,casa,230962,328
-2026-09-23,d:asuncion,Asunción,asking_price_usd,departamento,115000,1288
+2026-09-23,d:asuncion,Asunción,asking_price_usd,departamento,115000,1286
 2026-09-23,d:asuncion,Asunción,asking_usd_per_m2_built,casa,855,295
 2026-09-23,d:asuncion,Asunción,asking_usd_per_m2_built,departamento,1844,357
 2026-09-23,d:asuncion,Asunción,asking_rent_usd_month,departamento,850,153
@@ -450,7 +442,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-24,d:asuncion,Asunción,active_sale,,2124,2124
 2026-09-24,d:asuncion,Asunción,active_rent,,319,319
 2026-09-24,d:asuncion,Asunción,asking_price_usd,casa,230000,331
-2026-09-24,d:asuncion,Asunción,asking_price_usd,departamento,115000,1308
+2026-09-24,d:asuncion,Asunción,asking_price_usd,departamento,115000,1306
 2026-09-24,d:asuncion,Asunción,asking_usd_per_m2_built,casa,855,298
 2026-09-24,d:asuncion,Asunción,asking_usd_per_m2_built,departamento,1844,367
 2026-09-24,d:asuncion,Asunción,asking_rent_usd_month,departamento,835,152
@@ -458,7 +450,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-25,d:asuncion,Asunción,active_sale,,2126,2126
 2026-09-25,d:asuncion,Asunción,active_rent,,319,319
 2026-09-25,d:asuncion,Asunción,asking_price_usd,casa,230962,334
-2026-09-25,d:asuncion,Asunción,asking_price_usd,departamento,115000,1306
+2026-09-25,d:asuncion,Asunción,asking_price_usd,departamento,115000,1304
 2026-09-25,d:asuncion,Asunción,asking_usd_per_m2_built,casa,855,301
 2026-09-25,d:asuncion,Asunción,asking_usd_per_m2_built,departamento,1847,365
 2026-09-25,d:asuncion,Asunción,asking_rent_usd_month,departamento,850,148
@@ -466,7 +458,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-26,d:asuncion,Asunción,active_sale,,2127,2127
 2026-09-26,d:asuncion,Asunción,active_rent,,318,318
 2026-09-26,d:asuncion,Asunción,asking_price_usd,casa,230962,334
-2026-09-26,d:asuncion,Asunción,asking_price_usd,departamento,115000,1306
+2026-09-26,d:asuncion,Asunción,asking_price_usd,departamento,115000,1304
 2026-09-26,d:asuncion,Asunción,asking_usd_per_m2_built,casa,855,301
 2026-09-26,d:asuncion,Asunción,asking_usd_per_m2_built,departamento,1847,365
 2026-09-26,d:asuncion,Asunción,asking_rent_usd_month,departamento,850,148
@@ -474,19 +466,19 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-27,d:asuncion,Asunción,active_sale,,2127,2127
 2026-09-27,d:asuncion,Asunción,active_rent,,318,318
 2026-09-27,d:asuncion,Asunción,asking_price_usd,casa,230962,334
-2026-09-27,d:asuncion,Asunción,asking_price_usd,departamento,115000,1306
+2026-09-27,d:asuncion,Asunción,asking_price_usd,departamento,115000,1304
 2026-09-27,d:asuncion,Asunción,asking_usd_per_m2_built,casa,855,301
 2026-09-27,d:asuncion,Asunción,asking_usd_per_m2_built,departamento,1847,365
 2026-09-27,d:asuncion,Asunción,asking_rent_usd_month,departamento,850,148
 2026-09-27,d:asuncion,Asunción,asking_rent_usd_month,casa,1447,25
-2026-08-29,d:central,Central,active_sale,,3595,3595
-2026-08-29,d:central,Central,active_rent,,431,431
-2026-08-29,d:central,Central,asking_price_usd,casa,89876,1287
-2026-08-29,d:central,Central,asking_price_usd,departamento,74000,345
-2026-08-29,d:central,Central,asking_usd_per_m2_built,casa,727,1204
-2026-08-29,d:central,Central,asking_usd_per_m2_built,departamento,1260,64
-2026-08-29,d:central,Central,asking_rent_usd_month,departamento,426,135
-2026-08-29,d:central,Central,asking_rent_usd_month,casa,596,67
+2026-09-28,d:asuncion,Asunción,active_sale,,2125,2125
+2026-09-28,d:asuncion,Asunción,active_rent,,318,318
+2026-09-28,d:asuncion,Asunción,asking_price_usd,casa,230962,334
+2026-09-28,d:asuncion,Asunción,asking_price_usd,departamento,115000,1304
+2026-09-28,d:asuncion,Asunción,asking_usd_per_m2_built,casa,855,301
+2026-09-28,d:asuncion,Asunción,asking_usd_per_m2_built,departamento,1846,366
+2026-09-28,d:asuncion,Asunción,asking_rent_usd_month,departamento,850,148
+2026-09-28,d:asuncion,Asunción,asking_rent_usd_month,casa,1447,25
 2026-08-30,d:central,Central,active_sale,,3594,3594
 2026-08-30,d:central,Central,active_rent,,433,433
 2026-08-30,d:central,Central,asking_price_usd,casa,89876,1287
@@ -719,14 +711,14 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-27,d:central,Central,asking_usd_per_m2_built,departamento,1270,62
 2026-09-27,d:central,Central,asking_rent_usd_month,departamento,426,145
 2026-09-27,d:central,Central,asking_rent_usd_month,casa,511,76
-2026-08-29,c:central:luque,Luque,active_sale,,789,789
-2026-08-29,c:central:luque,Luque,active_rent,,74,74
-2026-08-29,c:central:luque,Luque,asking_price_usd,casa,90217,313
-2026-08-29,c:central:luque,Luque,asking_price_usd,departamento,80000,134
-2026-08-29,c:central:luque,Luque,asking_usd_per_m2_built,casa,869,294
-2026-08-29,c:central:luque,Luque,asking_usd_per_m2_built,departamento,1305,22
-2026-08-29,c:central:luque,Luque,asking_rent_usd_month,departamento,596,39
-2026-08-29,c:central:luque,Luque,asking_rent_usd_month,casa,,14
+2026-09-28,d:central,Central,active_sale,,3721,3721
+2026-09-28,d:central,Central,active_rent,,463,463
+2026-09-28,d:central,Central,asking_price_usd,casa,90217,1335
+2026-09-28,d:central,Central,asking_price_usd,departamento,71492,348
+2026-09-28,d:central,Central,asking_usd_per_m2_built,casa,718,1257
+2026-09-28,d:central,Central,asking_usd_per_m2_built,departamento,1270,62
+2026-09-28,d:central,Central,asking_rent_usd_month,departamento,426,145
+2026-09-28,d:central,Central,asking_rent_usd_month,casa,511,76
 2026-08-30,c:central:luque,Luque,active_sale,,788,788
 2026-08-30,c:central:luque,Luque,active_rent,,74,74
 2026-08-30,c:central:luque,Luque,asking_price_usd,casa,90217,313
@@ -959,12 +951,14 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-27,c:central:luque,Luque,asking_usd_per_m2_built,departamento,,19
 2026-09-27,c:central:luque,Luque,asking_rent_usd_month,departamento,630,48
 2026-09-27,c:central:luque,Luque,asking_rent_usd_month,casa,596,20
-2026-08-29,c:central:san-lorenzo,San Lorenzo,active_sale,,367,367
-2026-08-29,c:central:san-lorenzo,San Lorenzo,active_rent,,126,126
-2026-08-29,c:central:san-lorenzo,San Lorenzo,asking_price_usd,casa,119154,153
-2026-08-29,c:central:san-lorenzo,San Lorenzo,asking_price_usd,departamento,,19
-2026-08-29,c:central:san-lorenzo,San Lorenzo,asking_usd_per_m2_built,casa,774,142
-2026-08-29,c:central:san-lorenzo,San Lorenzo,asking_rent_usd_month,departamento,340,47
+2026-09-28,c:central:luque,Luque,active_sale,,809,809
+2026-09-28,c:central:luque,Luque,active_rent,,99,99
+2026-09-28,c:central:luque,Luque,asking_price_usd,casa,86812,327
+2026-09-28,c:central:luque,Luque,asking_price_usd,departamento,78166,136
+2026-09-28,c:central:luque,Luque,asking_usd_per_m2_built,casa,872,308
+2026-09-28,c:central:luque,Luque,asking_usd_per_m2_built,departamento,,19
+2026-09-28,c:central:luque,Luque,asking_rent_usd_month,departamento,630,48
+2026-09-28,c:central:luque,Luque,asking_rent_usd_month,casa,596,20
 2026-08-30,c:central:san-lorenzo,San Lorenzo,active_sale,,367,367
 2026-08-30,c:central:san-lorenzo,San Lorenzo,active_rent,,126,126
 2026-08-30,c:central:san-lorenzo,San Lorenzo,asking_price_usd,casa,119154,153
@@ -1139,11 +1133,12 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-27,c:central:san-lorenzo,San Lorenzo,asking_price_usd,departamento,,19
 2026-09-27,c:central:san-lorenzo,San Lorenzo,asking_usd_per_m2_built,casa,774,156
 2026-09-27,c:central:san-lorenzo,San Lorenzo,asking_rent_usd_month,departamento,340,46
-2026-08-29,c:central:lambare,Lambaré,active_sale,,283,283
-2026-08-29,c:central:lambare,Lambaré,active_rent,,36,36
-2026-08-29,c:central:lambare,Lambaré,asking_price_usd,casa,168518,112
-2026-08-29,c:central:lambare,Lambaré,asking_price_usd,departamento,85629,20
-2026-08-29,c:central:lambare,Lambaré,asking_usd_per_m2_built,casa,681,107
+2026-09-28,c:central:san-lorenzo,San Lorenzo,active_sale,,396,396
+2026-09-28,c:central:san-lorenzo,San Lorenzo,active_rent,,127,127
+2026-09-28,c:central:san-lorenzo,San Lorenzo,asking_price_usd,casa,120431,168
+2026-09-28,c:central:san-lorenzo,San Lorenzo,asking_price_usd,departamento,,19
+2026-09-28,c:central:san-lorenzo,San Lorenzo,asking_usd_per_m2_built,casa,774,156
+2026-09-28,c:central:san-lorenzo,San Lorenzo,asking_rent_usd_month,departamento,340,46
 2026-08-30,c:central:lambare,Lambaré,active_sale,,282,282
 2026-08-30,c:central:lambare,Lambaré,active_rent,,38,38
 2026-08-30,c:central:lambare,Lambaré,asking_price_usd,casa,168518,112
@@ -1289,10 +1284,11 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-27,c:central:lambare,Lambaré,asking_price_usd,casa,183838,109
 2026-09-27,c:central:lambare,Lambaré,asking_price_usd,departamento,85629,20
 2026-09-27,c:central:lambare,Lambaré,asking_usd_per_m2_built,casa,681,104
-2026-08-29,c:central:capiata,Capiatá,active_sale,,246,246
-2026-08-29,c:central:capiata,Capiatá,active_rent,,23,23
-2026-08-29,c:central:capiata,Capiatá,asking_price_usd,casa,59577,135
-2026-08-29,c:central:capiata,Capiatá,asking_usd_per_m2_built,casa,610,128
+2026-09-28,c:central:lambare,Lambaré,active_sale,,278,278
+2026-09-28,c:central:lambare,Lambaré,active_rent,,32,32
+2026-09-28,c:central:lambare,Lambaré,asking_price_usd,casa,183838,109
+2026-09-28,c:central:lambare,Lambaré,asking_price_usd,departamento,85629,20
+2026-09-28,c:central:lambare,Lambaré,asking_usd_per_m2_built,casa,681,104
 2026-08-30,c:central:capiata,Capiatá,active_sale,,246,246
 2026-08-30,c:central:capiata,Capiatá,active_rent,,23,23
 2026-08-30,c:central:capiata,Capiatá,asking_price_usd,casa,59577,135
@@ -1409,10 +1405,10 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-27,c:central:capiata,Capiatá,active_rent,,26,26
 2026-09-27,c:central:capiata,Capiatá,asking_price_usd,casa,61279,134
 2026-09-27,c:central:capiata,Capiatá,asking_usd_per_m2_built,casa,588,127
-2026-08-29,c:central:nemby,Ñemby,active_sale,,183,183
-2026-08-29,c:central:nemby,Ñemby,active_rent,,32,32
-2026-08-29,c:central:nemby,Ñemby,asking_price_usd,casa,71492,76
-2026-08-29,c:central:nemby,Ñemby,asking_usd_per_m2_built,casa,721,72
+2026-09-28,c:central:capiata,Capiatá,active_sale,,258,258
+2026-09-28,c:central:capiata,Capiatá,active_rent,,26,26
+2026-09-28,c:central:capiata,Capiatá,asking_price_usd,casa,61279,135
+2026-09-28,c:central:capiata,Capiatá,asking_usd_per_m2_built,casa,582,128
 2026-08-30,c:central:nemby,Ñemby,active_sale,,183,183
 2026-08-30,c:central:nemby,Ñemby,active_rent,,32,32
 2026-08-30,c:central:nemby,Ñemby,asking_price_usd,casa,71492,76
@@ -1529,13 +1525,10 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-27,c:central:nemby,Ñemby,active_rent,,32,32
 2026-09-27,c:central:nemby,Ñemby,asking_price_usd,casa,74046,88
 2026-09-27,c:central:nemby,Ñemby,asking_usd_per_m2_built,casa,721,84
-2026-08-29,c:central:fernando-de-la-mora,Fernando de la Mora,active_sale,,308,308
-2026-08-29,c:central:fernando-de-la-mora,Fernando de la Mora,active_rent,,57,57
-2026-08-29,c:central:fernando-de-la-mora,Fernando de la Mora,asking_price_usd,casa,167667,90
-2026-08-29,c:central:fernando-de-la-mora,Fernando de la Mora,asking_price_usd,departamento,64173,109
-2026-08-29,c:central:fernando-de-la-mora,Fernando de la Mora,asking_usd_per_m2_built,casa,830,89
-2026-08-29,c:central:fernando-de-la-mora,Fernando de la Mora,asking_usd_per_m2_built,departamento,1275,27
-2026-08-29,c:central:fernando-de-la-mora,Fernando de la Mora,asking_rent_usd_month,departamento,583,24
+2026-09-28,c:central:nemby,Ñemby,active_sale,,194,194
+2026-09-28,c:central:nemby,Ñemby,active_rent,,32,32
+2026-09-28,c:central:nemby,Ñemby,asking_price_usd,casa,74046,88
+2026-09-28,c:central:nemby,Ñemby,asking_usd_per_m2_built,casa,721,84
 2026-08-30,c:central:fernando-de-la-mora,Fernando de la Mora,active_sale,,310,310
 2026-08-30,c:central:fernando-de-la-mora,Fernando de la Mora,active_rent,,57,57
 2026-08-30,c:central:fernando-de-la-mora,Fernando de la Mora,asking_price_usd,casa,167667,90
@@ -1739,10 +1732,13 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-27,c:central:fernando-de-la-mora,Fernando de la Mora,asking_usd_per_m2_built,casa,800,89
 2026-09-27,c:central:fernando-de-la-mora,Fernando de la Mora,asking_usd_per_m2_built,departamento,1275,27
 2026-09-27,c:central:fernando-de-la-mora,Fernando de la Mora,asking_rent_usd_month,departamento,630,21
-2026-08-29,c:central:villa-elisa,Villa Elisa,active_sale,,119,119
-2026-08-29,c:central:villa-elisa,Villa Elisa,active_rent,,12,12
-2026-08-29,c:central:villa-elisa,Villa Elisa,asking_price_usd,casa,91068,57
-2026-08-29,c:central:villa-elisa,Villa Elisa,asking_usd_per_m2_built,casa,761,56
+2026-09-28,c:central:fernando-de-la-mora,Fernando de la Mora,active_sale,,293,293
+2026-09-28,c:central:fernando-de-la-mora,Fernando de la Mora,active_rent,,59,59
+2026-09-28,c:central:fernando-de-la-mora,Fernando de la Mora,asking_price_usd,casa,168688,91
+2026-09-28,c:central:fernando-de-la-mora,Fernando de la Mora,asking_price_usd,departamento,69000,105
+2026-09-28,c:central:fernando-de-la-mora,Fernando de la Mora,asking_usd_per_m2_built,casa,800,89
+2026-09-28,c:central:fernando-de-la-mora,Fernando de la Mora,asking_usd_per_m2_built,departamento,1275,27
+2026-09-28,c:central:fernando-de-la-mora,Fernando de la Mora,asking_rent_usd_month,departamento,630,21
 2026-08-30,c:central:villa-elisa,Villa Elisa,active_sale,,119,119
 2026-08-30,c:central:villa-elisa,Villa Elisa,active_rent,,12,12
 2026-08-30,c:central:villa-elisa,Villa Elisa,asking_price_usd,casa,91068,57
@@ -1859,10 +1855,10 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-27,c:central:villa-elisa,Villa Elisa,active_rent,,14,14
 2026-09-27,c:central:villa-elisa,Villa Elisa,asking_price_usd,casa,91493,56
 2026-09-27,c:central:villa-elisa,Villa Elisa,asking_usd_per_m2_built,casa,736,56
-2026-08-29,c:central:limpio,Limpio,active_sale,,208,208
-2026-08-29,c:central:limpio,Limpio,active_rent,,12,12
-2026-08-29,c:central:limpio,Limpio,asking_price_usd,casa,59577,88
-2026-08-29,c:central:limpio,Limpio,asking_usd_per_m2_built,casa,681,76
+2026-09-28,c:central:villa-elisa,Villa Elisa,active_sale,,120,120
+2026-09-28,c:central:villa-elisa,Villa Elisa,active_rent,,14,14
+2026-09-28,c:central:villa-elisa,Villa Elisa,asking_price_usd,casa,91493,56
+2026-09-28,c:central:villa-elisa,Villa Elisa,asking_usd_per_m2_built,casa,736,56
 2026-08-30,c:central:limpio,Limpio,active_sale,,207,207
 2026-08-30,c:central:limpio,Limpio,active_rent,,12,12
 2026-08-30,c:central:limpio,Limpio,asking_price_usd,casa,59577,88
@@ -1979,131 +1975,10 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-27,c:central:limpio,Limpio,active_rent,,8,8
 2026-09-27,c:central:limpio,Limpio,asking_price_usd,casa,59577,88
 2026-09-27,c:central:limpio,Limpio,asking_usd_per_m2_built,casa,698,80
-2026-08-29,c:central:aregua,Areguá,active_sale,,156,156
-2026-08-29,c:central:aregua,Areguá,active_rent,,2,2
-2026-08-29,c:central:aregua,Areguá,asking_price_usd,casa,85110,46
-2026-08-29,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,651,44
-2026-08-30,c:central:aregua,Areguá,active_sale,,156,156
-2026-08-30,c:central:aregua,Areguá,active_rent,,2,2
-2026-08-30,c:central:aregua,Areguá,asking_price_usd,casa,85110,46
-2026-08-30,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,651,44
-2026-08-31,c:central:aregua,Areguá,active_sale,,156,156
-2026-08-31,c:central:aregua,Areguá,active_rent,,2,2
-2026-08-31,c:central:aregua,Areguá,asking_price_usd,casa,85110,46
-2026-08-31,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,651,44
-2026-09-01,c:central:aregua,Areguá,active_sale,,156,156
-2026-09-01,c:central:aregua,Areguá,active_rent,,2,2
-2026-09-01,c:central:aregua,Areguá,asking_price_usd,casa,85110,46
-2026-09-01,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,651,44
-2026-09-02,c:central:aregua,Areguá,active_sale,,156,156
-2026-09-02,c:central:aregua,Areguá,active_rent,,2,2
-2026-09-02,c:central:aregua,Areguá,asking_price_usd,casa,85110,46
-2026-09-02,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,651,44
-2026-09-03,c:central:aregua,Areguá,active_sale,,156,156
-2026-09-03,c:central:aregua,Areguá,active_rent,,2,2
-2026-09-03,c:central:aregua,Areguá,asking_price_usd,casa,85110,46
-2026-09-03,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,651,44
-2026-09-04,c:central:aregua,Areguá,active_sale,,157,157
-2026-09-04,c:central:aregua,Areguá,active_rent,,2,2
-2026-09-04,c:central:aregua,Areguá,asking_price_usd,casa,85110,47
-2026-09-04,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,644,45
-2026-09-05,c:central:aregua,Areguá,active_sale,,157,157
-2026-09-05,c:central:aregua,Areguá,active_rent,,2,2
-2026-09-05,c:central:aregua,Areguá,asking_price_usd,casa,85110,47
-2026-09-05,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,644,45
-2026-09-06,c:central:aregua,Areguá,active_sale,,157,157
-2026-09-06,c:central:aregua,Areguá,active_rent,,2,2
-2026-09-06,c:central:aregua,Areguá,asking_price_usd,casa,85110,47
-2026-09-06,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,644,45
-2026-09-07,c:central:aregua,Areguá,active_sale,,157,157
-2026-09-07,c:central:aregua,Areguá,active_rent,,2,2
-2026-09-07,c:central:aregua,Areguá,asking_price_usd,casa,85110,47
-2026-09-07,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,644,45
-2026-09-08,c:central:aregua,Areguá,active_sale,,155,155
-2026-09-08,c:central:aregua,Areguá,active_rent,,2,2
-2026-09-08,c:central:aregua,Areguá,asking_price_usd,casa,82514,46
-2026-09-08,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,642,44
-2026-09-09,c:central:aregua,Areguá,active_sale,,155,155
-2026-09-09,c:central:aregua,Areguá,active_rent,,2,2
-2026-09-09,c:central:aregua,Areguá,asking_price_usd,casa,82514,46
-2026-09-09,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,642,44
-2026-09-10,c:central:aregua,Areguá,active_sale,,156,156
-2026-09-10,c:central:aregua,Areguá,active_rent,,2,2
-2026-09-10,c:central:aregua,Areguá,asking_price_usd,casa,82514,46
-2026-09-10,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,642,44
-2026-09-11,c:central:aregua,Areguá,active_sale,,157,157
-2026-09-11,c:central:aregua,Areguá,active_rent,,2,2
-2026-09-11,c:central:aregua,Areguá,asking_price_usd,casa,82514,46
-2026-09-11,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,642,44
-2026-09-12,c:central:aregua,Areguá,active_sale,,157,157
-2026-09-12,c:central:aregua,Areguá,active_rent,,2,2
-2026-09-12,c:central:aregua,Areguá,asking_price_usd,casa,82514,46
-2026-09-12,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,642,44
-2026-09-13,c:central:aregua,Areguá,active_sale,,157,157
-2026-09-13,c:central:aregua,Areguá,active_rent,,2,2
-2026-09-13,c:central:aregua,Areguá,asking_price_usd,casa,82514,46
-2026-09-13,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,642,44
-2026-09-14,c:central:aregua,Areguá,active_sale,,157,157
-2026-09-14,c:central:aregua,Areguá,active_rent,,2,2
-2026-09-14,c:central:aregua,Areguá,asking_price_usd,casa,82514,46
-2026-09-14,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,642,44
-2026-09-15,c:central:aregua,Areguá,active_sale,,157,157
-2026-09-15,c:central:aregua,Areguá,active_rent,,2,2
-2026-09-15,c:central:aregua,Areguá,asking_price_usd,casa,82514,46
-2026-09-15,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,642,44
-2026-09-16,c:central:aregua,Areguá,active_sale,,157,157
-2026-09-16,c:central:aregua,Areguá,active_rent,,2,2
-2026-09-16,c:central:aregua,Areguá,asking_price_usd,casa,79918,47
-2026-09-16,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,662,45
-2026-09-17,c:central:aregua,Areguá,active_sale,,156,156
-2026-09-17,c:central:aregua,Areguá,active_rent,,2,2
-2026-09-17,c:central:aregua,Areguá,asking_price_usd,casa,79918,47
-2026-09-17,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,662,45
-2026-09-18,c:central:aregua,Areguá,active_sale,,156,156
-2026-09-18,c:central:aregua,Areguá,active_rent,,2,2
-2026-09-18,c:central:aregua,Areguá,asking_price_usd,casa,79918,47
-2026-09-18,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,662,45
-2026-09-19,c:central:aregua,Areguá,active_sale,,156,156
-2026-09-19,c:central:aregua,Areguá,active_rent,,2,2
-2026-09-19,c:central:aregua,Areguá,asking_price_usd,casa,79918,47
-2026-09-19,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,662,45
-2026-09-20,c:central:aregua,Areguá,active_sale,,156,156
-2026-09-20,c:central:aregua,Areguá,active_rent,,2,2
-2026-09-20,c:central:aregua,Areguá,asking_price_usd,casa,79918,47
-2026-09-20,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,662,45
-2026-09-21,c:central:aregua,Areguá,active_sale,,154,154
-2026-09-21,c:central:aregua,Areguá,active_rent,,2,2
-2026-09-21,c:central:aregua,Areguá,asking_price_usd,casa,76599,45
-2026-09-21,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,640,43
-2026-09-22,c:central:aregua,Areguá,active_sale,,154,154
-2026-09-22,c:central:aregua,Areguá,active_rent,,2,2
-2026-09-22,c:central:aregua,Areguá,asking_price_usd,casa,76599,45
-2026-09-22,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,640,43
-2026-09-23,c:central:aregua,Areguá,active_sale,,153,153
-2026-09-23,c:central:aregua,Areguá,active_rent,,2,2
-2026-09-23,c:central:aregua,Areguá,asking_price_usd,casa,72344,44
-2026-09-23,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,651,42
-2026-09-24,c:central:aregua,Areguá,active_sale,,152,152
-2026-09-24,c:central:aregua,Areguá,active_rent,,3,3
-2026-09-24,c:central:aregua,Areguá,asking_price_usd,casa,76599,45
-2026-09-24,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,640,43
-2026-09-25,c:central:aregua,Areguá,active_sale,,152,152
-2026-09-25,c:central:aregua,Areguá,active_rent,,3,3
-2026-09-25,c:central:aregua,Areguá,asking_price_usd,casa,76599,45
-2026-09-25,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,640,43
-2026-09-26,c:central:aregua,Areguá,active_sale,,152,152
-2026-09-26,c:central:aregua,Areguá,active_rent,,3,3
-2026-09-26,c:central:aregua,Areguá,asking_price_usd,casa,76599,45
-2026-09-26,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,640,43
-2026-09-27,c:central:aregua,Areguá,active_sale,,152,152
-2026-09-27,c:central:aregua,Areguá,active_rent,,3,3
-2026-09-27,c:central:aregua,Areguá,asking_price_usd,casa,76599,45
-2026-09-27,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,640,43
-2026-08-29,c:central:mariano-roque-alonso,Mariano Roque Alonso,active_sale,,230,230
-2026-08-29,c:central:mariano-roque-alonso,Mariano Roque Alonso,active_rent,,14,14
-2026-08-29,c:central:mariano-roque-alonso,Mariano Roque Alonso,asking_price_usd,casa,102132,51
-2026-08-29,c:central:mariano-roque-alonso,Mariano Roque Alonso,asking_price_usd,departamento,61135,49
-2026-08-29,c:central:mariano-roque-alonso,Mariano Roque Alonso,asking_usd_per_m2_built,casa,610,47
+2026-09-28,c:central:limpio,Limpio,active_sale,,232,232
+2026-09-28,c:central:limpio,Limpio,active_rent,,8,8
+2026-09-28,c:central:limpio,Limpio,asking_price_usd,casa,59577,88
+2026-09-28,c:central:limpio,Limpio,asking_usd_per_m2_built,casa,698,80
 2026-08-30,c:central:mariano-roque-alonso,Mariano Roque Alonso,active_sale,,230,230
 2026-08-30,c:central:mariano-roque-alonso,Mariano Roque Alonso,active_rent,,14,14
 2026-08-30,c:central:mariano-roque-alonso,Mariano Roque Alonso,asking_price_usd,casa,102132,51
@@ -2249,10 +2124,131 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-27,c:central:mariano-roque-alonso,Mariano Roque Alonso,asking_price_usd,casa,101792,57
 2026-09-27,c:central:mariano-roque-alonso,Mariano Roque Alonso,asking_price_usd,departamento,63000,53
 2026-09-27,c:central:mariano-roque-alonso,Mariano Roque Alonso,asking_usd_per_m2_built,casa,617,53
-2026-08-29,c:central:ypane,Ypané,active_sale,,115,115
-2026-08-29,c:central:ypane,Ypané,active_rent,,5,5
-2026-08-29,c:central:ypane,Ypané,asking_price_usd,casa,51066,25
-2026-08-29,c:central:ypane,Ypané,asking_usd_per_m2_built,casa,480,24
+2026-09-28,c:central:mariano-roque-alonso,Mariano Roque Alonso,active_sale,,237,237
+2026-09-28,c:central:mariano-roque-alonso,Mariano Roque Alonso,active_rent,,15,15
+2026-09-28,c:central:mariano-roque-alonso,Mariano Roque Alonso,asking_price_usd,casa,101792,57
+2026-09-28,c:central:mariano-roque-alonso,Mariano Roque Alonso,asking_price_usd,departamento,63000,53
+2026-09-28,c:central:mariano-roque-alonso,Mariano Roque Alonso,asking_usd_per_m2_built,casa,617,53
+2026-08-30,c:central:aregua,Areguá,active_sale,,156,156
+2026-08-30,c:central:aregua,Areguá,active_rent,,2,2
+2026-08-30,c:central:aregua,Areguá,asking_price_usd,casa,85110,46
+2026-08-30,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,651,44
+2026-08-31,c:central:aregua,Areguá,active_sale,,156,156
+2026-08-31,c:central:aregua,Areguá,active_rent,,2,2
+2026-08-31,c:central:aregua,Areguá,asking_price_usd,casa,85110,46
+2026-08-31,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,651,44
+2026-09-01,c:central:aregua,Areguá,active_sale,,156,156
+2026-09-01,c:central:aregua,Areguá,active_rent,,2,2
+2026-09-01,c:central:aregua,Areguá,asking_price_usd,casa,85110,46
+2026-09-01,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,651,44
+2026-09-02,c:central:aregua,Areguá,active_sale,,156,156
+2026-09-02,c:central:aregua,Areguá,active_rent,,2,2
+2026-09-02,c:central:aregua,Areguá,asking_price_usd,casa,85110,46
+2026-09-02,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,651,44
+2026-09-03,c:central:aregua,Areguá,active_sale,,156,156
+2026-09-03,c:central:aregua,Areguá,active_rent,,2,2
+2026-09-03,c:central:aregua,Areguá,asking_price_usd,casa,85110,46
+2026-09-03,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,651,44
+2026-09-04,c:central:aregua,Areguá,active_sale,,157,157
+2026-09-04,c:central:aregua,Areguá,active_rent,,2,2
+2026-09-04,c:central:aregua,Areguá,asking_price_usd,casa,85110,47
+2026-09-04,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,644,45
+2026-09-05,c:central:aregua,Areguá,active_sale,,157,157
+2026-09-05,c:central:aregua,Areguá,active_rent,,2,2
+2026-09-05,c:central:aregua,Areguá,asking_price_usd,casa,85110,47
+2026-09-05,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,644,45
+2026-09-06,c:central:aregua,Areguá,active_sale,,157,157
+2026-09-06,c:central:aregua,Areguá,active_rent,,2,2
+2026-09-06,c:central:aregua,Areguá,asking_price_usd,casa,85110,47
+2026-09-06,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,644,45
+2026-09-07,c:central:aregua,Areguá,active_sale,,157,157
+2026-09-07,c:central:aregua,Areguá,active_rent,,2,2
+2026-09-07,c:central:aregua,Areguá,asking_price_usd,casa,85110,47
+2026-09-07,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,644,45
+2026-09-08,c:central:aregua,Areguá,active_sale,,155,155
+2026-09-08,c:central:aregua,Areguá,active_rent,,2,2
+2026-09-08,c:central:aregua,Areguá,asking_price_usd,casa,82514,46
+2026-09-08,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,642,44
+2026-09-09,c:central:aregua,Areguá,active_sale,,155,155
+2026-09-09,c:central:aregua,Areguá,active_rent,,2,2
+2026-09-09,c:central:aregua,Areguá,asking_price_usd,casa,82514,46
+2026-09-09,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,642,44
+2026-09-10,c:central:aregua,Areguá,active_sale,,156,156
+2026-09-10,c:central:aregua,Areguá,active_rent,,2,2
+2026-09-10,c:central:aregua,Areguá,asking_price_usd,casa,82514,46
+2026-09-10,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,642,44
+2026-09-11,c:central:aregua,Areguá,active_sale,,157,157
+2026-09-11,c:central:aregua,Areguá,active_rent,,2,2
+2026-09-11,c:central:aregua,Areguá,asking_price_usd,casa,82514,46
+2026-09-11,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,642,44
+2026-09-12,c:central:aregua,Areguá,active_sale,,157,157
+2026-09-12,c:central:aregua,Areguá,active_rent,,2,2
+2026-09-12,c:central:aregua,Areguá,asking_price_usd,casa,82514,46
+2026-09-12,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,642,44
+2026-09-13,c:central:aregua,Areguá,active_sale,,157,157
+2026-09-13,c:central:aregua,Areguá,active_rent,,2,2
+2026-09-13,c:central:aregua,Areguá,asking_price_usd,casa,82514,46
+2026-09-13,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,642,44
+2026-09-14,c:central:aregua,Areguá,active_sale,,157,157
+2026-09-14,c:central:aregua,Areguá,active_rent,,2,2
+2026-09-14,c:central:aregua,Areguá,asking_price_usd,casa,82514,46
+2026-09-14,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,642,44
+2026-09-15,c:central:aregua,Areguá,active_sale,,157,157
+2026-09-15,c:central:aregua,Areguá,active_rent,,2,2
+2026-09-15,c:central:aregua,Areguá,asking_price_usd,casa,82514,46
+2026-09-15,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,642,44
+2026-09-16,c:central:aregua,Areguá,active_sale,,157,157
+2026-09-16,c:central:aregua,Areguá,active_rent,,2,2
+2026-09-16,c:central:aregua,Areguá,asking_price_usd,casa,79918,47
+2026-09-16,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,662,45
+2026-09-17,c:central:aregua,Areguá,active_sale,,156,156
+2026-09-17,c:central:aregua,Areguá,active_rent,,2,2
+2026-09-17,c:central:aregua,Areguá,asking_price_usd,casa,79918,47
+2026-09-17,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,662,45
+2026-09-18,c:central:aregua,Areguá,active_sale,,156,156
+2026-09-18,c:central:aregua,Areguá,active_rent,,2,2
+2026-09-18,c:central:aregua,Areguá,asking_price_usd,casa,79918,47
+2026-09-18,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,662,45
+2026-09-19,c:central:aregua,Areguá,active_sale,,156,156
+2026-09-19,c:central:aregua,Areguá,active_rent,,2,2
+2026-09-19,c:central:aregua,Areguá,asking_price_usd,casa,79918,47
+2026-09-19,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,662,45
+2026-09-20,c:central:aregua,Areguá,active_sale,,156,156
+2026-09-20,c:central:aregua,Areguá,active_rent,,2,2
+2026-09-20,c:central:aregua,Areguá,asking_price_usd,casa,79918,47
+2026-09-20,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,662,45
+2026-09-21,c:central:aregua,Areguá,active_sale,,154,154
+2026-09-21,c:central:aregua,Areguá,active_rent,,2,2
+2026-09-21,c:central:aregua,Areguá,asking_price_usd,casa,76599,45
+2026-09-21,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,640,43
+2026-09-22,c:central:aregua,Areguá,active_sale,,154,154
+2026-09-22,c:central:aregua,Areguá,active_rent,,2,2
+2026-09-22,c:central:aregua,Areguá,asking_price_usd,casa,76599,45
+2026-09-22,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,640,43
+2026-09-23,c:central:aregua,Areguá,active_sale,,153,153
+2026-09-23,c:central:aregua,Areguá,active_rent,,2,2
+2026-09-23,c:central:aregua,Areguá,asking_price_usd,casa,72344,44
+2026-09-23,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,651,42
+2026-09-24,c:central:aregua,Areguá,active_sale,,152,152
+2026-09-24,c:central:aregua,Areguá,active_rent,,3,3
+2026-09-24,c:central:aregua,Areguá,asking_price_usd,casa,76599,45
+2026-09-24,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,640,43
+2026-09-25,c:central:aregua,Areguá,active_sale,,152,152
+2026-09-25,c:central:aregua,Areguá,active_rent,,3,3
+2026-09-25,c:central:aregua,Areguá,asking_price_usd,casa,76599,45
+2026-09-25,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,640,43
+2026-09-26,c:central:aregua,Areguá,active_sale,,152,152
+2026-09-26,c:central:aregua,Areguá,active_rent,,3,3
+2026-09-26,c:central:aregua,Areguá,asking_price_usd,casa,76599,45
+2026-09-26,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,640,43
+2026-09-27,c:central:aregua,Areguá,active_sale,,152,152
+2026-09-27,c:central:aregua,Areguá,active_rent,,3,3
+2026-09-27,c:central:aregua,Areguá,asking_price_usd,casa,76599,45
+2026-09-27,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,640,43
+2026-09-28,c:central:aregua,Areguá,active_sale,,152,152
+2026-09-28,c:central:aregua,Areguá,active_rent,,3,3
+2026-09-28,c:central:aregua,Areguá,asking_price_usd,casa,76599,45
+2026-09-28,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,640,43
 2026-08-30,c:central:ypane,Ypané,active_sale,,115,115
 2026-08-30,c:central:ypane,Ypané,active_rent,,5,5
 2026-08-30,c:central:ypane,Ypané,asking_price_usd,casa,51066,25
@@ -2369,10 +2365,10 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-27,c:central:ypane,Ypané,active_rent,,5,5
 2026-09-27,c:central:ypane,Ypané,asking_price_usd,casa,54130,25
 2026-09-27,c:central:ypane,Ypané,asking_usd_per_m2_built,casa,503,24
-2026-08-29,c:central:itaugua,Itauguá,active_sale,,215,215
-2026-08-29,c:central:itaugua,Itauguá,active_rent,,21,21
-2026-08-29,c:central:itaugua,Itauguá,asking_price_usd,casa,54303,65
-2026-08-29,c:central:itaugua,Itauguá,asking_usd_per_m2_built,casa,579,61
+2026-09-28,c:central:ypane,Ypané,active_sale,,125,125
+2026-09-28,c:central:ypane,Ypané,active_rent,,5,5
+2026-09-28,c:central:ypane,Ypané,asking_price_usd,casa,54130,25
+2026-09-28,c:central:ypane,Ypané,asking_usd_per_m2_built,casa,503,24
 2026-08-30,c:central:itaugua,Itauguá,active_sale,,215,215
 2026-08-30,c:central:itaugua,Itauguá,active_rent,,21,21
 2026-08-30,c:central:itaugua,Itauguá,asking_price_usd,casa,54303,65
@@ -2489,8 +2485,10 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-27,c:central:itaugua,Itauguá,active_rent,,24,24
 2026-09-27,c:central:itaugua,Itauguá,asking_price_usd,casa,59577,66
 2026-09-27,c:central:itaugua,Itauguá,asking_usd_per_m2_built,casa,596,63
-2026-08-29,c:central:villeta,Villeta,active_sale,,58,58
-2026-08-29,c:central:villeta,Villeta,active_rent,,6,6
+2026-09-28,c:central:itaugua,Itauguá,active_sale,,223,223
+2026-09-28,c:central:itaugua,Itauguá,active_rent,,24,24
+2026-09-28,c:central:itaugua,Itauguá,asking_price_usd,casa,59577,66
+2026-09-28,c:central:itaugua,Itauguá,asking_usd_per_m2_built,casa,596,63
 2026-08-30,c:central:villeta,Villeta,active_sale,,58,58
 2026-08-30,c:central:villeta,Villeta,active_rent,,6,6
 2026-08-31,c:central:villeta,Villeta,active_sale,,58,58
@@ -2549,8 +2547,8 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-26,c:central:villeta,Villeta,active_rent,,5,5
 2026-09-27,c:central:villeta,Villeta,active_sale,,63,63
 2026-09-27,c:central:villeta,Villeta,active_rent,,5,5
-2026-08-29,c:central:ypacarai,Ypacaraí,active_sale,,114,114
-2026-08-29,c:central:ypacarai,Ypacaraí,active_rent,,3,3
+2026-09-28,c:central:villeta,Villeta,active_sale,,63,63
+2026-09-28,c:central:villeta,Villeta,active_rent,,5,5
 2026-08-30,c:central:ypacarai,Ypacaraí,active_sale,,114,114
 2026-08-30,c:central:ypacarai,Ypacaraí,active_rent,,3,3
 2026-08-31,c:central:ypacarai,Ypacaraí,active_sale,,114,114
@@ -2609,8 +2607,8 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-26,c:central:ypacarai,Ypacaraí,active_rent,,3,3
 2026-09-27,c:central:ypacarai,Ypacaraí,active_sale,,121,121
 2026-09-27,c:central:ypacarai,Ypacaraí,active_rent,,3,3
-2026-08-29,c:central:san-antonio,San Antonio,active_sale,,36,36
-2026-08-29,c:central:san-antonio,San Antonio,active_rent,,3,3
+2026-09-28,c:central:ypacarai,Ypacaraí,active_sale,,121,121
+2026-09-28,c:central:ypacarai,Ypacaraí,active_rent,,3,3
 2026-08-30,c:central:san-antonio,San Antonio,active_sale,,36,36
 2026-08-30,c:central:san-antonio,San Antonio,active_rent,,3,3
 2026-08-31,c:central:san-antonio,San Antonio,active_sale,,36,36
@@ -2669,8 +2667,8 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-26,c:central:san-antonio,San Antonio,active_rent,,5,5
 2026-09-27,c:central:san-antonio,San Antonio,active_sale,,43,43
 2026-09-27,c:central:san-antonio,San Antonio,active_rent,,5,5
-2026-08-29,c:central:julian-augusto-saldivar,Julián Augusto Saldívar,active_sale,,52,52
-2026-08-29,c:central:julian-augusto-saldivar,Julián Augusto Saldívar,active_rent,,0,0
+2026-09-28,c:central:san-antonio,San Antonio,active_sale,,43,43
+2026-09-28,c:central:san-antonio,San Antonio,active_rent,,5,5
 2026-08-30,c:central:julian-augusto-saldivar,Julián Augusto Saldívar,active_sale,,52,52
 2026-08-30,c:central:julian-augusto-saldivar,Julián Augusto Saldívar,active_rent,,0,0
 2026-08-31,c:central:julian-augusto-saldivar,Julián Augusto Saldívar,active_sale,,52,52
@@ -2729,8 +2727,8 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-26,c:central:julian-augusto-saldivar,Julián Augusto Saldívar,active_rent,,0,0
 2026-09-27,c:central:julian-augusto-saldivar,Julián Augusto Saldívar,active_sale,,55,55
 2026-09-27,c:central:julian-augusto-saldivar,Julián Augusto Saldívar,active_rent,,0,0
-2026-08-29,c:central:ita,Itá,active_sale,,70,70
-2026-08-29,c:central:ita,Itá,active_rent,,2,2
+2026-09-28,c:central:julian-augusto-saldivar,Julián Augusto Saldívar,active_sale,,55,55
+2026-09-28,c:central:julian-augusto-saldivar,Julián Augusto Saldívar,active_rent,,0,0
 2026-08-30,c:central:ita,Itá,active_sale,,70,70
 2026-08-30,c:central:ita,Itá,active_rent,,2,2
 2026-08-31,c:central:ita,Itá,active_sale,,70,70
@@ -2789,8 +2787,8 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-26,c:central:ita,Itá,active_rent,,3,3
 2026-09-27,c:central:ita,Itá,active_sale,,72,72
 2026-09-27,c:central:ita,Itá,active_rent,,3,3
-2026-08-29,c:central:nueva-italia,Nueva Italia,active_sale,,11,11
-2026-08-29,c:central:nueva-italia,Nueva Italia,active_rent,,0,0
+2026-09-28,c:central:ita,Itá,active_sale,,72,72
+2026-09-28,c:central:ita,Itá,active_rent,,3,3
 2026-08-30,c:central:nueva-italia,Nueva Italia,active_sale,,11,11
 2026-08-30,c:central:nueva-italia,Nueva Italia,active_rent,,0,0
 2026-08-31,c:central:nueva-italia,Nueva Italia,active_sale,,11,11
@@ -2849,14 +2847,8 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-26,c:central:nueva-italia,Nueva Italia,active_rent,,0,0
 2026-09-27,c:central:nueva-italia,Nueva Italia,active_sale,,13,13
 2026-09-27,c:central:nueva-italia,Nueva Italia,active_rent,,0,0
-2026-08-29,d:itapua,Itapúa,active_sale,,1381,1381
-2026-08-29,d:itapua,Itapúa,active_rent,,141,141
-2026-08-29,d:itapua,Itapúa,asking_price_usd,casa,116527,254
-2026-08-29,d:itapua,Itapúa,asking_price_usd,departamento,95000,140
-2026-08-29,d:itapua,Itapúa,asking_usd_per_m2_built,casa,667,227
-2026-08-29,d:itapua,Itapúa,asking_usd_per_m2_built,departamento,1213,20
-2026-08-29,d:itapua,Itapúa,asking_rent_usd_month,departamento,460,54
-2026-08-29,d:itapua,Itapúa,asking_rent_usd_month,casa,715,24
+2026-09-28,c:central:nueva-italia,Nueva Italia,active_sale,,13,13
+2026-09-28,c:central:nueva-italia,Nueva Italia,active_rent,,0,0
 2026-08-30,d:itapua,Itapúa,active_sale,,1380,1380
 2026-08-30,d:itapua,Itapúa,active_rent,,141,141
 2026-08-30,d:itapua,Itapúa,asking_price_usd,casa,113900,253
@@ -3089,13 +3081,14 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-27,d:itapua,Itapúa,asking_usd_per_m2_built,departamento,1121,25
 2026-09-27,d:itapua,Itapúa,asking_rent_usd_month,departamento,426,55
 2026-09-27,d:itapua,Itapúa,asking_rent_usd_month,casa,809,22
-2026-08-29,c:itapua:encarnacion,Encarnación,active_sale,,666,666
-2026-08-29,c:itapua:encarnacion,Encarnación,active_rent,,104,104
-2026-08-29,c:itapua:encarnacion,Encarnación,asking_price_usd,casa,140000,133
-2026-08-29,c:itapua:encarnacion,Encarnación,asking_price_usd,departamento,95000,138
-2026-08-29,c:itapua:encarnacion,Encarnación,asking_usd_per_m2_built,casa,669,119
-2026-08-29,c:itapua:encarnacion,Encarnación,asking_usd_per_m2_built,departamento,1213,20
-2026-08-29,c:itapua:encarnacion,Encarnación,asking_rent_usd_month,departamento,455,52
+2026-09-28,d:itapua,Itapúa,active_sale,,1406,1406
+2026-09-28,d:itapua,Itapúa,active_rent,,134,134
+2026-09-28,d:itapua,Itapúa,asking_price_usd,casa,112272,256
+2026-09-28,d:itapua,Itapúa,asking_price_usd,departamento,90000,147
+2026-09-28,d:itapua,Itapúa,asking_usd_per_m2_built,casa,681,231
+2026-09-28,d:itapua,Itapúa,asking_usd_per_m2_built,departamento,1126,25
+2026-09-28,d:itapua,Itapúa,asking_rent_usd_month,departamento,426,55
+2026-09-28,d:itapua,Itapúa,asking_rent_usd_month,casa,809,22
 2026-08-30,c:itapua:encarnacion,Encarnación,active_sale,,666,666
 2026-08-30,c:itapua:encarnacion,Encarnación,active_rent,,104,104
 2026-08-30,c:itapua:encarnacion,Encarnación,asking_price_usd,casa,140000,133
@@ -3299,8 +3292,13 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-27,c:itapua:encarnacion,Encarnación,asking_usd_per_m2_built,casa,684,122
 2026-09-27,c:itapua:encarnacion,Encarnación,asking_usd_per_m2_built,departamento,1121,25
 2026-09-27,c:itapua:encarnacion,Encarnación,asking_rent_usd_month,departamento,426,53
-2026-08-29,c:itapua:san-juan-del-parana,San Juan del Paraná,active_sale,,140,140
-2026-08-29,c:itapua:san-juan-del-parana,San Juan del Paraná,active_rent,,5,5
+2026-09-28,c:itapua:encarnacion,Encarnación,active_sale,,686,686
+2026-09-28,c:itapua:encarnacion,Encarnación,active_rent,,101,101
+2026-09-28,c:itapua:encarnacion,Encarnación,asking_price_usd,casa,136176,135
+2026-09-28,c:itapua:encarnacion,Encarnación,asking_price_usd,departamento,90000,145
+2026-09-28,c:itapua:encarnacion,Encarnación,asking_usd_per_m2_built,casa,686,123
+2026-09-28,c:itapua:encarnacion,Encarnación,asking_usd_per_m2_built,departamento,1126,25
+2026-09-28,c:itapua:encarnacion,Encarnación,asking_rent_usd_month,departamento,426,53
 2026-08-30,c:itapua:san-juan-del-parana,San Juan del Paraná,active_sale,,140,140
 2026-08-30,c:itapua:san-juan-del-parana,San Juan del Paraná,active_rent,,5,5
 2026-08-31,c:itapua:san-juan-del-parana,San Juan del Paraná,active_sale,,140,140
@@ -3359,8 +3357,8 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-26,c:itapua:san-juan-del-parana,San Juan del Paraná,active_rent,,4,4
 2026-09-27,c:itapua:san-juan-del-parana,San Juan del Paraná,active_sale,,141,141
 2026-09-27,c:itapua:san-juan-del-parana,San Juan del Paraná,active_rent,,4,4
-2026-08-29,c:itapua:capitan-miranda,Capitán Miranda,active_sale,,109,109
-2026-08-29,c:itapua:capitan-miranda,Capitán Miranda,active_rent,,13,13
+2026-09-28,c:itapua:san-juan-del-parana,San Juan del Paraná,active_sale,,141,141
+2026-09-28,c:itapua:san-juan-del-parana,San Juan del Paraná,active_rent,,4,4
 2026-08-30,c:itapua:capitan-miranda,Capitán Miranda,active_sale,,109,109
 2026-08-30,c:itapua:capitan-miranda,Capitán Miranda,active_rent,,13,13
 2026-08-31,c:itapua:capitan-miranda,Capitán Miranda,active_sale,,109,109
@@ -3419,12 +3417,8 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-26,c:itapua:capitan-miranda,Capitán Miranda,active_rent,,14,14
 2026-09-27,c:itapua:capitan-miranda,Capitán Miranda,active_sale,,109,109
 2026-09-27,c:itapua:capitan-miranda,Capitán Miranda,active_rent,,14,14
-2026-08-29,d:alto-parana,Alto Paraná,active_sale,,791,791
-2026-08-29,d:alto-parana,Alto Paraná,active_rent,,55,55
-2026-08-29,d:alto-parana,Alto Paraná,asking_price_usd,casa,115715,206
-2026-08-29,d:alto-parana,Alto Paraná,asking_price_usd,departamento,89000,78
-2026-08-29,d:alto-parana,Alto Paraná,asking_usd_per_m2_built,casa,730,182
-2026-08-29,d:alto-parana,Alto Paraná,asking_usd_per_m2_built,departamento,1481,20
+2026-09-28,c:itapua:capitan-miranda,Capitán Miranda,active_sale,,109,109
+2026-09-28,c:itapua:capitan-miranda,Capitán Miranda,active_rent,,14,14
 2026-08-30,d:alto-parana,Alto Paraná,active_sale,,791,791
 2026-08-30,d:alto-parana,Alto Paraná,active_rent,,55,55
 2026-08-30,d:alto-parana,Alto Paraná,asking_price_usd,casa,115715,206
@@ -3599,12 +3593,12 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-27,d:alto-parana,Alto Paraná,asking_price_usd,departamento,89000,93
 2026-09-27,d:alto-parana,Alto Paraná,asking_usd_per_m2_built,casa,723,200
 2026-09-27,d:alto-parana,Alto Paraná,asking_usd_per_m2_built,departamento,1738,28
-2026-08-29,c:alto-parana:ciudad-del-este,Ciudad del Este,active_sale,,361,361
-2026-08-29,c:alto-parana:ciudad-del-este,Ciudad del Este,active_rent,,27,27
-2026-08-29,c:alto-parana:ciudad-del-este,Ciudad del Este,asking_price_usd,casa,130000,92
-2026-08-29,c:alto-parana:ciudad-del-este,Ciudad del Este,asking_price_usd,departamento,83903,69
-2026-08-29,c:alto-parana:ciudad-del-este,Ciudad del Este,asking_usd_per_m2_built,casa,774,82
-2026-08-29,c:alto-parana:ciudad-del-este,Ciudad del Este,asking_usd_per_m2_built,departamento,,18
+2026-09-28,d:alto-parana,Alto Paraná,active_sale,,837,837
+2026-09-28,d:alto-parana,Alto Paraná,active_rent,,72,72
+2026-09-28,d:alto-parana,Alto Paraná,asking_price_usd,casa,119154,223
+2026-09-28,d:alto-parana,Alto Paraná,asking_price_usd,departamento,89000,91
+2026-09-28,d:alto-parana,Alto Paraná,asking_usd_per_m2_built,casa,723,201
+2026-09-28,d:alto-parana,Alto Paraná,asking_usd_per_m2_built,departamento,1698,26
 2026-08-30,c:alto-parana:ciudad-del-este,Ciudad del Este,active_sale,,361,361
 2026-08-30,c:alto-parana:ciudad-del-este,Ciudad del Este,active_rent,,27,27
 2026-08-30,c:alto-parana:ciudad-del-este,Ciudad del Este,asking_price_usd,casa,130000,92
@@ -3779,10 +3773,12 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-27,c:alto-parana:ciudad-del-este,Ciudad del Este,asking_price_usd,departamento,88999,84
 2026-09-27,c:alto-parana:ciudad-del-este,Ciudad del Este,asking_usd_per_m2_built,casa,745,90
 2026-09-27,c:alto-parana:ciudad-del-este,Ciudad del Este,asking_usd_per_m2_built,departamento,1750,27
-2026-08-29,c:alto-parana:hernandarias,Hernandarias,active_sale,,115,115
-2026-08-29,c:alto-parana:hernandarias,Hernandarias,active_rent,,6,6
-2026-08-29,c:alto-parana:hernandarias,Hernandarias,asking_price_usd,casa,91919,42
-2026-08-29,c:alto-parana:hernandarias,Hernandarias,asking_usd_per_m2_built,casa,500,38
+2026-09-28,c:alto-parana:ciudad-del-este,Ciudad del Este,active_sale,,378,378
+2026-09-28,c:alto-parana:ciudad-del-este,Ciudad del Este,active_rent,,42,42
+2026-09-28,c:alto-parana:ciudad-del-este,Ciudad del Este,asking_price_usd,casa,136176,98
+2026-09-28,c:alto-parana:ciudad-del-este,Ciudad del Este,asking_price_usd,departamento,86450,82
+2026-09-28,c:alto-parana:ciudad-del-este,Ciudad del Este,asking_usd_per_m2_built,casa,745,90
+2026-09-28,c:alto-parana:ciudad-del-este,Ciudad del Este,asking_usd_per_m2_built,departamento,1727,25
 2026-08-30,c:alto-parana:hernandarias,Hernandarias,active_sale,,115,115
 2026-08-30,c:alto-parana:hernandarias,Hernandarias,active_rent,,6,6
 2026-08-30,c:alto-parana:hernandarias,Hernandarias,asking_price_usd,casa,91919,42
@@ -3899,8 +3895,10 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-27,c:alto-parana:hernandarias,Hernandarias,active_rent,,6,6
 2026-09-27,c:alto-parana:hernandarias,Hernandarias,asking_price_usd,casa,100000,43
 2026-09-27,c:alto-parana:hernandarias,Hernandarias,asking_usd_per_m2_built,casa,500,39
-2026-08-29,c:alto-parana:minga-guazu,Minga Guazú,active_sale,,89,89
-2026-08-29,c:alto-parana:minga-guazu,Minga Guazú,active_rent,,2,2
+2026-09-28,c:alto-parana:hernandarias,Hernandarias,active_sale,,133,133
+2026-09-28,c:alto-parana:hernandarias,Hernandarias,active_rent,,6,6
+2026-09-28,c:alto-parana:hernandarias,Hernandarias,asking_price_usd,casa,96811,44
+2026-09-28,c:alto-parana:hernandarias,Hernandarias,asking_usd_per_m2_built,casa,522,40
 2026-08-30,c:alto-parana:minga-guazu,Minga Guazú,active_sale,,89,89
 2026-08-30,c:alto-parana:minga-guazu,Minga Guazú,active_rent,,2,2
 2026-08-31,c:alto-parana:minga-guazu,Minga Guazú,active_sale,,89,89
@@ -3959,11 +3957,8 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-26,c:alto-parana:minga-guazu,Minga Guazú,active_rent,,2,2
 2026-09-27,c:alto-parana:minga-guazu,Minga Guazú,active_sale,,91,91
 2026-09-27,c:alto-parana:minga-guazu,Minga Guazú,active_rent,,2,2
-2026-08-29,d:cordillera,Cordillera,active_sale,,732,732
-2026-08-29,d:cordillera,Cordillera,active_rent,,42,42
-2026-08-29,d:cordillera,Cordillera,asking_price_usd,casa,187242,141
-2026-08-29,d:cordillera,Cordillera,asking_usd_per_m2_built,casa,878,127
-2026-08-29,d:cordillera,Cordillera,asking_rent_usd_month,casa,1362,29
+2026-09-28,c:alto-parana:minga-guazu,Minga Guazú,active_sale,,91,91
+2026-09-28,c:alto-parana:minga-guazu,Minga Guazú,active_rent,,2,2
 2026-08-30,d:cordillera,Cordillera,active_sale,,733,733
 2026-08-30,d:cordillera,Cordillera,active_rent,,42,42
 2026-08-30,d:cordillera,Cordillera,asking_price_usd,casa,187242,141
@@ -4109,11 +4104,11 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-27,d:cordillera,Cordillera,asking_price_usd,casa,175000,142
 2026-09-27,d:cordillera,Cordillera,asking_usd_per_m2_built,casa,857,126
 2026-09-27,d:cordillera,Cordillera,asking_rent_usd_month,casa,1319,30
-2026-08-29,c:cordillera:san-bernardino,San Bernardino,active_sale,,319,319
-2026-08-29,c:cordillera:san-bernardino,San Bernardino,active_rent,,23,23
-2026-08-29,c:cordillera:san-bernardino,San Bernardino,asking_price_usd,casa,220000,75
-2026-08-29,c:cordillera:san-bernardino,San Bernardino,asking_usd_per_m2_built,casa,1016,70
-2026-08-29,c:cordillera:san-bernardino,San Bernardino,asking_rent_usd_month,casa,1575,20
+2026-09-28,d:cordillera,Cordillera,active_sale,,756,756
+2026-09-28,d:cordillera,Cordillera,active_rent,,43,43
+2026-09-28,d:cordillera,Cordillera,asking_price_usd,casa,175000,142
+2026-09-28,d:cordillera,Cordillera,asking_usd_per_m2_built,casa,857,126
+2026-09-28,d:cordillera,Cordillera,asking_rent_usd_month,casa,1319,30
 2026-08-30,c:cordillera:san-bernardino,San Bernardino,active_sale,,320,320
 2026-08-30,c:cordillera:san-bernardino,San Bernardino,active_rent,,23,23
 2026-08-30,c:cordillera:san-bernardino,San Bernardino,asking_price_usd,casa,220000,75
@@ -4259,10 +4254,11 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-27,c:cordillera:san-bernardino,San Bernardino,asking_price_usd,casa,220000,73
 2026-09-27,c:cordillera:san-bernardino,San Bernardino,asking_usd_per_m2_built,casa,987,68
 2026-09-27,c:cordillera:san-bernardino,San Bernardino,asking_rent_usd_month,casa,1643,20
-2026-08-29,c:cordillera:caacupe,Caacupé,active_sale,,131,131
-2026-08-29,c:cordillera:caacupe,Caacupé,active_rent,,5,5
-2026-08-29,c:cordillera:caacupe,Caacupé,asking_price_usd,casa,87663,29
-2026-08-29,c:cordillera:caacupe,Caacupé,asking_usd_per_m2_built,casa,469,24
+2026-09-28,c:cordillera:san-bernardino,San Bernardino,active_sale,,334,334
+2026-09-28,c:cordillera:san-bernardino,San Bernardino,active_rent,,23,23
+2026-09-28,c:cordillera:san-bernardino,San Bernardino,asking_price_usd,casa,220000,73
+2026-09-28,c:cordillera:san-bernardino,San Bernardino,asking_usd_per_m2_built,casa,987,68
+2026-09-28,c:cordillera:san-bernardino,San Bernardino,asking_rent_usd_month,casa,1643,20
 2026-08-30,c:cordillera:caacupe,Caacupé,active_sale,,131,131
 2026-08-30,c:cordillera:caacupe,Caacupé,active_rent,,5,5
 2026-08-30,c:cordillera:caacupe,Caacupé,asking_price_usd,casa,87663,29
@@ -4379,8 +4375,10 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-27,c:cordillera:caacupe,Caacupé,active_rent,,5,5
 2026-09-27,c:cordillera:caacupe,Caacupé,asking_price_usd,casa,86387,30
 2026-09-27,c:cordillera:caacupe,Caacupé,asking_usd_per_m2_built,casa,469,24
-2026-08-29,c:cordillera:altos,Altos,active_sale,,98,98
-2026-08-29,c:cordillera:altos,Altos,active_rent,,7,7
+2026-09-28,c:cordillera:caacupe,Caacupé,active_sale,,133,133
+2026-09-28,c:cordillera:caacupe,Caacupé,active_rent,,5,5
+2026-09-28,c:cordillera:caacupe,Caacupé,asking_price_usd,casa,86387,30
+2026-09-28,c:cordillera:caacupe,Caacupé,asking_usd_per_m2_built,casa,469,24
 2026-08-30,c:cordillera:altos,Altos,active_sale,,98,98
 2026-08-30,c:cordillera:altos,Altos,active_rent,,7,7
 2026-08-31,c:cordillera:altos,Altos,active_sale,,98,98
@@ -4439,10 +4437,8 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-26,c:cordillera:altos,Altos,active_rent,,7,7
 2026-09-27,c:cordillera:altos,Altos,active_sale,,92,92
 2026-09-27,c:cordillera:altos,Altos,active_rent,,7,7
-2026-08-29,d:boqueron,Boquerón,active_sale,,154,154
-2026-08-29,d:boqueron,Boquerón,active_rent,,28,28
-2026-08-29,d:boqueron,Boquerón,asking_price_usd,casa,80855,23
-2026-08-29,d:boqueron,Boquerón,asking_usd_per_m2_built,casa,572,20
+2026-09-28,c:cordillera:altos,Altos,active_sale,,92,92
+2026-09-28,c:cordillera:altos,Altos,active_rent,,7,7
 2026-08-30,d:boqueron,Boquerón,active_sale,,154,154
 2026-08-30,d:boqueron,Boquerón,active_rent,,28,28
 2026-08-30,d:boqueron,Boquerón,asking_price_usd,casa,80855,23
@@ -4559,8 +4555,10 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-27,d:boqueron,Boquerón,active_rent,,31,31
 2026-09-27,d:boqueron,Boquerón,asking_price_usd,casa,78727,24
 2026-09-27,d:boqueron,Boquerón,asking_usd_per_m2_built,casa,,19
-2026-08-29,d:presidente-hayes,Presidente Hayes,active_sale,,149,149
-2026-08-29,d:presidente-hayes,Presidente Hayes,active_rent,,0,0
+2026-09-28,d:boqueron,Boquerón,active_sale,,155,155
+2026-09-28,d:boqueron,Boquerón,active_rent,,31,31
+2026-09-28,d:boqueron,Boquerón,asking_price_usd,casa,78727,24
+2026-09-28,d:boqueron,Boquerón,asking_usd_per_m2_built,casa,,19
 2026-08-30,d:presidente-hayes,Presidente Hayes,active_sale,,146,146
 2026-08-30,d:presidente-hayes,Presidente Hayes,active_rent,,0,0
 2026-08-31,d:presidente-hayes,Presidente Hayes,active_sale,,146,146
@@ -4619,8 +4617,8 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-26,d:presidente-hayes,Presidente Hayes,active_rent,,0,0
 2026-09-27,d:presidente-hayes,Presidente Hayes,active_sale,,140,140
 2026-09-27,d:presidente-hayes,Presidente Hayes,active_rent,,0,0
-2026-08-29,c:presidente-hayes:villa-hayes,Villa Hayes,active_sale,,86,86
-2026-08-29,c:presidente-hayes:villa-hayes,Villa Hayes,active_rent,,0,0
+2026-09-28,d:presidente-hayes,Presidente Hayes,active_sale,,140,140
+2026-09-28,d:presidente-hayes,Presidente Hayes,active_rent,,0,0
 2026-08-30,c:presidente-hayes:villa-hayes,Villa Hayes,active_sale,,86,86
 2026-08-30,c:presidente-hayes:villa-hayes,Villa Hayes,active_rent,,0,0
 2026-08-31,c:presidente-hayes:villa-hayes,Villa Hayes,active_sale,,86,86
@@ -4679,8 +4677,8 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-26,c:presidente-hayes:villa-hayes,Villa Hayes,active_rent,,0,0
 2026-09-27,c:presidente-hayes:villa-hayes,Villa Hayes,active_sale,,84,84
 2026-09-27,c:presidente-hayes:villa-hayes,Villa Hayes,active_rent,,0,0
-2026-08-29,d:paraguari,Paraguarí,active_sale,,96,96
-2026-08-29,d:paraguari,Paraguarí,active_rent,,2,2
+2026-09-28,c:presidente-hayes:villa-hayes,Villa Hayes,active_sale,,84,84
+2026-09-28,c:presidente-hayes:villa-hayes,Villa Hayes,active_rent,,0,0
 2026-08-30,d:paraguari,Paraguarí,active_sale,,96,96
 2026-08-30,d:paraguari,Paraguarí,active_rent,,2,2
 2026-08-31,d:paraguari,Paraguarí,active_sale,,96,96
@@ -4739,8 +4737,8 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-26,d:paraguari,Paraguarí,active_rent,,2,2
 2026-09-27,d:paraguari,Paraguarí,active_sale,,95,95
 2026-09-27,d:paraguari,Paraguarí,active_rent,,2,2
-2026-08-29,d:caaguazu,Caaguazú,active_sale,,57,57
-2026-08-29,d:caaguazu,Caaguazú,active_rent,,3,3
+2026-09-28,d:paraguari,Paraguarí,active_sale,,95,95
+2026-09-28,d:paraguari,Paraguarí,active_rent,,2,2
 2026-08-30,d:caaguazu,Caaguazú,active_sale,,57,57
 2026-08-30,d:caaguazu,Caaguazú,active_rent,,3,3
 2026-08-31,d:caaguazu,Caaguazú,active_sale,,57,57
@@ -4799,8 +4797,8 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-26,d:caaguazu,Caaguazú,active_rent,,3,3
 2026-09-27,d:caaguazu,Caaguazú,active_sale,,60,60
 2026-09-27,d:caaguazu,Caaguazú,active_rent,,3,3
-2026-08-29,d:misiones,Misiones,active_sale,,56,56
-2026-08-29,d:misiones,Misiones,active_rent,,3,3
+2026-09-28,d:caaguazu,Caaguazú,active_sale,,59,59
+2026-09-28,d:caaguazu,Caaguazú,active_rent,,3,3
 2026-08-30,d:misiones,Misiones,active_sale,,56,56
 2026-08-30,d:misiones,Misiones,active_rent,,3,3
 2026-08-31,d:misiones,Misiones,active_sale,,56,56
@@ -4859,8 +4857,8 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-26,d:misiones,Misiones,active_rent,,4,4
 2026-09-27,d:misiones,Misiones,active_sale,,58,58
 2026-09-27,d:misiones,Misiones,active_rent,,4,4
-2026-08-29,d:guaira,Guairá,active_sale,,35,35
-2026-08-29,d:guaira,Guairá,active_rent,,3,3
+2026-09-28,d:misiones,Misiones,active_sale,,58,58
+2026-09-28,d:misiones,Misiones,active_rent,,4,4
 2026-08-30,d:guaira,Guairá,active_sale,,35,35
 2026-08-30,d:guaira,Guairá,active_rent,,3,3
 2026-08-31,d:guaira,Guairá,active_sale,,35,35
@@ -4919,8 +4917,8 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-26,d:guaira,Guairá,active_rent,,2,2
 2026-09-27,d:guaira,Guairá,active_sale,,36,36
 2026-09-27,d:guaira,Guairá,active_rent,,2,2
-2026-08-29,d:san-pedro,San Pedro,active_sale,,31,31
-2026-08-29,d:san-pedro,San Pedro,active_rent,,0,0
+2026-09-28,d:guaira,Guairá,active_sale,,35,35
+2026-09-28,d:guaira,Guairá,active_rent,,2,2
 2026-08-30,d:san-pedro,San Pedro,active_sale,,31,31
 2026-08-30,d:san-pedro,San Pedro,active_rent,,0,0
 2026-08-31,d:san-pedro,San Pedro,active_sale,,31,31
@@ -4979,8 +4977,8 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-26,d:san-pedro,San Pedro,active_rent,,0,0
 2026-09-27,d:san-pedro,San Pedro,active_sale,,30,30
 2026-09-27,d:san-pedro,San Pedro,active_rent,,0,0
-2026-08-29,d:caazapa,Caazapá,active_sale,,20,20
-2026-08-29,d:caazapa,Caazapá,active_rent,,2,2
+2026-09-28,d:san-pedro,San Pedro,active_sale,,30,30
+2026-09-28,d:san-pedro,San Pedro,active_rent,,0,0
 2026-08-30,d:caazapa,Caazapá,active_sale,,20,20
 2026-08-30,d:caazapa,Caazapá,active_rent,,2,2
 2026-08-31,d:caazapa,Caazapá,active_sale,,20,20
@@ -5039,8 +5037,8 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-26,d:caazapa,Caazapá,active_rent,,3,3
 2026-09-27,d:caazapa,Caazapá,active_sale,,20,20
 2026-09-27,d:caazapa,Caazapá,active_rent,,3,3
-2026-08-29,d:neembucu,Ñeembucú,active_sale,,17,17
-2026-08-29,d:neembucu,Ñeembucú,active_rent,,0,0
+2026-09-28,d:caazapa,Caazapá,active_sale,,20,20
+2026-09-28,d:caazapa,Caazapá,active_rent,,3,3
 2026-08-30,d:neembucu,Ñeembucú,active_sale,,17,17
 2026-08-30,d:neembucu,Ñeembucú,active_rent,,0,0
 2026-08-31,d:neembucu,Ñeembucú,active_sale,,17,17
@@ -5099,8 +5097,8 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-26,d:neembucu,Ñeembucú,active_rent,,0,0
 2026-09-27,d:neembucu,Ñeembucú,active_sale,,18,18
 2026-09-27,d:neembucu,Ñeembucú,active_rent,,0,0
-2026-08-29,d:concepcion,Concepción,active_sale,,17,17
-2026-08-29,d:concepcion,Concepción,active_rent,,0,0
+2026-09-28,d:neembucu,Ñeembucú,active_sale,,18,18
+2026-09-28,d:neembucu,Ñeembucú,active_rent,,0,0
 2026-08-30,d:concepcion,Concepción,active_sale,,17,17
 2026-08-30,d:concepcion,Concepción,active_rent,,0,0
 2026-08-31,d:concepcion,Concepción,active_sale,,17,17
@@ -5159,8 +5157,8 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-26,d:concepcion,Concepción,active_rent,,0,0
 2026-09-27,d:concepcion,Concepción,active_sale,,19,19
 2026-09-27,d:concepcion,Concepción,active_rent,,0,0
-2026-08-29,d:canindeyu,Canindeyú,active_sale,,14,14
-2026-08-29,d:canindeyu,Canindeyú,active_rent,,1,1
+2026-09-28,d:concepcion,Concepción,active_sale,,19,19
+2026-09-28,d:concepcion,Concepción,active_rent,,0,0
 2026-08-30,d:canindeyu,Canindeyú,active_sale,,14,14
 2026-08-30,d:canindeyu,Canindeyú,active_rent,,1,1
 2026-08-31,d:canindeyu,Canindeyú,active_sale,,14,14
@@ -5219,8 +5217,8 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-26,d:canindeyu,Canindeyú,active_rent,,1,1
 2026-09-27,d:canindeyu,Canindeyú,active_sale,,17,17
 2026-09-27,d:canindeyu,Canindeyú,active_rent,,1,1
-2026-08-29,d:amambay,Amambay,active_sale,,13,13
-2026-08-29,d:amambay,Amambay,active_rent,,0,0
+2026-09-28,d:canindeyu,Canindeyú,active_sale,,17,17
+2026-09-28,d:canindeyu,Canindeyú,active_rent,,1,1
 2026-08-30,d:amambay,Amambay,active_sale,,13,13
 2026-08-30,d:amambay,Amambay,active_rent,,0,0
 2026-08-31,d:amambay,Amambay,active_sale,,13,13
@@ -5279,8 +5277,8 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-26,d:amambay,Amambay,active_rent,,0,0
 2026-09-27,d:amambay,Amambay,active_sale,,12,12
 2026-09-27,d:amambay,Amambay,active_rent,,0,0
-2026-08-29,d:alto-paraguay,Alto Paraguay,active_sale,,9,9
-2026-08-29,d:alto-paraguay,Alto Paraguay,active_rent,,0,0
+2026-09-28,d:amambay,Amambay,active_sale,,12,12
+2026-09-28,d:amambay,Amambay,active_rent,,0,0
 2026-08-30,d:alto-paraguay,Alto Paraguay,active_sale,,9,9
 2026-08-30,d:alto-paraguay,Alto Paraguay,active_rent,,0,0
 2026-08-31,d:alto-paraguay,Alto Paraguay,active_sale,,9,9
@@ -5339,3 +5337,5 @@ date,market_id,market,metric,property_kind,value,n
 2026-09-26,d:alto-paraguay,Alto Paraguay,active_rent,,0,0
 2026-09-27,d:alto-paraguay,Alto Paraguay,active_sale,,9,9
 2026-09-27,d:alto-paraguay,Alto Paraguay,active_rent,,0,0
+2026-09-28,d:alto-paraguay,Alto Paraguay,active_sale,,9,9
+2026-09-28,d:alto-paraguay,Alto Paraguay,active_rent,,0,0
