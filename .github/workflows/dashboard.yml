@@ -1,0 +1,106 @@
+name: tekoha-dashboard
+
+# The market dashboard (https://ddvanlith.github.io/tekoha-daily/dashboard/), built here because Actions
+# minutes are free on a public repository. The code is the private ddvanlith/tekoha
+# (pipeline/build-dashboard.mjs), checked out with a read-only deploy key (secret TEKOHA_CODE_KEY); the
+# database is read as the read-only role tekoha_reader (secret READONLY_DATABASE_URL). The whole
+# arrangement is in docs/ci-minutes.md of that repo.
+#
+# The edition (index.html, archive/) is still published by the private daily pull, which on every run
+# also writes last-run.txt and health-status.txt here. That push starts this build, so the dashboard
+# follows each run as it did when the pipeline built it. The schedule is the fallback for a run whose
+# build did not happen: it builds only when the pipeline has published since the last dashboard. A
+# manual dispatch always builds.
+#
+# This log is public. The builder prints counts, timings and file sizes; its output also passes a filter
+# that masks anything shaped like a connection string, an email address or a phone number.
+on:
+  push:
+    branches: [main]
+    paths: [last-run.txt]
+  schedule:
+    - cron: "15 19 * * *"
+    - cron: "15 23 * * *"
+  workflow_dispatch: {}
+
+concurrency:
+  group: dashboard
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  dashboard:
+    runs-on: ubuntu-latest
+    # An explicit bash runs with pipefail, so a builder that fails fails its step through the log filter.
+    defaults:
+      run:
+        shell: bash
+    timeout-minutes: 20
+    steps:
+      - name: New pipeline run since the last dashboard?
+        id: gate
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ "$GITHUB_EVENT_NAME" != "schedule" ]; then echo "build=true" >> "$GITHUB_OUTPUT"; exit 0; fi
+          RUN=$(gh api "repos/$GITHUB_REPOSITORY/commits?path=last-run.txt&per_page=1" -q '.[0].commit.committer.date // ""')
+          BUILT=$(gh api "repos/$GITHUB_REPOSITORY/commits?path=dashboard/data/summary.json&per_page=1" -q '.[0].commit.committer.date // ""')
+          echo "pipeline last published ${RUN:-never}; dashboard built ${BUILT:-never}"
+          if [ -n "$RUN" ] && [[ "$RUN" > "$BUILT" ]]; then
+            echo "build=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "build=false" >> "$GITHUB_OUTPUT"
+            echo "Nothing new since the last dashboard."
+          fi
+
+      - uses: actions/checkout@v5
+        if: steps.gate.outputs.build == 'true'
+        with:
+          path: site
+
+      - uses: actions/checkout@v5
+        if: steps.gate.outputs.build == 'true'
+        with:
+          repository: ddvanlith/tekoha
+          ssh-key: ${{ secrets.TEKOHA_CODE_KEY }}
+          persist-credentials: false
+          path: code
+
+      - uses: actions/setup-node@v5
+        if: steps.gate.outputs.build == 'true'
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: code/package-lock.json
+
+      - name: Install
+        if: steps.gate.outputs.build == 'true'
+        working-directory: code
+        run: npm ci --no-audit --no-fund
+
+      # The page prints the pipeline's health from data/health-status.txt, which the private run leaves
+      # in this repo; without it the page says "status unknown", as it did when the health check never ran.
+      - name: Build the dashboard
+        if: steps.gate.outputs.build == 'true'
+        working-directory: code
+        env:
+          DATABASE_URL: ${{ secrets.READONLY_DATABASE_URL }}
+        run: |
+          if [ -z "$DATABASE_URL" ]; then echo "::error::READONLY_DATABASE_URL is not set"; exit 1; fi
+          mkdir -p data
+          if [ -f ../site/health-status.txt ]; then cp ../site/health-status.txt data/health-status.txt; fi
+          SITE_DIR="$GITHUB_WORKSPACE/site" node pipeline/build-dashboard.mjs 2>&1 | sed -E -u 's#postgres(ql)?://[^[:space:]]*#[connection string]#g; s/[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}/[email]/g; s/\+?[0-9]([ .()-]{0,2}[0-9]){8,}/[number]/g'
+
+      - name: Publish
+        if: steps.gate.outputs.build == 'true'
+        working-directory: site
+        run: |
+          git config user.name "tekoha-dashboard" && git config user.email "dashboard@tekoha.local"
+          git add -A dashboard
+          if git diff --cached --quiet; then echo "dashboard unchanged"; exit 0; fi
+          git commit -q -m "Dashboard $(date -u +%F)"
+          # The private pipeline pushes editions to this branch; a push that lost that race rebases and retries.
+          for i in 1 2 3; do git push -q && exit 0; sleep 5; git pull -q --rebase; done
+          exit 1
