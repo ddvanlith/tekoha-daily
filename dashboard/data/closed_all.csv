@@ -5122,6 +5122,7 @@ transaction_id,close_date,operation,kind,place,barrio,department_market,city_mar
 490095,2026-09-18,rent,departamento,Asunción,Herrera,Asunción,,130,land,2,5500000,PYG,924.12,4850000,PYG,814.91,5951.61,6,-11.818,0,1,1,1,1,,remax,143094057-20
 534777,2026-09-18,rent,departamento,Asunción,Villa Aurelia,Asunción,,90,land,2,3600000,PYG,604.88,3600000,PYG,604.88,5951.61,7,0,1,0,1,1,1,,remax,143054116-68
 534989,2026-09-18,sale,terreno,Asunción,Obrero,Asunción,,130,built,2,73000,USD,73000,460000000,PYG,77290.01,5951.61,595,5.877,0,0,1,1,0,cross-currency,remax,143063104-176
+539393,2026-09-18,sale,departamento,Asunción,Las Lomas (Carmelitas),Asunción,,27000,land,1,122346,USD,122346,1220346,USD,1220346,5951.61,45,897.455,0,0,1,1,0,outside 0.4 to 1.6 of the ask,remax,143046083-14
 330811,2026-09-19,rent,casa,Asunción,Santa Librada,Asunción,,210,built,4,5500000,PYG,924.12,4500000,PYG,756.1,5951.61,4,-18.182,0,1,1,1,1,,remax,143026188-104
 345967,2026-09-19,rent,otro,"Itá, Central",,Central,Itá,,,7,10000000,PYG,1680.22,13500000,PYG,2268.29,5951.61,,35,0,0,1,1,1,,remax,143036160-3
 359607,2026-09-19,sale,casa,"Limpio, Central",,Central,Limpio,132,built,2,380000000,PYG,63848.27,370000000,PYG,62168.05,5951.61,471,-2.632,0,1,1,1,1,,remax,143036160-15
@@ -5174,6 +5175,8 @@ transaction_id,close_date,operation,kind,place,barrio,department_market,city_mar
 485681,2026-09-24,rent,casa,"Luque, Central",,Central,Luque,300,built,4,10000000,PYG,1696.52,7500000,PYG,1272.39,5894.43,4,-25,0,1,1,1,1,,remax,143036154-16
 488192,2026-09-24,sale,terreno,"Capiatá, Central",,Central,Capiatá,315,land,,120000000,PYG,20358.2,105000000,PYG,17813.43,5894.43,57,-12.5,0,1,1,1,1,,remax,143061066-48
 534753,2026-09-24,sale,terreno,"Limpio, Central",,Central,Limpio,402,land,,130000000,PYG,22054.72,115000000,PYG,19509.94,5894.43,49,-11.538,0,1,1,1,1,,remax,143028003-194
+538858,2026-09-24,sale,terreno,"Villarrica, Guairá",,Guairá,,20,built,,300000000,PYG,50895.51,300000000,PYG,50895.51,5894.43,2545,0,1,0,1,1,1,,remax,143095004-106
+542023,2026-09-24,sale,departamento,"Luque, Central",,Central,Luque,42,built,1,46710,USD,46710,294740000,PYG,50003.14,5894.43,1201,7.05,0,0,1,1,0,cross-currency,remax,143054106-18
 135363,2026-09-25,rent,departamento,Asunción,Ycuá Satí,Asunción,,29,land,1,3900000,PYG,663.86,3800000,PYG,646.84,5874.745,22,-2.564,0,1,1,1,1,,remax,143056032-510
 467083,2026-09-25,rent,local,"Hernandarias, Alto Paraná",,Alto Paraná,Hernandarias,140,built,,8000000,PYG,1361.76,8000000,PYG,1361.76,5874.745,10,0,1,0,1,1,1,,remax,143099038-6
 467766,2026-09-25,rent,departamento,Asunción,Pettirossi,Asunción,,39,land,1,3000000,PYG,510.66,3000000,PYG,510.66,5874.745,13,0,1,0,1,1,1,,remax,143098126-519
@@ -5210,13 +5213,20 @@ transaction_id,close_date,operation,kind,place,barrio,department_market,city_mar
 535442,2026-09-29,sale,departamento,"Ciudad del Este, Alto Paraná",,Alto Paraná,Ciudad del Este,360,land,1,59400,USD,59400,422136000,PYG,72156.42,5850.29,200,21.475,0,0,1,1,0,cross-currency,remax,143050067-134
 535662,2026-09-29,rent,departamento,Asunción,Las Lomas (Carmelitas),Asunción,,83,land,2,5900000,PYG,1008.5,5700000,PYG,974.31,5850.29,12,-3.39,0,1,1,1,1,,remax,143048015-45
 535722,2026-09-29,sale,otro,"Paraguarí, Paraguarí",,Paraguarí,,,,,220000,USD,220000,1245700000,PYG,212929.62,5850.29,,-3.214,0,0,1,1,0,cross-currency,remax,143026188-99
-530239,2026-09-30,sale,departamento,"Ciudad del Este, Alto Paraná",,Alto Paraná,Ciudad del Este,360,land,1,36450,USD,36450,224327950,PYG,38344.76,5850.29,107,5.198,0,0,2,1,0,cross-currency,remax,143050067-133
-531049,2026-09-30,rent,casa,"Cambyretá, Itapúa",,Itapúa,,200,built,4,3000000,PYG,512.8,3000000,PYG,512.8,5850.29,3,0,1,0,1,1,1,,remax,143011087-36
-531085,2026-09-30,sale,terreno,"Lambaré, Central",,Central,Lambaré,482,land,,195000,USD,195000,1139470800,PYG,194771.68,5850.29,404,-0.117,0,0,1,1,0,cross-currency,remax,143098023-39
-531721,2026-09-30,sale,departamento,"San Lorenzo, Central",,Central,San Lorenzo,360,land,1,30000,USD,30000,174000000,PYG,29742.12,5850.29,83,-0.86,0,0,1,1,0,cross-currency,remax,143025149-261
-531844,2026-09-30,sale,terreno,"Ciudad del Este, Alto Paraná",,Alto Paraná,Ciudad del Este,,,,220000000,PYG,37604.97,185000000,PYG,31622.36,5850.29,,-15.909,0,1,1,1,1,,remax,143050066-70
-533854,2026-09-30,rent,departamento,"Encarnación, Itapúa",,Itapúa,Encarnación,2000,land,1,3500000,PYG,598.26,3500000,PYG,598.26,5850.29,0,0,1,0,1,1,1,,remax,143085032-90
-533857,2026-09-30,rent,casa,"Itauguá, Central",,Central,Itauguá,110,built,2,1800000,PYG,307.68,1800000,PYG,307.68,5850.29,3,0,1,0,1,1,1,,remax,143072154-3
-533957,2026-09-30,sale,departamento,Asunción,Las Lomas (Carmelitas),Asunción,,42,land,1,135000,USD,135000,891378000,PYG,152364.75,5850.29,3628,12.863,0,0,1,1,0,cross-currency,remax,143054077-65
-535162,2026-09-30,sale,departamento,"Ciudad del Este, Alto Paraná",,Alto Paraná,Ciudad del Este,360,land,1,36450,USD,36450,224327950,PYG,38344.76,5850.29,107,5.198,0,0,2,0,0,cross-currency,remax,143050067-143
-272869,2026-10-01,rent,local,Asunción,Villa Morra,Asunción,,120,land,,1200,USD,1200,7440000,PYG,1271.73,5850.29,11,5.978,0,0,1,1,0,cross-currency,remax,143054116-66
+542217,2026-09-29,sale,casa,"Lambaré, Central",,Central,Lambaré,160,built,2,550000000,PYG,94012.43,550000000,PYG,94012.43,5850.29,588,0,1,0,1,1,1,,remax,143095030-25
+542787,2026-09-29,sale,terreno,Asunción,Mburucuyá,Asunción,,1525,land,,695000,USD,695000,3570000000,PYG,610226.16,5850.29,400,-12.198,0,0,1,1,0,cross-currency,remax,143098009-590
+530239,2026-09-30,sale,departamento,"Ciudad del Este, Alto Paraná",,Alto Paraná,Ciudad del Este,360,land,1,36450,USD,36450,224327950,PYG,38530.98,5822.015,107,5.709,0,0,2,1,0,cross-currency,remax,143050067-133
+531049,2026-09-30,rent,casa,"Cambyretá, Itapúa",,Itapúa,,200,built,4,3000000,PYG,515.29,3000000,PYG,515.29,5822.015,3,0,1,0,1,1,1,,remax,143011087-36
+531085,2026-09-30,sale,terreno,"Lambaré, Central",,Central,Lambaré,482,land,,195000,USD,195000,1139470800,PYG,195717.6,5822.015,406,0.368,0,0,1,1,0,cross-currency,remax,143098023-39
+531721,2026-09-30,sale,departamento,"San Lorenzo, Central",,Central,San Lorenzo,360,land,1,30000,USD,30000,174000000,PYG,29886.56,5822.015,83,-0.378,0,0,1,1,0,cross-currency,remax,143025149-261
+531844,2026-09-30,sale,terreno,"Ciudad del Este, Alto Paraná",,Alto Paraná,Ciudad del Este,,,,220000000,PYG,37787.6,185000000,PYG,31775.94,5822.015,,-15.909,0,1,1,1,1,,remax,143050066-70
+533854,2026-09-30,rent,departamento,"Encarnación, Itapúa",,Itapúa,Encarnación,2000,land,1,3500000,PYG,601.17,3500000,PYG,601.17,5822.015,0,0,1,0,1,1,1,,remax,143085032-90
+533857,2026-09-30,rent,casa,"Itauguá, Central",,Central,Itauguá,110,built,2,1800000,PYG,309.17,1800000,PYG,309.17,5822.015,3,0,1,0,1,1,1,,remax,143072154-3
+533957,2026-09-30,sale,departamento,Asunción,Las Lomas (Carmelitas),Asunción,,42,land,1,135000,USD,135000,891378000,PYG,153104.72,5822.015,3645,13.411,0,0,1,1,0,cross-currency,remax,143054077-65
+535162,2026-09-30,sale,departamento,"Ciudad del Este, Alto Paraná",,Alto Paraná,Ciudad del Este,360,land,1,36450,USD,36450,224327950,PYG,38530.98,5822.015,107,5.709,0,0,2,0,0,cross-currency,remax,143050067-143
+539809,2026-09-30,sale,departamento,Asunción,Santísima Trinidad,Asunción,,183,land,,150000,USD,150000,833000000,PYG,143077.61,5822.015,782,-4.615,0,0,1,1,0,cross-currency,remax,143098009-759
+539995,2026-09-30,rent,local,"Fernando de la Mora, Central",,Central,Fernando de la Mora,50,built,,2000000,PYG,343.52,1500000,PYG,257.64,5822.015,5,-25,0,1,1,1,1,,remax,143025147-92
+541022,2026-09-30,rent,departamento,Asunción,Ytay,Asunción,,88,land,3,6500000,PYG,1116.45,6500000,PYG,1116.45,5822.015,13,0,1,0,1,1,1,,remax,143098038-43
+541549,2026-09-30,sale,departamento,Asunción,Villa Morra,Asunción,,100,built,3,170000,USD,170000,988939300,PYG,169862.03,5822.015,1699,-0.081,0,0,1,1,0,cross-currency,remax,143001140-110
+543185,2026-09-30,sale,duplex,"Luque, Central",,Central,Luque,69,built,2,60000,USD,60000,310000000,PYG,53246.17,5822.015,770,-11.256,0,0,1,1,0,cross-currency,remax,143097036-17
+272869,2026-10-01,rent,local,Asunción,Villa Morra,Asunción,,120,land,,1200,USD,1200,7440000,PYG,1277.91,5822.015,11,6.493,0,0,1,1,0,cross-currency,remax,143054116-66

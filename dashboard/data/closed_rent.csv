@@ -12,7 +12,7 @@ py,Paraguay,month,casa,PYG,2026-05-01,45,3500000,573
 py,Paraguay,month,casa,PYG,2026-06-01,43,3000000,491
 py,Paraguay,month,casa,PYG,2026-07-01,42,3737500,618
 py,Paraguay,month,casa,PYG,2026-08-01,39,3300000,552
-py,Paraguay,month,casa,PYG,2026-09-01,46,4000000,674
+py,Paraguay,month,casa,PYG,2026-09-01,46,4000000,675
 py,Paraguay,month,departamento,PYG,2025-08-01,16,,
 py,Paraguay,month,departamento,PYG,2025-09-01,90,3500000,489
 py,Paraguay,month,departamento,PYG,2025-10-01,72,3300000,468
@@ -26,7 +26,7 @@ py,Paraguay,month,departamento,PYG,2026-05-01,90,3325000,544
 py,Paraguay,month,departamento,PYG,2026-06-01,104,3500000,572
 py,Paraguay,month,departamento,PYG,2026-07-01,102,3690000,610
 py,Paraguay,month,departamento,PYG,2026-08-01,71,4000000,670
-py,Paraguay,month,departamento,PYG,2026-09-01,59,3600000,607
+py,Paraguay,month,departamento,PYG,2026-09-01,60,3650000,616
 py,Paraguay,month,duplex,PYG,2025-08-01,6,,
 py,Paraguay,month,duplex,PYG,2025-09-01,17,,
 py,Paraguay,month,duplex,PYG,2025-10-01,5,,
@@ -64,7 +64,7 @@ py,Paraguay,quarter,departamento,PYG,2025-07-01,106,3500000,487
 py,Paraguay,quarter,departamento,PYG,2025-10-01,231,3600000,519
 py,Paraguay,quarter,departamento,PYG,2026-01-01,302,3500000,533
 py,Paraguay,quarter,departamento,PYG,2026-04-01,270,3500000,565
-py,Paraguay,quarter,departamento,PYG,2026-07-01,232,3710000,620
+py,Paraguay,quarter,departamento,PYG,2026-07-01,233,3720000,621
 py,Paraguay,quarter,departamento,USD,2025-07-01,3,,
 py,Paraguay,quarter,departamento,USD,2025-10-01,4,,
 py,Paraguay,quarter,departamento,USD,2026-01-01,6,,
@@ -104,7 +104,7 @@ d:asuncion,Asunción,month,departamento,PYG,2026-05-01,45,4500000,737
 d:asuncion,Asunción,month,departamento,PYG,2026-06-01,53,4300000,703
 d:asuncion,Asunción,month,departamento,PYG,2026-07-01,58,4200000,694
 d:asuncion,Asunción,month,departamento,PYG,2026-08-01,38,4960000,830
-d:asuncion,Asunción,month,departamento,PYG,2026-09-01,33,4200000,708
+d:asuncion,Asunción,month,departamento,PYG,2026-09-01,34,4350000,734
 d:asuncion,Asunción,month,duplex,PYG,2025-08-01,2,,
 d:asuncion,Asunción,month,duplex,PYG,2025-09-01,4,,
 d:asuncion,Asunción,month,duplex,PYG,2025-10-01,2,,
@@ -142,7 +142,7 @@ d:asuncion,Asunción,quarter,departamento,PYG,2025-07-01,60,4000000,556
 d:asuncion,Asunción,quarter,departamento,PYG,2025-10-01,143,4500000,649
 d:asuncion,Asunción,quarter,departamento,PYG,2026-01-01,184,4372500,665
 d:asuncion,Asunción,quarter,departamento,PYG,2026-04-01,138,4452500,719
-d:asuncion,Asunción,quarter,departamento,PYG,2026-07-01,129,4478220,748
+d:asuncion,Asunción,quarter,departamento,PYG,2026-07-01,130,4489110,750
 d:asuncion,Asunción,quarter,departamento,USD,2025-07-01,3,,
 d:asuncion,Asunción,quarter,departamento,USD,2025-10-01,4,,
 d:asuncion,Asunción,quarter,departamento,USD,2026-01-01,6,,
@@ -742,7 +742,7 @@ d:alto-parana,Alto Paraná,quarter,casa,PYG,2025-07-01,5,,
 d:alto-parana,Alto Paraná,quarter,casa,PYG,2025-10-01,17,,
 d:alto-parana,Alto Paraná,quarter,casa,PYG,2026-01-01,22,3975000,605
 d:alto-parana,Alto Paraná,quarter,casa,PYG,2026-04-01,17,,
-d:alto-parana,Alto Paraná,quarter,casa,PYG,2026-07-01,24,3050000,509
+d:alto-parana,Alto Paraná,quarter,casa,PYG,2026-07-01,24,3050000,510
 d:alto-parana,Alto Paraná,quarter,departamento,PYG,2025-07-01,2,,
 d:alto-parana,Alto Paraná,quarter,departamento,PYG,2025-10-01,2,,
 d:alto-parana,Alto Paraná,quarter,departamento,PYG,2026-01-01,14,,
