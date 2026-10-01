@@ -893,7 +893,7 @@ function renderEstimate(m) {
   const R = E.rules;
   const shortWhy = (s) => (s.n_train == null || s.n_train < R.min_train ? `${num(s.n_train ?? 0)} of ${num(R.min_train)} training closes`
     : (s.n_test ?? 0) < R.min_test ? `${num(s.n_test ?? 0)} of ${num(R.min_test)} scored closes`
-      : /pending since/.test(s.reason || "") ? "passes today's read, waits for the next day's"
+      : /pending since/.test(s.reason || "") ? "passes the latest refit's read, waits for the next refit's"
         : `beats per m2 in ${Math.round((s.exact?.p_beat ?? 0) * 100)}% of resamples, needs ${Math.round(R.p_beat * 100)}%`);
   const confCell = (s) => {
     const c = s.confidence || {}, extra = [c.barrio != null && `barrio centre ${num(c.barrio)}`, c.city != null && `shared point ${num(c.city)}`].filter(Boolean);

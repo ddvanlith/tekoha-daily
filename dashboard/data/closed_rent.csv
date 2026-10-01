@@ -12,7 +12,7 @@ py,Paraguay,month,casa,PYG,2026-05-01,45,3500000,573
 py,Paraguay,month,casa,PYG,2026-06-01,43,3000000,491
 py,Paraguay,month,casa,PYG,2026-07-01,42,3737500,618
 py,Paraguay,month,casa,PYG,2026-08-01,39,3300000,552
-py,Paraguay,month,casa,PYG,2026-09-01,39,4000000,673
+py,Paraguay,month,casa,PYG,2026-09-01,46,4000000,674
 py,Paraguay,month,departamento,PYG,2025-08-01,16,,
 py,Paraguay,month,departamento,PYG,2025-09-01,90,3500000,489
 py,Paraguay,month,departamento,PYG,2025-10-01,72,3300000,468
@@ -26,7 +26,7 @@ py,Paraguay,month,departamento,PYG,2026-05-01,90,3325000,544
 py,Paraguay,month,departamento,PYG,2026-06-01,104,3500000,572
 py,Paraguay,month,departamento,PYG,2026-07-01,102,3690000,610
 py,Paraguay,month,departamento,PYG,2026-08-01,71,4000000,670
-py,Paraguay,month,departamento,PYG,2026-09-01,50,3750000,631
+py,Paraguay,month,departamento,PYG,2026-09-01,59,3600000,607
 py,Paraguay,month,duplex,PYG,2025-08-01,6,,
 py,Paraguay,month,duplex,PYG,2025-09-01,17,,
 py,Paraguay,month,duplex,PYG,2025-10-01,5,,
@@ -40,7 +40,7 @@ py,Paraguay,month,duplex,PYG,2026-05-01,18,,
 py,Paraguay,month,duplex,PYG,2026-06-01,18,,
 py,Paraguay,month,duplex,PYG,2026-07-01,18,,
 py,Paraguay,month,duplex,PYG,2026-08-01,13,,
-py,Paraguay,month,duplex,PYG,2026-09-01,11,,
+py,Paraguay,month,duplex,PYG,2026-09-01,12,,
 py,Paraguay,month,departamento,USD,2025-09-01,3,,
 py,Paraguay,month,departamento,USD,2025-10-01,2,,
 py,Paraguay,month,departamento,USD,2025-11-01,1,,
@@ -59,12 +59,12 @@ py,Paraguay,quarter,casa,PYG,2025-07-01,50,3000000,417
 py,Paraguay,quarter,casa,PYG,2025-10-01,104,3000000,433
 py,Paraguay,quarter,casa,PYG,2026-01-01,137,3500000,533
 py,Paraguay,quarter,casa,PYG,2026-04-01,125,3500000,565
-py,Paraguay,quarter,casa,PYG,2026-07-01,120,3637500,607
+py,Paraguay,quarter,casa,PYG,2026-07-01,127,3500000,585
 py,Paraguay,quarter,departamento,PYG,2025-07-01,106,3500000,487
 py,Paraguay,quarter,departamento,PYG,2025-10-01,231,3600000,519
 py,Paraguay,quarter,departamento,PYG,2026-01-01,302,3500000,533
 py,Paraguay,quarter,departamento,PYG,2026-04-01,270,3500000,565
-py,Paraguay,quarter,departamento,PYG,2026-07-01,223,3750000,626
+py,Paraguay,quarter,departamento,PYG,2026-07-01,232,3710000,620
 py,Paraguay,quarter,departamento,USD,2025-07-01,3,,
 py,Paraguay,quarter,departamento,USD,2025-10-01,4,,
 py,Paraguay,quarter,departamento,USD,2026-01-01,6,,
@@ -74,7 +74,7 @@ py,Paraguay,quarter,duplex,PYG,2025-07-01,23,4000000,556
 py,Paraguay,quarter,duplex,PYG,2025-10-01,40,3950000,570
 py,Paraguay,quarter,duplex,PYG,2026-01-01,48,3938000,599
 py,Paraguay,quarter,duplex,PYG,2026-04-01,59,4200000,678
-py,Paraguay,quarter,duplex,PYG,2026-07-01,42,4000000,667
+py,Paraguay,quarter,duplex,PYG,2026-07-01,43,4000000,668
 py,Paraguay,quarter,casa,USD,2025-10-01,1,,
 py,Paraguay,quarter,casa,USD,2026-07-01,1,,
 d:asuncion,Asunción,month,casa,PYG,2025-08-01,2,,
@@ -104,7 +104,7 @@ d:asuncion,Asunción,month,departamento,PYG,2026-05-01,45,4500000,737
 d:asuncion,Asunción,month,departamento,PYG,2026-06-01,53,4300000,703
 d:asuncion,Asunción,month,departamento,PYG,2026-07-01,58,4200000,694
 d:asuncion,Asunción,month,departamento,PYG,2026-08-01,38,4960000,830
-d:asuncion,Asunción,month,departamento,PYG,2026-09-01,28,4350000,732
+d:asuncion,Asunción,month,departamento,PYG,2026-09-01,33,4200000,708
 d:asuncion,Asunción,month,duplex,PYG,2025-08-01,2,,
 d:asuncion,Asunción,month,duplex,PYG,2025-09-01,4,,
 d:asuncion,Asunción,month,duplex,PYG,2025-10-01,2,,
@@ -137,12 +137,12 @@ d:asuncion,Asunción,quarter,casa,PYG,2025-07-01,14,,
 d:asuncion,Asunción,quarter,casa,PYG,2025-10-01,21,6000000,865
 d:asuncion,Asunción,quarter,casa,PYG,2026-01-01,17,,
 d:asuncion,Asunción,quarter,casa,PYG,2026-04-01,22,4500000,726
-d:asuncion,Asunción,quarter,casa,PYG,2026-07-01,30,5500000,918
+d:asuncion,Asunción,quarter,casa,PYG,2026-07-01,30,5500000,919
 d:asuncion,Asunción,quarter,departamento,PYG,2025-07-01,60,4000000,556
 d:asuncion,Asunción,quarter,departamento,PYG,2025-10-01,143,4500000,649
 d:asuncion,Asunción,quarter,departamento,PYG,2026-01-01,184,4372500,665
 d:asuncion,Asunción,quarter,departamento,PYG,2026-04-01,138,4452500,719
-d:asuncion,Asunción,quarter,departamento,PYG,2026-07-01,124,4489110,749
+d:asuncion,Asunción,quarter,departamento,PYG,2026-07-01,129,4478220,748
 d:asuncion,Asunción,quarter,departamento,USD,2025-07-01,3,,
 d:asuncion,Asunción,quarter,departamento,USD,2025-10-01,4,,
 d:asuncion,Asunción,quarter,departamento,USD,2026-01-01,6,,
@@ -168,7 +168,7 @@ d:central,Central,month,casa,PYG,2026-05-01,16,,
 d:central,Central,month,casa,PYG,2026-06-01,22,2950000,483
 d:central,Central,month,casa,PYG,2026-07-01,12,,
 d:central,Central,month,casa,PYG,2026-08-01,19,,
-d:central,Central,month,casa,PYG,2026-09-01,10,,
+d:central,Central,month,casa,PYG,2026-09-01,13,,
 d:central,Central,month,departamento,PYG,2025-08-01,4,,
 d:central,Central,month,departamento,PYG,2025-09-01,31,2800000,391
 d:central,Central,month,departamento,PYG,2025-10-01,23,2700000,383
@@ -182,7 +182,7 @@ d:central,Central,month,departamento,PYG,2026-05-01,29,2450000,401
 d:central,Central,month,departamento,PYG,2026-06-01,33,2900000,474
 d:central,Central,month,departamento,PYG,2026-07-01,30,3200000,529
 d:central,Central,month,departamento,PYG,2026-08-01,23,2700000,452
-d:central,Central,month,departamento,PYG,2026-09-01,13,,
+d:central,Central,month,departamento,PYG,2026-09-01,16,,
 d:central,Central,month,duplex,PYG,2025-08-01,3,,
 d:central,Central,month,duplex,PYG,2025-09-01,11,,
 d:central,Central,month,duplex,PYG,2025-10-01,2,,
@@ -196,22 +196,22 @@ d:central,Central,month,duplex,PYG,2026-05-01,13,,
 d:central,Central,month,duplex,PYG,2026-06-01,16,,
 d:central,Central,month,duplex,PYG,2026-07-01,11,,
 d:central,Central,month,duplex,PYG,2026-08-01,7,,
-d:central,Central,month,duplex,PYG,2026-09-01,7,,
+d:central,Central,month,duplex,PYG,2026-09-01,8,,
 d:central,Central,quarter,casa,PYG,2025-07-01,19,,
 d:central,Central,quarter,casa,PYG,2025-10-01,45,2800000,404
 d:central,Central,quarter,casa,PYG,2026-01-01,62,3000000,457
 d:central,Central,quarter,casa,PYG,2026-04-01,57,3000000,484
-d:central,Central,quarter,casa,PYG,2026-07-01,41,3430000,572
+d:central,Central,quarter,casa,PYG,2026-07-01,44,3250000,543
 d:central,Central,quarter,departamento,PYG,2025-07-01,35,2750000,382
 d:central,Central,quarter,departamento,PYG,2025-10-01,65,2400000,346
 d:central,Central,quarter,departamento,PYG,2026-01-01,78,2500000,380
 d:central,Central,quarter,departamento,PYG,2026-04-01,83,2800000,452
-d:central,Central,quarter,departamento,PYG,2026-07-01,66,3000000,501
+d:central,Central,quarter,departamento,PYG,2026-07-01,69,3000000,501
 d:central,Central,quarter,duplex,PYG,2025-07-01,14,,
 d:central,Central,quarter,duplex,PYG,2025-10-01,25,3750000,541
 d:central,Central,quarter,duplex,PYG,2026-01-01,30,3800000,578
 d:central,Central,quarter,duplex,PYG,2026-04-01,40,3900000,629
-d:central,Central,quarter,duplex,PYG,2026-07-01,25,4000000,667
+d:central,Central,quarter,duplex,PYG,2026-07-01,26,4000000,668
 c:central:luque,Luque,month,casa,PYG,2025-08-01,1,,
 c:central:luque,Luque,month,casa,PYG,2025-09-01,2,,
 c:central:luque,Luque,month,casa,PYG,2025-10-01,4,,
@@ -248,7 +248,7 @@ c:central:luque,Luque,month,departamento,PYG,2026-05-01,8,,
 c:central:luque,Luque,month,departamento,PYG,2026-06-01,9,,
 c:central:luque,Luque,month,departamento,PYG,2026-07-01,10,,
 c:central:luque,Luque,month,departamento,PYG,2026-08-01,8,,
-c:central:luque,Luque,month,departamento,PYG,2026-09-01,2,,
+c:central:luque,Luque,month,departamento,PYG,2026-09-01,4,,
 c:central:luque,Luque,quarter,casa,PYG,2025-07-01,3,,
 c:central:luque,Luque,quarter,casa,PYG,2025-10-01,10,,
 c:central:luque,Luque,quarter,casa,PYG,2026-01-01,15,,
@@ -258,7 +258,7 @@ c:central:luque,Luque,quarter,departamento,PYG,2025-07-01,17,,
 c:central:luque,Luque,quarter,departamento,PYG,2025-10-01,14,,
 c:central:luque,Luque,quarter,departamento,PYG,2026-01-01,15,,
 c:central:luque,Luque,quarter,departamento,PYG,2026-04-01,21,3000000,484
-c:central:luque,Luque,quarter,departamento,PYG,2026-07-01,20,3200000,534
+c:central:luque,Luque,quarter,departamento,PYG,2026-07-01,22,3350000,560
 c:central:luque,Luque,quarter,duplex,PYG,2025-07-01,4,,
 c:central:luque,Luque,quarter,duplex,PYG,2025-10-01,8,,
 c:central:luque,Luque,quarter,duplex,PYG,2026-01-01,6,,
@@ -366,31 +366,6 @@ c:central:lambare,Lambaré,quarter,duplex,PYG,2025-10-01,5,,
 c:central:lambare,Lambaré,quarter,duplex,PYG,2026-01-01,8,,
 c:central:lambare,Lambaré,quarter,duplex,PYG,2026-04-01,7,,
 c:central:lambare,Lambaré,quarter,duplex,PYG,2026-07-01,10,,
-c:central:capiata,Capiatá,month,casa,PYG,2025-08-01,1,,
-c:central:capiata,Capiatá,month,casa,PYG,2025-09-01,1,,
-c:central:capiata,Capiatá,month,casa,PYG,2025-10-01,1,,
-c:central:capiata,Capiatá,month,casa,PYG,2025-12-01,1,,
-c:central:capiata,Capiatá,month,casa,PYG,2026-01-01,1,,
-c:central:capiata,Capiatá,month,casa,PYG,2026-02-01,1,,
-c:central:capiata,Capiatá,month,casa,PYG,2026-03-01,2,,
-c:central:capiata,Capiatá,month,casa,PYG,2026-05-01,1,,
-c:central:capiata,Capiatá,month,casa,PYG,2026-06-01,2,,
-c:central:capiata,Capiatá,month,casa,PYG,2026-07-01,1,,
-c:central:capiata,Capiatá,month,casa,PYG,2026-08-01,2,,
-c:central:capiata,Capiatá,month,casa,PYG,2026-09-01,1,,
-c:central:capiata,Capiatá,month,departamento,PYG,2025-10-01,2,,
-c:central:capiata,Capiatá,month,departamento,PYG,2025-12-01,3,,
-c:central:capiata,Capiatá,month,departamento,PYG,2026-01-01,2,,
-c:central:capiata,Capiatá,month,departamento,PYG,2026-03-01,1,,
-c:central:capiata,Capiatá,month,departamento,PYG,2026-08-01,1,,
-c:central:capiata,Capiatá,quarter,casa,PYG,2025-07-01,2,,
-c:central:capiata,Capiatá,quarter,casa,PYG,2025-10-01,2,,
-c:central:capiata,Capiatá,quarter,casa,PYG,2026-01-01,4,,
-c:central:capiata,Capiatá,quarter,casa,PYG,2026-04-01,3,,
-c:central:capiata,Capiatá,quarter,casa,PYG,2026-07-01,4,,
-c:central:capiata,Capiatá,quarter,departamento,PYG,2025-10-01,5,,
-c:central:capiata,Capiatá,quarter,departamento,PYG,2026-01-01,3,,
-c:central:capiata,Capiatá,quarter,departamento,PYG,2026-07-01,1,,
 c:central:fernando-de-la-mora,Fernando de la Mora,month,departamento,PYG,2025-08-01,1,,
 c:central:fernando-de-la-mora,Fernando de la Mora,month,departamento,PYG,2025-09-01,4,,
 c:central:fernando-de-la-mora,Fernando de la Mora,month,departamento,PYG,2025-10-01,8,,
@@ -404,7 +379,7 @@ c:central:fernando-de-la-mora,Fernando de la Mora,month,departamento,PYG,2026-05
 c:central:fernando-de-la-mora,Fernando de la Mora,month,departamento,PYG,2026-06-01,7,,
 c:central:fernando-de-la-mora,Fernando de la Mora,month,departamento,PYG,2026-07-01,4,,
 c:central:fernando-de-la-mora,Fernando de la Mora,month,departamento,PYG,2026-08-01,6,,
-c:central:fernando-de-la-mora,Fernando de la Mora,month,departamento,PYG,2026-09-01,3,,
+c:central:fernando-de-la-mora,Fernando de la Mora,month,departamento,PYG,2026-09-01,4,,
 c:central:fernando-de-la-mora,Fernando de la Mora,month,duplex,PYG,2025-08-01,1,,
 c:central:fernando-de-la-mora,Fernando de la Mora,month,duplex,PYG,2025-09-01,4,,
 c:central:fernando-de-la-mora,Fernando de la Mora,month,duplex,PYG,2025-11-01,3,,
@@ -435,12 +410,37 @@ c:central:fernando-de-la-mora,Fernando de la Mora,quarter,departamento,PYG,2025-
 c:central:fernando-de-la-mora,Fernando de la Mora,quarter,departamento,PYG,2025-10-01,22,2090000,301
 c:central:fernando-de-la-mora,Fernando de la Mora,quarter,departamento,PYG,2026-01-01,21,2250000,342
 c:central:fernando-de-la-mora,Fernando de la Mora,quarter,departamento,PYG,2026-04-01,22,2900000,468
-c:central:fernando-de-la-mora,Fernando de la Mora,quarter,departamento,PYG,2026-07-01,13,,
+c:central:fernando-de-la-mora,Fernando de la Mora,quarter,departamento,PYG,2026-07-01,14,,
 c:central:fernando-de-la-mora,Fernando de la Mora,quarter,duplex,PYG,2025-07-01,5,,
 c:central:fernando-de-la-mora,Fernando de la Mora,quarter,duplex,PYG,2025-10-01,6,,
 c:central:fernando-de-la-mora,Fernando de la Mora,quarter,duplex,PYG,2026-01-01,7,,
 c:central:fernando-de-la-mora,Fernando de la Mora,quarter,duplex,PYG,2026-04-01,9,,
 c:central:fernando-de-la-mora,Fernando de la Mora,quarter,duplex,PYG,2026-07-01,2,,
+c:central:capiata,Capiatá,month,casa,PYG,2025-08-01,1,,
+c:central:capiata,Capiatá,month,casa,PYG,2025-09-01,1,,
+c:central:capiata,Capiatá,month,casa,PYG,2025-10-01,1,,
+c:central:capiata,Capiatá,month,casa,PYG,2025-12-01,1,,
+c:central:capiata,Capiatá,month,casa,PYG,2026-01-01,1,,
+c:central:capiata,Capiatá,month,casa,PYG,2026-02-01,1,,
+c:central:capiata,Capiatá,month,casa,PYG,2026-03-01,2,,
+c:central:capiata,Capiatá,month,casa,PYG,2026-05-01,1,,
+c:central:capiata,Capiatá,month,casa,PYG,2026-06-01,2,,
+c:central:capiata,Capiatá,month,casa,PYG,2026-07-01,1,,
+c:central:capiata,Capiatá,month,casa,PYG,2026-08-01,2,,
+c:central:capiata,Capiatá,month,casa,PYG,2026-09-01,2,,
+c:central:capiata,Capiatá,month,departamento,PYG,2025-10-01,2,,
+c:central:capiata,Capiatá,month,departamento,PYG,2025-12-01,3,,
+c:central:capiata,Capiatá,month,departamento,PYG,2026-01-01,2,,
+c:central:capiata,Capiatá,month,departamento,PYG,2026-03-01,1,,
+c:central:capiata,Capiatá,month,departamento,PYG,2026-08-01,1,,
+c:central:capiata,Capiatá,quarter,casa,PYG,2025-07-01,2,,
+c:central:capiata,Capiatá,quarter,casa,PYG,2025-10-01,2,,
+c:central:capiata,Capiatá,quarter,casa,PYG,2026-01-01,4,,
+c:central:capiata,Capiatá,quarter,casa,PYG,2026-04-01,3,,
+c:central:capiata,Capiatá,quarter,casa,PYG,2026-07-01,5,,
+c:central:capiata,Capiatá,quarter,departamento,PYG,2025-10-01,5,,
+c:central:capiata,Capiatá,quarter,departamento,PYG,2026-01-01,3,,
+c:central:capiata,Capiatá,quarter,departamento,PYG,2026-07-01,1,,
 c:central:nemby,Ñemby,month,departamento,PYG,2025-09-01,1,,
 c:central:nemby,Ñemby,month,departamento,PYG,2026-01-01,1,,
 c:central:nemby,Ñemby,month,departamento,PYG,2026-02-01,7,,
@@ -457,6 +457,7 @@ c:central:nemby,Ñemby,month,casa,PYG,2026-04-01,1,,
 c:central:nemby,Ñemby,month,casa,PYG,2026-05-01,2,,
 c:central:nemby,Ñemby,month,casa,PYG,2026-06-01,1,,
 c:central:nemby,Ñemby,month,casa,PYG,2026-08-01,4,,
+c:central:nemby,Ñemby,month,casa,PYG,2026-09-01,1,,
 c:central:nemby,Ñemby,month,duplex,PYG,2025-11-01,1,,
 c:central:nemby,Ñemby,month,duplex,PYG,2026-03-01,1,,
 c:central:nemby,Ñemby,quarter,departamento,PYG,2025-07-01,1,,
@@ -466,7 +467,7 @@ c:central:nemby,Ñemby,quarter,departamento,PYG,2026-07-01,2,,
 c:central:nemby,Ñemby,quarter,casa,PYG,2025-10-01,2,,
 c:central:nemby,Ñemby,quarter,casa,PYG,2026-01-01,4,,
 c:central:nemby,Ñemby,quarter,casa,PYG,2026-04-01,4,,
-c:central:nemby,Ñemby,quarter,casa,PYG,2026-07-01,4,,
+c:central:nemby,Ñemby,quarter,casa,PYG,2026-07-01,5,,
 c:central:nemby,Ñemby,quarter,duplex,PYG,2025-10-01,1,,
 c:central:nemby,Ñemby,quarter,duplex,PYG,2026-01-01,1,,
 c:central:villa-elisa,Villa Elisa,month,departamento,PYG,2025-08-01,1,,
@@ -486,6 +487,7 @@ c:central:villa-elisa,Villa Elisa,month,duplex,PYG,2026-05-01,1,,
 c:central:villa-elisa,Villa Elisa,month,duplex,PYG,2026-06-01,2,,
 c:central:villa-elisa,Villa Elisa,month,duplex,PYG,2026-07-01,3,,
 c:central:villa-elisa,Villa Elisa,month,duplex,PYG,2026-08-01,1,,
+c:central:villa-elisa,Villa Elisa,month,duplex,PYG,2026-09-01,1,,
 c:central:villa-elisa,Villa Elisa,month,casa,PYG,2025-11-01,1,,
 c:central:villa-elisa,Villa Elisa,month,casa,PYG,2025-12-01,3,,
 c:central:villa-elisa,Villa Elisa,month,casa,PYG,2026-01-01,2,,
@@ -503,7 +505,7 @@ c:central:villa-elisa,Villa Elisa,quarter,duplex,PYG,2025-07-01,1,,
 c:central:villa-elisa,Villa Elisa,quarter,duplex,PYG,2025-10-01,2,,
 c:central:villa-elisa,Villa Elisa,quarter,duplex,PYG,2026-01-01,4,,
 c:central:villa-elisa,Villa Elisa,quarter,duplex,PYG,2026-04-01,6,,
-c:central:villa-elisa,Villa Elisa,quarter,duplex,PYG,2026-07-01,4,,
+c:central:villa-elisa,Villa Elisa,quarter,duplex,PYG,2026-07-01,5,,
 c:central:villa-elisa,Villa Elisa,quarter,casa,PYG,2025-10-01,4,,
 c:central:villa-elisa,Villa Elisa,quarter,casa,PYG,2026-01-01,5,,
 c:central:villa-elisa,Villa Elisa,quarter,casa,PYG,2026-04-01,3,,
@@ -574,11 +576,11 @@ c:central:aregua,Areguá,quarter,casa,PYG,2026-07-01,2,,
 c:central:itaugua,Itauguá,month,casa,PYG,2025-12-01,2,,
 c:central:itaugua,Itauguá,month,casa,PYG,2026-05-01,1,,
 c:central:itaugua,Itauguá,month,casa,PYG,2026-06-01,1,,
-c:central:itaugua,Itauguá,month,casa,PYG,2026-09-01,1,,
+c:central:itaugua,Itauguá,month,casa,PYG,2026-09-01,2,,
 c:central:itaugua,Itauguá,month,duplex,PYG,2026-04-01,1,,
 c:central:itaugua,Itauguá,quarter,casa,PYG,2025-10-01,2,,
 c:central:itaugua,Itauguá,quarter,casa,PYG,2026-04-01,2,,
-c:central:itaugua,Itauguá,quarter,casa,PYG,2026-07-01,1,,
+c:central:itaugua,Itauguá,quarter,casa,PYG,2026-07-01,2,,
 c:central:itaugua,Itauguá,quarter,duplex,PYG,2026-04-01,1,,
 c:central:ypane,Ypané,month,casa,PYG,2025-11-01,1,,
 c:central:ypane,Ypané,quarter,casa,PYG,2025-10-01,1,,
@@ -605,7 +607,7 @@ d:itapua,Itapúa,month,casa,PYG,2026-05-01,5,,
 d:itapua,Itapúa,month,casa,PYG,2026-06-01,4,,
 d:itapua,Itapúa,month,casa,PYG,2026-07-01,3,,
 d:itapua,Itapúa,month,casa,PYG,2026-08-01,4,,
-d:itapua,Itapúa,month,casa,PYG,2026-09-01,5,,
+d:itapua,Itapúa,month,casa,PYG,2026-09-01,7,,
 d:itapua,Itapúa,month,duplex,PYG,2025-08-01,1,,
 d:itapua,Itapúa,month,duplex,PYG,2025-09-01,1,,
 d:itapua,Itapúa,month,duplex,PYG,2025-10-01,1,,
@@ -630,17 +632,17 @@ d:itapua,Itapúa,month,departamento,PYG,2026-05-01,12,,
 d:itapua,Itapúa,month,departamento,PYG,2026-06-01,14,,
 d:itapua,Itapúa,month,departamento,PYG,2026-07-01,12,,
 d:itapua,Itapúa,month,departamento,PYG,2026-08-01,10,,
-d:itapua,Itapúa,month,departamento,PYG,2026-09-01,7,,
+d:itapua,Itapúa,month,departamento,PYG,2026-09-01,8,,
 d:itapua,Itapúa,quarter,casa,PYG,2025-07-01,9,,
 d:itapua,Itapúa,quarter,casa,PYG,2025-10-01,11,,
 d:itapua,Itapúa,quarter,casa,PYG,2026-01-01,16,,
 d:itapua,Itapúa,quarter,casa,PYG,2026-04-01,12,,
-d:itapua,Itapúa,quarter,casa,PYG,2026-07-01,12,,
+d:itapua,Itapúa,quarter,casa,PYG,2026-07-01,14,,
 d:itapua,Itapúa,quarter,departamento,PYG,2025-07-01,8,,
 d:itapua,Itapúa,quarter,departamento,PYG,2025-10-01,21,2500000,360
 d:itapua,Itapúa,quarter,departamento,PYG,2026-01-01,26,2265150,345
 d:itapua,Itapúa,quarter,departamento,PYG,2026-04-01,34,2500000,403
-d:itapua,Itapúa,quarter,departamento,PYG,2026-07-01,29,2500000,417
+d:itapua,Itapúa,quarter,departamento,PYG,2026-07-01,30,2500000,418
 d:itapua,Itapúa,quarter,duplex,PYG,2025-07-01,2,,
 d:itapua,Itapúa,quarter,duplex,PYG,2025-10-01,5,,
 d:itapua,Itapúa,quarter,duplex,PYG,2026-01-01,6,,
@@ -658,7 +660,7 @@ c:itapua:encarnacion,Encarnación,month,casa,PYG,2026-05-01,2,,
 c:itapua:encarnacion,Encarnación,month,casa,PYG,2026-06-01,3,,
 c:itapua:encarnacion,Encarnación,month,casa,PYG,2026-07-01,2,,
 c:itapua:encarnacion,Encarnación,month,casa,PYG,2026-08-01,2,,
-c:itapua:encarnacion,Encarnación,month,casa,PYG,2026-09-01,1,,
+c:itapua:encarnacion,Encarnación,month,casa,PYG,2026-09-01,2,,
 c:itapua:encarnacion,Encarnación,month,departamento,PYG,2025-09-01,7,,
 c:itapua:encarnacion,Encarnación,month,departamento,PYG,2025-10-01,8,,
 c:itapua:encarnacion,Encarnación,month,departamento,PYG,2025-11-01,4,,
@@ -671,7 +673,7 @@ c:itapua:encarnacion,Encarnación,month,departamento,PYG,2026-05-01,12,,
 c:itapua:encarnacion,Encarnación,month,departamento,PYG,2026-06-01,14,,
 c:itapua:encarnacion,Encarnación,month,departamento,PYG,2026-07-01,12,,
 c:itapua:encarnacion,Encarnación,month,departamento,PYG,2026-08-01,8,,
-c:itapua:encarnacion,Encarnación,month,departamento,PYG,2026-09-01,5,,
+c:itapua:encarnacion,Encarnación,month,departamento,PYG,2026-09-01,6,,
 c:itapua:encarnacion,Encarnación,month,duplex,PYG,2026-03-01,1,,
 c:itapua:encarnacion,Encarnación,month,duplex,PYG,2026-04-01,3,,
 c:itapua:encarnacion,Encarnación,month,duplex,PYG,2026-05-01,1,,
@@ -682,12 +684,12 @@ c:itapua:encarnacion,Encarnación,quarter,casa,PYG,2025-07-01,4,,
 c:itapua:encarnacion,Encarnación,quarter,casa,PYG,2025-10-01,8,,
 c:itapua:encarnacion,Encarnación,quarter,casa,PYG,2026-01-01,14,,
 c:itapua:encarnacion,Encarnación,quarter,casa,PYG,2026-04-01,6,,
-c:itapua:encarnacion,Encarnación,quarter,casa,PYG,2026-07-01,5,,
+c:itapua:encarnacion,Encarnación,quarter,casa,PYG,2026-07-01,6,,
 c:itapua:encarnacion,Encarnación,quarter,departamento,PYG,2025-07-01,7,,
 c:itapua:encarnacion,Encarnación,quarter,departamento,PYG,2025-10-01,19,,
 c:itapua:encarnacion,Encarnación,quarter,departamento,PYG,2026-01-01,23,3000000,457
 c:itapua:encarnacion,Encarnación,quarter,departamento,PYG,2026-04-01,32,2500000,403
-c:itapua:encarnacion,Encarnación,quarter,departamento,PYG,2026-07-01,25,2500000,417
+c:itapua:encarnacion,Encarnación,quarter,departamento,PYG,2026-07-01,26,2500000,418
 c:itapua:encarnacion,Encarnación,quarter,duplex,PYG,2026-01-01,1,,
 c:itapua:encarnacion,Encarnación,quarter,duplex,PYG,2026-04-01,4,,
 c:itapua:encarnacion,Encarnación,quarter,duplex,PYG,2026-07-01,6,,
@@ -717,7 +719,7 @@ d:alto-parana,Alto Paraná,month,casa,PYG,2026-05-01,5,,
 d:alto-parana,Alto Paraná,month,casa,PYG,2026-06-01,4,,
 d:alto-parana,Alto Paraná,month,casa,PYG,2026-07-01,13,,
 d:alto-parana,Alto Paraná,month,casa,PYG,2026-08-01,2,,
-d:alto-parana,Alto Paraná,month,casa,PYG,2026-09-01,8,,
+d:alto-parana,Alto Paraná,month,casa,PYG,2026-09-01,9,,
 d:alto-parana,Alto Paraná,month,departamento,PYG,2025-09-01,2,,
 d:alto-parana,Alto Paraná,month,departamento,PYG,2025-10-01,1,,
 d:alto-parana,Alto Paraná,month,departamento,PYG,2025-12-01,1,,
@@ -740,7 +742,7 @@ d:alto-parana,Alto Paraná,quarter,casa,PYG,2025-07-01,5,,
 d:alto-parana,Alto Paraná,quarter,casa,PYG,2025-10-01,17,,
 d:alto-parana,Alto Paraná,quarter,casa,PYG,2026-01-01,22,3975000,605
 d:alto-parana,Alto Paraná,quarter,casa,PYG,2026-04-01,17,,
-d:alto-parana,Alto Paraná,quarter,casa,PYG,2026-07-01,23,3000000,501
+d:alto-parana,Alto Paraná,quarter,casa,PYG,2026-07-01,24,3050000,509
 d:alto-parana,Alto Paraná,quarter,departamento,PYG,2025-07-01,2,,
 d:alto-parana,Alto Paraná,quarter,departamento,PYG,2025-10-01,2,,
 d:alto-parana,Alto Paraná,quarter,departamento,PYG,2026-01-01,14,,
@@ -812,12 +814,12 @@ d:cordillera,Cordillera,month,casa,PYG,2026-02-01,1,,
 d:cordillera,Cordillera,month,casa,PYG,2026-04-01,2,,
 d:cordillera,Cordillera,month,casa,PYG,2026-06-01,2,,
 d:cordillera,Cordillera,month,casa,PYG,2026-08-01,1,,
-d:cordillera,Cordillera,month,casa,PYG,2026-09-01,1,,
+d:cordillera,Cordillera,month,casa,PYG,2026-09-01,2,,
 d:cordillera,Cordillera,quarter,casa,PYG,2025-07-01,1,,
 d:cordillera,Cordillera,quarter,casa,PYG,2025-10-01,4,,
 d:cordillera,Cordillera,quarter,casa,PYG,2026-01-01,4,,
 d:cordillera,Cordillera,quarter,casa,PYG,2026-04-01,4,,
-d:cordillera,Cordillera,quarter,casa,PYG,2026-07-01,2,,
+d:cordillera,Cordillera,quarter,casa,PYG,2026-07-01,3,,
 c:cordillera:san-bernardino,San Bernardino,month,casa,PYG,2025-11-01,2,,
 c:cordillera:san-bernardino,San Bernardino,month,casa,PYG,2025-12-01,2,,
 c:cordillera:san-bernardino,San Bernardino,month,casa,PYG,2026-01-01,3,,
