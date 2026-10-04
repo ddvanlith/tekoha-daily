@@ -56,7 +56,7 @@ py,Paraguay,sale,2026-08-31,36
 py,Paraguay,sale,2026-09-07,34
 py,Paraguay,sale,2026-09-14,38
 py,Paraguay,sale,2026-09-21,35
-py,Paraguay,sale,2026-09-28,31
+py,Paraguay,sale,2026-09-28,32
 py,Paraguay,rent,2025-08-25,45
 py,Paraguay,rent,2025-09-01,35
 py,Paraguay,rent,2025-09-08,45
@@ -100,7 +100,7 @@ py,Paraguay,rent,2026-05-25,58
 py,Paraguay,rent,2026-06-01,49
 py,Paraguay,rent,2026-06-08,42
 py,Paraguay,rent,2026-06-15,39
-py,Paraguay,rent,2026-06-22,49
+py,Paraguay,rent,2026-06-22,48
 py,Paraguay,rent,2026-06-29,61
 py,Paraguay,rent,2026-07-06,42
 py,Paraguay,rent,2026-07-13,54
@@ -172,7 +172,7 @@ d:asuncion,Asunción,sale,2026-08-31,15
 d:asuncion,Asunción,sale,2026-09-07,6
 d:asuncion,Asunción,sale,2026-09-14,12
 d:asuncion,Asunción,sale,2026-09-21,11
-d:asuncion,Asunción,sale,2026-09-28,11
+d:asuncion,Asunción,sale,2026-09-28,12
 d:asuncion,Asunción,rent,2025-08-25,20
 d:asuncion,Asunción,rent,2025-09-01,18
 d:asuncion,Asunción,rent,2025-09-08,16
@@ -216,7 +216,7 @@ d:asuncion,Asunción,rent,2026-05-25,22
 d:asuncion,Asunción,rent,2026-06-01,22
 d:asuncion,Asunción,rent,2026-06-08,16
 d:asuncion,Asunción,rent,2026-06-15,15
-d:asuncion,Asunción,rent,2026-06-22,17
+d:asuncion,Asunción,rent,2026-06-22,16
 d:asuncion,Asunción,rent,2026-06-29,19
 d:asuncion,Asunción,rent,2026-07-06,19
 d:asuncion,Asunción,rent,2026-07-13,24
@@ -1134,18 +1134,6 @@ c:central:ita,Itá,sale,2026-06-01,1
 c:central:ita,Itá,sale,2026-08-10,1
 c:central:ita,Itá,rent,2026-05-18,1
 c:central:ita,Itá,rent,2026-09-14,1
-c:central:san-antonio,San Antonio,sale,2025-11-17,2
-c:central:san-antonio,San Antonio,sale,2025-12-08,1
-c:central:san-antonio,San Antonio,sale,2025-12-15,1
-c:central:san-antonio,San Antonio,sale,2026-01-05,1
-c:central:san-antonio,San Antonio,sale,2026-05-18,1
-c:central:san-antonio,San Antonio,sale,2026-06-22,1
-c:central:san-antonio,San Antonio,sale,2026-07-27,1
-c:central:san-antonio,San Antonio,sale,2026-08-17,1
-c:central:san-antonio,San Antonio,rent,2025-10-27,1
-c:central:san-antonio,San Antonio,rent,2025-11-03,1
-c:central:san-antonio,San Antonio,rent,2026-06-22,1
-c:central:san-antonio,San Antonio,rent,2026-06-29,1
 c:central:julian-augusto-saldivar,Julián Augusto Saldívar,sale,2025-08-25,1
 c:central:julian-augusto-saldivar,Julián Augusto Saldívar,sale,2025-11-24,1
 c:central:julian-augusto-saldivar,Julián Augusto Saldívar,sale,2026-02-23,1
@@ -1953,17 +1941,17 @@ d:paraguari,Paraguarí,sale,2026-08-31,1
 d:paraguari,Paraguarí,sale,2026-09-07,1
 d:paraguari,Paraguarí,sale,2026-09-28,1
 d:paraguari,Paraguarí,rent,2026-07-27,1
+d:caaguazu,Caaguazú,sale,2025-09-22,1
+d:caaguazu,Caaguazú,sale,2025-12-22,1
+d:caaguazu,Caaguazú,sale,2026-03-09,1
+d:caaguazu,Caaguazú,sale,2026-07-27,1
+d:caaguazu,Caaguazú,sale,2026-08-03,1
 d:misiones,Misiones,sale,2025-09-29,1
 d:misiones,Misiones,sale,2025-11-10,1
 d:misiones,Misiones,sale,2026-08-03,1
 d:misiones,Misiones,rent,2025-09-15,1
 d:misiones,Misiones,rent,2025-09-29,2
 d:misiones,Misiones,rent,2025-10-27,1
-d:caaguazu,Caaguazú,sale,2025-09-22,1
-d:caaguazu,Caaguazú,sale,2025-12-22,1
-d:caaguazu,Caaguazú,sale,2026-03-09,1
-d:caaguazu,Caaguazú,sale,2026-07-27,1
-d:caaguazu,Caaguazú,sale,2026-08-03,1
 d:guaira,Guairá,sale,2025-12-01,1
 d:guaira,Guairá,sale,2026-03-09,1
 d:guaira,Guairá,sale,2026-05-25,1
