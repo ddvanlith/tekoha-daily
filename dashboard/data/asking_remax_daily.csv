@@ -215,12 +215,12 @@ date,market_id,market,metric,property_kind,value,n
 2026-10-03,py,Paraguay,asking_usd_per_m2_built,departamento,1772,469
 2026-10-03,py,Paraguay,asking_rent_usd_month,departamento,605,349
 2026-10-03,py,Paraguay,asking_rent_usd_month,casa,741,172
-2026-10-04,py,Paraguay,active_sale,,9509,9509
+2026-10-04,py,Paraguay,active_sale,,9515,9515
 2026-10-04,py,Paraguay,active_rent,,1072,1072
-2026-10-04,py,Paraguay,asking_price_usd,casa,115250,2386
-2026-10-04,py,Paraguay,asking_price_usd,departamento,104599,1862
-2026-10-04,py,Paraguay,asking_usd_per_m2_built,casa,730,2201
-2026-10-04,py,Paraguay,asking_usd_per_m2_built,departamento,1776,468
+2026-10-04,py,Paraguay,asking_price_usd,casa,115000,2388
+2026-10-04,py,Paraguay,asking_price_usd,departamento,104852,1864
+2026-10-04,py,Paraguay,asking_usd_per_m2_built,casa,730,2202
+2026-10-04,py,Paraguay,asking_usd_per_m2_built,departamento,1780,470
 2026-10-04,py,Paraguay,asking_rent_usd_month,departamento,600,350
 2026-10-04,py,Paraguay,asking_rent_usd_month,casa,767,171
 2026-09-05,d:asuncion,Asunción,active_sale,,2094,2094
@@ -439,12 +439,12 @@ date,market_id,market,metric,property_kind,value,n
 2026-10-03,d:asuncion,Asunción,asking_usd_per_m2_built,departamento,1846,355
 2026-10-03,d:asuncion,Asunción,asking_rent_usd_month,departamento,818,139
 2026-10-03,d:asuncion,Asunción,asking_rent_usd_month,casa,1618,23
-2026-10-04,d:asuncion,Asunción,active_sale,,2086,2086
+2026-10-04,d:asuncion,Asunción,active_sale,,2088,2088
 2026-10-04,d:asuncion,Asunción,active_rent,,306,306
 2026-10-04,d:asuncion,Asunción,asking_price_usd,casa,233549,338
-2026-10-04,d:asuncion,Asunción,asking_price_usd,departamento,115000,1271
+2026-10-04,d:asuncion,Asunción,asking_price_usd,departamento,115100,1273
 2026-10-04,d:asuncion,Asunción,asking_usd_per_m2_built,casa,853,304
-2026-10-04,d:asuncion,Asunción,asking_usd_per_m2_built,departamento,1846,354
+2026-10-04,d:asuncion,Asunción,asking_usd_per_m2_built,departamento,1848,356
 2026-10-04,d:asuncion,Asunción,asking_rent_usd_month,departamento,818,139
 2026-10-04,d:asuncion,Asunción,asking_rent_usd_month,casa,1618,23
 2026-09-05,d:central,Central,active_sale,,3652,3652
@@ -663,11 +663,11 @@ date,market_id,market,metric,property_kind,value,n
 2026-10-03,d:central,Central,asking_usd_per_m2_built,departamento,1271,59
 2026-10-03,d:central,Central,asking_rent_usd_month,departamento,460,145
 2026-10-03,d:central,Central,asking_rent_usd_month,casa,511,77
-2026-10-04,d:central,Central,active_sale,,3719,3719
+2026-10-04,d:central,Central,active_sale,,3722,3722
 2026-10-04,d:central,Central,active_rent,,460,460
-2026-10-04,d:central,Central,asking_price_usd,casa,90284,1324
+2026-10-04,d:central,Central,asking_price_usd,casa,90199,1326
 2026-10-04,d:central,Central,asking_price_usd,departamento,71546,339
-2026-10-04,d:central,Central,asking_usd_per_m2_built,casa,722,1253
+2026-10-04,d:central,Central,asking_usd_per_m2_built,casa,722,1254
 2026-10-04,d:central,Central,asking_usd_per_m2_built,departamento,1271,59
 2026-10-04,d:central,Central,asking_rent_usd_month,departamento,460,144
 2026-10-04,d:central,Central,asking_rent_usd_month,casa,511,77
@@ -1563,10 +1563,10 @@ date,market_id,market,metric,property_kind,value,n
 2026-10-03,c:central:nemby,Ñemby,active_rent,,30,30
 2026-10-03,c:central:nemby,Ñemby,asking_price_usd,casa,73249,84
 2026-10-03,c:central:nemby,Ñemby,asking_usd_per_m2_built,casa,721,80
-2026-10-04,c:central:nemby,Ñemby,active_sale,,192,192
+2026-10-04,c:central:nemby,Ñemby,active_sale,,193,193
 2026-10-04,c:central:nemby,Ñemby,active_rent,,30,30
-2026-10-04,c:central:nemby,Ñemby,asking_price_usd,casa,73249,84
-2026-10-04,c:central:nemby,Ñemby,asking_usd_per_m2_built,casa,721,80
+2026-10-04,c:central:nemby,Ñemby,asking_price_usd,casa,73249,85
+2026-10-04,c:central:nemby,Ñemby,asking_usd_per_m2_built,casa,738,81
 2026-09-05,c:central:mariano-roque-alonso,Mariano Roque Alonso,active_sale,,235,235
 2026-09-05,c:central:mariano-roque-alonso,Mariano Roque Alonso,active_rent,,15,15
 2026-09-05,c:central:mariano-roque-alonso,Mariano Roque Alonso,asking_price_usd,casa,102038,54
@@ -4253,7 +4253,7 @@ date,market_id,market,metric,property_kind,value,n
 2026-10-02,d:presidente-hayes,Presidente Hayes,active_rent,,0,0
 2026-10-03,d:presidente-hayes,Presidente Hayes,active_sale,,139,139
 2026-10-03,d:presidente-hayes,Presidente Hayes,active_rent,,0,0
-2026-10-04,d:presidente-hayes,Presidente Hayes,active_sale,,139,139
+2026-10-04,d:presidente-hayes,Presidente Hayes,active_sale,,140,140
 2026-10-04,d:presidente-hayes,Presidente Hayes,active_rent,,0,0
 2026-09-05,c:presidente-hayes:villa-hayes,Villa Hayes,active_sale,,85,85
 2026-09-05,c:presidente-hayes:villa-hayes,Villa Hayes,active_rent,,0,0
