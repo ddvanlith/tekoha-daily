@@ -33,19 +33,19 @@ py,Paraguay,rent,casa,2025-10-01,97,0,79.4,,16
 py,Paraguay,rent,casa,2026-01-01,116,0,79.3,,23
 py,Paraguay,rent,casa,2026-04-01,114,0,79.8,,21
 py,Paraguay,rent,casa,2026-07-01,118,0,75.4,,26
-py,Paraguay,rent,casa,2026-10-01,5,,,,3
+py,Paraguay,rent,casa,2026-10-01,7,,,,3
 py,Paraguay,rent,departamento,2025-07-01,95,0,78.9,,19
 py,Paraguay,rent,departamento,2025-10-01,187,0,76.5,-6.5,38
 py,Paraguay,rent,departamento,2026-01-01,237,0,78.1,-6.7,47
 py,Paraguay,rent,departamento,2026-04-01,218,0,81.2,-7.3,38
 py,Paraguay,rent,departamento,2026-07-01,190,0,77.9,-6.7,39
-py,Paraguay,rent,departamento,2026-10-01,4,,,,2
+py,Paraguay,rent,departamento,2026-10-01,9,,,,3
 py,Paraguay,rent,all,2025-07-01,221,0,67.9,-9.1,61
 py,Paraguay,rent,all,2025-10-01,460,0,74.3,-8.7,106
 py,Paraguay,rent,all,2026-01-01,514,0,75.7,-8.4,116
 py,Paraguay,rent,all,2026-04-01,491,0,78.6,-8,97
-py,Paraguay,rent,all,2026-07-01,462,0,76,-9.1,100
-py,Paraguay,rent,all,2026-10-01,18,,,,6
+py,Paraguay,rent,all,2026-07-01,463,0,76,-9.1,100
+py,Paraguay,rent,all,2026-10-01,28,,,,8
 d:asuncion,Asunción,sale,casa,2025-07-01,7,,,,5
 d:asuncion,Asunción,sale,casa,2025-10-01,10,,,,8
 d:asuncion,Asunción,sale,casa,2026-01-01,21,,,,14
@@ -76,19 +76,19 @@ d:asuncion,Asunción,rent,casa,2025-10-01,19,,,,6
 d:asuncion,Asunción,rent,casa,2026-01-01,14,,,,5
 d:asuncion,Asunción,rent,casa,2026-04-01,19,,,,6
 d:asuncion,Asunción,rent,casa,2026-07-01,28,,,,7
-d:asuncion,Asunción,rent,casa,2026-10-01,1,,,,1
+d:asuncion,Asunción,rent,casa,2026-10-01,2,,,,1
 d:asuncion,Asunción,rent,departamento,2025-07-01,54,0,77.8,,12
 d:asuncion,Asunción,rent,departamento,2025-10-01,105,0,79,,20
 d:asuncion,Asunción,rent,departamento,2026-01-01,125,0,71.2,-7.7,35
 d:asuncion,Asunción,rent,departamento,2026-04-01,93,0,76.3,,21
 d:asuncion,Asunción,rent,departamento,2026-07-01,94,0,71.3,,26
-d:asuncion,Asunción,rent,departamento,2026-10-01,2,,,,1
+d:asuncion,Asunción,rent,departamento,2026-10-01,3,,,,1
 d:asuncion,Asunción,rent,all,2025-07-01,91,0,71.4,,20
 d:asuncion,Asunción,rent,all,2025-10-01,179,0,73.2,-6.4,43
 d:asuncion,Asunción,rent,all,2026-01-01,182,0,65.9,-7.7,59
 d:asuncion,Asunción,rent,all,2026-04-01,150,0,72,-7.7,40
 d:asuncion,Asunción,rent,all,2026-07-01,159,0,67.9,-7.9,47
-d:asuncion,Asunción,rent,all,2026-10-01,6,,,,2
+d:asuncion,Asunción,rent,all,2026-10-01,9,,,,2
 d:central,Central,sale,casa,2025-07-01,20,,,,10
 d:central,Central,sale,casa,2025-10-01,64,-3.8,34.4,-7.5,40
 d:central,Central,sale,casa,2026-01-01,34,-2.1,44.1,,19
@@ -128,13 +128,13 @@ d:central,Central,rent,departamento,2025-10-01,61,0,65.6,,17
 d:central,Central,rent,departamento,2026-01-01,77,0,81.8,,11
 d:central,Central,rent,departamento,2026-04-01,81,0,81.5,,13
 d:central,Central,rent,departamento,2026-07-01,67,0,79.1,,12
-d:central,Central,rent,departamento,2026-10-01,2,,,,1
+d:central,Central,rent,departamento,2026-10-01,5,,,,2
 d:central,Central,rent,all,2025-07-01,91,0,58.2,-10.1,34
 d:central,Central,rent,all,2025-10-01,177,0,65,-10,56
 d:central,Central,rent,all,2026-01-01,212,0,78.3,-9.1,42
 d:central,Central,rent,all,2026-04-01,218,0,78,-7.8,44
-d:central,Central,rent,all,2026-07-01,179,0,77.1,-10,36
-d:central,Central,rent,all,2026-10-01,9,,,,4
+d:central,Central,rent,all,2026-07-01,180,0,77.2,-10,36
+d:central,Central,rent,all,2026-10-01,13,,,,6
 c:central:luque,Luque,sale,casa,2025-07-01,5,,,,2
 c:central:luque,Luque,sale,casa,2025-10-01,17,,,,7
 c:central:luque,Luque,sale,casa,2026-01-01,5,,,,2
@@ -289,12 +289,13 @@ c:central:fernando-de-la-mora,Fernando de la Mora,rent,departamento,2025-10-01,2
 c:central:fernando-de-la-mora,Fernando de la Mora,rent,departamento,2026-01-01,20,,,,3
 c:central:fernando-de-la-mora,Fernando de la Mora,rent,departamento,2026-04-01,21,,,,1
 c:central:fernando-de-la-mora,Fernando de la Mora,rent,departamento,2026-07-01,13,,,,1
+c:central:fernando-de-la-mora,Fernando de la Mora,rent,departamento,2026-10-01,1,,,,0
 c:central:fernando-de-la-mora,Fernando de la Mora,rent,all,2025-07-01,14,,,,7
 c:central:fernando-de-la-mora,Fernando de la Mora,rent,all,2025-10-01,37,0,64.9,,11
 c:central:fernando-de-la-mora,Fernando de la Mora,rent,all,2026-01-01,44,0,72.7,,10
 c:central:fernando-de-la-mora,Fernando de la Mora,rent,all,2026-04-01,38,0,94.7,,2
-c:central:fernando-de-la-mora,Fernando de la Mora,rent,all,2026-07-01,30,0,83.3,,4
-c:central:fernando-de-la-mora,Fernando de la Mora,rent,all,2026-10-01,1,,,,1
+c:central:fernando-de-la-mora,Fernando de la Mora,rent,all,2026-07-01,31,0,83.9,,4
+c:central:fernando-de-la-mora,Fernando de la Mora,rent,all,2026-10-01,3,,,,2
 c:central:capiata,Capiatá,sale,casa,2025-07-01,3,,,,1
 c:central:capiata,Capiatá,sale,casa,2025-10-01,7,,,,4
 c:central:capiata,Capiatá,sale,casa,2026-04-01,8,,,,5
@@ -320,9 +321,11 @@ c:central:capiata,Capiatá,rent,all,2025-10-01,10,,,,3
 c:central:capiata,Capiatá,rent,all,2026-01-01,10,,,,1
 c:central:capiata,Capiatá,rent,all,2026-04-01,5,,,,2
 c:central:capiata,Capiatá,rent,all,2026-07-01,7,,,,3
+c:central:capiata,Capiatá,rent,all,2026-10-01,1,,,,1
 c:central:capiata,Capiatá,rent,departamento,2025-10-01,5,,,,1
 c:central:capiata,Capiatá,rent,departamento,2026-01-01,3,,,,0
 c:central:capiata,Capiatá,rent,departamento,2026-07-01,1,,,,1
+c:central:capiata,Capiatá,rent,departamento,2026-10-01,1,,,,1
 c:central:nemby,Ñemby,sale,terreno,2025-07-01,4,,,,3
 c:central:nemby,Ñemby,sale,terreno,2025-10-01,6,,,,4
 c:central:nemby,Ñemby,sale,terreno,2026-01-01,11,,,,6
@@ -382,11 +385,13 @@ c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,departamento,2025-10-01
 c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,departamento,2026-01-01,6,,,,2
 c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,departamento,2026-04-01,11,,,,3
 c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,departamento,2026-07-01,10,,,,3
+c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,departamento,2026-10-01,1,,,,0
 c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,all,2025-07-01,7,,,,3
 c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,all,2025-10-01,7,,,,2
 c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,all,2026-01-01,14,,,,2
 c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,all,2026-04-01,20,,,,6
 c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,all,2026-07-01,15,,,,5
+c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,all,2026-10-01,1,,,,0
 c:central:limpio,Limpio,sale,casa,2025-07-01,1,,,,1
 c:central:limpio,Limpio,sale,casa,2025-10-01,4,,,,2
 c:central:limpio,Limpio,sale,casa,2026-01-01,2,,,,1
@@ -564,12 +569,13 @@ d:itapua,Itapúa,rent,departamento,2025-10-01,20,,,,1
 d:itapua,Itapúa,rent,departamento,2026-01-01,22,,,,0
 d:itapua,Itapúa,rent,departamento,2026-04-01,33,0,90.9,,3
 d:itapua,Itapúa,rent,departamento,2026-07-01,26,,,,1
+d:itapua,Itapúa,rent,departamento,2026-10-01,1,,,,0
 d:itapua,Itapúa,rent,all,2025-07-01,17,,,,1
 d:itapua,Itapúa,rent,all,2025-10-01,45,0,95.6,,2
 d:itapua,Itapúa,rent,all,2026-01-01,44,0,97.7,,1
 d:itapua,Itapúa,rent,all,2026-04-01,59,0,88.1,,7
 d:itapua,Itapúa,rent,all,2026-07-01,56,0,91.1,,5
-d:itapua,Itapúa,rent,all,2026-10-01,1,,,,0
+d:itapua,Itapúa,rent,all,2026-10-01,3,,,,0
 c:itapua:encarnacion,Encarnación,sale,terreno,2025-07-01,2,,,,0
 c:itapua:encarnacion,Encarnación,sale,terreno,2025-10-01,7,,,,3
 c:itapua:encarnacion,Encarnación,sale,terreno,2026-01-01,8,,,,2
@@ -600,37 +606,13 @@ c:itapua:encarnacion,Encarnación,rent,departamento,2025-10-01,18,,,,1
 c:itapua:encarnacion,Encarnación,rent,departamento,2026-01-01,19,,,,0
 c:itapua:encarnacion,Encarnación,rent,departamento,2026-04-01,31,0,90.3,,3
 c:itapua:encarnacion,Encarnación,rent,departamento,2026-07-01,22,,,,1
+c:itapua:encarnacion,Encarnación,rent,departamento,2026-10-01,1,,,,0
 c:itapua:encarnacion,Encarnación,rent,all,2025-07-01,11,,,,1
 c:itapua:encarnacion,Encarnación,rent,all,2025-10-01,37,0,94.6,,2
 c:itapua:encarnacion,Encarnación,rent,all,2026-01-01,38,0,97.4,,1
 c:itapua:encarnacion,Encarnación,rent,all,2026-04-01,46,0,89.1,,5
 c:itapua:encarnacion,Encarnación,rent,all,2026-07-01,41,0,92.7,,3
-c:itapua:encarnacion,Encarnación,rent,all,2026-10-01,1,,,,0
-c:itapua:cambyreta,Cambyretá,sale,casa,2025-10-01,1,,,,1
-c:itapua:cambyreta,Cambyretá,sale,casa,2026-07-01,7,,,,2
-c:itapua:cambyreta,Cambyretá,sale,terreno,2025-10-01,1,,,,1
-c:itapua:cambyreta,Cambyretá,sale,terreno,2026-01-01,5,,,,1
-c:itapua:cambyreta,Cambyretá,sale,terreno,2026-04-01,1,,,,0
-c:itapua:cambyreta,Cambyretá,sale,terreno,2026-07-01,5,,,,1
-c:itapua:cambyreta,Cambyretá,sale,all,2025-10-01,2,,,,2
-c:itapua:cambyreta,Cambyretá,sale,all,2026-01-01,5,,,,1
-c:itapua:cambyreta,Cambyretá,sale,all,2026-04-01,2,,,,0
-c:itapua:cambyreta,Cambyretá,sale,all,2026-07-01,13,,,,3
-c:itapua:cambyreta,Cambyretá,sale,duplex,2026-04-01,1,,,,0
-c:itapua:cambyreta,Cambyretá,sale,duplex,2026-07-01,1,,,,0
-c:itapua:cambyreta,Cambyretá,rent,casa,2025-07-01,3,,,,0
-c:itapua:cambyreta,Cambyretá,rent,casa,2026-04-01,1,,,,1
-c:itapua:cambyreta,Cambyretá,rent,casa,2026-07-01,6,,,,1
-c:itapua:cambyreta,Cambyretá,rent,departamento,2025-07-01,1,,,,0
-c:itapua:cambyreta,Cambyretá,rent,departamento,2025-10-01,2,,,,0
-c:itapua:cambyreta,Cambyretá,rent,departamento,2026-01-01,3,,,,0
-c:itapua:cambyreta,Cambyretá,rent,departamento,2026-04-01,2,,,,0
-c:itapua:cambyreta,Cambyretá,rent,departamento,2026-07-01,4,,,,0
-c:itapua:cambyreta,Cambyretá,rent,all,2025-07-01,6,,,,0
-c:itapua:cambyreta,Cambyretá,rent,all,2025-10-01,5,,,,0
-c:itapua:cambyreta,Cambyretá,rent,all,2026-01-01,6,,,,0
-c:itapua:cambyreta,Cambyretá,rent,all,2026-04-01,8,,,,2
-c:itapua:cambyreta,Cambyretá,rent,all,2026-07-01,15,,,,2
+c:itapua:encarnacion,Encarnación,rent,all,2026-10-01,2,,,,0
 c:itapua:san-juan-del-parana,San Juan del Paraná,sale,terreno,2025-10-01,1,,,,0
 c:itapua:san-juan-del-parana,San Juan del Paraná,sale,terreno,2026-01-01,1,,,,0
 c:itapua:san-juan-del-parana,San Juan del Paraná,sale,terreno,2026-04-01,1,,,,0
@@ -838,13 +820,14 @@ d:boqueron,Boquerón,rent,casa,2025-10-01,4,,,,1
 d:boqueron,Boquerón,rent,casa,2026-01-01,12,,,,2
 d:boqueron,Boquerón,rent,casa,2026-04-01,8,,,,1
 d:boqueron,Boquerón,rent,casa,2026-07-01,9,,,,2
+d:boqueron,Boquerón,rent,casa,2026-10-01,1,,,,0
 d:boqueron,Boquerón,rent,departamento,2025-07-01,1,,,,0
 d:boqueron,Boquerón,rent,all,2025-07-01,4,,,,1
 d:boqueron,Boquerón,rent,all,2025-10-01,11,,,,2
 d:boqueron,Boquerón,rent,all,2026-01-01,20,,,,4
 d:boqueron,Boquerón,rent,all,2026-04-01,10,,,,2
 d:boqueron,Boquerón,rent,all,2026-07-01,17,,,,3
-d:boqueron,Boquerón,rent,all,2026-10-01,1,,,,0
+d:boqueron,Boquerón,rent,all,2026-10-01,2,,,,0
 d:presidente-hayes,Presidente Hayes,sale,terreno,2025-07-01,1,,,,0
 d:presidente-hayes,Presidente Hayes,sale,terreno,2025-10-01,1,,,,0
 d:presidente-hayes,Presidente Hayes,sale,terreno,2026-01-01,1,,,,0
