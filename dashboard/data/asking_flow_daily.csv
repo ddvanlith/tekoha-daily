@@ -1,7 +1,7 @@
 market_id,market,date,pipeline_ran,cuts,increases,new,delisted,went_sold,went_rented
 py,Paraguay,2026-08-24,1,13,5,121,0,15,7
 py,Paraguay,2026-08-25,1,8,2,75,14,1,2
-py,Paraguay,2026-08-26,1,21,5,168,60,11,7
+py,Paraguay,2026-08-26,1,21,5,169,60,11,7
 py,Paraguay,2026-08-27,0,,,,,,
 py,Paraguay,2026-08-28,1,32,16,266,58,19,18
 py,Paraguay,2026-08-29,1,0,0,73,0,1,0
@@ -37,15 +37,16 @@ py,Paraguay,2026-09-27,1,3,1,33,0,3,0
 py,Paraguay,2026-09-28,1,2,9,28,0,4,1
 py,Paraguay,2026-09-29,0,,,,,,
 py,Paraguay,2026-09-30,0,,,,,,
-py,Paraguay,2026-10-01,1,69,28,281,151,44,28
+py,Paraguay,2026-10-01,1,69,28,281,151,43,28
 py,Paraguay,2026-10-02,1,19,21,121,11,8,18
 py,Paraguay,2026-10-03,1,10,5,57,3,4,4
 py,Paraguay,2026-10-04,1,2,2,39,0,2,0
 py,Paraguay,2026-10-05,1,23,4,66,33,5,9
-py,Paraguay,2026-10-06,1,21,6,109,8,4,11
+py,Paraguay,2026-10-06,1,21,6,107,8,4,11
+py,Paraguay,2026-10-07,1,28,7,93,16,18,13
 d:asuncion,Asunción,2026-08-24,1,7,1,72,0,8,2
 d:asuncion,Asunción,2026-08-25,1,5,0,61,6,0,0
-d:asuncion,Asunción,2026-08-26,1,5,3,90,18,1,4
+d:asuncion,Asunción,2026-08-26,1,5,3,91,18,1,4
 d:asuncion,Asunción,2026-08-27,0,,,,,,
 d:asuncion,Asunción,2026-08-28,1,5,7,130,27,6,4
 d:asuncion,Asunción,2026-08-29,1,0,0,55,0,0,0
@@ -81,12 +82,13 @@ d:asuncion,Asunción,2026-09-27,1,2,1,19,0,0,0
 d:asuncion,Asunción,2026-09-28,1,0,0,11,0,0,0
 d:asuncion,Asunción,2026-09-29,0,,,,,,
 d:asuncion,Asunción,2026-09-30,0,,,,,,
-d:asuncion,Asunción,2026-10-01,1,22,18,122,47,27,8
+d:asuncion,Asunción,2026-10-01,1,22,18,122,47,26,8
 d:asuncion,Asunción,2026-10-02,1,6,14,60,3,1,6
 d:asuncion,Asunción,2026-10-03,1,6,3,23,0,2,2
 d:asuncion,Asunción,2026-10-04,1,1,1,14,0,2,0
 d:asuncion,Asunción,2026-10-05,1,8,2,40,4,2,4
-d:asuncion,Asunción,2026-10-06,1,9,4,60,2,0,3
+d:asuncion,Asunción,2026-10-06,1,9,4,58,2,0,3
+d:asuncion,Asunción,2026-10-07,1,12,2,49,3,12,4
 d:central,Central,2026-08-24,1,4,3,35,0,5,3
 d:central,Central,2026-08-25,1,2,1,12,6,0,0
 d:central,Central,2026-08-26,1,10,1,60,25,3,2
@@ -131,6 +133,7 @@ d:central,Central,2026-10-03,1,3,1,24,2,2,2
 d:central,Central,2026-10-04,1,1,1,15,0,0,0
 d:central,Central,2026-10-05,1,13,1,20,21,2,4
 d:central,Central,2026-10-06,1,7,2,39,2,0,5
+d:central,Central,2026-10-07,1,10,1,26,1,4,6
 c:central:luque,Luque,2026-08-24,1,2,1,9,0,2,0
 c:central:luque,Luque,2026-08-25,1,1,1,1,1,0,0
 c:central:luque,Luque,2026-08-26,1,1,0,16,6,0,0
@@ -175,6 +178,7 @@ c:central:luque,Luque,2026-10-03,1,1,1,2,0,0,0
 c:central:luque,Luque,2026-10-04,1,0,0,2,0,0,0
 c:central:luque,Luque,2026-10-05,1,7,0,5,4,2,1
 c:central:luque,Luque,2026-10-06,1,2,1,7,1,0,0
+c:central:luque,Luque,2026-10-07,1,0,0,8,0,0,1
 c:central:san-lorenzo,San Lorenzo,2026-08-24,1,0,0,7,0,2,0
 c:central:san-lorenzo,San Lorenzo,2026-08-25,1,0,0,1,1,0,0
 c:central:san-lorenzo,San Lorenzo,2026-08-26,1,1,0,5,6,1,0
@@ -218,7 +222,8 @@ c:central:san-lorenzo,San Lorenzo,2026-10-02,1,1,1,2,0,1,1
 c:central:san-lorenzo,San Lorenzo,2026-10-03,1,1,0,2,0,0,1
 c:central:san-lorenzo,San Lorenzo,2026-10-04,1,1,0,0,0,0,0
 c:central:san-lorenzo,San Lorenzo,2026-10-05,1,2,1,1,5,0,0
-c:central:san-lorenzo,San Lorenzo,2026-10-06,1,0,0,6,0,0,0
+c:central:san-lorenzo,San Lorenzo,2026-10-06,1,0,0,5,0,0,0
+c:central:san-lorenzo,San Lorenzo,2026-10-07,1,1,0,8,0,0,0
 c:central:lambare,Lambaré,2026-08-24,1,0,0,3,0,0,0
 c:central:lambare,Lambaré,2026-08-25,1,0,0,2,0,0,0
 c:central:lambare,Lambaré,2026-08-26,1,4,1,8,0,1,0
@@ -263,6 +268,7 @@ c:central:lambare,Lambaré,2026-10-03,1,0,0,0,0,1,0
 c:central:lambare,Lambaré,2026-10-04,1,0,0,1,0,0,0
 c:central:lambare,Lambaré,2026-10-05,1,0,0,4,0,0,0
 c:central:lambare,Lambaré,2026-10-06,1,1,0,2,0,0,0
+c:central:lambare,Lambaré,2026-10-07,1,1,0,0,0,0,1
 c:central:fernando-de-la-mora,Fernando de la Mora,2026-08-24,1,1,0,5,0,1,0
 c:central:fernando-de-la-mora,Fernando de la Mora,2026-08-25,1,0,0,2,0,0,0
 c:central:fernando-de-la-mora,Fernando de la Mora,2026-08-26,1,0,0,11,1,0,1
@@ -306,7 +312,8 @@ c:central:fernando-de-la-mora,Fernando de la Mora,2026-10-02,1,0,1,9,0,0,1
 c:central:fernando-de-la-mora,Fernando de la Mora,2026-10-03,1,0,0,4,0,0,0
 c:central:fernando-de-la-mora,Fernando de la Mora,2026-10-04,1,0,0,2,0,0,0
 c:central:fernando-de-la-mora,Fernando de la Mora,2026-10-05,1,0,0,2,0,0,2
-c:central:fernando-de-la-mora,Fernando de la Mora,2026-10-06,1,0,0,1,0,0,3
+c:central:fernando-de-la-mora,Fernando de la Mora,2026-10-06,1,0,0,2,0,0,3
+c:central:fernando-de-la-mora,Fernando de la Mora,2026-10-07,1,2,0,0,0,2,1
 c:central:capiata,Capiatá,2026-08-24,1,0,0,2,0,0,1
 c:central:capiata,Capiatá,2026-08-25,1,0,0,0,1,0,0
 c:central:capiata,Capiatá,2026-08-26,1,0,0,1,0,0,0
@@ -351,6 +358,7 @@ c:central:capiata,Capiatá,2026-10-03,1,0,0,5,0,0,0
 c:central:capiata,Capiatá,2026-10-04,1,0,1,1,0,0,0
 c:central:capiata,Capiatá,2026-10-05,1,0,0,3,1,0,0
 c:central:capiata,Capiatá,2026-10-06,1,1,0,4,0,0,1
+c:central:capiata,Capiatá,2026-10-07,1,2,1,0,0,2,1
 c:central:nemby,Ñemby,2026-08-24,1,0,0,0,0,0,0
 c:central:nemby,Ñemby,2026-08-25,1,0,0,0,0,0,0
 c:central:nemby,Ñemby,2026-08-26,1,0,0,1,1,0,1
@@ -395,6 +403,7 @@ c:central:nemby,Ñemby,2026-10-03,1,0,0,2,0,1,0
 c:central:nemby,Ñemby,2026-10-04,1,0,0,1,0,0,0
 c:central:nemby,Ñemby,2026-10-05,1,0,0,1,4,0,1
 c:central:nemby,Ñemby,2026-10-06,1,1,0,3,0,0,0
+c:central:nemby,Ñemby,2026-10-07,1,0,0,0,0,0,0
 c:central:mariano-roque-alonso,Mariano Roque Alonso,2026-08-24,1,0,1,5,0,0,1
 c:central:mariano-roque-alonso,Mariano Roque Alonso,2026-08-25,1,1,0,2,2,0,0
 c:central:mariano-roque-alonso,Mariano Roque Alonso,2026-08-26,1,1,0,3,4,0,0
@@ -439,6 +448,7 @@ c:central:mariano-roque-alonso,Mariano Roque Alonso,2026-10-03,1,0,0,1,0,0,0
 c:central:mariano-roque-alonso,Mariano Roque Alonso,2026-10-04,1,0,0,0,0,0,0
 c:central:mariano-roque-alonso,Mariano Roque Alonso,2026-10-05,1,0,0,1,0,0,0
 c:central:mariano-roque-alonso,Mariano Roque Alonso,2026-10-06,1,0,1,1,0,0,1
+c:central:mariano-roque-alonso,Mariano Roque Alonso,2026-10-07,1,0,0,0,0,0,0
 c:central:limpio,Limpio,2026-08-24,1,0,0,2,0,0,0
 c:central:limpio,Limpio,2026-08-25,1,0,0,0,0,0,0
 c:central:limpio,Limpio,2026-08-26,1,0,0,5,1,0,0
@@ -483,6 +493,7 @@ c:central:limpio,Limpio,2026-10-03,1,0,0,0,0,0,0
 c:central:limpio,Limpio,2026-10-04,1,0,0,0,0,0,0
 c:central:limpio,Limpio,2026-10-05,1,0,0,1,0,0,0
 c:central:limpio,Limpio,2026-10-06,1,0,0,6,0,0,0
+c:central:limpio,Limpio,2026-10-07,1,3,0,1,1,0,1
 c:central:villa-elisa,Villa Elisa,2026-08-24,1,0,0,0,0,0,1
 c:central:villa-elisa,Villa Elisa,2026-08-25,1,0,0,0,0,0,0
 c:central:villa-elisa,Villa Elisa,2026-08-26,1,2,0,3,1,1,0
@@ -527,6 +538,7 @@ c:central:villa-elisa,Villa Elisa,2026-10-03,1,0,0,2,0,0,0
 c:central:villa-elisa,Villa Elisa,2026-10-04,1,0,0,0,0,0,0
 c:central:villa-elisa,Villa Elisa,2026-10-05,1,0,0,1,4,0,0
 c:central:villa-elisa,Villa Elisa,2026-10-06,1,1,0,4,0,0,0
+c:central:villa-elisa,Villa Elisa,2026-10-07,1,0,0,2,0,0,0
 c:central:aregua,Areguá,2026-08-24,1,0,0,0,0,0,0
 c:central:aregua,Areguá,2026-08-25,1,0,0,0,0,0,0
 c:central:aregua,Areguá,2026-08-26,1,0,0,1,1,0,0
@@ -571,6 +583,7 @@ c:central:aregua,Areguá,2026-10-03,1,0,0,5,0,0,0
 c:central:aregua,Areguá,2026-10-04,1,0,0,1,0,0,0
 c:central:aregua,Areguá,2026-10-05,1,0,0,0,1,0,0
 c:central:aregua,Areguá,2026-10-06,1,1,0,2,0,0,0
+c:central:aregua,Areguá,2026-10-07,1,1,0,0,0,0,1
 c:central:itaugua,Itauguá,2026-08-24,1,0,1,0,0,0,0
 c:central:itaugua,Itauguá,2026-08-25,1,0,0,0,0,0,0
 c:central:itaugua,Itauguá,2026-08-26,1,1,0,0,4,0,0
@@ -615,6 +628,7 @@ c:central:itaugua,Itauguá,2026-10-03,1,0,0,1,0,0,1
 c:central:itaugua,Itauguá,2026-10-04,1,0,0,2,0,0,0
 c:central:itaugua,Itauguá,2026-10-05,1,0,0,0,1,0,0
 c:central:itaugua,Itauguá,2026-10-06,1,0,0,1,0,0,0
+c:central:itaugua,Itauguá,2026-10-07,1,0,0,1,0,0,0
 c:central:ypane,Ypané,2026-08-24,1,0,0,0,0,0,0
 c:central:ypane,Ypané,2026-08-25,1,0,0,1,0,0,0
 c:central:ypane,Ypané,2026-08-26,1,0,0,2,0,0,0
@@ -659,6 +673,7 @@ c:central:ypane,Ypané,2026-10-03,1,0,0,0,0,0,0
 c:central:ypane,Ypané,2026-10-04,1,0,0,2,0,0,0
 c:central:ypane,Ypané,2026-10-05,1,0,0,1,0,0,0
 c:central:ypane,Ypané,2026-10-06,1,0,0,1,0,0,0
+c:central:ypane,Ypané,2026-10-07,1,0,0,3,0,0,0
 c:central:ypacarai,Ypacaraí,2026-08-24,1,0,0,2,0,0,0
 c:central:ypacarai,Ypacaraí,2026-08-25,1,0,0,0,1,0,0
 c:central:ypacarai,Ypacaraí,2026-08-26,1,0,0,1,0,0,0
@@ -703,6 +718,7 @@ c:central:ypacarai,Ypacaraí,2026-10-03,1,0,0,0,0,0,0
 c:central:ypacarai,Ypacaraí,2026-10-04,1,0,0,0,0,0,0
 c:central:ypacarai,Ypacaraí,2026-10-05,1,0,0,0,0,0,0
 c:central:ypacarai,Ypacaraí,2026-10-06,1,0,0,0,0,0,0
+c:central:ypacarai,Ypacaraí,2026-10-07,1,0,0,0,0,0,0
 c:central:villeta,Villeta,2026-08-24,1,1,0,0,0,0,0
 c:central:villeta,Villeta,2026-08-25,1,0,0,0,0,0,0
 c:central:villeta,Villeta,2026-08-26,1,0,0,1,0,0,0
@@ -747,6 +763,7 @@ c:central:villeta,Villeta,2026-10-03,1,0,0,0,0,0,0
 c:central:villeta,Villeta,2026-10-04,1,0,0,0,0,0,0
 c:central:villeta,Villeta,2026-10-05,1,0,0,0,0,0,0
 c:central:villeta,Villeta,2026-10-06,1,0,0,0,0,0,0
+c:central:villeta,Villeta,2026-10-07,1,0,0,0,0,0,0
 c:central:ita,Itá,2026-08-24,1,0,0,0,0,0,0
 c:central:ita,Itá,2026-08-25,1,0,0,0,0,0,0
 c:central:ita,Itá,2026-08-26,1,0,0,1,0,0,0
@@ -791,6 +808,52 @@ c:central:ita,Itá,2026-10-03,1,0,0,0,0,0,0
 c:central:ita,Itá,2026-10-04,1,0,0,0,0,0,0
 c:central:ita,Itá,2026-10-05,1,0,0,0,0,0,0
 c:central:ita,Itá,2026-10-06,1,0,0,0,0,0,0
+c:central:ita,Itá,2026-10-07,1,0,0,1,0,0,0
+c:central:san-antonio,San Antonio,2026-08-24,1,0,0,0,0,0,0
+c:central:san-antonio,San Antonio,2026-08-25,1,0,0,2,0,0,0
+c:central:san-antonio,San Antonio,2026-08-26,1,0,0,0,0,0,0
+c:central:san-antonio,San Antonio,2026-08-27,0,,,,,,
+c:central:san-antonio,San Antonio,2026-08-28,1,0,0,0,1,0,0
+c:central:san-antonio,San Antonio,2026-08-29,1,0,0,1,0,0,0
+c:central:san-antonio,San Antonio,2026-08-30,1,0,0,0,0,0,0
+c:central:san-antonio,San Antonio,2026-08-31,1,0,0,0,0,0,0
+c:central:san-antonio,San Antonio,2026-09-01,1,0,0,0,0,0,0
+c:central:san-antonio,San Antonio,2026-09-02,1,0,0,0,0,0,0
+c:central:san-antonio,San Antonio,2026-09-03,1,0,0,0,0,0,0
+c:central:san-antonio,San Antonio,2026-09-04,1,1,0,1,0,0,0
+c:central:san-antonio,San Antonio,2026-09-05,1,0,0,0,0,0,0
+c:central:san-antonio,San Antonio,2026-09-06,1,0,0,1,0,0,0
+c:central:san-antonio,San Antonio,2026-09-07,1,0,0,0,0,0,0
+c:central:san-antonio,San Antonio,2026-09-08,1,0,0,2,0,0,0
+c:central:san-antonio,San Antonio,2026-09-09,1,0,0,0,0,0,0
+c:central:san-antonio,San Antonio,2026-09-10,1,1,0,3,0,0,0
+c:central:san-antonio,San Antonio,2026-09-11,1,0,0,2,0,0,0
+c:central:san-antonio,San Antonio,2026-09-12,1,0,0,1,0,0,0
+c:central:san-antonio,San Antonio,2026-09-13,1,0,0,1,0,0,0
+c:central:san-antonio,San Antonio,2026-09-14,1,0,0,0,0,0,0
+c:central:san-antonio,San Antonio,2026-09-15,1,0,0,0,2,0,0
+c:central:san-antonio,San Antonio,2026-09-16,1,0,0,0,0,0,0
+c:central:san-antonio,San Antonio,2026-09-17,1,0,0,1,0,0,0
+c:central:san-antonio,San Antonio,2026-09-18,1,0,0,0,0,0,0
+c:central:san-antonio,San Antonio,2026-09-19,1,0,0,1,0,0,0
+c:central:san-antonio,San Antonio,2026-09-20,1,0,0,0,0,0,0
+c:central:san-antonio,San Antonio,2026-09-21,1,0,0,0,0,0,0
+c:central:san-antonio,San Antonio,2026-09-22,1,0,0,1,0,0,0
+c:central:san-antonio,San Antonio,2026-09-23,1,0,0,1,0,0,0
+c:central:san-antonio,San Antonio,2026-09-24,1,0,0,0,0,0,0
+c:central:san-antonio,San Antonio,2026-09-25,1,0,0,1,0,0,0
+c:central:san-antonio,San Antonio,2026-09-26,1,0,0,1,0,0,0
+c:central:san-antonio,San Antonio,2026-09-27,1,0,0,0,0,0,0
+c:central:san-antonio,San Antonio,2026-09-28,1,0,0,0,0,0,0
+c:central:san-antonio,San Antonio,2026-09-29,0,,,,,,
+c:central:san-antonio,San Antonio,2026-09-30,0,,,,,,
+c:central:san-antonio,San Antonio,2026-10-01,1,0,0,1,0,0,0
+c:central:san-antonio,San Antonio,2026-10-02,1,0,0,0,0,0,0
+c:central:san-antonio,San Antonio,2026-10-03,1,0,0,0,0,0,0
+c:central:san-antonio,San Antonio,2026-10-04,1,0,0,1,0,0,0
+c:central:san-antonio,San Antonio,2026-10-05,1,1,0,0,1,0,0
+c:central:san-antonio,San Antonio,2026-10-06,1,0,0,1,0,0,0
+c:central:san-antonio,San Antonio,2026-10-07,1,0,0,2,0,0,0
 c:central:julian-augusto-saldivar,Julián Augusto Saldívar,2026-08-24,1,0,0,0,0,0,0
 c:central:julian-augusto-saldivar,Julián Augusto Saldívar,2026-08-25,1,0,0,1,0,0,0
 c:central:julian-augusto-saldivar,Julián Augusto Saldívar,2026-08-26,1,0,0,1,0,0,0
@@ -835,6 +898,7 @@ c:central:julian-augusto-saldivar,Julián Augusto Saldívar,2026-10-03,1,0,0,0,0
 c:central:julian-augusto-saldivar,Julián Augusto Saldívar,2026-10-04,1,0,0,0,0,0,0
 c:central:julian-augusto-saldivar,Julián Augusto Saldívar,2026-10-05,1,0,0,0,0,0,0
 c:central:julian-augusto-saldivar,Julián Augusto Saldívar,2026-10-06,1,0,0,0,0,0,0
+c:central:julian-augusto-saldivar,Julián Augusto Saldívar,2026-10-07,1,0,0,0,0,0,0
 d:itapua,Itapúa,2026-08-24,1,0,1,1,0,1,1
 d:itapua,Itapúa,2026-08-25,1,1,1,2,0,0,1
 d:itapua,Itapúa,2026-08-26,1,2,0,2,1,4,1
@@ -879,6 +943,7 @@ d:itapua,Itapúa,2026-10-03,1,1,1,0,0,0,0
 d:itapua,Itapúa,2026-10-04,1,0,0,2,0,0,0
 d:itapua,Itapúa,2026-10-05,1,1,1,1,0,0,0
 d:itapua,Itapúa,2026-10-06,1,0,0,4,3,1,2
+d:itapua,Itapúa,2026-10-07,1,1,3,8,11,1,1
 c:itapua:encarnacion,Encarnación,2026-08-24,1,0,0,1,0,0,1
 c:itapua:encarnacion,Encarnación,2026-08-25,1,1,1,1,0,0,1
 c:itapua:encarnacion,Encarnación,2026-08-26,1,2,0,1,1,2,1
@@ -923,6 +988,7 @@ c:itapua:encarnacion,Encarnación,2026-10-03,1,0,0,0,0,0,0
 c:itapua:encarnacion,Encarnación,2026-10-04,1,0,0,2,0,0,0
 c:itapua:encarnacion,Encarnación,2026-10-05,1,1,0,1,0,0,0
 c:itapua:encarnacion,Encarnación,2026-10-06,1,0,0,4,2,1,1
+c:itapua:encarnacion,Encarnación,2026-10-07,1,1,2,5,7,1,1
 c:itapua:san-juan-del-parana,San Juan del Paraná,2026-08-24,1,0,0,0,0,0,0
 c:itapua:san-juan-del-parana,San Juan del Paraná,2026-08-25,1,0,0,0,0,0,0
 c:itapua:san-juan-del-parana,San Juan del Paraná,2026-08-26,1,0,0,0,0,0,0
@@ -967,6 +1033,7 @@ c:itapua:san-juan-del-parana,San Juan del Paraná,2026-10-03,1,1,1,0,0,0,0
 c:itapua:san-juan-del-parana,San Juan del Paraná,2026-10-04,1,0,0,0,0,0,0
 c:itapua:san-juan-del-parana,San Juan del Paraná,2026-10-05,1,0,0,0,0,0,0
 c:itapua:san-juan-del-parana,San Juan del Paraná,2026-10-06,1,0,0,0,0,0,0
+c:itapua:san-juan-del-parana,San Juan del Paraná,2026-10-07,1,0,0,2,0,0,0
 c:itapua:capitan-miranda,Capitán Miranda,2026-08-24,1,0,0,0,0,0,0
 c:itapua:capitan-miranda,Capitán Miranda,2026-08-25,1,0,0,0,0,0,0
 c:itapua:capitan-miranda,Capitán Miranda,2026-08-26,1,0,0,0,0,0,0
@@ -1011,6 +1078,7 @@ c:itapua:capitan-miranda,Capitán Miranda,2026-10-03,1,0,0,0,0,0,0
 c:itapua:capitan-miranda,Capitán Miranda,2026-10-04,1,0,0,0,0,0,0
 c:itapua:capitan-miranda,Capitán Miranda,2026-10-05,1,0,1,0,0,0,0
 c:itapua:capitan-miranda,Capitán Miranda,2026-10-06,1,0,0,0,0,0,0
+c:itapua:capitan-miranda,Capitán Miranda,2026-10-07,1,0,1,1,1,0,0
 d:cordillera,Cordillera,2026-08-24,1,1,0,6,0,1,0
 d:cordillera,Cordillera,2026-08-25,1,0,0,0,1,0,0
 d:cordillera,Cordillera,2026-08-26,1,2,0,5,15,1,0
@@ -1055,6 +1123,7 @@ d:cordillera,Cordillera,2026-10-03,1,0,0,4,0,0,0
 d:cordillera,Cordillera,2026-10-04,1,0,0,6,0,0,0
 d:cordillera,Cordillera,2026-10-05,1,0,0,1,0,0,0
 d:cordillera,Cordillera,2026-10-06,1,3,0,2,1,0,0
+d:cordillera,Cordillera,2026-10-07,1,1,1,2,0,0,0
 c:cordillera:san-bernardino,San Bernardino,2026-08-24,1,1,0,0,0,0,0
 c:cordillera:san-bernardino,San Bernardino,2026-08-25,1,0,0,0,0,0,0
 c:cordillera:san-bernardino,San Bernardino,2026-08-26,1,2,0,3,6,1,0
@@ -1099,6 +1168,7 @@ c:cordillera:san-bernardino,San Bernardino,2026-10-03,1,0,0,0,0,0,0
 c:cordillera:san-bernardino,San Bernardino,2026-10-04,1,0,0,1,0,0,0
 c:cordillera:san-bernardino,San Bernardino,2026-10-05,1,0,0,0,0,0,0
 c:cordillera:san-bernardino,San Bernardino,2026-10-06,1,2,0,1,0,0,0
+c:cordillera:san-bernardino,San Bernardino,2026-10-07,1,1,0,0,0,0,0
 c:cordillera:caacupe,Caacupé,2026-08-24,1,0,0,4,0,0,0
 c:cordillera:caacupe,Caacupé,2026-08-25,1,0,0,0,0,0,0
 c:cordillera:caacupe,Caacupé,2026-08-26,1,0,0,0,0,0,0
@@ -1143,6 +1213,7 @@ c:cordillera:caacupe,Caacupé,2026-10-03,1,0,0,3,0,0,0
 c:cordillera:caacupe,Caacupé,2026-10-04,1,0,0,1,0,0,0
 c:cordillera:caacupe,Caacupé,2026-10-05,1,0,0,0,0,0,0
 c:cordillera:caacupe,Caacupé,2026-10-06,1,0,0,0,0,0,0
+c:cordillera:caacupe,Caacupé,2026-10-07,1,0,0,0,0,0,0
 c:cordillera:altos,Altos,2026-08-24,1,0,0,0,0,0,0
 c:cordillera:altos,Altos,2026-08-25,1,0,0,0,0,0,0
 c:cordillera:altos,Altos,2026-08-26,1,0,0,0,0,0,0
@@ -1187,6 +1258,7 @@ c:cordillera:altos,Altos,2026-10-03,1,0,0,0,0,0,0
 c:cordillera:altos,Altos,2026-10-04,1,0,0,0,0,0,0
 c:cordillera:altos,Altos,2026-10-05,1,0,0,0,0,0,0
 c:cordillera:altos,Altos,2026-10-06,1,0,0,1,0,0,0
+c:cordillera:altos,Altos,2026-10-07,1,0,0,1,0,0,0
 d:alto-parana,Alto Paraná,2026-08-24,1,1,0,4,0,0,0
 d:alto-parana,Alto Paraná,2026-08-25,1,0,0,0,0,0,0
 d:alto-parana,Alto Paraná,2026-08-26,1,0,0,9,0,1,0
@@ -1231,6 +1303,7 @@ d:alto-parana,Alto Paraná,2026-10-03,1,0,0,4,0,0,0
 d:alto-parana,Alto Paraná,2026-10-04,1,0,0,1,0,0,0
 d:alto-parana,Alto Paraná,2026-10-05,1,1,0,2,1,1,1
 d:alto-parana,Alto Paraná,2026-10-06,1,2,0,3,0,3,0
+d:alto-parana,Alto Paraná,2026-10-07,1,1,0,2,0,1,2
 c:alto-parana:ciudad-del-este,Ciudad del Este,2026-08-24,1,1,0,2,0,0,0
 c:alto-parana:ciudad-del-este,Ciudad del Este,2026-08-25,1,0,0,0,0,0,0
 c:alto-parana:ciudad-del-este,Ciudad del Este,2026-08-26,1,0,0,3,0,1,0
@@ -1275,6 +1348,7 @@ c:alto-parana:ciudad-del-este,Ciudad del Este,2026-10-03,1,0,0,2,0,0,0
 c:alto-parana:ciudad-del-este,Ciudad del Este,2026-10-04,1,0,0,1,0,0,0
 c:alto-parana:ciudad-del-este,Ciudad del Este,2026-10-05,1,1,0,1,1,0,1
 c:alto-parana:ciudad-del-este,Ciudad del Este,2026-10-06,1,2,0,2,0,3,0
+c:alto-parana:ciudad-del-este,Ciudad del Este,2026-10-07,1,1,0,1,0,1,2
 c:alto-parana:hernandarias,Hernandarias,2026-08-24,1,0,0,0,0,0,0
 c:alto-parana:hernandarias,Hernandarias,2026-08-25,1,0,0,0,0,0,0
 c:alto-parana:hernandarias,Hernandarias,2026-08-26,1,0,0,5,0,0,0
@@ -1319,6 +1393,7 @@ c:alto-parana:hernandarias,Hernandarias,2026-10-03,1,0,0,0,0,0,0
 c:alto-parana:hernandarias,Hernandarias,2026-10-04,1,0,0,0,0,0,0
 c:alto-parana:hernandarias,Hernandarias,2026-10-05,1,0,0,0,0,1,0
 c:alto-parana:hernandarias,Hernandarias,2026-10-06,1,0,0,1,0,0,0
+c:alto-parana:hernandarias,Hernandarias,2026-10-07,1,0,0,0,0,0,0
 c:alto-parana:minga-guazu,Minga Guazú,2026-08-24,1,0,0,0,0,0,0
 c:alto-parana:minga-guazu,Minga Guazú,2026-08-25,1,0,0,0,0,0,0
 c:alto-parana:minga-guazu,Minga Guazú,2026-08-26,1,0,0,0,0,0,0
@@ -1363,6 +1438,7 @@ c:alto-parana:minga-guazu,Minga Guazú,2026-10-03,1,0,0,0,0,0,0
 c:alto-parana:minga-guazu,Minga Guazú,2026-10-04,1,0,0,0,0,0,0
 c:alto-parana:minga-guazu,Minga Guazú,2026-10-05,1,0,0,0,0,0,0
 c:alto-parana:minga-guazu,Minga Guazú,2026-10-06,1,0,0,0,0,0,0
+c:alto-parana:minga-guazu,Minga Guazú,2026-10-07,1,0,0,0,0,0,0
 d:boqueron,Boquerón,2026-08-24,1,0,0,0,0,0,1
 d:boqueron,Boquerón,2026-08-25,1,0,0,0,0,0,1
 d:boqueron,Boquerón,2026-08-26,1,0,1,0,0,0,0
@@ -1407,6 +1483,7 @@ d:boqueron,Boquerón,2026-10-03,1,0,0,0,0,0,0
 d:boqueron,Boquerón,2026-10-04,1,0,0,0,0,0,0
 d:boqueron,Boquerón,2026-10-05,1,0,0,0,4,0,0
 d:boqueron,Boquerón,2026-10-06,1,0,0,0,0,0,1
+d:boqueron,Boquerón,2026-10-07,1,0,0,0,0,0,0
 d:presidente-hayes,Presidente Hayes,2026-08-24,1,0,0,1,0,0,0
 d:presidente-hayes,Presidente Hayes,2026-08-25,1,0,0,0,0,0,0
 d:presidente-hayes,Presidente Hayes,2026-08-26,1,0,0,0,1,0,0
@@ -1451,6 +1528,7 @@ d:presidente-hayes,Presidente Hayes,2026-10-03,1,0,0,0,0,0,0
 d:presidente-hayes,Presidente Hayes,2026-10-04,1,0,0,1,0,0,0
 d:presidente-hayes,Presidente Hayes,2026-10-05,1,0,0,0,1,0,0
 d:presidente-hayes,Presidente Hayes,2026-10-06,1,0,0,0,0,0,0
+d:presidente-hayes,Presidente Hayes,2026-10-07,1,1,0,0,0,0,0
 c:presidente-hayes:villa-hayes,Villa Hayes,2026-08-24,1,0,0,0,0,0,0
 c:presidente-hayes:villa-hayes,Villa Hayes,2026-08-25,1,0,0,0,0,0,0
 c:presidente-hayes:villa-hayes,Villa Hayes,2026-08-26,1,0,0,0,1,0,0
@@ -1495,6 +1573,7 @@ c:presidente-hayes:villa-hayes,Villa Hayes,2026-10-03,1,0,0,0,0,0,0
 c:presidente-hayes:villa-hayes,Villa Hayes,2026-10-04,1,0,0,0,0,0,0
 c:presidente-hayes:villa-hayes,Villa Hayes,2026-10-05,1,0,0,0,0,0,0
 c:presidente-hayes:villa-hayes,Villa Hayes,2026-10-06,1,0,0,0,0,0,0
+c:presidente-hayes:villa-hayes,Villa Hayes,2026-10-07,1,0,0,0,0,0,0
 d:paraguari,Paraguarí,2026-08-24,1,0,0,1,0,0,0
 d:paraguari,Paraguarí,2026-08-25,1,0,0,0,1,0,0
 d:paraguari,Paraguarí,2026-08-26,1,0,0,0,0,0,0
@@ -1539,6 +1618,7 @@ d:paraguari,Paraguarí,2026-10-03,1,0,0,1,0,0,0
 d:paraguari,Paraguarí,2026-10-04,1,0,0,0,0,0,0
 d:paraguari,Paraguarí,2026-10-05,1,0,0,1,0,0,0
 d:paraguari,Paraguarí,2026-10-06,1,0,0,0,0,0,0
+d:paraguari,Paraguarí,2026-10-07,1,1,0,1,0,0,0
 d:caaguazu,Caaguazú,2026-08-24,1,0,0,0,0,0,0
 d:caaguazu,Caaguazú,2026-08-25,1,0,0,0,0,0,0
 d:caaguazu,Caaguazú,2026-08-26,1,0,0,0,0,0,0
@@ -1583,6 +1663,7 @@ d:caaguazu,Caaguazú,2026-10-03,1,0,0,0,0,0,0
 d:caaguazu,Caaguazú,2026-10-04,1,0,0,0,0,0,0
 d:caaguazu,Caaguazú,2026-10-05,1,0,0,0,0,0,0
 d:caaguazu,Caaguazú,2026-10-06,1,0,0,1,0,0,0
+d:caaguazu,Caaguazú,2026-10-07,1,0,0,0,0,0,0
 d:misiones,Misiones,2026-08-24,1,0,0,0,0,0,0
 d:misiones,Misiones,2026-08-25,1,0,0,0,0,0,0
 d:misiones,Misiones,2026-08-26,1,0,0,0,0,0,0
@@ -1627,6 +1708,7 @@ d:misiones,Misiones,2026-10-03,1,0,0,0,0,0,0
 d:misiones,Misiones,2026-10-04,1,0,0,0,0,0,0
 d:misiones,Misiones,2026-10-05,1,0,0,0,0,0,0
 d:misiones,Misiones,2026-10-06,1,0,0,0,0,0,0
+d:misiones,Misiones,2026-10-07,1,0,0,0,0,0,0
 d:guaira,Guairá,2026-08-24,1,0,0,0,0,0,0
 d:guaira,Guairá,2026-08-25,1,0,0,0,0,1,0
 d:guaira,Guairá,2026-08-26,1,0,0,0,0,0,0
@@ -1671,6 +1753,7 @@ d:guaira,Guairá,2026-10-03,1,0,0,0,0,0,0
 d:guaira,Guairá,2026-10-04,1,0,0,0,0,0,0
 d:guaira,Guairá,2026-10-05,1,0,0,0,0,0,0
 d:guaira,Guairá,2026-10-06,1,0,0,0,0,0,0
+d:guaira,Guairá,2026-10-07,1,0,0,4,0,0,0
 d:san-pedro,San Pedro,2026-08-24,1,0,0,0,0,0,0
 d:san-pedro,San Pedro,2026-08-25,1,0,0,0,0,0,0
 d:san-pedro,San Pedro,2026-08-26,1,2,0,1,0,0,0
@@ -1715,6 +1798,7 @@ d:san-pedro,San Pedro,2026-10-03,1,0,0,0,0,0,0
 d:san-pedro,San Pedro,2026-10-04,1,0,0,0,0,0,0
 d:san-pedro,San Pedro,2026-10-05,1,0,0,0,0,0,0
 d:san-pedro,San Pedro,2026-10-06,1,0,0,0,0,0,0
+d:san-pedro,San Pedro,2026-10-07,1,0,0,0,0,0,0
 d:caazapa,Caazapá,2026-08-24,1,0,0,0,0,0,0
 d:caazapa,Caazapá,2026-08-25,1,0,0,0,0,0,0
 d:caazapa,Caazapá,2026-08-26,1,0,0,1,0,1,0
@@ -1759,6 +1843,7 @@ d:caazapa,Caazapá,2026-10-03,1,0,0,1,0,0,0
 d:caazapa,Caazapá,2026-10-04,1,0,0,0,0,0,0
 d:caazapa,Caazapá,2026-10-05,1,0,0,1,0,0,0
 d:caazapa,Caazapá,2026-10-06,1,0,0,0,0,0,0
+d:caazapa,Caazapá,2026-10-07,1,0,0,0,0,0,0
 d:canindeyu,Canindeyú,2026-08-24,1,0,0,0,0,0,0
 d:canindeyu,Canindeyú,2026-08-25,1,0,0,0,0,0,0
 d:canindeyu,Canindeyú,2026-08-26,1,0,0,0,0,0,0
@@ -1803,50 +1888,7 @@ d:canindeyu,Canindeyú,2026-10-03,1,0,0,0,0,0,0
 d:canindeyu,Canindeyú,2026-10-04,1,0,0,0,0,0,0
 d:canindeyu,Canindeyú,2026-10-05,1,0,0,0,1,0,0
 d:canindeyu,Canindeyú,2026-10-06,1,0,0,0,0,0,0
-d:concepcion,Concepción,2026-08-24,1,0,0,0,0,0,0
-d:concepcion,Concepción,2026-08-25,1,0,0,0,0,0,0
-d:concepcion,Concepción,2026-08-26,1,0,0,0,0,0,0
-d:concepcion,Concepción,2026-08-27,0,,,,,,
-d:concepcion,Concepción,2026-08-28,1,0,0,0,0,0,0
-d:concepcion,Concepción,2026-08-29,1,0,0,0,0,0,0
-d:concepcion,Concepción,2026-08-30,1,0,0,0,0,0,0
-d:concepcion,Concepción,2026-08-31,1,0,0,0,0,0,0
-d:concepcion,Concepción,2026-09-01,1,0,0,1,0,0,0
-d:concepcion,Concepción,2026-09-02,1,0,0,0,0,0,0
-d:concepcion,Concepción,2026-09-03,1,1,0,0,0,0,0
-d:concepcion,Concepción,2026-09-04,1,0,0,0,0,0,0
-d:concepcion,Concepción,2026-09-05,1,0,0,0,0,0,0
-d:concepcion,Concepción,2026-09-06,1,0,0,0,0,0,0
-d:concepcion,Concepción,2026-09-07,1,0,0,0,0,0,0
-d:concepcion,Concepción,2026-09-08,1,0,0,1,0,0,0
-d:concepcion,Concepción,2026-09-09,1,0,0,0,0,0,0
-d:concepcion,Concepción,2026-09-10,1,0,0,0,0,0,0
-d:concepcion,Concepción,2026-09-11,1,0,0,0,0,0,0
-d:concepcion,Concepción,2026-09-12,1,0,0,0,0,0,0
-d:concepcion,Concepción,2026-09-13,1,0,0,0,0,0,0
-d:concepcion,Concepción,2026-09-14,1,0,0,0,0,0,0
-d:concepcion,Concepción,2026-09-15,1,0,0,0,0,0,0
-d:concepcion,Concepción,2026-09-16,1,0,0,0,0,0,0
-d:concepcion,Concepción,2026-09-17,1,0,0,0,0,0,0
-d:concepcion,Concepción,2026-09-18,1,0,0,0,0,0,0
-d:concepcion,Concepción,2026-09-19,1,0,0,0,0,0,0
-d:concepcion,Concepción,2026-09-20,1,0,0,0,0,0,0
-d:concepcion,Concepción,2026-09-21,1,0,0,0,0,0,0
-d:concepcion,Concepción,2026-09-22,1,1,0,0,0,0,0
-d:concepcion,Concepción,2026-09-23,1,0,0,0,0,0,0
-d:concepcion,Concepción,2026-09-24,1,0,0,0,0,0,0
-d:concepcion,Concepción,2026-09-25,1,0,0,0,0,0,0
-d:concepcion,Concepción,2026-09-26,1,0,0,0,0,0,0
-d:concepcion,Concepción,2026-09-27,1,0,0,0,0,0,0
-d:concepcion,Concepción,2026-09-28,1,0,0,0,0,0,0
-d:concepcion,Concepción,2026-09-29,0,,,,,,
-d:concepcion,Concepción,2026-09-30,0,,,,,,
-d:concepcion,Concepción,2026-10-01,1,0,0,0,1,0,0
-d:concepcion,Concepción,2026-10-02,1,0,0,0,0,0,0
-d:concepcion,Concepción,2026-10-03,1,0,0,0,0,0,0
-d:concepcion,Concepción,2026-10-04,1,0,0,0,0,0,0
-d:concepcion,Concepción,2026-10-05,1,0,0,0,0,0,0
-d:concepcion,Concepción,2026-10-06,1,0,0,0,0,0,0
+d:canindeyu,Canindeyú,2026-10-07,1,0,0,0,0,0,0
 d:neembucu,Ñeembucú,2026-08-24,1,0,0,0,0,0,0
 d:neembucu,Ñeembucú,2026-08-25,1,0,0,0,0,0,0
 d:neembucu,Ñeembucú,2026-08-26,1,0,0,0,0,0,0
@@ -1891,6 +1933,52 @@ d:neembucu,Ñeembucú,2026-10-03,1,0,0,0,0,0,0
 d:neembucu,Ñeembucú,2026-10-04,1,0,0,0,0,0,0
 d:neembucu,Ñeembucú,2026-10-05,1,0,0,0,1,0,0
 d:neembucu,Ñeembucú,2026-10-06,1,0,0,0,0,0,0
+d:neembucu,Ñeembucú,2026-10-07,1,0,0,1,0,0,0
+d:concepcion,Concepción,2026-08-24,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-08-25,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-08-26,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-08-27,0,,,,,,
+d:concepcion,Concepción,2026-08-28,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-08-29,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-08-30,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-08-31,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-09-01,1,0,0,1,0,0,0
+d:concepcion,Concepción,2026-09-02,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-09-03,1,1,0,0,0,0,0
+d:concepcion,Concepción,2026-09-04,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-09-05,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-09-06,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-09-07,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-09-08,1,0,0,1,0,0,0
+d:concepcion,Concepción,2026-09-09,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-09-10,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-09-11,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-09-12,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-09-13,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-09-14,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-09-15,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-09-16,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-09-17,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-09-18,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-09-19,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-09-20,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-09-21,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-09-22,1,1,0,0,0,0,0
+d:concepcion,Concepción,2026-09-23,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-09-24,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-09-25,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-09-26,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-09-27,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-09-28,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-09-29,0,,,,,,
+d:concepcion,Concepción,2026-09-30,0,,,,,,
+d:concepcion,Concepción,2026-10-01,1,0,0,0,1,0,0
+d:concepcion,Concepción,2026-10-02,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-10-03,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-10-04,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-10-05,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-10-06,1,0,0,0,0,0,0
+d:concepcion,Concepción,2026-10-07,1,0,0,0,0,0,0
 d:amambay,Amambay,2026-08-24,1,0,0,1,0,0,0
 d:amambay,Amambay,2026-08-25,1,0,0,0,0,0,0
 d:amambay,Amambay,2026-08-26,1,0,0,0,0,0,0
@@ -1935,6 +2023,7 @@ d:amambay,Amambay,2026-10-03,1,0,0,0,0,0,0
 d:amambay,Amambay,2026-10-04,1,0,0,0,0,0,0
 d:amambay,Amambay,2026-10-05,1,0,0,0,0,0,0
 d:amambay,Amambay,2026-10-06,1,0,0,0,0,0,0
+d:amambay,Amambay,2026-10-07,1,1,0,0,0,0,0
 d:alto-paraguay,Alto Paraguay,2026-08-24,1,0,0,0,0,0,0
 d:alto-paraguay,Alto Paraguay,2026-08-25,1,0,0,0,0,0,0
 d:alto-paraguay,Alto Paraguay,2026-08-26,1,0,0,0,0,0,0
@@ -1979,3 +2068,4 @@ d:alto-paraguay,Alto Paraguay,2026-10-03,1,0,0,0,1,0,0
 d:alto-paraguay,Alto Paraguay,2026-10-04,1,0,0,0,0,0,0
 d:alto-paraguay,Alto Paraguay,2026-10-05,1,0,0,0,0,0,0
 d:alto-paraguay,Alto Paraguay,2026-10-06,1,0,0,0,0,0,0
+d:alto-paraguay,Alto Paraguay,2026-10-07,1,0,0,0,1,0,0
