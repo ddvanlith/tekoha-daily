@@ -3,7 +3,7 @@ first_seen,place,area,kind,built_m2,bedrooms,asking,currency,asking_usd,asking_u
 2026-10-05,"Presidente Franco, Alto Paraná",,casa,300,3,800000000,PYG,140641,469,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/presidente-franco/143099025-6,-25.54583,-54.64417,,,,,,alta,75
 2026-10-10,Asunción,,casa,96,2,400000000,PYG,70321,733,infocasas,1,https://www.infocasas.com.py/vendo-casa-en-barrio-san-miguel-de-%C3%B1emby/194367845,,,102406,58259,205048,23,shared_point,media,45
 2026-10-09,Asunción,Ciudad Nueva,casa,160,2,130000,USD,130000,812,infocasas,1,https://www.infocasas.com.py/en-oferta-casa-en-ciudad-nueva-zona-mercado-4/194381273,,,144796,82374,289925,23,shared_point,media,45
-2026-10-05,Asunción,Hipódromo,casa,200,4,700000000,PYG,123061,615,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/asuncion/143028003-232,-25.32135,-57.59098,120795,85668,188356,53,exact,alta,75
+2026-10-05,Asunción,Hipódromo,casa,200,4,700000000,PYG,123061,615,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/asuncion/143028003-232,-25.32135,-57.59098,120795,85668,188356,53,exact,media,65
 2026-10-09,Asunción,Ytay,casa,250,3,950000000,PYG,167012,668,infocasas,1,https://www.infocasas.com.py/oportunidad-de-inversion-en-asuncion-barrio-itay/194372219,,,163689,93123,327754,23,shared_point,media,45
 2026-10-09,Asunción,Ytay,casa,300,2,950000000,PYG,167012,557,infocasas,1,https://www.infocasas.com.py/vendo-casa-en-esquina-barrio-itay-asuncion/194371011,,,154652,87982,309660,23,shared_point,media,45
 2026-10-08,Asunción,Ytay,casa,300,3,950000000,PYG,167012,557,infocasas,1,https://www.infocasas.com.py/vendo-casa-en-esquina-en-asuncionytay-a-2-cuadras-de-santa-teresa/194372203,-25.29655,-57.5454,157252,111523,245203,53,exact,media,65
@@ -25,7 +25,7 @@ first_seen,place,area,kind,built_m2,bedrooms,asking,currency,asking_usd,asking_u
 2026-10-05,Asunción,San Jorge,departamento,94,2,135000,USD,135000,1436,infocasas,1,https://www.infocasas.com.py/vendo-departamento-de-dos-habitaciones-en-barrio-san-jorge-asuncion/194357193,,,,,,,,media,45
 2026-10-06,Asunción,Ycuá Satí,departamento,123,2,155000,USD,155000,1260,infocasas,1,https://www.infocasas.com.py/en-venta-departamento-amoblado-de-2-habitaciones-zona-paseo-la-galeria-v180/194341168,-25.28424,-57.56289,198917,126253,275898,57,exact,media,65
 2026-10-07,Asunción,Mcal. Estigarribia,departamento,129,2,180000,USD,180000,1395,infocasas,1,https://www.infocasas.com.py/venta-de-dpto-en-edificio-santorini/194364516,,,,,,,,media,45
-2026-10-07,Asunción,Villa Morra,departamento,187,3,195000,USD,195000,1043,remax,1,https://www.remax.com.py/es-py/propiedades/departamento/venta/asuncion/143028003-233,,,,,,,,media,55
+2026-10-07,Asunción,Villa Morra,departamento,187,3,195000,USD,195000,1043,remax,1,https://www.remax.com.py/es-py/propiedades/departamento/venta/asuncion/143028003-233,,,,,,,,media,45
 2026-10-06,Asunción,Las Mercedes,departamento,220,4,1450000000,PYG,254913,1159,infocasas,2,https://www.infocasas.com.py/en-venta-amplio-departamento-de-3-habitaciones-en-barrio-las-mercedes-v260/194361670,,,,,,,,media,45
 2026-10-08,Asunción,Barrio Jara,departamento,260,2,900000000,PYG,158222,609,infocasas,1,https://www.infocasas.com.py/venta-de-departamento-en-barrio-jara-en-asuncion-/194353930,,,,,,,,media,45
 2026-10-09,Asunción,Nazareth,duplex,220,4,900000000,PYG,158222,719,remax,1,https://www.remax.com.py/es-py/propiedades/duplex/venta/asuncion/143072093-32,,,,,,,,media,55
@@ -79,7 +79,7 @@ first_seen,place,area,kind,built_m2,bedrooms,asking,currency,asking_usd,asking_u
 2026-10-07,"San Antonio, Central",,casa,121,5,600000000,PYG,105481,872,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/san-antonio/143110010-1,,,65218,37950,103396,44,none,media,55
 2026-10-04,"San Antonio, Central",,casa,200,4,375000000,PYG,65926,330,infocasas,1,https://www.infocasas.com.py/vendo-casa-san-antonio-barrio-mbokajaty/194335983,-25.39531,-57.56259,131521,79636,213341,43,exact,media,65
 2026-10-07,"San Lorenzo, Central",,casa,120,3,700000000,PYG,123061,1026,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/san-lorenzo/143114003-5,-25.32691,-57.54383,85066,51508,137986,43,exact,alta,75
-2026-10-05,"San Lorenzo, Central",,casa,145,3,750000000,PYG,131851,909,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/san-lorenzo/143028003-231,,,75504,43936,119704,44,none,media,55
+2026-10-05,"San Lorenzo, Central",,casa,145,3,750000000,PYG,131851,909,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/san-lorenzo/143028003-231,,,75504,43936,119704,44,none,media,45
 2026-10-08,"San Lorenzo, Central",,casa,220,3,980000000,PYG,172286,783,infocasas,1,https://www.infocasas.com.py/en-venta-casa-en-barrio-san-miguel-san-lorenzo-a-cuadras-de-la-villa-olimpia/194367813,-25.31232,-57.52018,117437,71108,190494,43,exact,media,65
 2026-10-07,"San Lorenzo, Central",,duplex,100,3,750000000,PYG,131851,1319,remax,1,https://www.remax.com.py/es-py/propiedades/duplex/venta/san-lorenzo/143021054-28,,,,,,,,media,55
 2026-10-10,"Villa Elisa, Central",,casa,60,2,490000000,PYG,86143,1436,infocasas,1,https://www.infocasas.com.py/vendo-en-villa-elisa-hermoso-chalet-centro-de-villa-elisa/194377786,-25.36926,-57.59149,41708,25254,67654,43,exact,media,65
@@ -100,7 +100,7 @@ first_seen,place,area,kind,built_m2,bedrooms,asking,currency,asking_usd,asking_u
 2026-10-09,"San Bernardino, Cordillera",,casa,200,4,1290000000,PYG,226784,1134,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/san-bernardino/143020138-2,-25.28816,-57.26646,,,,,,alta,75
 2026-10-06,"San Bernardino, Cordillera",,casa,300,3,250000,USD,250000,833,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/san-bernardino/143063059-129,-25.35663,-57.28021,,,,,,alta,75
 2026-10-08,"San Bernardino, Cordillera",,casa,413,4,235000,USD,235000,569,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/san-bernardino/143020120-32,,,,,,,,media,55
-2026-10-09,"San Bernardino, Cordillera",,casa,450,3,3450000000,PYG,606516,1348,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/san-bernardino/143036096-72,-25.20698,-57.32067,,,,,,media,65
+2026-10-09,"San Bernardino, Cordillera",,casa,450,3,3450000000,PYG,606516,1348,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/san-bernardino/143036096-72,-25.20698,-57.32067,,,,,,media,55
 2026-10-07,"Capitán Miranda, Itapúa",,casa,232,3,170000,USD,170000,733,uprop,1,https://uprop.com.py/detail/casa-en-venta-5-ambientes-fff39507-980c-4a14-a397-ddb841287ae1,-27.22929,-55.8102,,,,,,media,65
 2026-10-07,"Encarnación, Itapúa",,casa,450,5,1500000000,PYG,263703,586,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/encarnacion/143085042-44,-27.31126,-55.88741,,,,,,alta,75
 2026-10-09,"San Ignacio, Misiones",,casa,117,3,370000000,PYG,65047,556,remax,1,https://www.remax.com.py/es-py/propiedades/casa/venta/san-ignacio/143108035-1,-26.88935,-57.04281,,,,,,media,65

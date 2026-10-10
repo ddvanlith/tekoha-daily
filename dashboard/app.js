@@ -243,14 +243,30 @@ function renderChanged(m) {
 }
 
 // ---------- KPI row ----------
-function kpi(title, body, { delta, closed = false, stampText, mix, flag, own, trust } = {}) {
+function kpi(title, body, { delta, closed = false, stampText, mix, flag, own, trust, bait } = {}) {
   return h("div", { class: "kpi" }, h("h3", { text: title }), body,
     mix && h("div", { class: "mix", text: `Sources: ${mix}` }),
     flag && h("div", { class: "srcflag", text: flag }),
     own && h("div", { class: "delta", text: own }),
     delta && h("div", { class: "delta", text: delta }),
     trust && h("div", { class: "delta", text: trust }),
+    bait && h("div", { class: "delta", title: bait.tip, text: bait.text }),
     h("div", { class: "stamp" }, tag(closed), stampText));
+}
+// The bait estimate from listing behaviour per portal (pipeline/agency-stats.mjs), country only, with the
+// WhatsApp rate beside it once the validation report can publish one; the definition in the tooltip.
+function baitLine(m) {
+  const b = D.summary.bait, main = (b?.portals || []).filter((p) => p.messages && p.n);
+  if (m.id !== "py" || !main.length) return null;
+  const msg = (p) => (p.messages.publishable ? ` (WhatsApp ${pctOf(p.messages.bait, p.messages.answered)}, n ${num(p.messages.answered)})` : "");
+  const waiting = main.filter((p) => !p.messages.publishable);
+  return {
+    text: `Bait estimate from listing behaviour, a floor, not messages: ${main.map((p) => `${srcName(p.code)} ${pctOf(p.estimate, p.n)}${msg(p)}`).join(", ")}.`,
+    tip: `Estimate, ${b.version}, run of ${day(b.computed_at)}: the ${b.definition}. ${b.band_rule}. ` +
+      `Agency known for ${main.map((p) => `${srcName(p.code)} ${pctOf(p.keyed, p.n)}`).join(", ")} of active listings, so the share is a floor. ` +
+      `Read strictly (no price and a default pin and a baja agency): ${main.map((p) => `${srcName(p.code)} ${pctOf(p.strict, p.n)}`).join(", ")}. ` +
+      (waiting.length ? `The WhatsApp rate is not yet publishable: it needs 50 answered random-draw questions per portal; so far ${waiting.map((p) => `${srcName(p.code)} ${num(p.messages.answered)}`).join(", ")}.` : "")
+  };
 }
 // The market's active units by listing trust band (pipeline/trust-score.mjs), each unit read through the
 // listing that speaks for it, with n.
@@ -291,7 +307,7 @@ function renderKpis(m) {
   $("kpis").replaceChildren(
     kpi("Active listings", [h("div", { class: "v", text: num(a.total) }),
       h("div", { class: "sub", text: `${num(a.sale_total)} sale, ${num(a.rent_total)} rent${a.other ? `, ${num(a.other)} no operation stated` : ""}` })], {
-      flag: sourceFlag("stock_sources"), own: activeOwnChange(m), trust: trustLine(m),
+      flag: sourceFlag("stock_sources"), own: activeOwnChange(m), trust: trustLine(m), bait: baitLine(m),
       delta: act ? `RE/MAX panel alone, for sale: ${num(act.level)} on ${dayShort(act.to)}, ${signed(act.diff)} against ${dayShort(act.from)}` : null,
       stampText: ` ${seenRule()}. ${num(a.listed)} are listed as active on the counted sources; ${num(a.listed - a.total)} were not seen in that window.` +
         `${closesOnly.length ? ` ${andList(closesOnly)} ${closesOnly.length > 1 ? "count" : "counts"} nowhere: a partial crawl, and ${closesOnly.length > 1 ? "their" : "its"} closed records carry no price.` : ""}` }),
