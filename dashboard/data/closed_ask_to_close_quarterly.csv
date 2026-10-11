@@ -45,7 +45,7 @@ py,Paraguay,rent,all,2025-07-01,220,0,67.7,-9.1,61
 py,Paraguay,rent,all,2025-10-01,460,0,74.3,-8.7,106
 py,Paraguay,rent,all,2026-01-01,513,0,75.6,-8.4,116
 py,Paraguay,rent,all,2026-04-01,492,0,78.7,-8,97
-py,Paraguay,rent,all,2026-07-01,467,0,75.8,-9.1,102
+py,Paraguay,rent,all,2026-07-01,468,0,75.6,-9.1,102
 py,Paraguay,rent,all,2026-10-01,55,0,67.3,,17
 d:asuncion,Asunción,sale,casa,2025-07-01,7,,,,5
 d:asuncion,Asunción,sale,casa,2025-10-01,10,,,,8
@@ -135,7 +135,7 @@ d:central,Central,rent,all,2025-07-01,91,0,58.2,-10.1,34
 d:central,Central,rent,all,2025-10-01,177,0,65,-10,56
 d:central,Central,rent,all,2026-01-01,211,0,78.2,-9.1,42
 d:central,Central,rent,all,2026-04-01,219,0,78.1,-7.8,44
-d:central,Central,rent,all,2026-07-01,183,0,77,-10,37
+d:central,Central,rent,all,2026-07-01,184,0,76.6,-10,37
 d:central,Central,rent,all,2026-10-01,24,,,,11
 c:central:luque,Luque,sale,casa,2025-07-01,5,,,,2
 c:central:luque,Luque,sale,casa,2025-10-01,17,,,,7
@@ -458,11 +458,29 @@ c:central:villa-elisa,Villa Elisa,rent,all,2025-07-01,5,,,,1
 c:central:villa-elisa,Villa Elisa,rent,all,2025-10-01,9,,,,2
 c:central:villa-elisa,Villa Elisa,rent,all,2026-01-01,14,,,,2
 c:central:villa-elisa,Villa Elisa,rent,all,2026-04-01,13,,,,2
-c:central:villa-elisa,Villa Elisa,rent,all,2026-07-01,11,,,,2
+c:central:villa-elisa,Villa Elisa,rent,all,2026-07-01,12,,,,2
 c:central:villa-elisa,Villa Elisa,rent,casa,2025-10-01,4,,,,0
 c:central:villa-elisa,Villa Elisa,rent,casa,2026-01-01,5,,,,0
 c:central:villa-elisa,Villa Elisa,rent,casa,2026-04-01,3,,,,0
 c:central:villa-elisa,Villa Elisa,rent,casa,2026-07-01,2,,,,1
+c:central:itaugua,Itauguá,sale,all,2025-07-01,1,,,,1
+c:central:itaugua,Itauguá,sale,all,2025-10-01,5,,,,3
+c:central:itaugua,Itauguá,sale,all,2026-01-01,2,,,,2
+c:central:itaugua,Itauguá,sale,all,2026-04-01,2,,,,1
+c:central:itaugua,Itauguá,sale,all,2026-07-01,2,,,,2
+c:central:itaugua,Itauguá,sale,casa,2025-10-01,2,,,,1
+c:central:itaugua,Itauguá,sale,terreno,2025-10-01,3,,,,2
+c:central:itaugua,Itauguá,sale,terreno,2026-01-01,2,,,,2
+c:central:itaugua,Itauguá,sale,terreno,2026-07-01,2,,,,2
+c:central:itaugua,Itauguá,sale,duplex,2026-04-01,1,,,,0
+c:central:itaugua,Itauguá,rent,casa,2025-10-01,2,,,,0
+c:central:itaugua,Itauguá,rent,casa,2026-04-01,2,,,,0
+c:central:itaugua,Itauguá,rent,casa,2026-07-01,2,,,,0
+c:central:itaugua,Itauguá,rent,all,2025-10-01,6,,,,2
+c:central:itaugua,Itauguá,rent,all,2026-01-01,2,,,,2
+c:central:itaugua,Itauguá,rent,all,2026-04-01,6,,,,0
+c:central:itaugua,Itauguá,rent,all,2026-07-01,5,,,,0
+c:central:itaugua,Itauguá,rent,all,2026-10-01,1,,,,0
 c:central:aregua,Areguá,sale,casa,2025-07-01,1,,,,1
 c:central:aregua,Areguá,sale,casa,2025-10-01,1,,,,1
 c:central:aregua,Areguá,sale,casa,2026-01-01,3,,,,0
@@ -482,24 +500,6 @@ c:central:aregua,Areguá,rent,all,2025-10-01,1,,,,0
 c:central:aregua,Areguá,rent,all,2026-01-01,2,,,,0
 c:central:aregua,Areguá,rent,all,2026-04-01,2,,,,0
 c:central:aregua,Areguá,rent,all,2026-07-01,3,,,,2
-c:central:itaugua,Itauguá,sale,all,2025-07-01,1,,,,1
-c:central:itaugua,Itauguá,sale,all,2025-10-01,5,,,,3
-c:central:itaugua,Itauguá,sale,all,2026-01-01,2,,,,2
-c:central:itaugua,Itauguá,sale,all,2026-04-01,2,,,,1
-c:central:itaugua,Itauguá,sale,all,2026-07-01,2,,,,2
-c:central:itaugua,Itauguá,sale,casa,2025-10-01,2,,,,1
-c:central:itaugua,Itauguá,sale,terreno,2025-10-01,3,,,,2
-c:central:itaugua,Itauguá,sale,terreno,2026-01-01,2,,,,2
-c:central:itaugua,Itauguá,sale,terreno,2026-07-01,2,,,,2
-c:central:itaugua,Itauguá,sale,duplex,2026-04-01,1,,,,0
-c:central:itaugua,Itauguá,rent,casa,2025-10-01,2,,,,0
-c:central:itaugua,Itauguá,rent,casa,2026-04-01,2,,,,0
-c:central:itaugua,Itauguá,rent,casa,2026-07-01,2,,,,0
-c:central:itaugua,Itauguá,rent,all,2025-10-01,6,,,,2
-c:central:itaugua,Itauguá,rent,all,2026-01-01,2,,,,2
-c:central:itaugua,Itauguá,rent,all,2026-04-01,6,,,,0
-c:central:itaugua,Itauguá,rent,all,2026-07-01,5,,,,0
-c:central:itaugua,Itauguá,rent,all,2026-10-01,1,,,,0
 c:central:ypane,Ypané,sale,terreno,2025-07-01,1,,,,1
 c:central:ypane,Ypané,sale,terreno,2025-10-01,2,,,,0
 c:central:ypane,Ypané,sale,terreno,2026-01-01,1,,,,0
@@ -522,15 +522,6 @@ c:central:ypacarai,Ypacaraí,sale,all,2026-07-01,1,,,,0
 c:central:ypacarai,Ypacaraí,sale,casa,2026-01-01,1,,,,1
 c:central:ypacarai,Ypacaraí,rent,all,2026-01-01,1,,,,0
 c:central:ypacarai,Ypacaraí,rent,all,2026-04-01,1,,,,0
-c:central:villeta,Villeta,sale,terreno,2026-04-01,1,,,,0
-c:central:villeta,Villeta,sale,all,2026-04-01,1,,,,0
-c:central:villeta,Villeta,rent,all,2025-07-01,1,,,,1
-c:central:villeta,Villeta,rent,all,2025-10-01,2,,,,0
-c:central:villeta,Villeta,rent,all,2026-04-01,1,,,,0
-c:central:villeta,Villeta,rent,all,2026-07-01,2,,,,0
-c:central:villeta,Villeta,rent,casa,2025-10-01,1,,,,0
-c:central:villeta,Villeta,rent,casa,2026-07-01,1,,,,0
-c:central:villeta,Villeta,rent,departamento,2026-04-01,1,,,,0
 c:central:ita,Itá,sale,terreno,2025-10-01,1,,,,1
 c:central:ita,Itá,sale,terreno,2026-07-01,1,,,,1
 c:central:ita,Itá,sale,all,2025-10-01,1,,,,1
@@ -540,6 +531,15 @@ c:central:ita,Itá,sale,casa,2026-04-01,1,,,,1
 c:central:ita,Itá,rent,departamento,2026-04-01,1,,,,0
 c:central:ita,Itá,rent,all,2026-04-01,1,,,,0
 c:central:ita,Itá,rent,all,2026-07-01,1,,,,0
+c:central:villeta,Villeta,sale,terreno,2026-04-01,1,,,,0
+c:central:villeta,Villeta,sale,all,2026-04-01,1,,,,0
+c:central:villeta,Villeta,rent,all,2025-07-01,1,,,,1
+c:central:villeta,Villeta,rent,all,2025-10-01,2,,,,0
+c:central:villeta,Villeta,rent,all,2026-04-01,1,,,,0
+c:central:villeta,Villeta,rent,all,2026-07-01,2,,,,0
+c:central:villeta,Villeta,rent,casa,2025-10-01,1,,,,0
+c:central:villeta,Villeta,rent,casa,2026-07-01,1,,,,0
+c:central:villeta,Villeta,rent,departamento,2026-04-01,1,,,,0
 c:central:san-antonio,San Antonio,sale,casa,2025-10-01,1,,,,1
 c:central:san-antonio,San Antonio,sale,casa,2026-07-01,2,,,,2
 c:central:san-antonio,San Antonio,sale,duplex,2025-10-01,1,,,,1

@@ -1,0 +1,334 @@
+month,department,area_type,area,kind,basis,n,asking_gs_m2,fiscal_gs_m2,asking_to_fiscal
+2026-10-01,Alto Paraná,department,Alto Paraná,all,mixed,84,552778,18944,30.99
+2026-10-01,Alto Paraná,department,Alto Paraná,casa,built,10,,,
+2026-10-01,Alto Paraná,department,Alto Paraná,departamento,built,1,,,
+2026-10-01,Alto Paraná,department,Alto Paraná,terreno,land,73,390625,18944,37.12
+2026-10-01,Alto Paraná,district,CIUDAD DEL ESTE,all,mixed,31,1458890,41045,21.44
+2026-10-01,Alto Paraná,district,CIUDAD DEL ESTE,casa,built,5,,,
+2026-10-01,Alto Paraná,district,CIUDAD DEL ESTE,departamento,built,1,,,
+2026-10-01,Alto Paraná,district,CIUDAD DEL ESTE,terreno,land,25,1282050,20521,31.99
+2026-10-01,Alto Paraná,district,HERNANDARIAS,all,mixed,13,,,
+2026-10-01,Alto Paraná,district,HERNANDARIAS,casa,built,2,,,
+2026-10-01,Alto Paraná,district,HERNANDARIAS,terreno,land,11,,,
+2026-10-01,Alto Paraná,district,MINGA GUAZU,all,mixed,18,,,
+2026-10-01,Alto Paraná,district,MINGA GUAZU,terreno,land,18,,,
+2026-10-01,Alto Paraná,district,NARANJAL,all,mixed,2,,,
+2026-10-01,Alto Paraná,district,NARANJAL,terreno,land,2,,,
+2026-10-01,Alto Paraná,district,PTE. FRANCO,all,mixed,9,,,
+2026-10-01,Alto Paraná,district,PTE. FRANCO,casa,built,2,,,
+2026-10-01,Alto Paraná,district,PTE. FRANCO,terreno,land,7,,,
+2026-10-01,Alto Paraná,district,SANTA RITA,all,mixed,10,,,
+2026-10-01,Alto Paraná,district,SANTA RITA,casa,built,1,,,
+2026-10-01,Alto Paraná,district,SANTA RITA,terreno,land,9,,,
+2026-10-01,Alto Paraná,district,SANTA ROSA DEL MONDAY,all,mixed,1,,,
+2026-10-01,Alto Paraná,district,SANTA ROSA DEL MONDAY,terreno,land,1,,,
+2026-10-01,Amambay,department,Amambay,all,mixed,1,,,
+2026-10-01,Amambay,department,Amambay,terreno,land,1,,,
+2026-10-01,Amambay,district,PEDRO J. CABALLERO,all,mixed,1,,,
+2026-10-01,Amambay,district,PEDRO J. CABALLERO,terreno,land,1,,,
+2026-10-01,Asunción,department,Asunción,all,mixed,1507,6907130,861947,8.07
+2026-10-01,Asunción,department,Asunción,casa,built,601,5688220,930081,5.59
+2026-10-01,Asunción,department,Asunción,departamento,built,575,10114800,1015340,9.55
+2026-10-01,Asunción,department,Asunción,duplex,built,10,,,
+2026-10-01,Asunción,department,Asunción,local,built,27,5000000,896418,6.35
+2026-10-01,Asunción,department,Asunción,oficina,built,21,5931410,994120,8.5
+2026-10-01,Asunción,department,Asunción,terreno,land,273,2668250,194104,13.53
+2026-10-01,Asunción,tax_zone,U10,all,mixed,136,10494600,1251040,8.24
+2026-10-01,Asunción,tax_zone,U10,casa,built,22,7971700,1633340,5.27
+2026-10-01,Asunción,tax_zone,U10,departamento,built,93,11257900,1393360,7.95
+2026-10-01,Asunción,tax_zone,U10,local,built,2,,,
+2026-10-01,Asunción,tax_zone,U10,oficina,built,4,,,
+2026-10-01,Asunción,tax_zone,U10,terreno,land,15,,,
+2026-10-01,Asunción,tax_zone,U11,all,mixed,23,2961160,903326,4.24
+2026-10-01,Asunción,tax_zone,U11,casa,built,9,,,
+2026-10-01,Asunción,tax_zone,U11,departamento,built,3,,,
+2026-10-01,Asunción,tax_zone,U11,local,built,3,,,
+2026-10-01,Asunción,tax_zone,U11,oficina,built,4,,,
+2026-10-01,Asunción,tax_zone,U11,terreno,land,4,,,
+2026-10-01,Asunción,tax_zone,U12,all,mixed,120,6871400,1209250,5.63
+2026-10-01,Asunción,tax_zone,U12,casa,built,41,5546020,1540480,4.07
+2026-10-01,Asunción,tax_zone,U12,departamento,built,54,9604120,1274730,6.67
+2026-10-01,Asunción,tax_zone,U12,local,built,4,,,
+2026-10-01,Asunción,tax_zone,U12,oficina,built,2,,,
+2026-10-01,Asunción,tax_zone,U12,terreno,land,19,,,
+2026-10-01,Asunción,tax_zone,U13,all,mixed,73,7930700,1221360,6.75
+2026-10-01,Asunción,tax_zone,U13,casa,built,39,7657230,1283370,5.29
+2026-10-01,Asunción,tax_zone,U13,departamento,built,17,,,
+2026-10-01,Asunción,tax_zone,U13,duplex,built,1,,,
+2026-10-01,Asunción,tax_zone,U13,terreno,land,16,,,
+2026-10-01,Asunción,tax_zone,U14,all,mixed,207,6975560,1042750,7.46
+2026-10-01,Asunción,tax_zone,U14,casa,built,95,6111110,1047310,5.91
+2026-10-01,Asunción,tax_zone,U14,departamento,built,72,10156000,1203180,7.9
+2026-10-01,Asunción,tax_zone,U14,duplex,built,1,,,
+2026-10-01,Asunción,tax_zone,U14,local,built,2,,,
+2026-10-01,Asunción,tax_zone,U14,oficina,built,3,,,
+2026-10-01,Asunción,tax_zone,U14,terreno,land,34,2902160,324518,10.66
+2026-10-01,Asunción,tax_zone,U15,all,mixed,200,6598720,735147,11.45
+2026-10-01,Asunción,tax_zone,U15,casa,built,64,6171990,900382,6.5
+2026-10-01,Asunción,tax_zone,U15,departamento,built,75,9480380,815609,11.8
+2026-10-01,Asunción,tax_zone,U15,duplex,built,1,,,
+2026-10-01,Asunción,tax_zone,U15,local,built,3,,,
+2026-10-01,Asunción,tax_zone,U15,oficina,built,1,,,
+2026-10-01,Asunción,tax_zone,U15,terreno,land,56,2887090,120325,24.44
+2026-10-01,Asunción,tax_zone,U5,all,mixed,13,,,
+2026-10-01,Asunción,tax_zone,U5,casa,built,5,,,
+2026-10-01,Asunción,tax_zone,U5,local,built,1,,,
+2026-10-01,Asunción,tax_zone,U5,terreno,land,7,,,
+2026-10-01,Asunción,tax_zone,U6,all,mixed,86,5086380,903523,6.47
+2026-10-01,Asunción,tax_zone,U6,casa,built,29,3977270,968704,3.81
+2026-10-01,Asunción,tax_zone,U6,departamento,built,35,8506940,930425,8.64
+2026-10-01,Asunción,tax_zone,U6,duplex,built,1,,,
+2026-10-01,Asunción,tax_zone,U6,local,built,1,,,
+2026-10-01,Asunción,tax_zone,U6,oficina,built,2,,,
+2026-10-01,Asunción,tax_zone,U6,terreno,land,18,,,
+2026-10-01,Asunción,tax_zone,U7,all,mixed,127,7866670,880017,8.3
+2026-10-01,Asunción,tax_zone,U7,casa,built,45,4875620,905450,5.13
+2026-10-01,Asunción,tax_zone,U7,departamento,built,63,9564180,920048,10.5
+2026-10-01,Asunción,tax_zone,U7,duplex,built,1,,,
+2026-10-01,Asunción,tax_zone,U7,local,built,2,,,
+2026-10-01,Asunción,tax_zone,U7,oficina,built,3,,,
+2026-10-01,Asunción,tax_zone,U7,terreno,land,13,,,
+2026-10-01,Asunción,tax_zone,U8,all,mixed,377,7051520,807995,9.31
+2026-10-01,Asunción,tax_zone,U8,casa,built,164,5632460,850326,5.93
+2026-10-01,Asunción,tax_zone,U8,departamento,built,143,10361500,842794,12.67
+2026-10-01,Asunción,tax_zone,U8,duplex,built,4,,,
+2026-10-01,Asunción,tax_zone,U8,local,built,8,,,
+2026-10-01,Asunción,tax_zone,U8,oficina,built,2,,,
+2026-10-01,Asunción,tax_zone,U8,terreno,land,56,2170990,169647,16.38
+2026-10-01,Asunción,tax_zone,U9,all,mixed,145,4398110,668500,8.07
+2026-10-01,Asunción,tax_zone,U9,casa,built,88,4771160,719603,5.89
+2026-10-01,Asunción,tax_zone,U9,departamento,built,20,8363630,990772,8.22
+2026-10-01,Asunción,tax_zone,U9,duplex,built,1,,,
+2026-10-01,Asunción,tax_zone,U9,local,built,1,,,
+2026-10-01,Asunción,tax_zone,U9,terreno,land,35,1428570,71272,17.66
+2026-10-01,Boquerón,department,Boquerón,all,mixed,14,,,
+2026-10-01,Boquerón,department,Boquerón,terreno,land,14,,,
+2026-10-01,Boquerón,district,FILADELFIA,all,mixed,11,,,
+2026-10-01,Boquerón,district,FILADELFIA,terreno,land,11,,,
+2026-10-01,Boquerón,district,LOMA PLATA,all,mixed,2,,,
+2026-10-01,Boquerón,district,LOMA PLATA,terreno,land,2,,,
+2026-10-01,Boquerón,district,MCAL. ESTIGARRIBIA,all,mixed,1,,,
+2026-10-01,Boquerón,district,MCAL. ESTIGARRIBIA,terreno,land,1,,,
+2026-10-01,Caaguazú,department,Caaguazú,all,mixed,5,,,
+2026-10-01,Caaguazú,department,Caaguazú,terreno,land,5,,,
+2026-10-01,Caaguazú,district,CAAGUAZU,all,mixed,1,,,
+2026-10-01,Caaguazú,district,CAAGUAZU,terreno,land,1,,,
+2026-10-01,Caaguazú,district,CORONEL OVIEDO,all,mixed,1,,,
+2026-10-01,Caaguazú,district,CORONEL OVIEDO,terreno,land,1,,,
+2026-10-01,Caaguazú,district,DR. J. E. ESTIGARRIBIA,all,mixed,1,,,
+2026-10-01,Caaguazú,district,DR. J. E. ESTIGARRIBIA,terreno,land,1,,,
+2026-10-01,Caaguazú,district,JOSE D. OCAMPOS,all,mixed,2,,,
+2026-10-01,Caaguazú,district,JOSE D. OCAMPOS,terreno,land,2,,,
+2026-10-01,Caazapá,department,Caazapá,all,mixed,1,,,
+2026-10-01,Caazapá,department,Caazapá,terreno,land,1,,,
+2026-10-01,Caazapá,district,SAN J. NEPOMUCENO,all,mixed,1,,,
+2026-10-01,Caazapá,district,SAN J. NEPOMUCENO,terreno,land,1,,,
+2026-10-01,Canindeyú,department,Canindeyú,all,mixed,3,,,
+2026-10-01,Canindeyú,department,Canindeyú,terreno,land,3,,,
+2026-10-01,Canindeyú,district,KATUETE,all,mixed,1,,,
+2026-10-01,Canindeyú,district,KATUETE,terreno,land,1,,,
+2026-10-01,Canindeyú,district,LA PALOMA,all,mixed,1,,,
+2026-10-01,Canindeyú,district,LA PALOMA,terreno,land,1,,,
+2026-10-01,Canindeyú,district,SALTO DEL GUAIRA,all,mixed,1,,,
+2026-10-01,Canindeyú,district,SALTO DEL GUAIRA,terreno,land,1,,,
+2026-10-01,Central,department,Central,all,mixed,742,666667,18944,28.94
+2026-10-01,Central,department,Central,casa,built,114,4444440,507918,8.18
+2026-10-01,Central,department,Central,departamento,built,9,,,
+2026-10-01,Central,department,Central,duplex,built,1,,,
+2026-10-01,Central,department,Central,local,built,3,,,
+2026-10-01,Central,department,Central,terreno,land,615,500000,18944,35.15
+2026-10-01,Central,district,AREGUA,all,mixed,43,236111,14207,17.31
+2026-10-01,Central,district,AREGUA,casa,built,7,,,
+2026-10-01,Central,district,AREGUA,terreno,land,36,225587,12404,17.42
+2026-10-01,Central,district,CAPIATA,all,mixed,51,406699,18944,26.39
+2026-10-01,Central,district,CAPIATA,casa,built,1,,,
+2026-10-01,Central,district,CAPIATA,terreno,land,50,402525,18944,26.39
+2026-10-01,Central,district,FDO. DE LA MORA,all,mixed,18,,,
+2026-10-01,Central,district,FDO. DE LA MORA,casa,built,6,,,
+2026-10-01,Central,district,FDO. DE LA MORA,departamento,built,3,,,
+2026-10-01,Central,district,FDO. DE LA MORA,terreno,land,9,,,
+2026-10-01,Central,district,GUARAMBARE,all,mixed,3,,,
+2026-10-01,Central,district,GUARAMBARE,terreno,land,3,,,
+2026-10-01,Central,district,ITA,all,mixed,15,,,
+2026-10-01,Central,district,ITA,terreno,land,15,,,
+2026-10-01,Central,district,ITAUGUA,all,mixed,15,,,
+2026-10-01,Central,district,ITAUGUA,casa,built,3,,,
+2026-10-01,Central,district,ITAUGUA,terreno,land,12,,,
+2026-10-01,Central,district,J AUGUSTO SALDIVAR,all,mixed,14,,,
+2026-10-01,Central,district,J AUGUSTO SALDIVAR,terreno,land,14,,,
+2026-10-01,Central,district,LAMBARE,all,mixed,93,1763340,52094,28.56
+2026-10-01,Central,district,LAMBARE,casa,built,32,4282270,505834,8.52
+2026-10-01,Central,district,LAMBARE,departamento,built,5,,,
+2026-10-01,Central,district,LAMBARE,duplex,built,1,,,
+2026-10-01,Central,district,LAMBARE,local,built,1,,,
+2026-10-01,Central,district,LAMBARE,terreno,land,54,1130200,31572,40.53
+2026-10-01,Central,district,LIMPIO,all,mixed,32,318813,18944,17.5
+2026-10-01,Central,district,LIMPIO,terreno,land,32,318813,18944,17.5
+2026-10-01,Central,district,LUQUE,all,mixed,139,1027780,18944,33.53
+2026-10-01,Central,district,LUQUE,casa,built,19,,,
+2026-10-01,Central,district,LUQUE,departamento,built,1,,,
+2026-10-01,Central,district,LUQUE,local,built,1,,,
+2026-10-01,Central,district,LUQUE,terreno,land,118,925000,18944,38.08
+2026-10-01,Central,district,MARIANO R. ALONSO,all,mixed,42,700094,18944,23.74
+2026-10-01,Central,district,MARIANO R. ALONSO,casa,built,6,,,
+2026-10-01,Central,district,MARIANO R. ALONSO,terreno,land,36,570132,18944,26.16
+2026-10-01,Central,district,ÑEMBY,all,mixed,31,607554,14207,35.19
+2026-10-01,Central,district,ÑEMBY,terreno,land,31,607554,14207,35.19
+2026-10-01,Central,district,NUEVA ITALIA,all,mixed,9,,,
+2026-10-01,Central,district,NUEVA ITALIA,terreno,land,9,,,
+2026-10-01,Central,district,SAN ANTONIO,all,mixed,25,458333,14207,25.44
+2026-10-01,Central,district,SAN ANTONIO,casa,built,4,,,
+2026-10-01,Central,district,SAN ANTONIO,terreno,land,21,453503,14207,26.66
+2026-10-01,Central,district,SAN LORENZO,all,mixed,62,1348940,31572,27.29
+2026-10-01,Central,district,SAN LORENZO,casa,built,21,4388060,506172,7.3
+2026-10-01,Central,district,SAN LORENZO,local,built,1,,,
+2026-10-01,Central,district,SAN LORENZO,terreno,land,40,1017640,31572,38.02
+2026-10-01,Central,district,VILLA ELISA,all,mixed,48,777778,22101,40.48
+2026-10-01,Central,district,VILLA ELISA,casa,built,9,,,
+2026-10-01,Central,district,VILLA ELISA,terreno,land,39,750000,14207,43.99
+2026-10-01,Central,district,VILLETA,all,mixed,24,204360,14207,14.52
+2026-10-01,Central,district,VILLETA,casa,built,1,,,
+2026-10-01,Central,district,VILLETA,terreno,land,23,204360,14207,14.66
+2026-10-01,Central,district,YPACARAI,all,mixed,47,263521,14207,26.87
+2026-10-01,Central,district,YPACARAI,casa,built,3,,,
+2026-10-01,Central,district,YPACARAI,terreno,land,44,222405,14207,29.97
+2026-10-01,Central,district,YPANE,all,mixed,31,277778,7895,34.65
+2026-10-01,Central,district,YPANE,casa,built,2,,,
+2026-10-01,Central,district,YPANE,terreno,land,29,275000,7895,35.18
+2026-10-01,Concepción,department,Concepción,all,mixed,4,,,
+2026-10-01,Concepción,department,Concepción,casa,built,1,,,
+2026-10-01,Concepción,department,Concepción,local,built,1,,,
+2026-10-01,Concepción,department,Concepción,terreno,land,2,,,
+2026-10-01,Concepción,district,BELEN,all,mixed,2,,,
+2026-10-01,Concepción,district,BELEN,terreno,land,2,,,
+2026-10-01,Concepción,district,CONCEPCION,all,mixed,2,,,
+2026-10-01,Concepción,district,CONCEPCION,casa,built,1,,,
+2026-10-01,Concepción,district,CONCEPCION,local,built,1,,,
+2026-10-01,Cordillera,department,Cordillera,all,mixed,163,297310,14207,21.59
+2026-10-01,Cordillera,department,Cordillera,casa,built,8,,,
+2026-10-01,Cordillera,department,Cordillera,terreno,land,155,290051,14207,25.13
+2026-10-01,Cordillera,district,ALTOS,all,mixed,29,375802,7895,115.63
+2026-10-01,Cordillera,district,ALTOS,terreno,land,29,375802,7895,115.63
+2026-10-01,Cordillera,district,ARROYOS Y ESTEROS,all,mixed,4,,,
+2026-10-01,Cordillera,district,ARROYOS Y ESTEROS,terreno,land,4,,,
+2026-10-01,Cordillera,district,ATYRA,all,mixed,8,,,
+2026-10-01,Cordillera,district,ATYRA,terreno,land,8,,,
+2026-10-01,Cordillera,district,CAACUPE,all,mixed,29,231481,18944,9.33
+2026-10-01,Cordillera,district,CAACUPE,casa,built,4,,,
+2026-10-01,Cordillera,district,CAACUPE,terreno,land,25,217593,18944,12.22
+2026-10-01,Cordillera,district,CARAGUATAY,all,mixed,1,,,
+2026-10-01,Cordillera,district,CARAGUATAY,terreno,land,1,,,
+2026-10-01,Cordillera,district,EMBOSCADA,all,mixed,5,,,
+2026-10-01,Cordillera,district,EMBOSCADA,terreno,land,5,,,
+2026-10-01,Cordillera,district,EUSEBIO AYALA,all,mixed,1,,,
+2026-10-01,Cordillera,district,EUSEBIO AYALA,terreno,land,1,,,
+2026-10-01,Cordillera,district,ITAC. DE LA CORDILLERA,all,mixed,3,,,
+2026-10-01,Cordillera,district,ITAC. DE LA CORDILLERA,casa,built,2,,,
+2026-10-01,Cordillera,district,ITAC. DE LA CORDILLERA,terreno,land,1,,,
+2026-10-01,Cordillera,district,LOMA GRANDE,all,mixed,3,,,
+2026-10-01,Cordillera,district,LOMA GRANDE,terreno,land,3,,,
+2026-10-01,Cordillera,district,NUEVA COLOMBIA,all,mixed,4,,,
+2026-10-01,Cordillera,district,NUEVA COLOMBIA,terreno,land,4,,,
+2026-10-01,Cordillera,district,PIRIBEBUY,all,mixed,11,,,
+2026-10-01,Cordillera,district,PIRIBEBUY,terreno,land,11,,,
+2026-10-01,Cordillera,district,SAN BERNARDINO,all,mixed,63,398074,18944,36.66
+2026-10-01,Cordillera,district,SAN BERNARDINO,casa,built,2,,,
+2026-10-01,Cordillera,district,SAN BERNARDINO,terreno,land,61,389692,18944,36.66
+2026-10-01,Cordillera,district,TOBATI,all,mixed,2,,,
+2026-10-01,Cordillera,district,TOBATI,terreno,land,2,,,
+2026-10-01,Guairá,department,Guairá,all,mixed,1,,,
+2026-10-01,Guairá,department,Guairá,terreno,land,1,,,
+2026-10-01,Guairá,district,VILLARRICA,all,mixed,1,,,
+2026-10-01,Guairá,district,VILLARRICA,terreno,land,1,,,
+2026-10-01,Itapúa,department,Itapúa,all,mixed,230,231481,7895,25.7
+2026-10-01,Itapúa,department,Itapúa,casa,built,16,,,
+2026-10-01,Itapúa,department,Itapúa,departamento,built,3,,,
+2026-10-01,Itapúa,department,Itapúa,terreno,land,211,222222,7895,29.26
+2026-10-01,Itapúa,district,BELLA VISTA,all,mixed,3,,,
+2026-10-01,Itapúa,district,BELLA VISTA,terreno,land,3,,,
+2026-10-01,Itapúa,district,CAMBYRETA,all,mixed,35,416667,14207,49.38
+2026-10-01,Itapúa,district,CAMBYRETA,casa,built,1,,,
+2026-10-01,Itapúa,district,CAMBYRETA,terreno,land,34,390152,14207,49.38
+2026-10-01,Itapúa,district,CAPITAN MIRANDA,all,mixed,16,,,
+2026-10-01,Itapúa,district,CAPITAN MIRANDA,terreno,land,16,,,
+2026-10-01,Itapúa,district,CARMEN DEL PARANA,all,mixed,23,180995,14207,12.74
+2026-10-01,Itapúa,district,CARMEN DEL PARANA,casa,built,2,,,
+2026-10-01,Itapúa,district,CARMEN DEL PARANA,terreno,land,21,180995,14207,12.74
+2026-10-01,Itapúa,district,CORONEL BOGADO,all,mixed,5,,,
+2026-10-01,Itapúa,district,CORONEL BOGADO,terreno,land,5,,,
+2026-10-01,Itapúa,district,EDELIRA,all,mixed,1,,,
+2026-10-01,Itapúa,district,EDELIRA,terreno,land,1,,,
+2026-10-01,Itapúa,district,ENCARNACION,all,mixed,90,241884,22101,22.56
+2026-10-01,Itapúa,district,ENCARNACION,casa,built,11,,,
+2026-10-01,Itapúa,district,ENCARNACION,departamento,built,3,,,
+2026-10-01,Itapúa,district,ENCARNACION,terreno,land,76,222222,7409,24.65
+2026-10-01,Itapúa,district,FRAM,all,mixed,4,,,
+2026-10-01,Itapúa,district,FRAM,casa,built,1,,,
+2026-10-01,Itapúa,district,FRAM,terreno,land,3,,,
+2026-10-01,Itapúa,district,HOHENAU,all,mixed,8,,,
+2026-10-01,Itapúa,district,HOHENAU,casa,built,1,,,
+2026-10-01,Itapúa,district,HOHENAU,terreno,land,7,,,
+2026-10-01,Itapúa,district,NATALIO,all,mixed,2,,,
+2026-10-01,Itapúa,district,NATALIO,terreno,land,2,,,
+2026-10-01,Itapúa,district,OBLIGADO,all,mixed,4,,,
+2026-10-01,Itapúa,district,OBLIGADO,terreno,land,4,,,
+2026-10-01,Itapúa,district,SAN COSME Y DAMIAN,all,mixed,2,,,
+2026-10-01,Itapúa,district,SAN COSME Y DAMIAN,terreno,land,2,,,
+2026-10-01,Itapúa,district,SAN JUAN DEL PARANA,all,mixed,33,455058,233,1957.17
+2026-10-01,Itapúa,district,SAN JUAN DEL PARANA,terreno,land,33,455058,233,1957.17
+2026-10-01,Itapúa,district,SAN RAFAEL DEL PARANA,all,mixed,1,,,
+2026-10-01,Itapúa,district,SAN RAFAEL DEL PARANA,terreno,land,1,,,
+2026-10-01,Itapúa,district,TOMAS R. PEREIRA,all,mixed,1,,,
+2026-10-01,Itapúa,district,TOMAS R. PEREIRA,terreno,land,1,,,
+2026-10-01,Itapúa,district,TRINIDAD,all,mixed,1,,,
+2026-10-01,Itapúa,district,TRINIDAD,terreno,land,1,,,
+2026-10-01,Itapúa,district,YATYTAY,all,mixed,1,,,
+2026-10-01,Itapúa,district,YATYTAY,terreno,land,1,,,
+2026-10-01,Misiones,department,Misiones,all,mixed,14,,,
+2026-10-01,Misiones,department,Misiones,terreno,land,14,,,
+2026-10-01,Misiones,district,SAN IGNACIO,all,mixed,10,,,
+2026-10-01,Misiones,district,SAN IGNACIO,terreno,land,10,,,
+2026-10-01,Misiones,district,SAN JUAN BAUTISTA,all,mixed,2,,,
+2026-10-01,Misiones,district,SAN JUAN BAUTISTA,terreno,land,2,,,
+2026-10-01,Misiones,district,VILLA FLORIDA,all,mixed,2,,,
+2026-10-01,Misiones,district,VILLA FLORIDA,terreno,land,2,,,
+2026-10-01,Ñeembucú,department,Ñeembucú,all,mixed,1,,,
+2026-10-01,Ñeembucú,department,Ñeembucú,casa,built,1,,,
+2026-10-01,Ñeembucú,district,GRAL. J. E. DIAZ,all,mixed,1,,,
+2026-10-01,Ñeembucú,district,GRAL. J. E. DIAZ,casa,built,1,,,
+2026-10-01,Paraguarí,department,Paraguarí,all,mixed,21,233686,14207,12.73
+2026-10-01,Paraguarí,department,Paraguarí,casa,built,3,,,
+2026-10-01,Paraguarí,department,Paraguarí,terreno,land,18,,,
+2026-10-01,Paraguarí,district,ACAHAY,all,mixed,1,,,
+2026-10-01,Paraguarí,district,ACAHAY,terreno,land,1,,,
+2026-10-01,Paraguarí,district,CAAPUCU,all,mixed,1,,,
+2026-10-01,Paraguarí,district,CAAPUCU,terreno,land,1,,,
+2026-10-01,Paraguarí,district,CARAPEGUA,all,mixed,1,,,
+2026-10-01,Paraguarí,district,CARAPEGUA,terreno,land,1,,,
+2026-10-01,Paraguarí,district,LA COLMENA,all,mixed,1,,,
+2026-10-01,Paraguarí,district,LA COLMENA,terreno,land,1,,,
+2026-10-01,Paraguarí,district,PARAGUARI,all,mixed,8,,,
+2026-10-01,Paraguarí,district,PARAGUARI,casa,built,3,,,
+2026-10-01,Paraguarí,district,PARAGUARI,terreno,land,5,,,
+2026-10-01,Paraguarí,district,PIRAYU,all,mixed,2,,,
+2026-10-01,Paraguarí,district,PIRAYU,terreno,land,2,,,
+2026-10-01,Paraguarí,district,QUIINDY,all,mixed,1,,,
+2026-10-01,Paraguarí,district,QUIINDY,terreno,land,1,,,
+2026-10-01,Paraguarí,district,YAGUARON,all,mixed,5,,,
+2026-10-01,Paraguarí,district,YAGUARON,terreno,land,5,,,
+2026-10-01,Paraguarí,district,YBYCUI,all,mixed,1,,,
+2026-10-01,Paraguarí,district,YBYCUI,terreno,land,1,,,
+2026-10-01,Presidente Hayes,department,Presidente Hayes,all,mixed,37,1150290,7895,360.24
+2026-10-01,Presidente Hayes,department,Presidente Hayes,terreno,land,37,1150290,7895,360.24
+2026-10-01,Presidente Hayes,district,BENJAMIN ACEVAL,all,mixed,1,,,
+2026-10-01,Presidente Hayes,district,BENJAMIN ACEVAL,terreno,land,1,,,
+2026-10-01,Presidente Hayes,district,JOSE FALCON,all,mixed,5,,,
+2026-10-01,Presidente Hayes,district,JOSE FALCON,terreno,land,5,,,
+2026-10-01,Presidente Hayes,district,NUEVA ASUNCION,all,mixed,22,1550040,7895,342.25
+2026-10-01,Presidente Hayes,district,NUEVA ASUNCION,terreno,land,22,1550040,7895,342.25
+2026-10-01,Presidente Hayes,district,VILLA HAYES,all,mixed,9,,,
+2026-10-01,Presidente Hayes,district,VILLA HAYES,terreno,land,9,,,
+2026-10-01,San Pedro,department,San Pedro,all,mixed,1,,,
+2026-10-01,San Pedro,department,San Pedro,terreno,land,1,,,
+2026-10-01,San Pedro,district,SANTA ROSA DEL AGUARAY,all,mixed,1,,,
+2026-10-01,San Pedro,district,SANTA ROSA DEL AGUARAY,terreno,land,1,,,
