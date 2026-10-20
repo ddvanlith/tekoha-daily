@@ -203,9 +203,9 @@ date,market_id,market,metric,property_kind,value,n,median_sources
 2026-09-23,d:presidente-hayes,Presidente Hayes,active_sale,,220,220,remax uprop cb psir prestige
 2026-09-23,d:presidente-hayes,Presidente Hayes,active_rent,,1,1,remax uprop cb psir prestige
 2026-09-23,d:presidente-hayes,Presidente Hayes,asking_price_usd,terreno,86632,155,remax uprop cb psir prestige
-2026-09-23,c:presidente-hayes:villa-hayes,Villa Hayes,active_sale,,141,141,remax uprop cb psir prestige
-2026-09-23,c:presidente-hayes:villa-hayes,Villa Hayes,active_rent,,0,0,remax uprop cb psir prestige
-2026-09-23,c:presidente-hayes:villa-hayes,Villa Hayes,asking_price_usd,terreno,99900,98,remax uprop cb psir prestige
+2026-09-23,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,active_sale,,141,141,remax uprop cb psir prestige
+2026-09-23,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,active_rent,,0,0,remax uprop cb psir prestige
+2026-09-23,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,asking_price_usd,terreno,99900,98,remax uprop cb psir prestige
 2026-09-23,d:boqueron,Boquerón,active_sale,,167,167,remax uprop cb psir prestige
 2026-09-23,d:boqueron,Boquerón,active_rent,,30,30,remax uprop cb psir prestige
 2026-09-23,d:boqueron,Boquerón,asking_price_usd,casa,75924,25,remax uprop cb psir prestige
@@ -451,9 +451,9 @@ date,market_id,market,metric,property_kind,value,n,median_sources
 2026-09-24,d:presidente-hayes,Presidente Hayes,active_sale,,221,221,remax uprop cb psir prestige
 2026-09-24,d:presidente-hayes,Presidente Hayes,active_rent,,1,1,remax uprop cb psir prestige
 2026-09-24,d:presidente-hayes,Presidente Hayes,asking_price_usd,terreno,85828,154,remax uprop cb psir prestige
-2026-09-24,c:presidente-hayes:villa-hayes,Villa Hayes,active_sale,,141,141,remax uprop cb psir prestige
-2026-09-24,c:presidente-hayes:villa-hayes,Villa Hayes,active_rent,,0,0,remax uprop cb psir prestige
-2026-09-24,c:presidente-hayes:villa-hayes,Villa Hayes,asking_price_usd,terreno,99800,97,remax uprop cb psir prestige
+2026-09-24,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,active_sale,,141,141,remax uprop cb psir prestige
+2026-09-24,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,active_rent,,0,0,remax uprop cb psir prestige
+2026-09-24,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,asking_price_usd,terreno,99800,97,remax uprop cb psir prestige
 2026-09-24,d:boqueron,Boquerón,active_sale,,167,167,remax uprop cb psir prestige
 2026-09-24,d:boqueron,Boquerón,active_rent,,30,30,remax uprop cb psir prestige
 2026-09-24,d:boqueron,Boquerón,asking_price_usd,casa,78042,24,remax uprop cb psir prestige
@@ -686,9 +686,9 @@ date,market_id,market,metric,property_kind,value,n,median_sources
 2026-09-25,d:presidente-hayes,Presidente Hayes,active_sale,,196,196,remax uprop cb psir prestige
 2026-09-25,d:presidente-hayes,Presidente Hayes,active_rent,,1,1,remax uprop cb psir prestige
 2026-09-25,d:presidente-hayes,Presidente Hayes,asking_price_usd,terreno,86632,137,remax uprop cb psir prestige
-2026-09-25,c:presidente-hayes:villa-hayes,Villa Hayes,active_sale,,120,120,remax uprop cb psir prestige
-2026-09-25,c:presidente-hayes:villa-hayes,Villa Hayes,active_rent,,0,0,remax uprop cb psir prestige
-2026-09-25,c:presidente-hayes:villa-hayes,Villa Hayes,asking_price_usd,terreno,106006,82,remax uprop cb psir prestige
+2026-09-25,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,active_sale,,120,120,remax uprop cb psir prestige
+2026-09-25,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,active_rent,,0,0,remax uprop cb psir prestige
+2026-09-25,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,asking_price_usd,terreno,106006,82,remax uprop cb psir prestige
 2026-09-25,d:boqueron,Boquerón,active_sale,,165,165,remax uprop cb psir prestige
 2026-09-25,d:boqueron,Boquerón,active_rent,,31,31,remax uprop cb psir prestige
 2026-09-25,d:boqueron,Boquerón,asking_price_usd,casa,78464,24,remax uprop cb psir prestige
@@ -925,9 +925,9 @@ date,market_id,market,metric,property_kind,value,n,median_sources
 2026-09-26,d:presidente-hayes,Presidente Hayes,active_sale,,189,189,remax uprop cb psir prestige
 2026-09-26,d:presidente-hayes,Presidente Hayes,active_rent,,1,1,remax uprop cb psir prestige
 2026-09-26,d:presidente-hayes,Presidente Hayes,asking_price_usd,terreno,86632,137,remax uprop cb psir prestige
-2026-09-26,c:presidente-hayes:villa-hayes,Villa Hayes,active_sale,,113,113,remax uprop cb psir prestige
-2026-09-26,c:presidente-hayes:villa-hayes,Villa Hayes,active_rent,,0,0,remax uprop cb psir prestige
-2026-09-26,c:presidente-hayes:villa-hayes,Villa Hayes,asking_price_usd,terreno,106006,82,remax uprop cb psir prestige
+2026-09-26,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,active_sale,,113,113,remax uprop cb psir prestige
+2026-09-26,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,active_rent,,0,0,remax uprop cb psir prestige
+2026-09-26,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,asking_price_usd,terreno,106006,82,remax uprop cb psir prestige
 2026-09-26,d:paraguari,Paraguarí,active_sale,,111,111,remax uprop cb psir prestige
 2026-09-26,d:paraguari,Paraguarí,active_rent,,3,3,remax uprop cb psir prestige
 2026-09-26,d:paraguari,Paraguarí,asking_price_usd,terreno,48513,63,remax uprop cb psir prestige
@@ -1160,9 +1160,9 @@ date,market_id,market,metric,property_kind,value,n,median_sources
 2026-09-27,d:presidente-hayes,Presidente Hayes,active_sale,,187,187,remax uprop cb psir prestige
 2026-09-27,d:presidente-hayes,Presidente Hayes,active_rent,,1,1,remax uprop cb psir prestige
 2026-09-27,d:presidente-hayes,Presidente Hayes,asking_price_usd,terreno,86632,137,remax uprop cb psir prestige
-2026-09-27,c:presidente-hayes:villa-hayes,Villa Hayes,active_sale,,112,112,remax uprop cb psir prestige
-2026-09-27,c:presidente-hayes:villa-hayes,Villa Hayes,active_rent,,0,0,remax uprop cb psir prestige
-2026-09-27,c:presidente-hayes:villa-hayes,Villa Hayes,asking_price_usd,terreno,106006,82,remax uprop cb psir prestige
+2026-09-27,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,active_sale,,112,112,remax uprop cb psir prestige
+2026-09-27,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,active_rent,,0,0,remax uprop cb psir prestige
+2026-09-27,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,asking_price_usd,terreno,106006,82,remax uprop cb psir prestige
 2026-09-27,d:paraguari,Paraguarí,active_sale,,109,109,remax uprop cb psir prestige
 2026-09-27,d:paraguari,Paraguarí,active_rent,,3,3,remax uprop cb psir prestige
 2026-09-27,d:paraguari,Paraguarí,asking_price_usd,terreno,48513,63,remax uprop cb psir prestige
@@ -1395,9 +1395,9 @@ date,market_id,market,metric,property_kind,value,n,median_sources
 2026-09-28,d:presidente-hayes,Presidente Hayes,active_sale,,183,183,remax uprop cb psir prestige
 2026-09-28,d:presidente-hayes,Presidente Hayes,active_rent,,1,1,remax uprop cb psir prestige
 2026-09-28,d:presidente-hayes,Presidente Hayes,asking_price_usd,terreno,86632,137,remax uprop cb psir prestige
-2026-09-28,c:presidente-hayes:villa-hayes,Villa Hayes,active_sale,,109,109,remax uprop cb psir prestige
-2026-09-28,c:presidente-hayes:villa-hayes,Villa Hayes,active_rent,,0,0,remax uprop cb psir prestige
-2026-09-28,c:presidente-hayes:villa-hayes,Villa Hayes,asking_price_usd,terreno,106006,82,remax uprop cb psir prestige
+2026-09-28,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,active_sale,,109,109,remax uprop cb psir prestige
+2026-09-28,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,active_rent,,0,0,remax uprop cb psir prestige
+2026-09-28,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,asking_price_usd,terreno,106006,82,remax uprop cb psir prestige
 2026-09-28,d:paraguari,Paraguarí,active_sale,,108,108,remax uprop cb psir prestige
 2026-09-28,d:paraguari,Paraguarí,active_rent,,3,3,remax uprop cb psir prestige
 2026-09-28,d:paraguari,Paraguarí,asking_price_usd,terreno,48513,63,remax uprop cb psir prestige
@@ -1630,9 +1630,9 @@ date,market_id,market,metric,property_kind,value,n,median_sources
 2026-09-29,d:presidente-hayes,Presidente Hayes,active_sale,,182,182,remax uprop cb psir prestige
 2026-09-29,d:presidente-hayes,Presidente Hayes,active_rent,,1,1,remax uprop cb psir prestige
 2026-09-29,d:presidente-hayes,Presidente Hayes,asking_price_usd,terreno,86632,137,remax uprop cb psir prestige
-2026-09-29,c:presidente-hayes:villa-hayes,Villa Hayes,active_sale,,108,108,remax uprop cb psir prestige
-2026-09-29,c:presidente-hayes:villa-hayes,Villa Hayes,active_rent,,0,0,remax uprop cb psir prestige
-2026-09-29,c:presidente-hayes:villa-hayes,Villa Hayes,asking_price_usd,terreno,106006,82,remax uprop cb psir prestige
+2026-09-29,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,active_sale,,108,108,remax uprop cb psir prestige
+2026-09-29,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,active_rent,,0,0,remax uprop cb psir prestige
+2026-09-29,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,asking_price_usd,terreno,106006,82,remax uprop cb psir prestige
 2026-09-29,d:paraguari,Paraguarí,active_sale,,108,108,remax uprop cb psir prestige
 2026-09-29,d:paraguari,Paraguarí,active_rent,,3,3,remax uprop cb psir prestige
 2026-09-29,d:paraguari,Paraguarí,asking_price_usd,terreno,48513,63,remax uprop cb psir prestige
@@ -1865,9 +1865,9 @@ date,market_id,market,metric,property_kind,value,n,median_sources
 2026-10-01,d:presidente-hayes,Presidente Hayes,active_sale,,178,178,remax uprop cb psir prestige
 2026-10-01,d:presidente-hayes,Presidente Hayes,active_rent,,0,0,remax uprop cb psir prestige
 2026-10-01,d:presidente-hayes,Presidente Hayes,asking_price_usd,terreno,86632,137,remax uprop cb psir prestige
-2026-10-01,c:presidente-hayes:villa-hayes,Villa Hayes,active_sale,,106,106,remax uprop cb psir prestige
-2026-10-01,c:presidente-hayes:villa-hayes,Villa Hayes,active_rent,,0,0,remax uprop cb psir prestige
-2026-10-01,c:presidente-hayes:villa-hayes,Villa Hayes,asking_price_usd,terreno,106006,82,remax uprop cb psir prestige
+2026-10-01,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,active_sale,,106,106,remax uprop cb psir prestige
+2026-10-01,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,active_rent,,0,0,remax uprop cb psir prestige
+2026-10-01,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,asking_price_usd,terreno,106006,82,remax uprop cb psir prestige
 2026-10-01,d:paraguari,Paraguarí,active_sale,,109,109,remax uprop cb psir prestige
 2026-10-01,d:paraguari,Paraguarí,active_rent,,3,3,remax uprop cb psir prestige
 2026-10-01,d:paraguari,Paraguarí,asking_price_usd,terreno,48952,65,remax uprop cb psir prestige
@@ -2098,9 +2098,9 @@ date,market_id,market,metric,property_kind,value,n,median_sources
 2026-10-02,d:presidente-hayes,Presidente Hayes,active_sale,,175,175,remax uprop cb psir prestige
 2026-10-02,d:presidente-hayes,Presidente Hayes,active_rent,,0,0,remax uprop cb psir prestige
 2026-10-02,d:presidente-hayes,Presidente Hayes,asking_price_usd,terreno,86632,137,remax uprop cb psir prestige
-2026-10-02,c:presidente-hayes:villa-hayes,Villa Hayes,active_sale,,104,104,remax uprop cb psir prestige
-2026-10-02,c:presidente-hayes:villa-hayes,Villa Hayes,active_rent,,0,0,remax uprop cb psir prestige
-2026-10-02,c:presidente-hayes:villa-hayes,Villa Hayes,asking_price_usd,terreno,106006,82,remax uprop cb psir prestige
+2026-10-02,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,active_sale,,104,104,remax uprop cb psir prestige
+2026-10-02,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,active_rent,,0,0,remax uprop cb psir prestige
+2026-10-02,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,asking_price_usd,terreno,106006,82,remax uprop cb psir prestige
 2026-10-02,d:paraguari,Paraguarí,active_sale,,108,108,remax uprop cb psir prestige
 2026-10-02,d:paraguari,Paraguarí,active_rent,,2,2,remax uprop cb psir prestige
 2026-10-02,d:paraguari,Paraguarí,asking_price_usd,terreno,48710,65,remax uprop cb psir prestige
@@ -2344,9 +2344,9 @@ date,market_id,market,metric,property_kind,value,n,median_sources
 2026-10-03,d:presidente-hayes,Presidente Hayes,active_sale,,173,173,remax infocasas uprop cb psir prestige
 2026-10-03,d:presidente-hayes,Presidente Hayes,active_rent,,0,0,remax infocasas uprop cb psir prestige
 2026-10-03,d:presidente-hayes,Presidente Hayes,asking_price_usd,terreno,86632,137,remax infocasas uprop cb psir prestige
-2026-10-03,c:presidente-hayes:villa-hayes,Villa Hayes,active_sale,,102,102,remax infocasas uprop cb psir prestige
-2026-10-03,c:presidente-hayes:villa-hayes,Villa Hayes,active_rent,,0,0,remax infocasas uprop cb psir prestige
-2026-10-03,c:presidente-hayes:villa-hayes,Villa Hayes,asking_price_usd,terreno,106006,82,remax infocasas uprop cb psir prestige
+2026-10-03,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,active_sale,,102,102,remax infocasas uprop cb psir prestige
+2026-10-03,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,active_rent,,0,0,remax infocasas uprop cb psir prestige
+2026-10-03,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,asking_price_usd,terreno,106006,82,remax infocasas uprop cb psir prestige
 2026-10-03,d:paraguari,Paraguarí,active_sale,,109,109,remax infocasas uprop cb psir prestige
 2026-10-03,d:paraguari,Paraguarí,active_rent,,2,2,remax infocasas uprop cb psir prestige
 2026-10-03,d:paraguari,Paraguarí,asking_price_usd,terreno,45568,66,remax infocasas uprop cb psir prestige
@@ -2585,9 +2585,9 @@ date,market_id,market,metric,property_kind,value,n,median_sources
 2026-10-04,d:presidente-hayes,Presidente Hayes,active_sale,,173,173,remax infocasas uprop cb psir prestige
 2026-10-04,d:presidente-hayes,Presidente Hayes,active_rent,,0,0,remax infocasas uprop cb psir prestige
 2026-10-04,d:presidente-hayes,Presidente Hayes,asking_price_usd,terreno,91846,138,remax infocasas uprop cb psir prestige
-2026-10-04,c:presidente-hayes:villa-hayes,Villa Hayes,active_sale,,101,101,remax infocasas uprop cb psir prestige
-2026-10-04,c:presidente-hayes:villa-hayes,Villa Hayes,active_rent,,0,0,remax infocasas uprop cb psir prestige
-2026-10-04,c:presidente-hayes:villa-hayes,Villa Hayes,asking_price_usd,terreno,106006,82,remax infocasas uprop cb psir prestige
+2026-10-04,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,active_sale,,101,101,remax infocasas uprop cb psir prestige
+2026-10-04,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,active_rent,,0,0,remax infocasas uprop cb psir prestige
+2026-10-04,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,asking_price_usd,terreno,106006,82,remax infocasas uprop cb psir prestige
 2026-10-04,d:paraguari,Paraguarí,active_sale,,109,109,remax infocasas uprop cb psir prestige
 2026-10-04,d:paraguari,Paraguarí,active_rent,,2,2,remax infocasas uprop cb psir prestige
 2026-10-04,d:paraguari,Paraguarí,asking_price_usd,terreno,45568,66,remax infocasas uprop cb psir prestige
@@ -2826,9 +2826,9 @@ date,market_id,market,metric,property_kind,value,n,median_sources
 2026-10-05,d:presidente-hayes,Presidente Hayes,active_sale,,173,173,remax infocasas uprop cb psir prestige
 2026-10-05,d:presidente-hayes,Presidente Hayes,active_rent,,0,0,remax infocasas uprop cb psir prestige
 2026-10-05,d:presidente-hayes,Presidente Hayes,asking_price_usd,terreno,90255,138,remax infocasas uprop cb psir prestige
-2026-10-05,c:presidente-hayes:villa-hayes,Villa Hayes,active_sale,,101,101,remax infocasas uprop cb psir prestige
-2026-10-05,c:presidente-hayes:villa-hayes,Villa Hayes,active_rent,,0,0,remax infocasas uprop cb psir prestige
-2026-10-05,c:presidente-hayes:villa-hayes,Villa Hayes,asking_price_usd,terreno,106006,82,remax infocasas uprop cb psir prestige
+2026-10-05,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,active_sale,,101,101,remax infocasas uprop cb psir prestige
+2026-10-05,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,active_rent,,0,0,remax infocasas uprop cb psir prestige
+2026-10-05,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,asking_price_usd,terreno,106006,82,remax infocasas uprop cb psir prestige
 2026-10-05,d:paraguari,Paraguarí,active_sale,,107,107,remax infocasas uprop cb psir prestige
 2026-10-05,d:paraguari,Paraguarí,active_rent,,2,2,remax infocasas uprop cb psir prestige
 2026-10-05,d:paraguari,Paraguarí,asking_price_usd,terreno,45568,66,remax infocasas uprop cb psir prestige
@@ -3063,9 +3063,9 @@ date,market_id,market,metric,property_kind,value,n,median_sources
 2026-10-06,d:presidente-hayes,Presidente Hayes,active_sale,,173,173,remax infocasas uprop cb psir prestige
 2026-10-06,d:presidente-hayes,Presidente Hayes,active_rent,,0,0,remax infocasas uprop cb psir prestige
 2026-10-06,d:presidente-hayes,Presidente Hayes,asking_price_usd,terreno,90162,138,remax infocasas uprop cb psir prestige
-2026-10-06,c:presidente-hayes:villa-hayes,Villa Hayes,active_sale,,101,101,remax infocasas uprop cb psir prestige
-2026-10-06,c:presidente-hayes:villa-hayes,Villa Hayes,active_rent,,0,0,remax infocasas uprop cb psir prestige
-2026-10-06,c:presidente-hayes:villa-hayes,Villa Hayes,asking_price_usd,terreno,106006,82,remax infocasas uprop cb psir prestige
+2026-10-06,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,active_sale,,101,101,remax infocasas uprop cb psir prestige
+2026-10-06,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,active_rent,,0,0,remax infocasas uprop cb psir prestige
+2026-10-06,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,asking_price_usd,terreno,106006,82,remax infocasas uprop cb psir prestige
 2026-10-06,d:paraguari,Paraguarí,active_sale,,107,107,remax infocasas uprop cb psir prestige
 2026-10-06,d:paraguari,Paraguarí,active_rent,,2,2,remax infocasas uprop cb psir prestige
 2026-10-06,d:paraguari,Paraguarí,asking_price_usd,terreno,42587,65,remax infocasas uprop cb psir prestige
@@ -3305,9 +3305,9 @@ date,market_id,market,metric,property_kind,value,n,median_sources
 2026-10-07,d:presidente-hayes,Presidente Hayes,active_sale,,173,173,remax infocasas uprop cb psir prestige
 2026-10-07,d:presidente-hayes,Presidente Hayes,active_rent,,0,0,remax infocasas uprop cb psir prestige
 2026-10-07,d:presidente-hayes,Presidente Hayes,asking_price_usd,terreno,90448,138,remax infocasas uprop cb psir prestige
-2026-10-07,c:presidente-hayes:villa-hayes,Villa Hayes,active_sale,,101,101,remax infocasas uprop cb psir prestige
-2026-10-07,c:presidente-hayes:villa-hayes,Villa Hayes,active_rent,,0,0,remax infocasas uprop cb psir prestige
-2026-10-07,c:presidente-hayes:villa-hayes,Villa Hayes,asking_price_usd,terreno,106006,82,remax infocasas uprop cb psir prestige
+2026-10-07,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,active_sale,,101,101,remax infocasas uprop cb psir prestige
+2026-10-07,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,active_rent,,0,0,remax infocasas uprop cb psir prestige
+2026-10-07,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,asking_price_usd,terreno,106006,82,remax infocasas uprop cb psir prestige
 2026-10-07,d:paraguari,Paraguarí,active_sale,,107,107,remax infocasas uprop cb psir prestige
 2026-10-07,d:paraguari,Paraguarí,active_rent,,2,2,remax infocasas uprop cb psir prestige
 2026-10-07,d:paraguari,Paraguarí,asking_price_usd,terreno,42847,66,remax infocasas uprop cb psir prestige
@@ -3548,9 +3548,9 @@ date,market_id,market,metric,property_kind,value,n,median_sources
 2026-10-08,d:presidente-hayes,Presidente Hayes,active_sale,,172,172,remax infocasas uprop cb psir prestige
 2026-10-08,d:presidente-hayes,Presidente Hayes,active_rent,,0,0,remax infocasas uprop cb psir prestige
 2026-10-08,d:presidente-hayes,Presidente Hayes,asking_price_usd,terreno,90000,137,remax infocasas uprop cb psir prestige
-2026-10-08,c:presidente-hayes:villa-hayes,Villa Hayes,active_sale,,100,100,remax infocasas uprop cb psir prestige
-2026-10-08,c:presidente-hayes:villa-hayes,Villa Hayes,active_rent,,0,0,remax infocasas uprop cb psir prestige
-2026-10-08,c:presidente-hayes:villa-hayes,Villa Hayes,asking_price_usd,terreno,112011,81,remax infocasas uprop cb psir prestige
+2026-10-08,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,active_sale,,100,100,remax infocasas uprop cb psir prestige
+2026-10-08,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,active_rent,,0,0,remax infocasas uprop cb psir prestige
+2026-10-08,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,asking_price_usd,terreno,112011,81,remax infocasas uprop cb psir prestige
 2026-10-08,d:paraguari,Paraguarí,active_sale,,108,108,remax infocasas uprop cb psir prestige
 2026-10-08,d:paraguari,Paraguarí,active_rent,,2,2,remax infocasas uprop cb psir prestige
 2026-10-08,d:paraguari,Paraguarí,asking_price_usd,terreno,43440,66,remax infocasas uprop cb psir prestige
@@ -3791,9 +3791,9 @@ date,market_id,market,metric,property_kind,value,n,median_sources
 2026-10-09,d:presidente-hayes,Presidente Hayes,active_sale,,173,173,remax infocasas uprop cb psir prestige
 2026-10-09,d:presidente-hayes,Presidente Hayes,active_rent,,0,0,remax infocasas uprop cb psir prestige
 2026-10-09,d:presidente-hayes,Presidente Hayes,asking_price_usd,terreno,91756,138,remax infocasas uprop cb psir prestige
-2026-10-09,c:presidente-hayes:villa-hayes,Villa Hayes,active_sale,,101,101,remax infocasas uprop cb psir prestige
-2026-10-09,c:presidente-hayes:villa-hayes,Villa Hayes,active_rent,,0,0,remax infocasas uprop cb psir prestige
-2026-10-09,c:presidente-hayes:villa-hayes,Villa Hayes,asking_price_usd,terreno,106006,82,remax infocasas uprop cb psir prestige
+2026-10-09,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,active_sale,,101,101,remax infocasas uprop cb psir prestige
+2026-10-09,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,active_rent,,0,0,remax infocasas uprop cb psir prestige
+2026-10-09,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,asking_price_usd,terreno,106006,82,remax infocasas uprop cb psir prestige
 2026-10-09,d:paraguari,Paraguarí,active_sale,,108,108,remax infocasas uprop cb psir prestige
 2026-10-09,d:paraguari,Paraguarí,active_rent,,2,2,remax infocasas uprop cb psir prestige
 2026-10-09,d:paraguari,Paraguarí,asking_price_usd,terreno,43952,66,remax infocasas uprop cb psir prestige
@@ -4034,9 +4034,9 @@ date,market_id,market,metric,property_kind,value,n,median_sources
 2026-10-10,d:presidente-hayes,Presidente Hayes,active_sale,,173,173,remax infocasas uprop cb psir prestige
 2026-10-10,d:presidente-hayes,Presidente Hayes,active_rent,,0,0,remax infocasas uprop cb psir prestige
 2026-10-10,d:presidente-hayes,Presidente Hayes,asking_price_usd,terreno,90000,139,remax infocasas uprop cb psir prestige
-2026-10-10,c:presidente-hayes:villa-hayes,Villa Hayes,active_sale,,100,100,remax infocasas uprop cb psir prestige
-2026-10-10,c:presidente-hayes:villa-hayes,Villa Hayes,active_rent,,0,0,remax infocasas uprop cb psir prestige
-2026-10-10,c:presidente-hayes:villa-hayes,Villa Hayes,asking_price_usd,terreno,106006,82,remax infocasas uprop cb psir prestige
+2026-10-10,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,active_sale,,100,100,remax infocasas uprop cb psir prestige
+2026-10-10,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,active_rent,,0,0,remax infocasas uprop cb psir prestige
+2026-10-10,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,asking_price_usd,terreno,106006,82,remax infocasas uprop cb psir prestige
 2026-10-10,d:paraguari,Paraguarí,active_sale,,110,110,remax infocasas uprop cb psir prestige
 2026-10-10,d:paraguari,Paraguarí,active_rent,,2,2,remax infocasas uprop cb psir prestige
 2026-10-10,d:paraguari,Paraguarí,asking_price_usd,terreno,43950,67,remax infocasas uprop cb psir prestige
@@ -4277,9 +4277,9 @@ date,market_id,market,metric,property_kind,value,n,median_sources
 2026-10-11,d:presidente-hayes,Presidente Hayes,active_sale,,173,173,remax infocasas uprop cb psir prestige
 2026-10-11,d:presidente-hayes,Presidente Hayes,active_rent,,0,0,remax infocasas uprop cb psir prestige
 2026-10-11,d:presidente-hayes,Presidente Hayes,asking_price_usd,terreno,86632,139,remax infocasas uprop cb psir prestige
-2026-10-11,c:presidente-hayes:villa-hayes,Villa Hayes,active_sale,,100,100,remax infocasas uprop cb psir prestige
-2026-10-11,c:presidente-hayes:villa-hayes,Villa Hayes,active_rent,,0,0,remax infocasas uprop cb psir prestige
-2026-10-11,c:presidente-hayes:villa-hayes,Villa Hayes,asking_price_usd,terreno,106006,82,remax infocasas uprop cb psir prestige
+2026-10-11,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,active_sale,,100,100,remax infocasas uprop cb psir prestige
+2026-10-11,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,active_rent,,0,0,remax infocasas uprop cb psir prestige
+2026-10-11,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,asking_price_usd,terreno,106006,82,remax infocasas uprop cb psir prestige
 2026-10-11,d:paraguari,Paraguarí,active_sale,,110,110,remax infocasas uprop cb psir prestige
 2026-10-11,d:paraguari,Paraguarí,active_rent,,2,2,remax infocasas uprop cb psir prestige
 2026-10-11,d:paraguari,Paraguarí,asking_price_usd,terreno,43950,67,remax infocasas uprop cb psir prestige
@@ -4520,9 +4520,9 @@ date,market_id,market,metric,property_kind,value,n,median_sources
 2026-10-12,d:presidente-hayes,Presidente Hayes,active_sale,,174,174,remax infocasas uprop cb psir prestige
 2026-10-12,d:presidente-hayes,Presidente Hayes,active_rent,,0,0,remax infocasas uprop cb psir prestige
 2026-10-12,d:presidente-hayes,Presidente Hayes,asking_price_usd,terreno,93345,140,remax infocasas uprop cb psir prestige
-2026-10-12,c:presidente-hayes:villa-hayes,Villa Hayes,active_sale,,100,100,remax infocasas uprop cb psir prestige
-2026-10-12,c:presidente-hayes:villa-hayes,Villa Hayes,active_rent,,0,0,remax infocasas uprop cb psir prestige
-2026-10-12,c:presidente-hayes:villa-hayes,Villa Hayes,asking_price_usd,terreno,106006,82,remax infocasas uprop cb psir prestige
+2026-10-12,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,active_sale,,100,100,remax infocasas uprop cb psir prestige
+2026-10-12,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,active_rent,,0,0,remax infocasas uprop cb psir prestige
+2026-10-12,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,asking_price_usd,terreno,106006,82,remax infocasas uprop cb psir prestige
 2026-10-12,d:paraguari,Paraguarí,active_sale,,109,109,remax infocasas uprop cb psir prestige
 2026-10-12,d:paraguari,Paraguarí,active_rent,,2,2,remax infocasas uprop cb psir prestige
 2026-10-12,d:paraguari,Paraguarí,asking_price_usd,terreno,43950,66,remax infocasas uprop cb psir prestige
@@ -5003,9 +5003,9 @@ date,market_id,market,metric,property_kind,value,n,median_sources
 2026-10-14,d:presidente-hayes,Presidente Hayes,active_sale,,176,176,remax infocasas uprop cb psir prestige
 2026-10-14,d:presidente-hayes,Presidente Hayes,active_rent,,0,0,remax infocasas uprop cb psir prestige
 2026-10-14,d:presidente-hayes,Presidente Hayes,asking_price_usd,terreno,96391,142,remax infocasas uprop cb psir prestige
-2026-10-14,c:presidente-hayes:villa-hayes,Villa Hayes,active_sale,,100,100,remax infocasas uprop cb psir prestige
-2026-10-14,c:presidente-hayes:villa-hayes,Villa Hayes,active_rent,,0,0,remax infocasas uprop cb psir prestige
-2026-10-14,c:presidente-hayes:villa-hayes,Villa Hayes,asking_price_usd,terreno,106006,82,remax infocasas uprop cb psir prestige
+2026-10-14,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,active_sale,,100,100,remax infocasas uprop cb psir prestige
+2026-10-14,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,active_rent,,0,0,remax infocasas uprop cb psir prestige
+2026-10-14,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,asking_price_usd,terreno,106006,82,remax infocasas uprop cb psir prestige
 2026-10-14,d:paraguari,Paraguarí,active_sale,,109,109,remax infocasas uprop cb psir prestige
 2026-10-14,d:paraguari,Paraguarí,active_rent,,2,2,remax infocasas uprop cb psir prestige
 2026-10-14,d:paraguari,Paraguarí,asking_price_usd,terreno,43814,66,remax infocasas uprop cb psir prestige
@@ -5246,9 +5246,9 @@ date,market_id,market,metric,property_kind,value,n,median_sources
 2026-10-15,d:presidente-hayes,Presidente Hayes,active_sale,,177,177,remax infocasas uprop cb psir
 2026-10-15,d:presidente-hayes,Presidente Hayes,active_rent,,0,0,remax infocasas uprop cb psir
 2026-10-15,d:presidente-hayes,Presidente Hayes,asking_price_usd,terreno,96504,143,remax infocasas uprop cb psir
-2026-10-15,c:presidente-hayes:villa-hayes,Villa Hayes,active_sale,,100,100,remax infocasas uprop cb psir
-2026-10-15,c:presidente-hayes:villa-hayes,Villa Hayes,active_rent,,0,0,remax infocasas uprop cb psir
-2026-10-15,c:presidente-hayes:villa-hayes,Villa Hayes,asking_price_usd,terreno,106006,82,remax infocasas uprop cb psir
+2026-10-15,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,active_sale,,100,100,remax infocasas uprop cb psir
+2026-10-15,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,active_rent,,0,0,remax infocasas uprop cb psir
+2026-10-15,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,asking_price_usd,terreno,106006,82,remax infocasas uprop cb psir
 2026-10-15,d:paraguari,Paraguarí,active_sale,,108,108,remax infocasas uprop cb psir
 2026-10-15,d:paraguari,Paraguarí,active_rent,,2,2,remax infocasas uprop cb psir
 2026-10-15,d:paraguari,Paraguarí,asking_price_usd,terreno,43865,65,remax infocasas uprop cb psir
@@ -5488,9 +5488,9 @@ date,market_id,market,metric,property_kind,value,n,median_sources
 2026-10-16,d:presidente-hayes,Presidente Hayes,active_sale,,177,177,remax infocasas uprop cb psir
 2026-10-16,d:presidente-hayes,Presidente Hayes,active_rent,,0,0,remax infocasas uprop cb psir
 2026-10-16,d:presidente-hayes,Presidente Hayes,asking_price_usd,terreno,96292,143,remax infocasas uprop cb psir
-2026-10-16,c:presidente-hayes:villa-hayes,Villa Hayes,active_sale,,100,100,remax infocasas uprop cb psir
-2026-10-16,c:presidente-hayes:villa-hayes,Villa Hayes,active_rent,,0,0,remax infocasas uprop cb psir
-2026-10-16,c:presidente-hayes:villa-hayes,Villa Hayes,asking_price_usd,terreno,106006,82,remax infocasas uprop cb psir
+2026-10-16,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,active_sale,,100,100,remax infocasas uprop cb psir
+2026-10-16,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,active_rent,,0,0,remax infocasas uprop cb psir
+2026-10-16,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,asking_price_usd,terreno,106006,82,remax infocasas uprop cb psir
 2026-10-16,d:paraguari,Paraguarí,active_sale,,108,108,remax infocasas uprop cb psir
 2026-10-16,d:paraguari,Paraguarí,active_rent,,2,2,remax infocasas uprop cb psir
 2026-10-16,d:paraguari,Paraguarí,asking_price_usd,terreno,43769,65,remax infocasas uprop cb psir
@@ -5730,9 +5730,9 @@ date,market_id,market,metric,property_kind,value,n,median_sources
 2026-10-17,d:presidente-hayes,Presidente Hayes,active_sale,,178,178,remax infocasas uprop cb psir
 2026-10-17,d:presidente-hayes,Presidente Hayes,active_rent,,0,0,remax infocasas uprop cb psir
 2026-10-17,d:presidente-hayes,Presidente Hayes,asking_price_usd,terreno,95351,143,remax infocasas uprop cb psir
-2026-10-17,c:presidente-hayes:villa-hayes,Villa Hayes,active_sale,,100,100,remax infocasas uprop cb psir
-2026-10-17,c:presidente-hayes:villa-hayes,Villa Hayes,active_rent,,0,0,remax infocasas uprop cb psir
-2026-10-17,c:presidente-hayes:villa-hayes,Villa Hayes,asking_price_usd,terreno,106006,82,remax infocasas uprop cb psir
+2026-10-17,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,active_sale,,100,100,remax infocasas uprop cb psir
+2026-10-17,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,active_rent,,0,0,remax infocasas uprop cb psir
+2026-10-17,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,asking_price_usd,terreno,106006,82,remax infocasas uprop cb psir
 2026-10-17,d:paraguari,Paraguarí,active_sale,,108,108,remax infocasas uprop cb psir
 2026-10-17,d:paraguari,Paraguarí,active_rent,,2,2,remax infocasas uprop cb psir
 2026-10-17,d:paraguari,Paraguarí,asking_price_usd,terreno,43341,65,remax infocasas uprop cb psir
@@ -5972,9 +5972,9 @@ date,market_id,market,metric,property_kind,value,n,median_sources
 2026-10-18,d:presidente-hayes,Presidente Hayes,active_sale,,178,178,remax infocasas uprop cb psir
 2026-10-18,d:presidente-hayes,Presidente Hayes,active_rent,,0,0,remax infocasas uprop cb psir
 2026-10-18,d:presidente-hayes,Presidente Hayes,asking_price_usd,terreno,95351,143,remax infocasas uprop cb psir
-2026-10-18,c:presidente-hayes:villa-hayes,Villa Hayes,active_sale,,100,100,remax infocasas uprop cb psir
-2026-10-18,c:presidente-hayes:villa-hayes,Villa Hayes,active_rent,,0,0,remax infocasas uprop cb psir
-2026-10-18,c:presidente-hayes:villa-hayes,Villa Hayes,asking_price_usd,terreno,106006,82,remax infocasas uprop cb psir
+2026-10-18,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,active_sale,,100,100,remax infocasas uprop cb psir
+2026-10-18,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,active_rent,,0,0,remax infocasas uprop cb psir
+2026-10-18,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,asking_price_usd,terreno,106006,82,remax infocasas uprop cb psir
 2026-10-18,d:paraguari,Paraguarí,active_sale,,108,108,remax infocasas uprop cb psir
 2026-10-18,d:paraguari,Paraguarí,active_rent,,2,2,remax infocasas uprop cb psir
 2026-10-18,d:paraguari,Paraguarí,asking_price_usd,terreno,43341,65,remax infocasas uprop cb psir
@@ -6214,9 +6214,9 @@ date,market_id,market,metric,property_kind,value,n,median_sources
 2026-10-19,d:presidente-hayes,Presidente Hayes,active_sale,,178,178,remax infocasas uprop cb psir
 2026-10-19,d:presidente-hayes,Presidente Hayes,active_rent,,0,0,remax infocasas uprop cb psir
 2026-10-19,d:presidente-hayes,Presidente Hayes,asking_price_usd,terreno,95351,143,remax infocasas uprop cb psir
-2026-10-19,c:presidente-hayes:villa-hayes,Villa Hayes,active_sale,,100,100,remax infocasas uprop cb psir
-2026-10-19,c:presidente-hayes:villa-hayes,Villa Hayes,active_rent,,0,0,remax infocasas uprop cb psir
-2026-10-19,c:presidente-hayes:villa-hayes,Villa Hayes,asking_price_usd,terreno,106006,82,remax infocasas uprop cb psir
+2026-10-19,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,active_sale,,100,100,remax infocasas uprop cb psir
+2026-10-19,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,active_rent,,0,0,remax infocasas uprop cb psir
+2026-10-19,c:presidente-hayes:villa-hayes,c:presidente-hayes:villa-hayes,asking_price_usd,terreno,106006,82,remax infocasas uprop cb psir
 2026-10-19,d:paraguari,Paraguarí,active_sale,,108,108,remax infocasas uprop cb psir
 2026-10-19,d:paraguari,Paraguarí,active_rent,,2,2,remax infocasas uprop cb psir
 2026-10-19,d:paraguari,Paraguarí,asking_price_usd,terreno,43341,65,remax infocasas uprop cb psir
@@ -6244,3 +6244,243 @@ date,market_id,market,metric,property_kind,value,n,median_sources
 2026-10-19,d:amambay,Amambay,active_rent,,0,0,remax infocasas uprop cb psir
 2026-10-19,d:alto-paraguay,Alto Paraguay,active_sale,,9,9,remax infocasas uprop cb psir
 2026-10-19,d:alto-paraguay,Alto Paraguay,active_rent,,0,0,remax infocasas uprop cb psir
+2026-10-20,py,Paraguay,active_sale,,21819,21819,remax infocasas uprop cb psir
+2026-10-20,py,Paraguay,active_rent,,4695,4695,remax infocasas uprop cb psir
+2026-10-20,py,Paraguay,asking_price_usd,casa,159051,7829,remax infocasas uprop cb psir
+2026-10-20,py,Paraguay,asking_price_usd,departamento,104852,5103,remax infocasas uprop cb psir
+2026-10-20,py,Paraguay,asking_price_usd,duplex,122079,261,remax infocasas uprop cb psir
+2026-10-20,py,Paraguay,asking_price_usd,terreno,66271,7357,remax infocasas uprop cb psir
+2026-10-20,py,Paraguay,asking_usd_per_m2_built,casa,854,6305,remax infocasas uprop cb psir
+2026-10-20,py,Paraguay,asking_usd_per_m2_built,departamento,1739,2476,remax infocasas uprop cb psir
+2026-10-20,py,Paraguay,asking_rent_usd_month,departamento,907,2341,remax infocasas uprop cb psir
+2026-10-20,py,Paraguay,asking_rent_usd_month,casa,2093,1589,remax infocasas uprop cb psir
+2026-10-20,d:asuncion,Asunción,active_sale,,8459,8459,remax infocasas uprop cb psir
+2026-10-20,d:asuncion,Asunción,active_rent,,3627,3627,remax infocasas uprop cb psir
+2026-10-20,d:asuncion,Asunción,asking_price_usd,casa,290000,3151,remax infocasas uprop cb psir
+2026-10-20,d:asuncion,Asunción,asking_price_usd,departamento,112000,4044,remax infocasas uprop cb psir
+2026-10-20,d:asuncion,Asunción,asking_price_usd,duplex,189222,34,remax infocasas uprop cb psir
+2026-10-20,d:asuncion,Asunción,asking_price_usd,terreno,209278,818,remax infocasas uprop cb psir
+2026-10-20,d:asuncion,Asunción,asking_usd_per_m2_built,casa,1025,2563,remax infocasas uprop cb psir
+2026-10-20,d:asuncion,Asunción,asking_usd_per_m2_built,departamento,1791,2159,remax infocasas uprop cb psir
+2026-10-20,d:asuncion,Asunción,asking_rent_usd_month,departamento,975,2027,remax infocasas uprop cb psir
+2026-10-20,d:asuncion,Asunción,asking_rent_usd_month,casa,2352,1346,remax infocasas uprop cb psir
+2026-10-20,d:central,Central,active_sale,,9012,9012,remax infocasas uprop cb psir
+2026-10-20,d:central,Central,active_rent,,726,726,remax infocasas uprop cb psir
+2026-10-20,d:central,Central,asking_price_usd,casa,105511,3797,remax infocasas uprop cb psir
+2026-10-20,d:central,Central,asking_price_usd,departamento,78050,758,remax infocasas uprop cb psir
+2026-10-20,d:central,Central,asking_price_usd,duplex,119114,188,remax infocasas uprop cb psir
+2026-10-20,d:central,Central,asking_price_usd,terreno,66271,3917,remax infocasas uprop cb psir
+2026-10-20,d:central,Central,asking_usd_per_m2_built,casa,754,3009,remax infocasas uprop cb psir
+2026-10-20,d:central,Central,asking_usd_per_m2_built,departamento,1268,233,remax infocasas uprop cb psir
+2026-10-20,d:central,Central,asking_rent_usd_month,departamento,584,240,remax infocasas uprop cb psir
+2026-10-20,d:central,Central,asking_rent_usd_month,casa,698,144,remax infocasas uprop cb psir
+2026-10-20,c:central:luque,Luque,active_sale,,1877,1877,remax infocasas uprop cb psir
+2026-10-20,c:central:luque,Luque,active_rent,,148,148,remax infocasas uprop cb psir
+2026-10-20,c:central:luque,Luque,asking_price_usd,casa,113359,807,remax infocasas uprop cb psir
+2026-10-20,c:central:luque,Luque,asking_price_usd,departamento,82500,301,remax infocasas uprop cb psir
+2026-10-20,c:central:luque,Luque,asking_price_usd,duplex,130799,68,remax infocasas uprop cb psir
+2026-10-20,c:central:luque,Luque,asking_price_usd,terreno,78479,649,remax infocasas uprop cb psir
+2026-10-20,c:central:luque,Luque,asking_usd_per_m2_built,casa,923,604,remax infocasas uprop cb psir
+2026-10-20,c:central:luque,Luque,asking_usd_per_m2_built,departamento,1295,72,remax infocasas uprop cb psir
+2026-10-20,c:central:luque,Luque,asking_rent_usd_month,departamento,663,72,remax infocasas uprop cb psir
+2026-10-20,c:central:luque,Luque,asking_rent_usd_month,casa,698,36,remax infocasas uprop cb psir
+2026-10-20,c:central:san-lorenzo,San Lorenzo,active_sale,,770,770,remax infocasas uprop cb psir
+2026-10-20,c:central:san-lorenzo,San Lorenzo,active_rent,,161,161,remax infocasas uprop cb psir
+2026-10-20,c:central:san-lorenzo,San Lorenzo,asking_price_usd,casa,122079,367,remax infocasas uprop cb psir
+2026-10-20,c:central:san-lorenzo,San Lorenzo,asking_price_usd,departamento,52312,57,remax infocasas uprop cb psir
+2026-10-20,c:central:san-lorenzo,San Lorenzo,asking_price_usd,duplex,124695,32,remax infocasas uprop cb psir
+2026-10-20,c:central:san-lorenzo,San Lorenzo,asking_price_usd,terreno,87199,255,remax infocasas uprop cb psir
+2026-10-20,c:central:san-lorenzo,San Lorenzo,asking_usd_per_m2_built,casa,802,273,remax infocasas uprop cb psir
+2026-10-20,c:central:san-lorenzo,San Lorenzo,asking_rent_usd_month,departamento,349,54,remax infocasas uprop cb psir
+2026-10-20,c:central:lambare,Lambaré,active_sale,,734,734,remax infocasas uprop cb psir
+2026-10-20,c:central:lambare,Lambaré,active_rent,,84,84,remax infocasas uprop cb psir
+2026-10-20,c:central:lambare,Lambaré,asking_price_usd,casa,165678,353,remax infocasas uprop cb psir
+2026-10-20,c:central:lambare,Lambaré,asking_price_usd,departamento,88600,82,remax infocasas uprop cb psir
+2026-10-20,c:central:lambare,Lambaré,asking_price_usd,duplex,121730,27,remax infocasas uprop cb psir
+2026-10-20,c:central:lambare,Lambaré,asking_price_usd,terreno,95919,243,remax infocasas uprop cb psir
+2026-10-20,c:central:lambare,Lambaré,asking_usd_per_m2_built,casa,776,267,remax infocasas uprop cb psir
+2026-10-20,c:central:lambare,Lambaré,asking_usd_per_m2_built,departamento,1250,37,remax infocasas uprop cb psir
+2026-10-20,c:central:lambare,Lambaré,asking_rent_usd_month,departamento,610,41,remax infocasas uprop cb psir
+2026-10-20,c:central:lambare,Lambaré,asking_rent_usd_month,casa,1003,22,remax infocasas uprop cb psir
+2026-10-20,c:central:fernando-de-la-mora,Fernando de la Mora,active_sale,,673,673,remax infocasas uprop cb psir
+2026-10-20,c:central:fernando-de-la-mora,Fernando de la Mora,active_rent,,140,140,remax infocasas uprop cb psir
+2026-10-20,c:central:fernando-de-la-mora,Fernando de la Mora,asking_price_usd,casa,170038,276,remax infocasas uprop cb psir
+2026-10-20,c:central:fernando-de-la-mora,Fernando de la Mora,asking_price_usd,departamento,70810,159,remax infocasas uprop cb psir
+2026-10-20,c:central:fernando-de-la-mora,Fernando de la Mora,asking_price_usd,terreno,135000,189,remax infocasas uprop cb psir
+2026-10-20,c:central:fernando-de-la-mora,Fernando de la Mora,asking_usd_per_m2_built,casa,847,210,remax infocasas uprop cb psir
+2026-10-20,c:central:fernando-de-la-mora,Fernando de la Mora,asking_usd_per_m2_built,departamento,1167,56,remax infocasas uprop cb psir
+2026-10-20,c:central:fernando-de-la-mora,Fernando de la Mora,asking_rent_usd_month,departamento,610,44,remax infocasas uprop cb psir
+2026-10-20,c:central:fernando-de-la-mora,Fernando de la Mora,asking_rent_usd_month,casa,959,24,remax infocasas uprop cb psir
+2026-10-20,c:central:capiata,Capiatá,active_sale,,582,582,remax infocasas uprop cb psir
+2026-10-20,c:central:capiata,Capiatá,active_rent,,27,27,remax infocasas uprop cb psir
+2026-10-20,c:central:capiata,Capiatá,asking_price_usd,casa,67143,279,remax infocasas uprop cb psir
+2026-10-20,c:central:capiata,Capiatá,asking_price_usd,terreno,40112,263,remax infocasas uprop cb psir
+2026-10-20,c:central:capiata,Capiatá,asking_usd_per_m2_built,casa,614,232,remax infocasas uprop cb psir
+2026-10-20,c:central:nemby,Ñemby,active_sale,,530,530,remax infocasas uprop cb psir
+2026-10-20,c:central:nemby,Ñemby,active_rent,,40,40,remax infocasas uprop cb psir
+2026-10-20,c:central:nemby,Ñemby,asking_price_usd,casa,73247,290,remax infocasas uprop cb psir
+2026-10-20,c:central:nemby,Ñemby,asking_price_usd,terreno,57551,209,remax infocasas uprop cb psir
+2026-10-20,c:central:nemby,Ñemby,asking_usd_per_m2_built,casa,694,260,remax infocasas uprop cb psir
+2026-10-20,c:central:mariano-roque-alonso,Mariano Roque Alonso,active_sale,,472,472,remax infocasas uprop cb psir
+2026-10-20,c:central:mariano-roque-alonso,Mariano Roque Alonso,active_rent,,35,35,remax infocasas uprop cb psir
+2026-10-20,c:central:mariano-roque-alonso,Mariano Roque Alonso,asking_price_usd,casa,134643,142,remax infocasas uprop cb psir
+2026-10-20,c:central:mariano-roque-alonso,Mariano Roque Alonso,asking_price_usd,departamento,60226,82,remax infocasas uprop cb psir
+2026-10-20,c:central:mariano-roque-alonso,Mariano Roque Alonso,asking_price_usd,terreno,100000,201,remax infocasas uprop cb psir
+2026-10-20,c:central:mariano-roque-alonso,Mariano Roque Alonso,asking_usd_per_m2_built,casa,719,109,remax infocasas uprop cb psir
+2026-10-20,c:central:limpio,Limpio,active_sale,,459,459,remax infocasas uprop cb psir
+2026-10-20,c:central:limpio,Limpio,active_rent,,9,9,remax infocasas uprop cb psir
+2026-10-20,c:central:limpio,Limpio,asking_price_usd,casa,61911,199,remax infocasas uprop cb psir
+2026-10-20,c:central:limpio,Limpio,asking_price_usd,departamento,64428,25,remax infocasas uprop cb psir
+2026-10-20,c:central:limpio,Limpio,asking_price_usd,terreno,36275,205,remax infocasas uprop cb psir
+2026-10-20,c:central:limpio,Limpio,asking_usd_per_m2_built,casa,671,159,remax infocasas uprop cb psir
+2026-10-20,c:central:villa-elisa,Villa Elisa,active_sale,,439,439,remax infocasas uprop cb psir
+2026-10-20,c:central:villa-elisa,Villa Elisa,active_rent,,18,18,remax infocasas uprop cb psir
+2026-10-20,c:central:villa-elisa,Villa Elisa,asking_price_usd,casa,99407,240,remax infocasas uprop cb psir
+2026-10-20,c:central:villa-elisa,Villa Elisa,asking_price_usd,terreno,64527,170,remax infocasas uprop cb psir
+2026-10-20,c:central:villa-elisa,Villa Elisa,asking_usd_per_m2_built,casa,775,191,remax infocasas uprop cb psir
+2026-10-20,c:central:itaugua,Itauguá,active_sale,,394,394,remax infocasas uprop cb psir
+2026-10-20,c:central:itaugua,Itauguá,active_rent,,20,20,remax infocasas uprop cb psir
+2026-10-20,c:central:itaugua,Itauguá,asking_price_usd,casa,80223,143,remax infocasas uprop cb psir
+2026-10-20,c:central:itaugua,Itauguá,asking_price_usd,terreno,30084,234,remax infocasas uprop cb psir
+2026-10-20,c:central:itaugua,Itauguá,asking_usd_per_m2_built,casa,591,126,remax infocasas uprop cb psir
+2026-10-20,c:central:aregua,Areguá,active_sale,,376,376,remax infocasas uprop cb psir
+2026-10-20,c:central:aregua,Areguá,active_rent,,3,3,remax infocasas uprop cb psir
+2026-10-20,c:central:aregua,Areguá,asking_price_usd,casa,109871,179,remax infocasas uprop cb psir
+2026-10-20,c:central:aregua,Areguá,asking_price_usd,terreno,30520,184,remax infocasas uprop cb psir
+2026-10-20,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,667,149,remax infocasas uprop cb psir
+2026-10-20,c:central:ypane,Ypané,active_sale,,310,310,remax infocasas uprop cb psir
+2026-10-20,c:central:ypane,Ypané,active_rent,,7,7,remax infocasas uprop cb psir
+2026-10-20,c:central:ypane,Ypané,asking_price_usd,casa,86327,85,remax infocasas uprop cb psir
+2026-10-20,c:central:ypane,Ypané,asking_price_usd,terreno,29648,221,remax infocasas uprop cb psir
+2026-10-20,c:central:ypane,Ypané,asking_usd_per_m2_built,casa,530,73,remax infocasas uprop cb psir
+2026-10-20,c:central:ypacarai,Ypacaraí,active_sale,,250,250,remax infocasas uprop cb psir
+2026-10-20,c:central:ypacarai,Ypacaraí,active_rent,,4,4,remax infocasas uprop cb psir
+2026-10-20,c:central:ypacarai,Ypacaraí,asking_price_usd,casa,101151,67,remax infocasas uprop cb psir
+2026-10-20,c:central:ypacarai,Ypacaraí,asking_price_usd,terreno,40548,178,remax infocasas uprop cb psir
+2026-10-20,c:central:ypacarai,Ypacaraí,asking_usd_per_m2_built,casa,540,60,remax infocasas uprop cb psir
+2026-10-20,c:central:villeta,Villeta,active_sale,,238,238,remax infocasas uprop cb psir
+2026-10-20,c:central:villeta,Villeta,active_rent,,5,5,remax infocasas uprop cb psir
+2026-10-20,c:central:villeta,Villeta,asking_price_usd,casa,85455,85,remax infocasas uprop cb psir
+2026-10-20,c:central:villeta,Villeta,asking_price_usd,terreno,148238,145,remax infocasas uprop cb psir
+2026-10-20,c:central:villeta,Villeta,asking_usd_per_m2_built,casa,720,69,remax infocasas uprop cb psir
+2026-10-20,c:central:ita,Itá,active_sale,,202,202,remax infocasas uprop cb psir
+2026-10-20,c:central:ita,Itá,active_rent,,3,3,remax infocasas uprop cb psir
+2026-10-20,c:central:ita,Itá,asking_price_usd,casa,78479,63,remax infocasas uprop cb psir
+2026-10-20,c:central:ita,Itá,asking_price_usd,terreno,54935,132,remax infocasas uprop cb psir
+2026-10-20,c:central:ita,Itá,asking_usd_per_m2_built,casa,754,52,remax infocasas uprop cb psir
+2026-10-20,c:central:san-antonio,San Antonio,active_sale,,172,172,remax infocasas uprop cb psir
+2026-10-20,c:central:san-antonio,San Antonio,active_rent,,7,7,remax infocasas uprop cb psir
+2026-10-20,c:central:san-antonio,San Antonio,asking_price_usd,casa,81967,70,remax infocasas uprop cb psir
+2026-10-20,c:central:san-antonio,San Antonio,asking_price_usd,terreno,71503,96,remax infocasas uprop cb psir
+2026-10-20,c:central:san-antonio,San Antonio,asking_usd_per_m2_built,casa,643,65,remax infocasas uprop cb psir
+2026-10-20,c:central:julian-augusto-saldivar,Julián Augusto Saldívar,active_sale,,158,158,remax infocasas uprop cb psir
+2026-10-20,c:central:julian-augusto-saldivar,Julián Augusto Saldívar,active_rent,,1,1,remax infocasas uprop cb psir
+2026-10-20,c:central:julian-augusto-saldivar,Julián Augusto Saldívar,asking_price_usd,casa,50575,61,remax infocasas uprop cb psir
+2026-10-20,c:central:julian-augusto-saldivar,Julián Augusto Saldívar,asking_price_usd,terreno,21800,92,remax infocasas uprop cb psir
+2026-10-20,c:central:julian-augusto-saldivar,Julián Augusto Saldívar,asking_usd_per_m2_built,casa,642,56,remax infocasas uprop cb psir
+2026-10-20,d:itapua,Itapúa,active_sale,,1547,1547,remax infocasas uprop cb psir
+2026-10-20,d:itapua,Itapúa,active_rent,,153,153,remax infocasas uprop cb psir
+2026-10-20,d:itapua,Itapúa,asking_price_usd,casa,131671,306,remax infocasas uprop cb psir
+2026-10-20,d:itapua,Itapúa,asking_price_usd,departamento,90500,172,remax infocasas uprop cb psir
+2026-10-20,d:itapua,Itapúa,asking_price_usd,duplex,99407,31,remax infocasas uprop cb psir
+2026-10-20,d:itapua,Itapúa,asking_price_usd,terreno,34880,876,remax infocasas uprop cb psir
+2026-10-20,d:itapua,Itapúa,asking_usd_per_m2_built,casa,730,268,remax infocasas uprop cb psir
+2026-10-20,d:itapua,Itapúa,asking_usd_per_m2_built,departamento,1190,39,remax infocasas uprop cb psir
+2026-10-20,d:itapua,Itapúa,asking_rent_usd_month,departamento,514,64,remax infocasas uprop cb psir
+2026-10-20,d:itapua,Itapúa,asking_rent_usd_month,casa,955,26,remax infocasas uprop cb psir
+2026-10-20,c:itapua:encarnacion,Encarnación,active_sale,,761,761,remax infocasas uprop cb psir
+2026-10-20,c:itapua:encarnacion,Encarnación,active_rent,,111,111,remax infocasas uprop cb psir
+2026-10-20,c:itapua:encarnacion,Encarnación,asking_price_usd,casa,140000,160,remax infocasas uprop cb psir
+2026-10-20,c:itapua:encarnacion,Encarnación,asking_price_usd,departamento,92500,166,remax infocasas uprop cb psir
+2026-10-20,c:itapua:encarnacion,Encarnación,asking_price_usd,duplex,99407,23,remax infocasas uprop cb psir
+2026-10-20,c:itapua:encarnacion,Encarnación,asking_price_usd,terreno,52319,330,remax infocasas uprop cb psir
+2026-10-20,c:itapua:encarnacion,Encarnación,asking_usd_per_m2_built,casa,717,140,remax infocasas uprop cb psir
+2026-10-20,c:itapua:encarnacion,Encarnación,asking_usd_per_m2_built,departamento,1240,36,remax infocasas uprop cb psir
+2026-10-20,c:itapua:encarnacion,Encarnación,asking_rent_usd_month,departamento,471,57,remax infocasas uprop cb psir
+2026-10-20,c:itapua:san-juan-del-parana,San Juan del Paraná,active_sale,,160,160,remax infocasas uprop cb psir
+2026-10-20,c:itapua:san-juan-del-parana,San Juan del Paraná,active_rent,,4,4,remax infocasas uprop cb psir
+2026-10-20,c:itapua:san-juan-del-parana,San Juan del Paraná,asking_price_usd,casa,141667,21,remax infocasas uprop cb psir
+2026-10-20,c:itapua:san-juan-del-parana,San Juan del Paraná,asking_price_usd,terreno,14824,124,remax infocasas uprop cb psir
+2026-10-20,c:itapua:capitan-miranda,Capitán Miranda,active_sale,,110,110,remax infocasas uprop cb psir
+2026-10-20,c:itapua:capitan-miranda,Capitán Miranda,active_rent,,14,14,remax infocasas uprop cb psir
+2026-10-20,c:itapua:capitan-miranda,Capitán Miranda,asking_price_usd,terreno,21538,93,remax infocasas uprop cb psir
+2026-10-20,d:cordillera,Cordillera,active_sale,,955,955,remax infocasas uprop cb psir
+2026-10-20,d:cordillera,Cordillera,active_rent,,53,53,remax infocasas uprop cb psir
+2026-10-20,d:cordillera,Cordillera,asking_price_usd,casa,195000,195,remax infocasas uprop cb psir
+2026-10-20,d:cordillera,Cordillera,asking_price_usd,departamento,209751,24,remax infocasas uprop cb psir
+2026-10-20,d:cordillera,Cordillera,asking_price_usd,terreno,47959,662,remax infocasas uprop cb psir
+2026-10-20,d:cordillera,Cordillera,asking_usd_per_m2_built,casa,880,159,remax infocasas uprop cb psir
+2026-10-20,d:cordillera,Cordillera,asking_rent_usd_month,casa,1570,37,remax infocasas uprop cb psir
+2026-10-20,c:cordillera:san-bernardino,San Bernardino,active_sale,,396,396,remax infocasas uprop cb psir
+2026-10-20,c:cordillera:san-bernardino,San Bernardino,active_rent,,31,31,remax infocasas uprop cb psir
+2026-10-20,c:cordillera:san-bernardino,San Bernardino,asking_price_usd,casa,227487,100,remax infocasas uprop cb psir
+2026-10-20,c:cordillera:san-bernardino,San Bernardino,asking_price_usd,terreno,61039,275,remax infocasas uprop cb psir
+2026-10-20,c:cordillera:san-bernardino,San Bernardino,asking_usd_per_m2_built,casa,976,87,remax infocasas uprop cb psir
+2026-10-20,c:cordillera:san-bernardino,San Bernardino,asking_rent_usd_month,casa,1727,26,remax infocasas uprop cb psir
+2026-10-20,c:cordillera:caacupe,Caacupé,active_sale,,176,176,remax infocasas uprop cb psir
+2026-10-20,c:cordillera:caacupe,Caacupé,active_rent,,6,6,remax infocasas uprop cb psir
+2026-10-20,c:cordillera:caacupe,Caacupé,asking_price_usd,casa,84583,32,remax infocasas uprop cb psir
+2026-10-20,c:cordillera:caacupe,Caacupé,asking_price_usd,terreno,14824,127,remax infocasas uprop cb psir
+2026-10-20,c:cordillera:caacupe,Caacupé,asking_usd_per_m2_built,casa,475,26,remax infocasas uprop cb psir
+2026-10-20,c:cordillera:altos,Altos,active_sale,,135,135,remax infocasas uprop cb psir
+2026-10-20,c:cordillera:altos,Altos,active_rent,,9,9,remax infocasas uprop cb psir
+2026-10-20,c:cordillera:altos,Altos,asking_price_usd,casa,255950,23,remax infocasas uprop cb psir
+2026-10-20,c:cordillera:altos,Altos,asking_price_usd,terreno,41480,98,remax infocasas uprop cb psir
+2026-10-20,c:cordillera:altos,Altos,asking_usd_per_m2_built,casa,1075,20,remax infocasas uprop cb psir
+2026-10-20,d:alto-parana,Alto Paraná,active_sale,,908,908,remax infocasas uprop cb psir
+2026-10-20,d:alto-parana,Alto Paraná,active_rent,,67,67,remax infocasas uprop cb psir
+2026-10-20,d:alto-parana,Alto Paraná,asking_price_usd,casa,130399,224,remax infocasas uprop cb psir
+2026-10-20,d:alto-parana,Alto Paraná,asking_price_usd,departamento,89500,86,remax infocasas uprop cb psir
+2026-10-20,d:alto-parana,Alto Paraná,asking_price_usd,terreno,66271,472,remax infocasas uprop cb psir
+2026-10-20,d:alto-parana,Alto Paraná,asking_usd_per_m2_built,casa,697,203,remax infocasas uprop cb psir
+2026-10-20,d:alto-parana,Alto Paraná,asking_usd_per_m2_built,departamento,1635,30,remax infocasas uprop cb psir
+2026-10-20,c:alto-parana:ciudad-del-este,Ciudad del Este,active_sale,,412,412,remax infocasas uprop cb psir
+2026-10-20,c:alto-parana:ciudad-del-este,Ciudad del Este,active_rent,,37,37,remax infocasas uprop cb psir
+2026-10-20,c:alto-parana:ciudad-del-este,Ciudad del Este,asking_price_usd,casa,139519,106,remax infocasas uprop cb psir
+2026-10-20,c:alto-parana:ciudad-del-este,Ciudad del Este,asking_price_usd,departamento,89000,74,remax infocasas uprop cb psir
+2026-10-20,c:alto-parana:ciudad-del-este,Ciudad del Este,asking_price_usd,terreno,83711,181,remax infocasas uprop cb psir
+2026-10-20,c:alto-parana:ciudad-del-este,Ciudad del Este,asking_usd_per_m2_built,casa,756,97,remax infocasas uprop cb psir
+2026-10-20,c:alto-parana:ciudad-del-este,Ciudad del Este,asking_usd_per_m2_built,departamento,1727,27,remax infocasas uprop cb psir
+2026-10-20,c:alto-parana:hernandarias,Hernandarias,active_sale,,155,155,remax infocasas uprop cb psir
+2026-10-20,c:alto-parana:hernandarias,Hernandarias,active_rent,,8,8,remax infocasas uprop cb psir
+2026-10-20,c:alto-parana:hernandarias,Hernandarias,asking_price_usd,casa,117500,52,remax infocasas uprop cb psir
+2026-10-20,c:alto-parana:hernandarias,Hernandarias,asking_price_usd,terreno,50724,84,remax infocasas uprop cb psir
+2026-10-20,c:alto-parana:hernandarias,Hernandarias,asking_usd_per_m2_built,casa,600,47,remax infocasas uprop cb psir
+2026-10-20,c:alto-parana:minga-guazu,Minga Guazú,active_sale,,106,106,remax infocasas uprop cb psir
+2026-10-20,c:alto-parana:minga-guazu,Minga Guazú,active_rent,,2,2,remax infocasas uprop cb psir
+2026-10-20,c:alto-parana:minga-guazu,Minga Guazú,asking_price_usd,terreno,26160,87,remax infocasas uprop cb psir
+2026-10-20,d:boqueron,Boquerón,active_sale,,156,156,remax infocasas uprop cb psir
+2026-10-20,d:boqueron,Boquerón,active_rent,,40,40,remax infocasas uprop cb psir
+2026-10-20,d:boqueron,Boquerón,asking_price_usd,casa,68852,25,remax infocasas uprop cb psir
+2026-10-20,d:boqueron,Boquerón,asking_price_usd,terreno,14349,117,remax infocasas uprop cb psir
+2026-10-20,d:boqueron,Boquerón,asking_usd_per_m2_built,casa,647,20,remax infocasas uprop cb psir
+2026-10-20,d:presidente-hayes,Presidente Hayes,active_sale,,177,177,remax infocasas uprop cb psir
+2026-10-20,d:presidente-hayes,Presidente Hayes,active_rent,,0,0,remax infocasas uprop cb psir
+2026-10-20,d:presidente-hayes,Presidente Hayes,asking_price_usd,terreno,95919,142,remax infocasas uprop cb psir
+2026-10-20,d:paraguari,Paraguarí,active_sale,,108,108,remax infocasas uprop cb psir
+2026-10-20,d:paraguari,Paraguarí,active_rent,,2,2,remax infocasas uprop cb psir
+2026-10-20,d:paraguari,Paraguarí,asking_price_usd,terreno,43600,65,remax infocasas uprop cb psir
+2026-10-20,d:caaguazu,Caaguazú,active_sale,,65,65,remax infocasas uprop cb psir
+2026-10-20,d:caaguazu,Caaguazú,active_rent,,2,2,remax infocasas uprop cb psir
+2026-10-20,d:caaguazu,Caaguazú,asking_price_usd,terreno,70752,42,remax infocasas uprop cb psir
+2026-10-20,d:misiones,Misiones,active_sale,,62,62,remax infocasas uprop cb psir
+2026-10-20,d:misiones,Misiones,active_rent,,2,2,remax infocasas uprop cb psir
+2026-10-20,d:misiones,Misiones,asking_price_usd,terreno,38368,35,remax infocasas uprop cb psir
+2026-10-20,d:guaira,Guairá,active_sale,,40,40,remax infocasas uprop cb psir
+2026-10-20,d:guaira,Guairá,active_rent,,1,1,remax infocasas uprop cb psir
+2026-10-20,d:guaira,Guairá,asking_price_usd,terreno,26160,29,remax infocasas uprop cb psir
+2026-10-20,d:san-pedro,San Pedro,active_sale,,34,34,remax infocasas uprop cb psir
+2026-10-20,d:san-pedro,San Pedro,active_rent,,0,0,remax infocasas uprop cb psir
+2026-10-20,d:san-pedro,San Pedro,asking_price_usd,terreno,139519,26,remax infocasas uprop cb psir
+2026-10-20,d:caazapa,Caazapá,active_sale,,21,21,remax infocasas uprop cb psir
+2026-10-20,d:caazapa,Caazapá,active_rent,,6,6,remax infocasas uprop cb psir
+2026-10-20,d:concepcion,Concepción,active_sale,,21,21,remax infocasas uprop cb psir
+2026-10-20,d:concepcion,Concepción,active_rent,,0,0,remax infocasas uprop cb psir
+2026-10-20,d:canindeyu,Canindeyú,active_sale,,19,19,remax infocasas uprop cb psir
+2026-10-20,d:canindeyu,Canindeyú,active_rent,,1,1,remax infocasas uprop cb psir
+2026-10-20,d:neembucu,Ñeembucú,active_sale,,20,20,remax infocasas uprop cb psir
+2026-10-20,d:neembucu,Ñeembucú,active_rent,,0,0,remax infocasas uprop cb psir
+2026-10-20,d:amambay,Amambay,active_sale,,13,13,remax infocasas uprop cb psir
+2026-10-20,d:amambay,Amambay,active_rent,,0,0,remax infocasas uprop cb psir
+2026-10-20,d:alto-paraguay,Alto Paraguay,active_sale,,9,9,remax infocasas uprop cb psir
+2026-10-20,d:alto-paraguay,Alto Paraguay,active_rent,,0,0,remax infocasas uprop cb psir
