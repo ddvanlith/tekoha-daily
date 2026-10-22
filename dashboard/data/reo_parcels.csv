@@ -1,232 +1,239 @@
 bank,item,items_identical,kind,department,city,barrio,built_m2,land_m2,asking_base_gross_usd,asking_base_net_usd,price_check,first_seen,url,url_is_item_page,lat,lon
-caja_bancaria,14-1747-02,1,casa,Asunción,Asunción,,,,934,849,1,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
-caja_bancaria,00-2722-01,2,terreno,Central,Limpio,,,,2683,2439,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
-bnf,429-L1-MG,48,terreno,Caazapá,Yuty,,,610,3175,2886,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-26.60507,-56.23498
-bnf,195-L13-M2-A,1,terreno,Canindeyú,Francisco Caballero Álvarez,,,600,3616,3287,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-24.02209,-54.75604
-bnf,937-L5-MC,2,terreno,Concepción,Yby Yau,,,504,3880,3528,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-22.95474,-56.53622
-solar,10,4,terreno,Concepción,Yby Yau,,,384,4344,3949,0,2026-09-08,https://www.solar.com.py/bienes,0,,
-solar,18,3,terreno,San Pedro,Santa Rosa del Aguaray,,,375,6604,6003,0,2026-09-08,https://www.solar.com.py/bienes,0,,
-atlas,10736,1,terreno,Concepción,Concepción,,,360,6951,6319,0,2026-09-08,https://www.bancoatlas.com.py/web/bienes-adjudicados,0,-23.4336,-57.39596
-caja_bancaria,00-0135-00,1,casa,Caaguazú,Santa Rosa Del Mbutuy,,,,6951,6319,1,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
-bnf,1338-L3-MVI,1,casa,Itapúa,San Cosme Y Damián,,84,450,8114,7376,1,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-27.3169,-56.34217
-basa,3ee1725ba4027ba9,1,terreno,Central,Itá,,,365,8511,7737,0,2026-09-08,https://www.bancobasa.com.py/storage/app/media/bienes_adjudicados/inmuebles-setiembre-2.pdf,0,,
-basa,6b17da8345f2dbf5,1,terreno,Central,Itá,,,363,8511,7737,0,2026-09-08,https://www.bancobasa.com.py/storage/app/media/bienes_adjudicados/inmuebles-setiembre-2.pdf,0,,
-caja_bancaria,01-1506-00,1,terreno,Central,Itauguá,,,,8515,7741,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
-solar,4,1,terreno,Caaguazú,Caaguazú,,,1200,8689,7899,0,2026-09-08,https://www.solar.com.py/bienes,0,,
-solar,22,1,terreno,San Pedro,Santa Rosa del Aguaray,,,377,9123,8294,0,2026-09-08,https://www.solar.com.py/bienes,0,,
-basa,0b9ed33f28d93eda,3,terreno,Central,Itá,,,395,10213,9285,0,2026-09-08,https://www.bancobasa.com.py/storage/app/media/bienes_adjudicados/inmuebles-setiembre-2.pdf,0,,
-solar,21,1,terreno,San Pedro,Santa Rosa del Aguaray,,,378,10427,9479,0,2026-09-08,https://www.solar.com.py/bienes,0,,
-bnf,1266-L8-M144,1,casa,Misiones,San Ignacio,,45,470,12382,11256,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-26.88302,-57.01131
-bnf,1286-L3-M513,1,terreno,Misiones,San Ignacio,,,830,13934,12668,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-26.88281,-57.00902
-bnf,1276,1,rural,Guairá,Coronel Martínez,,,41247,15345,13950,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.74526,-56.59711
-caja_bancaria,00-2386-08,1,terreno,Central,Capiatá,,,,15452,14047,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
-bnf,1286-L9-M513,1,casa,Misiones,San Ignacio,,174,638,15786,14351,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-26.88272,-57.00885
-caja_bancaria,00-2217-00,1,casa,Central,Capiatá,,,,17378,15798,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
-caja_bancaria,00-6040-00,1,terreno,Alto Paraná,Ciudad del Este,,,,17725,16114,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
-caja_bancaria,27-2440-12,1,casa,Central,San Lorenzo,,,,17725,16114,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
-caja_bancaria,18-0190-03,1,casa,San Pedro,Villa del Rosario,,,,17812,16193,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
-bnf,1357-L15-MIX,1,unknown,Caaguazú,Dr. Juan Eulogio Estigarribia,,,600,18167,16516,0,2026-09-10,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.36639,-55.69767
-bnf,502-L6-MA,1,terreno,Itapúa,Encarnación,,,523,18873,17157,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-27.31455,-55.82059
-bnf,"1309-L1-M""N""",1,terreno,Itapúa,Cambyretá,,,364,20108,18280,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-27.35828,-55.81466
-bnf,"1309-L2-M""N""",1,terreno,Itapúa,Cambyretá,,,365,20108,18280,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-27.35853,-55.81412
-bnf,1307-L18-M7,1,casa,Central,Itá,,104,360,20460,18600,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.50621,-57.37423
-bnf,"1309-L3-M""N""",2,terreno,Itapúa,Cambyretá,,,384,21166,19242,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-27.35826,-55.81466
-gnb,F356,1,casa,San Pedro,Liberación,,,880,22070,20063,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
-bnf,1357-L16-MIX,1,casa,Caaguazú,Dr. Juan Eulogio Estigarribia,,25,600,22577,20525,0,2026-09-10,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.36628,-55.69765
-caja_bancaria,00-3704-00,1,casa,Cordillera,Eusebio Ayala,,,,22939,20853,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
-caja_bancaria,19-0217-04,1,terreno,Cordillera,Caacupé,,,,23807,21643,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
-basa,49c581f11f42bfac,1,casa,San Pedro,San Pedro del Ycuamandyyú,,,360,25533,23212,0,2026-09-08,https://www.bancobasa.com.py/storage/app/media/bienes_adjudicados/inmuebles-setiembre-2.pdf,0,,
-caja_bancaria,02-6650-00,1,casa,Central,Capiatá,,,,26066,23697,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
-solar,12,1,terreno,Canindeyú,Saltos del Guairá,,,480,26066,23697,0,2026-09-08,https://www.solar.com.py/bienes,0,,
-bnf,159-3,1,terreno,Paraguarí,Carapeguá,,,2230,26105,23732,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.76797,-57.25526
-caja_bancaria,27-0056-33,1,casa,Central,San Antonio,,,,26414,24013,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
-basa,e83ef4fc678fb76a,1,oficina,Asunción,Asunción,,45,,27235,24759,0,2026-09-08,https://www.bancobasa.com.py/storage/app/media/bienes_adjudicados/inmuebles-setiembre-2.pdf,0,,
-caja_bancaria,13-0901-07,1,casa,Central,Lambaré,,,,28326,25751,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
-bnf,1337,1,rural,Guairá,Mauricio José Troche,,,50000,29103,26457,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.62472,-56.10239
-gnb,G646,1,terreno,Itapúa,Bella Vista Sur,,,603,31425,28568,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
-bnf,1288-LFracción 1-M0,1,terreno,Itapúa,Cambyretá,,,2385,32631,29664,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-27.35773,-55.77695
-bnf,159-1,1,rural,Paraguarí,Carapeguá,,,2840,33160,30146,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.76707,-57.25442
-caja_bancaria,26-2546-08,1,casa,Alto Paraná,Ciudad del Este,,,,33434,30394,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
-bnf,1349-L8-MJ,1,terreno,Itapúa,Encarnación,,,362,33513,30466,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-27.30451,-55.86574
-bancop,MAT-L05/4909-PAD-5798,1,unknown,Central,Itá,,,3241,33886,30806,0,2026-09-08,https://www.bancop.com.py/public/2b39c1c48c54adac4948c32e7f3e8973.pdf,0,,
-bnf,1187-L8 y 9-MA,1,terreno,Canindeyú,Salgo del Guairá,,,360,34571,31428,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-24.09041,-54.3305
-caja_bancaria,27-0021-24,1,casa,Central,Ypacaraí,,,,35103,31912,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
-bnf,737-L0-M0,1,rural,San Pedro,General Elizardo Aquino,,80,77321,35277,32070,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-24.38071,-56.66206
-itau,6c0cbae107daf412,1,casa,Central,Luque,,,207,35367,32151,0,2026-09-11,https://www.micasa.itau.com.py/vivienda-en-luque/194251831,1,,
-bnf,1345-MFracción D-1 Zona III,1,rural,Itapúa,Fram,,,11308,35771,32519,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-27.00646,-56.03405
-bnf,1362-L11,1,rural,Alto Paraná,Juan León Mallorquín,,68,30000,36024,32749,0,2026-09-22,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,,
-bnf,1360-L286-MQ,5,unknown,Alto Paraná,Minga Guazú,,,1000,36233,32939,0,2026-09-25,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.51392,-54.8574
-bnf,111,1,rural,Caaguazú,Repatriación,,,100000,37570,34154,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.60882,-55.9179
-gnb,G561,1,terreno,Central,Ñemby,,,451,37657,34234,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
-bnf,453-L3-M23,1,rural,Concepción,Horqueta,,,160370,38452,34956,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-23.41161,-57.14104
-bnf,1065,1,terreno,Caaguazú,3 de febrero,,,625,38584,35076,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.24528,-55.77713
-bnf,1259-L2-MA,1,casa,Central,San Lorenzo,,107,457,39598,35998,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.33178,-57.49306
-bnf,1360-L291-MR,4,unknown,Alto Paraná,Minga Guazú,,,1000,41380,37618,0,2026-09-25,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.51392,-54.8574
-caja_bancaria,26-4237-01,1,casa,Alto Paraná,Ciudad del Este,,,,42603,38730,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
-bnf,453-L5-M23,1,rural,Concepción,Horqueta,,,186000,42773,38884,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-23.41161,-57.14104
+caja_bancaria,14-1747-02,1,casa,Asunción,Asunción,,,,937,852,1,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
+caja_bancaria,00-2722-07,2,terreno,Central,Limpio,,,,2693,2448,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
+bnf,429-L1-MG,48,terreno,Caazapá,Yuty,,,610,3186,2897,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-26.60507,-56.23498
+bnf,195-L13-M2-A,1,terreno,Canindeyú,Francisco Caballero Álvarez,,,600,3629,3299,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-24.02209,-54.75604
+bnf,937-L5-MC,2,terreno,Concepción,Yby Yau,,,504,3894,3540,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-22.95474,-56.53622
+solar,10,4,terreno,Concepción,Yby Yau,,,384,4360,3964,0,2026-09-08,https://www.solar.com.py/bienes,0,,
+solar,18,3,terreno,San Pedro,Santa Rosa del Aguaray,,,375,6627,6025,0,2026-09-08,https://www.solar.com.py/bienes,0,,
+atlas,10736,1,terreno,Concepción,Concepción,,,360,6976,6342,0,2026-09-08,https://www.bancoatlas.com.py/web/bienes-adjudicados,0,-23.4336,-57.39596
+caja_bancaria,00-0135-00,1,casa,Caaguazú,Santa Rosa Del Mbutuy,,,,6976,6342,1,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
+bnf,1338-L3-MVI,1,casa,Itapúa,San Cosme Y Damián,,84,450,8143,7403,1,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-27.3169,-56.34217
+caja_bancaria,01-1506-00,1,terreno,Central,Itauguá,,,,8546,7769,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
+basa,3ee1725ba4027ba9,1,terreno,Central,Itá,,,365,8720,7928,0,2026-09-08,https://www.bancobasa.com.py/storage/app/media/bienes_adjudicados/Basa_Bienes%20Adjudicados_OCTUBRE.pdf,0,,
+basa,6b17da8345f2dbf5,1,terreno,Central,Itá,,,363,8720,7928,0,2026-09-08,https://www.bancobasa.com.py/storage/app/media/bienes_adjudicados/Basa_Bienes%20Adjudicados_OCTUBRE.pdf,0,,
+solar,4,1,terreno,Caaguazú,Caaguazú,,,1200,8720,7928,0,2026-09-08,https://www.solar.com.py/bienes,0,,
+solar,22,1,terreno,San Pedro,Santa Rosa del Aguaray,,,377,9156,8324,0,2026-09-08,https://www.solar.com.py/bienes,0,,
+basa,0b9ed33f28d93eda,3,terreno,Central,Itá,,,395,10464,9513,0,2026-09-08,https://www.bancobasa.com.py/storage/app/media/bienes_adjudicados/Basa_Bienes%20Adjudicados_OCTUBRE.pdf,0,,
+solar,21,1,terreno,San Pedro,Santa Rosa del Aguaray,,,378,10464,9513,0,2026-09-08,https://www.solar.com.py/bienes,0,,
+bnf,1266-L8-M144,1,casa,Misiones,San Ignacio,,45,470,12427,11297,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-26.88302,-57.01131
+bnf,1286-L3-M513,1,terreno,Misiones,San Ignacio,,,830,13985,12713,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-26.88281,-57.00902
+bnf,1276,1,rural,Guairá,Coronel Martínez,,,41247,15401,14001,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.74526,-56.59711
+caja_bancaria,00-2386-08,1,terreno,Central,Capiatá,,,,15507,14098,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
+bnf,1286-L9-M513,1,casa,Misiones,San Ignacio,,174,638,15843,14403,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-26.88272,-57.00885
+caja_bancaria,00-2217-00,1,casa,Central,Capiatá,,,,17441,15855,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
+caja_bancaria,00-6040-00,1,terreno,Alto Paraná,Ciudad del Este,,,,17789,16172,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
+caja_bancaria,27-2440-12,1,casa,Central,San Lorenzo,,,,17789,16172,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
+caja_bancaria,18-0190-03,1,casa,San Pedro,Villa del Rosario,,,,17877,16251,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
+bnf,1357-L15-MIX,1,unknown,Caaguazú,Dr. Juan Eulogio Estigarribia,,,600,18233,16576,0,2026-09-10,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.36639,-55.69767
+bnf,502-L6-MA,1,terreno,Itapúa,Encarnación,,,523,18941,17219,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-27.31455,-55.82059
+bnf,"1309-L1-M""N""",1,terreno,Itapúa,Cambyretá,,,364,20181,18346,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-27.35828,-55.81466
+bnf,"1309-L2-M""N""",1,terreno,Itapúa,Cambyretá,,,365,20181,18346,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-27.35853,-55.81412
+bnf,1307-L18-M7,1,casa,Central,Itá,,104,360,20535,18668,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.50621,-57.37423
+bnf,"1309-L3-M""N""",2,terreno,Itapúa,Cambyretá,,,384,21243,19312,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-27.35826,-55.81466
+gnb,F356,1,casa,San Pedro,Liberación,,,880,22150,20136,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
+bnf,1357-L16-MIX,1,casa,Caaguazú,Dr. Juan Eulogio Estigarribia,,25,600,22659,20599,0,2026-09-10,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.36628,-55.69765
+caja_bancaria,00-3704-00,1,casa,Cordillera,Eusebio Ayala,,,,23022,20929,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
+caja_bancaria,19-0217-04,1,terreno,Cordillera,Caacupé,,,,23894,21721,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
+itau,6c0cbae107daf412,1,casa,Central,Luque,,,207,25812,23466,0,2026-09-11,https://www.micasa.itau.com.py/vivienda-en-luque/194251831,1,,
+basa,49c581f11f42bfac,1,casa,San Pedro,San Pedro del Ycuamandyyú,,,360,26161,23783,0,2026-09-08,https://www.bancobasa.com.py/storage/app/media/bienes_adjudicados/Basa_Bienes%20Adjudicados_OCTUBRE.pdf,0,,
+caja_bancaria,02-6650-00,1,casa,Central,Capiatá,,,,26161,23783,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
+solar,12,1,terreno,Canindeyú,Saltos del Guairá,,,480,26161,23783,0,2026-09-08,https://www.solar.com.py/bienes,0,,
+bnf,159-3,1,terreno,Paraguarí,Carapeguá,,,2230,26199,23818,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.76797,-57.25526
+caja_bancaria,27-0056-33,1,casa,Central,San Antonio,,,,26510,24100,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
+basa,e83ef4fc678fb76a,1,oficina,Asunción,Asunción,,45,,27905,25368,0,2026-09-08,https://www.bancobasa.com.py/storage/app/media/bienes_adjudicados/Basa_Bienes%20Adjudicados_OCTUBRE.pdf,0,,
+caja_bancaria,13-0901-07,1,casa,Central,Lambaré,,,,28428,25844,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
+bnf,1337,1,rural,Guairá,Mauricio José Troche,,,50000,29209,26553,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.62472,-56.10239
+basa,92f3da2aa3652d81,1,terreno,Amambay,Pedro Juan Caballero,,,731,29649,26954,0,2026-10-22,https://www.bancobasa.com.py/storage/app/media/bienes_adjudicados/Basa_Bienes%20Adjudicados_OCTUBRE.pdf,0,,
+gnb,G646,1,terreno,Itapúa,Bella Vista Sur,,,603,31538,28671,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
+bnf,1288-LFracción 1-M0,1,terreno,Itapúa,Cambyretá,,,2385,32749,29772,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-27.35773,-55.77695
+bnf,159-1,1,rural,Paraguarí,Carapeguá,,,2840,33280,30255,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.76707,-57.25442
+caja_bancaria,26-2546-08,1,casa,Alto Paraná,Ciudad del Este,,,,33555,30504,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
+bnf,1349-L8-MJ,1,terreno,Itapúa,Encarnación,,,362,33634,30577,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-27.30451,-55.86574
+bancop,MAT-L05/4909-PAD-5798,1,unknown,Central,Itá,,,3241,34009,30917,0,2026-09-08,https://www.bancop.com.py/public/2b39c1c48c54adac4948c32e7f3e8973.pdf,0,,
+bnf,1187-L8 y 9-MA,1,terreno,Canindeyú,Salgo del Guairá,,,360,34696,31542,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-24.09041,-54.3305
+caja_bancaria,27-0021-24,1,casa,Central,Ypacaraí,,,,35230,32027,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
+bnf,737-L0-M0,1,rural,San Pedro,General Elizardo Aquino,,80,77321,35404,32186,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-24.38071,-56.66206
+bnf,1345-MFracción D-1 Zona III,1,rural,Itapúa,Fram,,,11308,35900,32636,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-27.00646,-56.03405
+bnf,1362-L11,1,rural,Alto Paraná,Juan León Mallorquín,,68,30000,36154,32868,0,2026-09-22,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,,
+bnf,1360-L286-MQ,5,unknown,Alto Paraná,Minga Guazú,,,1000,36364,33058,0,2026-09-25,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.51392,-54.8574
+bnf,111,1,rural,Caaguazú,Repatriación,,,100000,37706,34278,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.60882,-55.9179
+gnb,G561,1,terreno,Central,Ñemby,,,451,37794,34358,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
+bnf,453-L3-M23,1,rural,Concepción,Horqueta,,,160370,38591,35083,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-23.41161,-57.14104
+bnf,1065,1,terreno,Caaguazú,3 de febrero,,,625,38724,35203,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.24528,-55.77713
+bnf,1259-L2-MA,1,casa,Central,San Lorenzo,,107,457,39741,36129,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.33178,-57.49306
+bnf,1360-L291-MR,4,unknown,Alto Paraná,Minga Guazú,,,1000,41529,37754,0,2026-09-25,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.51392,-54.8574
+caja_bancaria,26-4237-01,1,casa,Alto Paraná,Ciudad del Este,,,,42757,38870,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
 basa,3b56a3e76aeb6756,1,terreno,Amambay,Pedro Juan Caballero,,,360,42895,38996,0,2026-09-08,https://www.bancobasa.com.py/storage/app/media/bienes_adjudicados/inmuebles-setiembre-2.pdf,0,,
-bnf,1343-L3-M1C,1,unknown,Canindeyú,Saltos de Guairá hoy KATUETE,,,600,43038,39125,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-24.25031,-54.76781
-bnf,1255-L5-MV,1,rural,Alto Paraná,Itakyry,,,100000,43214,39285,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-24.71837,-55.23612
-bnf,1326-L11-M267,1,casa,Ñeembucú,Pilar,,150,410,43390,39446,0,2026-10-01,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-26.87026,-58.3035
-caja_bancaria,23-0252-09,1,casa,Itapúa,Coronel Bogado,,,,43409,39463,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
-bnf,1342-L0-M0,1,terreno,Cordillera,Itacurubí de la Cordillera,,,1967,43743,39766,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.46471,-56.86049
-bnf,"1308-L6-M""E""",1,terreno,Itapúa,Encarnación,,,648,44096,40087,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-27.3138,-55.89699
-bnf,1296-L0-M0,1,terreno,Itapúa,San Pedro del Paraná,,,129939,45771,41610,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-26.84013,-56.17015
-caja_bancaria,27-1901-01,1,casa,Central,Capiatá,,,,46398,42180,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
-bnf,453-L4-M0,1,rural,Concepción,Horqueta,,,190330,46565,42332,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-23.41161,-57.14104
-caja_bancaria,12-0206-12,1,casa,Asunción,Asunción,,,,47683,43348,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
-gnb,G511,1,terreno,Amambay,Pedro Juan Caballero,,,360,47858,43507,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
-caja_bancaria,27-4688-12,1,casa,Central,Limpio,,,,47962,43602,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
-bnf,453-L1-M23,1,rural,Concepción,Horqueta,,,205956,48153,43775,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-23.42564,-57.1389
-gnb,G630,1,departamento,Central,Luque,,67,,48813,44375,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
-caja_bancaria,00-1367-00,1,casa,Alto Paraná,Minga Guazú,,,,49179,44708,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
-bnf,453-L2-M23,1,rural,Concepción,Horqueta,,,218300,50446,45860,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-23.41161,-57.14104
-gnb,F387,1,terreno,Amambay,Pedro Juan Caballero,,,362,51264,46604,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
-caja_bancaria,27-3547-06,1,casa,Central,San Lorenzo,,,,51612,46920,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
-bnf,1348-L7-218,1,casa,Cordillera,Corpus Christi,,139,537,52386,47623,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-24.08102,-54.94096
-bnf,1348-L7-226,1,casa,Canindeyú,Corpus Christi,,139,537,52386,47623,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-24.08102,-54.94096
-gnb,F376,6,terreno,Amambay,Pedro Juan Caballero,,,360,52481,47710,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
-bnf,1357-L4-MA,1,casa,Caaguazú,Dr. Juan Eulogio Estigarribia,,90,400,52650,47864,0,2026-09-10,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.372,-55.69634
-gnb,F386,1,terreno,Amambay,Pedro Juan Caballero,,,367,53523,48657,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
-bnf,159-2,1,terreno,Paraguarí,Carapeguá,,,4620,53973,49067,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.76836,-57.2544
-gnb,F388,1,terreno,Amambay,Pedro Juan Caballero,,,360,54045,49131,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
-bnf,1298-L8-M19,1,casa,Alto Paraná,Ciudad del Este,,180,360,54238,49307,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.48167,-54.65139
-gnb,G629,1,departamento,Central,Luque,,67,,54524,49568,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
-bnf,355-L27-M0,1,rural,San Pedro,General Elizardo Aquino,,120,129720,54855,49868,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-24.37758,-56.65233
-caja_bancaria,26-0933-70,1,casa,Alto Paraná,Ciudad del Este,,,,54913,49921,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
-caja_bancaria,27-0067-04,1,casa,Caaguazú,Yhú,,,,55260,50236,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
-caja_bancaria,27-0169-12,1,casa,Central,Ñemby,,,,57346,52133,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
-bnf,1339-L20-M2,1,deposito,Central,Capiatá,,360,360,58736,53396,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.39682,-57.46514
-bancop,CCC-27-1532-12,1,rural,Central,Itá,,,819,60822,55293,0,2026-09-08,https://www.bancop.com.py/public/2b39c1c48c54adac4948c32e7f3e8973.pdf,0,,
-bancop,FINCA-1027-PAD-1507,1,rural,Guairá,Paso Yobái,,,70000,60822,55293,0,2026-09-08,https://www.bancop.com.py/public/2b39c1c48c54adac4948c32e7f3e8973.pdf,0,,
-bnf,1349-L6-MA,1,casa,Itapúa,Encarnación,,110,544,61381,55801,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,,
-atlas,2636,1,unknown,Central,Ñemby,,,363,62998,57271,0,2026-09-08,https://www.bancoatlas.com.py/web/bienes-adjudicados,0,-25.38728,-57.53101
-bnf,1334-L19,1,rural,Caazapá,Abaí,,,128287,64909,59008,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,,
+bnf,453-L5-M23,1,rural,Concepción,Horqueta,,,186000,42928,39025,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-23.41161,-57.14104
+bnf,1343-L3-M1C,1,unknown,Canindeyú,Saltos de Guairá hoy KATUETE,,,600,43193,39267,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-24.25031,-54.76781
+bnf,1255-L5-MV,1,rural,Alto Paraná,Itakyry,,,100000,43370,39428,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-24.71837,-55.23612
+bnf,1326-L11-M267,1,casa,Ñeembucú,Pilar,,150,410,43547,39589,0,2026-10-01,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-26.87026,-58.3035
+caja_bancaria,23-0252-09,1,casa,Itapúa,Coronel Bogado,,,,43567,39606,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
+bnf,1342-L0-M0,1,terreno,Cordillera,Itacurubí de la Cordillera,,,1967,43902,39910,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.46471,-56.86049
+bnf,"1308-L6-M""E""",1,terreno,Itapúa,Encarnación,,,648,44256,40232,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-27.3138,-55.89699
+bnf,1296-L0-M0,1,terreno,Itapúa,San Pedro del Paraná,,,129939,45937,41761,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-26.84013,-56.17015
+caja_bancaria,27-1901-01,1,casa,Central,Capiatá,,,,46566,42333,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
+bnf,453-L4-M0,1,rural,Concepción,Horqueta,,,190330,46734,42485,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-23.41161,-57.14104
+caja_bancaria,12-0206-12,1,casa,Asunción,Asunción,,,,47856,43505,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
+gnb,G511,1,terreno,Amambay,Pedro Juan Caballero,,,360,48031,43665,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
+caja_bancaria,27-4688-12,1,casa,Central,Limpio,,,,48136,43760,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
+bnf,453-L1-M23,1,rural,Concepción,Horqueta,,,205956,48327,43934,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-23.42564,-57.1389
+gnb,G630,1,departamento,Central,Luque,,67,,48990,44536,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
+caja_bancaria,00-1367-00,1,casa,Alto Paraná,Minga Guazú,,,,49357,44870,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
+bnf,453-L2-M23,1,rural,Concepción,Horqueta,,,218300,50628,46026,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-23.41161,-57.14104
+gnb,F387,1,terreno,Amambay,Pedro Juan Caballero,,,362,51450,46773,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
+caja_bancaria,27-3547-06,1,casa,Central,San Lorenzo,,,,51799,47090,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
+bnf,1348-L7-218,1,casa,Cordillera,Corpus Christi,,139,537,52576,47796,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-24.08102,-54.94096
+bnf,1348-L7-226,1,casa,Canindeyú,Corpus Christi,,139,537,52576,47796,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-24.08102,-54.94096
+gnb,F376,6,terreno,Amambay,Pedro Juan Caballero,,,360,52671,47882,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
+bnf,1357-L4-MA,1,casa,Caaguazú,Dr. Juan Eulogio Estigarribia,,90,400,52841,48037,0,2026-09-10,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.372,-55.69634
+gnb,F386,1,terreno,Amambay,Pedro Juan Caballero,,,367,53717,48834,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
+bnf,159-2,1,terreno,Paraguarí,Carapeguá,,,4620,54169,49244,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.76836,-57.2544
+gnb,F388,1,terreno,Amambay,Pedro Juan Caballero,,,360,54240,49309,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
+bnf,1298-L8-M19,1,casa,Alto Paraná,Ciudad del Este,,180,360,54434,49486,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.48167,-54.65139
+gnb,G629,1,departamento,Central,Luque,,67,,54722,49747,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
+basa,0533968d74fd2681,1,casa,Central,Ñemby,,,436,54938,49944,0,2026-10-22,https://www.bancobasa.com.py/storage/app/media/bienes_adjudicados/Basa_Bienes%20Adjudicados_OCTUBRE.pdf,0,,
+bnf,355-L27-M0,1,rural,San Pedro,General Elizardo Aquino,,120,129720,55054,50049,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-24.37758,-56.65233
+caja_bancaria,26-0933-70,1,casa,Alto Paraná,Ciudad del Este,,,,55112,50102,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
+caja_bancaria,27-0067-04,1,casa,Caaguazú,Yhú,,,,55460,50418,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
+caja_bancaria,27-0169-12,1,casa,Central,Ñemby,,,,57554,52322,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
+itau,9300de40ce4bf045,1,casa,Alto Paraná,Hernandarias,,,367,57554,52322,0,2026-09-08,https://www.micasa.itau.com.py/vivienda-familiar-hernandarias/193387744?v,1,,
+bnf,1339-L20-M2,1,deposito,Central,Capiatá,,360,360,58948,53589,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.39682,-57.46514
+bancop,CCC-27-1532-12,1,rural,Central,Itá,,,819,61042,55493,0,2026-09-08,https://www.bancop.com.py/public/2b39c1c48c54adac4948c32e7f3e8973.pdf,0,,
+bancop,FINCA-1027-PAD-1507,1,rural,Guairá,Paso Yobái,,,70000,61042,55493,0,2026-09-08,https://www.bancop.com.py/public/2b39c1c48c54adac4948c32e7f3e8973.pdf,0,,
+bnf,1349-L6-MA,1,casa,Itapúa,Encarnación,,110,544,61604,56003,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,,
+atlas,2636,1,unknown,Central,Ñemby,,,363,63226,57478,0,2026-09-08,https://www.bancoatlas.com.py/web/bienes-adjudicados,0,-25.38728,-57.53101
+bnf,1334-L19,1,rural,Caazapá,Abaí,,,128287,65144,59222,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,,
 gnb,G625,1,rural,Itapúa,Alto Verá,,,98000,65650,59682,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
-gnb,G619,1,terreno,Alto Paraná,Ciudad del Este,,,1920,66730,60664,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
-gnb,F402,1,deposito,Misiones,Santa Rosa,,,435,66904,60822,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
-bnf,1352,1,rural,Itapúa,Tomás Romero Pereira,,,104376,68260,62055,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,,
-atlas,4572/4573/4574/4575/4576,1,terreno,Itapúa,Hohenau,,,2582,70731,64301,0,2026-09-08,https://www.bancoatlas.com.py/web/bienes-adjudicados,0,-27.08926,-55.64121
-itau,9300de40ce4bf045,1,casa,Alto Paraná,Hernandarias,,,367,71253,64776,0,2026-09-08,https://www.micasa.itau.com.py/vivienda-familiar-hernandarias/193387744?v,1,,
-gnb,F368,1,terreno,Itapúa,San Juan del Paraná,,,14473,72074,65522,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
-caja_bancaria,13-2085-06,1,casa,Central,Lambaré,,,,72117,65561,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
-gnb,G611,3,departamento,Central,Luque,,54,,72135,65577,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
-bnf,1343-L7-M2 Zona B,1,rural,Canindeyú,Corpus Christi,,56,4200420,72141,65583,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-24.08207,-54.93925
-basa,84e0e5b4a44e09fe,1,terreno,Alto Paraná,Naranjal,,,8432,72344,65767,0,2026-09-23,https://www.bancobasa.com.py/storage/app/media/bienes_adjudicados/inmuebles-setiembre-2.pdf,0,,
-gnb,G564,2,terreno,Canindeyú,Corpus Christi,,,450,73855,67141,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
-caja_bancaria,26-2184-06,1,terreno,Alto Paraná,Ciudad del Este,,,,76114,69195,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
-caja_bancaria,27-2900-11,1,casa,Central,San Lorenzo,,,,76288,69353,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
-bnf,1294-L11-M809,1,casa,Guairá,Villarrica,,180,371,76462,69511,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.76254,-56.44247
-gnb,F413,1,terreno,Alto Paraná,Naranjal,,,10530,78760,71600,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
-gnb,F414,1,terreno,Alto Paraná,Naranjal,,,10205,78760,71600,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
-gnb,F415,1,terreno,Alto Paraná,Naranjal,,,10308,78760,71600,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
-bnf,1003-L0-M0,1,rural,Caaguazú,Caaguazú,,,121197,82195,74722,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.43676,-55.88963
-bnf,1300-L3-M255,1,casa,Concepción,Concepción,,163,384,84752,77047,0,2026-09-10,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-23.40446,-57.42851
-caja_bancaria,26-1181-07,1,casa,Alto Paraná,Ciudad del Este,,,,84977,77252,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
-basa,813372c089b9297e,1,casa,Alto Paraná,Ciudad del Este,,,364,85110,77373,0,2026-09-08,https://www.bancobasa.com.py/storage/app/media/bienes_adjudicados/inmuebles-setiembre-2.pdf,0,,
-caja_bancaria,00-1536-00,1,casa,Central,Limpio,,,,86193,78357,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
-gnb,G633,1,terreno,Itapúa,Encarnación,,,405,86888,78989,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
-atlas,39822,1,unknown,Central,Capiatá,,,322,88235,80214,0,2026-09-08,https://www.bancoatlas.com.py/web/bienes-adjudicados,0,-25.37248,-57.4536
-caja_bancaria,26-3198-12,1,terreno,Alto Paraná,Ciudad del Este,,,,89495,81359,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
-gnb,F370,1,terreno,Itapúa,Alto Verá,,,120000,90016,81833,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
+gnb,G619,1,terreno,Alto Paraná,Ciudad del Este,,,1920,66972,60884,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
+gnb,F402,1,deposito,Misiones,Santa Rosa,,,435,67146,61042,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
+bnf,1352,1,rural,Itapúa,Tomás Romero Pereira,,,104376,68508,62280,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,,
+basa,dcedb1f391734890,1,terreno,Amambay,Pedro Juan Caballero,,,600,69762,63420,0,2026-10-22,https://www.bancobasa.com.py/storage/app/media/bienes_adjudicados/Basa_Bienes%20Adjudicados_OCTUBRE.pdf,0,,
+atlas,4572/4573/4574/4575/4576,1,terreno,Itapúa,Hohenau,,,2582,70988,64534,0,2026-09-08,https://www.bancoatlas.com.py/web/bienes-adjudicados,0,-27.08926,-55.64121
+gnb,F368,1,terreno,Itapúa,San Juan del Paraná,,,14473,72335,65759,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
+caja_bancaria,13-2085-06,1,casa,Central,Lambaré,,,,72379,65799,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
+gnb,G611,3,departamento,Central,Luque,,54,,72396,65815,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
+bnf,1343-L7-M2 Zona B,1,rural,Canindeyú,Corpus Christi,,56,4200420,72402,65820,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-24.08207,-54.93925
+basa,84e0e5b4a44e09fe,1,terreno,Alto Paraná,Naranjal,,,8432,74123,67384,0,2026-09-23,https://www.bancobasa.com.py/storage/app/media/bienes_adjudicados/Basa_Bienes%20Adjudicados_OCTUBRE.pdf,0,,
+gnb,G564,2,terreno,Canindeyú,Corpus Christi,,,450,74123,67384,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
+caja_bancaria,26-2184-06,1,terreno,Alto Paraná,Ciudad del Este,,,,76390,69445,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
+caja_bancaria,27-2900-11,1,casa,Central,San Lorenzo,,,,76564,69604,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
+bnf,1294-L11-M809,1,casa,Guairá,Villarrica,,180,371,76739,69763,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.76254,-56.44247
+gnb,F413,1,terreno,Alto Paraná,Naranjal,,,10530,79045,71859,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
+gnb,F414,1,terreno,Alto Paraná,Naranjal,,,10205,79045,71859,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
+gnb,F415,1,terreno,Alto Paraná,Naranjal,,,10308,79045,71859,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
+bnf,1003-L0-M0,1,rural,Caaguazú,Caaguazú,,,121197,82492,74993,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.43676,-55.88963
+bnf,1300-L3-M255,1,casa,Concepción,Concepción,,163,384,85059,77327,0,2026-09-10,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-23.40446,-57.42851
+caja_bancaria,26-1181-07,1,casa,Alto Paraná,Ciudad del Este,,,,85285,77531,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
+caja_bancaria,00-1536-00,1,casa,Central,Limpio,,,,86505,78641,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
+basa,813372c089b9297e,1,casa,Alto Paraná,Ciudad del Este,,,364,87203,79275,0,2026-09-08,https://www.bancobasa.com.py/storage/app/media/bienes_adjudicados/Basa_Bienes%20Adjudicados_OCTUBRE.pdf,0,,
+gnb,G633,1,terreno,Itapúa,Encarnación,,,405,87203,79275,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
+atlas,39822,1,unknown,Central,Capiatá,,,322,88555,80505,0,2026-09-08,https://www.bancoatlas.com.py/web/bienes-adjudicados,0,-25.37248,-57.4536
+caja_bancaria,26-3198-12,1,terreno,Alto Paraná,Ciudad del Este,,,,89819,81654,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
 basa,fbfbbba2471b447e,1,local,Itapúa,San Pedro del Paraná,,,787,90217,82015,0,2026-09-08,https://www.bancobasa.com.py/storage/app/media/bienes_adjudicados/inmuebles-setiembre-2.pdf,0,,
-gnb,F405,1,terreno,Alto Paraná,Hernandarias,,,600,90364,82149,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
-gnb,G597,1,casa,Cordillera,Juan De Mena,,,141,91854,83504,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
-bnf,1354,1,rural,Guairá,Independencia,,,130594,95600,86909,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.81328,-56.16337
-caja_bancaria,27-1369-05,1,casa,Central,Fernando de la Mora,,,,96098,87362,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
-gnb,F350,1,casa,Itapúa,Itapúa Poty,,,4000,97141,88310,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
-basa,b5cd21dc658fdc5d,1,departamento,Asunción,Asunción,,161,,99749,90681,0,2026-09-08,https://www.bancobasa.com.py/storage/app/media/bienes_adjudicados/inmuebles-setiembre-2.pdf,0,,
-bnf,1329-L8-M130,1,casa,Asunción,Asunción,Catedral,350,300,105830,96209,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.31734,-57.64177
-basa,036f3b696e05bb1d,1,casa,Central,Ñemby,,,381,110303,100275,0,2026-09-08,https://www.bancobasa.com.py/storage/app/media/bienes_adjudicados/inmuebles-setiembre-2.pdf,0,,
-bnf,856-L0-M0,1,rural,Itapúa,Carlos Antonio Lopez,,,141750,112885,102623,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-26.51345,-54.84432
-solar,27,1,terreno,Central,Surubi'i,,,1189,116552,105956,0,2026-09-08,https://www.solar.com.py/bienes,0,-25.19186,-57.50528
-bnf,1325-L3-M0,1,rural,Itapúa,Yatytay,,,148860,116836,106215,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.28384,-57.63402
-gnb,G642,1,terreno,Asunción,Asunción,,,303,117597,106906,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
-bnf,1301-L0-M0,1,casa,Alto Paraná,Ciudad del Este,,173,173,119059,108235,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.51745,-54.61041
-bnf,1278-L0-M0,1,casa,Cordillera,Itacurubí de la Cordillera,,1500,3000,119411,108556,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.4655,-56.83511
-bnf,1350,1,rural,Concepción,Yby Yau,,64,200000,125009,113645,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-22.85044,-56.4079
-bancop,FINCA-2377-PAD-421,1,rural,Canindeyú,Ybyrarobaná,,,149933,125119,113745,0,2026-09-08,https://www.bancop.com.py/public/2b39c1c48c54adac4948c32e7f3e8973.pdf,0,,
-bnf,1340-LB,1,rural,Misiones,Santa Rosa,,,232852,126467,114970,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-26.93454,-56.89304
-caja_bancaria,10-0145-12,1,casa,Asunción,Asunción,,,,127960,116328,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
-gnb,G560,1,terreno,Central,San Lorenzo,,,570,136257,123870,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
-itau,e4557f48699fb8e6,1,terreno,Central,Luque,,,1280,136265,123877,0,2026-09-08,https://www.micasa.itau.com.py/luque-barrio-primavera/192801404?v,1,,
-basa,8b34cbe78a36d7ce,1,local,Concepción,San Lázaro,,,456,142985,129986,0,2026-09-08,https://www.bancobasa.com.py/storage/app/media/bienes_adjudicados/inmuebles-setiembre-2.pdf,0,,
-solar,24,1,terreno,Central,Surubi'i,,,1484,145451,132228,0,2026-09-08,https://www.solar.com.py/bienes,0,-25.19186,-57.50528
-basa,c50d6d0f3d217fd9,2,terreno,Caazapá,San Juan Nepomuceno,,,800,146049,132772,0,2026-09-08,https://www.bancobasa.com.py/storage/app/media/bienes_adjudicados/inmuebles-setiembre-2.pdf,0,,
-caja_bancaria,13-0250-01,1,casa,Central,Lambaré,,,,146146,132860,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
-atlas,L13/43610,1,unknown,Central,San Lorenzo,,,392,147551,134137,0,2026-09-08,https://www.bancoatlas.com.py/web/bienes-adjudicados,0,-25.34306,-57.50309
-gnb,G643,1,terreno,Central,Lambaré,,,1107,148325,134841,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
-solar,26,1,terreno,Central,Surubi'i,,,1516,148579,135072,0,2026-09-08,https://www.solar.com.py/bienes,0,-25.19186,-57.50528
-solar,25,1,terreno,Central,Surubi'i,,,1518,148753,135230,0,2026-09-08,https://www.solar.com.py/bienes,0,-25.19186,-57.50528
-gnb,G641,1,terreno,Asunción,Asunción,,,411,152006,138187,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
-basa,6309321e72a1ef13,1,casa,Itapúa,San Pedro del Paraná,,,504,152566,138697,0,2026-09-23,https://www.bancobasa.com.py/storage/app/media/bienes_adjudicados/inmuebles-setiembre-2.pdf,0,,
-bnf,1292-L0-M0,1,rural,Cordillera,Itacurubí de la Cordillera,,45,153677,152748,138862,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,,
-bnf,1351,1,rural,Itapúa,San Pedro del Paraná,,,397758,156099,141908,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-26.83589,-55.95333
-gnb,G631,1,casa,Cordillera,San Bernardino,,,720,157860,143509,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
+gnb,F370,1,terreno,Itapúa,Alto Verá,,,120000,90342,82129,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
+gnb,F405,1,terreno,Alto Paraná,Hernandarias,,,600,90691,82447,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
+itau,e4557f48699fb8e6,1,terreno,Central,Luque,,,1280,90691,82447,0,2026-09-08,https://www.micasa.itau.com.py/luque-barrio-primavera/192801404?v,1,,
+gnb,G597,1,casa,Cordillera,Juan De Mena,,,141,92187,83806,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
+bnf,1354,1,rural,Guairá,Independencia,,,130594,95946,87224,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.81328,-56.16337
+caja_bancaria,27-1369-05,1,casa,Central,Fernando de la Mora,,,,96447,87679,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
+gnb,F350,1,casa,Itapúa,Itapúa Poty,,,4000,97493,88630,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
+basa,b5cd21dc658fdc5d,1,departamento,Asunción,Asunción,,161,,102202,92911,0,2026-09-08,https://www.bancobasa.com.py/storage/app/media/bienes_adjudicados/Basa_Bienes%20Adjudicados_OCTUBRE.pdf,0,,
+basa,7e62cf66ce6578fe,1,unknown,Central,Luque,,,298,104644,95131,0,2026-10-22,https://www.bancobasa.com.py/storage/app/media/bienes_adjudicados/Basa_Bienes%20Adjudicados_OCTUBRE.pdf,0,,
+bnf,1329-L8-M130,1,casa,Asunción,Asunción,Catedral,350,300,106213,96558,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.31734,-57.64177
+basa,036f3b696e05bb1d,1,casa,Central,Ñemby,,,381,113015,102741,0,2026-09-08,https://www.bancobasa.com.py/storage/app/media/bienes_adjudicados/Basa_Bienes%20Adjudicados_OCTUBRE.pdf,0,,
+bnf,856-L0-M0,1,rural,Itapúa,Carlos Antonio Lopez,,,141750,113294,102995,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-26.51345,-54.84432
+solar,27,1,terreno,Central,Surubi'i,,,1189,116974,106340,0,2026-09-08,https://www.solar.com.py/bienes,0,-25.19186,-57.50528
+bnf,1325-L3-M0,1,rural,Itapúa,Yatytay,,,148860,117259,106600,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.28384,-57.63402
+gnb,G642,1,terreno,Asunción,Asunción,,,303,118023,107293,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
+bnf,1301-L0-M0,1,casa,Alto Paraná,Ciudad del Este,,173,173,119490,108627,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.51745,-54.61041
+bnf,1278-L0-M0,1,casa,Cordillera,Itacurubí de la Cordillera,,1500,3000,119844,108949,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.4655,-56.83511
+bnf,1350,1,rural,Concepción,Yby Yau,,64,200000,125462,114057,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-22.85044,-56.4079
+bancop,FINCA-2377-PAD-421,1,rural,Canindeyú,Ybyrarobaná,,,149933,125572,114157,0,2026-09-08,https://www.bancop.com.py/public/2b39c1c48c54adac4948c32e7f3e8973.pdf,0,,
+bnf,1340-LB,1,rural,Misiones,Santa Rosa,,,232852,126925,115386,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-26.93454,-56.89304
+caja_bancaria,10-0145-12,1,casa,Asunción,Asunción,,,,128424,116749,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
+gnb,G560,1,terreno,Central,San Lorenzo,,,570,136751,124319,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
+solar,24,1,terreno,Central,Surubi'i,,,1484,145978,132707,0,2026-09-08,https://www.solar.com.py/bienes,0,-25.19186,-57.50528
+basa,c50d6d0f3d217fd9-2,1,terreno,Caazapá,San Juan Nepomuceno,,,800,146049,132772,0,2026-09-23,https://www.bancobasa.com.py/storage/app/media/bienes_adjudicados/inmuebles-setiembre-2.pdf,0,,
+basa,8b34cbe78a36d7ce,1,local,Concepción,San Lázaro,,,456,146501,133183,0,2026-09-08,https://www.bancobasa.com.py/storage/app/media/bienes_adjudicados/Basa_Bienes%20Adjudicados_OCTUBRE.pdf,0,,
+caja_bancaria,13-0250-01,1,casa,Central,Lambaré,,,,146676,133341,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
+atlas,L13/43610,1,unknown,Central,San Lorenzo,,,392,148085,134623,0,2026-09-08,https://www.bancoatlas.com.py/web/bienes-adjudicados,0,-25.34306,-57.50309
+gnb,G643,1,terreno,Central,Lambaré,,,1107,148862,135329,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
+solar,26,1,terreno,Central,Surubi'i,,,1516,149117,135561,0,2026-09-08,https://www.solar.com.py/bienes,0,-25.19186,-57.50528
+solar,25,1,terreno,Central,Surubi'i,,,1518,149292,135720,0,2026-09-08,https://www.solar.com.py/bienes,0,-25.19186,-57.50528
+basa,c50d6d0f3d217fd9,1,terreno,Caazapá,San Juan Nepomuceno,,,800,149640,136037,0,2026-09-08,https://www.bancobasa.com.py/storage/app/media/bienes_adjudicados/Basa_Bienes%20Adjudicados_OCTUBRE.pdf,0,,
+gnb,G641,1,terreno,Asunción,Asunción,,,411,152556,138688,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
+bnf,1292-L0-M0,1,rural,Cordillera,Itacurubí de la Cordillera,,45,153677,153301,139365,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,,
+basa,6309321e72a1ef13,1,casa,Itapúa,San Pedro del Paraná,,,504,156318,142107,0,2026-09-23,https://www.bancobasa.com.py/storage/app/media/bienes_adjudicados/Basa_Bienes%20Adjudicados_OCTUBRE.pdf,0,,
+bnf,1351,1,rural,Itapúa,San Pedro del Paraná,,,397758,156665,142422,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-26.83589,-55.95333
+gnb,G631,1,casa,Cordillera,San Bernardino,,,720,158432,144029,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
 gnb,F324,1,terreno,Central,Mariano Roque Alonso,,,2048,160000,145455,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
-bnf,1314-L1-M65,1,unknown,San Pedro,Tacuati,,,18221,162273,147521,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-23.45762,-56.73491
-gnb,F352,1,terreno,Itapúa,Alto Verá,,,273600,175167,159243,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
-gnb,G605,1,terreno,Itapúa,Encarnación,,,1956,182465,165878,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
-solar,15,1,terreno,Concepción,Yby Yau,,,10420,196020,178200,0,2026-09-08,https://www.solar.com.py/bienes,0,,
+bnf,1314-L1-M65,1,unknown,San Pedro,Tacuati,,,18221,162860,148055,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-23.45762,-56.73491
+basa,e04d89816346d0cb,1,casa,Amambay,Pedro Juan Caballero,,,518,165686,150623,0,2026-10-22,https://www.bancobasa.com.py/storage/app/media/bienes_adjudicados/Basa_Bienes%20Adjudicados_OCTUBRE.pdf,0,,
+gnb,F352,1,terreno,Itapúa,Alto Verá,,,273600,175801,159819,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
+gnb,G605,1,terreno,Itapúa,Encarnación,,,1956,183126,166479,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
 itau,fd2df7fea1af9f7b,1,terreno,Alto Paraná,Hernandarias,,,11309,196076,178251,0,2026-09-08,https://www.micasa.itau.com.py/terreno-en-zona-industrial-hernandarias/192667704?v,1,,
-basa,9bf6204ecd9ddfff,1,unknown,Caaguazú,Coronel Oviedo,,,400,200860,182600,0,2026-09-23,https://www.bancobasa.com.py/storage/app/media/bienes_adjudicados/inmuebles-setiembre-2.pdf,0,,
-bnf,1255-L21-M0,1,rural,Alto Paraná,Itakyry,,20,101940,201782,183439,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-24.71665,-55.23627
-caja_bancaria,14-1765-07,1,casa,Asunción,Asunción,,,,204014,185467,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
-gnb,G624,1,oficina,Asunción,Asunción,,350,,204101,185546,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
-basa,78d6065da9ac85a4,1,terreno,Itapúa,San Pedro del Paraná,,,37050,204264,185695,0,2026-09-08,https://www.bancobasa.com.py/storage/app/media/bienes_adjudicados/inmuebles-setiembre-2.pdf,0,,
-bancop,MAT-N04/132-PAD-191,1,rural,Amambay,Zanja Pytã,,,16192,206794,187995,0,2026-09-08,https://www.bancop.com.py/public/2b39c1c48c54adac4948c32e7f3e8973.pdf,0,,
-bnf,1347,1,casa,Misiones,San Juan Bautista,,440,957,213424,194022,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-26.66985,-57.14676
-basa,3bc799a5743ad774,1,casa,Central,San Lorenzo,,,377,231840,210764,0,2026-09-08,https://www.bancobasa.com.py/storage/app/media/bienes_adjudicados/inmuebles-setiembre-2.pdf,0,,
-basa,d32658cd0387183c,1,deposito,Alto Paraná,Santa Rita,,,1260,241713,219739,0,2026-09-08,https://www.bancobasa.com.py/storage/app/media/bienes_adjudicados/inmuebles-setiembre-2.pdf,0,,
-bnf,1303-L0-M0,1,rural,Cordillera,Piribebuy,,,577672,243409,221281,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.46994,-56.99078
-gnb,G527,1,terreno,Paraguarí,Ybycuí,,,12569,260665,236968,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
-gnb,G610,1,casa,Central,Lambaré,,,478,271091,246447,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
-itau,638dafd2adfc0a56,1,unknown,Asunción,Asuncion,,,312,278598,253271,0,2026-09-10,https://www.micasa.itau.com.py/casona-en-ciudad-nueva-asuncin/194235385,1,,
-bnf,1335-L4-M3,1,casa,Asunción,Asunción,Recoleta,335,365,284330,258482,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.30222,-57.59316
-gnb,G615,1,terreno,Central,Villa Elisa,,,518,286923,260839,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
-solar,28,1,terreno,Central,Surubi'i,,,3102,304109,276463,0,2026-09-08,https://www.solar.com.py/bienes,0,-25.19186,-57.50528
+solar,15,1,terreno,Concepción,Yby Yau,,,10420,196730,178846,0,2026-09-08,https://www.solar.com.py/bienes,0,,
+bnf,1255-L21-M0,1,rural,Alto Paraná,Itakyry,,20,101940,202513,184103,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-24.71665,-55.23627
+caja_bancaria,14-1765-07,1,casa,Asunción,Asunción,,,,204753,186139,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
+gnb,G624,1,oficina,Asunción,Asunción,,350,,204840,186218,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
+basa,9bf6204ecd9ddfff,1,unknown,Caaguazú,Coronel Oviedo,,,400,205799,187090,0,2026-09-23,https://www.bancobasa.com.py/storage/app/media/bienes_adjudicados/Basa_Bienes%20Adjudicados_OCTUBRE.pdf,0,,
+bancop,MAT-N04/132-PAD-191,1,rural,Amambay,Zanja Pytã,,,16192,207543,188676,0,2026-09-08,https://www.bancop.com.py/public/2b39c1c48c54adac4948c32e7f3e8973.pdf,0,,
+basa,78d6065da9ac85a4,1,terreno,Itapúa,San Pedro del Paraná,,,37050,209287,190261,0,2026-09-08,https://www.bancobasa.com.py/storage/app/media/bienes_adjudicados/Basa_Bienes%20Adjudicados_OCTUBRE.pdf,0,,
+itau,638dafd2adfc0a56,1,unknown,Asunción,Asuncion,,,312,209287,190261,0,2026-09-10,https://www.micasa.itau.com.py/casona-en-ciudad-nueva-asuncin/194235385,1,,
+bnf,1347,1,casa,Misiones,San Juan Bautista,,440,957,214197,194724,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-26.66985,-57.14676
+basa,3bc799a5743ad774,1,casa,Central,San Lorenzo,,,377,237541,215946,0,2026-09-08,https://www.bancobasa.com.py/storage/app/media/bienes_adjudicados/Basa_Bienes%20Adjudicados_OCTUBRE.pdf,0,,
+bnf,1303-L0-M0,1,rural,Cordillera,Piribebuy,,,577672,244291,222082,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.46994,-56.99078
+basa,d32658cd0387183c,1,deposito,Alto Paraná,Santa Rita,,,1260,247657,225142,0,2026-09-08,https://www.bancobasa.com.py/storage/app/media/bienes_adjudicados/Basa_Bienes%20Adjudicados_OCTUBRE.pdf,0,,
+gnb,G527,1,terreno,Paraguarí,Ybycuí,,,12569,261609,237826,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
+gnb,G610,1,casa,Central,Lambaré,,,478,272073,247340,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
+bnf,1335-L4-M3,1,casa,Asunción,Asunción,Recoleta,335,365,285360,259418,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.30222,-57.59316
+gnb,G615,1,terreno,Central,Villa Elisa,,,518,287962,261784,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
+solar,28,1,terreno,Central,Surubi'i,,,3102,305211,277464,0,2026-09-08,https://www.solar.com.py/bienes,0,-25.19186,-57.50528
 basa,1872ccf55911d740,1,unknown,San Pedro,Capiibary,,,77000,306396,278542,0,2026-09-08,https://www.bancobasa.com.py/storage/app/media/bienes_adjudicados/inmuebles-setiembre-2.pdf,0,,
-gnb,G570,1,terreno,Alto Paraná,Santa Rita,,,8699,308453,280412,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
-gnb,G571,1,terreno,Alto Paraná,Santa Rita,,,8705,308596,280542,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
-gnb,G644,1,rural,Itapúa,Alto Verá,,,244750,318898,289907,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
-bnf,1290-L0-M0,1,casa,San Pedro,General Resquín,,900,91516,344653,313321,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-24.06915,-56.44509
+gnb,G570,1,terreno,Alto Paraná,Santa Rita,,,8699,309571,281428,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
+gnb,G571,1,terreno,Alto Paraná,Santa Rita,,,8705,309714,281558,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
+gnb,G644,1,rural,Itapúa,Alto Verá,,,244750,320053,290957,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
+bnf,1290-L0-M0,1,casa,San Pedro,General Resquín,,900,91516,345901,314456,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-24.06915,-56.44509
 gnb,G607,1,terreno,Central,San Lorenzo,,,709,350000,318182,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
-gnb,F411,1,terreno,Itapúa,Jesús,,,31003,351376,319433,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
-bnf,1255-M0,1,rural,Alto Paraná,Itakyry,,,101940,361056,328233,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-24.71878,-55.23338
-itau,9f29ccaf4fc55177,1,deposito,Alto Paraná,Ciudad del Este,,,560,392672,356975,0,2026-09-08,https://www.micasa.itau.com.py/deposito-con-oficina-ciudad-del-este/194167661?v,1,,
-bnf,383,1,unknown,Itapúa,Capitán Meza,,,4005,418557,380507,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-26.93299,-55.15297
-basa,9b981d84434c0c8f,1,casa,Cordillera,San Bernardino,,,2425,426061,387328,0,2026-09-08,https://www.bancobasa.com.py/storage/app/media/bienes_adjudicados/inmuebles-setiembre-2.pdf,0,,
-bancop,FINCA-3237-PAD-3986,1,unknown,Central,Itá,,,19096,434441,394947,0,2026-09-08,https://www.bancop.com.py/public/2b39c1c48c54adac4948c32e7f3e8973.pdf,0,,
+itau,9f29ccaf4fc55177,1,deposito,Alto Paraná,Ciudad del Este,,,560,350556,318687,0,2026-09-08,https://www.micasa.itau.com.py/deposito-con-oficina-ciudad-del-este/194167661?v,1,,
+gnb,F411,1,terreno,Itapúa,Jesús,,,31003,352649,320590,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
+bnf,1255-M0,1,rural,Alto Paraná,Itakyry,,,101940,362364,329422,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-24.71878,-55.23338
+itau,cebbfaa1dbd8a6f2,1,casa,Central,Lambaré,,,744,388926,353569,0,2026-09-08,https://www.micasa.itau.com.py/residencia-familiar-valle-ybate-lambar/192801441,1,,
+itau,2fd7fbba69dd71f6,1,edificio,Alto Paraná,Ciudad del Este,,,300,404797,367997,0,2026-09-08,https://www.micasa.itau.com.py/ciudad-del-este-edificio-comercial/193835417?v,1,,
+bnf,383,1,unknown,Itapúa,Capitán Meza,,,4005,420074,381885,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-26.93299,-55.15297
+bancop,FINCA-3237-PAD-3986,1,unknown,Central,Itá,,,19096,436015,396377,0,2026-09-08,https://www.bancop.com.py/public/2b39c1c48c54adac4948c32e7f3e8973.pdf,0,,
+basa,9b981d84434c0c8f,1,casa,Cordillera,San Bernardino,,,2425,436538,396853,0,2026-09-08,https://www.bancobasa.com.py/storage/app/media/bienes_adjudicados/Basa_Bienes%20Adjudicados_OCTUBRE.pdf,0,,
 basa,d692856aa9b61f02,1,local,Canindeyú,Salto Del Guairá,,,2138,437466,397696,0,2026-09-08,https://www.bancobasa.com.py/storage/app/media/bienes_adjudicados/inmuebles-setiembre-2.pdf,0,,
-bancop,MAT-S08/1203-PAD-1632,1,rural,Canindeyú,Katueté,,,7969,443130,402846,0,2026-09-08,https://www.bancop.com.py/public/2b39c1c48c54adac4948c32e7f3e8973.pdf,0,,
-caja_bancaria,00-6326-00,1,casa,Central,J. Augusto Saldívar,,,,447822,407111,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
-gnb,G551,1,terreno,Central,Capiatá,,,1313,454426,413114,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
-bnf,1285-L17-M171,1,casa,Asunción,Asunción,San Roque,464,800,459408,417643,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.30063,-57.61516
-bnf,1359-L10,1,casa,Asunción,Asunción,Recoleta,295,562,473942,430856,0,2026-09-17,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.29056,-57.5578
-itau,cebbfaa1dbd8a6f2,1,casa,Central,Lambaré,,,744,492357,447597,0,2026-09-08,https://www.micasa.itau.com.py/residencia-familiar-valle-ybate-lambar/192801441,1,,
-itau,2fd7fbba69dd71f6,1,edificio,Alto Paraná,Ciudad del Este,,,300,509694,463358,0,2026-09-08,https://www.micasa.itau.com.py/ciudad-del-este-edificio-comercial/193835417?v,1,,
-atlas,12003,1,unknown,Asunción,Asunción,,,584,513005,466368,0,2026-09-08,https://www.bancoatlas.com.py/web/bienes-adjudicados,0,-25.28831,-57.61488
-gnb,G505,1,terreno,Alto Paraná,San Alberto,,,19950,540828,491661,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
-bnf,1341-L3 y 4-M20,1,casa,Itapúa,Encarnación,,1000,720,555607,505097,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-27.36465,-55.84204
-bnf,1359-L7-M909,1,unknown,Asunción,Asunción,Recoleta,,501,571482,519529,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.29144,-57.55668
-gnb,G566,1,terreno,Asunción,Asunción,,,334,652790,593445,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
-gnb,G552,1,edificio,Asunción,Asunción,,,555,728124,661931,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
-gnb,G627,1,oficina,Amambay,Pedro Juan Caballero,,590,,762101,692819,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
-bnf,1305-L0-M0,1,casa,Itapúa,Encarnación,,1347,5000,777145,706495,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-27.31634,-55.88424
-gnb,G573,1,deposito,Alto Paraná,Santa Rita,,,600,835900,759909,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
-gnb,G601,1,deposito,Central,Lambaré,,,1800,904662,822420,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
-gnb,G596,1,deposito,Asunción,Asunción,,,576,1107826,1007114,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
-basa,3e110cbf02894e05,1,rural,Itapúa,Fram,,,871836,1394103,1267366,0,2026-09-08,https://www.bancobasa.com.py/storage/app/media/bienes_adjudicados/inmuebles-setiembre-2.pdf,0,,
-basa,e52f49aed84a1630,1,terreno,Asunción,Asunción,,,765,1450000,1318182,0,2026-09-08,https://www.bancobasa.com.py/storage/app/media/bienes_adjudicados/inmuebles-setiembre-2.pdf,0,,
-gnb,G626,1,deposito,Amambay,Pedro Juan Caballero,,,3000,1453102,1321002,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
-gnb,G614,1,terreno,Central,Mariano Roque Alonso,,,1857,1510510,1373191,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
-basa,3053682c254c7eef,1,terreno,Central,Limpio,,,16589,2025620,1841473,0,2026-09-08,https://www.bancobasa.com.py/storage/app/media/bienes_adjudicados/inmuebles-setiembre-2.pdf,0,,
-bancop,CCC-10-0427-09/10,1,unknown,Asunción,Asunción,,,3858,2345984,2132713,0,2026-09-08,https://www.bancop.com.py/public/2b39c1c48c54adac4948c32e7f3e8973.pdf,0,,
-gnb,G613,1,terreno,Central,Mariano Roque Alonso,,,10779,3350934,3046304,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
+bancop,MAT-S08/1203-PAD-1632,1,rural,Canindeyú,Katueté,,,7969,444736,404305,0,2026-09-08,https://www.bancop.com.py/public/2b39c1c48c54adac4948c32e7f3e8973.pdf,0,,
+caja_bancaria,00-6326-00,1,casa,Central,J. Augusto Saldívar,,,,449444,408586,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
+gnb,G551,1,terreno,Central,Capiatá,,,1313,456072,414611,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
+bnf,1285-L17-M171,1,casa,Asunción,Asunción,San Roque,464,800,461072,419156,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.30063,-57.61516
+bnf,1359-L10,1,casa,Asunción,Asunción,Recoleta,295,562,475659,432417,0,2026-09-17,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.29056,-57.5578
+atlas,12003,1,unknown,Asunción,Asunción,,,584,514863,468058,0,2026-09-08,https://www.bancoatlas.com.py/web/bienes-adjudicados,0,-25.28831,-57.61488
+gnb,G505,1,terreno,Alto Paraná,San Alberto,,,19950,542787,493442,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
+bnf,1341-L3 y 4-M20,1,casa,Itapúa,Encarnación,,1000,720,557620,506927,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-27.36465,-55.84204
+bnf,1359-L7-M909,1,unknown,Asunción,Asunción,Recoleta,,501,573552,521411,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-25.29144,-57.55668
+gnb,G566,1,terreno,Asunción,Asunción,,,334,655155,595595,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
+gnb,G552,1,edificio,Asunción,Asunción,,,555,730761,664329,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
+gnb,G627,1,oficina,Amambay,Pedro Juan Caballero,,590,,764861,695329,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
+bnf,1305-L0-M0,1,casa,Itapúa,Encarnación,,1347,5000,779960,709054,0,2026-09-08,https://www.bnf.gov.py/bnf/web/#/bienes-venta,0,-27.31634,-55.88424
+gnb,G573,1,deposito,Alto Paraná,Santa Rita,,,600,838928,762662,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
+gnb,G601,1,deposito,Central,Lambaré,,,1800,907939,825399,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
+gnb,G596,1,deposito,Asunción,Asunción,,,576,1111839,1010763,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
+basa,3e110cbf02894e05,1,rural,Itapúa,Fram,,,871836,1428386,1298533,0,2026-09-08,https://www.bancobasa.com.py/storage/app/media/bienes_adjudicados/Basa_Bienes%20Adjudicados_OCTUBRE.pdf,0,,
+basa,e52f49aed84a1630,1,terreno,Asunción,Asunción,,,765,1450000,1318182,0,2026-09-08,https://www.bancobasa.com.py/storage/app/media/bienes_adjudicados/Basa_Bienes%20Adjudicados_OCTUBRE.pdf,0,,
+gnb,G626,1,deposito,Amambay,Pedro Juan Caballero,,,3000,1458366,1325787,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
+gnb,G614,1,terreno,Central,Mariano Roque Alonso,,,1857,1515981,1378165,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
+basa,cc6f58abdd4fd086,1,terreno,Alto Paraná,Presidente Franco,,,58488,2023111,1839191,0,2026-10-22,https://www.bancobasa.com.py/storage/app/media/bienes_adjudicados/Basa_Bienes%20Adjudicados_OCTUBRE.pdf,0,,
+basa,3053682c254c7eef,1,terreno,Central,Limpio,,,16589,2075432,1886757,0,2026-09-08,https://www.bancobasa.com.py/storage/app/media/bienes_adjudicados/Basa_Bienes%20Adjudicados_OCTUBRE.pdf,0,,
+bancop,CCC-10-0427-09/10,1,unknown,Asunción,Asunción,,,3858,2354482,2140438,0,2026-09-08,https://www.bancop.com.py/public/2b39c1c48c54adac4948c32e7f3e8973.pdf,0,,
+gnb,G613,1,terreno,Central,Mariano Roque Alonso,,,10779,3363072,3057339,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
 gnb,G600,1,oficina,Asunción,Asunción,,,1498,3382000,3074545,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
-gnb,G514,1,terreno,Alto Paraná,Hernandarias,,,6488,3814396,3467633,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
+gnb,G514,1,terreno,Alto Paraná,Hernandarias,,,6488,3828214,3480194,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
 gnb,G598,1,rural,San Pedro,Yrybucuá,,,12102432,6765000,6150000,0,2026-09-08,https://www.bancognb.com.py/public/bienes-en-venta.jsp,0,,
-caja_bancaria,15-0062-37,1,terreno,Asunción,Asunción,,,,7410439,6736763,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
+caja_bancaria,15-0062-37,1,terreno,Asunción,Asunción,,,,7437283,6761166,0,2026-09-08,https://www.cajabancaria.gov.py/v4/index.php/menu-servicios/descargas-de-archivos/file/369-pdf-bienes-venta-2026,0,,
 bna,finca-17983,1,unknown,Itapúa,Encarnación,,,359,,,0,2026-09-08,https://www.bna.com.py/Documento/BienesAdjudicadosVenta,0,,
 bna,finca-1874,1,unknown,Concepción,Concepción,,,1600,,,0,2026-09-08,https://www.bna.com.py/Documento/BienesAdjudicadosVenta,0,,
 bna,finca-2862,1,unknown,Itapúa,Capitán Miranda,,,157000,,,0,2026-09-08,https://www.bna.com.py/Documento/BienesAdjudicadosVenta,0,,
@@ -241,89 +248,94 @@ bna,matricula-27064-U-A03,1,unknown,Asunción,Asunción,,,665,,,0,2026-09-08,htt
 bna,matricula-E01/4507,1,unknown,Guairá,Villarrica,,,346,,,0,2026-09-08,https://www.bna.com.py/Documento/BienesAdjudicadosVenta,0,,
 bna,matricula-L19/39974,1,unknown,Central,Lambaré,,,360,,,0,2026-09-08,https://www.bna.com.py/Documento/BienesAdjudicadosVenta,0,,
 itau,4a22bb16d372f372,1,departamento,Alto Paraná,Ciudad del Este,,110,,,,0,2026-09-08,https://www.micasa.itau.com.py/residencial-don-ali-ciudad-del-este/194103216?v,1,,
-sudameris,10,1,deposito,Itapúa,Pirapó,,,22500,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-26.88872,-55.47206
-sudameris,11,1,deposito,Caazapá,Avai,,,27452,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-26.05703,-55.56643
-sudameris,15,1,terreno,Cordillera,San Bernardino,,,12260,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.24615,-57.32316
-sudameris,18,1,rural,Concepción,Horqueta,,,794965,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-23.14485,-56.87134
-sudameris,19,1,terreno,Alto Paraná,Presidente Franco,,,7778,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.55101,-54.66345
-sudameris,2,1,terreno,Alto Paraná,Ciudad del Este,,,596,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.50722,-54.617
-sudameris,2.000,1,departamento,Asunción,Asunción,,,,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.28019,-57.56174
-sudameris,20,1,departamento,Itapúa,Encarnación,,176,,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-27.32269,-55.85292
-sudameris,22,2,casa,Central,Luque,,,170,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.27612,-57.504
-sudameris,25,1,casa,Canindeyú,La Paloma,,,287,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-24.13631,-54.615
-sudameris,26,1,terreno,Itapúa,Encarnación,,,467,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-27.29905,-55.86784
-sudameris,27,2,terreno,Itapúa,Encarnación,,,375,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-27.29911,-55.86772
-sudameris,29,1,terreno,Itapúa,Encarnación,,,616,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-27.2987,-55.86774
-sudameris,3,1,casa,Central,Luque,,,9362,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.28236,-57.50329
-sudameris,30,1,terreno,Itapúa,Encarnación,,,667,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-27.29859,-55.86769
-sudameris,35,1,terreno,Asunción,Asunción,,,863,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.31185,-57.55661
-sudameris,36,1,departamento,Central,San Lorenzo,,123,,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.31814,-57.5182
-sudameris,37,1,departamento,Central,San Lorenzo,,121,,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.31814,-57.5182
-sudameris,38,1,casa,Asunción,Asunción,,,999,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.29369,-57.57227
-sudameris,4,1,casa,Asunción,Asunción,,,576,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.29051,-57.64201
-sudameris,44,1,oficina,Asunción,Asunción,,,9905,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.25139,-57.55444
-sudameris,45,1,oficina,Asunción,Asunción,,852,,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.28673,-57.62527
-sudameris,46,1,terreno,Alto Paraná,Ciudad del Este,,,953,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.43549,-54.68529
-sudameris,47,1,casa,Asunción,Asunción,,,664,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.30805,-57.63192
-sudameris,48,1,terreno,Central,Luque,,,18689,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.21333,-57.50502
-sudameris,49,1,casa,Alto Paraná,Santa Rita,,,1511,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.79354,-55.08298
-sudameris,5,1,deposito,Misiones,Misiones,,,3091,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-26.67612,-57.1436
-sudameris,59,1,casa,Asunción,Asunción,,,101,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.28805,-57.63301
-sudameris,6,1,oficina,Central,Villa Elisa,,,1065,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.35164,-57.59191
-sudameris,64,1,rural,Presidente Hayes,Benjamín Aceval,,,115750000,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-23.94022,-58.26836
-sudameris,65,1,rural,Alto Paraguay,Fuerte Olimpo,,,83287792,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-21.26194,-58.07778
-sudameris,66,1,terreno,Alto Paraná,Hernandarias,,,877,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.33649,-54.62988
-sudameris,67,1,terreno,Alto Paraná,Hernandarias,,,839,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.33681,-54.63652
-sudameris,67/2,1,terreno,Alto Paraná,Hernandarias,,,729,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.33681,-54.63652
-sudameris,67/3,1,terreno,Alto Paraná,Hernandarias,,,744,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.33681,-54.63652
-sudameris,67/4,1,terreno,Alto Paraná,Hernandarias,,,1737,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.33681,-54.63652
-sudameris,68,1,terreno,Alto Paraná,Ciudad del Este,,,824,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.50797,-54.6805
-sudameris,69,1,terreno,Central,Itauguá,,,775,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.35321,-57.33881
-sudameris,70,1,deposito,Central,Mariano Roque Alonso,,,1098,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.23114,-57.52624
-sudameris,73,1,departamento,Asunción,Asunción,,260,,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.28474,-57.61391
-sudameris,74,1,rural,Paraguarí,Paraguarí,,,2940000,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.56886,-57.16327
-sudameris,75,1,casa,Central,Fernando de la Mora,,,197,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.31867,-57.52695
-sudameris,79,1,terreno,Central,Luque,,,5258,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.26337,-57.52315
-sudameris,80,1,rural,San Pedro,Guayayvi,,,10000000,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-24.40481,-56.17486
-sudameris,802,1,casa,Alto Paraná,Naranjal,,,600,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-26.02017,-55.12708
-sudameris,809,1,terreno,Caazapá,Tavai,,,20000,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-26.194,-55.50319
-sudameris,810,1,rural,Itapúa,Alto Verá,,,125600,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-26.76446,-55.75894
-sudameris,812,1,terreno,Canindeyú,Yasy Cañy,,,6000,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-24.51875,-55.81497
-sudameris,814,1,oficina,Caaguazú,Coronel Oviedo,,51,,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.44515,-56.44072
-sudameris,815,1,oficina,Caaguazú,Coronel Oviedo,,46,,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.44515,-56.44072
-sudameris,816,1,oficina,Caazapá,Abaí,,,19259,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.87844,-55.62289
-sudameris,817,1,oficina,Alto Paraná,Santa Rita,,,7425,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.77194,-55.07464
-sudameris,819,1,terreno,Alto Paraná,Hernandarias,,,5000,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.30597,-54.68136
-sudameris,820,1,rural,Itapúa,San Rafael del Paraná,,,2511623,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-26.30411,-55.49601
-sudameris,821,1,terreno,Alto Paraná,Hernandarias,,,4631,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.31525,-54.56822
-sudameris,822,2,departamento,Asunción,Asunción,,127,,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.29598,-57.60899
-sudameris,83,1,terreno,Caaguazú,Juan Eulogio Estigarribia,,,2000,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.36197,-55.70456
-sudameris,831,1,terreno,Itapúa,Obligado,,,14273,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-27.05647,-55.59385
-sudameris,833,1,casa,Alto Paraná,Santa Rita,,,743,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.7855,-55.072
-sudameris,834,1,oficina,Alto Paraná,San Alberto,,,1385,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-24.94122,-54.94639
-sudameris,836,1,casa,Alto Paraná,Naranjal,,,2850,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.98533,-55.11911
-sudameris,837,1,terreno,Cordillera,Atyra,,,800,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.28278,-57.14976
-sudameris,838,1,deposito,Alto Paraná,Itakyry,,,8811,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-24.97853,-55.15953
-sudameris,839,1,terreno,Alto Paraná,Itakyry,,,32000,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-24.97831,-55.15919
-sudameris,84,3,terreno,Caaguazú,Juan Eulogio Estigarribia,,,360,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.36197,-55.70456
-sudameris,845,1,casa,Asunción,Asunción,,,581,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.28553,-57.62698
-sudameris,848,1,rural,Caaguazú,San Joaquin,,,246641,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.03608,-56.04484
-sudameris,851,1,terreno,Alto Paraná,Presidente Franco,,,811,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.5605,-54.59836
-sudameris,857,1,terreno,Central,San Antonio,,,20977,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.40894,-57.5803
-sudameris,858,1,deposito,Caazapá,Abaí,,,51905,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.87961,-55.63157
-sudameris,860,1,rural,San Pedro,Santa Rosa del Aguaray,,,57566591,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-23.84284,-56.34024
-sudameris,861,1,rural,San Pedro,Santa Rosa del Aguaray,,,7470310,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-23.87011,-56.27078
-sudameris,867,1,rural,Canindeyú,Itanara,,,3810000,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-23.7963,-55.4766
-sudameris,868,1,deposito,Central,Lambaré,,,384,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.35339,-57.63875
-sudameris,874,1,terreno,Cordillera,Atyra,,,901,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.28278,-57.14976
-sudameris,876,1,terreno,Central,Luque,,,360,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.29065,-57.46824
-sudameris,886,1,terreno,Amambay,Pedro Juan Caballero,,,360,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-22.59116,-55.78292
-sudameris,888,1,terreno,Itapúa,Trinidad,,,360,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-27.15778,-55.761
-sudameris,889,1,terreno,Itapúa,Trinidad,,,6414,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-27.10922,-55.67133
-sudameris,894,1,terreno,Canindeyú,La Paloma,,,45000,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-24.12986,-54.62486
-sudameris,896,1,terreno,Alto Paraná,Minga Guazú,,,36845,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.49611,-54.90569
-sudameris,897,1,terreno,Alto Paraná,Minga Guazú,,,80140,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-25.52981,-54.84514
-sudameris,9,1,terreno,Canindeyú,Katueté,,,2799,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-24.25757,-54.75658
+sudameris,10,1,deposito,Itapúa,Pirapó,,,22500,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-26.88872,-55.47206
+sudameris,11,1,deposito,Caazapá,Avai,,,27452,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-26.05703,-55.56643
+sudameris,12,1,deposito,Alto Paraná,Santa Rosa Del Monday,,,65000,,,0,2026-10-22,https://www.sudameris.com.py/institucional/bienes-adjudicados,0,-25.84758,-54.98511
+sudameris,15,1,terreno,Cordillera,San Bernardino,,,12260,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.24615,-57.32316
+sudameris,18,1,rural,Concepción,Horqueta,,,794965,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-23.14485,-56.87134
+sudameris,19,1,terreno,Alto Paraná,Presidente Franco,,,7778,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.55101,-54.66345
+sudameris,2,1,terreno,Alto Paraná,Ciudad del Este,,,596,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.50722,-54.617
+sudameris,2.000,1,departamento,Asunción,Asunción,,,,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.28019,-57.56174
+sudameris,20,1,departamento,Itapúa,Encarnación,,176,,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-27.32269,-55.85292
+sudameris,22,2,casa,Central,Luque,,,170,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.27612,-57.504
+sudameris,25,1,casa,Canindeyú,La Paloma,,,287,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-24.13631,-54.615
+sudameris,26,1,terreno,Itapúa,Encarnación,,,467,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-27.29905,-55.86784
+sudameris,27,2,terreno,Itapúa,Encarnación,,,375,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-27.29911,-55.86772
+sudameris,29,1,terreno,Itapúa,Encarnación,,,616,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-27.2987,-55.86774
+sudameris,3,1,casa,Central,Luque,,,9362,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.28236,-57.50329
+sudameris,30,1,terreno,Itapúa,Encarnación,,,667,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-27.29859,-55.86769
+sudameris,35,1,terreno,Asunción,Asunción,,,863,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.31185,-57.55661
+sudameris,36,1,departamento,Central,San Lorenzo,,123,,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.31814,-57.5182
+sudameris,37,1,departamento,Central,San Lorenzo,,121,,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.31814,-57.5182
+sudameris,38,1,casa,Asunción,Asunción,,,999,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.29369,-57.57227
+sudameris,4,1,casa,Asunción,Asunción,,,576,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.29051,-57.64201
+sudameris,44,1,oficina,Asunción,Asunción,,,9905,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.25139,-57.55444
+sudameris,45,1,oficina,Asunción,Asunción,,852,,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.28673,-57.62527
+sudameris,46,1,terreno,Alto Paraná,Ciudad del Este,,,953,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.43549,-54.68529
+sudameris,47,1,casa,Asunción,Asunción,,,664,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.30805,-57.63192
+sudameris,48,1,terreno,Central,Luque,,,18689,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.21333,-57.50502
+sudameris,49,1,casa,Alto Paraná,Santa Rita,,,1511,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.79354,-55.08298
+sudameris,5,1,deposito,Misiones,Misiones,,,3091,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-26.67612,-57.1436
+sudameris,59,1,casa,Asunción,Asunción,,,101,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.28805,-57.63301
+sudameris,6,1,oficina,Central,Villa Elisa,,,1065,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.35164,-57.59191
+sudameris,64,1,rural,Presidente Hayes,Benjamín Aceval,,,115750000,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-23.94022,-58.26836
+sudameris,65,1,rural,Alto Paraguay,Fuerte Olimpo,,,83287792,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-21.26194,-58.07778
+sudameris,66,1,terreno,Alto Paraná,Hernandarias,,,877,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.33649,-54.62988
+sudameris,67,1,terreno,Alto Paraná,Hernandarias,,,839,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.33681,-54.63652
+sudameris,67/2,1,terreno,Alto Paraná,Hernandarias,,,729,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.33681,-54.63652
+sudameris,67/3,1,terreno,Alto Paraná,Hernandarias,,,744,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.33681,-54.63652
+sudameris,67/4,1,terreno,Alto Paraná,Hernandarias,,,1737,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.33681,-54.63652
+sudameris,68,1,terreno,Alto Paraná,Ciudad del Este,,,824,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.50797,-54.6805
+sudameris,69,1,terreno,Central,Itauguá,,,775,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.35321,-57.33881
+sudameris,70,1,deposito,Central,Mariano Roque Alonso,,,1098,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.23114,-57.52624
+sudameris,73,1,departamento,Asunción,Asunción,,260,,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.28474,-57.61391
+sudameris,74,1,rural,Paraguarí,Paraguarí,,,2940000,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.56886,-57.16327
+sudameris,75,1,casa,Central,Fernando de la Mora,,,197,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.31867,-57.52695
+sudameris,79,1,terreno,Central,Luque,,,5258,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.26337,-57.52315
+sudameris,80,1,rural,San Pedro,Guayayvi,,,9996000,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-24.40481,-56.17486
+sudameris,802,1,casa,Alto Paraná,Naranjal,,,600,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-26.02017,-55.12708
+sudameris,809,1,terreno,Caazapá,Tavai,,,20000,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-26.194,-55.50319
+sudameris,810,1,rural,Itapúa,Alto Verá,,,125600,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-26.76446,-55.75894
+sudameris,812,1,terreno,Canindeyú,Yasy Cañy,,,6000,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-24.51875,-55.81497
+sudameris,814,1,oficina,Caaguazú,Coronel Oviedo,,51,,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.44515,-56.44072
+sudameris,815,1,oficina,Caaguazú,Coronel Oviedo,,46,,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.44515,-56.44072
+sudameris,816,1,oficina,Caazapá,Abaí,,,19259,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.87844,-55.62289
+sudameris,817,1,oficina,Alto Paraná,Santa Rita,,,7425,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.77194,-55.07464
+sudameris,819,1,terreno,Alto Paraná,Hernandarias,,,5000,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.30597,-54.68136
+sudameris,82,1,casa,Central,Capiatá,,,362,,,0,2026-10-22,https://www.sudameris.com.py/institucional/bienes-adjudicados,0,-25.43656,-57.47006
+sudameris,820,1,rural,Itapúa,San Rafael del Paraná,,,2511623,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-26.30411,-55.49601
+sudameris,821,1,terreno,Alto Paraná,Hernandarias,,,4631,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.31525,-54.56822
+sudameris,822,2,departamento,Asunción,Asunción,,127,,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.29598,-57.60899
+sudameris,83,1,terreno,Caaguazú,Juan Eulogio Estigarribia,,,2000,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.36197,-55.70456
+sudameris,831,1,terreno,Itapúa,Obligado,,,14273,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-27.05647,-55.59385
+sudameris,833,1,casa,Alto Paraná,Santa Rita,,,743,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.7855,-55.072
+sudameris,834,1,oficina,Alto Paraná,San Alberto,,,1385,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-24.94122,-54.94639
+sudameris,836,1,casa,Alto Paraná,Naranjal,,,2850,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.98533,-55.11911
+sudameris,837,1,terreno,Cordillera,Atyra,,,800,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.28278,-57.14976
+sudameris,838,1,deposito,Alto Paraná,Itakyry,,,8811,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-24.97853,-55.15953
+sudameris,839,1,terreno,Alto Paraná,Itakyry,,,32000,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-24.97831,-55.15919
+sudameris,84,3,terreno,Caaguazú,Juan Eulogio Estigarribia,,,360,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.36197,-55.70456
+sudameris,845,1,casa,Asunción,Asunción,,,581,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.28553,-57.62698
+sudameris,848,1,rural,Caaguazú,San Joaquin,,,246641,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.03608,-56.04484
+sudameris,851,1,terreno,Alto Paraná,Presidente Franco,,,811,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.5605,-54.59836
+sudameris,857,1,terreno,Central,San Antonio,,,20977,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.40894,-57.5803
+sudameris,858,1,deposito,Caazapá,Abaí,,,51905,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.87961,-55.63157
+sudameris,860,1,rural,San Pedro,Santa Rosa del Aguaray,,,57566591,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-23.84284,-56.34024
+sudameris,861,1,rural,San Pedro,Santa Rosa del Aguaray,,,7470310,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-23.87011,-56.27078
+sudameris,867,1,rural,Canindeyú,Itanara,,,3810000,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-23.7963,-55.4766
+sudameris,868,1,deposito,Central,Lambaré,,,384,,,0,2026-09-08,https://www.sudameris.com.py/institucional/bienes-adjudicados,0,-25.35339,-57.63875
+sudameris,87,1,terreno,Cordillera,Altos,,,574,,,0,2026-10-22,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,,
+sudameris,874,1,terreno,Cordillera,Atyra,,,901,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.28278,-57.14976
+sudameris,876,1,terreno,Central,Luque,,,360,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.29065,-57.46824
+sudameris,877,1,rural,Alto Paraná,Ñacunday,,,266450,,,0,2026-10-22,https://www.sudameris.com.py/institucional/bienes-adjudicados,0,-26.23058,-54.65781
+sudameris,886,1,terreno,Amambay,Pedro Juan Caballero,,,360,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-22.59116,-55.78292
+sudameris,888,1,terreno,Itapúa,Trinidad,,,360,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-27.15778,-55.761
+sudameris,889,1,terreno,Itapúa,Trinidad,,,6414,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-27.10922,-55.67133
+sudameris,894,1,terreno,Canindeyú,La Paloma,,,45000,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-24.12986,-54.62486
+sudameris,896,1,terreno,Alto Paraná,Minga Guazú,,,36845,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.49611,-54.90569
+sudameris,897,1,terreno,Alto Paraná,Minga Guazú,,,80140,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-25.52981,-54.84514
+sudameris,9,1,terreno,Canindeyú,Katueté,,,2799,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-24.25757,-54.75658
 sudameris,902,1,rural,Caazapá,Abaí,,,201587,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-26.08871,-55.61829
-sudameris,903,1,deposito,Itapúa,Pirapó,,,132697,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-26.87988,-55.54076
-sudameris,908SP,1,deposito,Itapúa,San Pedro del Paraná,,,40000,,,0,2026-09-08,https://www.sudameris.com.py/Bienes-adjudicados-planilla,0,-26.85102,-56.22869
+sudameris,903,1,deposito,Itapúa,Pirapó,,,132697,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-26.87988,-55.54076
+sudameris,908SP,1,deposito,Itapúa,San Pedro del Paraná,,,40000,,,0,2026-09-08,https://www.sudameris.com.py/descargas/documentos/6ace421f25ccc130491191/Listado-Bienes-Adjudicados-SEP-2026.xlsx,0,-26.85102,-56.22869
+sudameris,913,1,terreno,Misiones,Villa Florida,,,360,,,0,2026-10-22,https://www.sudameris.com.py/institucional/bienes-adjudicados,0,-26.40114,-57.11328
