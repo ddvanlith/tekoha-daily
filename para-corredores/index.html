@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tekoha para corredores: pedidos de compradores y vendedores, por zona</title>
+<meta name="description" content="Pedidos de visita, financiación y venta desde Tekoha Casa, por zona, en un correo por día. Qué trae cada pedido y cuánto cuesta.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Instrument+Sans:wght@400;600;700&family=Martian+Mono:wght@400;600&display=swap">
+<style>
+  body{margin:0;background:#171310;color:#F2EDE7;font-family:'Instrument Sans',Arial,sans-serif}
+  .top{max-width:760px;margin:0 auto;padding:38px 20px 26px;text-align:center}
+  .brand{font-family:'Martian Mono',monospace;font-size:12px;letter-spacing:4px;color:#A97E2F;text-transform:uppercase}
+  h1.site{font-family:'Bricolage Grotesque',Arial,sans-serif;font-weight:800;font-size:clamp(30px,6vw,46px);margin:8px 0 6px;letter-spacing:-.02em}
+  .tag{color:#B7AA96;font-size:16px;margin:0 0 18px}
+  .paper{max-width:720px;margin:0 auto 40px;background:#FFFFFF;border-radius:6px;padding:26px 22px;box-shadow:0 10px 40px rgba(0,0,0,.45)}
+  .nav{max-width:760px;margin:0 auto;padding:0 20px 50px;text-align:center;font-size:14px}
+  .nav a{color:#A97E2F;text-decoration:none;margin:0 10px;display:inline-block;padding:4px 0}
+  .arch{max-width:720px;margin:0 auto;padding:0 20px 50px}
+  .arch a{display:block;color:#F2EDE7;text-decoration:none;padding:10px 0;border-bottom:1px solid #2E2820;font-size:15px}
+  .arch a:hover{color:#A97E2F}
+  .boxes{display:grid;gap:14px;text-align:left;max-width:560px;margin:0 auto}
+  .doc{color:#1C1611;font-family:Georgia,serif;font-size:16px;line-height:1.6}
+  .doc h2{font-family:'Instrument Sans',Arial,sans-serif;font-size:17px;border-bottom:2px solid #A97E2F;padding-bottom:4px;margin:26px 0 10px}
+  .doc h2:first-child{margin-top:0}
+  .doc p,.doc li{margin:0 0 10px}
+  .doc a{color:#7A5A1B}
+  .doc .en{border-top:1px solid #E4DCCB;margin-top:28px;padding-top:6px}
+  .doc .eds a{display:block;padding:8px 0;border-bottom:1px solid #EFE8DA;text-decoration:none}
+  .doc .eds small{display:block;color:#6B5F4E;font-family:'Martian Mono',Consolas,monospace;font-size:11px;letter-spacing:1px}
+  .doc pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#F7F2E7;border:1px solid #E4DCCB;border-radius:6px;padding:14px;font:13px/1.55 'Martian Mono',Consolas,monospace;color:#1C1611}
+  footer{text-align:center;color:#6E6252;font-family:'Martian Mono',monospace;font-size:11px;padding:0 20px 40px}
+</style>
+</head>
+<body>
+<div class="top">
+  <div class="brand">Tekoha &middot; para corredores</div>
+  <h1 class="site">Pedidos de compradores y vendedores, por zona</h1>
+  <p class="tag">Para inmobiliarias, corredores y equipos de crédito de bancos en Paraguay.</p>
+</div>
+<div class="paper"><div class="doc">
+<h2>Qué es Tekoha</h2>
+<p>Tekoha mide el mercado inmobiliario de Paraguay todos los días. Lee los avisos de los principales portales, junta los cierres que informan los corredores y muestra cada casa una sola vez, con lo que se espera que cierre, su margen de error y si el aviso es confiable.</p>
+<p>Tekoha Casa es su app para quien compra, alquila o vende casa en Asunción y Central. Probala en el celular: <a href="https://ddvanlith.github.io/tekoha-pages/casa/">ddvanlith.github.io/tekoha-pages/casa/</a></p>
+<h2>Qué es un pedido</h2>
+<p>En cada casa de la app hay dos botones, «Quiero una visita» y «Quiero financiación». En Mi casa, donde el dueño calcula cuánto vale su casa, hay uno más: «Hablar con un agente». Quien toca uno deja su nombre, su WhatsApp y, si quiere, su email. El formulario le dice que su pedido puede llegar a un corredor o a un banco para que le respondan.</p>
+<h2>Qué recibís</h2>
+<p>Un correo por día con los pedidos nuevos de tus zonas (departamento o ciudad) y de los tipos que elegiste. Un pedido por bloque: el tipo, la casa (precio, barrio y el enlace al aviso) o lo que cargó el dueño (zona, tipo, metros y dormitorios), el nombre y el WhatsApp de la persona y cuándo lo pidió. Un día sin pedidos no llega nada.</p>
+<p>Así se ve, con datos inventados:</p>
+<pre>Asunto: Tekoha: 3 pedidos nuevos, 21 oct 2026
+
+EJEMPLO: datos inventados. Ninguna persona, teléfono ni casa de este resumen es real.
+
+Para tu inmobiliaria. Zonas: Asunción, Central. Pedidos: todos.
+
+1. FINANCIACIÓN
+Casa en venta, USD 245.000, Villa Morra, Asunción
+Aviso: (el enlace al aviso en su portal)
+Cuota que calculó: USD 1.890 por mes
+Nombre: Ana Ejemplo
+WhatsApp: 0900 000 001 (https://wa.me/595900000001)
+Mensaje: Hola, quiero financiación para una casa de USD 245.000; con mis números la cuota da Gs 13.600.000.
+Cuándo: 21 oct 2026, 10:42 (hora de Asunción)
+
+2. VISITA
+Departamento en alquiler, USD 650 por mes, Las Lomas, Asunción
+Aviso: (el enlace al aviso en su portal)
+Nombre: Luis Ejemplo
+WhatsApp: 0900 000 002 (https://wa.me/595900000002)
+Email: luis@example.com
+Mensaje: Hola, quiero visitar un depto en Las Lomas de USD 650 por mes.
+Cuándo: 21 oct 2026, 13:05 (hora de Asunción)
+
+3. VENDER
+Casa, 180 m2, 3 dormitorios, en San Lorenzo
+Tekoha Casa le mostró: se vende cerca de USD 115.000, más o menos 21%
+Nombre: Marta Ejemplo
+WhatsApp: 0900 000 003 (https://wa.me/595900000003)
+Mensaje: Hola, quiero vender una casa en San Lorenzo, 180 m2, 3 dormitorios.
+Cuándo: 21 oct 2026, 16:20 (hora de Asunción)
+
+Cada persona aceptó en el formulario que su pedido llegue a un corredor o a un banco para que le respondan. Respondé pronto y no pases estos datos a nadie más.
+
+Tekoha, Asunción. Para cambiar tus zonas o dejar de recibir este resumen, respondé a este correo.</pre>
+<h2>Precios</h2>
+<ul>
+<li>Financiación: USD 15 por pedido.</li>
+<li>Visita: USD 10 por pedido.</li>
+<li>Vender: USD 25 por pedido.</li>
+<li>O todos los pedidos de una zona: USD 100 por mes.</li>
+</ul>
+<p>Se paga por factura o por enlace de pago. La app es nueva: con el precio por pedido pagás solo lo que llega.</p>
+<h2>Cómo empezar</h2>
+<p>Respondé al correo de Dennis con tus zonas y los pedidos que querés, o escribile a <a href="mailto:ddvanlith@gmail.com?subject=Pedidos%20de%20Tekoha">ddvanlith@gmail.com</a>. Desde el día siguiente te llega el resumen.</p>
+<div class="en" lang="en">
+<h2>In English</h2>
+<p>Tekoha measures Paraguay's housing market every day, and Tekoha Casa is its app for people buying, renting or selling a home. Its buttons for a visit, for financing and for selling become requests with the person's name, WhatsApp number and the home. Buyers of requests get one email a day with the new ones in their zones and kinds, like the sample above. Prices: USD 15 a financing request, USD 10 a visit, USD 25 a seller, or USD 100 a month for everything in one zone. To start, reply to Dennis's email.</p>
+</div>
+</div></div>
+<div class="nav"><a href="../index.html">Hoy</a><a href="../archive/index.html">Archivo</a><a href="../newsletter/">Semanal</a><a href="../dashboard/index.html">Tablero</a><a href="https://ddvanlith.github.io/tekoha-pages/">Propiedades</a></div>
+<footer>TEKOHA DAILY &middot; datos propios sobre 50.000+ avisos &middot; precios de oferta salvo cierres marcados</footer>
+</body>
+</html>
