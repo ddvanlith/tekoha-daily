@@ -5542,6 +5542,6 @@ transaction_id,close_date,operation,kind,place,barrio,department_market,city_mar
 745156,2026-10-20,rent,local,"Encarnación, Itapúa",,Itapúa,Encarnación,,,,1500000,PYG,260.66,1500000,PYG,260.66,5754.515,,0,1,0,1,1,1,,remax,143011105-21
 745293,2026-10-20,sale,departamento,"Ciudad del Este, Alto Paraná",,Alto Paraná,Ciudad del Este,375,land,1,63300,USD,63300,364228200,PYG,63294.33,5754.515,169,-0.009,0,0,1,1,0,cross-currency,remax,143050067-146
 740283,2026-10-21,rent,terreno,"Villa Elisa, Central",,Central,Villa Elisa,,,,3000000,PYG,521.33,3000000,PYG,521.33,5754.515,,0,1,0,1,1,1,,remax,143028064-91
-734978,2026-10-22,rent,departamento,Asunción,Los Laureles,Asunción,,77,land,2,5500000,PYG,955.77,5500000,PYG,955.77,5754.515,12,0,1,0,1,1,0,dated after the build,remax,143037137-36
+734978,2026-10-22,rent,departamento,Asunción,Los Laureles,Asunción,,77,land,2,5500000,PYG,955.77,5500000,PYG,955.77,5754.515,12,0,1,0,1,1,1,,remax,143037137-36
 577892,2026-10-28,sale,departamento,Asunción,Mburucuyá,Asunción,,42,built,1,56000,USD,56000,311640000,PYG,54155.74,5754.515,1284,-3.293,0,0,1,1,0,dated after the build,remax,143063076-126
 547260,2026-11-02,rent,duplex,"Ñemby, Central",,Central,Ñemby,140,built,3,4500000,PYG,,4000000,PYG,684.19,,5,,0,1,1,1,0,dated after the build,remax,143092070-82
