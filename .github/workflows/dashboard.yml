@@ -82,11 +82,14 @@ jobs:
 
       # The page prints the pipeline's health from data/health-status.txt, which the private run leaves
       # in this repo; without it the page says "status unknown", as it did when the health check never ran.
+      # The repository variable CF_ANALYTICS_TOKEN turns on Cloudflare Web Analytics on the page, off
+      # until it exists (docs/leads-and-sponsor.md in the private repo).
       - name: Build the dashboard
         if: steps.gate.outputs.build == 'true'
         working-directory: code
         env:
           DATABASE_URL: ${{ secrets.READONLY_DATABASE_URL }}
+          CF_ANALYTICS_TOKEN: ${{ vars.CF_ANALYTICS_TOKEN }}
         run: |
           if [ -z "$DATABASE_URL" ]; then echo "::error::READONLY_DATABASE_URL is not set"; exit 1; fi
           mkdir -p data
