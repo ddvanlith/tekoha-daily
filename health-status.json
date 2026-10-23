@@ -1,0 +1,19 @@
+{
+ "status": "RED",
+ "data_ok": false,
+ "at": "2026-10-23T14:41:40.490Z",
+ "reasons": [
+  {
+   "code": "source_stale:uprop",
+   "data": true
+  },
+  {
+   "code": "quarantine_spike",
+   "data": true
+  },
+  {
+   "code": "db_size",
+   "data": false
+  }
+ ]
+}
