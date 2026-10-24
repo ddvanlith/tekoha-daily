@@ -5730,6 +5730,7 @@ transaction_id,close_date,operation,kind,place,barrio,department_market,city_mar
 755818,2026-10-20,rent,duplex,"Mariano Roque Alonso, Central",,Central,Mariano Roque Alonso,246,land,4,4500000,PYG,781.99,4500000,PYG,781.99,5754.515,3,0,1,0,1,1,1,,remax,143063315-88
 757463,2026-10-20,sale,casa,"Santa Rita, Alto Paraná",,Alto Paraná,,120,built,3,75000,USD,75000,401420600,PYG,69757.5,5754.515,581,-6.99,0,0,1,1,0,cross-currency,remax,143028047-95
 761706,2026-10-20,sale,terreno,"Villeta, Central",,Central,Villeta,1819000,land,,3258000,USD,3258000,18749040660,PYG,3258144.37,5754.515,2,0.004,0,0,1,1,0,cross-currency,remax,143096059-24
+766163,2026-10-20,sale,casa,"Lambaré, Central",,Central,Lambaré,386,built,4,1790000000,PYG,311060.1,1700000000,PYG,295420.2,5754.515,765,-5.028,0,1,1,1,1,,remax,143063094-262
 740283,2026-10-21,rent,terreno,"Villa Elisa, Central",,Central,Villa Elisa,,,,3000000,PYG,523.22,3000000,PYG,523.22,5733.745,,0,1,0,1,1,1,,remax,143028064-91
 750460,2026-10-21,sale,local,"Capiatá, Central",,Central,Capiatá,60,built,,330000000,PYG,57554.01,315000000,PYG,54937.92,5733.745,916,-4.545,0,1,1,1,1,,remax,143061066-37
 752036,2026-10-21,sale,casa,Asunción,Cañada del Ybaray,Asunción,,237,built,5,225000,USD,225000,1279125000,PYG,223087.18,5733.745,941,-0.85,0,0,1,1,0,cross-currency,remax,143036021-159
@@ -5737,11 +5738,21 @@ transaction_id,close_date,operation,kind,place,barrio,department_market,city_mar
 755981,2026-10-21,sale,terreno,"Minga Guazú, Alto Paraná",,Alto Paraná,Minga Guazú,,,,200000,USD,200000,1000000000,PYG,174406.08,5733.745,,-12.797,0,0,1,1,0,cross-currency,remax,143099018-30
 758824,2026-10-21,rent,departamento,"Fernando de la Mora, Central",,Central,Fernando de la Mora,360,land,1,3200000,PYG,558.1,3000000,PYG,523.22,5733.745,1,-6.25,0,1,1,1,1,,remax,143068120-40
 760387,2026-10-21,sale,terreno,"Villa Elisa, Central",,Central,Villa Elisa,507,land,,310000000,PYG,54065.89,290000000,PYG,50577.76,5733.745,100,-6.452,0,1,1,1,1,,remax,143037150-4
+769922,2026-10-21,rent,casa,"Filadelfia, Boquerón",,Boquerón,,70,built,3,3000000,PYG,523.22,2500000,PYG,436.02,5733.745,6,-16.666,0,1,1,1,1,,remax,143016008-542
 734978,2026-10-22,rent,departamento,Asunción,Los Laureles,Asunción,,77,land,2,5500000,PYG,951.02,5500000,PYG,951.02,5783.24,12,0,1,0,1,1,1,,remax,143037137-36
 758328,2026-10-22,rent,departamento,"Mariano Roque Alonso, Central",,Central,Mariano Roque Alonso,75,built,2,4500000,PYG,778.11,4500000,PYG,778.11,5783.24,10,0,1,0,1,1,1,,remax,143046003-282
 758753,2026-10-22,sale,casa,"San Bernardino, Cordillera",,Cordillera,San Bernardino,130,built,2,380000000,PYG,65707.11,380000000,PYG,65707.11,5783.24,505,0,1,0,1,1,1,,remax,143072119-119
 758754,2026-10-22,rent,departamento,Asunción,Las Lomas (Carmelitas),Asunción,,53,land,1,850,USD,850,4600000,PYG,795.4,5783.24,15,-6.424,0,0,1,1,0,cross-currency,remax,114006098-37
 760334,2026-10-22,sale,terreno,"Mariano Roque Alonso, Central",,Central,Mariano Roque Alonso,,,,235000000,PYG,40634.66,220000000,PYG,38040.96,5783.24,,-6.383,0,1,1,1,1,,remax,143063248-2
 761696,2026-10-22,rent,casa,"Loma Plata, Boquerón",,Boquerón,,120,built,2,4500000,PYG,778.11,4500000,PYG,778.11,5783.24,6,0,1,0,1,1,1,,remax,143078030-3
-577892,2026-10-28,sale,departamento,Asunción,Mburucuyá,Asunción,,42,built,1,56000,USD,56000,311640000,PYG,53886.75,5783.24,1277,-3.774,0,0,1,1,0,dated after the build,remax,143063076-126
+769405,2026-10-22,rent,departamento,Asunción,Ycuá Satí,Asunción,,44,built,1,4500000,PYG,778.11,4500000,PYG,778.11,5783.24,18,0,1,0,1,1,1,,remax,143061002-217
+764575,2026-10-23,rent,casa,"Fernando de la Mora, Central",,Central,Fernando de la Mora,145,built,3,4000000,PYG,693.94,4000000,PYG,693.94,5764.18,5,0,1,0,1,1,1,,remax,143019039-143
+765195,2026-10-23,rent,casa,"Mariano Roque Alonso, Central",,Central,Mariano Roque Alonso,100,built,3,2500000,PYG,433.71,2500000,PYG,433.71,5764.18,4,0,1,0,1,1,1,,remax,143021054-27
+767136,2026-10-23,rent,departamento,Asunción,Las Lomas (Carmelitas),Asunción,,50,built,1,850,USD,850,4976750,PYG,863.39,5764.18,17,1.575,0,0,1,1,0,cross-currency,remax,143063267-34
+768521,2026-10-23,sale,terreno,"Encarnación, Itapúa",,Itapúa,Encarnación,,,,280000000,PYG,48575.86,265000000,PYG,45973.58,5764.18,,-5.357,0,1,1,1,1,,remax,143011091-47
+769901,2026-10-23,sale,terreno,"Ciudad del Este, Alto Paraná",,Alto Paraná,Ciudad del Este,360,land,,65000,USD,65000,329827080,PYG,57220.12,5764.18,159,-11.969,0,0,1,1,0,cross-currency,remax,143050134-19
+770045,2026-10-23,rent,local,"Lambaré, Central",,Central,Lambaré,40,built,,3600000,PYG,624.55,3200000,PYG,555.15,5764.18,14,-11.112,0,1,1,1,1,,remax,143084038-114
+770469,2026-10-23,sale,departamento,Asunción,General Díaz,Asunción,,44,land,,45000,USD,45000,260550000,PYG,45201.57,5764.18,1030,0.448,0,0,1,1,0,cross-currency,remax,143063190-428
+577892,2026-10-28,sale,departamento,Asunción,Mburucuyá,Asunción,,42,built,1,56000,USD,56000,311640000,PYG,54064.93,5764.18,1281,-3.455,0,0,1,1,0,dated after the build,remax,143063076-126
+767356,2026-11-01,rent,casa,"Loma Plata, Boquerón",,Boquerón,,107,built,2,1500000,PYG,260.23,1500000,PYG,260.23,5764.18,2,0,1,0,1,1,0,dated after the build,remax,143078024-16
 547260,2026-11-02,rent,duplex,"Ñemby, Central",,Central,Ñemby,140,built,3,4500000,PYG,,4000000,PYG,684.19,,5,,0,1,1,1,0,dated after the build,remax,143092070-82
