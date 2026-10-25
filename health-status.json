@@ -1,12 +1,8 @@
 {
  "status": "RED",
- "build_ok": false,
- "at": "2026-10-24T13:51:48.244Z",
+ "build_ok": true,
+ "at": "2026-10-25T14:08:07.885Z",
  "reasons": [
-  {
-   "code": "source_volume:infocasas",
-   "holds": true
-  },
   {
    "code": "db_size",
    "holds": false
