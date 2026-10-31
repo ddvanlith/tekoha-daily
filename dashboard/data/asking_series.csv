@@ -8849,3 +8849,239 @@ date,market_id,market,metric,property_kind,value,n,median_sources
 2026-10-30,d:amambay,Amambay,active_rent,,0,0,remax infocasas uprop cb psir
 2026-10-30,d:alto-paraguay,Alto Paraguay,active_sale,,10,10,remax infocasas uprop cb psir
 2026-10-30,d:alto-paraguay,Alto Paraguay,active_rent,,0,0,remax infocasas uprop cb psir
+2026-10-31,py,Paraguay,active_sale,,21574,21574,remax infocasas uprop cb psir
+2026-10-31,py,Paraguay,active_rent,,4474,4474,remax infocasas uprop cb psir
+2026-10-31,py,Paraguay,asking_price_usd,casa,152094,7476,remax infocasas uprop cb psir
+2026-10-31,py,Paraguay,asking_price_usd,departamento,101658,5147,remax infocasas uprop cb psir
+2026-10-31,py,Paraguay,asking_price_usd,duplex,121628,264,remax infocasas uprop cb psir
+2026-10-31,py,Paraguay,asking_price_usd,terreno,64193,7394,remax infocasas uprop cb psir
+2026-10-31,py,Paraguay,asking_usd_per_m2_built,casa,836,5947,remax infocasas uprop cb psir
+2026-10-31,py,Paraguay,asking_usd_per_m2_built,departamento,1726,2445,remax infocasas uprop cb psir
+2026-10-31,py,Paraguay,asking_rent_usd_month,departamento,878,2155,remax infocasas uprop cb psir
+2026-10-31,py,Paraguay,asking_rent_usd_month,casa,2027,1567,remax infocasas uprop cb psir
+2026-10-31,d:asuncion,Asunción,active_sale,,8225,8225,remax infocasas uprop cb psir
+2026-10-31,d:asuncion,Asunción,active_rent,,3441,3441,remax infocasas uprop cb psir
+2026-10-31,d:asuncion,Asunción,asking_price_usd,casa,290000,2886,remax infocasas uprop cb psir
+2026-10-31,d:asuncion,Asunción,asking_price_usd,departamento,110000,4066,remax infocasas uprop cb psir
+2026-10-31,d:asuncion,Asunción,asking_price_usd,duplex,190410,36,remax infocasas uprop cb psir
+2026-10-31,d:asuncion,Asunción,asking_price_usd,terreno,202713,825,remax infocasas uprop cb psir
+2026-10-31,d:asuncion,Asunción,asking_usd_per_m2_built,casa,1029,2298,remax infocasas uprop cb psir
+2026-10-31,d:asuncion,Asunción,asking_usd_per_m2_built,departamento,1775,2122,remax infocasas uprop cb psir
+2026-10-31,d:asuncion,Asunción,asking_rent_usd_month,departamento,946,1854,remax infocasas uprop cb psir
+2026-10-31,d:asuncion,Asunción,asking_rent_usd_month,casa,2500,1333,remax infocasas uprop cb psir
+2026-10-31,d:central,Central,active_sale,,8941,8941,remax infocasas uprop cb psir
+2026-10-31,d:central,Central,active_rent,,703,703,remax infocasas uprop cb psir
+2026-10-31,d:central,Central,asking_price_usd,casa,106424,3705,remax infocasas uprop cb psir
+2026-10-31,d:central,Central,asking_price_usd,departamento,76017,777,remax infocasas uprop cb psir
+2026-10-31,d:central,Central,asking_price_usd,duplex,115378,190,remax infocasas uprop cb psir
+2026-10-31,d:central,Central,asking_price_usd,terreno,63662,3911,remax infocasas uprop cb psir
+2026-10-31,d:central,Central,asking_usd_per_m2_built,casa,739,2914,remax infocasas uprop cb psir
+2026-10-31,d:central,Central,asking_usd_per_m2_built,departamento,1252,235,remax infocasas uprop cb psir
+2026-10-31,d:central,Central,asking_rent_usd_month,departamento,570,230,remax infocasas uprop cb psir
+2026-10-31,d:central,Central,asking_rent_usd_month,casa,693,136,remax infocasas uprop cb psir
+2026-10-31,c:central:luque,Luque,active_sale,,1897,1897,remax infocasas uprop cb psir
+2026-10-31,c:central:luque,Luque,active_rent,,147,147,remax infocasas uprop cb psir
+2026-10-31,c:central:luque,Luque,asking_price_usd,casa,109803,806,remax infocasas uprop cb psir
+2026-10-31,c:central:luque,Luque,asking_price_usd,departamento,82250,306,remax infocasas uprop cb psir
+2026-10-31,c:central:luque,Luque,asking_price_usd,duplex,126696,70,remax infocasas uprop cb psir
+2026-10-31,c:central:luque,Luque,asking_price_usd,terreno,76017,657,remax infocasas uprop cb psir
+2026-10-31,c:central:luque,Luque,asking_usd_per_m2_built,casa,900,605,remax infocasas uprop cb psir
+2026-10-31,c:central:luque,Luque,asking_usd_per_m2_built,departamento,1302,72,remax infocasas uprop cb psir
+2026-10-31,c:central:luque,Luque,asking_rent_usd_month,departamento,646,72,remax infocasas uprop cb psir
+2026-10-31,c:central:luque,Luque,asking_rent_usd_month,casa,676,35,remax infocasas uprop cb psir
+2026-10-31,c:central:san-lorenzo,San Lorenzo,active_sale,,757,757,remax infocasas uprop cb psir
+2026-10-31,c:central:san-lorenzo,San Lorenzo,active_rent,,155,155,remax infocasas uprop cb psir
+2026-10-31,c:central:san-lorenzo,San Lorenzo,asking_price_usd,casa,118249,357,remax infocasas uprop cb psir
+2026-10-31,c:central:san-lorenzo,San Lorenzo,asking_price_usd,departamento,55403,58,remax infocasas uprop cb psir
+2026-10-31,c:central:san-lorenzo,San Lorenzo,asking_price_usd,duplex,118165,32,remax infocasas uprop cb psir
+2026-10-31,c:central:san-lorenzo,San Lorenzo,asking_price_usd,terreno,84464,252,remax infocasas uprop cb psir
+2026-10-31,c:central:san-lorenzo,San Lorenzo,asking_usd_per_m2_built,casa,774,264,remax infocasas uprop cb psir
+2026-10-31,c:central:san-lorenzo,San Lorenzo,asking_rent_usd_month,departamento,338,51,remax infocasas uprop cb psir
+2026-10-31,c:central:lambare,Lambaré,active_sale,,723,723,remax infocasas uprop cb psir
+2026-10-31,c:central:lambare,Lambaré,active_rent,,79,79,remax infocasas uprop cb psir
+2026-10-31,c:central:lambare,Lambaré,asking_price_usd,casa,160481,347,remax infocasas uprop cb psir
+2026-10-31,c:central:lambare,Lambaré,asking_price_usd,departamento,87000,81,remax infocasas uprop cb psir
+2026-10-31,c:central:lambare,Lambaré,asking_price_usd,duplex,118249,25,remax infocasas uprop cb psir
+2026-10-31,c:central:lambare,Lambaré,asking_price_usd,terreno,92910,241,remax infocasas uprop cb psir
+2026-10-31,c:central:lambare,Lambaré,asking_usd_per_m2_built,casa,769,262,remax infocasas uprop cb psir
+2026-10-31,c:central:lambare,Lambaré,asking_usd_per_m2_built,departamento,1214,37,remax infocasas uprop cb psir
+2026-10-31,c:central:lambare,Lambaré,asking_rent_usd_month,departamento,591,39,remax infocasas uprop cb psir
+2026-10-31,c:central:fernando-de-la-mora,Fernando de la Mora,active_sale,,674,674,remax infocasas uprop cb psir
+2026-10-31,c:central:fernando-de-la-mora,Fernando de la Mora,active_rent,,133,133,remax infocasas uprop cb psir
+2026-10-31,c:central:fernando-de-la-mora,Fernando de la Mora,asking_price_usd,casa,167238,285,remax infocasas uprop cb psir
+2026-10-31,c:central:fernando-de-la-mora,Fernando de la Mora,asking_price_usd,departamento,70950,153,remax infocasas uprop cb psir
+2026-10-31,c:central:fernando-de-la-mora,Fernando de la Mora,asking_price_usd,terreno,126696,186,remax infocasas uprop cb psir
+2026-10-31,c:central:fernando-de-la-mora,Fernando de la Mora,asking_usd_per_m2_built,casa,838,219,remax infocasas uprop cb psir
+2026-10-31,c:central:fernando-de-la-mora,Fernando de la Mora,asking_usd_per_m2_built,departamento,1154,54,remax infocasas uprop cb psir
+2026-10-31,c:central:fernando-de-la-mora,Fernando de la Mora,asking_rent_usd_month,departamento,591,40,remax infocasas uprop cb psir
+2026-10-31,c:central:fernando-de-la-mora,Fernando de la Mora,asking_rent_usd_month,casa,929,23,remax infocasas uprop cb psir
+2026-10-31,c:central:capiata,Capiatá,active_sale,,542,542,remax infocasas uprop cb psir
+2026-10-31,c:central:capiata,Capiatá,active_rent,,26,26,remax infocasas uprop cb psir
+2026-10-31,c:central:capiata,Capiatá,asking_price_usd,casa,63348,260,remax infocasas uprop cb psir
+2026-10-31,c:central:capiata,Capiatá,asking_price_usd,terreno,40543,244,remax infocasas uprop cb psir
+2026-10-31,c:central:capiata,Capiatá,asking_usd_per_m2_built,casa,603,212,remax infocasas uprop cb psir
+2026-10-31,c:central:nemby,Ñemby,active_sale,,491,491,remax infocasas uprop cb psir
+2026-10-31,c:central:nemby,Ñemby,active_rent,,43,43,remax infocasas uprop cb psir
+2026-10-31,c:central:nemby,Ñemby,asking_price_usd,casa,72639,257,remax infocasas uprop cb psir
+2026-10-31,c:central:nemby,Ñemby,asking_price_usd,terreno,55155,200,remax infocasas uprop cb psir
+2026-10-31,c:central:nemby,Ñemby,asking_usd_per_m2_built,casa,676,229,remax infocasas uprop cb psir
+2026-10-31,c:central:mariano-roque-alonso,Mariano Roque Alonso,active_sale,,483,483,remax infocasas uprop cb psir
+2026-10-31,c:central:mariano-roque-alonso,Mariano Roque Alonso,active_rent,,34,34,remax infocasas uprop cb psir
+2026-10-31,c:central:mariano-roque-alonso,Mariano Roque Alonso,asking_price_usd,casa,130074,145,remax infocasas uprop cb psir
+2026-10-31,c:central:mariano-roque-alonso,Mariano Roque Alonso,asking_price_usd,departamento,63000,102,remax infocasas uprop cb psir
+2026-10-31,c:central:mariano-roque-alonso,Mariano Roque Alonso,asking_price_usd,terreno,94367,189,remax infocasas uprop cb psir
+2026-10-31,c:central:mariano-roque-alonso,Mariano Roque Alonso,asking_usd_per_m2_built,casa,711,112,remax infocasas uprop cb psir
+2026-10-31,c:central:limpio,Limpio,active_sale,,465,465,remax infocasas uprop cb psir
+2026-10-31,c:central:limpio,Limpio,active_rent,,8,8,remax infocasas uprop cb psir
+2026-10-31,c:central:limpio,Limpio,asking_price_usd,casa,59125,206,remax infocasas uprop cb psir
+2026-10-31,c:central:limpio,Limpio,asking_price_usd,departamento,62407,25,remax infocasas uprop cb psir
+2026-10-31,c:central:limpio,Limpio,asking_price_usd,terreno,35475,204,remax infocasas uprop cb psir
+2026-10-31,c:central:limpio,Limpio,asking_usd_per_m2_built,casa,704,161,remax infocasas uprop cb psir
+2026-10-31,c:central:villa-elisa,Villa Elisa,active_sale,,425,425,remax infocasas uprop cb psir
+2026-10-31,c:central:villa-elisa,Villa Elisa,active_rent,,15,15,remax infocasas uprop cb psir
+2026-10-31,c:central:villa-elisa,Villa Elisa,asking_price_usd,casa,101357,223,remax infocasas uprop cb psir
+2026-10-31,c:central:villa-elisa,Villa Elisa,asking_price_usd,terreno,59125,173,remax infocasas uprop cb psir
+2026-10-31,c:central:villa-elisa,Villa Elisa,asking_usd_per_m2_built,casa,762,174,remax infocasas uprop cb psir
+2026-10-31,c:central:itaugua,Itauguá,active_sale,,392,392,remax infocasas uprop cb psir
+2026-10-31,c:central:itaugua,Itauguá,active_rent,,20,20,remax infocasas uprop cb psir
+2026-10-31,c:central:itaugua,Itauguá,asking_price_usd,casa,74751,122,remax infocasas uprop cb psir
+2026-10-31,c:central:itaugua,Itauguá,asking_price_usd,terreno,30407,252,remax infocasas uprop cb psir
+2026-10-31,c:central:itaugua,Itauguá,asking_usd_per_m2_built,casa,553,110,remax infocasas uprop cb psir
+2026-10-31,c:central:aregua,Areguá,active_sale,,342,342,remax infocasas uprop cb psir
+2026-10-31,c:central:aregua,Areguá,active_rent,,3,3,remax infocasas uprop cb psir
+2026-10-31,c:central:aregua,Areguá,asking_price_usd,casa,114871,153,remax infocasas uprop cb psir
+2026-10-31,c:central:aregua,Areguá,asking_price_usd,terreno,31970,176,remax infocasas uprop cb psir
+2026-10-31,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,625,124,remax infocasas uprop cb psir
+2026-10-31,c:central:ypane,Ypané,active_sale,,311,311,remax infocasas uprop cb psir
+2026-10-31,c:central:ypane,Ypané,active_rent,,7,7,remax infocasas uprop cb psir
+2026-10-31,c:central:ypane,Ypané,asking_price_usd,casa,77707,86,remax infocasas uprop cb psir
+2026-10-31,c:central:ypane,Ypané,asking_price_usd,terreno,28718,221,remax infocasas uprop cb psir
+2026-10-31,c:central:ypane,Ypané,asking_usd_per_m2_built,casa,486,75,remax infocasas uprop cb psir
+2026-10-31,c:central:ypacarai,Ypacaraí,active_sale,,264,264,remax infocasas uprop cb psir
+2026-10-31,c:central:ypacarai,Ypacaraí,active_rent,,3,3,remax infocasas uprop cb psir
+2026-10-31,c:central:ypacarai,Ypacaraí,asking_price_usd,casa,97978,73,remax infocasas uprop cb psir
+2026-10-31,c:central:ypacarai,Ypacaraí,asking_price_usd,terreno,39227,186,remax infocasas uprop cb psir
+2026-10-31,c:central:ypacarai,Ypacaraí,asking_usd_per_m2_built,casa,526,66,remax infocasas uprop cb psir
+2026-10-31,c:central:ita,Itá,active_sale,,200,200,remax infocasas uprop cb psir
+2026-10-31,c:central:ita,Itá,active_rent,,3,3,remax infocasas uprop cb psir
+2026-10-31,c:central:ita,Itá,asking_price_usd,casa,76017,61,remax infocasas uprop cb psir
+2026-10-31,c:central:ita,Itá,asking_price_usd,terreno,67149,132,remax infocasas uprop cb psir
+2026-10-31,c:central:ita,Itá,asking_usd_per_m2_built,casa,667,51,remax infocasas uprop cb psir
+2026-10-31,c:central:san-antonio,San Antonio,active_sale,,169,169,remax infocasas uprop cb psir
+2026-10-31,c:central:san-antonio,San Antonio,active_rent,,7,7,remax infocasas uprop cb psir
+2026-10-31,c:central:san-antonio,San Antonio,asking_price_usd,casa,76017,69,remax infocasas uprop cb psir
+2026-10-31,c:central:san-antonio,San Antonio,asking_price_usd,terreno,76440,94,remax infocasas uprop cb psir
+2026-10-31,c:central:san-antonio,San Antonio,asking_usd_per_m2_built,casa,615,62,remax infocasas uprop cb psir
+2026-10-31,c:central:julian-augusto-saldivar,Julián Augusto Saldívar,active_sale,,166,166,remax infocasas uprop cb psir
+2026-10-31,c:central:julian-augusto-saldivar,Julián Augusto Saldívar,active_rent,,1,1,remax infocasas uprop cb psir
+2026-10-31,c:central:julian-augusto-saldivar,Julián Augusto Saldívar,asking_price_usd,casa,47300,64,remax infocasas uprop cb psir
+2026-10-31,c:central:julian-augusto-saldivar,Julián Augusto Saldívar,asking_price_usd,terreno,21961,97,remax infocasas uprop cb psir
+2026-10-31,c:central:julian-augusto-saldivar,Julián Augusto Saldívar,asking_usd_per_m2_built,casa,625,59,remax infocasas uprop cb psir
+2026-10-31,d:itapua,Itapúa,active_sale,,1546,1546,remax infocasas uprop cb psir
+2026-10-31,d:itapua,Itapúa,active_rent,,149,149,remax infocasas uprop cb psir
+2026-10-31,d:itapua,Itapúa,asking_price_usd,casa,128693,304,remax infocasas uprop cb psir
+2026-10-31,d:itapua,Itapúa,asking_price_usd,departamento,92500,170,remax infocasas uprop cb psir
+2026-10-31,d:itapua,Itapúa,asking_price_usd,duplex,96289,31,remax infocasas uprop cb psir
+2026-10-31,d:itapua,Itapúa,asking_price_usd,terreno,33786,874,remax infocasas uprop cb psir
+2026-10-31,d:itapua,Itapúa,asking_usd_per_m2_built,casa,721,265,remax infocasas uprop cb psir
+2026-10-31,d:itapua,Itapúa,asking_usd_per_m2_built,departamento,1290,41,remax infocasas uprop cb psir
+2026-10-31,d:itapua,Itapúa,asking_rent_usd_month,departamento,473,60,remax infocasas uprop cb psir
+2026-10-31,d:itapua,Itapúa,asking_rent_usd_month,casa,845,30,remax infocasas uprop cb psir
+2026-10-31,c:itapua:encarnacion,Encarnación,active_sale,,758,758,remax infocasas uprop cb psir
+2026-10-31,c:itapua:encarnacion,Encarnación,active_rent,,105,105,remax infocasas uprop cb psir
+2026-10-31,c:itapua:encarnacion,Encarnación,asking_price_usd,casa,136831,157,remax infocasas uprop cb psir
+2026-10-31,c:itapua:encarnacion,Encarnación,asking_price_usd,departamento,92500,164,remax infocasas uprop cb psir
+2026-10-31,c:itapua:encarnacion,Encarnación,asking_price_usd,duplex,96289,23,remax infocasas uprop cb psir
+2026-10-31,c:itapua:encarnacion,Encarnación,asking_price_usd,terreno,50678,329,remax infocasas uprop cb psir
+2026-10-31,c:itapua:encarnacion,Encarnación,asking_usd_per_m2_built,casa,718,137,remax infocasas uprop cb psir
+2026-10-31,c:itapua:encarnacion,Encarnación,asking_usd_per_m2_built,departamento,1163,37,remax infocasas uprop cb psir
+2026-10-31,c:itapua:encarnacion,Encarnación,asking_rent_usd_month,departamento,422,54,remax infocasas uprop cb psir
+2026-10-31,c:itapua:san-juan-del-parana,San Juan del Paraná,active_sale,,161,161,remax infocasas uprop cb psir
+2026-10-31,c:itapua:san-juan-del-parana,San Juan del Paraná,active_rent,,4,4,remax infocasas uprop cb psir
+2026-10-31,c:itapua:san-juan-del-parana,San Juan del Paraná,asking_price_usd,casa,137223,21,remax infocasas uprop cb psir
+2026-10-31,c:itapua:san-juan-del-parana,San Juan del Paraná,asking_price_usd,terreno,14359,125,remax infocasas uprop cb psir
+2026-10-31,c:itapua:capitan-miranda,Capitán Miranda,active_sale,,110,110,remax infocasas uprop cb psir
+2026-10-31,c:itapua:capitan-miranda,Capitán Miranda,active_rent,,14,14,remax infocasas uprop cb psir
+2026-10-31,c:itapua:capitan-miranda,Capitán Miranda,asking_price_usd,terreno,20863,93,remax infocasas uprop cb psir
+2026-10-31,d:alto-parana,Alto Paraná,active_sale,,945,945,remax infocasas uprop cb psir
+2026-10-31,d:alto-parana,Alto Paraná,active_rent,,66,66,remax infocasas uprop cb psir
+2026-10-31,d:alto-parana,Alto Paraná,asking_price_usd,casa,130000,231,remax infocasas uprop cb psir
+2026-10-31,d:alto-parana,Alto Paraná,asking_price_usd,departamento,89000,91,remax infocasas uprop cb psir
+2026-10-31,d:alto-parana,Alto Paraná,asking_price_usd,terreno,64193,486,remax infocasas uprop cb psir
+2026-10-31,d:alto-parana,Alto Paraná,asking_usd_per_m2_built,casa,705,211,remax infocasas uprop cb psir
+2026-10-31,d:alto-parana,Alto Paraná,asking_usd_per_m2_built,departamento,1562,32,remax infocasas uprop cb psir
+2026-10-31,c:alto-parana:ciudad-del-este,Ciudad del Este,active_sale,,431,431,remax infocasas uprop cb psir
+2026-10-31,c:alto-parana:ciudad-del-este,Ciudad del Este,active_rent,,32,32,remax infocasas uprop cb psir
+2026-10-31,c:alto-parana:ciudad-del-este,Ciudad del Este,asking_price_usd,casa,135142,111,remax infocasas uprop cb psir
+2026-10-31,c:alto-parana:ciudad-del-este,Ciudad del Este,asking_price_usd,departamento,89000,79,remax infocasas uprop cb psir
+2026-10-31,c:alto-parana:ciudad-del-este,Ciudad del Este,asking_price_usd,terreno,80000,187,remax infocasas uprop cb psir
+2026-10-31,c:alto-parana:ciudad-del-este,Ciudad del Este,asking_usd_per_m2_built,casa,745,102,remax infocasas uprop cb psir
+2026-10-31,c:alto-parana:ciudad-del-este,Ciudad del Este,asking_usd_per_m2_built,departamento,1727,29,remax infocasas uprop cb psir
+2026-10-31,c:alto-parana:hernandarias,Hernandarias,active_sale,,157,157,remax infocasas uprop cb psir
+2026-10-31,c:alto-parana:hernandarias,Hernandarias,active_rent,,8,8,remax infocasas uprop cb psir
+2026-10-31,c:alto-parana:hernandarias,Hernandarias,asking_price_usd,casa,115000,53,remax infocasas uprop cb psir
+2026-10-31,c:alto-parana:hernandarias,Hernandarias,asking_price_usd,terreno,49834,85,remax infocasas uprop cb psir
+2026-10-31,c:alto-parana:hernandarias,Hernandarias,asking_usd_per_m2_built,casa,600,48,remax infocasas uprop cb psir
+2026-10-31,c:alto-parana:minga-guazu,Minga Guazú,active_sale,,111,111,remax infocasas uprop cb psir
+2026-10-31,c:alto-parana:minga-guazu,Minga Guazú,active_rent,,2,2,remax infocasas uprop cb psir
+2026-10-31,c:alto-parana:minga-guazu,Minga Guazú,asking_price_usd,terreno,25339,89,remax infocasas uprop cb psir
+2026-10-31,d:cordillera,Cordillera,active_sale,,958,958,remax infocasas uprop cb psir
+2026-10-31,d:cordillera,Cordillera,active_rent,,51,51,remax infocasas uprop cb psir
+2026-10-31,d:cordillera,Cordillera,asking_price_usd,casa,200000,193,remax infocasas uprop cb psir
+2026-10-31,d:cordillera,Cordillera,asking_price_usd,departamento,209751,24,remax infocasas uprop cb psir
+2026-10-31,d:cordillera,Cordillera,asking_price_usd,terreno,46455,668,remax infocasas uprop cb psir
+2026-10-31,d:cordillera,Cordillera,asking_usd_per_m2_built,casa,880,157,remax infocasas uprop cb psir
+2026-10-31,d:cordillera,Cordillera,asking_rent_usd_month,casa,1563,36,remax infocasas uprop cb psir
+2026-10-31,c:cordillera:san-bernardino,San Bernardino,active_sale,,398,398,remax infocasas uprop cb psir
+2026-10-31,c:cordillera:san-bernardino,San Bernardino,active_rent,,30,30,remax infocasas uprop cb psir
+2026-10-31,c:cordillera:san-bernardino,San Bernardino,asking_price_usd,casa,224026,100,remax infocasas uprop cb psir
+2026-10-31,c:cordillera:san-bernardino,San Bernardino,asking_price_usd,terreno,59500,277,remax infocasas uprop cb psir
+2026-10-31,c:cordillera:san-bernardino,San Bernardino,asking_usd_per_m2_built,casa,979,87,remax infocasas uprop cb psir
+2026-10-31,c:cordillera:san-bernardino,San Bernardino,asking_rent_usd_month,casa,1689,25,remax infocasas uprop cb psir
+2026-10-31,c:cordillera:caacupe,Caacupé,active_sale,,174,174,remax infocasas uprop cb psir
+2026-10-31,c:cordillera:caacupe,Caacupé,active_rent,,5,5,remax infocasas uprop cb psir
+2026-10-31,c:cordillera:caacupe,Caacupé,asking_price_usd,casa,87842,30,remax infocasas uprop cb psir
+2026-10-31,c:cordillera:caacupe,Caacupé,asking_price_usd,terreno,14359,127,remax infocasas uprop cb psir
+2026-10-31,c:cordillera:caacupe,Caacupé,asking_usd_per_m2_built,casa,462,24,remax infocasas uprop cb psir
+2026-10-31,c:cordillera:altos,Altos,active_sale,,135,135,remax infocasas uprop cb psir
+2026-10-31,c:cordillera:altos,Altos,active_rent,,9,9,remax infocasas uprop cb psir
+2026-10-31,c:cordillera:altos,Altos,asking_price_usd,casa,255950,23,remax infocasas uprop cb psir
+2026-10-31,c:cordillera:altos,Altos,asking_price_usd,terreno,39622,98,remax infocasas uprop cb psir
+2026-10-31,c:cordillera:altos,Altos,asking_usd_per_m2_built,casa,1075,20,remax infocasas uprop cb psir
+2026-10-31,d:boqueron,Boquerón,active_sale,,155,155,remax infocasas uprop cb psir
+2026-10-31,d:boqueron,Boquerón,active_rent,,36,36,remax infocasas uprop cb psir
+2026-10-31,d:boqueron,Boquerón,asking_price_usd,casa,76017,23,remax infocasas uprop cb psir
+2026-10-31,d:boqueron,Boquerón,asking_price_usd,terreno,15203,119,remax infocasas uprop cb psir
+2026-10-31,d:presidente-hayes,Presidente Hayes,active_sale,,183,183,remax infocasas uprop cb psir
+2026-10-31,d:presidente-hayes,Presidente Hayes,active_rent,,0,0,remax infocasas uprop cb psir
+2026-10-31,d:presidente-hayes,Presidente Hayes,asking_price_usd,terreno,86998,147,remax infocasas uprop cb psir
+2026-10-31,c:presidente-hayes:villa-hayes,Villa Hayes,active_sale,,101,101,remax infocasas uprop cb psir
+2026-10-31,c:presidente-hayes:villa-hayes,Villa Hayes,active_rent,,0,0,remax infocasas uprop cb psir
+2026-10-31,c:presidente-hayes:villa-hayes,Villa Hayes,asking_price_usd,terreno,92910,83,remax infocasas uprop cb psir
+2026-10-31,d:paraguari,Paraguarí,active_sale,,110,110,remax infocasas uprop cb psir
+2026-10-31,d:paraguari,Paraguarí,active_rent,,2,2,remax infocasas uprop cb psir
+2026-10-31,d:paraguari,Paraguarí,asking_price_usd,terreno,42232,64,remax infocasas uprop cb psir
+2026-10-31,d:caaguazu,Caaguazú,active_sale,,66,66,remax infocasas uprop cb psir
+2026-10-31,d:caaguazu,Caaguazú,active_rent,,2,2,remax infocasas uprop cb psir
+2026-10-31,d:caaguazu,Caaguazú,asking_price_usd,terreno,77232,44,remax infocasas uprop cb psir
+2026-10-31,d:misiones,Misiones,active_sale,,64,64,remax infocasas uprop cb psir
+2026-10-31,d:misiones,Misiones,active_rent,,2,2,remax infocasas uprop cb psir
+2026-10-31,d:misiones,Misiones,asking_price_usd,terreno,32856,36,remax infocasas uprop cb psir
+2026-10-31,d:guaira,Guairá,active_sale,,41,41,remax infocasas uprop cb psir
+2026-10-31,d:guaira,Guairá,active_rent,,1,1,remax infocasas uprop cb psir
+2026-10-31,d:guaira,Guairá,asking_price_usd,terreno,25082,30,remax infocasas uprop cb psir
+2026-10-31,d:san-pedro,San Pedro,active_sale,,38,38,remax infocasas uprop cb psir
+2026-10-31,d:san-pedro,San Pedro,active_rent,,0,0,remax infocasas uprop cb psir
+2026-10-31,d:san-pedro,San Pedro,asking_price_usd,terreno,118249,29,remax infocasas uprop cb psir
+2026-10-31,d:caazapa,Caazapá,active_sale,,25,25,remax infocasas uprop cb psir
+2026-10-31,d:caazapa,Caazapá,active_rent,,5,5,remax infocasas uprop cb psir
+2026-10-31,d:concepcion,Concepción,active_sale,,22,22,remax infocasas uprop cb psir
+2026-10-31,d:concepcion,Concepción,active_rent,,0,0,remax infocasas uprop cb psir
+2026-10-31,d:neembucu,Ñeembucú,active_sale,,20,20,remax infocasas uprop cb psir
+2026-10-31,d:neembucu,Ñeembucú,active_rent,,0,0,remax infocasas uprop cb psir
+2026-10-31,d:canindeyu,Canindeyú,active_sale,,18,18,remax infocasas uprop cb psir
+2026-10-31,d:canindeyu,Canindeyú,active_rent,,1,1,remax infocasas uprop cb psir
+2026-10-31,d:amambay,Amambay,active_sale,,13,13,remax infocasas uprop cb psir
+2026-10-31,d:amambay,Amambay,active_rent,,0,0,remax infocasas uprop cb psir
+2026-10-31,d:alto-paraguay,Alto Paraguay,active_sale,,10,10,remax infocasas uprop cb psir
+2026-10-31,d:alto-paraguay,Alto Paraguay,active_rent,,0,0,remax infocasas uprop cb psir
