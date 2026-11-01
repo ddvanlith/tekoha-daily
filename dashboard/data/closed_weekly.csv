@@ -121,8 +121,8 @@ py,Paraguay,rent,2026-09-21,44
 py,Paraguay,rent,2026-09-28,65
 py,Paraguay,rent,2026-10-05,50
 py,Paraguay,rent,2026-10-12,42
-py,Paraguay,rent,2026-10-19,42
-py,Paraguay,rent,2026-10-26,29
+py,Paraguay,rent,2026-10-19,44
+py,Paraguay,rent,2026-10-26,31
 d:asuncion,Asunción,sale,2025-08-25,13
 d:asuncion,Asunción,sale,2025-09-01,12
 d:asuncion,Asunción,sale,2025-09-08,11
@@ -245,7 +245,7 @@ d:asuncion,Asunción,rent,2026-09-21,9
 d:asuncion,Asunción,rent,2026-09-28,25
 d:asuncion,Asunción,rent,2026-10-05,20
 d:asuncion,Asunción,rent,2026-10-12,13
-d:asuncion,Asunción,rent,2026-10-19,17
+d:asuncion,Asunción,rent,2026-10-19,18
 d:asuncion,Asunción,rent,2026-10-26,13
 d:central,Central,sale,2025-08-25,20
 d:central,Central,sale,2025-09-01,8
@@ -370,7 +370,7 @@ d:central,Central,rent,2026-09-28,28
 d:central,Central,rent,2026-10-05,21
 d:central,Central,rent,2026-10-12,19
 d:central,Central,rent,2026-10-19,16
-d:central,Central,rent,2026-10-26,6
+d:central,Central,rent,2026-10-26,7
 c:central:luque,Luque,sale,2025-08-25,8
 c:central:luque,Luque,sale,2025-09-01,4
 c:central:luque,Luque,sale,2025-09-08,3
@@ -804,7 +804,7 @@ c:central:fernando-de-la-mora,Fernando de la Mora,rent,2026-09-28,7
 c:central:fernando-de-la-mora,Fernando de la Mora,rent,2026-10-05,11
 c:central:fernando-de-la-mora,Fernando de la Mora,rent,2026-10-12,7
 c:central:fernando-de-la-mora,Fernando de la Mora,rent,2026-10-19,3
-c:central:fernando-de-la-mora,Fernando de la Mora,rent,2026-10-26,1
+c:central:fernando-de-la-mora,Fernando de la Mora,rent,2026-10-26,2
 c:central:capiata,Capiatá,sale,2025-09-08,1
 c:central:capiata,Capiatá,sale,2025-09-15,2
 c:central:capiata,Capiatá,sale,2025-09-22,2
@@ -870,76 +870,6 @@ c:central:capiata,Capiatá,rent,2026-09-07,1
 c:central:capiata,Capiatá,rent,2026-09-21,1
 c:central:capiata,Capiatá,rent,2026-09-28,2
 c:central:capiata,Capiatá,rent,2026-10-05,2
-c:central:nemby,Ñemby,sale,2025-09-22,3
-c:central:nemby,Ñemby,sale,2025-09-29,2
-c:central:nemby,Ñemby,sale,2025-10-06,4
-c:central:nemby,Ñemby,sale,2025-10-27,3
-c:central:nemby,Ñemby,sale,2025-11-17,1
-c:central:nemby,Ñemby,sale,2025-12-01,1
-c:central:nemby,Ñemby,sale,2026-01-19,1
-c:central:nemby,Ñemby,sale,2026-01-26,2
-c:central:nemby,Ñemby,sale,2026-02-16,3
-c:central:nemby,Ñemby,sale,2026-02-23,2
-c:central:nemby,Ñemby,sale,2026-03-02,3
-c:central:nemby,Ñemby,sale,2026-03-09,1
-c:central:nemby,Ñemby,sale,2026-03-16,2
-c:central:nemby,Ñemby,sale,2026-04-06,2
-c:central:nemby,Ñemby,sale,2026-04-20,2
-c:central:nemby,Ñemby,sale,2026-05-04,1
-c:central:nemby,Ñemby,sale,2026-05-18,2
-c:central:nemby,Ñemby,sale,2026-06-01,1
-c:central:nemby,Ñemby,sale,2026-06-08,1
-c:central:nemby,Ñemby,sale,2026-06-22,1
-c:central:nemby,Ñemby,sale,2026-06-29,1
-c:central:nemby,Ñemby,sale,2026-07-06,1
-c:central:nemby,Ñemby,sale,2026-07-20,1
-c:central:nemby,Ñemby,sale,2026-07-27,2
-c:central:nemby,Ñemby,sale,2026-08-03,1
-c:central:nemby,Ñemby,sale,2026-08-10,1
-c:central:nemby,Ñemby,sale,2026-08-17,2
-c:central:nemby,Ñemby,sale,2026-08-24,2
-c:central:nemby,Ñemby,sale,2026-08-31,1
-c:central:nemby,Ñemby,sale,2026-09-07,1
-c:central:nemby,Ñemby,sale,2026-09-14,1
-c:central:nemby,Ñemby,sale,2026-09-21,1
-c:central:nemby,Ñemby,sale,2026-09-28,1
-c:central:nemby,Ñemby,sale,2026-10-19,2
-c:central:nemby,Ñemby,rent,2025-08-25,2
-c:central:nemby,Ñemby,rent,2025-09-01,1
-c:central:nemby,Ñemby,rent,2025-09-08,2
-c:central:nemby,Ñemby,rent,2025-09-15,1
-c:central:nemby,Ñemby,rent,2025-10-06,1
-c:central:nemby,Ñemby,rent,2025-10-27,1
-c:central:nemby,Ñemby,rent,2025-11-10,1
-c:central:nemby,Ñemby,rent,2025-11-24,3
-c:central:nemby,Ñemby,rent,2025-12-15,1
-c:central:nemby,Ñemby,rent,2026-01-05,1
-c:central:nemby,Ñemby,rent,2026-01-19,1
-c:central:nemby,Ñemby,rent,2026-01-26,3
-c:central:nemby,Ñemby,rent,2026-02-02,3
-c:central:nemby,Ñemby,rent,2026-02-09,3
-c:central:nemby,Ñemby,rent,2026-02-16,1
-c:central:nemby,Ñemby,rent,2026-02-23,2
-c:central:nemby,Ñemby,rent,2026-03-02,3
-c:central:nemby,Ñemby,rent,2026-03-23,2
-c:central:nemby,Ñemby,rent,2026-03-30,2
-c:central:nemby,Ñemby,rent,2026-04-06,1
-c:central:nemby,Ñemby,rent,2026-04-20,1
-c:central:nemby,Ñemby,rent,2026-04-27,2
-c:central:nemby,Ñemby,rent,2026-05-04,4
-c:central:nemby,Ñemby,rent,2026-05-11,1
-c:central:nemby,Ñemby,rent,2026-05-25,2
-c:central:nemby,Ñemby,rent,2026-06-08,1
-c:central:nemby,Ñemby,rent,2026-06-15,2
-c:central:nemby,Ñemby,rent,2026-06-29,1
-c:central:nemby,Ñemby,rent,2026-07-06,1
-c:central:nemby,Ñemby,rent,2026-07-27,1
-c:central:nemby,Ñemby,rent,2026-08-03,2
-c:central:nemby,Ñemby,rent,2026-08-17,1
-c:central:nemby,Ñemby,rent,2026-08-24,1
-c:central:nemby,Ñemby,rent,2026-09-21,3
-c:central:nemby,Ñemby,rent,2026-09-28,1
-c:central:nemby,Ñemby,rent,2026-10-05,1
 c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2025-08-25,2
 c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2025-09-15,2
 c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2025-09-29,1
@@ -1012,6 +942,76 @@ c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-09-14,3
 c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-09-28,1
 c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-10-12,2
 c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-10-19,4
+c:central:nemby,Ñemby,sale,2025-09-22,3
+c:central:nemby,Ñemby,sale,2025-09-29,2
+c:central:nemby,Ñemby,sale,2025-10-06,4
+c:central:nemby,Ñemby,sale,2025-10-27,3
+c:central:nemby,Ñemby,sale,2025-11-17,1
+c:central:nemby,Ñemby,sale,2025-12-01,1
+c:central:nemby,Ñemby,sale,2026-01-19,1
+c:central:nemby,Ñemby,sale,2026-01-26,2
+c:central:nemby,Ñemby,sale,2026-02-16,3
+c:central:nemby,Ñemby,sale,2026-02-23,2
+c:central:nemby,Ñemby,sale,2026-03-02,3
+c:central:nemby,Ñemby,sale,2026-03-09,1
+c:central:nemby,Ñemby,sale,2026-03-16,2
+c:central:nemby,Ñemby,sale,2026-04-06,2
+c:central:nemby,Ñemby,sale,2026-04-20,2
+c:central:nemby,Ñemby,sale,2026-05-04,1
+c:central:nemby,Ñemby,sale,2026-05-18,2
+c:central:nemby,Ñemby,sale,2026-06-01,1
+c:central:nemby,Ñemby,sale,2026-06-08,1
+c:central:nemby,Ñemby,sale,2026-06-22,1
+c:central:nemby,Ñemby,sale,2026-06-29,1
+c:central:nemby,Ñemby,sale,2026-07-06,1
+c:central:nemby,Ñemby,sale,2026-07-20,1
+c:central:nemby,Ñemby,sale,2026-07-27,2
+c:central:nemby,Ñemby,sale,2026-08-03,1
+c:central:nemby,Ñemby,sale,2026-08-10,1
+c:central:nemby,Ñemby,sale,2026-08-17,2
+c:central:nemby,Ñemby,sale,2026-08-24,2
+c:central:nemby,Ñemby,sale,2026-08-31,1
+c:central:nemby,Ñemby,sale,2026-09-07,1
+c:central:nemby,Ñemby,sale,2026-09-14,1
+c:central:nemby,Ñemby,sale,2026-09-21,1
+c:central:nemby,Ñemby,sale,2026-09-28,1
+c:central:nemby,Ñemby,sale,2026-10-19,2
+c:central:nemby,Ñemby,rent,2025-08-25,2
+c:central:nemby,Ñemby,rent,2025-09-01,1
+c:central:nemby,Ñemby,rent,2025-09-08,2
+c:central:nemby,Ñemby,rent,2025-09-15,1
+c:central:nemby,Ñemby,rent,2025-10-06,1
+c:central:nemby,Ñemby,rent,2025-10-27,1
+c:central:nemby,Ñemby,rent,2025-11-10,1
+c:central:nemby,Ñemby,rent,2025-11-24,3
+c:central:nemby,Ñemby,rent,2025-12-15,1
+c:central:nemby,Ñemby,rent,2026-01-05,1
+c:central:nemby,Ñemby,rent,2026-01-19,1
+c:central:nemby,Ñemby,rent,2026-01-26,3
+c:central:nemby,Ñemby,rent,2026-02-02,3
+c:central:nemby,Ñemby,rent,2026-02-09,3
+c:central:nemby,Ñemby,rent,2026-02-16,1
+c:central:nemby,Ñemby,rent,2026-02-23,2
+c:central:nemby,Ñemby,rent,2026-03-02,3
+c:central:nemby,Ñemby,rent,2026-03-23,2
+c:central:nemby,Ñemby,rent,2026-03-30,2
+c:central:nemby,Ñemby,rent,2026-04-06,1
+c:central:nemby,Ñemby,rent,2026-04-20,1
+c:central:nemby,Ñemby,rent,2026-04-27,2
+c:central:nemby,Ñemby,rent,2026-05-04,4
+c:central:nemby,Ñemby,rent,2026-05-11,1
+c:central:nemby,Ñemby,rent,2026-05-25,2
+c:central:nemby,Ñemby,rent,2026-06-08,1
+c:central:nemby,Ñemby,rent,2026-06-15,2
+c:central:nemby,Ñemby,rent,2026-06-29,1
+c:central:nemby,Ñemby,rent,2026-07-06,1
+c:central:nemby,Ñemby,rent,2026-07-27,1
+c:central:nemby,Ñemby,rent,2026-08-03,2
+c:central:nemby,Ñemby,rent,2026-08-17,1
+c:central:nemby,Ñemby,rent,2026-08-24,1
+c:central:nemby,Ñemby,rent,2026-09-21,3
+c:central:nemby,Ñemby,rent,2026-09-28,1
+c:central:nemby,Ñemby,rent,2026-10-05,1
 c:central:limpio,Limpio,sale,2025-08-25,1
 c:central:limpio,Limpio,sale,2025-09-01,1
 c:central:limpio,Limpio,sale,2025-09-08,1
@@ -1343,7 +1343,7 @@ d:itapua,Itapúa,rent,2026-09-21,11
 d:itapua,Itapúa,rent,2026-09-28,4
 d:itapua,Itapúa,rent,2026-10-05,5
 d:itapua,Itapúa,rent,2026-10-12,1
-d:itapua,Itapúa,rent,2026-10-19,4
+d:itapua,Itapúa,rent,2026-10-19,5
 d:itapua,Itapúa,rent,2026-10-26,5
 c:itapua:encarnacion,Encarnación,sale,2025-09-01,2
 c:itapua:encarnacion,Encarnación,sale,2025-09-08,3
@@ -1453,7 +1453,7 @@ c:itapua:encarnacion,Encarnación,rent,2026-09-21,8
 c:itapua:encarnacion,Encarnación,rent,2026-09-28,3
 c:itapua:encarnacion,Encarnación,rent,2026-10-05,4
 c:itapua:encarnacion,Encarnación,rent,2026-10-12,1
-c:itapua:encarnacion,Encarnación,rent,2026-10-19,4
+c:itapua:encarnacion,Encarnación,rent,2026-10-19,5
 c:itapua:encarnacion,Encarnación,rent,2026-10-26,4
 c:itapua:san-juan-del-parana,San Juan del Paraná,sale,2025-08-25,1
 c:itapua:san-juan-del-parana,San Juan del Paraná,sale,2025-09-08,1
@@ -1997,6 +1997,7 @@ d:boqueron,Boquerón,rent,2026-09-14,1
 d:boqueron,Boquerón,rent,2026-09-28,3
 d:boqueron,Boquerón,rent,2026-10-12,3
 d:boqueron,Boquerón,rent,2026-10-19,2
+d:boqueron,Boquerón,rent,2026-10-26,1
 d:presidente-hayes,Presidente Hayes,sale,2025-09-22,1
 d:presidente-hayes,Presidente Hayes,sale,2025-10-20,1
 d:presidente-hayes,Presidente Hayes,sale,2025-11-10,1
