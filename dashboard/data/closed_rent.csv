@@ -14,7 +14,7 @@ py,Paraguay,month,casa,PYG,2026-07-01,44,3737500,618
 py,Paraguay,month,casa,PYG,2026-08-01,40,3350000,561
 py,Paraguay,month,casa,PYG,2026-09-01,61,3500000,590
 py,Paraguay,month,casa,PYG,2026-10-01,42,3450000,596
-py,Paraguay,month,casa,PYG,2026-11-01,3,,
+py,Paraguay,month,casa,PYG,2026-11-01,6,,
 py,Paraguay,month,departamento,PYG,2025-08-01,16,,
 py,Paraguay,month,departamento,PYG,2025-09-01,89,3500000,489
 py,Paraguay,month,departamento,PYG,2025-10-01,72,3000000,425
@@ -29,7 +29,7 @@ py,Paraguay,month,departamento,PYG,2026-06-01,108,3400000,556
 py,Paraguay,month,departamento,PYG,2026-07-01,110,3690000,610
 py,Paraguay,month,departamento,PYG,2026-08-01,81,4100000,686
 py,Paraguay,month,departamento,PYG,2026-09-01,81,3700000,624
-py,Paraguay,month,departamento,PYG,2026-10-01,84,4000000,691
+py,Paraguay,month,departamento,PYG,2026-10-01,87,3800000,656
 py,Paraguay,month,duplex,PYG,2025-08-01,6,,
 py,Paraguay,month,duplex,PYG,2025-09-01,17,,
 py,Paraguay,month,duplex,PYG,2025-10-01,5,,
@@ -66,13 +66,13 @@ py,Paraguay,quarter,casa,PYG,2025-10-01,109,3000000,433
 py,Paraguay,quarter,casa,PYG,2026-01-01,145,3500000,533
 py,Paraguay,quarter,casa,PYG,2026-04-01,133,3500000,565
 py,Paraguay,quarter,casa,PYG,2026-07-01,145,3500000,585
-py,Paraguay,quarter,casa,PYG,2026-10-01,45,3500000,605
+py,Paraguay,quarter,casa,PYG,2026-10-01,48,3500000,604
 py,Paraguay,quarter,departamento,PYG,2025-07-01,105,3500000,487
 py,Paraguay,quarter,departamento,PYG,2025-10-01,246,3500000,505
 py,Paraguay,quarter,departamento,PYG,2026-01-01,314,3500000,533
 py,Paraguay,quarter,departamento,PYG,2026-04-01,273,3500000,565
 py,Paraguay,quarter,departamento,PYG,2026-07-01,272,3750000,627
-py,Paraguay,quarter,departamento,PYG,2026-10-01,84,4000000,691
+py,Paraguay,quarter,departamento,PYG,2026-10-01,87,3800000,655
 py,Paraguay,quarter,departamento,USD,2025-07-01,3,,
 py,Paraguay,quarter,departamento,USD,2025-10-01,4,,
 py,Paraguay,quarter,departamento,USD,2026-01-01,6,,
@@ -102,6 +102,7 @@ d:asuncion,Asunción,month,casa,PYG,2026-07-01,10,,
 d:asuncion,Asunción,month,casa,PYG,2026-08-01,9,,
 d:asuncion,Asunción,month,casa,PYG,2026-09-01,16,,
 d:asuncion,Asunción,month,casa,PYG,2026-10-01,8,,
+d:asuncion,Asunción,month,casa,PYG,2026-11-01,1,,
 d:asuncion,Asunción,month,departamento,PYG,2025-08-01,12,,
 d:asuncion,Asunción,month,departamento,PYG,2025-09-01,47,4000000,559
 d:asuncion,Asunción,month,departamento,PYG,2025-10-01,39,4000000,567
@@ -116,7 +117,7 @@ d:asuncion,Asunción,month,departamento,PYG,2026-06-01,54,4300000,703
 d:asuncion,Asunción,month,departamento,PYG,2026-07-01,60,4245500,701
 d:asuncion,Asunción,month,departamento,PYG,2026-08-01,43,5000000,837
 d:asuncion,Asunción,month,departamento,PYG,2026-09-01,41,4500000,759
-d:asuncion,Asunción,month,departamento,PYG,2026-10-01,50,4600000,795
+d:asuncion,Asunción,month,departamento,PYG,2026-10-01,53,4500000,777
 d:asuncion,Asunción,month,duplex,PYG,2025-08-01,2,,
 d:asuncion,Asunción,month,duplex,PYG,2025-09-01,4,,
 d:asuncion,Asunción,month,duplex,PYG,2025-10-01,2,,
@@ -151,13 +152,13 @@ d:asuncion,Asunción,quarter,casa,PYG,2025-10-01,23,5500000,793
 d:asuncion,Asunción,quarter,casa,PYG,2026-01-01,18,,
 d:asuncion,Asunción,quarter,casa,PYG,2026-04-01,24,4250000,686
 d:asuncion,Asunción,quarter,casa,PYG,2026-07-01,35,5500000,919
-d:asuncion,Asunción,quarter,casa,PYG,2026-10-01,8,,
+d:asuncion,Asunción,quarter,casa,PYG,2026-10-01,9,,
 d:asuncion,Asunción,quarter,departamento,PYG,2025-07-01,59,4000000,556
 d:asuncion,Asunción,quarter,departamento,PYG,2025-10-01,147,4500000,649
 d:asuncion,Asunción,quarter,departamento,PYG,2026-01-01,189,4445000,676
 d:asuncion,Asunción,quarter,departamento,PYG,2026-04-01,136,4396000,709
 d:asuncion,Asunción,quarter,departamento,PYG,2026-07-01,144,4500000,752
-d:asuncion,Asunción,quarter,departamento,PYG,2026-10-01,50,4600000,795
+d:asuncion,Asunción,quarter,departamento,PYG,2026-10-01,53,4500000,776
 d:asuncion,Asunción,quarter,departamento,USD,2025-07-01,3,,
 d:asuncion,Asunción,quarter,departamento,USD,2025-10-01,4,,
 d:asuncion,Asunción,quarter,departamento,USD,2026-01-01,6,,
@@ -201,7 +202,7 @@ d:central,Central,month,departamento,PYG,2026-06-01,36,2900000,474
 d:central,Central,month,departamento,PYG,2026-07-01,35,3200000,529
 d:central,Central,month,departamento,PYG,2026-08-01,28,2600000,435
 d:central,Central,month,departamento,PYG,2026-09-01,21,2600000,439
-d:central,Central,month,departamento,PYG,2026-10-01,25,3000000,519
+d:central,Central,month,departamento,PYG,2026-10-01,25,3000000,518
 d:central,Central,month,duplex,PYG,2025-08-01,3,,
 d:central,Central,month,duplex,PYG,2025-09-01,11,,
 d:central,Central,month,duplex,PYG,2025-10-01,2,,
@@ -223,13 +224,13 @@ d:central,Central,quarter,casa,PYG,2025-10-01,48,2800000,404
 d:central,Central,quarter,casa,PYG,2026-01-01,69,3000000,457
 d:central,Central,quarter,casa,PYG,2026-04-01,63,3200000,516
 d:central,Central,quarter,casa,PYG,2026-07-01,55,3200000,535
-d:central,Central,quarter,casa,PYG,2026-10-01,23,2500000,432
+d:central,Central,quarter,casa,PYG,2026-10-01,23,2500000,431
 d:central,Central,quarter,departamento,PYG,2025-07-01,35,2750000,382
 d:central,Central,quarter,departamento,PYG,2025-10-01,76,2200000,317
 d:central,Central,quarter,departamento,PYG,2026-01-01,85,2500000,380
 d:central,Central,quarter,departamento,PYG,2026-04-01,88,2750000,444
 d:central,Central,quarter,departamento,PYG,2026-07-01,84,3150000,526
-d:central,Central,quarter,departamento,PYG,2026-10-01,25,3000000,519
+d:central,Central,quarter,departamento,PYG,2026-10-01,25,3000000,517
 d:central,Central,quarter,duplex,PYG,2025-07-01,14,,
 d:central,Central,quarter,duplex,PYG,2025-10-01,31,4000000,577
 d:central,Central,quarter,duplex,PYG,2026-01-01,31,3800000,578
@@ -494,40 +495,6 @@ c:central:capiata,Capiatá,quarter,departamento,PYG,2026-01-01,3,,
 c:central:capiata,Capiatá,quarter,departamento,PYG,2026-07-01,1,,
 c:central:capiata,Capiatá,quarter,departamento,PYG,2026-10-01,1,,
 c:central:capiata,Capiatá,quarter,duplex,PYG,2026-07-01,1,,
-c:central:nemby,Ñemby,month,departamento,PYG,2025-09-01,1,,
-c:central:nemby,Ñemby,month,departamento,PYG,2026-01-01,1,,
-c:central:nemby,Ñemby,month,departamento,PYG,2026-02-01,7,,
-c:central:nemby,Ñemby,month,departamento,PYG,2026-03-01,1,,
-c:central:nemby,Ñemby,month,departamento,PYG,2026-04-01,4,,
-c:central:nemby,Ñemby,month,departamento,PYG,2026-05-01,3,,
-c:central:nemby,Ñemby,month,departamento,PYG,2026-06-01,2,,
-c:central:nemby,Ñemby,month,departamento,PYG,2026-07-01,2,,
-c:central:nemby,Ñemby,month,casa,PYG,2025-11-01,2,,
-c:central:nemby,Ñemby,month,casa,PYG,2026-01-01,1,,
-c:central:nemby,Ñemby,month,casa,PYG,2026-02-01,1,,
-c:central:nemby,Ñemby,month,casa,PYG,2026-03-01,2,,
-c:central:nemby,Ñemby,month,casa,PYG,2026-04-01,1,,
-c:central:nemby,Ñemby,month,casa,PYG,2026-05-01,3,,
-c:central:nemby,Ñemby,month,casa,PYG,2026-06-01,1,,
-c:central:nemby,Ñemby,month,casa,PYG,2026-08-01,4,,
-c:central:nemby,Ñemby,month,casa,PYG,2026-09-01,1,,
-c:central:nemby,Ñemby,month,duplex,PYG,2025-11-01,2,,
-c:central:nemby,Ñemby,month,duplex,PYG,2026-01-01,1,,
-c:central:nemby,Ñemby,month,duplex,PYG,2026-03-01,1,,
-c:central:nemby,Ñemby,month,duplex,PYG,2026-09-01,1,,
-c:central:nemby,Ñemby,month,duplex,PYG,2026-11-01,1,,
-c:central:nemby,Ñemby,quarter,departamento,PYG,2025-07-01,1,,
-c:central:nemby,Ñemby,quarter,departamento,PYG,2026-01-01,9,,
-c:central:nemby,Ñemby,quarter,departamento,PYG,2026-04-01,9,,
-c:central:nemby,Ñemby,quarter,departamento,PYG,2026-07-01,2,,
-c:central:nemby,Ñemby,quarter,casa,PYG,2025-10-01,2,,
-c:central:nemby,Ñemby,quarter,casa,PYG,2026-01-01,4,,
-c:central:nemby,Ñemby,quarter,casa,PYG,2026-04-01,5,,
-c:central:nemby,Ñemby,quarter,casa,PYG,2026-07-01,5,,
-c:central:nemby,Ñemby,quarter,duplex,PYG,2025-10-01,2,,
-c:central:nemby,Ñemby,quarter,duplex,PYG,2026-01-01,2,,
-c:central:nemby,Ñemby,quarter,duplex,PYG,2026-07-01,1,,
-c:central:nemby,Ñemby,quarter,duplex,PYG,2026-10-01,1,,
 c:central:mariano-roque-alonso,Mariano Roque Alonso,month,casa,PYG,2025-09-01,2,,
 c:central:mariano-roque-alonso,Mariano Roque Alonso,month,casa,PYG,2025-10-01,1,,
 c:central:mariano-roque-alonso,Mariano Roque Alonso,month,casa,PYG,2025-11-01,1,,
@@ -572,6 +539,40 @@ c:central:mariano-roque-alonso,Mariano Roque Alonso,quarter,departamento,PYG,202
 c:central:mariano-roque-alonso,Mariano Roque Alonso,quarter,duplex,PYG,2025-07-01,2,,
 c:central:mariano-roque-alonso,Mariano Roque Alonso,quarter,duplex,PYG,2026-04-01,1,,
 c:central:mariano-roque-alonso,Mariano Roque Alonso,quarter,duplex,PYG,2026-10-01,2,,
+c:central:nemby,Ñemby,month,departamento,PYG,2025-09-01,1,,
+c:central:nemby,Ñemby,month,departamento,PYG,2026-01-01,1,,
+c:central:nemby,Ñemby,month,departamento,PYG,2026-02-01,7,,
+c:central:nemby,Ñemby,month,departamento,PYG,2026-03-01,1,,
+c:central:nemby,Ñemby,month,departamento,PYG,2026-04-01,4,,
+c:central:nemby,Ñemby,month,departamento,PYG,2026-05-01,3,,
+c:central:nemby,Ñemby,month,departamento,PYG,2026-06-01,2,,
+c:central:nemby,Ñemby,month,departamento,PYG,2026-07-01,2,,
+c:central:nemby,Ñemby,month,casa,PYG,2025-11-01,2,,
+c:central:nemby,Ñemby,month,casa,PYG,2026-01-01,1,,
+c:central:nemby,Ñemby,month,casa,PYG,2026-02-01,1,,
+c:central:nemby,Ñemby,month,casa,PYG,2026-03-01,2,,
+c:central:nemby,Ñemby,month,casa,PYG,2026-04-01,1,,
+c:central:nemby,Ñemby,month,casa,PYG,2026-05-01,3,,
+c:central:nemby,Ñemby,month,casa,PYG,2026-06-01,1,,
+c:central:nemby,Ñemby,month,casa,PYG,2026-08-01,4,,
+c:central:nemby,Ñemby,month,casa,PYG,2026-09-01,1,,
+c:central:nemby,Ñemby,month,duplex,PYG,2025-11-01,2,,
+c:central:nemby,Ñemby,month,duplex,PYG,2026-01-01,1,,
+c:central:nemby,Ñemby,month,duplex,PYG,2026-03-01,1,,
+c:central:nemby,Ñemby,month,duplex,PYG,2026-09-01,1,,
+c:central:nemby,Ñemby,month,duplex,PYG,2026-11-01,1,,
+c:central:nemby,Ñemby,quarter,departamento,PYG,2025-07-01,1,,
+c:central:nemby,Ñemby,quarter,departamento,PYG,2026-01-01,9,,
+c:central:nemby,Ñemby,quarter,departamento,PYG,2026-04-01,9,,
+c:central:nemby,Ñemby,quarter,departamento,PYG,2026-07-01,2,,
+c:central:nemby,Ñemby,quarter,casa,PYG,2025-10-01,2,,
+c:central:nemby,Ñemby,quarter,casa,PYG,2026-01-01,4,,
+c:central:nemby,Ñemby,quarter,casa,PYG,2026-04-01,5,,
+c:central:nemby,Ñemby,quarter,casa,PYG,2026-07-01,5,,
+c:central:nemby,Ñemby,quarter,duplex,PYG,2025-10-01,2,,
+c:central:nemby,Ñemby,quarter,duplex,PYG,2026-01-01,2,,
+c:central:nemby,Ñemby,quarter,duplex,PYG,2026-07-01,1,,
+c:central:nemby,Ñemby,quarter,duplex,PYG,2026-10-01,1,,
 c:central:limpio,Limpio,month,casa,PYG,2025-11-01,1,,
 c:central:limpio,Limpio,month,casa,PYG,2026-02-01,2,,
 c:central:limpio,Limpio,month,casa,PYG,2026-05-01,3,,
@@ -828,6 +829,7 @@ d:alto-parana,Alto Paraná,month,casa,PYG,2026-07-01,13,,
 d:alto-parana,Alto Paraná,month,casa,PYG,2026-08-01,2,,
 d:alto-parana,Alto Paraná,month,casa,PYG,2026-09-01,9,,
 d:alto-parana,Alto Paraná,month,casa,PYG,2026-10-01,3,,
+d:alto-parana,Alto Paraná,month,casa,PYG,2026-11-01,1,,
 d:alto-parana,Alto Paraná,month,departamento,PYG,2025-09-01,2,,
 d:alto-parana,Alto Paraná,month,departamento,PYG,2025-10-01,1,,
 d:alto-parana,Alto Paraná,month,departamento,PYG,2025-12-01,1,,
@@ -852,7 +854,7 @@ d:alto-parana,Alto Paraná,quarter,casa,PYG,2025-10-01,17,,
 d:alto-parana,Alto Paraná,quarter,casa,PYG,2026-01-01,22,3975000,605
 d:alto-parana,Alto Paraná,quarter,casa,PYG,2026-04-01,17,,
 d:alto-parana,Alto Paraná,quarter,casa,PYG,2026-07-01,24,3050000,510
-d:alto-parana,Alto Paraná,quarter,casa,PYG,2026-10-01,3,,
+d:alto-parana,Alto Paraná,quarter,casa,PYG,2026-10-01,4,,
 d:alto-parana,Alto Paraná,quarter,departamento,PYG,2025-07-01,2,,
 d:alto-parana,Alto Paraná,quarter,departamento,PYG,2025-10-01,2,,
 d:alto-parana,Alto Paraná,quarter,departamento,PYG,2026-01-01,14,,
@@ -890,6 +892,7 @@ c:alto-parana:ciudad-del-este,Ciudad del Este,month,casa,PYG,2026-07-01,5,,
 c:alto-parana:ciudad-del-este,Ciudad del Este,month,casa,PYG,2026-08-01,1,,
 c:alto-parana:ciudad-del-este,Ciudad del Este,month,casa,PYG,2026-09-01,3,,
 c:alto-parana:ciudad-del-este,Ciudad del Este,month,casa,PYG,2026-10-01,2,,
+c:alto-parana:ciudad-del-este,Ciudad del Este,month,casa,PYG,2026-11-01,1,,
 c:alto-parana:ciudad-del-este,Ciudad del Este,quarter,departamento,PYG,2025-07-01,2,,
 c:alto-parana:ciudad-del-este,Ciudad del Este,quarter,departamento,PYG,2025-10-01,2,,
 c:alto-parana:ciudad-del-este,Ciudad del Este,quarter,departamento,PYG,2026-01-01,9,,
@@ -902,7 +905,7 @@ c:alto-parana:ciudad-del-este,Ciudad del Este,quarter,casa,PYG,2025-10-01,2,,
 c:alto-parana:ciudad-del-este,Ciudad del Este,quarter,casa,PYG,2026-01-01,12,,
 c:alto-parana:ciudad-del-este,Ciudad del Este,quarter,casa,PYG,2026-04-01,6,,
 c:alto-parana:ciudad-del-este,Ciudad del Este,quarter,casa,PYG,2026-07-01,9,,
-c:alto-parana:ciudad-del-este,Ciudad del Este,quarter,casa,PYG,2026-10-01,2,,
+c:alto-parana:ciudad-del-este,Ciudad del Este,quarter,casa,PYG,2026-10-01,3,,
 c:alto-parana:hernandarias,Hernandarias,month,casa,PYG,2025-09-01,1,,
 c:alto-parana:hernandarias,Hernandarias,month,casa,PYG,2025-11-01,1,,
 c:alto-parana:hernandarias,Hernandarias,month,casa,PYG,2026-01-01,1,,
@@ -935,7 +938,7 @@ d:boqueron,Boquerón,month,casa,PYG,2026-07-01,5,,
 d:boqueron,Boquerón,month,casa,PYG,2026-08-01,4,,
 d:boqueron,Boquerón,month,casa,PYG,2026-09-01,2,,
 d:boqueron,Boquerón,month,casa,PYG,2026-10-01,6,,
-d:boqueron,Boquerón,month,casa,PYG,2026-11-01,1,,
+d:boqueron,Boquerón,month,casa,PYG,2026-11-01,2,,
 d:boqueron,Boquerón,month,departamento,PYG,2025-09-01,1,,
 d:boqueron,Boquerón,month,departamento,PYG,2026-09-01,1,,
 d:boqueron,Boquerón,quarter,casa,PYG,2025-07-01,2,,
@@ -943,7 +946,7 @@ d:boqueron,Boquerón,quarter,casa,PYG,2025-10-01,5,,
 d:boqueron,Boquerón,quarter,casa,PYG,2026-01-01,14,,
 d:boqueron,Boquerón,quarter,casa,PYG,2026-04-01,11,,
 d:boqueron,Boquerón,quarter,casa,PYG,2026-07-01,11,,
-d:boqueron,Boquerón,quarter,casa,PYG,2026-10-01,7,,
+d:boqueron,Boquerón,quarter,casa,PYG,2026-10-01,8,,
 d:boqueron,Boquerón,quarter,departamento,PYG,2025-07-01,1,,
 d:boqueron,Boquerón,quarter,departamento,PYG,2026-07-01,1,,
 d:presidente-hayes,Presidente Hayes,month,casa,PYG,2026-01-01,1,,
