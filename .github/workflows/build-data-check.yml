@@ -1,0 +1,82 @@
+name: tekoha-build-data-check
+
+# A dry run of the build-data path, on a push to the build-data branch only: the dashboard builder runs on the
+# restored export (ddvanlith/tekoha, branch build-data) from the tree the last published dashboard build started from,
+# and its output is compared file by file with the published dashboard. Nothing is published and Supabase is not read.
+on:
+  push:
+    branches: [build-data]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 60
+          path: published
+
+      # The last dashboard build committed dashboard/data; the commit before it is the tree that build read its previous
+      # figures from (the NEW tags compare against them).
+      - name: The tree the last build started from
+        run: |
+          cd published
+          last=$(git log -1 --format=%H -- dashboard/data)
+          base=$(git rev-parse "$last^")
+          echo "published data: $(git log -1 --format='%h %cI %s' "$last"); started from: $(git log -1 --format='%h %s' "$base")"
+          git worktree add -q "$GITHUB_WORKSPACE/site" "$base"
+
+      - uses: actions/checkout@v5
+        with:
+          repository: ddvanlith/tekoha
+          ref: egress-build-data
+          ssh-key: ${{ secrets.TEKOHA_CODE_KEY }}
+          persist-credentials: false
+          path: code
+
+      - uses: actions/checkout@v5
+        with:
+          repository: ddvanlith/tekoha
+          ref: build-data
+          ssh-key: ${{ secrets.TEKOHA_CODE_KEY }}
+          persist-credentials: false
+          path: build-data
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: code/package-lock.json
+
+      - name: Install
+        working-directory: code
+        run: npm ci --no-audit --no-fund
+
+      - name: Restore the build data
+        working-directory: code
+        run: |
+          bash pipeline/build-data/postgis.sh
+          PSQL="docker exec -i tekoha-pg psql -U postgres -d postgres -q" node pipeline/build-data/restore.mjs --dir "$GITHUB_WORKSPACE/build-data"
+
+      - name: Build as dashboard.yml does
+        working-directory: code
+        env:
+          DATABASE_URL: postgresql://tekoha_reader:tekoha@localhost:5432/postgres
+          # Prints what each builder received from the database: what it would read from Supabase with the same rows.
+          NODE_OPTIONS: --import=file://${{ github.workspace }}/code/pipeline/build-data/count-reads.mjs
+          CF_ANALYTICS_TOKEN: ${{ vars.CF_ANALYTICS_TOKEN }}
+        run: |
+          mkdir -p data
+          if [ -f ../site/health-status.txt ]; then cp ../site/health-status.txt data/health-status.txt; fi
+          SITE_DIR="$GITHUB_WORKSPACE/site" node pipeline/build-dashboard.mjs 2>&1 | sed -E -u 's#postgres(ql)?://[^[:space:]]*#[connection string]#g; s/[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}/[email]/g'
+
+      - name: Compare with the published dashboard
+        run: node code/pipeline/build-data/compare.mjs site published dashboard
