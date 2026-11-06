@@ -1,8 +1,11 @@
 name: tekoha-build-data-check
 
-# A dry run of the build-data path, on a push to the build-data branch only: the dashboard builder runs on the
-# restored export (ddvanlith/tekoha, branch build-data) from the tree the last published dashboard build started from,
-# and its output is compared file by file with the published dashboard. Nothing is published and Supabase is not read.
+# A dry run of the build-data path, on a push to the build-data branch only. The dashboard builder runs twice from the
+# tree the last published dashboard build started from: once on the restored export (ddvanlith/tekoha, branch
+# build-data), once on Supabase as dashboard.yml runs it today, a few minutes apart on the same day, so the date windows
+# match; the two outputs are compared file by file, the build's own clock (as_of) aside. The export path is also
+# compared with the published dashboard, which another day's windows make differ. Nothing is published. Each build
+# prints what it received from its database.
 on:
   push:
     branches: [build-data]
@@ -33,6 +36,7 @@ jobs:
           base=$(git rev-parse "$last^")
           echo "published data: $(git log -1 --format='%h %cI %s' "$last"); started from: $(git log -1 --format='%h %s' "$base")"
           git worktree add -q "$GITHUB_WORKSPACE/site" "$base"
+          git worktree add -q "$GITHUB_WORKSPACE/site-db" "$base"
 
       - uses: actions/checkout@v5
         with:
@@ -66,11 +70,10 @@ jobs:
           bash pipeline/build-data/postgis.sh
           PSQL="docker exec -i tekoha-pg psql -U postgres -d postgres -q" node pipeline/build-data/restore.mjs --dir "$GITHUB_WORKSPACE/build-data"
 
-      - name: Build as dashboard.yml does
+      - name: Build from the export
         working-directory: code
         env:
           DATABASE_URL: postgresql://tekoha_reader:tekoha@localhost:5432/postgres
-          # Prints what each builder received from the database: what it would read from Supabase with the same rows.
           NODE_OPTIONS: --import=file://${{ github.workspace }}/code/pipeline/build-data/count-reads.mjs
           CF_ANALYTICS_TOKEN: ${{ vars.CF_ANALYTICS_TOKEN }}
         run: |
@@ -78,5 +81,17 @@ jobs:
           if [ -f ../site/health-status.txt ]; then cp ../site/health-status.txt data/health-status.txt; fi
           SITE_DIR="$GITHUB_WORKSPACE/site" node pipeline/build-dashboard.mjs 2>&1 | sed -E -u 's#postgres(ql)?://[^[:space:]]*#[connection string]#g; s/[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}/[email]/g'
 
-      - name: Compare with the published dashboard
-        run: node code/pipeline/build-data/compare.mjs site published dashboard
+      - name: Build from Supabase, as dashboard.yml does today
+        working-directory: code
+        env:
+          DATABASE_URL: ${{ secrets.READONLY_DATABASE_URL }}
+          NODE_OPTIONS: --import=file://${{ github.workspace }}/code/pipeline/build-data/count-reads.mjs
+          CF_ANALYTICS_TOKEN: ${{ vars.CF_ANALYTICS_TOKEN }}
+        run: |
+          SITE_DIR="$GITHUB_WORKSPACE/site-db" node pipeline/build-dashboard.mjs 2>&1 | sed -E -u 's#postgres(ql)?://[^[:space:]]*#[connection string]#g; s/[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}/[email]/g'
+
+      - name: Compare the export build with the Supabase build
+        run: node code/pipeline/build-data/compare.mjs site site-db dashboard --ignore '"as_of":"[^"]*"'
+
+      - name: Compare the export build with the published dashboard (another day)
+        run: node code/pipeline/build-data/compare.mjs site published dashboard --ignore '"as_of":"[^"]*"'
