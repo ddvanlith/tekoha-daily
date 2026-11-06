@@ -3,11 +3,14 @@
 // the price-coverage rule and the asking or closed split; this file only formats, so a suppressed
 // figure arrives as {n, suppressed} and is shown as its n, never as a number. Chart.js and Leaflet
 // are the only dependencies (cdnjs, pinned).
-const FLOW = [["cuts", "Price cuts", "#3987e5"], ["increases", "Price rises", "#d95926"], ["new", "New to market", "#199e70"],
-  ["delisted", "Delisted", "#c98500"], ["went_sold", "Marked sold", "#d55181"], ["went_rented", "Marked rented", "#008300"]];
-const KIND_COLOR = { departamento: "#3987e5", casa: "#d95926", duplex: "#199e70", terreno: "#d55181" };
-const RAMP = ["#764f00", "#966700", "#b5811c", "#d49c3a", "#efba64", "#ffd691"];
-const CUT_DOT = "#3987e5", REO_DOT = "#d55181", INK = "#171310", GOLD = "#a97e2f";
+// The brand's light colours (2026-11-05). FLOW and KIND_COLOR keep this slot order: it is the order whose neighbours pass
+// the colour-blind and normal-vision checks on white. The map's dots sit on the cobalt ramp, so they take warm or green
+// slots, ringed in white.
+const FLOW = [["cuts", "Price cuts", "#2D5BFF"], ["increases", "Price rises", "#FF6B57"], ["new", "New to market", "#1baf7a"],
+  ["delisted", "Delisted", "#eda100"], ["went_sold", "Marked sold", "#e87ba4"], ["went_rented", "Marked rented", "#008300"]];
+const KIND_COLOR = { departamento: "#2D5BFF", casa: "#FF6B57", duplex: "#1baf7a", terreno: "#eda100" };
+const RAMP = ["#bcd1ff", "#95b4fd", "#6f97f8", "#4774f6", "#2a53e1", "#193ab8"];
+const CUT_DOT = "#FF6B57", REO_DOT = "#1baf7a", RING = "#FFFFFF", TOTAL = "#0C1838", CLOSE_BAR = "#FF6B57";
 const SOURCES = { remax: "RE/MAX", infocasas: "InfoCasas", uprop: "uProp", c21: "Century 21", cb: "Coldwell Banker",
   psir: "Sotheby's", prestige: "Prestige" };
 const BANKS = { atlas: "Atlas", bancop: "Bancop", basa: "BASA", bna: "Banco Nación", bnf: "BNF", caja_bancaria: "Caja Bancaria",
@@ -422,7 +425,7 @@ const popup = (r, tip, name) => h("div", {}, tip(r), r.url ? h("div", { class: "
 function dots(group, rows, color, tip, nameOf) {
   group.clearLayers();
   for (const r of rows) if (r.lat != null) {
-    L.circleMarker([r.lat, r.lon], { renderer, radius: 6, color: INK, weight: 2, fillColor: color, fillOpacity: 1 })
+    L.circleMarker([r.lat, r.lon], { renderer, radius: 6, color: RING, weight: 2, fillColor: color, fillOpacity: 1 })
       .bindTooltip(() => tip(r)).bindPopup(() => popup(r, tip, nameOf(r)))
       .on("popupopen", (e) => e.target.closeTooltip()).addTo(group);
   }
@@ -454,14 +457,14 @@ function renderLegend() {
 
 // ---------- charts ----------
 function chartDefaults() {
-  Object.assign(Chart.defaults, { color: "#9a8d7a", borderColor: "#2e2820", maintainAspectRatio: false, animation: false });
-  Object.assign(Chart.defaults.font, { family: "'Instrument Sans', system-ui, sans-serif", size: 11.5 });
-  Object.assign(Chart.defaults.plugins.tooltip, { backgroundColor: "#0f0c0a", borderColor: "#4a4034", borderWidth: 1, padding: 9,
-    titleColor: "#f2ede7", bodyColor: "#f2ede7", footerColor: "#9a8d7a", boxPadding: 4, usePointStyle: true,
+  Object.assign(Chart.defaults, { color: "#56627F", borderColor: "#DCE3F7", maintainAspectRatio: false, animation: false });
+  Object.assign(Chart.defaults.font, { family: "'Bricolage Grotesque', ui-sans-serif, system-ui, sans-serif", size: 11.5 });
+  Object.assign(Chart.defaults.plugins.tooltip, { backgroundColor: "#FFFFFF", borderColor: "#C3CDEA", borderWidth: 1, padding: 9,
+    titleColor: "#0C1838", bodyColor: "#0C1838", footerColor: "#56627F", boxPadding: 4, usePointStyle: true,
     filter: (item) => item.raw != null });
-  Object.assign(Chart.defaults.plugins.legend.labels, { boxWidth: 10, boxHeight: 10, color: "#b7aa96", padding: 12 });
+  Object.assign(Chart.defaults.plugins.legend.labels, { boxWidth: 10, boxHeight: 10, color: "#34405F", padding: 12 });
 }
-const yAxis = (fmt, extra = {}) => ({ beginAtZero: true, grid: { color: "#2e2820" }, border: { display: false },
+const yAxis = (fmt, extra = {}) => ({ beginAtZero: true, grid: { color: "#DCE3F7" }, border: { display: false },
   ticks: { callback: fmt, maxTicksLimit: 5 }, afterFit: (s) => { s.width = 64; }, ...extra });
 const xAxis = (fmt, extra = {}) => ({ grid: { display: false }, ticks: { maxRotation: 0, autoSkip: true, maxTicksLimit: 7,
   callback(v) { return fmt(this.getLabelForValue(v)); } }, ...extra });
@@ -497,7 +500,7 @@ function buildCharts() {
 const lastIndex = (arr) => { for (let i = arr.length - 1; i >= 0; i--) if (arr[i] != null) return i; return -1; };
 // Markers on the latest point and on any point with no neighbour, which a line alone would not draw.
 const lineSet = (label, data, color, extra = {}) => ({ label, data, borderColor: color, backgroundColor: color, borderWidth: 2, tension: 0,
-  spanGaps: false, borderJoinStyle: "round", borderCapStyle: "round", pointBackgroundColor: color, pointBorderColor: "#1e1914",
+  spanGaps: false, borderJoinStyle: "round", borderCapStyle: "round", pointBackgroundColor: color, pointBorderColor: "#FFFFFF",
   pointBorderWidth: 2, pointHoverRadius: 5,
   pointRadius: (c) => { const d = c.dataset.data, i = c.dataIndex; return i === lastIndex(d) || (d[i] != null && d[i - 1] == null && d[i + 1] == null) ? 4 : 0; },
   ...extra });
@@ -515,7 +518,7 @@ function quarterTitle(q) {
 function renderFlow() {
   const t = D.trends.asking_flow_daily, f = t.markets[S.market];
   charts.flow.data = { labels: t.days, datasets: FLOW.map(([k, label, color]) => ({ label, data: f[k], backgroundColor: color,
-    borderColor: "#1e1914", borderWidth: { top: 2, right: 0, bottom: 0, left: 0 }, borderSkipped: false, borderRadius: 2, maxBarThickness: 24 })) };
+    borderColor: "#FFFFFF", borderWidth: { top: 2, right: 0, bottom: 0, left: 0 }, borderSkipped: false, borderRadius: 2, maxBarThickness: 24 })) };
   charts.flow.update();
   stamp("flow-stamp", false, ` listing events per capture day, all operations, ${day(t.days[0])} to ${day(t.days.at(-1))}. ` +
     `A missing bar means no capture ran that day. The series starts the day after our first capture (${day(D.summary.history_start)}).`);
@@ -525,7 +528,7 @@ function renderCloses() {
   const monday = addDays(D.summary.date, -((new Date(D.summary.date + "T00:00:00Z").getUTCDay() + 6) % 7));
   const weeks = weeksFrom(t.closed_weekly.from, monday), byWeek = new Map(rows);
   const total = rows.reduce((a, r) => a + r[1], 0);
-  charts.closes.data = { labels: weeks, datasets: [{ data: weeks.map((w) => byWeek.get(w) ?? 0), backgroundColor: GOLD, maxBarThickness: 24, borderRadius: 1 }] };
+  charts.closes.data = { labels: weeks, datasets: [{ data: weeks.map((w) => byWeek.get(w) ?? 0), backgroundColor: CLOSE_BAR, maxBarThickness: 24, borderRadius: 1 }] };
   charts.closes.update();
   const what = op === "sale" ? "sales" : "rentals";
   empty("c-closes", total ? "" : `No broker-reported ${what} with a price in this market since ${monthYear(t.closed_weekly.from)}`);
@@ -539,7 +542,7 @@ function renderCloses() {
   const sets = (src ? drawn(src.id) : []).map((k) => {
     const byQ = new Map(qd[k].map((x) => [x[0], x]));
     return lineSet(`${lent ? `${src.name}: ` : ""}${k === "all" ? "All kinds" : kindName(k)}`, quarters.map((p) => byQ.get(p)?.[2] ?? null),
-      k === "all" ? GOLD : KIND_COLOR[k], { rows: quarters.map((p) => byQ.get(p) || null), borderWidth: k === "all" ? 3 : 2, pointRadius: 3 });
+      k === "all" ? TOTAL : KIND_COLOR[k], { rows: quarters.map((p) => byQ.get(p) || null), borderWidth: k === "all" ? 3 : 2, pointRadius: 3 });
   });
   charts.spreadq.data = { labels: quarters, datasets: sets };
   charts.spreadq.update();
@@ -564,7 +567,7 @@ function rentChoice(id) {
   const rc = D.trends.closed_rent.markets[id];
   return { win: "quarter", sets: Object.entries(rc.quarter).filter(([, rows]) => rows.some((x) => x[2] != null)) };
 }
-const PANEL = "#1e1914";
+const PANEL = "#FFFFFF";
 function renderRent() {
   const src = borrow((id) => rentChoice(id).sets.length > 0), lent = src && src.id !== S.market, from = D.trends.closed_rent.from;
   S.borrowed.rent = src?.id ?? S.market;
@@ -574,7 +577,7 @@ function renderRent() {
   const open = (i) => labels[i] === live;
   const order = ["departamento", "casa", "duplex"];
   const ds = sets.sort((a, b) => order.indexOf(a[0].split("|")[0]) - order.indexOf(b[0].split("|")[0])).map(([key, rows]) => {
-    const [kind, cur] = key.split("|"), byP = new Map(rows.map((x) => [x[0], x])), color = KIND_COLOR[kind] || GOLD;
+    const [kind, cur] = key.split("|"), byP = new Map(rows.map((x) => [x[0], x])), color = KIND_COLOR[kind] || TOTAL;
     return lineSet(`${lent ? `${src.name}: ` : ""}${kindName(kind)}${cur === "USD" ? ", settled in USD" : ""}`, labels.map((p) => byP.get(p)?.[2] ?? null),
       color, { ns: labels.map((p) => byP.get(p)?.[1] ?? 0), cur, yAxisID: cur === "USD" ? "usd" : "y", borderDash: cur === "USD" ? [5, 4] : undefined,
         pointBackgroundColor: (c) => (open(c.dataIndex) ? PANEL : color), pointBorderColor: (c) => (open(c.dataIndex) ? color : PANEL),

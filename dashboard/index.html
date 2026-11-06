@@ -5,18 +5,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Tekoha Market Dashboard</title>
 <meta name="description" content="Paraguay real estate measured every morning: asking prices, price cuts, broker-reported closes and bank-owned parcels, by department and city.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%23171310'/%3E%3Cpath d='M3.5 4h9v2h-3.5v7h-2v-7h-3.5z' fill='%23a97e2f'/%3E%3C/svg%3E">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Instrument+Sans:wght@400;600;700&family=Martian+Mono:wght@400;600&display=swap" media="print" onload="this.media='all'">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Instrument+Sans:wght@400;600;700&family=Martian+Mono:wght@400;600&display=swap"></noscript>
+<meta name="theme-color" content="#ffffff">
+<link rel="icon" href="/brand/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/brand/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/brand/apple-touch-icon-180.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="preload" href="/brand/fonts/bricolage-grotesque.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" integrity="sha512-h9FcoyWjHcOcmEVkxOfTLnmZFWIH0iZhZT1H2TbOq55xssQGEJHEaIm+PgoUaZbRvQTNTluNOEfb1ZRy6D3BOw==" crossorigin="anonymous" referrerpolicy="no-referrer">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <header class="bar">
   <div class="wrap">
-    <a class="mark" href="/">Tekoha<b>Dashboard</b></a>
+    <a class="mark" href="/"><img src="/brand/lockup.svg" alt="Tekoha" width="112" height="24"><b>Dashboard</b></a>
     <nav class="nav"><a href="#method">Method</a><a href="#downloads">Data</a></nav>
     <div class="asof" id="asof">Loading today's data</div>
     <div class="picker" id="picker">
@@ -50,8 +51,8 @@
           <button type="button" data-v="departamento" aria-pressed="true">Departamento</button>
           <button type="button" data-v="casa" aria-pressed="false">Casa</button>
         </div>
-        <label class="chk"><input type="checkbox" id="lyr-cuts" checked> <span class="key" style="background:#3987e5"></span> Price cuts, 7 days</label>
-        <label class="chk"><input type="checkbox" id="lyr-reo"> <span class="key" style="background:#d55181"></span> Bank REO</label>
+        <label class="chk"><input type="checkbox" id="lyr-cuts" checked> <span class="key" style="background:#FF6B57"></span> Price cuts, 7 days</label>
+        <label class="chk"><input type="checkbox" id="lyr-reo"> <span class="key" style="background:#1baf7a"></span> Bank REO</label>
       </div>
     </div>
     <div id="map" role="region" aria-label="Map of asking prices, price cuts and bank-owned parcels"></div>
@@ -267,7 +268,7 @@
   </section>
 </main>
 
-<footer>TEKOHA DAILY &middot; measured, not modeled, except figures tagged estimate &middot; asking prices unless marked closed &middot; <a href="/tekoha-pages/privacidad/">Privacy</a></footer>
+<footer>Tekoha &middot; measured, not modeled, except figures tagged estimate &middot; asking prices unless marked closed &middot; <a href="/tekoha-pages/privacidad/">Privacy</a></footer>
 
 <noscript><p class="wrap">This dashboard needs JavaScript. Every table is also available as CSV in the data folder.</p></noscript>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.5.1/chart.umd.min.js" integrity="sha512-WoViKhKD4qI2WruSZqv9+kvM4WfFhUMQCLN4QlDTt5aU56fLQy2gYoxWIqlEnXqJy/+Ac5q/hk1oWfqnMDhwMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
