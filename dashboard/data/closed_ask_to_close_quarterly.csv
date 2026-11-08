@@ -345,6 +345,39 @@ c:central:capiata,Capiatá,rent,departamento,2025-10-01,5,,,,1
 c:central:capiata,Capiatá,rent,departamento,2026-01-01,3,,,,0
 c:central:capiata,Capiatá,rent,departamento,2026-07-01,1,,,,1
 c:central:capiata,Capiatá,rent,departamento,2026-10-01,1,,,,1
+c:central:nemby,Ñemby,sale,terreno,2025-07-01,4,,,,3
+c:central:nemby,Ñemby,sale,terreno,2025-10-01,6,,,,4
+c:central:nemby,Ñemby,sale,terreno,2026-01-01,11,,,,6
+c:central:nemby,Ñemby,sale,terreno,2026-04-01,6,,,,4
+c:central:nemby,Ñemby,sale,terreno,2026-07-01,10,,,,6
+c:central:nemby,Ñemby,sale,terreno,2026-10-01,1,,,,1
+c:central:nemby,Ñemby,sale,all,2025-07-01,4,,,,3
+c:central:nemby,Ñemby,sale,all,2025-10-01,9,,,,7
+c:central:nemby,Ñemby,sale,all,2026-01-01,14,,,,7
+c:central:nemby,Ñemby,sale,all,2026-04-01,10,,,,5
+c:central:nemby,Ñemby,sale,all,2026-07-01,15,,,,8
+c:central:nemby,Ñemby,sale,all,2026-10-01,2,,,,1
+c:central:nemby,Ñemby,sale,casa,2025-10-01,3,,,,3
+c:central:nemby,Ñemby,sale,casa,2026-01-01,3,,,,1
+c:central:nemby,Ñemby,sale,casa,2026-04-01,3,,,,0
+c:central:nemby,Ñemby,sale,casa,2026-07-01,4,,,,2
+c:central:nemby,Ñemby,sale,casa,2026-10-01,1,,,,0
+c:central:nemby,Ñemby,sale,duplex,2026-04-01,1,,,,1
+c:central:nemby,Ñemby,sale,duplex,2026-07-01,1,,,,0
+c:central:nemby,Ñemby,rent,departamento,2025-07-01,1,,,,1
+c:central:nemby,Ñemby,rent,departamento,2026-01-01,9,,,,0
+c:central:nemby,Ñemby,rent,departamento,2026-04-01,8,,,,1
+c:central:nemby,Ñemby,rent,departamento,2026-07-01,2,,,,0
+c:central:nemby,Ñemby,rent,all,2025-07-01,6,,,,4
+c:central:nemby,Ñemby,rent,all,2025-10-01,7,,,,1
+c:central:nemby,Ñemby,rent,all,2026-01-01,20,,,,3
+c:central:nemby,Ñemby,rent,all,2026-04-01,14,,,,2
+c:central:nemby,Ñemby,rent,all,2026-07-01,10,,,,1
+c:central:nemby,Ñemby,rent,all,2026-10-01,3,,,,2
+c:central:nemby,Ñemby,rent,casa,2025-10-01,2,,,,0
+c:central:nemby,Ñemby,rent,casa,2026-01-01,4,,,,1
+c:central:nemby,Ñemby,rent,casa,2026-04-01,5,,,,0
+c:central:nemby,Ñemby,rent,casa,2026-07-01,5,,,,1
 c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,casa,2025-07-01,1,,,,0
 c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,casa,2025-10-01,2,,,,1
 c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,casa,2026-01-01,6,,,,5
@@ -384,39 +417,6 @@ c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,all,2026-01-01,20,,,,3
 c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,all,2026-04-01,22,,,,8
 c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,all,2026-07-01,23,,,,7
 c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,all,2026-10-01,6,,,,0
-c:central:nemby,Ñemby,sale,terreno,2025-07-01,4,,,,3
-c:central:nemby,Ñemby,sale,terreno,2025-10-01,6,,,,4
-c:central:nemby,Ñemby,sale,terreno,2026-01-01,11,,,,6
-c:central:nemby,Ñemby,sale,terreno,2026-04-01,6,,,,4
-c:central:nemby,Ñemby,sale,terreno,2026-07-01,10,,,,6
-c:central:nemby,Ñemby,sale,terreno,2026-10-01,1,,,,1
-c:central:nemby,Ñemby,sale,all,2025-07-01,4,,,,3
-c:central:nemby,Ñemby,sale,all,2025-10-01,9,,,,7
-c:central:nemby,Ñemby,sale,all,2026-01-01,14,,,,7
-c:central:nemby,Ñemby,sale,all,2026-04-01,10,,,,5
-c:central:nemby,Ñemby,sale,all,2026-07-01,15,,,,8
-c:central:nemby,Ñemby,sale,all,2026-10-01,2,,,,1
-c:central:nemby,Ñemby,sale,casa,2025-10-01,3,,,,3
-c:central:nemby,Ñemby,sale,casa,2026-01-01,3,,,,1
-c:central:nemby,Ñemby,sale,casa,2026-04-01,3,,,,0
-c:central:nemby,Ñemby,sale,casa,2026-07-01,4,,,,2
-c:central:nemby,Ñemby,sale,casa,2026-10-01,1,,,,0
-c:central:nemby,Ñemby,sale,duplex,2026-04-01,1,,,,1
-c:central:nemby,Ñemby,sale,duplex,2026-07-01,1,,,,0
-c:central:nemby,Ñemby,rent,departamento,2025-07-01,1,,,,1
-c:central:nemby,Ñemby,rent,departamento,2026-01-01,9,,,,0
-c:central:nemby,Ñemby,rent,departamento,2026-04-01,8,,,,1
-c:central:nemby,Ñemby,rent,departamento,2026-07-01,2,,,,0
-c:central:nemby,Ñemby,rent,all,2025-07-01,6,,,,4
-c:central:nemby,Ñemby,rent,all,2025-10-01,7,,,,1
-c:central:nemby,Ñemby,rent,all,2026-01-01,20,,,,3
-c:central:nemby,Ñemby,rent,all,2026-04-01,14,,,,2
-c:central:nemby,Ñemby,rent,all,2026-07-01,10,,,,1
-c:central:nemby,Ñemby,rent,all,2026-10-01,3,,,,2
-c:central:nemby,Ñemby,rent,casa,2025-10-01,2,,,,0
-c:central:nemby,Ñemby,rent,casa,2026-01-01,4,,,,1
-c:central:nemby,Ñemby,rent,casa,2026-04-01,5,,,,0
-c:central:nemby,Ñemby,rent,casa,2026-07-01,5,,,,1
 c:central:limpio,Limpio,sale,casa,2025-07-01,1,,,,1
 c:central:limpio,Limpio,sale,casa,2025-10-01,4,,,,2
 c:central:limpio,Limpio,sale,casa,2026-01-01,2,,,,1
@@ -827,6 +827,25 @@ c:alto-parana:minga-guazu,Minga Guazú,rent,casa,2026-07-01,1,,,,0
 c:alto-parana:minga-guazu,Minga Guazú,rent,all,2025-10-01,3,,,,0
 c:alto-parana:minga-guazu,Minga Guazú,rent,all,2026-04-01,1,,,,0
 c:alto-parana:minga-guazu,Minga Guazú,rent,all,2026-07-01,1,,,,0
+c:alto-parana:santa-rita,Santa Rita,sale,casa,2025-07-01,1,,,,1
+c:alto-parana:santa-rita,Santa Rita,sale,casa,2026-07-01,1,,,,0
+c:alto-parana:santa-rita,Santa Rita,sale,all,2025-07-01,1,,,,1
+c:alto-parana:santa-rita,Santa Rita,sale,all,2026-07-01,1,,,,0
+c:alto-parana:santa-rita,Santa Rita,rent,casa,2025-07-01,2,,,,0
+c:alto-parana:santa-rita,Santa Rita,rent,casa,2025-10-01,8,,,,0
+c:alto-parana:santa-rita,Santa Rita,rent,casa,2026-01-01,6,,,,1
+c:alto-parana:santa-rita,Santa Rita,rent,casa,2026-04-01,8,,,,2
+c:alto-parana:santa-rita,Santa Rita,rent,casa,2026-07-01,9,,,,1
+c:alto-parana:santa-rita,Santa Rita,rent,casa,2026-10-01,1,,,,1
+c:alto-parana:santa-rita,Santa Rita,rent,all,2025-07-01,7,,,,1
+c:alto-parana:santa-rita,Santa Rita,rent,all,2025-10-01,16,,,,0
+c:alto-parana:santa-rita,Santa Rita,rent,all,2026-01-01,20,,,,1
+c:alto-parana:santa-rita,Santa Rita,rent,all,2026-04-01,19,,,,3
+c:alto-parana:santa-rita,Santa Rita,rent,all,2026-07-01,16,,,,2
+c:alto-parana:santa-rita,Santa Rita,rent,all,2026-10-01,12,,,,2
+c:alto-parana:santa-rita,Santa Rita,rent,departamento,2026-01-01,5,,,,0
+c:alto-parana:santa-rita,Santa Rita,rent,departamento,2026-04-01,3,,,,0
+c:alto-parana:santa-rita,Santa Rita,rent,departamento,2026-10-01,1,,,,0
 d:cordillera,Cordillera,sale,casa,2025-07-01,2,,,,2
 d:cordillera,Cordillera,sale,casa,2025-10-01,5,,,,3
 d:cordillera,Cordillera,sale,casa,2026-01-01,4,,,,2

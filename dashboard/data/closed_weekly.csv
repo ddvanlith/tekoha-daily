@@ -61,7 +61,7 @@ py,Paraguay,sale,2026-10-05,37
 py,Paraguay,sale,2026-10-12,25
 py,Paraguay,sale,2026-10-19,36
 py,Paraguay,sale,2026-10-26,35
-py,Paraguay,sale,2026-11-02,15
+py,Paraguay,sale,2026-11-02,16
 py,Paraguay,rent,2025-08-25,45
 py,Paraguay,rent,2025-09-01,35
 py,Paraguay,rent,2025-09-08,44
@@ -187,7 +187,7 @@ d:asuncion,Asunción,sale,2026-10-05,10
 d:asuncion,Asunción,sale,2026-10-12,6
 d:asuncion,Asunción,sale,2026-10-19,9
 d:asuncion,Asunción,sale,2026-10-26,15
-d:asuncion,Asunción,sale,2026-11-02,5
+d:asuncion,Asunción,sale,2026-11-02,6
 d:asuncion,Asunción,rent,2025-08-25,20
 d:asuncion,Asunción,rent,2025-09-01,18
 d:asuncion,Asunción,rent,2025-09-08,15
@@ -883,77 +883,6 @@ c:central:capiata,Capiatá,rent,2026-09-21,1
 c:central:capiata,Capiatá,rent,2026-09-28,2
 c:central:capiata,Capiatá,rent,2026-10-05,2
 c:central:capiata,Capiatá,rent,2026-10-26,1
-c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2025-08-25,2
-c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2025-09-15,2
-c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2025-09-29,1
-c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2025-10-20,1
-c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2025-10-27,2
-c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2025-11-17,1
-c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2025-11-24,1
-c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2025-12-22,2
-c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2026-01-12,2
-c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2026-01-19,1
-c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2026-01-26,1
-c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2026-02-09,2
-c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2026-02-23,1
-c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2026-03-02,3
-c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2026-03-23,1
-c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2026-03-30,1
-c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2026-04-13,1
-c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2026-05-04,1
-c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2026-05-25,2
-c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2026-06-15,1
-c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2026-06-22,3
-c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2026-07-13,1
-c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2026-07-27,2
-c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2026-08-17,1
-c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2026-08-24,2
-c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2026-08-31,1
-c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2026-09-07,1
-c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2026-09-14,3
-c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2026-09-21,1
-c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2026-10-05,2
-c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2026-10-19,2
-c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2026-10-26,2
-c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2025-09-01,1
-c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2025-09-08,3
-c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2025-09-15,2
-c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2025-09-29,2
-c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2025-10-06,1
-c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2025-10-20,1
-c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2025-10-27,2
-c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2025-11-10,2
-c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2025-11-17,2
-c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2025-12-22,2
-c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2025-12-29,1
-c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-01-05,2
-c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-01-19,1
-c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-02-23,6
-c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-03-02,1
-c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-03-09,6
-c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-03-16,1
-c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-03-30,3
-c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-04-06,3
-c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-04-13,4
-c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-04-20,2
-c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-04-27,2
-c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-05-04,2
-c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-05-25,2
-c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-06-01,1
-c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-06-08,1
-c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-06-15,1
-c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-06-22,1
-c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-06-29,2
-c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-07-06,2
-c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-07-13,6
-c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-08-03,5
-c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-08-17,1
-c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-08-24,1
-c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-08-31,3
-c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-09-07,4
-c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-09-14,3
-c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-10-12,2
-c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-10-19,4
 c:central:nemby,Ñemby,sale,2025-09-22,3
 c:central:nemby,Ñemby,sale,2025-09-29,2
 c:central:nemby,Ñemby,sale,2025-10-06,4
@@ -1025,6 +954,77 @@ c:central:nemby,Ñemby,rent,2026-09-21,3
 c:central:nemby,Ñemby,rent,2026-09-28,1
 c:central:nemby,Ñemby,rent,2026-10-05,1
 c:central:nemby,Ñemby,rent,2026-11-02,1
+c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2025-08-25,2
+c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2025-09-15,2
+c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2025-09-29,1
+c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2025-10-20,1
+c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2025-10-27,2
+c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2025-11-17,1
+c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2025-11-24,1
+c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2025-12-22,2
+c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2026-01-12,2
+c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2026-01-19,1
+c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2026-01-26,1
+c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2026-02-09,2
+c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2026-02-23,1
+c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2026-03-02,3
+c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2026-03-23,1
+c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2026-03-30,1
+c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2026-04-13,1
+c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2026-05-04,1
+c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2026-05-25,2
+c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2026-06-15,1
+c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2026-06-22,3
+c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2026-07-13,1
+c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2026-07-27,2
+c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2026-08-17,1
+c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2026-08-24,2
+c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2026-08-31,1
+c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2026-09-07,1
+c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2026-09-14,3
+c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2026-09-21,1
+c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2026-10-05,2
+c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2026-10-19,2
+c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2026-10-26,2
+c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2025-09-01,1
+c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2025-09-08,3
+c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2025-09-15,2
+c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2025-09-29,2
+c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2025-10-06,1
+c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2025-10-20,1
+c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2025-10-27,2
+c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2025-11-10,2
+c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2025-11-17,2
+c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2025-12-22,2
+c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2025-12-29,1
+c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-01-05,2
+c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-01-19,1
+c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-02-23,6
+c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-03-02,1
+c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-03-09,6
+c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-03-16,1
+c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-03-30,3
+c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-04-06,3
+c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-04-13,4
+c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-04-20,2
+c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-04-27,2
+c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-05-04,2
+c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-05-25,2
+c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-06-01,1
+c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-06-08,1
+c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-06-15,1
+c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-06-22,1
+c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-06-29,2
+c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-07-06,2
+c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-07-13,6
+c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-08-03,5
+c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-08-17,1
+c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-08-24,1
+c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-08-31,3
+c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-09-07,4
+c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-09-14,3
+c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-10-12,2
+c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-10-19,4
 c:central:limpio,Limpio,sale,2025-08-25,1
 c:central:limpio,Limpio,sale,2025-09-01,1
 c:central:limpio,Limpio,sale,2025-09-08,1
@@ -1863,6 +1863,75 @@ c:alto-parana:minga-guazu,Minga Guazú,rent,2025-11-10,2
 c:alto-parana:minga-guazu,Minga Guazú,rent,2025-12-15,1
 c:alto-parana:minga-guazu,Minga Guazú,rent,2026-05-11,1
 c:alto-parana:minga-guazu,Minga Guazú,rent,2026-08-03,1
+c:alto-parana:santa-rita,Santa Rita,sale,2025-08-25,1
+c:alto-parana:santa-rita,Santa Rita,sale,2025-09-01,1
+c:alto-parana:santa-rita,Santa Rita,sale,2025-09-22,1
+c:alto-parana:santa-rita,Santa Rita,sale,2025-10-20,1
+c:alto-parana:santa-rita,Santa Rita,sale,2025-10-27,1
+c:alto-parana:santa-rita,Santa Rita,sale,2025-11-17,4
+c:alto-parana:santa-rita,Santa Rita,sale,2025-12-01,1
+c:alto-parana:santa-rita,Santa Rita,sale,2025-12-08,2
+c:alto-parana:santa-rita,Santa Rita,sale,2026-01-05,2
+c:alto-parana:santa-rita,Santa Rita,sale,2026-01-12,1
+c:alto-parana:santa-rita,Santa Rita,sale,2026-01-26,1
+c:alto-parana:santa-rita,Santa Rita,sale,2026-02-09,1
+c:alto-parana:santa-rita,Santa Rita,sale,2026-03-02,1
+c:alto-parana:santa-rita,Santa Rita,sale,2026-03-16,1
+c:alto-parana:santa-rita,Santa Rita,sale,2026-03-23,2
+c:alto-parana:santa-rita,Santa Rita,sale,2026-04-06,1
+c:alto-parana:santa-rita,Santa Rita,sale,2026-04-27,2
+c:alto-parana:santa-rita,Santa Rita,sale,2026-05-18,1
+c:alto-parana:santa-rita,Santa Rita,sale,2026-07-06,1
+c:alto-parana:santa-rita,Santa Rita,sale,2026-07-13,2
+c:alto-parana:santa-rita,Santa Rita,sale,2026-07-20,1
+c:alto-parana:santa-rita,Santa Rita,sale,2026-08-31,1
+c:alto-parana:santa-rita,Santa Rita,sale,2026-09-07,2
+c:alto-parana:santa-rita,Santa Rita,sale,2026-10-19,1
+c:alto-parana:santa-rita,Santa Rita,rent,2025-09-01,1
+c:alto-parana:santa-rita,Santa Rita,rent,2025-09-08,2
+c:alto-parana:santa-rita,Santa Rita,rent,2025-09-15,3
+c:alto-parana:santa-rita,Santa Rita,rent,2025-09-22,1
+c:alto-parana:santa-rita,Santa Rita,rent,2025-10-06,2
+c:alto-parana:santa-rita,Santa Rita,rent,2025-10-13,1
+c:alto-parana:santa-rita,Santa Rita,rent,2025-10-27,1
+c:alto-parana:santa-rita,Santa Rita,rent,2025-11-03,2
+c:alto-parana:santa-rita,Santa Rita,rent,2025-11-10,2
+c:alto-parana:santa-rita,Santa Rita,rent,2025-11-17,1
+c:alto-parana:santa-rita,Santa Rita,rent,2025-11-24,1
+c:alto-parana:santa-rita,Santa Rita,rent,2025-12-01,2
+c:alto-parana:santa-rita,Santa Rita,rent,2025-12-08,3
+c:alto-parana:santa-rita,Santa Rita,rent,2025-12-29,1
+c:alto-parana:santa-rita,Santa Rita,rent,2026-01-05,1
+c:alto-parana:santa-rita,Santa Rita,rent,2026-01-12,2
+c:alto-parana:santa-rita,Santa Rita,rent,2026-01-26,2
+c:alto-parana:santa-rita,Santa Rita,rent,2026-02-02,6
+c:alto-parana:santa-rita,Santa Rita,rent,2026-02-16,4
+c:alto-parana:santa-rita,Santa Rita,rent,2026-02-23,3
+c:alto-parana:santa-rita,Santa Rita,rent,2026-03-09,1
+c:alto-parana:santa-rita,Santa Rita,rent,2026-03-16,1
+c:alto-parana:santa-rita,Santa Rita,rent,2026-04-06,2
+c:alto-parana:santa-rita,Santa Rita,rent,2026-04-27,2
+c:alto-parana:santa-rita,Santa Rita,rent,2026-05-04,2
+c:alto-parana:santa-rita,Santa Rita,rent,2026-05-11,1
+c:alto-parana:santa-rita,Santa Rita,rent,2026-05-18,2
+c:alto-parana:santa-rita,Santa Rita,rent,2026-05-25,1
+c:alto-parana:santa-rita,Santa Rita,rent,2026-06-01,1
+c:alto-parana:santa-rita,Santa Rita,rent,2026-06-08,2
+c:alto-parana:santa-rita,Santa Rita,rent,2026-06-15,2
+c:alto-parana:santa-rita,Santa Rita,rent,2026-06-22,1
+c:alto-parana:santa-rita,Santa Rita,rent,2026-06-29,3
+c:alto-parana:santa-rita,Santa Rita,rent,2026-07-06,3
+c:alto-parana:santa-rita,Santa Rita,rent,2026-07-13,4
+c:alto-parana:santa-rita,Santa Rita,rent,2026-07-20,2
+c:alto-parana:santa-rita,Santa Rita,rent,2026-07-27,2
+c:alto-parana:santa-rita,Santa Rita,rent,2026-08-03,2
+c:alto-parana:santa-rita,Santa Rita,rent,2026-08-31,2
+c:alto-parana:santa-rita,Santa Rita,rent,2026-09-07,2
+c:alto-parana:santa-rita,Santa Rita,rent,2026-09-28,2
+c:alto-parana:santa-rita,Santa Rita,rent,2026-10-05,2
+c:alto-parana:santa-rita,Santa Rita,rent,2026-10-12,3
+c:alto-parana:santa-rita,Santa Rita,rent,2026-10-19,1
+c:alto-parana:santa-rita,Santa Rita,rent,2026-11-02,5
 d:cordillera,Cordillera,sale,2025-09-01,2
 d:cordillera,Cordillera,sale,2025-09-08,2
 d:cordillera,Cordillera,sale,2025-09-15,1
