@@ -22,31 +22,31 @@ py,Paraguay,sale,terreno,2025-10-01,140,-3,39.3,-9.2,81
 py,Paraguay,sale,terreno,2026-01-01,142,-3.4,42.3,-7.1,81
 py,Paraguay,sale,terreno,2026-04-01,119,-4.3,37.8,-7.3,74
 py,Paraguay,sale,terreno,2026-07-01,148,-3.6,39.9,-9.1,89
-py,Paraguay,sale,terreno,2026-10-01,44,-5.6,29.5,,27
+py,Paraguay,sale,terreno,2026-10-01,45,-5.4,31.1,,27
 py,Paraguay,sale,all,2025-07-01,106,-4.8,34,-9.1,67
 py,Paraguay,sale,all,2025-10-01,305,-3,37.7,-7.9,182
 py,Paraguay,sale,all,2026-01-01,279,-3.4,38.4,-6.9,169
 py,Paraguay,sale,all,2026-04-01,281,-2.8,40.2,-6.7,161
 py,Paraguay,sale,all,2026-07-01,313,-2.8,42.2,-7.1,176
-py,Paraguay,sale,all,2026-10-01,99,-3.4,29.3,-5.8,64
+py,Paraguay,sale,all,2026-10-01,100,-3.4,30,-5.8,64
 py,Paraguay,rent,casa,2025-07-01,46,0,69.6,,11
 py,Paraguay,rent,casa,2025-10-01,101,0,79.2,,17
 py,Paraguay,rent,casa,2026-01-01,123,0,78.9,,25
 py,Paraguay,rent,casa,2026-04-01,122,0,80.3,,22
 py,Paraguay,rent,casa,2026-07-01,133,0,76.7,,28
-py,Paraguay,rent,casa,2026-10-01,53,0,73.6,,14
-py,Paraguay,rent,departamento,2025-07-01,92,0,78.3,,19
+py,Paraguay,rent,casa,2026-10-01,55,0,74.5,,14
+py,Paraguay,rent,departamento,2025-07-01,91,0,78,,19
 py,Paraguay,rent,departamento,2025-10-01,198,0,76.3,-6.7,41
 py,Paraguay,rent,departamento,2026-01-01,246,0,78.9,-7.7,47
 py,Paraguay,rent,departamento,2026-04-01,225,0,80.9,-7.7,39
 py,Paraguay,rent,departamento,2026-07-01,219,0,78.1,-6.7,45
 py,Paraguay,rent,departamento,2026-10-01,87,0,70.1,,23
-py,Paraguay,rent,all,2025-07-01,218,0,67.4,-9.1,61
+py,Paraguay,rent,all,2025-07-01,217,0,67.3,-9.1,61
 py,Paraguay,rent,all,2025-10-01,486,0,73.9,-9.1,115
 py,Paraguay,rent,all,2026-01-01,536,0,75.9,-8.7,120
 py,Paraguay,rent,all,2026-04-01,520,0,78.8,-8,100
 py,Paraguay,rent,all,2026-07-01,527,0,75.3,-9.1,118
-py,Paraguay,rent,all,2026-10-01,224,0,66.5,-9.1,71
+py,Paraguay,rent,all,2026-10-01,226,0,66.8,-9.1,71
 d:asuncion,Asunción,sale,casa,2025-07-01,7,,,,5
 d:asuncion,Asunción,sale,casa,2025-10-01,10,,,,8
 d:asuncion,Asunción,sale,casa,2026-01-01,22,,,,14
@@ -80,19 +80,19 @@ d:asuncion,Asunción,rent,casa,2025-10-01,20,,,,6
 d:asuncion,Asunción,rent,casa,2026-01-01,15,,,,6
 d:asuncion,Asunción,rent,casa,2026-04-01,21,,,,6
 d:asuncion,Asunción,rent,casa,2026-07-01,33,0,75.8,,8
-d:asuncion,Asunción,rent,casa,2026-10-01,8,,,,4
-d:asuncion,Asunción,rent,departamento,2025-07-01,53,0,77.4,,12
+d:asuncion,Asunción,rent,casa,2026-10-01,9,,,,4
+d:asuncion,Asunción,rent,departamento,2025-07-01,52,0,76.9,,12
 d:asuncion,Asunción,rent,departamento,2025-10-01,105,0,78.1,,21
 d:asuncion,Asunción,rent,departamento,2026-01-01,128,0,72.7,-7.7,34
 d:asuncion,Asunción,rent,departamento,2026-04-01,97,0,75.3,,23
 d:asuncion,Asunción,rent,departamento,2026-07-01,102,0,69.6,,29
 d:asuncion,Asunción,rent,departamento,2026-10-01,47,0,72.3,,12
-d:asuncion,Asunción,rent,all,2025-07-01,90,0,71.1,,20
+d:asuncion,Asunción,rent,all,2025-07-01,89,0,70.8,,20
 d:asuncion,Asunción,rent,all,2025-10-01,184,0,72.8,-6.4,45
 d:asuncion,Asunción,rent,all,2026-01-01,188,0,66.5,-7.8,60
 d:asuncion,Asunción,rent,all,2026-04-01,157,0,72,-7.7,42
 d:asuncion,Asunción,rent,all,2026-07-01,178,0,67.4,-8.3,53
-d:asuncion,Asunción,rent,all,2026-10-01,74,0,63.5,,25
+d:asuncion,Asunción,rent,all,2026-10-01,75,0,64,,25
 d:central,Central,sale,casa,2025-07-01,20,,,,10
 d:central,Central,sale,casa,2025-10-01,66,-3.8,34.8,-7,41
 d:central,Central,sale,casa,2026-01-01,35,-2.1,42.9,,20
@@ -110,13 +110,13 @@ d:central,Central,sale,terreno,2025-10-01,76,-3.1,39.5,-11.1,44
 d:central,Central,sale,terreno,2026-01-01,81,-3.6,37,-7.9,51
 d:central,Central,sale,terreno,2026-04-01,74,-4.5,36.5,-7.1,47
 d:central,Central,sale,terreno,2026-07-01,78,-4.9,33.3,-9.4,52
-d:central,Central,sale,terreno,2026-10-01,18,,,,8
+d:central,Central,sale,terreno,2026-10-01,19,,,,8
 d:central,Central,sale,all,2025-07-01,57,-6.3,26.3,-9.1,40
 d:central,Central,sale,all,2025-10-01,171,-2.9,34.5,-7.9,107
 d:central,Central,sale,all,2026-01-01,137,-3.2,38,-6.8,85
 d:central,Central,sale,all,2026-04-01,156,-3,37.2,-6.3,93
 d:central,Central,sale,all,2026-07-01,159,-4.3,35.8,-7.9,101
-d:central,Central,sale,all,2026-10-01,46,-3.2,32.6,-5.4,30
+d:central,Central,sale,all,2026-10-01,47,-3.1,34,-5.4,30
 d:central,Central,sale,departamento,2025-10-01,8,,,,5
 d:central,Central,sale,departamento,2026-01-01,4,,,,2
 d:central,Central,sale,departamento,2026-04-01,12,,,,6
@@ -157,13 +157,13 @@ c:central:luque,Luque,sale,terreno,2025-10-01,18,,,,10
 c:central:luque,Luque,sale,terreno,2026-01-01,16,,,,11
 c:central:luque,Luque,sale,terreno,2026-04-01,22,,,,13
 c:central:luque,Luque,sale,terreno,2026-07-01,13,,,,9
-c:central:luque,Luque,sale,terreno,2026-10-01,5,,,,2
+c:central:luque,Luque,sale,terreno,2026-10-01,6,,,,2
 c:central:luque,Luque,sale,all,2025-07-01,13,,,,6
 c:central:luque,Luque,sale,all,2025-10-01,43,-0.8,39.5,,23
 c:central:luque,Luque,sale,all,2026-01-01,27,,,,17
 c:central:luque,Luque,sale,all,2026-04-01,41,-2.9,39,,22
 c:central:luque,Luque,sale,all,2026-07-01,27,,,,17
-c:central:luque,Luque,sale,all,2026-10-01,12,,,,8
+c:central:luque,Luque,sale,all,2026-10-01,13,,,,8
 c:central:luque,Luque,sale,departamento,2025-10-01,3,,,,2
 c:central:luque,Luque,sale,departamento,2026-01-01,1,,,,0
 c:central:luque,Luque,sale,departamento,2026-04-01,4,,,,3
@@ -716,85 +716,6 @@ c:itapua:capitan-miranda,Capitán Miranda,sale,all,2026-04-01,1,,,,0
 c:itapua:capitan-miranda,Capitán Miranda,sale,all,2026-07-01,1,,,,0
 c:itapua:capitan-miranda,Capitán Miranda,sale,terreno,2026-07-01,1,,,,0
 c:itapua:capitan-miranda,Capitán Miranda,rent,all,2026-04-01,2,,,,0
-d:cordillera,Cordillera,sale,casa,2025-07-01,2,,,,2
-d:cordillera,Cordillera,sale,casa,2025-10-01,5,,,,3
-d:cordillera,Cordillera,sale,casa,2026-01-01,4,,,,2
-d:cordillera,Cordillera,sale,casa,2026-04-01,3,,,,1
-d:cordillera,Cordillera,sale,casa,2026-07-01,7,,,,2
-d:cordillera,Cordillera,sale,casa,2026-10-01,2,,,,1
-d:cordillera,Cordillera,sale,terreno,2025-07-01,3,,,,2
-d:cordillera,Cordillera,sale,terreno,2025-10-01,7,,,,3
-d:cordillera,Cordillera,sale,terreno,2026-01-01,11,,,,7
-d:cordillera,Cordillera,sale,terreno,2026-04-01,13,,,,11
-d:cordillera,Cordillera,sale,terreno,2026-07-01,8,,,,8
-d:cordillera,Cordillera,sale,terreno,2026-10-01,3,,,,1
-d:cordillera,Cordillera,sale,all,2025-07-01,5,,,,4
-d:cordillera,Cordillera,sale,all,2025-10-01,12,,,,6
-d:cordillera,Cordillera,sale,all,2026-01-01,16,,,,10
-d:cordillera,Cordillera,sale,all,2026-04-01,21,,,,16
-d:cordillera,Cordillera,sale,all,2026-07-01,15,,,,10
-d:cordillera,Cordillera,sale,all,2026-10-01,6,,,,2
-d:cordillera,Cordillera,rent,casa,2025-07-01,1,,,,0
-d:cordillera,Cordillera,rent,casa,2025-10-01,4,,,,0
-d:cordillera,Cordillera,rent,casa,2026-01-01,1,,,,0
-d:cordillera,Cordillera,rent,casa,2026-04-01,4,,,,0
-d:cordillera,Cordillera,rent,casa,2026-07-01,3,,,,1
-d:cordillera,Cordillera,rent,all,2025-07-01,2,,,,0
-d:cordillera,Cordillera,rent,all,2025-10-01,4,,,,0
-d:cordillera,Cordillera,rent,all,2026-01-01,4,,,,1
-d:cordillera,Cordillera,rent,all,2026-04-01,4,,,,0
-d:cordillera,Cordillera,rent,all,2026-07-01,5,,,,2
-d:cordillera,Cordillera,rent,all,2026-10-01,1,,,,0
-d:cordillera,Cordillera,rent,departamento,2026-10-01,1,,,,0
-c:cordillera:san-bernardino,San Bernardino,sale,casa,2025-07-01,2,,,,2
-c:cordillera:san-bernardino,San Bernardino,sale,casa,2025-10-01,4,,,,2
-c:cordillera:san-bernardino,San Bernardino,sale,casa,2026-01-01,3,,,,1
-c:cordillera:san-bernardino,San Bernardino,sale,casa,2026-04-01,1,,,,1
-c:cordillera:san-bernardino,San Bernardino,sale,casa,2026-07-01,4,,,,2
-c:cordillera:san-bernardino,San Bernardino,sale,casa,2026-10-01,1,,,,0
-c:cordillera:san-bernardino,San Bernardino,sale,all,2025-07-01,2,,,,2
-c:cordillera:san-bernardino,San Bernardino,sale,all,2025-10-01,9,,,,4
-c:cordillera:san-bernardino,San Bernardino,sale,all,2026-01-01,9,,,,4
-c:cordillera:san-bernardino,San Bernardino,sale,all,2026-04-01,6,,,,5
-c:cordillera:san-bernardino,San Bernardino,sale,all,2026-07-01,10,,,,8
-c:cordillera:san-bernardino,San Bernardino,sale,all,2026-10-01,3,,,,1
-c:cordillera:san-bernardino,San Bernardino,sale,terreno,2025-10-01,5,,,,2
-c:cordillera:san-bernardino,San Bernardino,sale,terreno,2026-01-01,6,,,,3
-c:cordillera:san-bernardino,San Bernardino,sale,terreno,2026-04-01,5,,,,4
-c:cordillera:san-bernardino,San Bernardino,sale,terreno,2026-07-01,6,,,,6
-c:cordillera:san-bernardino,San Bernardino,sale,terreno,2026-10-01,2,,,,1
-c:cordillera:san-bernardino,San Bernardino,rent,casa,2025-10-01,4,,,,0
-c:cordillera:san-bernardino,San Bernardino,rent,casa,2026-01-01,1,,,,0
-c:cordillera:san-bernardino,San Bernardino,rent,casa,2026-04-01,4,,,,0
-c:cordillera:san-bernardino,San Bernardino,rent,all,2025-10-01,4,,,,0
-c:cordillera:san-bernardino,San Bernardino,rent,all,2026-01-01,2,,,,0
-c:cordillera:san-bernardino,San Bernardino,rent,all,2026-04-01,4,,,,0
-c:cordillera:caacupe,Caacupé,sale,casa,2025-10-01,1,,,,1
-c:cordillera:caacupe,Caacupé,sale,casa,2026-01-01,1,,,,1
-c:cordillera:caacupe,Caacupé,sale,casa,2026-04-01,2,,,,0
-c:cordillera:caacupe,Caacupé,sale,casa,2026-07-01,1,,,,0
-c:cordillera:caacupe,Caacupé,sale,casa,2026-10-01,1,,,,1
-c:cordillera:caacupe,Caacupé,sale,all,2025-10-01,1,,,,1
-c:cordillera:caacupe,Caacupé,sale,all,2026-01-01,3,,,,3
-c:cordillera:caacupe,Caacupé,sale,all,2026-04-01,7,,,,5
-c:cordillera:caacupe,Caacupé,sale,all,2026-07-01,2,,,,1
-c:cordillera:caacupe,Caacupé,sale,all,2026-10-01,1,,,,1
-c:cordillera:caacupe,Caacupé,sale,terreno,2026-01-01,1,,,,1
-c:cordillera:caacupe,Caacupé,sale,terreno,2026-04-01,4,,,,4
-c:cordillera:caacupe,Caacupé,sale,terreno,2026-07-01,1,,,,1
-c:cordillera:caacupe,Caacupé,rent,all,2025-07-01,1,,,,0
-c:cordillera:caacupe,Caacupé,rent,all,2026-01-01,2,,,,1
-c:cordillera:caacupe,Caacupé,rent,all,2026-07-01,1,,,,0
-c:cordillera:caacupe,Caacupé,rent,all,2026-10-01,1,,,,0
-c:cordillera:caacupe,Caacupé,rent,departamento,2026-10-01,1,,,,0
-c:cordillera:altos,Altos,sale,terreno,2026-01-01,1,,,,1
-c:cordillera:altos,Altos,sale,terreno,2026-04-01,2,,,,2
-c:cordillera:altos,Altos,sale,all,2026-01-01,1,,,,1
-c:cordillera:altos,Altos,sale,all,2026-04-01,2,,,,2
-c:cordillera:altos,Altos,sale,all,2026-07-01,1,,,,0
-c:cordillera:altos,Altos,sale,casa,2026-07-01,1,,,,0
-c:cordillera:altos,Altos,rent,casa,2026-07-01,2,,,,0
-c:cordillera:altos,Altos,rent,all,2026-07-01,2,,,,0
 d:alto-parana,Alto Paraná,sale,casa,2025-07-01,2,,,,1
 d:alto-parana,Alto Paraná,sale,casa,2025-10-01,9,,,,4
 d:alto-parana,Alto Paraná,sale,casa,2026-01-01,7,,,,4
@@ -820,13 +741,13 @@ d:alto-parana,Alto Paraná,rent,casa,2025-10-01,17,,,,1
 d:alto-parana,Alto Paraná,rent,casa,2026-01-01,18,,,,6
 d:alto-parana,Alto Paraná,rent,casa,2026-04-01,15,,,,2
 d:alto-parana,Alto Paraná,rent,casa,2026-07-01,22,,,,5
-d:alto-parana,Alto Paraná,rent,casa,2026-10-01,6,,,,1
+d:alto-parana,Alto Paraná,rent,casa,2026-10-01,7,,,,1
 d:alto-parana,Alto Paraná,rent,all,2025-07-01,15,,,,4
 d:alto-parana,Alto Paraná,rent,all,2025-10-01,39,0,92.3,,3
 d:alto-parana,Alto Paraná,rent,all,2026-01-01,49,0,79.6,,8
 d:alto-parana,Alto Paraná,rent,all,2026-04-01,46,0,89.1,,4
 d:alto-parana,Alto Paraná,rent,all,2026-07-01,45,0,80,,7
-d:alto-parana,Alto Paraná,rent,all,2026-10-01,26,,,,6
+d:alto-parana,Alto Paraná,rent,all,2026-10-01,27,,,,6
 d:alto-parana,Alto Paraná,rent,departamento,2025-10-01,1,,,,0
 d:alto-parana,Alto Paraná,rent,departamento,2026-01-01,13,,,,1
 d:alto-parana,Alto Paraná,rent,departamento,2026-04-01,11,,,,1
@@ -907,6 +828,85 @@ c:alto-parana:minga-guazu,Minga Guazú,rent,casa,2026-07-01,1,,,,0
 c:alto-parana:minga-guazu,Minga Guazú,rent,all,2025-10-01,3,,,,0
 c:alto-parana:minga-guazu,Minga Guazú,rent,all,2026-04-01,1,,,,0
 c:alto-parana:minga-guazu,Minga Guazú,rent,all,2026-07-01,1,,,,0
+d:cordillera,Cordillera,sale,casa,2025-07-01,2,,,,2
+d:cordillera,Cordillera,sale,casa,2025-10-01,5,,,,3
+d:cordillera,Cordillera,sale,casa,2026-01-01,4,,,,2
+d:cordillera,Cordillera,sale,casa,2026-04-01,3,,,,1
+d:cordillera,Cordillera,sale,casa,2026-07-01,7,,,,2
+d:cordillera,Cordillera,sale,casa,2026-10-01,2,,,,1
+d:cordillera,Cordillera,sale,terreno,2025-07-01,3,,,,2
+d:cordillera,Cordillera,sale,terreno,2025-10-01,7,,,,3
+d:cordillera,Cordillera,sale,terreno,2026-01-01,11,,,,7
+d:cordillera,Cordillera,sale,terreno,2026-04-01,13,,,,11
+d:cordillera,Cordillera,sale,terreno,2026-07-01,8,,,,8
+d:cordillera,Cordillera,sale,terreno,2026-10-01,3,,,,1
+d:cordillera,Cordillera,sale,all,2025-07-01,5,,,,4
+d:cordillera,Cordillera,sale,all,2025-10-01,12,,,,6
+d:cordillera,Cordillera,sale,all,2026-01-01,16,,,,10
+d:cordillera,Cordillera,sale,all,2026-04-01,21,,,,16
+d:cordillera,Cordillera,sale,all,2026-07-01,15,,,,10
+d:cordillera,Cordillera,sale,all,2026-10-01,6,,,,2
+d:cordillera,Cordillera,rent,casa,2025-07-01,1,,,,0
+d:cordillera,Cordillera,rent,casa,2025-10-01,4,,,,0
+d:cordillera,Cordillera,rent,casa,2026-01-01,1,,,,0
+d:cordillera,Cordillera,rent,casa,2026-04-01,4,,,,0
+d:cordillera,Cordillera,rent,casa,2026-07-01,3,,,,1
+d:cordillera,Cordillera,rent,all,2025-07-01,2,,,,0
+d:cordillera,Cordillera,rent,all,2025-10-01,4,,,,0
+d:cordillera,Cordillera,rent,all,2026-01-01,4,,,,1
+d:cordillera,Cordillera,rent,all,2026-04-01,4,,,,0
+d:cordillera,Cordillera,rent,all,2026-07-01,5,,,,2
+d:cordillera,Cordillera,rent,all,2026-10-01,1,,,,0
+d:cordillera,Cordillera,rent,departamento,2026-10-01,1,,,,0
+c:cordillera:san-bernardino,San Bernardino,sale,casa,2025-07-01,2,,,,2
+c:cordillera:san-bernardino,San Bernardino,sale,casa,2025-10-01,4,,,,2
+c:cordillera:san-bernardino,San Bernardino,sale,casa,2026-01-01,3,,,,1
+c:cordillera:san-bernardino,San Bernardino,sale,casa,2026-04-01,1,,,,1
+c:cordillera:san-bernardino,San Bernardino,sale,casa,2026-07-01,4,,,,2
+c:cordillera:san-bernardino,San Bernardino,sale,casa,2026-10-01,1,,,,0
+c:cordillera:san-bernardino,San Bernardino,sale,all,2025-07-01,2,,,,2
+c:cordillera:san-bernardino,San Bernardino,sale,all,2025-10-01,9,,,,4
+c:cordillera:san-bernardino,San Bernardino,sale,all,2026-01-01,9,,,,4
+c:cordillera:san-bernardino,San Bernardino,sale,all,2026-04-01,6,,,,5
+c:cordillera:san-bernardino,San Bernardino,sale,all,2026-07-01,10,,,,8
+c:cordillera:san-bernardino,San Bernardino,sale,all,2026-10-01,3,,,,1
+c:cordillera:san-bernardino,San Bernardino,sale,terreno,2025-10-01,5,,,,2
+c:cordillera:san-bernardino,San Bernardino,sale,terreno,2026-01-01,6,,,,3
+c:cordillera:san-bernardino,San Bernardino,sale,terreno,2026-04-01,5,,,,4
+c:cordillera:san-bernardino,San Bernardino,sale,terreno,2026-07-01,6,,,,6
+c:cordillera:san-bernardino,San Bernardino,sale,terreno,2026-10-01,2,,,,1
+c:cordillera:san-bernardino,San Bernardino,rent,casa,2025-10-01,4,,,,0
+c:cordillera:san-bernardino,San Bernardino,rent,casa,2026-01-01,1,,,,0
+c:cordillera:san-bernardino,San Bernardino,rent,casa,2026-04-01,4,,,,0
+c:cordillera:san-bernardino,San Bernardino,rent,all,2025-10-01,4,,,,0
+c:cordillera:san-bernardino,San Bernardino,rent,all,2026-01-01,2,,,,0
+c:cordillera:san-bernardino,San Bernardino,rent,all,2026-04-01,4,,,,0
+c:cordillera:caacupe,Caacupé,sale,casa,2025-10-01,1,,,,1
+c:cordillera:caacupe,Caacupé,sale,casa,2026-01-01,1,,,,1
+c:cordillera:caacupe,Caacupé,sale,casa,2026-04-01,2,,,,0
+c:cordillera:caacupe,Caacupé,sale,casa,2026-07-01,1,,,,0
+c:cordillera:caacupe,Caacupé,sale,casa,2026-10-01,1,,,,1
+c:cordillera:caacupe,Caacupé,sale,all,2025-10-01,1,,,,1
+c:cordillera:caacupe,Caacupé,sale,all,2026-01-01,3,,,,3
+c:cordillera:caacupe,Caacupé,sale,all,2026-04-01,7,,,,5
+c:cordillera:caacupe,Caacupé,sale,all,2026-07-01,2,,,,1
+c:cordillera:caacupe,Caacupé,sale,all,2026-10-01,1,,,,1
+c:cordillera:caacupe,Caacupé,sale,terreno,2026-01-01,1,,,,1
+c:cordillera:caacupe,Caacupé,sale,terreno,2026-04-01,4,,,,4
+c:cordillera:caacupe,Caacupé,sale,terreno,2026-07-01,1,,,,1
+c:cordillera:caacupe,Caacupé,rent,all,2025-07-01,1,,,,0
+c:cordillera:caacupe,Caacupé,rent,all,2026-01-01,2,,,,1
+c:cordillera:caacupe,Caacupé,rent,all,2026-07-01,1,,,,0
+c:cordillera:caacupe,Caacupé,rent,all,2026-10-01,1,,,,0
+c:cordillera:caacupe,Caacupé,rent,departamento,2026-10-01,1,,,,0
+c:cordillera:altos,Altos,sale,terreno,2026-01-01,1,,,,1
+c:cordillera:altos,Altos,sale,terreno,2026-04-01,2,,,,2
+c:cordillera:altos,Altos,sale,all,2026-01-01,1,,,,1
+c:cordillera:altos,Altos,sale,all,2026-04-01,2,,,,2
+c:cordillera:altos,Altos,sale,all,2026-07-01,1,,,,0
+c:cordillera:altos,Altos,sale,casa,2026-07-01,1,,,,0
+c:cordillera:altos,Altos,rent,casa,2026-07-01,2,,,,0
+c:cordillera:altos,Altos,rent,all,2026-07-01,2,,,,0
 d:boqueron,Boquerón,sale,casa,2025-07-01,1,,,,1
 d:boqueron,Boquerón,sale,casa,2025-10-01,2,,,,1
 d:boqueron,Boquerón,sale,casa,2026-01-01,3,,,,2

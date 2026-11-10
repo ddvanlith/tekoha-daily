@@ -14,8 +14,8 @@ py,Paraguay,month,casa,PYG,2026-07-01,44,3737500,618
 py,Paraguay,month,casa,PYG,2026-08-01,40,3350000,561
 py,Paraguay,month,casa,PYG,2026-09-01,61,3500000,590
 py,Paraguay,month,casa,PYG,2026-10-01,43,3200000,553
-py,Paraguay,month,casa,PYG,2026-11-01,12,,
-py,Paraguay,month,departamento,PYG,2025-08-01,16,,
+py,Paraguay,month,casa,PYG,2026-11-01,14,,
+py,Paraguay,month,departamento,PYG,2025-08-01,15,,
 py,Paraguay,month,departamento,PYG,2025-09-01,87,3500000,489
 py,Paraguay,month,departamento,PYG,2025-10-01,72,3000000,425
 py,Paraguay,month,departamento,PYG,2025-11-01,72,4273322,607
@@ -30,7 +30,7 @@ py,Paraguay,month,departamento,PYG,2026-07-01,109,3660000,605
 py,Paraguay,month,departamento,PYG,2026-08-01,81,4100000,686
 py,Paraguay,month,departamento,PYG,2026-09-01,81,3700000,624
 py,Paraguay,month,departamento,PYG,2026-10-01,91,4000000,691
-py,Paraguay,month,departamento,PYG,2026-11-01,9,,
+py,Paraguay,month,departamento,PYG,2026-11-01,10,,
 py,Paraguay,month,duplex,PYG,2025-08-01,6,,
 py,Paraguay,month,duplex,PYG,2025-09-01,17,,
 py,Paraguay,month,duplex,PYG,2025-10-01,5,,
@@ -67,13 +67,13 @@ py,Paraguay,quarter,casa,PYG,2025-10-01,109,3000000,433
 py,Paraguay,quarter,casa,PYG,2026-01-01,145,3500000,533
 py,Paraguay,quarter,casa,PYG,2026-04-01,133,3500000,565
 py,Paraguay,quarter,casa,PYG,2026-07-01,145,3500000,585
-py,Paraguay,quarter,casa,PYG,2026-10-01,55,3500000,598
-py,Paraguay,quarter,departamento,PYG,2025-07-01,103,3500000,487
+py,Paraguay,quarter,casa,PYG,2026-10-01,57,3500000,594
+py,Paraguay,quarter,departamento,PYG,2025-07-01,102,3500000,487
 py,Paraguay,quarter,departamento,PYG,2025-10-01,246,3500000,505
 py,Paraguay,quarter,departamento,PYG,2026-01-01,314,3525000,536
 py,Paraguay,quarter,departamento,PYG,2026-04-01,273,3500000,565
 py,Paraguay,quarter,departamento,PYG,2026-07-01,271,3750000,627
-py,Paraguay,quarter,departamento,PYG,2026-10-01,100,3775000,645
+py,Paraguay,quarter,departamento,PYG,2026-10-01,101,3750000,637
 py,Paraguay,quarter,departamento,USD,2025-07-01,3,,
 py,Paraguay,quarter,departamento,USD,2025-10-01,4,,
 py,Paraguay,quarter,departamento,USD,2026-01-01,6,,
@@ -103,8 +103,8 @@ d:asuncion,Asunción,month,casa,PYG,2026-07-01,10,,
 d:asuncion,Asunción,month,casa,PYG,2026-08-01,9,,
 d:asuncion,Asunción,month,casa,PYG,2026-09-01,16,,
 d:asuncion,Asunción,month,casa,PYG,2026-10-01,8,,
-d:asuncion,Asunción,month,casa,PYG,2026-11-01,1,,
-d:asuncion,Asunción,month,departamento,PYG,2025-08-01,12,,
+d:asuncion,Asunción,month,casa,PYG,2026-11-01,2,,
+d:asuncion,Asunción,month,departamento,PYG,2025-08-01,11,,
 d:asuncion,Asunción,month,departamento,PYG,2025-09-01,47,4000000,559
 d:asuncion,Asunción,month,departamento,PYG,2025-10-01,39,4000000,567
 d:asuncion,Asunción,month,departamento,PYG,2025-11-01,47,4550000,646
@@ -154,13 +154,13 @@ d:asuncion,Asunción,quarter,casa,PYG,2025-10-01,23,5500000,793
 d:asuncion,Asunción,quarter,casa,PYG,2026-01-01,18,,
 d:asuncion,Asunción,quarter,casa,PYG,2026-04-01,24,4250000,686
 d:asuncion,Asunción,quarter,casa,PYG,2026-07-01,35,5500000,919
-d:asuncion,Asunción,quarter,casa,PYG,2026-10-01,9,,
-d:asuncion,Asunción,quarter,departamento,PYG,2025-07-01,59,4000000,556
+d:asuncion,Asunción,quarter,casa,PYG,2026-10-01,10,,
+d:asuncion,Asunción,quarter,departamento,PYG,2025-07-01,58,4000000,556
 d:asuncion,Asunción,quarter,departamento,PYG,2025-10-01,147,4500000,649
 d:asuncion,Asunción,quarter,departamento,PYG,2026-01-01,190,4372500,665
 d:asuncion,Asunción,quarter,departamento,PYG,2026-04-01,137,4400000,710
 d:asuncion,Asunción,quarter,departamento,PYG,2026-07-01,144,4500000,752
-d:asuncion,Asunción,quarter,departamento,PYG,2026-10-01,60,4500000,769
+d:asuncion,Asunción,quarter,departamento,PYG,2026-10-01,60,4500000,764
 d:asuncion,Asunción,quarter,departamento,USD,2025-07-01,3,,
 d:asuncion,Asunción,quarter,departamento,USD,2025-10-01,4,,
 d:asuncion,Asunción,quarter,departamento,USD,2026-01-01,6,,
@@ -205,7 +205,7 @@ d:central,Central,month,departamento,PYG,2026-07-01,34,3200000,529
 d:central,Central,month,departamento,PYG,2026-08-01,28,2600000,435
 d:central,Central,month,departamento,PYG,2026-09-01,21,2600000,439
 d:central,Central,month,departamento,PYG,2026-10-01,26,2950000,510
-d:central,Central,month,departamento,PYG,2026-11-01,4,,
+d:central,Central,month,departamento,PYG,2026-11-01,5,,
 d:central,Central,month,duplex,PYG,2025-08-01,3,,
 d:central,Central,month,duplex,PYG,2025-09-01,11,,
 d:central,Central,month,duplex,PYG,2025-10-01,2,,
@@ -227,13 +227,13 @@ d:central,Central,quarter,casa,PYG,2025-10-01,48,2800000,404
 d:central,Central,quarter,casa,PYG,2026-01-01,69,3000000,457
 d:central,Central,quarter,casa,PYG,2026-04-01,63,3200000,516
 d:central,Central,quarter,casa,PYG,2026-07-01,55,3200000,535
-d:central,Central,quarter,casa,PYG,2026-10-01,25,3000000,513
+d:central,Central,quarter,casa,PYG,2026-10-01,25,3000000,509
 d:central,Central,quarter,departamento,PYG,2025-07-01,33,2750000,382
 d:central,Central,quarter,departamento,PYG,2025-10-01,76,2200000,317
 d:central,Central,quarter,departamento,PYG,2026-01-01,84,2500000,380
 d:central,Central,quarter,departamento,PYG,2026-04-01,87,2750000,444
 d:central,Central,quarter,departamento,PYG,2026-07-01,83,3100000,518
-d:central,Central,quarter,departamento,PYG,2026-10-01,30,2950000,504
+d:central,Central,quarter,departamento,PYG,2026-10-01,31,2900000,492
 d:central,Central,quarter,duplex,PYG,2025-07-01,14,,
 d:central,Central,quarter,duplex,PYG,2025-10-01,31,4000000,577
 d:central,Central,quarter,duplex,PYG,2026-01-01,31,3800000,578
@@ -328,7 +328,7 @@ c:central:san-lorenzo,San Lorenzo,month,departamento,PYG,2026-07-01,5,,
 c:central:san-lorenzo,San Lorenzo,month,departamento,PYG,2026-08-01,5,,
 c:central:san-lorenzo,San Lorenzo,month,departamento,PYG,2026-09-01,2,,
 c:central:san-lorenzo,San Lorenzo,month,departamento,PYG,2026-10-01,4,,
-c:central:san-lorenzo,San Lorenzo,month,departamento,PYG,2026-11-01,1,,
+c:central:san-lorenzo,San Lorenzo,month,departamento,PYG,2026-11-01,2,,
 c:central:san-lorenzo,San Lorenzo,month,duplex,PYG,2025-09-01,1,,
 c:central:san-lorenzo,San Lorenzo,month,duplex,PYG,2025-11-01,2,,
 c:central:san-lorenzo,San Lorenzo,month,duplex,PYG,2025-12-01,1,,
@@ -351,7 +351,7 @@ c:central:san-lorenzo,San Lorenzo,quarter,departamento,PYG,2025-10-01,8,,
 c:central:san-lorenzo,San Lorenzo,quarter,departamento,PYG,2026-01-01,12,,
 c:central:san-lorenzo,San Lorenzo,quarter,departamento,PYG,2026-04-01,14,,
 c:central:san-lorenzo,San Lorenzo,quarter,departamento,PYG,2026-07-01,12,,
-c:central:san-lorenzo,San Lorenzo,quarter,departamento,PYG,2026-10-01,5,,
+c:central:san-lorenzo,San Lorenzo,quarter,departamento,PYG,2026-10-01,6,,
 c:central:san-lorenzo,San Lorenzo,quarter,duplex,PYG,2025-07-01,1,,
 c:central:san-lorenzo,San Lorenzo,quarter,duplex,PYG,2025-10-01,3,,
 c:central:san-lorenzo,San Lorenzo,quarter,duplex,PYG,2026-01-01,4,,
@@ -837,36 +837,6 @@ c:itapua:san-juan-del-parana,San Juan del Paraná,quarter,casa,PYG,2025-10-01,3,
 c:itapua:san-juan-del-parana,San Juan del Paraná,quarter,casa,PYG,2026-01-01,2,,
 c:itapua:san-juan-del-parana,San Juan del Paraná,quarter,casa,PYG,2026-04-01,2,,
 c:itapua:san-juan-del-parana,San Juan del Paraná,quarter,casa,PYG,2026-07-01,1,,
-d:cordillera,Cordillera,month,casa,PYG,2025-09-01,1,,
-d:cordillera,Cordillera,month,casa,PYG,2025-11-01,2,,
-d:cordillera,Cordillera,month,casa,PYG,2025-12-01,2,,
-d:cordillera,Cordillera,month,casa,PYG,2026-01-01,3,,
-d:cordillera,Cordillera,month,casa,PYG,2026-02-01,1,,
-d:cordillera,Cordillera,month,casa,PYG,2026-04-01,2,,
-d:cordillera,Cordillera,month,casa,PYG,2026-06-01,2,,
-d:cordillera,Cordillera,month,casa,PYG,2026-08-01,1,,
-d:cordillera,Cordillera,month,casa,PYG,2026-09-01,2,,
-d:cordillera,Cordillera,month,departamento,PYG,2026-10-01,1,,
-d:cordillera,Cordillera,quarter,casa,PYG,2025-07-01,1,,
-d:cordillera,Cordillera,quarter,casa,PYG,2025-10-01,4,,
-d:cordillera,Cordillera,quarter,casa,PYG,2026-01-01,4,,
-d:cordillera,Cordillera,quarter,casa,PYG,2026-04-01,4,,
-d:cordillera,Cordillera,quarter,casa,PYG,2026-07-01,3,,
-d:cordillera,Cordillera,quarter,departamento,PYG,2026-10-01,1,,
-c:cordillera:san-bernardino,San Bernardino,month,casa,PYG,2025-11-01,2,,
-c:cordillera:san-bernardino,San Bernardino,month,casa,PYG,2025-12-01,2,,
-c:cordillera:san-bernardino,San Bernardino,month,casa,PYG,2026-01-01,3,,
-c:cordillera:san-bernardino,San Bernardino,month,casa,PYG,2026-02-01,1,,
-c:cordillera:san-bernardino,San Bernardino,month,casa,PYG,2026-04-01,2,,
-c:cordillera:san-bernardino,San Bernardino,month,casa,PYG,2026-06-01,2,,
-c:cordillera:san-bernardino,San Bernardino,quarter,casa,PYG,2025-10-01,4,,
-c:cordillera:san-bernardino,San Bernardino,quarter,casa,PYG,2026-01-01,4,,
-c:cordillera:san-bernardino,San Bernardino,quarter,casa,PYG,2026-04-01,4,,
-c:cordillera:caacupe,Caacupé,month,departamento,PYG,2026-10-01,1,,
-c:cordillera:caacupe,Caacupé,quarter,departamento,PYG,2026-10-01,1,,
-c:cordillera:altos,Altos,month,casa,PYG,2026-08-01,1,,
-c:cordillera:altos,Altos,month,casa,PYG,2026-09-01,1,,
-c:cordillera:altos,Altos,quarter,casa,PYG,2026-07-01,2,,
 d:alto-parana,Alto Paraná,month,casa,PYG,2025-09-01,5,,
 d:alto-parana,Alto Paraná,month,casa,PYG,2025-10-01,5,,
 d:alto-parana,Alto Paraná,month,casa,PYG,2025-11-01,8,,
@@ -881,7 +851,7 @@ d:alto-parana,Alto Paraná,month,casa,PYG,2026-07-01,13,,
 d:alto-parana,Alto Paraná,month,casa,PYG,2026-08-01,2,,
 d:alto-parana,Alto Paraná,month,casa,PYG,2026-09-01,9,,
 d:alto-parana,Alto Paraná,month,casa,PYG,2026-10-01,3,,
-d:alto-parana,Alto Paraná,month,casa,PYG,2026-11-01,3,,
+d:alto-parana,Alto Paraná,month,casa,PYG,2026-11-01,4,,
 d:alto-parana,Alto Paraná,month,departamento,PYG,2025-09-01,2,,
 d:alto-parana,Alto Paraná,month,departamento,PYG,2025-10-01,1,,
 d:alto-parana,Alto Paraná,month,departamento,PYG,2025-12-01,1,,
@@ -907,7 +877,7 @@ d:alto-parana,Alto Paraná,quarter,casa,PYG,2025-10-01,17,,
 d:alto-parana,Alto Paraná,quarter,casa,PYG,2026-01-01,22,3975000,605
 d:alto-parana,Alto Paraná,quarter,casa,PYG,2026-04-01,17,,
 d:alto-parana,Alto Paraná,quarter,casa,PYG,2026-07-01,24,3050000,510
-d:alto-parana,Alto Paraná,quarter,casa,PYG,2026-10-01,6,,
+d:alto-parana,Alto Paraná,quarter,casa,PYG,2026-10-01,7,,
 d:alto-parana,Alto Paraná,quarter,departamento,PYG,2025-07-01,2,,
 d:alto-parana,Alto Paraná,quarter,departamento,PYG,2025-10-01,2,,
 d:alto-parana,Alto Paraná,quarter,departamento,PYG,2026-01-01,14,,
@@ -979,6 +949,36 @@ c:alto-parana:minga-guazu,Minga Guazú,month,casa,PYG,2025-12-01,1,,
 c:alto-parana:minga-guazu,Minga Guazú,month,casa,PYG,2026-08-01,1,,
 c:alto-parana:minga-guazu,Minga Guazú,quarter,casa,PYG,2025-10-01,3,,
 c:alto-parana:minga-guazu,Minga Guazú,quarter,casa,PYG,2026-07-01,1,,
+d:cordillera,Cordillera,month,casa,PYG,2025-09-01,1,,
+d:cordillera,Cordillera,month,casa,PYG,2025-11-01,2,,
+d:cordillera,Cordillera,month,casa,PYG,2025-12-01,2,,
+d:cordillera,Cordillera,month,casa,PYG,2026-01-01,3,,
+d:cordillera,Cordillera,month,casa,PYG,2026-02-01,1,,
+d:cordillera,Cordillera,month,casa,PYG,2026-04-01,2,,
+d:cordillera,Cordillera,month,casa,PYG,2026-06-01,2,,
+d:cordillera,Cordillera,month,casa,PYG,2026-08-01,1,,
+d:cordillera,Cordillera,month,casa,PYG,2026-09-01,2,,
+d:cordillera,Cordillera,month,departamento,PYG,2026-10-01,1,,
+d:cordillera,Cordillera,quarter,casa,PYG,2025-07-01,1,,
+d:cordillera,Cordillera,quarter,casa,PYG,2025-10-01,4,,
+d:cordillera,Cordillera,quarter,casa,PYG,2026-01-01,4,,
+d:cordillera,Cordillera,quarter,casa,PYG,2026-04-01,4,,
+d:cordillera,Cordillera,quarter,casa,PYG,2026-07-01,3,,
+d:cordillera,Cordillera,quarter,departamento,PYG,2026-10-01,1,,
+c:cordillera:san-bernardino,San Bernardino,month,casa,PYG,2025-11-01,2,,
+c:cordillera:san-bernardino,San Bernardino,month,casa,PYG,2025-12-01,2,,
+c:cordillera:san-bernardino,San Bernardino,month,casa,PYG,2026-01-01,3,,
+c:cordillera:san-bernardino,San Bernardino,month,casa,PYG,2026-02-01,1,,
+c:cordillera:san-bernardino,San Bernardino,month,casa,PYG,2026-04-01,2,,
+c:cordillera:san-bernardino,San Bernardino,month,casa,PYG,2026-06-01,2,,
+c:cordillera:san-bernardino,San Bernardino,quarter,casa,PYG,2025-10-01,4,,
+c:cordillera:san-bernardino,San Bernardino,quarter,casa,PYG,2026-01-01,4,,
+c:cordillera:san-bernardino,San Bernardino,quarter,casa,PYG,2026-04-01,4,,
+c:cordillera:caacupe,Caacupé,month,departamento,PYG,2026-10-01,1,,
+c:cordillera:caacupe,Caacupé,quarter,departamento,PYG,2026-10-01,1,,
+c:cordillera:altos,Altos,month,casa,PYG,2026-08-01,1,,
+c:cordillera:altos,Altos,month,casa,PYG,2026-09-01,1,,
+c:cordillera:altos,Altos,quarter,casa,PYG,2026-07-01,2,,
 d:boqueron,Boquerón,month,casa,PYG,2025-09-01,2,,
 d:boqueron,Boquerón,month,casa,PYG,2025-10-01,2,,
 d:boqueron,Boquerón,month,casa,PYG,2025-11-01,1,,

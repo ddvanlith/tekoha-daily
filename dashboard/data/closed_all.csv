@@ -339,7 +339,6 @@ transaction_id,close_date,operation,kind,place,barrio,department_market,city_mar
 3835,2025-08-27,rent,deposito,"Lambaré, Central",,Central,Lambaré,300,built,,8500000,PYG,1163.89,6363637,PYG,871.36,7303.075,3,-25.134,0,1,1,1,1,,remax,143028006-122
 13,2025-08-28,sale,casa,"Presidente Franco, Alto Paraná",,Alto Paraná,,49,built,2,282781655,PYG,38549.46,282781655,PYG,38549.46,7335.555,787,0,1,0,1,1,1,,remax,143050033-172
 268,2025-08-28,rent,departamento,"San Lorenzo, Central",,Central,San Lorenzo,50,land,1,1850000,PYG,252.2,1850000,PYG,252.2,7335.555,5,0,1,0,1,1,1,,remax,143098061-28
-415,2025-08-28,rent,departamento,Asunción,Los Laureles,Asunción,,30,land,1,2700000,PYG,368.07,2700000,PYG,368.07,7335.555,12,0,1,0,1,1,1,,remax,143071054-502
 482,2025-08-28,rent,departamento,"Lambaré, Central",,Central,Lambaré,115,land,2,3500000,PYG,477.13,3500000,PYG,477.13,7335.555,4,0,1,0,1,1,1,,remax,114006001-207
 521,2025-08-28,sale,casa,"Luque, Central",,Central,Luque,75,built,2,420000000,PYG,57255.38,420000000,PYG,57255.38,7335.555,763,0,1,0,1,1,1,,remax,143071054-496
 1556,2025-08-28,sale,casa,"Luque, Central",,Central,Luque,78,built,2,380000000,PYG,51802.49,370000000,PYG,50439.26,7335.555,647,-2.632,0,1,1,1,1,,remax,143071054-492
@@ -5974,7 +5973,12 @@ transaction_id,close_date,operation,kind,place,barrio,department_market,city_mar
 903000,2026-11-06,rent,casa,"Filadelfia, Boquerón",,Boquerón,,50,built,2,1950000,PYG,301.17,1950000,PYG,301.17,6474.72,6,0,1,0,1,1,1,,remax,143016029-128
 903399,2026-11-06,sale,terreno,"Luque, Central",,Central,Luque,,,1,375000000,PYG,57917.56,350000000,PYG,54056.39,6474.72,,-6.667,0,1,1,1,1,,remax,143063146-144
 904473,2026-11-07,rent,duplex,"Villa Elisa, Central",,Central,Villa Elisa,130,built,3,3000000,PYG,463.34,3000000,PYG,463.34,6474.72,4,0,1,0,1,1,1,,remax,143063148-175
-904310,2026-11-09,rent,terreno,"Fernando de la Mora, Central",,Central,Fernando de la Mora,1200,land,2,15000000,PYG,2316.7,13500000,PYG,2085.03,6474.72,2,-10,0,1,1,1,1,,remax,143098027-146
-904884,2026-11-09,rent,departamento,"Luque, Central",,Central,Luque,40,land,1,3900000,PYG,602.34,3600000,PYG,556.01,6474.72,14,-7.692,0,1,1,1,1,,remax,143063116-105
-906394,2026-11-09,rent,departamento,"Ciudad del Este, Alto Paraná",,Alto Paraná,Ciudad del Este,74,land,2,3300000,PYG,509.67,3000000,PYG,463.34,6474.72,6,-9.09,0,1,1,1,1,,remax,143050006-156
+904310,2026-11-09,rent,terreno,"Fernando de la Mora, Central",,Central,Fernando de la Mora,1200,land,2,15000000,PYG,2433.2,13500000,PYG,2189.88,6164.715,2,-10,0,1,1,1,1,,remax,143098027-146
+904884,2026-11-09,rent,departamento,"Luque, Central",,Central,Luque,40,land,1,3900000,PYG,632.63,3600000,PYG,583.97,6164.715,15,-7.692,0,1,1,1,1,,remax,143063116-105
+906394,2026-11-09,rent,departamento,"Ciudad del Este, Alto Paraná",,Alto Paraná,Ciudad del Este,74,land,2,3300000,PYG,535.3,3000000,PYG,486.64,6164.715,7,-9.09,0,1,1,1,1,,remax,143050006-156
+908938,2026-11-09,rent,departamento,"San Lorenzo, Central",,Central,San Lorenzo,80,built,2,0,PYG,0,1800000,PYG,291.98,6164.715,4,,0,0,1,1,0,no ask,remax,143112015-2
+909188,2026-11-09,sale,terreno,"Luque, Central",,Central,Luque,396,land,,170000000,PYG,27576.3,170000000,PYG,27576.3,6164.715,70,0,1,0,1,1,1,,remax,143036162-19
+911635,2026-11-09,sale,casa,"Ciudad del Este, Alto Paraná",,Alto Paraná,Ciudad del Este,180,built,3,158000,USD,158000,958210000,PYG,155434.6,6164.715,864,-1.624,0,0,1,1,0,cross-currency,remax,143050060-316
+914060,2026-11-10,rent,casa,Asunción,Santa Librada,Asunción,,200,built,4,4000000,PYG,648.85,4000000,PYG,648.85,6164.715,3,0,1,0,1,1,1,,remax,143061015-156
+914704,2026-11-10,rent,casa,"Santa Rita, Alto Paraná",,Alto Paraná,,70,built,2,2500000,PYG,405.53,2500000,PYG,405.53,6164.715,6,0,1,0,1,1,1,,remax,143065021-216
 904708,2026-11-23,rent,otro,"Lambaré, Central",,Central,Lambaré,40,land,,3600000,PYG,,3200000,PYG,512.82,,13,,0,1,1,1,0,dated after the build,remax,143084061-25
