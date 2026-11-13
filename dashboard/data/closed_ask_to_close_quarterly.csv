@@ -8,7 +8,7 @@ py,Paraguay,sale,casa,2026-10-01,36,-3.1,30.6,,24
 py,Paraguay,sale,departamento,2025-07-01,7,,,,3
 py,Paraguay,sale,departamento,2025-10-01,30,-0.1,46.7,,15
 py,Paraguay,sale,departamento,2026-01-01,35,-5.6,22.9,,26
-py,Paraguay,sale,departamento,2026-04-01,41,0,63.4,,15
+py,Paraguay,sale,departamento,2026-04-01,43,0,60.5,,17
 py,Paraguay,sale,departamento,2026-07-01,49,0,57.1,,18
 py,Paraguay,sale,departamento,2026-10-01,9,,,,4
 py,Paraguay,sale,duplex,2025-07-01,5,,,,4
@@ -26,7 +26,7 @@ py,Paraguay,sale,terreno,2026-10-01,50,-5.2,32,-10,30
 py,Paraguay,sale,all,2025-07-01,106,-4.8,34,-9.1,67
 py,Paraguay,sale,all,2025-10-01,305,-3,37.7,-7.9,182
 py,Paraguay,sale,all,2026-01-01,279,-3.4,38.4,-6.9,169
-py,Paraguay,sale,all,2026-04-01,281,-2.8,40.2,-6.7,161
+py,Paraguay,sale,all,2026-04-01,283,-2.8,39.9,-6.7,163
 py,Paraguay,sale,all,2026-07-01,313,-2.8,42.2,-7.1,176
 py,Paraguay,sale,all,2026-10-01,107,-3.3,30.8,-5.8,68
 py,Paraguay,rent,casa,2025-07-01,46,0,69.6,,11
@@ -56,7 +56,7 @@ d:asuncion,Asunción,sale,casa,2026-10-01,6,,,,3
 d:asuncion,Asunción,sale,departamento,2025-07-01,6,,,,2
 d:asuncion,Asunción,sale,departamento,2025-10-01,18,,,,9
 d:asuncion,Asunción,sale,departamento,2026-01-01,31,-6.6,19.4,,24
-d:asuncion,Asunción,sale,departamento,2026-04-01,26,,,,9
+d:asuncion,Asunción,sale,departamento,2026-04-01,28,,,,11
 d:asuncion,Asunción,sale,departamento,2026-07-01,42,0,59.5,,15
 d:asuncion,Asunción,sale,departamento,2026-10-01,7,,,,3
 d:asuncion,Asunción,sale,duplex,2025-07-01,1,,,,1
@@ -72,7 +72,7 @@ d:asuncion,Asunción,sale,terreno,2026-10-01,5,,,,5
 d:asuncion,Asunción,sale,all,2025-07-01,17,,,,10
 d:asuncion,Asunción,sale,all,2025-10-01,49,-3.2,38.8,,29
 d:asuncion,Asunción,sale,all,2026-01-01,64,-6.6,28.1,-7.7,45
-d:asuncion,Asunción,sale,all,2026-04-01,55,-1.4,45.5,,29
+d:asuncion,Asunción,sale,all,2026-04-01,57,-1.1,43.9,-6.3,31
 d:asuncion,Asunción,sale,all,2026-07-01,61,0,49.2,,29
 d:asuncion,Asunción,sale,all,2026-10-01,22,,,,14
 d:asuncion,Asunción,rent,casa,2025-07-01,12,,,,1
