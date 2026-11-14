@@ -378,6 +378,36 @@ c:central:nemby,Ñemby,rent,casa,2025-10-01,2,,,,0
 c:central:nemby,Ñemby,rent,casa,2026-01-01,4,,,,1
 c:central:nemby,Ñemby,rent,casa,2026-04-01,5,,,,0
 c:central:nemby,Ñemby,rent,casa,2026-07-01,5,,,,1
+c:central:limpio,Limpio,sale,casa,2025-07-01,1,,,,1
+c:central:limpio,Limpio,sale,casa,2025-10-01,4,,,,2
+c:central:limpio,Limpio,sale,casa,2026-01-01,2,,,,1
+c:central:limpio,Limpio,sale,casa,2026-04-01,2,,,,2
+c:central:limpio,Limpio,sale,casa,2026-07-01,5,,,,4
+c:central:limpio,Limpio,sale,casa,2026-10-01,1,,,,1
+c:central:limpio,Limpio,sale,terreno,2025-07-01,2,,,,2
+c:central:limpio,Limpio,sale,terreno,2025-10-01,6,,,,2
+c:central:limpio,Limpio,sale,terreno,2026-01-01,3,,,,2
+c:central:limpio,Limpio,sale,terreno,2026-04-01,4,,,,3
+c:central:limpio,Limpio,sale,terreno,2026-07-01,7,,,,6
+c:central:limpio,Limpio,sale,all,2025-07-01,3,,,,3
+c:central:limpio,Limpio,sale,all,2025-10-01,10,,,,4
+c:central:limpio,Limpio,sale,all,2026-01-01,5,,,,3
+c:central:limpio,Limpio,sale,all,2026-04-01,6,,,,5
+c:central:limpio,Limpio,sale,all,2026-07-01,13,,,,11
+c:central:limpio,Limpio,sale,all,2026-10-01,1,,,,1
+c:central:limpio,Limpio,rent,casa,2025-10-01,1,,,,0
+c:central:limpio,Limpio,rent,casa,2026-01-01,2,,,,0
+c:central:limpio,Limpio,rent,casa,2026-04-01,6,,,,2
+c:central:limpio,Limpio,rent,casa,2026-07-01,4,,,,0
+c:central:limpio,Limpio,rent,casa,2026-10-01,1,,,,0
+c:central:limpio,Limpio,rent,departamento,2025-10-01,2,,,,0
+c:central:limpio,Limpio,rent,departamento,2026-04-01,4,,,,0
+c:central:limpio,Limpio,rent,departamento,2026-07-01,4,,,,0
+c:central:limpio,Limpio,rent,all,2025-10-01,4,,,,1
+c:central:limpio,Limpio,rent,all,2026-01-01,3,,,,0
+c:central:limpio,Limpio,rent,all,2026-04-01,12,,,,2
+c:central:limpio,Limpio,rent,all,2026-07-01,11,,,,2
+c:central:limpio,Limpio,rent,all,2026-10-01,1,,,,0
 c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,casa,2025-07-01,1,,,,0
 c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,casa,2025-10-01,2,,,,1
 c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,casa,2026-01-01,6,,,,5
@@ -417,36 +447,6 @@ c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,all,2026-01-01,20,,,,3
 c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,all,2026-04-01,22,,,,8
 c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,all,2026-07-01,23,,,,7
 c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,all,2026-10-01,7,,,,1
-c:central:limpio,Limpio,sale,casa,2025-07-01,1,,,,1
-c:central:limpio,Limpio,sale,casa,2025-10-01,4,,,,2
-c:central:limpio,Limpio,sale,casa,2026-01-01,2,,,,1
-c:central:limpio,Limpio,sale,casa,2026-04-01,2,,,,2
-c:central:limpio,Limpio,sale,casa,2026-07-01,5,,,,4
-c:central:limpio,Limpio,sale,casa,2026-10-01,1,,,,1
-c:central:limpio,Limpio,sale,terreno,2025-07-01,2,,,,2
-c:central:limpio,Limpio,sale,terreno,2025-10-01,6,,,,2
-c:central:limpio,Limpio,sale,terreno,2026-01-01,3,,,,2
-c:central:limpio,Limpio,sale,terreno,2026-04-01,4,,,,3
-c:central:limpio,Limpio,sale,terreno,2026-07-01,7,,,,6
-c:central:limpio,Limpio,sale,all,2025-07-01,3,,,,3
-c:central:limpio,Limpio,sale,all,2025-10-01,10,,,,4
-c:central:limpio,Limpio,sale,all,2026-01-01,5,,,,3
-c:central:limpio,Limpio,sale,all,2026-04-01,6,,,,5
-c:central:limpio,Limpio,sale,all,2026-07-01,13,,,,11
-c:central:limpio,Limpio,sale,all,2026-10-01,1,,,,1
-c:central:limpio,Limpio,rent,casa,2025-10-01,1,,,,0
-c:central:limpio,Limpio,rent,casa,2026-01-01,2,,,,0
-c:central:limpio,Limpio,rent,casa,2026-04-01,6,,,,2
-c:central:limpio,Limpio,rent,casa,2026-07-01,4,,,,0
-c:central:limpio,Limpio,rent,casa,2026-10-01,1,,,,0
-c:central:limpio,Limpio,rent,departamento,2025-10-01,2,,,,0
-c:central:limpio,Limpio,rent,departamento,2026-04-01,4,,,,0
-c:central:limpio,Limpio,rent,departamento,2026-07-01,4,,,,0
-c:central:limpio,Limpio,rent,all,2025-10-01,4,,,,1
-c:central:limpio,Limpio,rent,all,2026-01-01,3,,,,0
-c:central:limpio,Limpio,rent,all,2026-04-01,12,,,,2
-c:central:limpio,Limpio,rent,all,2026-07-01,11,,,,2
-c:central:limpio,Limpio,rent,all,2026-10-01,1,,,,0
 c:central:villa-elisa,Villa Elisa,sale,casa,2025-07-01,2,,,,1
 c:central:villa-elisa,Villa Elisa,sale,casa,2025-10-01,9,,,,7
 c:central:villa-elisa,Villa Elisa,sale,casa,2026-01-01,3,,,,2
