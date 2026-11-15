@@ -1,11 +1,6 @@
 {
- "status": "RED",
+ "status": "GREEN",
  "build_ok": true,
- "at": "2026-11-14T16:14:08.417Z",
- "reasons": [
-  {
-   "code": "source_stale:remax",
-   "holds": false
-  }
- ]
+ "at": "2026-11-15T16:48:09.050Z",
+ "reasons": []
 }
