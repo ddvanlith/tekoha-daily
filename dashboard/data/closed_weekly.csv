@@ -20,7 +20,7 @@ py,Paraguay,sale,2025-12-22,30
 py,Paraguay,sale,2025-12-29,29
 py,Paraguay,sale,2026-01-05,45
 py,Paraguay,sale,2026-01-12,41
-py,Paraguay,sale,2026-01-19,35
+py,Paraguay,sale,2026-01-19,36
 py,Paraguay,sale,2026-01-26,43
 py,Paraguay,sale,2026-02-02,34
 py,Paraguay,sale,2026-02-09,27
@@ -55,14 +55,14 @@ py,Paraguay,sale,2026-08-24,46
 py,Paraguay,sale,2026-08-31,43
 py,Paraguay,sale,2026-09-07,39
 py,Paraguay,sale,2026-09-14,49
-py,Paraguay,sale,2026-09-21,42
+py,Paraguay,sale,2026-09-21,43
 py,Paraguay,sale,2026-09-28,47
-py,Paraguay,sale,2026-10-05,37
+py,Paraguay,sale,2026-10-05,38
 py,Paraguay,sale,2026-10-12,26
 py,Paraguay,sale,2026-10-19,36
 py,Paraguay,sale,2026-10-26,35
-py,Paraguay,sale,2026-11-02,22
-py,Paraguay,sale,2026-11-09,9
+py,Paraguay,sale,2026-11-02,25
+py,Paraguay,sale,2026-11-09,18
 py,Paraguay,rent,2025-08-25,44
 py,Paraguay,rent,2025-09-01,35
 py,Paraguay,rent,2025-09-08,43
@@ -85,7 +85,7 @@ py,Paraguay,rent,2025-12-29,45
 py,Paraguay,rent,2026-01-05,51
 py,Paraguay,rent,2026-01-12,38
 py,Paraguay,rent,2026-01-19,50
-py,Paraguay,rent,2026-01-26,75
+py,Paraguay,rent,2026-01-26,77
 py,Paraguay,rent,2026-02-02,48
 py,Paraguay,rent,2026-02-09,37
 py,Paraguay,rent,2026-02-16,42
@@ -111,7 +111,7 @@ py,Paraguay,rent,2026-06-29,57
 py,Paraguay,rent,2026-07-06,44
 py,Paraguay,rent,2026-07-13,59
 py,Paraguay,rent,2026-07-20,36
-py,Paraguay,rent,2026-07-27,61
+py,Paraguay,rent,2026-07-27,60
 py,Paraguay,rent,2026-08-03,40
 py,Paraguay,rent,2026-08-10,36
 py,Paraguay,rent,2026-08-17,23
@@ -124,9 +124,9 @@ py,Paraguay,rent,2026-09-28,66
 py,Paraguay,rent,2026-10-05,50
 py,Paraguay,rent,2026-10-12,45
 py,Paraguay,rent,2026-10-19,45
-py,Paraguay,rent,2026-10-26,46
-py,Paraguay,rent,2026-11-02,38
-py,Paraguay,rent,2026-11-09,20
+py,Paraguay,rent,2026-10-26,47
+py,Paraguay,rent,2026-11-02,39
+py,Paraguay,rent,2026-11-09,27
 d:asuncion,Asunción,sale,2025-08-25,13
 d:asuncion,Asunción,sale,2025-09-01,12
 d:asuncion,Asunción,sale,2025-09-08,11
@@ -185,11 +185,12 @@ d:asuncion,Asunción,sale,2026-09-07,8
 d:asuncion,Asunción,sale,2026-09-14,16
 d:asuncion,Asunción,sale,2026-09-21,14
 d:asuncion,Asunción,sale,2026-09-28,18
-d:asuncion,Asunción,sale,2026-10-05,10
+d:asuncion,Asunción,sale,2026-10-05,11
 d:asuncion,Asunción,sale,2026-10-12,7
 d:asuncion,Asunción,sale,2026-10-19,9
 d:asuncion,Asunción,sale,2026-10-26,15
-d:asuncion,Asunción,sale,2026-11-02,7
+d:asuncion,Asunción,sale,2026-11-02,8
+d:asuncion,Asunción,sale,2026-11-09,1
 d:asuncion,Asunción,rent,2025-08-25,19
 d:asuncion,Asunción,rent,2025-09-01,18
 d:asuncion,Asunción,rent,2025-09-08,15
@@ -212,7 +213,7 @@ d:asuncion,Asunción,rent,2025-12-29,23
 d:asuncion,Asunción,rent,2026-01-05,21
 d:asuncion,Asunción,rent,2026-01-12,21
 d:asuncion,Asunción,rent,2026-01-19,25
-d:asuncion,Asunción,rent,2026-01-26,25
+d:asuncion,Asunción,rent,2026-01-26,27
 d:asuncion,Asunción,rent,2026-02-02,13
 d:asuncion,Asunción,rent,2026-02-09,16
 d:asuncion,Asunción,rent,2026-02-16,17
@@ -238,7 +239,7 @@ d:asuncion,Asunción,rent,2026-06-29,18
 d:asuncion,Asunción,rent,2026-07-06,20
 d:asuncion,Asunción,rent,2026-07-13,26
 d:asuncion,Asunción,rent,2026-07-20,11
-d:asuncion,Asunción,rent,2026-07-27,28
+d:asuncion,Asunción,rent,2026-07-27,27
 d:asuncion,Asunción,rent,2026-08-03,12
 d:asuncion,Asunción,rent,2026-08-10,19
 d:asuncion,Asunción,rent,2026-08-17,9
@@ -253,7 +254,7 @@ d:asuncion,Asunción,rent,2026-10-12,16
 d:asuncion,Asunción,rent,2026-10-19,19
 d:asuncion,Asunción,rent,2026-10-26,21
 d:asuncion,Asunción,rent,2026-11-02,11
-d:asuncion,Asunción,rent,2026-11-09,6
+d:asuncion,Asunción,rent,2026-11-09,8
 d:central,Central,sale,2025-08-25,20
 d:central,Central,sale,2025-09-01,8
 d:central,Central,sale,2025-09-08,9
@@ -275,7 +276,7 @@ d:central,Central,sale,2025-12-22,12
 d:central,Central,sale,2025-12-29,11
 d:central,Central,sale,2026-01-05,19
 d:central,Central,sale,2026-01-12,12
-d:central,Central,sale,2026-01-19,12
+d:central,Central,sale,2026-01-19,13
 d:central,Central,sale,2026-01-26,16
 d:central,Central,sale,2026-02-02,8
 d:central,Central,sale,2026-02-09,8
@@ -316,8 +317,8 @@ d:central,Central,sale,2026-10-05,12
 d:central,Central,sale,2026-10-12,8
 d:central,Central,sale,2026-10-19,16
 d:central,Central,sale,2026-10-26,11
-d:central,Central,sale,2026-11-02,5
-d:central,Central,sale,2026-11-09,3
+d:central,Central,sale,2026-11-02,6
+d:central,Central,sale,2026-11-09,9
 d:central,Central,rent,2025-08-25,19
 d:central,Central,rent,2025-09-01,11
 d:central,Central,rent,2025-09-08,16
@@ -380,8 +381,8 @@ d:central,Central,rent,2026-10-05,21
 d:central,Central,rent,2026-10-12,20
 d:central,Central,rent,2026-10-19,16
 d:central,Central,rent,2026-10-26,11
-d:central,Central,rent,2026-11-02,12
-d:central,Central,rent,2026-11-09,6
+d:central,Central,rent,2026-11-02,13
+d:central,Central,rent,2026-11-09,8
 c:central:luque,Luque,sale,2025-08-25,8
 c:central:luque,Luque,sale,2025-09-01,4
 c:central:luque,Luque,sale,2025-09-08,3
@@ -444,7 +445,7 @@ c:central:luque,Luque,sale,2026-10-12,1
 c:central:luque,Luque,sale,2026-10-19,1
 c:central:luque,Luque,sale,2026-10-26,2
 c:central:luque,Luque,sale,2026-11-02,3
-c:central:luque,Luque,sale,2026-11-09,1
+c:central:luque,Luque,sale,2026-11-09,4
 c:central:luque,Luque,rent,2025-08-25,4
 c:central:luque,Luque,rent,2025-09-01,1
 c:central:luque,Luque,rent,2025-09-08,4
@@ -550,6 +551,7 @@ c:central:san-lorenzo,San Lorenzo,sale,2026-10-05,1
 c:central:san-lorenzo,San Lorenzo,sale,2026-10-19,1
 c:central:san-lorenzo,San Lorenzo,sale,2026-10-26,2
 c:central:san-lorenzo,San Lorenzo,sale,2026-11-02,1
+c:central:san-lorenzo,San Lorenzo,sale,2026-11-09,1
 c:central:san-lorenzo,San Lorenzo,rent,2025-08-25,5
 c:central:san-lorenzo,San Lorenzo,rent,2025-09-01,3
 c:central:san-lorenzo,San Lorenzo,rent,2025-09-08,2
@@ -659,7 +661,7 @@ c:central:lambare,Lambaré,sale,2026-10-05,2
 c:central:lambare,Lambaré,sale,2026-10-19,4
 c:central:lambare,Lambaré,sale,2026-10-26,1
 c:central:lambare,Lambaré,sale,2026-11-02,1
-c:central:lambare,Lambaré,sale,2026-11-09,1
+c:central:lambare,Lambaré,sale,2026-11-09,2
 c:central:lambare,Lambaré,rent,2025-08-25,3
 c:central:lambare,Lambaré,rent,2025-09-01,1
 c:central:lambare,Lambaré,rent,2025-09-08,2
@@ -827,7 +829,7 @@ c:central:fernando-de-la-mora,Fernando de la Mora,rent,2026-10-12,8
 c:central:fernando-de-la-mora,Fernando de la Mora,rent,2026-10-19,3
 c:central:fernando-de-la-mora,Fernando de la Mora,rent,2026-10-26,3
 c:central:fernando-de-la-mora,Fernando de la Mora,rent,2026-11-02,1
-c:central:fernando-de-la-mora,Fernando de la Mora,rent,2026-11-09,1
+c:central:fernando-de-la-mora,Fernando de la Mora,rent,2026-11-09,2
 c:central:capiata,Capiatá,sale,2025-09-08,1
 c:central:capiata,Capiatá,sale,2025-09-15,2
 c:central:capiata,Capiatá,sale,2025-09-22,2
@@ -1007,6 +1009,7 @@ c:central:limpio,Limpio,rent,2026-09-07,2
 c:central:limpio,Limpio,rent,2026-09-14,4
 c:central:limpio,Limpio,rent,2026-09-21,3
 c:central:limpio,Limpio,rent,2026-10-26,1
+c:central:limpio,Limpio,rent,2026-11-09,1
 c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2025-08-25,2
 c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2025-09-15,2
 c:central:mariano-roque-alonso,Mariano Roque Alonso,sale,2025-09-29,1
@@ -1078,6 +1081,7 @@ c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-09-07,4
 c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-09-14,3
 c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-10-12,2
 c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-10-19,4
+c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-11-02,1
 c:central:mariano-roque-alonso,Mariano Roque Alonso,rent,2026-11-09,1
 c:central:villa-elisa,Villa Elisa,sale,2025-08-25,1
 c:central:villa-elisa,Villa Elisa,sale,2025-09-08,1
@@ -1163,7 +1167,7 @@ c:central:itaugua,Itauguá,sale,2025-10-13,1
 c:central:itaugua,Itauguá,sale,2025-10-20,1
 c:central:itaugua,Itauguá,sale,2025-12-01,1
 c:central:itaugua,Itauguá,sale,2025-12-29,1
-c:central:itaugua,Itauguá,sale,2026-01-19,2
+c:central:itaugua,Itauguá,sale,2026-01-19,3
 c:central:itaugua,Itauguá,sale,2026-05-18,1
 c:central:itaugua,Itauguá,sale,2026-06-01,1
 c:central:itaugua,Itauguá,sale,2026-08-10,1
@@ -1206,6 +1210,7 @@ c:central:aregua,Areguá,sale,2026-07-06,1
 c:central:aregua,Areguá,sale,2026-10-12,2
 c:central:aregua,Areguá,sale,2026-10-19,1
 c:central:aregua,Areguá,sale,2026-10-26,1
+c:central:aregua,Areguá,sale,2026-11-02,1
 c:central:aregua,Areguá,rent,2025-11-03,1
 c:central:aregua,Areguá,rent,2026-03-02,2
 c:central:aregua,Areguá,rent,2026-04-06,1
@@ -1248,6 +1253,7 @@ c:central:ita,Itá,sale,2025-11-17,1
 c:central:ita,Itá,sale,2026-06-01,1
 c:central:ita,Itá,sale,2026-08-10,1
 c:central:ita,Itá,sale,2026-10-19,2
+c:central:ita,Itá,sale,2026-11-09,1
 c:central:ita,Itá,rent,2026-05-18,1
 c:central:ita,Itá,rent,2026-09-14,1
 c:central:san-antonio,San Antonio,sale,2025-11-17,2
@@ -1388,7 +1394,7 @@ d:itapua,Itapúa,rent,2026-10-12,1
 d:itapua,Itapúa,rent,2026-10-19,5
 d:itapua,Itapúa,rent,2026-10-26,6
 d:itapua,Itapúa,rent,2026-11-02,2
-d:itapua,Itapúa,rent,2026-11-09,3
+d:itapua,Itapúa,rent,2026-11-09,5
 c:itapua:encarnacion,Encarnación,sale,2025-09-01,2
 c:itapua:encarnacion,Encarnación,sale,2025-09-08,3
 c:itapua:encarnacion,Encarnación,sale,2025-09-15,2
@@ -1502,7 +1508,7 @@ c:itapua:encarnacion,Encarnación,rent,2026-10-12,1
 c:itapua:encarnacion,Encarnación,rent,2026-10-19,5
 c:itapua:encarnacion,Encarnación,rent,2026-10-26,5
 c:itapua:encarnacion,Encarnación,rent,2026-11-02,2
-c:itapua:encarnacion,Encarnación,rent,2026-11-09,3
+c:itapua:encarnacion,Encarnación,rent,2026-11-09,5
 c:itapua:cambyreta,Cambyretá,sale,2025-11-03,1
 c:itapua:cambyreta,Cambyretá,sale,2025-11-10,1
 c:itapua:cambyreta,Cambyretá,sale,2025-11-24,2
@@ -1660,7 +1666,7 @@ d:alto-parana,Alto Paraná,sale,2026-10-12,7
 d:alto-parana,Alto Paraná,sale,2026-10-19,5
 d:alto-parana,Alto Paraná,sale,2026-10-26,3
 d:alto-parana,Alto Paraná,sale,2026-11-02,4
-d:alto-parana,Alto Paraná,sale,2026-11-09,3
+d:alto-parana,Alto Paraná,sale,2026-11-09,5
 d:alto-parana,Alto Paraná,rent,2025-08-25,2
 d:alto-parana,Alto Paraná,rent,2025-09-01,1
 d:alto-parana,Alto Paraná,rent,2025-09-08,4
@@ -1723,7 +1729,7 @@ d:alto-parana,Alto Paraná,rent,2026-10-12,4
 d:alto-parana,Alto Paraná,rent,2026-10-19,3
 d:alto-parana,Alto Paraná,rent,2026-10-26,7
 d:alto-parana,Alto Paraná,rent,2026-11-02,8
-d:alto-parana,Alto Paraná,rent,2026-11-09,3
+d:alto-parana,Alto Paraná,rent,2026-11-09,4
 c:alto-parana:ciudad-del-este,Ciudad del Este,sale,2025-08-25,4
 c:alto-parana:ciudad-del-este,Ciudad del Este,sale,2025-09-08,2
 c:alto-parana:ciudad-del-este,Ciudad del Este,sale,2025-09-15,5
@@ -1782,7 +1788,7 @@ c:alto-parana:ciudad-del-este,Ciudad del Este,sale,2026-10-12,6
 c:alto-parana:ciudad-del-este,Ciudad del Este,sale,2026-10-19,3
 c:alto-parana:ciudad-del-este,Ciudad del Este,sale,2026-10-26,3
 c:alto-parana:ciudad-del-este,Ciudad del Este,sale,2026-11-02,4
-c:alto-parana:ciudad-del-este,Ciudad del Este,sale,2026-11-09,1
+c:alto-parana:ciudad-del-este,Ciudad del Este,sale,2026-11-09,2
 c:alto-parana:ciudad-del-este,Ciudad del Este,rent,2025-08-25,2
 c:alto-parana:ciudad-del-este,Ciudad del Este,rent,2025-09-08,1
 c:alto-parana:ciudad-del-este,Ciudad del Este,rent,2025-09-15,1
@@ -1838,7 +1844,7 @@ c:alto-parana:ciudad-del-este,Ciudad del Este,rent,2026-10-12,1
 c:alto-parana:ciudad-del-este,Ciudad del Este,rent,2026-10-19,2
 c:alto-parana:ciudad-del-este,Ciudad del Este,rent,2026-10-26,7
 c:alto-parana:ciudad-del-este,Ciudad del Este,rent,2026-11-02,2
-c:alto-parana:ciudad-del-este,Ciudad del Este,rent,2026-11-09,2
+c:alto-parana:ciudad-del-este,Ciudad del Este,rent,2026-11-09,3
 c:alto-parana:hernandarias,Hernandarias,sale,2025-08-25,3
 c:alto-parana:hernandarias,Hernandarias,sale,2025-09-01,2
 c:alto-parana:hernandarias,Hernandarias,sale,2025-09-15,1
@@ -1893,6 +1899,7 @@ c:alto-parana:minga-guazu,Minga Guazú,sale,2026-06-22,1
 c:alto-parana:minga-guazu,Minga Guazú,sale,2026-08-17,1
 c:alto-parana:minga-guazu,Minga Guazú,sale,2026-09-07,1
 c:alto-parana:minga-guazu,Minga Guazú,sale,2026-10-19,1
+c:alto-parana:minga-guazu,Minga Guazú,sale,2026-11-09,1
 c:alto-parana:minga-guazu,Minga Guazú,rent,2025-11-10,2
 c:alto-parana:minga-guazu,Minga Guazú,rent,2025-12-15,1
 c:alto-parana:minga-guazu,Minga Guazú,rent,2026-05-11,1
@@ -2011,11 +2018,12 @@ d:cordillera,Cordillera,sale,2026-08-17,2
 d:cordillera,Cordillera,sale,2026-08-24,3
 d:cordillera,Cordillera,sale,2026-09-07,2
 d:cordillera,Cordillera,sale,2026-09-14,3
+d:cordillera,Cordillera,sale,2026-09-21,1
 d:cordillera,Cordillera,sale,2026-09-28,1
 d:cordillera,Cordillera,sale,2026-10-05,1
 d:cordillera,Cordillera,sale,2026-10-19,3
 d:cordillera,Cordillera,sale,2026-10-26,2
-d:cordillera,Cordillera,sale,2026-11-02,2
+d:cordillera,Cordillera,sale,2026-11-02,3
 d:cordillera,Cordillera,rent,2025-08-25,1
 d:cordillera,Cordillera,rent,2025-09-22,1
 d:cordillera,Cordillera,rent,2025-10-27,1
@@ -2068,6 +2076,7 @@ c:cordillera:san-bernardino,San Bernardino,sale,2026-07-20,3
 c:cordillera:san-bernardino,San Bernardino,sale,2026-08-17,2
 c:cordillera:san-bernardino,San Bernardino,sale,2026-08-24,3
 c:cordillera:san-bernardino,San Bernardino,sale,2026-09-14,3
+c:cordillera:san-bernardino,San Bernardino,sale,2026-09-21,1
 c:cordillera:san-bernardino,San Bernardino,sale,2026-09-28,1
 c:cordillera:san-bernardino,San Bernardino,sale,2026-10-19,1
 c:cordillera:san-bernardino,San Bernardino,sale,2026-10-26,2
@@ -2106,6 +2115,7 @@ c:cordillera:altos,Altos,sale,2026-03-02,1
 c:cordillera:altos,Altos,sale,2026-04-13,2
 c:cordillera:altos,Altos,sale,2026-04-20,1
 c:cordillera:altos,Altos,sale,2026-09-07,1
+c:cordillera:altos,Altos,sale,2026-11-02,1
 c:cordillera:altos,Altos,rent,2026-08-10,1
 c:cordillera:altos,Altos,rent,2026-09-07,1
 d:boqueron,Boquerón,sale,2025-08-25,2
@@ -2194,7 +2204,7 @@ d:boqueron,Boquerón,rent,2026-09-14,1
 d:boqueron,Boquerón,rent,2026-09-28,3
 d:boqueron,Boquerón,rent,2026-10-12,3
 d:boqueron,Boquerón,rent,2026-10-19,2
-d:boqueron,Boquerón,rent,2026-10-26,1
+d:boqueron,Boquerón,rent,2026-10-26,2
 d:boqueron,Boquerón,rent,2026-11-02,3
 d:boqueron,Boquerón,rent,2026-11-09,2
 d:presidente-hayes,Presidente Hayes,sale,2025-09-22,1
