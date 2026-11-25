@@ -1165,7 +1165,6 @@ transaction_id,close_date,operation,kind,place,barrio,department_market,city_mar
 1513,2025-11-01,rent,oficina,"San Lorenzo, Central",,Central,San Lorenzo,,,,2800000,PYG,394.54,2500000,PYG,352.27,7096.805,,-10.714,0,1,1,1,1,,remax,143095022-24
 1619,2025-11-01,rent,departamento,"Luque, Central",,Central,Luque,28,land,1,2000000,PYG,281.82,2200000,PYG,310,7096.805,11,9.999,0,0,1,1,1,,remax,143056054-48
 2168,2025-11-01,rent,otro,"Luque, Central",,Central,Luque,60,built,2,2500000,PYG,352.27,2500000,PYG,352.27,7096.805,6,0,1,0,1,1,1,,remax,143080176-2
-2415,2025-11-01,rent,departamento,Asunción,Villa Morra,Asunción,,72,land,2,6500000,PYG,915.91,6500000,PYG,915.91,7096.805,13,0,1,0,1,1,1,,remax,143098010-83
 2601,2025-11-01,rent,departamento,"Fernando de la Mora, Central",,Central,Fernando de la Mora,200,land,3,2400000,PYG,338.18,3000000,PYG,422.73,7096.805,2,25.001,0,0,1,1,1,,remax,143080105-111
 3039,2025-11-01,rent,terreno,"Loma Plata, Boquerón",,Boquerón,,,,,4000000,PYG,563.63,4000000,PYG,563.63,7096.805,,0,1,0,1,1,1,,remax,143078001-170
 3277,2025-11-01,rent,casa,"San Bernardino, Cordillera",,Cordillera,San Bernardino,450,built,5,42000000,PYG,5918.16,42000000,PYG,5918.16,7096.805,13,0,1,0,1,1,1,,remax,143072119-69
@@ -4454,7 +4453,6 @@ transaction_id,close_date,operation,kind,place,barrio,department_market,city_mar
 2506,2026-07-09,rent,otro,"Santa Rita, Alto Paraná",,Alto Paraná,Santa Rita,,,1,1000000,PYG,164.49,1000000,PYG,164.49,6079.51,,0,1,0,5,0,0,second record of one deal,remax,143065021-192
 2643,2026-07-09,sale,terreno,"Ypané, Central",,Central,Ypané,360,land,,55000000,PYG,9046.78,45000000,PYG,7401.91,6079.51,21,-18.182,0,1,3,0,0,second record of one deal,remax,143080194-10
 2755,2026-07-09,sale,terreno,"Villa Elisa, Central",,Central,Villa Elisa,,,,205000000,PYG,33719.82,205000000,PYG,33719.82,6079.51,,0,1,0,1,1,1,,remax,143098038-45
-2875,2026-07-09,rent,departamento,Asunción,Virgen de la Asunción,Asunción,,66,built,1,900,USD,900,5472000,PYG,900.07,6079.51,14,0.008,0,0,1,1,0,cross-currency,remax,143063187-91
 3595,2026-07-09,rent,otro,"Santa Rita, Alto Paraná",,Alto Paraná,Santa Rita,,,1,1000000,PYG,164.49,1000000,PYG,164.49,6079.51,,0,1,0,5,0,0,second record of one deal,remax,143065021-191
 3792,2026-07-09,rent,otro,"Santa Rita, Alto Paraná",,Alto Paraná,Santa Rita,,,2,1000000,PYG,164.49,1000000,PYG,164.49,6079.51,,0,1,0,5,0,0,second record of one deal,remax,143065021-194
 3974,2026-07-09,sale,terreno,"Ypané, Central",,Central,Ypané,360,land,,55000000,PYG,9046.78,45000000,PYG,7401.91,6079.51,21,-18.182,0,1,3,0,0,second record of one deal,remax,143080194-9
@@ -6168,7 +6166,7 @@ transaction_id,close_date,operation,kind,place,barrio,department_market,city_mar
 1036424,2026-11-23,sale,departamento,"Luque, Central",,Central,Luque,40,land,1,62300,USD,62300,400277500,PYG,62328.67,6422.045,1543,0.046,0,0,1,1,0,cross-currency,remax,143063059-82
 1036786,2026-11-23,rent,local,Asunción,Herrera,Asunción,,33,built,,4480500,PYG,697.67,3350000,PYG,521.64,6422.045,16,-25.231,0,1,3,0,0,second record of one deal,remax,143084038-86
 1036856,2026-11-23,rent,local,Asunción,Herrera,Asunción,,33,built,,5345000,PYG,832.29,3350000,PYG,521.64,6422.045,16,-37.325,0,1,1,1,1,,remax,143084038-91
-1032346,2026-11-24,rent,local,Asunción,Mburicaó,Asunción,,70,built,,6200000,PYG,965.42,5600000,PYG,872,6422.045,12,-9.677,0,1,1,1,1,,remax,143084038-125
-928596,2026-11-27,rent,departamento,Asunción,Las Lomas (Carmelitas),Asunción,,90,land,1,0,USD,0,6490000,USD,6490000,6422.045,72111,,0,0,1,1,0,dated after the build,remax,143056036-207
-1023061,2026-11-28,rent,departamento,"San Lorenzo, Central",,Central,San Lorenzo,60,land,2,2800000,PYG,436,2800000,PYG,436,6422.045,7,0,1,0,1,1,0,dated after the build,remax,143063293-269
+1032346,2026-11-24,rent,local,Asunción,Mburicaó,Asunción,,70,built,,6200000,PYG,965.97,5600000,PYG,872.49,6418.425,12,-9.677,0,1,1,1,1,,remax,143084038-125
+928596,2026-11-27,rent,departamento,Asunción,Las Lomas (Carmelitas),Asunción,,90,land,1,0,USD,0,6490000,USD,6490000,6418.425,72111,,0,0,1,1,0,dated after the build,remax,143056036-207
+1023061,2026-11-28,rent,departamento,"San Lorenzo, Central",,Central,San Lorenzo,60,land,2,2800000,PYG,436.24,2800000,PYG,436.24,6418.425,7,0,1,0,1,1,0,dated after the build,remax,143063293-269
 928870,2026-12-11,rent,departamento,Asunción,Las Lomas (Carmelitas),Asunción,,56,built,1,950,USD,,5842500,PYG,944.2,,17,,0,0,1,1,0,dated after the build,remax,143026176-97

@@ -74,7 +74,7 @@ py,Paraguay,rent,2025-09-29,49
 py,Paraguay,rent,2025-10-06,38
 py,Paraguay,rent,2025-10-13,22
 py,Paraguay,rent,2025-10-20,42
-py,Paraguay,rent,2025-10-27,77
+py,Paraguay,rent,2025-10-27,76
 py,Paraguay,rent,2025-11-03,36
 py,Paraguay,rent,2025-11-10,42
 py,Paraguay,rent,2025-11-17,50
@@ -110,7 +110,7 @@ py,Paraguay,rent,2026-06-08,46
 py,Paraguay,rent,2026-06-15,41
 py,Paraguay,rent,2026-06-22,52
 py,Paraguay,rent,2026-06-29,58
-py,Paraguay,rent,2026-07-06,44
+py,Paraguay,rent,2026-07-06,43
 py,Paraguay,rent,2026-07-13,59
 py,Paraguay,rent,2026-07-20,36
 py,Paraguay,rent,2026-07-27,60
@@ -205,7 +205,7 @@ d:asuncion,Asunción,rent,2025-09-29,20
 d:asuncion,Asunción,rent,2025-10-06,17
 d:asuncion,Asunción,rent,2025-10-13,8
 d:asuncion,Asunción,rent,2025-10-20,20
-d:asuncion,Asunción,rent,2025-10-27,38
+d:asuncion,Asunción,rent,2025-10-27,37
 d:asuncion,Asunción,rent,2025-11-03,18
 d:asuncion,Asunción,rent,2025-11-10,17
 d:asuncion,Asunción,rent,2025-11-17,28
@@ -241,7 +241,7 @@ d:asuncion,Asunción,rent,2026-06-08,19
 d:asuncion,Asunción,rent,2026-06-15,15
 d:asuncion,Asunción,rent,2026-06-22,18
 d:asuncion,Asunción,rent,2026-06-29,18
-d:asuncion,Asunción,rent,2026-07-06,20
+d:asuncion,Asunción,rent,2026-07-06,19
 d:asuncion,Asunción,rent,2026-07-13,26
 d:asuncion,Asunción,rent,2026-07-20,11
 d:asuncion,Asunción,rent,2026-07-27,27
@@ -1284,10 +1284,6 @@ c:central:ita,Itá,sale,2026-10-19,2
 c:central:ita,Itá,sale,2026-11-09,1
 c:central:ita,Itá,rent,2026-05-18,1
 c:central:ita,Itá,rent,2026-09-14,1
-c:central:julian-augusto-saldivar,Julián Augusto Saldívar,sale,2025-08-25,1
-c:central:julian-augusto-saldivar,Julián Augusto Saldívar,sale,2025-11-24,1
-c:central:julian-augusto-saldivar,Julián Augusto Saldívar,sale,2026-02-23,1
-c:central:julian-augusto-saldivar,Julián Augusto Saldívar,sale,2026-08-31,2
 c:central:san-antonio,San Antonio,sale,2025-11-17,2
 c:central:san-antonio,San Antonio,sale,2025-12-08,1
 c:central:san-antonio,San Antonio,sale,2025-12-15,1
@@ -1301,6 +1297,10 @@ c:central:san-antonio,San Antonio,rent,2025-10-27,1
 c:central:san-antonio,San Antonio,rent,2025-11-03,1
 c:central:san-antonio,San Antonio,rent,2026-06-22,1
 c:central:san-antonio,San Antonio,rent,2026-06-29,1
+c:central:julian-augusto-saldivar,Julián Augusto Saldívar,sale,2025-08-25,1
+c:central:julian-augusto-saldivar,Julián Augusto Saldívar,sale,2025-11-24,1
+c:central:julian-augusto-saldivar,Julián Augusto Saldívar,sale,2026-02-23,1
+c:central:julian-augusto-saldivar,Julián Augusto Saldívar,sale,2026-08-31,2
 d:itapua,Itapúa,sale,2025-08-25,1
 d:itapua,Itapúa,sale,2025-09-01,2
 d:itapua,Itapúa,sale,2025-09-08,4
