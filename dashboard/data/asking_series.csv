@@ -10937,11 +10937,11 @@ date,market_id,market,metric,property_kind,value,n,median_sources
 2026-11-08,c:alto-parana:minga-guazu,Minga Guazú,active_sale,,110,110,remax infocasas uprop cb psir
 2026-11-08,c:alto-parana:minga-guazu,Minga Guazú,active_rent,,2,2,remax infocasas uprop cb psir
 2026-11-08,c:alto-parana:minga-guazu,Minga Guazú,asking_price_usd,terreno,23939,89,remax infocasas uprop cb psir
-2026-11-08,c:alto-parana:santa-rita,Santa Rita,active_sale,,100,100,remax infocasas uprop cb psir
-2026-11-08,c:alto-parana:santa-rita,Santa Rita,active_rent,,10,10,remax infocasas uprop cb psir
-2026-11-08,c:alto-parana:santa-rita,Santa Rita,asking_price_usd,casa,158000,29,remax infocasas uprop cb psir
-2026-11-08,c:alto-parana:santa-rita,Santa Rita,asking_price_usd,terreno,40000,43,remax infocasas uprop cb psir
-2026-11-08,c:alto-parana:santa-rita,Santa Rita,asking_usd_per_m2_built,casa,760,28,remax infocasas uprop cb psir
+2026-11-08,c:alto-parana:santa-rita,c:alto-parana:santa-rita,active_sale,,100,100,remax infocasas uprop cb psir
+2026-11-08,c:alto-parana:santa-rita,c:alto-parana:santa-rita,active_rent,,10,10,remax infocasas uprop cb psir
+2026-11-08,c:alto-parana:santa-rita,c:alto-parana:santa-rita,asking_price_usd,casa,158000,29,remax infocasas uprop cb psir
+2026-11-08,c:alto-parana:santa-rita,c:alto-parana:santa-rita,asking_price_usd,terreno,40000,43,remax infocasas uprop cb psir
+2026-11-08,c:alto-parana:santa-rita,c:alto-parana:santa-rita,asking_usd_per_m2_built,casa,760,28,remax infocasas uprop cb psir
 2026-11-08,d:cordillera,Cordillera,active_sale,,937,937,remax infocasas uprop cb psir
 2026-11-08,d:cordillera,Cordillera,active_rent,,52,52,remax infocasas uprop cb psir
 2026-11-08,d:cordillera,Cordillera,asking_price_usd,casa,185336,193,remax infocasas uprop cb psir
@@ -11906,11 +11906,11 @@ date,market_id,market,metric,property_kind,value,n,median_sources
 2026-11-12,c:alto-parana:minga-guazu,Minga Guazú,active_sale,,109,109,remax infocasas uprop cb psir
 2026-11-12,c:alto-parana:minga-guazu,Minga Guazú,active_rent,,2,2,remax infocasas uprop cb psir
 2026-11-12,c:alto-parana:minga-guazu,Minga Guazú,asking_price_usd,terreno,25846,89,remax infocasas uprop cb psir
-2026-11-12,c:alto-parana:santa-rita,Santa Rita,active_sale,,100,100,remax infocasas uprop cb psir
-2026-11-12,c:alto-parana:santa-rita,Santa Rita,active_rent,,10,10,remax infocasas uprop cb psir
-2026-11-12,c:alto-parana:santa-rita,Santa Rita,asking_price_usd,casa,151500,28,remax infocasas uprop cb psir
-2026-11-12,c:alto-parana:santa-rita,Santa Rita,asking_price_usd,terreno,40000,43,remax infocasas uprop cb psir
-2026-11-12,c:alto-parana:santa-rita,Santa Rita,asking_usd_per_m2_built,casa,752,27,remax infocasas uprop cb psir
+2026-11-12,c:alto-parana:santa-rita,c:alto-parana:santa-rita,active_sale,,100,100,remax infocasas uprop cb psir
+2026-11-12,c:alto-parana:santa-rita,c:alto-parana:santa-rita,active_rent,,10,10,remax infocasas uprop cb psir
+2026-11-12,c:alto-parana:santa-rita,c:alto-parana:santa-rita,asking_price_usd,casa,151500,28,remax infocasas uprop cb psir
+2026-11-12,c:alto-parana:santa-rita,c:alto-parana:santa-rita,asking_price_usd,terreno,40000,43,remax infocasas uprop cb psir
+2026-11-12,c:alto-parana:santa-rita,c:alto-parana:santa-rita,asking_usd_per_m2_built,casa,752,27,remax infocasas uprop cb psir
 2026-11-12,d:cordillera,Cordillera,active_sale,,956,956,remax infocasas uprop cb psir
 2026-11-12,d:cordillera,Cordillera,active_rent,,51,51,remax infocasas uprop cb psir
 2026-11-12,d:cordillera,Cordillera,asking_price_usd,casa,191922,196,remax infocasas uprop cb psir
@@ -12155,11 +12155,11 @@ date,market_id,market,metric,property_kind,value,n,median_sources
 2026-11-13,c:alto-parana:minga-guazu,Minga Guazú,active_sale,,109,109,remax infocasas uprop cb psir
 2026-11-13,c:alto-parana:minga-guazu,Minga Guazú,active_rent,,2,2,remax infocasas uprop cb psir
 2026-11-13,c:alto-parana:minga-guazu,Minga Guazú,asking_price_usd,terreno,25779,89,remax infocasas uprop cb psir
-2026-11-13,c:alto-parana:santa-rita,Santa Rita,active_sale,,100,100,remax infocasas uprop cb psir
-2026-11-13,c:alto-parana:santa-rita,Santa Rita,active_rent,,10,10,remax infocasas uprop cb psir
-2026-11-13,c:alto-parana:santa-rita,Santa Rita,asking_price_usd,casa,151500,28,remax infocasas uprop cb psir
-2026-11-13,c:alto-parana:santa-rita,Santa Rita,asking_price_usd,terreno,40000,43,remax infocasas uprop cb psir
-2026-11-13,c:alto-parana:santa-rita,Santa Rita,asking_usd_per_m2_built,casa,752,27,remax infocasas uprop cb psir
+2026-11-13,c:alto-parana:santa-rita,c:alto-parana:santa-rita,active_sale,,100,100,remax infocasas uprop cb psir
+2026-11-13,c:alto-parana:santa-rita,c:alto-parana:santa-rita,active_rent,,10,10,remax infocasas uprop cb psir
+2026-11-13,c:alto-parana:santa-rita,c:alto-parana:santa-rita,asking_price_usd,casa,151500,28,remax infocasas uprop cb psir
+2026-11-13,c:alto-parana:santa-rita,c:alto-parana:santa-rita,asking_price_usd,terreno,40000,43,remax infocasas uprop cb psir
+2026-11-13,c:alto-parana:santa-rita,c:alto-parana:santa-rita,asking_usd_per_m2_built,casa,752,27,remax infocasas uprop cb psir
 2026-11-13,d:cordillera,Cordillera,active_sale,,956,956,remax infocasas uprop cb psir
 2026-11-13,d:cordillera,Cordillera,active_rent,,51,51,remax infocasas uprop cb psir
 2026-11-13,d:cordillera,Cordillera,asking_price_usd,casa,191671,196,remax infocasas uprop cb psir
@@ -12404,11 +12404,11 @@ date,market_id,market,metric,property_kind,value,n,median_sources
 2026-11-14,c:alto-parana:minga-guazu,Minga Guazú,active_sale,,109,109,remax infocasas uprop cb psir
 2026-11-14,c:alto-parana:minga-guazu,Minga Guazú,active_rent,,2,2,remax infocasas uprop cb psir
 2026-11-14,c:alto-parana:minga-guazu,Minga Guazú,asking_price_usd,terreno,25783,89,remax infocasas uprop cb psir
-2026-11-14,c:alto-parana:santa-rita,Santa Rita,active_sale,,100,100,remax infocasas uprop cb psir
-2026-11-14,c:alto-parana:santa-rita,Santa Rita,active_rent,,10,10,remax infocasas uprop cb psir
-2026-11-14,c:alto-parana:santa-rita,Santa Rita,asking_price_usd,casa,151500,28,remax infocasas uprop cb psir
-2026-11-14,c:alto-parana:santa-rita,Santa Rita,asking_price_usd,terreno,40000,43,remax infocasas uprop cb psir
-2026-11-14,c:alto-parana:santa-rita,Santa Rita,asking_usd_per_m2_built,casa,752,27,remax infocasas uprop cb psir
+2026-11-14,c:alto-parana:santa-rita,c:alto-parana:santa-rita,active_sale,,100,100,remax infocasas uprop cb psir
+2026-11-14,c:alto-parana:santa-rita,c:alto-parana:santa-rita,active_rent,,10,10,remax infocasas uprop cb psir
+2026-11-14,c:alto-parana:santa-rita,c:alto-parana:santa-rita,asking_price_usd,casa,151500,28,remax infocasas uprop cb psir
+2026-11-14,c:alto-parana:santa-rita,c:alto-parana:santa-rita,asking_price_usd,terreno,40000,43,remax infocasas uprop cb psir
+2026-11-14,c:alto-parana:santa-rita,c:alto-parana:santa-rita,asking_usd_per_m2_built,casa,752,27,remax infocasas uprop cb psir
 2026-11-14,d:cordillera,Cordillera,active_sale,,956,956,remax infocasas uprop cb psir
 2026-11-14,d:cordillera,Cordillera,active_rent,,51,51,remax infocasas uprop cb psir
 2026-11-14,d:cordillera,Cordillera,asking_price_usd,casa,191687,196,remax infocasas uprop cb psir
@@ -12654,11 +12654,11 @@ date,market_id,market,metric,property_kind,value,n,median_sources
 2026-11-15,c:alto-parana:minga-guazu,Minga Guazú,active_sale,,109,109,remax infocasas uprop cb psir
 2026-11-15,c:alto-parana:minga-guazu,Minga Guazú,active_rent,,2,2,remax infocasas uprop cb psir
 2026-11-15,c:alto-parana:minga-guazu,Minga Guazú,asking_price_usd,terreno,25783,89,remax infocasas uprop cb psir
-2026-11-15,c:alto-parana:santa-rita,Santa Rita,active_sale,,100,100,remax infocasas uprop cb psir
-2026-11-15,c:alto-parana:santa-rita,Santa Rita,active_rent,,10,10,remax infocasas uprop cb psir
-2026-11-15,c:alto-parana:santa-rita,Santa Rita,asking_price_usd,casa,151500,28,remax infocasas uprop cb psir
-2026-11-15,c:alto-parana:santa-rita,Santa Rita,asking_price_usd,terreno,40000,43,remax infocasas uprop cb psir
-2026-11-15,c:alto-parana:santa-rita,Santa Rita,asking_usd_per_m2_built,casa,752,27,remax infocasas uprop cb psir
+2026-11-15,c:alto-parana:santa-rita,c:alto-parana:santa-rita,active_sale,,100,100,remax infocasas uprop cb psir
+2026-11-15,c:alto-parana:santa-rita,c:alto-parana:santa-rita,active_rent,,10,10,remax infocasas uprop cb psir
+2026-11-15,c:alto-parana:santa-rita,c:alto-parana:santa-rita,asking_price_usd,casa,151500,28,remax infocasas uprop cb psir
+2026-11-15,c:alto-parana:santa-rita,c:alto-parana:santa-rita,asking_price_usd,terreno,40000,43,remax infocasas uprop cb psir
+2026-11-15,c:alto-parana:santa-rita,c:alto-parana:santa-rita,asking_usd_per_m2_built,casa,752,27,remax infocasas uprop cb psir
 2026-11-15,d:cordillera,Cordillera,active_sale,,953,953,remax infocasas uprop cb psir
 2026-11-15,d:cordillera,Cordillera,active_rent,,51,51,remax infocasas uprop cb psir
 2026-11-15,d:cordillera,Cordillera,asking_price_usd,casa,191687,196,remax infocasas uprop cb psir
@@ -12904,11 +12904,11 @@ date,market_id,market,metric,property_kind,value,n,median_sources
 2026-11-16,c:alto-parana:minga-guazu,Minga Guazú,active_sale,,109,109,remax infocasas uprop cb psir
 2026-11-16,c:alto-parana:minga-guazu,Minga Guazú,active_rent,,2,2,remax infocasas uprop cb psir
 2026-11-16,c:alto-parana:minga-guazu,Minga Guazú,asking_price_usd,terreno,25783,89,remax infocasas uprop cb psir
-2026-11-16,c:alto-parana:santa-rita,Santa Rita,active_sale,,100,100,remax infocasas uprop cb psir
-2026-11-16,c:alto-parana:santa-rita,Santa Rita,active_rent,,9,9,remax infocasas uprop cb psir
-2026-11-16,c:alto-parana:santa-rita,Santa Rita,asking_price_usd,casa,151500,28,remax infocasas uprop cb psir
-2026-11-16,c:alto-parana:santa-rita,Santa Rita,asking_price_usd,terreno,40000,43,remax infocasas uprop cb psir
-2026-11-16,c:alto-parana:santa-rita,Santa Rita,asking_usd_per_m2_built,casa,752,27,remax infocasas uprop cb psir
+2026-11-16,c:alto-parana:santa-rita,c:alto-parana:santa-rita,active_sale,,100,100,remax infocasas uprop cb psir
+2026-11-16,c:alto-parana:santa-rita,c:alto-parana:santa-rita,active_rent,,9,9,remax infocasas uprop cb psir
+2026-11-16,c:alto-parana:santa-rita,c:alto-parana:santa-rita,asking_price_usd,casa,151500,28,remax infocasas uprop cb psir
+2026-11-16,c:alto-parana:santa-rita,c:alto-parana:santa-rita,asking_price_usd,terreno,40000,43,remax infocasas uprop cb psir
+2026-11-16,c:alto-parana:santa-rita,c:alto-parana:santa-rita,asking_usd_per_m2_built,casa,752,27,remax infocasas uprop cb psir
 2026-11-16,d:cordillera,Cordillera,active_sale,,952,952,remax infocasas uprop cb psir
 2026-11-16,d:cordillera,Cordillera,active_rent,,51,51,remax infocasas uprop cb psir
 2026-11-16,d:cordillera,Cordillera,asking_price_usd,casa,191687,198,remax infocasas uprop cb psir
@@ -13154,11 +13154,11 @@ date,market_id,market,metric,property_kind,value,n,median_sources
 2026-11-17,c:alto-parana:minga-guazu,Minga Guazú,active_sale,,109,109,remax infocasas uprop cb psir
 2026-11-17,c:alto-parana:minga-guazu,Minga Guazú,active_rent,,2,2,remax infocasas uprop cb psir
 2026-11-17,c:alto-parana:minga-guazu,Minga Guazú,asking_price_usd,terreno,25671,89,remax infocasas uprop cb psir
-2026-11-17,c:alto-parana:santa-rita,Santa Rita,active_sale,,100,100,remax infocasas uprop cb psir
-2026-11-17,c:alto-parana:santa-rita,Santa Rita,active_rent,,9,9,remax infocasas uprop cb psir
-2026-11-17,c:alto-parana:santa-rita,Santa Rita,asking_price_usd,casa,151500,28,remax infocasas uprop cb psir
-2026-11-17,c:alto-parana:santa-rita,Santa Rita,asking_price_usd,terreno,40000,43,remax infocasas uprop cb psir
-2026-11-17,c:alto-parana:santa-rita,Santa Rita,asking_usd_per_m2_built,casa,752,27,remax infocasas uprop cb psir
+2026-11-17,c:alto-parana:santa-rita,c:alto-parana:santa-rita,active_sale,,100,100,remax infocasas uprop cb psir
+2026-11-17,c:alto-parana:santa-rita,c:alto-parana:santa-rita,active_rent,,9,9,remax infocasas uprop cb psir
+2026-11-17,c:alto-parana:santa-rita,c:alto-parana:santa-rita,asking_price_usd,casa,151500,28,remax infocasas uprop cb psir
+2026-11-17,c:alto-parana:santa-rita,c:alto-parana:santa-rita,asking_price_usd,terreno,40000,43,remax infocasas uprop cb psir
+2026-11-17,c:alto-parana:santa-rita,c:alto-parana:santa-rita,asking_usd_per_m2_built,casa,752,27,remax infocasas uprop cb psir
 2026-11-17,d:cordillera,Cordillera,active_sale,,950,950,remax infocasas uprop cb psir
 2026-11-17,d:cordillera,Cordillera,active_rent,,52,52,remax infocasas uprop cb psir
 2026-11-17,d:cordillera,Cordillera,asking_price_usd,casa,192530,197,remax infocasas uprop cb psir
@@ -13404,11 +13404,11 @@ date,market_id,market,metric,property_kind,value,n,median_sources
 2026-11-18,c:alto-parana:minga-guazu,Minga Guazú,active_sale,,111,111,remax infocasas uprop cb psir
 2026-11-18,c:alto-parana:minga-guazu,Minga Guazú,active_rent,,2,2,remax infocasas uprop cb psir
 2026-11-18,c:alto-parana:minga-guazu,Minga Guazú,asking_price_usd,terreno,25541,90,remax infocasas uprop cb psir
-2026-11-18,c:alto-parana:santa-rita,Santa Rita,active_sale,,102,102,remax infocasas uprop cb psir
-2026-11-18,c:alto-parana:santa-rita,Santa Rita,active_rent,,9,9,remax infocasas uprop cb psir
-2026-11-18,c:alto-parana:santa-rita,Santa Rita,asking_price_usd,casa,151500,28,remax infocasas uprop cb psir
-2026-11-18,c:alto-parana:santa-rita,Santa Rita,asking_price_usd,terreno,41072,44,remax infocasas uprop cb psir
-2026-11-18,c:alto-parana:santa-rita,Santa Rita,asking_usd_per_m2_built,casa,752,27,remax infocasas uprop cb psir
+2026-11-18,c:alto-parana:santa-rita,c:alto-parana:santa-rita,active_sale,,102,102,remax infocasas uprop cb psir
+2026-11-18,c:alto-parana:santa-rita,c:alto-parana:santa-rita,active_rent,,9,9,remax infocasas uprop cb psir
+2026-11-18,c:alto-parana:santa-rita,c:alto-parana:santa-rita,asking_price_usd,casa,151500,28,remax infocasas uprop cb psir
+2026-11-18,c:alto-parana:santa-rita,c:alto-parana:santa-rita,asking_price_usd,terreno,41072,44,remax infocasas uprop cb psir
+2026-11-18,c:alto-parana:santa-rita,c:alto-parana:santa-rita,asking_usd_per_m2_built,casa,752,27,remax infocasas uprop cb psir
 2026-11-18,d:cordillera,Cordillera,active_sale,,949,949,remax infocasas uprop cb psir
 2026-11-18,d:cordillera,Cordillera,active_rent,,52,52,remax infocasas uprop cb psir
 2026-11-18,d:cordillera,Cordillera,asking_price_usd,casa,191561,197,remax infocasas uprop cb psir
@@ -13654,11 +13654,11 @@ date,market_id,market,metric,property_kind,value,n,median_sources
 2026-11-19,c:alto-parana:minga-guazu,Minga Guazú,active_sale,,112,112,remax infocasas uprop cb psir
 2026-11-19,c:alto-parana:minga-guazu,Minga Guazú,active_rent,,2,2,remax infocasas uprop cb psir
 2026-11-19,c:alto-parana:minga-guazu,Minga Guazú,asking_price_usd,terreno,25518,90,remax infocasas uprop cb psir
-2026-11-19,c:alto-parana:santa-rita,Santa Rita,active_sale,,102,102,remax infocasas uprop cb psir
-2026-11-19,c:alto-parana:santa-rita,Santa Rita,active_rent,,9,9,remax infocasas uprop cb psir
-2026-11-19,c:alto-parana:santa-rita,Santa Rita,asking_price_usd,casa,151500,28,remax infocasas uprop cb psir
-2026-11-19,c:alto-parana:santa-rita,Santa Rita,asking_price_usd,terreno,41053,44,remax infocasas uprop cb psir
-2026-11-19,c:alto-parana:santa-rita,Santa Rita,asking_usd_per_m2_built,casa,752,27,remax infocasas uprop cb psir
+2026-11-19,c:alto-parana:santa-rita,c:alto-parana:santa-rita,active_sale,,102,102,remax infocasas uprop cb psir
+2026-11-19,c:alto-parana:santa-rita,c:alto-parana:santa-rita,active_rent,,9,9,remax infocasas uprop cb psir
+2026-11-19,c:alto-parana:santa-rita,c:alto-parana:santa-rita,asking_price_usd,casa,151500,28,remax infocasas uprop cb psir
+2026-11-19,c:alto-parana:santa-rita,c:alto-parana:santa-rita,asking_price_usd,terreno,41053,44,remax infocasas uprop cb psir
+2026-11-19,c:alto-parana:santa-rita,c:alto-parana:santa-rita,asking_usd_per_m2_built,casa,752,27,remax infocasas uprop cb psir
 2026-11-19,d:cordillera,Cordillera,active_sale,,951,951,remax infocasas uprop cb psir
 2026-11-19,d:cordillera,Cordillera,active_rent,,52,52,remax infocasas uprop cb psir
 2026-11-19,d:cordillera,Cordillera,asking_price_usd,casa,191388,198,remax infocasas uprop cb psir
@@ -13904,11 +13904,11 @@ date,market_id,market,metric,property_kind,value,n,median_sources
 2026-11-20,c:alto-parana:minga-guazu,Minga Guazú,active_sale,,113,113,remax infocasas uprop cb psir
 2026-11-20,c:alto-parana:minga-guazu,Minga Guazú,active_rent,,2,2,remax infocasas uprop cb psir
 2026-11-20,c:alto-parana:minga-guazu,Minga Guazú,asking_price_usd,terreno,25373,91,remax infocasas uprop cb psir
-2026-11-20,c:alto-parana:santa-rita,Santa Rita,active_sale,,101,101,remax infocasas uprop cb psir
-2026-11-20,c:alto-parana:santa-rita,Santa Rita,active_rent,,9,9,remax infocasas uprop cb psir
-2026-11-20,c:alto-parana:santa-rita,Santa Rita,asking_price_usd,casa,151500,28,remax infocasas uprop cb psir
-2026-11-20,c:alto-parana:santa-rita,Santa Rita,asking_price_usd,terreno,41866,43,remax infocasas uprop cb psir
-2026-11-20,c:alto-parana:santa-rita,Santa Rita,asking_usd_per_m2_built,casa,752,27,remax infocasas uprop cb psir
+2026-11-20,c:alto-parana:santa-rita,c:alto-parana:santa-rita,active_sale,,101,101,remax infocasas uprop cb psir
+2026-11-20,c:alto-parana:santa-rita,c:alto-parana:santa-rita,active_rent,,9,9,remax infocasas uprop cb psir
+2026-11-20,c:alto-parana:santa-rita,c:alto-parana:santa-rita,asking_price_usd,casa,151500,28,remax infocasas uprop cb psir
+2026-11-20,c:alto-parana:santa-rita,c:alto-parana:santa-rita,asking_price_usd,terreno,41866,43,remax infocasas uprop cb psir
+2026-11-20,c:alto-parana:santa-rita,c:alto-parana:santa-rita,asking_usd_per_m2_built,casa,752,27,remax infocasas uprop cb psir
 2026-11-20,d:cordillera,Cordillera,active_sale,,953,953,remax infocasas uprop cb psir
 2026-11-20,d:cordillera,Cordillera,active_rent,,52,52,remax infocasas uprop cb psir
 2026-11-20,d:cordillera,Cordillera,asking_price_usd,casa,190300,198,remax infocasas uprop cb psir
@@ -14154,11 +14154,11 @@ date,market_id,market,metric,property_kind,value,n,median_sources
 2026-11-21,c:alto-parana:minga-guazu,Minga Guazú,active_sale,,113,113,remax infocasas uprop cb psir
 2026-11-21,c:alto-parana:minga-guazu,Minga Guazú,active_rent,,2,2,remax infocasas uprop cb psir
 2026-11-21,c:alto-parana:minga-guazu,Minga Guazú,asking_price_usd,terreno,25022,91,remax infocasas uprop cb psir
-2026-11-21,c:alto-parana:santa-rita,Santa Rita,active_sale,,101,101,remax infocasas uprop cb psir
-2026-11-21,c:alto-parana:santa-rita,Santa Rita,active_rent,,9,9,remax infocasas uprop cb psir
-2026-11-21,c:alto-parana:santa-rita,Santa Rita,asking_price_usd,casa,151500,28,remax infocasas uprop cb psir
-2026-11-21,c:alto-parana:santa-rita,Santa Rita,asking_price_usd,terreno,41286,43,remax infocasas uprop cb psir
-2026-11-21,c:alto-parana:santa-rita,Santa Rita,asking_usd_per_m2_built,casa,752,27,remax infocasas uprop cb psir
+2026-11-21,c:alto-parana:santa-rita,c:alto-parana:santa-rita,active_sale,,101,101,remax infocasas uprop cb psir
+2026-11-21,c:alto-parana:santa-rita,c:alto-parana:santa-rita,active_rent,,9,9,remax infocasas uprop cb psir
+2026-11-21,c:alto-parana:santa-rita,c:alto-parana:santa-rita,asking_price_usd,casa,151500,28,remax infocasas uprop cb psir
+2026-11-21,c:alto-parana:santa-rita,c:alto-parana:santa-rita,asking_price_usd,terreno,41286,43,remax infocasas uprop cb psir
+2026-11-21,c:alto-parana:santa-rita,c:alto-parana:santa-rita,asking_usd_per_m2_built,casa,752,27,remax infocasas uprop cb psir
 2026-11-21,d:cordillera,Cordillera,active_sale,,953,953,remax infocasas uprop cb psir
 2026-11-21,d:cordillera,Cordillera,active_rent,,52,52,remax infocasas uprop cb psir
 2026-11-21,d:cordillera,Cordillera,asking_price_usd,casa,190000,198,remax infocasas uprop cb psir
@@ -14404,11 +14404,11 @@ date,market_id,market,metric,property_kind,value,n,median_sources
 2026-11-22,c:alto-parana:minga-guazu,Minga Guazú,active_sale,,113,113,remax infocasas uprop cb psir
 2026-11-22,c:alto-parana:minga-guazu,Minga Guazú,active_rent,,2,2,remax infocasas uprop cb psir
 2026-11-22,c:alto-parana:minga-guazu,Minga Guazú,asking_price_usd,terreno,25022,91,remax infocasas uprop cb psir
-2026-11-22,c:alto-parana:santa-rita,Santa Rita,active_sale,,101,101,remax infocasas uprop cb psir
-2026-11-22,c:alto-parana:santa-rita,Santa Rita,active_rent,,9,9,remax infocasas uprop cb psir
-2026-11-22,c:alto-parana:santa-rita,Santa Rita,asking_price_usd,casa,151500,28,remax infocasas uprop cb psir
-2026-11-22,c:alto-parana:santa-rita,Santa Rita,asking_price_usd,terreno,41286,43,remax infocasas uprop cb psir
-2026-11-22,c:alto-parana:santa-rita,Santa Rita,asking_usd_per_m2_built,casa,752,27,remax infocasas uprop cb psir
+2026-11-22,c:alto-parana:santa-rita,c:alto-parana:santa-rita,active_sale,,101,101,remax infocasas uprop cb psir
+2026-11-22,c:alto-parana:santa-rita,c:alto-parana:santa-rita,active_rent,,9,9,remax infocasas uprop cb psir
+2026-11-22,c:alto-parana:santa-rita,c:alto-parana:santa-rita,asking_price_usd,casa,151500,28,remax infocasas uprop cb psir
+2026-11-22,c:alto-parana:santa-rita,c:alto-parana:santa-rita,asking_price_usd,terreno,41286,43,remax infocasas uprop cb psir
+2026-11-22,c:alto-parana:santa-rita,c:alto-parana:santa-rita,asking_usd_per_m2_built,casa,752,27,remax infocasas uprop cb psir
 2026-11-22,d:cordillera,Cordillera,active_sale,,953,953,remax infocasas uprop cb psir
 2026-11-22,d:cordillera,Cordillera,active_rent,,52,52,remax infocasas uprop cb psir
 2026-11-22,d:cordillera,Cordillera,asking_price_usd,casa,190000,198,remax infocasas uprop cb psir
@@ -14654,11 +14654,11 @@ date,market_id,market,metric,property_kind,value,n,median_sources
 2026-11-23,c:alto-parana:minga-guazu,Minga Guazú,active_sale,,114,114,remax infocasas uprop cb psir
 2026-11-23,c:alto-parana:minga-guazu,Minga Guazú,active_rent,,2,2,remax infocasas uprop cb psir
 2026-11-23,c:alto-parana:minga-guazu,Minga Guazú,asking_price_usd,terreno,25022,92,remax infocasas uprop cb psir
-2026-11-23,c:alto-parana:santa-rita,Santa Rita,active_sale,,101,101,remax infocasas uprop cb psir
-2026-11-23,c:alto-parana:santa-rita,Santa Rita,active_rent,,9,9,remax infocasas uprop cb psir
-2026-11-23,c:alto-parana:santa-rita,Santa Rita,asking_price_usd,casa,151500,28,remax infocasas uprop cb psir
-2026-11-23,c:alto-parana:santa-rita,Santa Rita,asking_price_usd,terreno,41286,43,remax infocasas uprop cb psir
-2026-11-23,c:alto-parana:santa-rita,Santa Rita,asking_usd_per_m2_built,casa,752,27,remax infocasas uprop cb psir
+2026-11-23,c:alto-parana:santa-rita,c:alto-parana:santa-rita,active_sale,,101,101,remax infocasas uprop cb psir
+2026-11-23,c:alto-parana:santa-rita,c:alto-parana:santa-rita,active_rent,,9,9,remax infocasas uprop cb psir
+2026-11-23,c:alto-parana:santa-rita,c:alto-parana:santa-rita,asking_price_usd,casa,151500,28,remax infocasas uprop cb psir
+2026-11-23,c:alto-parana:santa-rita,c:alto-parana:santa-rita,asking_price_usd,terreno,41286,43,remax infocasas uprop cb psir
+2026-11-23,c:alto-parana:santa-rita,c:alto-parana:santa-rita,asking_usd_per_m2_built,casa,752,27,remax infocasas uprop cb psir
 2026-11-23,d:cordillera,Cordillera,active_sale,,949,949,remax infocasas uprop cb psir
 2026-11-23,d:cordillera,Cordillera,active_rent,,52,52,remax infocasas uprop cb psir
 2026-11-23,d:cordillera,Cordillera,asking_price_usd,casa,190000,197,remax infocasas uprop cb psir
@@ -14907,11 +14907,11 @@ date,market_id,market,metric,property_kind,value,n,median_sources
 2026-11-24,c:alto-parana:minga-guazu,Minga Guazú,active_sale,,113,113,remax infocasas uprop cb psir
 2026-11-24,c:alto-parana:minga-guazu,Minga Guazú,active_rent,,2,2,remax infocasas uprop cb psir
 2026-11-24,c:alto-parana:minga-guazu,Minga Guazú,asking_price_usd,terreno,25693,92,remax infocasas uprop cb psir
-2026-11-24,c:alto-parana:santa-rita,Santa Rita,active_sale,,100,100,remax infocasas uprop cb psir
-2026-11-24,c:alto-parana:santa-rita,Santa Rita,active_rent,,8,8,remax infocasas uprop cb psir
-2026-11-24,c:alto-parana:santa-rita,Santa Rita,asking_price_usd,casa,151500,28,remax infocasas uprop cb psir
-2026-11-24,c:alto-parana:santa-rita,Santa Rita,asking_price_usd,terreno,40554,42,remax infocasas uprop cb psir
-2026-11-24,c:alto-parana:santa-rita,Santa Rita,asking_usd_per_m2_built,casa,752,27,remax infocasas uprop cb psir
+2026-11-24,c:alto-parana:santa-rita,c:alto-parana:santa-rita,active_sale,,100,100,remax infocasas uprop cb psir
+2026-11-24,c:alto-parana:santa-rita,c:alto-parana:santa-rita,active_rent,,8,8,remax infocasas uprop cb psir
+2026-11-24,c:alto-parana:santa-rita,c:alto-parana:santa-rita,asking_price_usd,casa,151500,28,remax infocasas uprop cb psir
+2026-11-24,c:alto-parana:santa-rita,c:alto-parana:santa-rita,asking_price_usd,terreno,40554,42,remax infocasas uprop cb psir
+2026-11-24,c:alto-parana:santa-rita,c:alto-parana:santa-rita,asking_usd_per_m2_built,casa,752,27,remax infocasas uprop cb psir
 2026-11-24,d:cordillera,Cordillera,active_sale,,955,955,remax infocasas uprop cb psir
 2026-11-24,d:cordillera,Cordillera,active_rent,,52,52,remax infocasas uprop cb psir
 2026-11-24,d:cordillera,Cordillera,asking_price_usd,casa,189500,198,remax infocasas uprop cb psir
@@ -15157,11 +15157,11 @@ date,market_id,market,metric,property_kind,value,n,median_sources
 2026-11-25,c:alto-parana:minga-guazu,Minga Guazú,active_sale,,113,113,remax infocasas uprop cb psir
 2026-11-25,c:alto-parana:minga-guazu,Minga Guazú,active_rent,,2,2,remax infocasas uprop cb psir
 2026-11-25,c:alto-parana:minga-guazu,Minga Guazú,asking_price_usd,terreno,25707,92,remax infocasas uprop cb psir
-2026-11-25,c:alto-parana:santa-rita,Santa Rita,active_sale,,100,100,remax infocasas uprop cb psir
-2026-11-25,c:alto-parana:santa-rita,Santa Rita,active_rent,,8,8,remax infocasas uprop cb psir
-2026-11-25,c:alto-parana:santa-rita,Santa Rita,asking_price_usd,casa,151500,28,remax infocasas uprop cb psir
-2026-11-25,c:alto-parana:santa-rita,Santa Rita,asking_price_usd,terreno,40566,42,remax infocasas uprop cb psir
-2026-11-25,c:alto-parana:santa-rita,Santa Rita,asking_usd_per_m2_built,casa,752,27,remax infocasas uprop cb psir
+2026-11-25,c:alto-parana:santa-rita,c:alto-parana:santa-rita,active_sale,,100,100,remax infocasas uprop cb psir
+2026-11-25,c:alto-parana:santa-rita,c:alto-parana:santa-rita,active_rent,,8,8,remax infocasas uprop cb psir
+2026-11-25,c:alto-parana:santa-rita,c:alto-parana:santa-rita,asking_price_usd,casa,151500,28,remax infocasas uprop cb psir
+2026-11-25,c:alto-parana:santa-rita,c:alto-parana:santa-rita,asking_price_usd,terreno,40566,42,remax infocasas uprop cb psir
+2026-11-25,c:alto-parana:santa-rita,c:alto-parana:santa-rita,asking_usd_per_m2_built,casa,752,27,remax infocasas uprop cb psir
 2026-11-25,d:cordillera,Cordillera,active_sale,,956,956,remax infocasas uprop cb psir
 2026-11-25,d:cordillera,Cordillera,active_rent,,52,52,remax infocasas uprop cb psir
 2026-11-25,d:cordillera,Cordillera,asking_price_usd,casa,190000,199,remax infocasas uprop cb psir
@@ -15220,3 +15220,248 @@ date,market_id,market,metric,property_kind,value,n,median_sources
 2026-11-25,d:amambay,Amambay,active_rent,,0,0,remax infocasas uprop cb psir
 2026-11-25,d:alto-paraguay,Alto Paraguay,active_sale,,11,11,remax infocasas uprop cb psir
 2026-11-25,d:alto-paraguay,Alto Paraguay,active_rent,,0,0,remax infocasas uprop cb psir
+2026-11-26,py,Paraguay,active_sale,,23402,23402,infocasas remax uprop cb psir
+2026-11-26,py,Paraguay,active_rent,,5254,5254,infocasas remax uprop cb psir
+2026-11-26,py,Paraguay,asking_price_usd,casa,151530,8627,infocasas remax uprop cb psir
+2026-11-26,py,Paraguay,asking_price_usd,departamento,101200,5499,infocasas remax uprop cb psir
+2026-11-26,py,Paraguay,asking_price_usd,duplex,117162,267,infocasas remax uprop cb psir
+2026-11-26,py,Paraguay,asking_price_usd,terreno,59362,7720,infocasas remax uprop cb psir
+2026-11-26,py,Paraguay,asking_usd_per_m2_built,casa,797,6980,infocasas remax uprop cb psir
+2026-11-26,py,Paraguay,asking_usd_per_m2_built,departamento,1713,2731,infocasas remax uprop cb psir
+2026-11-26,py,Paraguay,asking_rent_usd_month,departamento,890,2816,infocasas remax uprop cb psir
+2026-11-26,py,Paraguay,asking_rent_usd_month,casa,1953,1672,infocasas remax uprop cb psir
+2026-11-26,d:asuncion,Asunción,active_sale,,9210,9210,infocasas remax uprop cb psir
+2026-11-26,d:asuncion,Asunción,active_rent,,4233,4233,infocasas remax uprop cb psir
+2026-11-26,d:asuncion,Asunción,asking_price_usd,casa,285000,3531,infocasas remax uprop cb psir
+2026-11-26,d:asuncion,Asunción,asking_price_usd,departamento,110000,4399,infocasas remax uprop cb psir
+2026-11-26,d:asuncion,Asunción,asking_price_usd,duplex,175919,34,infocasas remax uprop cb psir
+2026-11-26,d:asuncion,Asunción,asking_price_usd,terreno,200000,842,infocasas remax uprop cb psir
+2026-11-26,d:asuncion,Asunción,asking_usd_per_m2_built,casa,988,2884,infocasas remax uprop cb psir
+2026-11-26,d:asuncion,Asunción,asking_usd_per_m2_built,departamento,1744,2402,infocasas remax uprop cb psir
+2026-11-26,d:asuncion,Asunción,asking_rent_usd_month,departamento,937,2516,infocasas remax uprop cb psir
+2026-11-26,d:asuncion,Asunción,asking_rent_usd_month,casa,2300,1451,infocasas remax uprop cb psir
+2026-11-26,d:central,Central,active_sale,,9722,9722,infocasas remax uprop cb psir
+2026-11-26,d:central,Central,active_rent,,702,702,infocasas remax uprop cb psir
+2026-11-26,d:central,Central,asking_price_usd,casa,100994,4182,infocasas remax uprop cb psir
+2026-11-26,d:central,Central,asking_price_usd,departamento,75000,779,infocasas remax uprop cb psir
+2026-11-26,d:central,Central,asking_price_usd,duplex,111238,192,infocasas remax uprop cb psir
+2026-11-26,d:central,Central,asking_price_usd,terreno,58472,4209,infocasas remax uprop cb psir
+2026-11-26,d:central,Central,asking_usd_per_m2_built,casa,693,3346,infocasas remax uprop cb psir
+2026-11-26,d:central,Central,asking_usd_per_m2_built,departamento,1200,229,infocasas remax uprop cb psir
+2026-11-26,d:central,Central,asking_rent_usd_month,departamento,527,234,infocasas remax uprop cb psir
+2026-11-26,d:central,Central,asking_rent_usd_month,casa,703,127,infocasas remax uprop cb psir
+2026-11-26,c:central:luque,Luque,active_sale,,1996,1996,infocasas remax uprop cb psir
+2026-11-26,c:central:luque,Luque,active_rent,,147,147,infocasas remax uprop cb psir
+2026-11-26,c:central:luque,Luque,asking_price_usd,casa,104665,889,infocasas remax uprop cb psir
+2026-11-26,c:central:luque,Luque,asking_price_usd,departamento,80387,301,infocasas remax uprop cb psir
+2026-11-26,c:central:luque,Luque,asking_price_usd,duplex,120287,76,infocasas remax uprop cb psir
+2026-11-26,c:central:luque,Luque,asking_price_usd,terreno,73422,671,infocasas remax uprop cb psir
+2026-11-26,c:central:luque,Luque,asking_usd_per_m2_built,casa,848,691,infocasas remax uprop cb psir
+2026-11-26,c:central:luque,Luque,asking_usd_per_m2_built,departamento,1248,71,infocasas remax uprop cb psir
+2026-11-26,c:central:luque,Luque,asking_rent_usd_month,departamento,609,75,infocasas remax uprop cb psir
+2026-11-26,c:central:luque,Luque,asking_rent_usd_month,casa,750,34,infocasas remax uprop cb psir
+2026-11-26,c:central:lambare,Lambaré,active_sale,,813,813,infocasas remax uprop cb psir
+2026-11-26,c:central:lambare,Lambaré,active_rent,,82,82,infocasas remax uprop cb psir
+2026-11-26,c:central:lambare,Lambaré,asking_price_usd,casa,148406,403,infocasas remax uprop cb psir
+2026-11-26,c:central:lambare,Lambaré,asking_price_usd,departamento,84116,80,infocasas remax uprop cb psir
+2026-11-26,c:central:lambare,Lambaré,asking_price_usd,duplex,110914,26,infocasas remax uprop cb psir
+2026-11-26,c:central:lambare,Lambaré,asking_price_usd,terreno,85919,273,infocasas remax uprop cb psir
+2026-11-26,c:central:lambare,Lambaré,asking_usd_per_m2_built,casa,717,312,infocasas remax uprop cb psir
+2026-11-26,c:central:lambare,Lambaré,asking_usd_per_m2_built,departamento,1128,36,infocasas remax uprop cb psir
+2026-11-26,c:central:lambare,Lambaré,asking_rent_usd_month,departamento,547,40,infocasas remax uprop cb psir
+2026-11-26,c:central:san-lorenzo,San Lorenzo,active_sale,,809,809,infocasas remax uprop cb psir
+2026-11-26,c:central:san-lorenzo,San Lorenzo,active_rent,,150,150,infocasas remax uprop cb psir
+2026-11-26,c:central:san-lorenzo,San Lorenzo,asking_price_usd,casa,117162,412,infocasas remax uprop cb psir
+2026-11-26,c:central:san-lorenzo,San Lorenzo,asking_price_usd,departamento,56133,58,infocasas remax uprop cb psir
+2026-11-26,c:central:san-lorenzo,San Lorenzo,asking_price_usd,duplex,114038,31,infocasas remax uprop cb psir
+2026-11-26,c:central:san-lorenzo,San Lorenzo,asking_price_usd,terreno,76773,258,infocasas remax uprop cb psir
+2026-11-26,c:central:san-lorenzo,San Lorenzo,asking_usd_per_m2_built,casa,728,316,infocasas remax uprop cb psir
+2026-11-26,c:central:san-lorenzo,San Lorenzo,asking_rent_usd_month,departamento,312,49,infocasas remax uprop cb psir
+2026-11-26,c:central:fernando-de-la-mora,Fernando de la Mora,active_sale,,717,717,infocasas remax uprop cb psir
+2026-11-26,c:central:fernando-de-la-mora,Fernando de la Mora,active_rent,,135,135,infocasas remax uprop cb psir
+2026-11-26,c:central:fernando-de-la-mora,Fernando de la Mora,asking_price_usd,casa,156216,323,infocasas remax uprop cb psir
+2026-11-26,c:central:fernando-de-la-mora,Fernando de la Mora,asking_price_usd,departamento,66185,151,infocasas remax uprop cb psir
+2026-11-26,c:central:fernando-de-la-mora,Fernando de la Mora,asking_price_usd,terreno,117943,190,infocasas remax uprop cb psir
+2026-11-26,c:central:fernando-de-la-mora,Fernando de la Mora,asking_usd_per_m2_built,casa,788,256,infocasas remax uprop cb psir
+2026-11-26,c:central:fernando-de-la-mora,Fernando de la Mora,asking_usd_per_m2_built,departamento,1161,51,infocasas remax uprop cb psir
+2026-11-26,c:central:fernando-de-la-mora,Fernando de la Mora,asking_rent_usd_month,departamento,547,40,infocasas remax uprop cb psir
+2026-11-26,c:central:fernando-de-la-mora,Fernando de la Mora,asking_rent_usd_month,casa,902,25,infocasas remax uprop cb psir
+2026-11-26,c:central:capiata,Capiatá,active_sale,,601,601,infocasas remax uprop cb psir
+2026-11-26,c:central:capiata,Capiatá,active_rent,,27,27,infocasas remax uprop cb psir
+2026-11-26,c:central:capiata,Capiatá,asking_price_usd,casa,62487,287,infocasas remax uprop cb psir
+2026-11-26,c:central:capiata,Capiatá,asking_price_usd,terreno,34368,276,infocasas remax uprop cb psir
+2026-11-26,c:central:capiata,Capiatá,asking_usd_per_m2_built,casa,572,238,infocasas remax uprop cb psir
+2026-11-26,c:central:nemby,Ñemby,active_sale,,569,569,infocasas remax uprop cb psir
+2026-11-26,c:central:nemby,Ñemby,active_rent,,39,39,infocasas remax uprop cb psir
+2026-11-26,c:central:nemby,Ñemby,asking_price_usd,casa,66001,280,infocasas remax uprop cb psir
+2026-11-26,c:central:nemby,Ñemby,asking_price_usd,terreno,46865,254,infocasas remax uprop cb psir
+2026-11-26,c:central:nemby,Ñemby,asking_usd_per_m2_built,casa,611,252,infocasas remax uprop cb psir
+2026-11-26,c:central:mariano-roque-alonso,Mariano Roque Alonso,active_sale,,532,532,infocasas remax uprop cb psir
+2026-11-26,c:central:mariano-roque-alonso,Mariano Roque Alonso,active_rent,,32,32,infocasas remax uprop cb psir
+2026-11-26,c:central:mariano-roque-alonso,Mariano Roque Alonso,asking_price_usd,casa,128097,174,infocasas remax uprop cb psir
+2026-11-26,c:central:mariano-roque-alonso,Mariano Roque Alonso,asking_price_usd,departamento,62799,111,infocasas remax uprop cb psir
+2026-11-26,c:central:mariano-roque-alonso,Mariano Roque Alonso,asking_price_usd,terreno,85919,199,infocasas remax uprop cb psir
+2026-11-26,c:central:mariano-roque-alonso,Mariano Roque Alonso,asking_usd_per_m2_built,casa,747,140,infocasas remax uprop cb psir
+2026-11-26,c:central:mariano-roque-alonso,Mariano Roque Alonso,asking_usd_per_m2_built,departamento,1211,20,infocasas remax uprop cb psir
+2026-11-26,c:central:limpio,Limpio,active_sale,,502,502,infocasas remax uprop cb psir
+2026-11-26,c:central:limpio,Limpio,active_rent,,7,7,infocasas remax uprop cb psir
+2026-11-26,c:central:limpio,Limpio,asking_price_usd,casa,54676,239,infocasas remax uprop cb psir
+2026-11-26,c:central:limpio,Limpio,asking_price_usd,departamento,57711,25,infocasas remax uprop cb psir
+2026-11-26,c:central:limpio,Limpio,asking_price_usd,terreno,33298,208,infocasas remax uprop cb psir
+2026-11-26,c:central:limpio,Limpio,asking_usd_per_m2_built,casa,648,196,infocasas remax uprop cb psir
+2026-11-26,c:central:villa-elisa,Villa Elisa,active_sale,,498,498,infocasas remax uprop cb psir
+2026-11-26,c:central:villa-elisa,Villa Elisa,active_rent,,14,14,infocasas remax uprop cb psir
+2026-11-26,c:central:villa-elisa,Villa Elisa,asking_price_usd,casa,93730,276,infocasas remax uprop cb psir
+2026-11-26,c:central:villa-elisa,Villa Elisa,asking_price_usd,terreno,54676,195,infocasas remax uprop cb psir
+2026-11-26,c:central:villa-elisa,Villa Elisa,asking_usd_per_m2_built,casa,618,216,infocasas remax uprop cb psir
+2026-11-26,c:central:itaugua,Itauguá,active_sale,,432,432,infocasas remax uprop cb psir
+2026-11-26,c:central:itaugua,Itauguá,active_rent,,21,21,infocasas remax uprop cb psir
+2026-11-26,c:central:itaugua,Itauguá,asking_price_usd,casa,71078,152,infocasas remax uprop cb psir
+2026-11-26,c:central:itaugua,Itauguá,asking_price_usd,terreno,30853,264,infocasas remax uprop cb psir
+2026-11-26,c:central:itaugua,Itauguá,asking_usd_per_m2_built,casa,542,139,infocasas remax uprop cb psir
+2026-11-26,c:central:aregua,Areguá,active_sale,,393,393,infocasas remax uprop cb psir
+2026-11-26,c:central:aregua,Areguá,active_rent,,3,3,infocasas remax uprop cb psir
+2026-11-26,c:central:aregua,Areguá,asking_price_usd,casa,106227,163,infocasas remax uprop cb psir
+2026-11-26,c:central:aregua,Areguá,asking_price_usd,terreno,28119,217,infocasas remax uprop cb psir
+2026-11-26,c:central:aregua,Areguá,asking_usd_per_m2_built,casa,600,133,infocasas remax uprop cb psir
+2026-11-26,c:central:ypane,Ypané,active_sale,,332,332,infocasas remax uprop cb psir
+2026-11-26,c:central:ypane,Ypané,active_rent,,7,7,infocasas remax uprop cb psir
+2026-11-26,c:central:ypane,Ypané,asking_price_usd,casa,67173,98,infocasas remax uprop cb psir
+2026-11-26,c:central:ypane,Ypané,asking_price_usd,terreno,24995,231,infocasas remax uprop cb psir
+2026-11-26,c:central:ypane,Ypané,asking_usd_per_m2_built,casa,496,78,infocasas remax uprop cb psir
+2026-11-26,c:central:ypacarai,Ypacaraí,active_sale,,299,299,infocasas remax uprop cb psir
+2026-11-26,c:central:ypacarai,Ypacaraí,active_rent,,3,3,infocasas remax uprop cb psir
+2026-11-26,c:central:ypacarai,Ypacaraí,asking_price_usd,casa,78108,73,infocasas remax uprop cb psir
+2026-11-26,c:central:ypacarai,Ypacaraí,asking_price_usd,terreno,35918,220,infocasas remax uprop cb psir
+2026-11-26,c:central:ypacarai,Ypacaraí,asking_usd_per_m2_built,casa,500,61,infocasas remax uprop cb psir
+2026-11-26,c:central:villeta,Villeta,active_sale,,238,238,infocasas remax uprop cb psir
+2026-11-26,c:central:villeta,Villeta,active_rent,,10,10,infocasas remax uprop cb psir
+2026-11-26,c:central:villeta,Villeta,asking_price_usd,casa,101541,86,infocasas remax uprop cb psir
+2026-11-26,c:central:villeta,Villeta,asking_price_usd,terreno,234351,142,infocasas remax uprop cb psir
+2026-11-26,c:central:villeta,Villeta,asking_usd_per_m2_built,casa,658,68,infocasas remax uprop cb psir
+2026-11-26,c:central:ita,Itá,active_sale,,214,214,infocasas remax uprop cb psir
+2026-11-26,c:central:ita,Itá,active_rent,,3,3,infocasas remax uprop cb psir
+2026-11-26,c:central:ita,Itá,asking_price_usd,casa,70297,69,infocasas remax uprop cb psir
+2026-11-26,c:central:ita,Itá,asking_price_usd,terreno,93730,138,infocasas remax uprop cb psir
+2026-11-26,c:central:ita,Itá,asking_usd_per_m2_built,casa,617,59,infocasas remax uprop cb psir
+2026-11-26,c:central:san-antonio,San Antonio,active_sale,,176,176,infocasas remax uprop cb psir
+2026-11-26,c:central:san-antonio,San Antonio,active_rent,,6,6,infocasas remax uprop cb psir
+2026-11-26,c:central:san-antonio,San Antonio,asking_price_usd,casa,73422,74,infocasas remax uprop cb psir
+2026-11-26,c:central:san-antonio,San Antonio,asking_price_usd,terreno,70297,96,infocasas remax uprop cb psir
+2026-11-26,c:central:san-antonio,San Antonio,asking_usd_per_m2_built,casa,521,67,infocasas remax uprop cb psir
+2026-11-26,c:central:julian-augusto-saldivar,Julián Augusto Saldívar,active_sale,,169,169,infocasas remax uprop cb psir
+2026-11-26,c:central:julian-augusto-saldivar,Julián Augusto Saldívar,active_rent,,2,2,infocasas remax uprop cb psir
+2026-11-26,c:central:julian-augusto-saldivar,Julián Augusto Saldívar,asking_price_usd,casa,42959,64,infocasas remax uprop cb psir
+2026-11-26,c:central:julian-augusto-saldivar,Julián Augusto Saldívar,asking_price_usd,terreno,21870,100,infocasas remax uprop cb psir
+2026-11-26,c:central:julian-augusto-saldivar,Julián Augusto Saldívar,asking_usd_per_m2_built,casa,636,57,infocasas remax uprop cb psir
+2026-11-26,d:itapua,Itapúa,active_sale,,1568,1568,infocasas remax uprop cb psir
+2026-11-26,d:itapua,Itapúa,active_rent,,142,142,infocasas remax uprop cb psir
+2026-11-26,d:itapua,Itapúa,asking_price_usd,casa,120924,310,infocasas remax uprop cb psir
+2026-11-26,d:itapua,Itapúa,asking_price_usd,departamento,91500,170,infocasas remax uprop cb psir
+2026-11-26,d:itapua,Itapúa,asking_price_usd,duplex,89043,33,infocasas remax uprop cb psir
+2026-11-26,d:itapua,Itapúa,asking_price_usd,terreno,31243,886,infocasas remax uprop cb psir
+2026-11-26,d:itapua,Itapúa,asking_usd_per_m2_built,casa,684,265,infocasas remax uprop cb psir
+2026-11-26,d:itapua,Itapúa,asking_usd_per_m2_built,departamento,1227,42,infocasas remax uprop cb psir
+2026-11-26,d:itapua,Itapúa,asking_rent_usd_month,departamento,391,50,infocasas remax uprop cb psir
+2026-11-26,d:itapua,Itapúa,asking_rent_usd_month,casa,781,29,infocasas remax uprop cb psir
+2026-11-26,c:itapua:encarnacion,Encarnación,active_sale,,764,764,infocasas remax uprop cb psir
+2026-11-26,c:itapua:encarnacion,Encarnación,active_rent,,97,97,infocasas remax uprop cb psir
+2026-11-26,c:itapua:encarnacion,Encarnación,asking_price_usd,casa,138110,158,infocasas remax uprop cb psir
+2026-11-26,c:itapua:encarnacion,Encarnación,asking_price_usd,departamento,90605,163,infocasas remax uprop cb psir
+2026-11-26,c:itapua:encarnacion,Encarnación,asking_price_usd,duplex,89043,23,infocasas remax uprop cb psir
+2026-11-26,c:itapua:encarnacion,Encarnación,asking_price_usd,terreno,47255,334,infocasas remax uprop cb psir
+2026-11-26,c:itapua:encarnacion,Encarnación,asking_usd_per_m2_built,casa,685,138,infocasas remax uprop cb psir
+2026-11-26,c:itapua:encarnacion,Encarnación,asking_usd_per_m2_built,departamento,1154,39,infocasas remax uprop cb psir
+2026-11-26,c:itapua:encarnacion,Encarnación,asking_rent_usd_month,departamento,391,46,infocasas remax uprop cb psir
+2026-11-26,c:itapua:cambyreta,Cambyretá,active_sale,,236,236,infocasas remax uprop cb psir
+2026-11-26,c:itapua:cambyreta,Cambyretá,active_rent,,14,14,infocasas remax uprop cb psir
+2026-11-26,c:itapua:cambyreta,Cambyretá,asking_price_usd,casa,74984,63,infocasas remax uprop cb psir
+2026-11-26,c:itapua:cambyreta,Cambyretá,asking_price_usd,terreno,31243,146,infocasas remax uprop cb psir
+2026-11-26,c:itapua:cambyreta,Cambyretá,asking_usd_per_m2_built,casa,701,54,infocasas remax uprop cb psir
+2026-11-26,c:itapua:san-juan-del-parana,San Juan del Paraná,active_sale,,162,162,infocasas remax uprop cb psir
+2026-11-26,c:itapua:san-juan-del-parana,San Juan del Paraná,active_rent,,4,4,infocasas remax uprop cb psir
+2026-11-26,c:itapua:san-juan-del-parana,San Juan del Paraná,asking_price_usd,casa,126897,21,infocasas remax uprop cb psir
+2026-11-26,c:itapua:san-juan-del-parana,San Juan del Paraná,asking_price_usd,terreno,13278,126,infocasas remax uprop cb psir
+2026-11-26,c:itapua:capitan-miranda,Capitán Miranda,active_sale,,113,113,infocasas remax uprop cb psir
+2026-11-26,c:itapua:capitan-miranda,Capitán Miranda,active_rent,,16,16,infocasas remax uprop cb psir
+2026-11-26,c:itapua:capitan-miranda,Capitán Miranda,asking_price_usd,terreno,19293,94,infocasas remax uprop cb psir
+2026-11-26,d:alto-parana,Alto Paraná,active_sale,,987,987,infocasas remax uprop cb psir
+2026-11-26,d:alto-parana,Alto Paraná,active_rent,,64,64,infocasas remax uprop cb psir
+2026-11-26,d:alto-parana,Alto Paraná,asking_price_usd,casa,124973,238,infocasas remax uprop cb psir
+2026-11-26,d:alto-parana,Alto Paraná,asking_price_usd,departamento,90000,107,infocasas remax uprop cb psir
+2026-11-26,d:alto-parana,Alto Paraná,asking_price_usd,terreno,59362,499,infocasas remax uprop cb psir
+2026-11-26,d:alto-parana,Alto Paraná,asking_usd_per_m2_built,casa,676,213,infocasas remax uprop cb psir
+2026-11-26,d:alto-parana,Alto Paraná,asking_usd_per_m2_built,departamento,1776,42,infocasas remax uprop cb psir
+2026-11-26,c:alto-parana:ciudad-del-este,Ciudad del Este,active_sale,,458,458,infocasas remax uprop cb psir
+2026-11-26,c:alto-parana:ciudad-del-este,Ciudad del Este,active_rent,,32,32,infocasas remax uprop cb psir
+2026-11-26,c:alto-parana:ciudad-del-este,Ciudad del Este,asking_price_usd,casa,124973,111,infocasas remax uprop cb psir
+2026-11-26,c:alto-parana:ciudad-del-este,Ciudad del Este,asking_price_usd,departamento,89500,92,infocasas remax uprop cb psir
+2026-11-26,c:alto-parana:ciudad-del-este,Ciudad del Este,asking_price_usd,terreno,73488,195,infocasas remax uprop cb psir
+2026-11-26,c:alto-parana:ciudad-del-este,Ciudad del Este,asking_usd_per_m2_built,casa,734,102,infocasas remax uprop cb psir
+2026-11-26,c:alto-parana:ciudad-del-este,Ciudad del Este,asking_usd_per_m2_built,departamento,1810,38,infocasas remax uprop cb psir
+2026-11-26,c:alto-parana:hernandarias,Hernandarias,active_sale,,157,157,infocasas remax uprop cb psir
+2026-11-26,c:alto-parana:hernandarias,Hernandarias,active_rent,,7,7,infocasas remax uprop cb psir
+2026-11-26,c:alto-parana:hernandarias,Hernandarias,asking_price_usd,casa,105770,52,infocasas remax uprop cb psir
+2026-11-26,c:alto-parana:hernandarias,Hernandarias,asking_price_usd,terreno,45000,85,infocasas remax uprop cb psir
+2026-11-26,c:alto-parana:hernandarias,Hernandarias,asking_usd_per_m2_built,casa,556,45,infocasas remax uprop cb psir
+2026-11-26,c:alto-parana:minga-guazu,Minga Guazú,active_sale,,113,113,infocasas remax uprop cb psir
+2026-11-26,c:alto-parana:minga-guazu,Minga Guazú,active_rent,,2,2,infocasas remax uprop cb psir
+2026-11-26,c:alto-parana:minga-guazu,Minga Guazú,asking_price_usd,terreno,25776,92,infocasas remax uprop cb psir
+2026-11-26,d:cordillera,Cordillera,active_sale,,959,959,infocasas remax uprop cb psir
+2026-11-26,d:cordillera,Cordillera,active_rent,,52,52,infocasas remax uprop cb psir
+2026-11-26,d:cordillera,Cordillera,asking_price_usd,casa,189500,202,infocasas remax uprop cb psir
+2026-11-26,d:cordillera,Cordillera,asking_price_usd,departamento,239501,25,infocasas remax uprop cb psir
+2026-11-26,d:cordillera,Cordillera,asking_price_usd,terreno,42178,662,infocasas remax uprop cb psir
+2026-11-26,d:cordillera,Cordillera,asking_usd_per_m2_built,casa,881,165,infocasas remax uprop cb psir
+2026-11-26,d:cordillera,Cordillera,asking_rent_usd_month,casa,1328,36,infocasas remax uprop cb psir
+2026-11-26,c:cordillera:san-bernardino,San Bernardino,active_sale,,397,397,infocasas remax uprop cb psir
+2026-11-26,c:cordillera:san-bernardino,San Bernardino,active_rent,,29,29,infocasas remax uprop cb psir
+2026-11-26,c:cordillera:san-bernardino,San Bernardino,asking_price_usd,casa,220000,106,infocasas remax uprop cb psir
+2026-11-26,c:cordillera:san-bernardino,San Bernardino,asking_price_usd,terreno,58345,270,infocasas remax uprop cb psir
+2026-11-26,c:cordillera:san-bernardino,San Bernardino,asking_usd_per_m2_built,casa,999,92,infocasas remax uprop cb psir
+2026-11-26,c:cordillera:san-bernardino,San Bernardino,asking_rent_usd_month,casa,1547,24,infocasas remax uprop cb psir
+2026-11-26,c:cordillera:caacupe,Caacupé,active_sale,,178,178,infocasas remax uprop cb psir
+2026-11-26,c:cordillera:caacupe,Caacupé,active_rent,,6,6,infocasas remax uprop cb psir
+2026-11-26,c:cordillera:caacupe,Caacupé,asking_price_usd,casa,82795,29,infocasas remax uprop cb psir
+2026-11-26,c:cordillera:caacupe,Caacupé,asking_price_usd,terreno,13278,132,infocasas remax uprop cb psir
+2026-11-26,c:cordillera:caacupe,Caacupé,asking_usd_per_m2_built,casa,426,24,infocasas remax uprop cb psir
+2026-11-26,c:cordillera:altos,Altos,active_sale,,138,138,infocasas remax uprop cb psir
+2026-11-26,c:cordillera:altos,Altos,active_rent,,10,10,infocasas remax uprop cb psir
+2026-11-26,c:cordillera:altos,Altos,asking_price_usd,casa,298000,25,infocasas remax uprop cb psir
+2026-11-26,c:cordillera:altos,Altos,asking_price_usd,terreno,39622,98,infocasas remax uprop cb psir
+2026-11-26,c:cordillera:altos,Altos,asking_usd_per_m2_built,casa,1094,21,infocasas remax uprop cb psir
+2026-11-26,d:boqueron,Boquerón,active_sale,,155,155,infocasas remax uprop cb psir
+2026-11-26,d:boqueron,Boquerón,active_rent,,33,33,infocasas remax uprop cb psir
+2026-11-26,d:boqueron,Boquerón,asking_price_usd,casa,70297,27,infocasas remax uprop cb psir
+2026-11-26,d:boqueron,Boquerón,asking_price_usd,terreno,12853,115,infocasas remax uprop cb psir
+2026-11-26,d:boqueron,Boquerón,asking_usd_per_m2_built,casa,547,23,infocasas remax uprop cb psir
+2026-11-26,d:presidente-hayes,Presidente Hayes,active_sale,,178,178,infocasas remax uprop cb psir
+2026-11-26,d:presidente-hayes,Presidente Hayes,active_rent,,1,1,infocasas remax uprop cb psir
+2026-11-26,d:presidente-hayes,Presidente Hayes,asking_price_usd,terreno,80000,143,infocasas remax uprop cb psir
+2026-11-26,d:paraguari,Paraguarí,active_sale,,108,108,infocasas remax uprop cb psir
+2026-11-26,d:paraguari,Paraguarí,active_rent,,2,2,infocasas remax uprop cb psir
+2026-11-26,d:paraguari,Paraguarí,asking_price_usd,terreno,39054,62,infocasas remax uprop cb psir
+2026-11-26,d:caaguazu,Caaguazú,active_sale,,69,69,infocasas remax uprop cb psir
+2026-11-26,d:caaguazu,Caaguazú,active_rent,,2,2,infocasas remax uprop cb psir
+2026-11-26,d:caaguazu,Caaguazú,asking_price_usd,terreno,78108,43,infocasas remax uprop cb psir
+2026-11-26,d:misiones,Misiones,active_sale,,63,63,infocasas remax uprop cb psir
+2026-11-26,d:misiones,Misiones,active_rent,,2,2,infocasas remax uprop cb psir
+2026-11-26,d:misiones,Misiones,asking_price_usd,terreno,30384,36,infocasas remax uprop cb psir
+2026-11-26,d:guaira,Guairá,active_sale,,42,42,infocasas remax uprop cb psir
+2026-11-26,d:guaira,Guairá,active_rent,,1,1,infocasas remax uprop cb psir
+2026-11-26,d:guaira,Guairá,asking_price_usd,terreno,23432,30,infocasas remax uprop cb psir
+2026-11-26,d:san-pedro,San Pedro,active_sale,,38,38,infocasas remax uprop cb psir
+2026-11-26,d:san-pedro,San Pedro,active_rent,,0,0,infocasas remax uprop cb psir
+2026-11-26,d:san-pedro,San Pedro,asking_price_usd,terreno,109351,29,infocasas remax uprop cb psir
+2026-11-26,d:caazapa,Caazapá,active_sale,,26,26,infocasas remax uprop cb psir
+2026-11-26,d:caazapa,Caazapá,active_rent,,4,4,infocasas remax uprop cb psir
+2026-11-26,d:concepcion,Concepción,active_sale,,22,22,infocasas remax uprop cb psir
+2026-11-26,d:concepcion,Concepción,active_rent,,0,0,infocasas remax uprop cb psir
+2026-11-26,d:canindeyu,Canindeyú,active_sale,,19,19,infocasas remax uprop cb psir
+2026-11-26,d:canindeyu,Canindeyú,active_rent,,1,1,infocasas remax uprop cb psir
+2026-11-26,d:neembucu,Ñeembucú,active_sale,,19,19,infocasas remax uprop cb psir
+2026-11-26,d:neembucu,Ñeembucú,active_rent,,0,0,infocasas remax uprop cb psir
+2026-11-26,d:amambay,Amambay,active_sale,,13,13,infocasas remax uprop cb psir
+2026-11-26,d:amambay,Amambay,active_rent,,0,0,infocasas remax uprop cb psir
+2026-11-26,d:alto-paraguay,Alto Paraguay,active_sale,,11,11,infocasas remax uprop cb psir
+2026-11-26,d:alto-paraguay,Alto Paraguay,active_rent,,0,0,infocasas remax uprop cb psir
